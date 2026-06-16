@@ -49,8 +49,7 @@ Manuel tetikleme: **Actions** sekmesi → "Radyoloji Pulse güncelle" → **Run 
 
 ```bash
 pip install -r requirements.txt
-python fetch_articles.py            # PubMed'den canlı çek
-python fetch_articles.py --selftest # internetsiz örnek veriyle test
+python fetch_articles.py            # PubMed'den canlı çekip data.json üretir
 ```
 
 Sonra `index.html`'i bir lokal sunucuyla aç:

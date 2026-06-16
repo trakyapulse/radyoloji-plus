@@ -7,15 +7,13 @@ Son N günün radyoloji makalelerini PubMed E-utilities ile çeker, skorlar ve
 frontend'in okuduğu data.json dosyasını üretir.
 
 Kullanım:
-    python fetch_articles.py            # canlı: PubMed'den çek
-    python fetch_articles.py --selftest # internetsiz: örnek veriyle data.json üret
+    python fetch_articles.py            # PubMed'den canlı çek ve data.json üret
 
 Ortam değişkenleri (opsiyonel ama önerilir):
     NCBI_API_KEY   NCBI'dan ücretsiz alınır, hız limitini 3->10 istek/sn yapar
     NCBI_EMAIL     iletişim e-postası (NCBI nezaket kuralı)
 """
 import os
-import sys
 import json
 import time
 import datetime
@@ -276,105 +274,5 @@ def build():
           % (payload["count"], payload["tier1_count"]))
 
 
-# ----------------------------------------------------------------------------
-# Selftest: internetsiz örnek veri (parser + skorlayıcıyı uçtan uca doğrular)
-# ----------------------------------------------------------------------------
-def _sample_xml():
-    today = datetime.date.today()
-
-    def d(n):
-        x = today - datetime.timedelta(days=n)
-        return x.year, "%02d" % x.month, "%02d" % x.day
-
-    def article(pmid, title, journal, y, m, day, authors, ptypes, doi, abs_):
-        au = "".join(
-            "<Author><LastName>%s</LastName><Initials>%s</Initials></Author>" % (ln, ini)
-            for ln, ini in authors
-        )
-        pt = "".join("<PublicationType>%s</PublicationType>" % p for p in ptypes)
-        return """
-  <PubmedArticle>
-    <MedlineCitation>
-      <PMID>%s</PMID>
-      <Article>
-        <Journal><ISOAbbreviation>%s</ISOAbbreviation>
-          <JournalIssue><PubDate><Year>%s</Year><Month>%s</Month><Day>%s</Day></PubDate></JournalIssue>
-        </Journal>
-        <ArticleTitle>%s</ArticleTitle>
-        <Abstract><AbstractText>%s</AbstractText></Abstract>
-        <AuthorList>%s</AuthorList>
-        <ArticleDate><Year>%s</Year><Month>%s</Month><Day>%s</Day></ArticleDate>
-        <PublicationTypeList>%s</PublicationTypeList>
-      </Article>
-    </MedlineCitation>
-    <PubmedData><ArticleIdList>
-      <ArticleId IdType="pubmed">%s</ArticleId>
-      <ArticleId IdType="doi">%s</ArticleId>
-    </ArticleIdList></PubmedData>
-  </PubmedArticle>""" % (pmid, journal, y, m, day, title, abs_, au, y, m, day, pt, pmid, doi)
-
-    y0, m0, d0 = d(1)
-    y1, m1, d1 = d(2)
-    y2, m2, d2 = d(3)
-    y3, m3, d3 = d(5)
-    y4, m4, d4 = d(6)
-
-    body = "".join([
-        article("40000001",
-                "Shear-wave elastography of the tongue in hypothyroid patients: a cross-sectional study",
-                "Radiology", y0, m0, d0,
-                [("Yilmaz", "AY"), ("Demir", "K"), ("Koc", "M")],
-                ["Journal Article", "Randomized Controlled Trial"],
-                "10.1148/radiol.240001",
-                "Background: Tongue stiffness may reflect systemic effects of hypothyroidism. "
-                "Methods: 120 patients underwent shear-wave elastography. Results: Mean SWE was higher in patients."),
-        article("40000002",
-                "Deep learning for breast lesion characterization on DCE-MRI: a multicenter validation",
-                "Radiol Artif Intell", y1, m1, d1,
-                [("Schmidt", "L"), ("Rossi", "G"), ("Tan", "W")],
-                ["Journal Article", "Multicenter Study", "Validation Study"],
-                "10.1148/ryai.240002",
-                "Purpose: To validate a deep-learning model across five centers. Results: AUC 0.91."),
-        article("40000003",
-                "Patient-specific 3D-printed phantoms for ultrasound-guided biopsy rehearsal: a systematic review",
-                "Eur Radiol", y2, m2, d2,
-                [("Novak", "P"), ("Andersson", "E")],
-                ["Journal Article", "Systematic Review", "Meta-Analysis"],
-                "10.1007/s00330-024-00003-x",
-                "Objective: To review phantom-based rehearsal methods. Conclusion: Phantoms improve accuracy."),
-        article("40000004",
-                "Prostatic artery embolization outcomes: a single-center experience",
-                "J Vasc Interv Radiol", y3, m3, d3,
-                [("Garcia", "R"), ("Mueller", "T"), ("Sato", "H")],
-                ["Journal Article"],
-                "10.1016/j.jvir.2024.00004",
-                "Purpose: Report 2-year outcomes of PAE. Results: Symptom improvement in most patients."),
-        article("40000005",
-                "An unusual presentation of a sacral chordoma: case report",
-                "Clin Radiol", y4, m4, d4,
-                [("Brown", "J")],
-                ["Journal Article", "Case Reports"],
-                "10.1016/j.crad.2024.00005",
-                "We report a rare case with atypical imaging findings."),
-    ])
-    return "<PubmedArticleSet>%s\n</PubmedArticleSet>" % body
-
-
-def selftest():
-    print("SELFTEST — internetsiz örnek veriyle çalışıyor")
-    arts = parse_articles(_sample_xml())
-    for a in arts:
-        score_article(a)
-    payload = write_json(arts)
-    print("Örnek data.json üretildi (%d makale, %d Tier 1)"
-          % (payload["count"], payload["tier1_count"]))
-    for a in sorted(arts, key=lambda x: x["score"], reverse=True):
-        print("  [%5.1f] T%d  %-22s  %s"
-              % (a["score"], a["tier"], a["journal"], a["title"][:48]))
-
-
 if __name__ == "__main__":
-    if "--selftest" in sys.argv:
-        selftest()
-    else:
-        build()
+    build()

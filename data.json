@@ -1,130 +1,559 @@
 {
-  "updated": "2026-06-16T11:24:21+00:00",
+  "updated": "2026-06-16T15:40:37+00:00",
   "window_days": 5,
   "datetype": "edat",
-  "count": 5,
-  "tier1_count": 2,
+  "count": 20,
+  "tier1_count": 0,
   "source": "PubMed (NCBI E-utilities)",
   "articles": [
     {
-      "pmid": "40000003",
-      "title": "Patient-specific 3D-printed phantoms for ultrasound-guided biopsy rehearsal: a systematic review",
-      "abstract": "Objective: To review phantom-based rehearsal methods. Conclusion: Phantoms improve accuracy.",
-      "journal": "Eur Radiol",
-      "date": "2026-06-13",
+      "pmid": "42275243",
+      "title": "Distinguishing Malignant from Benign Causes of Breast Size Changes: A Case-based Primer for the Radiologist.",
+      "abstract": "Changes in breast size, whether enlargement or shrinkage, are a frequent clinical concern. Bilateral size changes are typically associated with benign conditions, while unilateral changes often raise concerns about malignancy, requiring prompt and accurate diagnosis to guide effective management. Through illustrative clinical scenarios, the authors provide a comprehensive review of the evaluation and management of breast size changes and address the spectrum of associated conditions. It is important for radiologists and clinicians to distinguish malignant from benign causes by integrating clinical history, physical examination, and imaging findings, all essential tools in the diagnostic process. Prior imaging, clinical context, and multimodality imaging are explored to provide a structured diagnostic approach. Radiologists are essential in identifying the underlying causes, directing appropriate care, and alleviating patient anxiety. The authors offer a practical framework to guide diagnostic decision making through the synthesis of clinical and imaging data.RSNA, 2026",
+      "journal": "Radiographics",
+      "date": "2026-07",
       "authors": [
-        "Novak P",
-        "Andersson E"
+        "Clark AI",
+        "Conley H",
+        "Owen WA",
+        "Wang X",
+        "George N",
+        "Maimone S",
+        "Letter HP",
+        "Shikoh FY",
+        "Szabunio M"
       ],
       "pubtypes": [
         "Journal Article",
-        "Systematic Review",
-        "Meta-Analysis"
+        "Review"
       ],
-      "doi": "10.1007/s00330-024-00003-x",
+      "doi": "10.1148/rg.250132",
       "journal_tier": 1,
-      "score": 149.0,
+      "score": 110.0,
       "score_parts": {
         "journal": 100,
-        "pubtype": 45,
-        "recency": 4.0
-      },
-      "tier": 1
-    },
-    {
-      "pmid": "40000001",
-      "title": "Shear-wave elastography of the tongue in hypothyroid patients: a cross-sectional study",
-      "abstract": "Background: Tongue stiffness may reflect systemic effects of hypothyroidism. Methods: 120 patients underwent shear-wave elastography. Results: Mean SWE was higher in patients.",
-      "journal": "Radiology",
-      "date": "2026-06-15",
-      "authors": [
-        "Yilmaz AY",
-        "Demir K",
-        "Koc M"
-      ],
-      "pubtypes": [
-        "Journal Article",
-        "Randomized Controlled Trial"
-      ],
-      "doi": "10.1148/radiol.240001",
-      "journal_tier": 1,
-      "score": 143.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": 35,
-        "recency": 8.0
-      },
-      "tier": 1
-    },
-    {
-      "pmid": "40000002",
-      "title": "Deep learning for breast lesion characterization on DCE-MRI: a multicenter validation",
-      "abstract": "Purpose: To validate a deep-learning model across five centers. Results: AUC 0.91.",
-      "journal": "Radiol Artif Intell",
-      "date": "2026-06-14",
-      "authors": [
-        "Schmidt L",
-        "Rossi G",
-        "Tan W"
-      ],
-      "pubtypes": [
-        "Journal Article",
-        "Multicenter Study",
-        "Validation Study"
-      ],
-      "doi": "10.1148/ryai.240002",
-      "journal_tier": 1,
-      "score": 124.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": 18,
-        "recency": 6.0
+        "pubtype": 10,
+        "recency": 0.0
       },
       "tier": 2
     },
     {
-      "pmid": "40000004",
-      "title": "Prostatic artery embolization outcomes: a single-center experience",
-      "abstract": "Purpose: Report 2-year outcomes of PAE. Results: Symptom improvement in most patients.",
-      "journal": "J Vasc Interv Radiol",
-      "date": "2026-06-11",
+      "pmid": "42275241",
+      "title": "Factors Affecting Contrast Enhancement on CT Images.",
+      "abstract": "CT scans use iodinated contrast media (ICM) to increase enhancement of soft-tissue structures. Some techniques, such as CT angiography, accentuate specific anatomy. The chemical structure of ICM is rich in iodine. Because of iodine's high atomic number, use of ICM causes an increase in CT number and image contrast. Improper contrast enhancement is a leading motivator for both repeated CT examinations and those with limited or suboptimal diagnostic utility. Optimization of contrast agent administration is essential to avoid poor enhancement. Many interacting factors affect contrast enhancement and can be divided into three main categories: physics-based, patient-related, and contrast protocol-based factors. Physics-based factors include tube potential, beam hardening, and scan duration. Patient-related factors include blood volume and cardiac output. Contrast protocol-based factors include contrast agent volume, injection rate, iodine concentration, scan delay, and saline flush. These factors can be further stratified into scalar, temporal, and sampling factors. Scalar factors change the magnitude of enhancement by a fixed percentage independent of time (eg, changing tube potential or iodine concentration). Temporal factors modify the temporal dynamics of contrast enhancement (eg, changes in cardiac output or injection rate). Sampling factors affect how an ICM enhancement curve is sampled (eg, scan duration, scan delay). Understanding the available parameters and their impact on ICM enhancement equips the reader with tools to optimize contrast agent delivery and scanning protocols in CT.The Author(s) 2026. Published by the Radiological Society of North America under a CC BY 4.0 license.",
+      "journal": "Radiographics",
+      "date": "2026-07",
       "authors": [
-        "Garcia R",
-        "Mueller T",
-        "Sato H"
+        "Alyani Nezhad Z",
+        "Toia GV",
+        "Rose SD",
+        "Bladorn RM",
+        "Szczykutowicz TP"
       ],
       "pubtypes": [
-        "Journal Article"
+        "Journal Article",
+        "Review"
       ],
-      "doi": "10.1016/j.jvir.2024.00004",
+      "doi": "10.1148/rg.250192",
+      "journal_tier": 1,
+      "score": 110.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 10,
+        "recency": 0.0
+      },
+      "tier": 2
+    },
+    {
+      "pmid": "42275240",
+      "title": "Anatomic Basis for Imaging Assessment of the Postsurgical Anterolateral Abdominal Wall.",
+      "abstract": "Postoperative evaluation of the abdominal wall requires an understanding of anatomy, surgical techniques, and potential complications. While many abdominal surgical procedures involve the wall as a conduit to intra-abdominal organs, targeted abdominal wall procedures such as hernia repairs, ostomy creation, aesthetic operations, and complex reconstructions present imaging challenges and possible complications. The authors provide a structured approach to postoperative abdominal wall imaging, integrating detailed anatomic knowledge with common surgical interventions. They address the relationship between surgical techniques and complication patterns, including mesh behavior, nerve-related muscle changes, and fascial disruptions. The expected postoperative appearance, stages of healing, and early and late complications of various procedures are highlighted, with dedicated sections on hernias, mesh repairs, ostomies, and aesthetic surgery. CT is usually the primary imaging modality, with US and MRI serving complementary roles when appropriate. By aligning imaging interpretation with surgical terminology and classifications, radiologists can improve diagnostic accuracy, ensure reporting consistency, and better support multidisciplinary decision making.RSNA, 2026",
+      "journal": "Radiographics",
+      "date": "2026-07",
+      "authors": [
+        "Montel DB",
+        "de Oliveira IRC",
+        "Orsi Salazar M",
+        "Fiorot VCR",
+        "Gontijo CEDS",
+        "Horvat N",
+        "Venâncio PCR",
+        "Barbosa MHF",
+        "Chaves FT",
+        "Pozzer GGN",
+        "Lewin F"
+      ],
+      "pubtypes": [
+        "Journal Article",
+        "Review"
+      ],
+      "doi": "10.1148/rg.250061",
+      "journal_tier": 1,
+      "score": 110.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 10,
+        "recency": 0.0
+      },
+      "tier": 2
+    },
+    {
+      "pmid": "42298150",
+      "title": "Beyond macrovascular recanalization: the search for a new parameter of success in endovascular thrombectomy.",
+      "abstract": "[Abstract not available]",
+      "journal": "Eur Radiol",
+      "date": "2026-06-16",
+      "authors": [
+        "Gragnano E"
+      ],
+      "pubtypes": [
+        "Editorial",
+        "Comment"
+      ],
+      "doi": "10.1007/s00330-026-12688-0",
+      "journal_tier": 1,
+      "score": 80.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": -30,
+        "recency": 10.0
+      },
+      "tier": 2
+    },
+    {
+      "pmid": "42247819",
+      "title": "Establishment of portuguese diagnostic reference levels and trigger levels for radiation-induced tissue reactions in interventional neuroradiology.",
+      "abstract": "To establish national diagnostic reference levels (DRLs) for interventional neuroradiology (INR) procedures in Portugal.  A multicentre retrospective study was performed in six reference centres, including the six most common INR procedures: cerebral thrombectomy, cerebral arteriography, cerebral aneurysm embolisation, arteriovenous malformation (AVM) and arteriovenous fistula (AVF) embolisation, cerebral vasospasm treatment, and carotid artery stenting. Additionally, retinoblastoma embolisation, performed in a single Portuguese centre, was included. DRLs were defined as the 75th percentile (P75) of air kerma-area product (P, Gy·cm), air kerma at the patient entrance reference point (K, mGy), and fluoroscopy time (FT, min). Dose variability and trigger value exceedances were analysed according to procedural complexity and pathology.  Data of 1409 cases were analysed. The national DRLs in terms of Pwere: 109 Gy.cmcerebral thrombectomy, 72 Gy.cmfor cerebral arteriography, 180 Gy.cmcerebral aneurysm embolisation, 366 Gy.cmAVM/AVF embolisation, 87 Gy.cmcerebral vasospasm, and 74  Gy.cmfor carotid stenting. The corresponding Kvalues were 746 mGy, 488 mGy, 2652 mGy, 4282,9 mGy, 511,0 mGy, and 520,3 mGy, and FT values were 16, 9, 39, 62, 9, 22  min, respectively. Procedural complexity factors assessed: thrombectomy attempts, aneurysm location, device selection, catheterised vessels. Retinoblastoma embolisation, demonstrated P9,5 Gy.cm, K75,7 mGy, and FT 7,1 min.  This first Portuguese INR DRL study provides a national benchmark for the most common cerebral and neck procedures. AVM/AVF embolisation showed the highest percentage of trigger value exceedances. These results will support protocol optimisation and harmonisation of radiation protection practice across centres.",
+      "journal": "Eur J Radiol",
+      "date": "2026-05-13",
+      "authors": [
+        "Lopes R",
+        "Teles P",
+        "Santos J"
+      ],
+      "pubtypes": [
+        "Journal Article",
+        "Multicenter Study"
+      ],
+      "doi": "10.1016/j.ejrad.2026.112924",
       "journal_tier": 2,
-      "score": 60.0,
+      "score": 78.0,
       "score_parts": {
         "journal": 60,
-        "pubtype": 0,
+        "pubtype": 18,
         "recency": 0.0
       },
       "tier": 3
     },
     {
-      "pmid": "40000005",
-      "title": "An unusual presentation of a sacral chordoma: case report",
-      "abstract": "We report a rare case with atypical imaging findings.",
-      "journal": "Clin Radiol",
-      "date": "2026-06-10",
+      "pmid": "42242825",
+      "title": "Urgent Need for Artificial Intelligence Readiness: Insights From a Multicenter Cross-Sectional Study on Medical Undergraduates and Radiology Trainees in Central and Western China.",
+      "abstract": "Artificial intelligence (AI) is reshaping the future of medicine, particularly influencing specialties like radiology. While the adoption of AI continues to accelerate, its integration presents both opportunities and challenges. To date, limited research has examined the perspectives of medical students and radiology trainees in less-developed regions of China-groups essential to the future healthcare workforce. This study aimed to assess their perceptions, attitudes, usage, and concerns regarding AI in clinical practice.  A cross-sectional, multicenter study was conducted between February and March 2025 across three provinces in central and western China. A total of 5043 medical undergraduates and 190 radiology trainees completed a self-designed questionnaire assessing their knowledge of AI, perceived utility, and awareness of its clinical applications.  Most medical undergraduates reported limited exposure to formal AI training or hands-on experience yet expressed general support for its clinical use. Concerns regarding data privacy, transparency, and patient trust were commonly noted. Radiology trainees demonstrated higher levels of AI education and tool utilization. Both groups agreed AI could enhance efficiency without replacing physicians and emphasized the need to address technical, legal, and ethical challenges for successful implementation. Further analysis presented both grades and gender will influence participants' attitudes toward AI.  This study highlights a generally positive attitude toward AI among future healthcare professionals, while revealing substantial educational gaps. Structured AI training should be integrated into undergraduate and radiology curricula to better prepare trainees for AI-assisted clinical environments.",
+      "journal": "Acad Radiol",
+      "date": "2026-07",
       "authors": [
-        "Brown J"
+        "Qiu H",
+        "Zhang G",
+        "Li J",
+        "Yan P",
+        "Chen G",
+        "Chang X",
+        "Li Y",
+        "Shang L"
       ],
       "pubtypes": [
         "Journal Article",
-        "Case Reports"
+        "Multicenter Study"
       ],
-      "doi": "10.1016/j.crad.2024.00005",
-      "journal_tier": 3,
-      "score": 20.0,
+      "doi": "10.1016/j.acra.2026.01.033",
+      "journal_tier": 2,
+      "score": 78.0,
       "score_parts": {
-        "journal": 35,
-        "pubtype": -15,
+        "journal": 60,
+        "pubtype": 18,
+        "recency": 0.0
+      },
+      "tier": 3
+    },
+    {
+      "pmid": "42297236",
+      "title": "Debulking Combined with Drug-Coated Balloon for the Treatment of Femoropopliteal In-Stent Restenosis: A Systematic Review and Meta-Analysis.",
+      "abstract": "To evaluate the safety and efficacy of debulking with drug-coated balloon angioplasty (DCB) for femoropopliteal in-stent restenosis (FP-ISR) treatment.  Embase, PubMed, and the Cochrane Library were searched from January 2004 to August 2025 for studies evaluating debulking with DCB treatment of FP-ISR. A meta-analysis was performed to assess the technical success, bailout stenting, postoperative embolization, amputation, 6- and 12-month primary patency rates, and 12-month target lesion revascularization (TLR).  Seven studies (three randomized controlled trials and four retrospective cohort studies) involving 584 patients were included; 281 underwent debulking with DCB and 303 underwent DCB alone. The technical success, bailout stenting, postoperative embolization, and 6- and 12-month primary patency rates did not differ between groups. However, debulking with DCB was associated with a lower amputation rate than that with DCB alone ([RR] 0.37, 95% CI 0.18-0.75, P = 0.006) and reduced TLR risk at 12 months ([RR] 0.58, 95% CI 0.38-0.88, P = 0.01). Subgroup analysis indicated that the combined treatment was associated with improved 12-month primary patency ([RR] 1.66, 95% CI 1.19-2.34, P = 0.003) and reduced TLR ([RR] 0.35, 95% CI 0.18-0.69, P = 0.002) for lesion length >20 cm or Tosaka type III lesions.  Debulking with DCB reduces amputation risk and 12-month TLR in patients with FP-ISR, particularly those with long lesions (>20 cm) or occlusive lesions (Tosaka type III), in whom it may improve 12-month primary patency. However, the advantages require further confirmation because of the limited number of studies.",
+      "journal": "J Vasc Interv Radiol",
+      "date": "2026-06-15",
+      "authors": [
+        "Cheng C",
+        "Zhen Y",
+        "Hu Y",
+        "Yang J",
+        "Liu T",
+        "Zheng J"
+      ],
+      "pubtypes": [
+        "Journal Article",
+        "Review"
+      ],
+      "doi": "10.1016/j.jvir.2026.108904",
+      "journal_tier": 2,
+      "score": 78.0,
+      "score_parts": {
+        "journal": 60,
+        "pubtype": 10,
+        "recency": 8.0
+      },
+      "tier": 3
+    },
+    {
+      "pmid": "42295505",
+      "title": "Sustainability of contrast-enhanced breast imaging: a review of current evidence.",
+      "abstract": "Breast cancer is the most commonly diagnosed malignancy among women worldwide. Contrast-enhanced imaging is central to diagnosis, staging, and treatment monitoring, yet its increasing use raises important environmental concerns. This review critically compares the sustainability of contrast-enhanced mammography (CEM) and breast magnetic resonance imaging (bMRI), focusing on contrast medium ecotoxicity, energy consumption, data storage, digital infrastructure, patient access, and travel-related emissions. Both iodinated and gadolinium-based contrast media persist in aquatic environments and contribute to water pollution. Although standard wastewater treatment removes a higher proportion of iodinated contrast, the injected dose is substantially larger, resulting in a greater overall environmental load. Gadolinium-based media are used in smaller quantities but are poorly removed by conventional treatment processes and may release toxic free gadolinium ions after excretion. While CEM involves ionizing radiation and a smaller field of view, it consumes markedly less energy per examination, generates smaller data volumes, and can be integrated into existing mammography infrastructure-enhancing accessibility, enabling decentralized deployment, and reducing patient travel. CEM is also faster, more cost-effective, and often preferred by patients due to greater comfort and shorter examination time. In contrast, bMRI, though radiation-free and offering wider anatomical coverage, has a significantly higher energy demand and digital footprint. Overall, CEM demonstrates advantages in environmental, economic, and social sustainability without compromising diagnostic performance in selected clinical indications. Radiology departments can meaningfully reduce healthcare's carbon footprint by incorporating sustainability principles into modality selection, contrast-media management, and workflow optimization. CRITICAL RELEVANCE STATEMENT: CEM and bMRI address similar clinical indications with comparable diagnostic accuracy. CEM offers potential sustainability advantages through lower energy use, smaller data volumes, and easier integration into existing infrastructure, although it involves ionizing radiation, a limited field of view, and a higher environmental load from iodinated contrast. Considering sustainability alongside clinical factors can help radiology departments reduce environmental impact while maintaining high diagnostic standards. KEY POINTS: Sustainability should be an integral factor when selecting imaging modalities for breast cancer care. Both iodinated and gadolinium-based contrast media show environmental persistence and ecotoxic potential, with iodinated contrast producing a higher total environmental load despite greater removal in wastewater treatment. CEM consumes markedly less energy per examination and produces smaller data volumes than bMRI, reducing its digital and carbon footprint. CEM can be implemented on existing mammography systems, reducing patient travel, exam time, and costs.",
+      "journal": "Insights Imaging",
+      "date": "2026-06-15",
+      "authors": [
+        "Špoljar IB",
+        "Giannotti E"
+      ],
+      "pubtypes": [
+        "Journal Article",
+        "Review"
+      ],
+      "doi": "10.1186/s13244-026-02300-w",
+      "journal_tier": 2,
+      "score": 78.0,
+      "score_parts": {
+        "journal": 60,
+        "pubtype": 10,
+        "recency": 8.0
+      },
+      "tier": 3
+    },
+    {
+      "pmid": "42295327",
+      "title": "Vacuum-assisted breast biopsy vs core needle biopsy for breast tumour diagnosis.",
+      "abstract": "[Abstract not available]",
+      "journal": "Eur Radiol",
+      "date": "2026-06-15",
+      "authors": [
+        "Wang JF",
+        "Kong C",
+        "Ding W"
+      ],
+      "pubtypes": [
+        "Letter",
+        "Comment"
+      ],
+      "doi": "10.1007/s00330-026-12691-5",
+      "journal_tier": 1,
+      "score": 78.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": -30,
+        "recency": 8.0
+      },
+      "tier": 3
+    },
+    {
+      "pmid": "42275242",
+      "title": "How to Prepare for Multidisciplinary Tumor Board Conferences: A Radiology Resident Guide to Success.",
+      "abstract": "[Abstract not available]",
+      "journal": "Radiographics",
+      "date": "2026-07",
+      "authors": [
+        "Ghabili K",
+        "Miao JH",
+        "Ozcan BB",
+        "Dittrich N",
+        "Sorin V"
+      ],
+      "pubtypes": [
+        "Editorial"
+      ],
+      "doi": "10.1148/rg.250214",
+      "journal_tier": 1,
+      "score": 75.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": -25,
+        "recency": 0.0
+      },
+      "tier": 3
+    },
+    {
+      "pmid": "42267962",
+      "title": "Toward More Rigorous Meta-Analyses of Artificial Intelligence in Radiology: Addressing Methodological Challenges and Bias.",
+      "abstract": "[Abstract not available]",
+      "journal": "Radiol Artif Intell",
+      "date": "2026-07",
+      "authors": [
+        "Mohammadi S",
+        "Sebro R",
+        "Guermazi A"
+      ],
+      "pubtypes": [
+        "Editorial"
+      ],
+      "doi": "10.1148/ryai.260377",
+      "journal_tier": 1,
+      "score": 75.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": -25,
+        "recency": 0.0
+      },
+      "tier": 3
+    },
+    {
+      "pmid": "42275239",
+      "title": "From Presence to Precision: Standardizing MRI Evaluation of Stromal Invasion after the SHAPE Trial.",
+      "abstract": "[Abstract not available]",
+      "journal": "Radiographics",
+      "date": "2026-07",
+      "authors": [
+        "Murad V",
+        "O'Brien C"
+      ],
+      "pubtypes": [
+        "Letter"
+      ],
+      "doi": "10.1148/rg.260040",
+      "journal_tier": 1,
+      "score": 70.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": -30,
+        "recency": 0.0
+      },
+      "tier": 3
+    },
+    {
+      "pmid": "42242823",
+      "title": "Diagnostic Uncertainty & Improving Diagnostic Certainty in Radiology.",
+      "abstract": "The Radiology Research Alliance (RRA) of the Association of Academic Radiology (AAR) convenes task forces to study trends that will shape the future of radiology. In this article, the AAR-RRA Task Force on Diagnostic Uncertainty in Radiology set out to examine the causes of diagnostic uncertainty in radiology and identify strategies to improve and communicate diagnostic certainty. Drawing on a targeted literature review and expert insights from medical students, residents, and radiologists across subspecialties, the group identified key drivers of uncertainty and synthesized evidence-informed recommendations. Proposed strategies span quality improvement, research, artificial intelligence (AI) integration, education, and report standardization, with emphasis on effective communication of uncertainty to clinicians and patients.",
+      "journal": "Acad Radiol",
+      "date": "2026-07",
+      "authors": [
+        "DeSimone AK",
+        "Deng F",
+        "Kirk B",
+        "Liu C",
+        "Miao JH",
+        "Miao KH",
+        "Worthington M",
+        "Farinas C",
+        "Bajaj G",
+        "Jose J",
+        "Clayton MJ",
+        "Agarwal A",
+        "Cohen SL",
+        "Gulko E",
+        "Jawahar A",
+        "Whitman GJ"
+      ],
+      "pubtypes": [
+        "Journal Article",
+        "Review"
+      ],
+      "doi": "10.1016/j.acra.2026.02.025",
+      "journal_tier": 2,
+      "score": 70.0,
+      "score_parts": {
+        "journal": 60,
+        "pubtype": 10,
+        "recency": 0.0
+      },
+      "tier": 3
+    },
+    {
+      "pmid": "42295942",
+      "title": "Free-Breathing Dynamic, Regularized, Adaptive Cluster Optimization (DRACO) Cine Cardiac MRI in Atrial Fibrillation.",
+      "abstract": "Existing strategies for free-breathing cine cardiac MR, including real-time imaging, struggle with complex arrhythmias such as atrial fibrillation (AF). Dynamic regularized adaptive clustering optimization (DRACO) has been proposed to generate high-quality and quantifiable breath-held cine images for patients in AF.  To tailor DRACO for free-breathing and evaluate its potential to simultaneously handle cardiac and respiratory motion.  Prospective.  10 sinus rhythm (10 males), 20 AF (18 males).  3.0 T, balanced steady-state free precession (bSSFP) with sorted golden-step, ECG-gated segmented cine, and real-time.  Patients were imaged using the golden-step sequence under breath-held and free-breathing conditions, and the reference bSSFP cine sequence. Signal-to-noise ratio (SNR), contrast-to-noise ratio (CNR), edge sharpness, and image quality (4-point Likert scale) were assessed.  Paired t-test, Friedman test, regression analysis, Fleiss' Kappa. Significance level p < 0.05.  The SNR and CNR values of DRACO images showed no significant differences between breath-held and free-breathing conditions in both sinus rhythm (SNR p = 0.53; CNR p = 0.87) and in AF (SNR p = 0.56; CNR p = 0.55). Image sharpness was not significantly different between breath-held and free-breathing in both sinus rhythm (p = 0.24) and AF (p = 0.79). In AF patients, breath-held DRACO and free-breathing DRACO had significantly higher image quality scores than real-time cine. In sinus rhythm patients, there was no significant difference (p = 0.13) between breath-held or free-breathing DRACO and segmented cine. Despite significant within-patient ejection fraction (EF) differences between breath-held versus free-breathing in 80% of sinus rhythm and 70% of AF patients, the average EF between breath-held versus free-breathing DRACO showed high correlation (sinus rhythm R = 0.71; AF R = 0.71), demonstrating DRACO's robustness to motion variation.  DRACO is robust to respiratory motion and AF-related irregular cardiac motion. It enables high-quality cine image generation in both regular and irregular cardiac motion, with or without breath holding.  Stage 2.",
+      "journal": "J Magn Reson Imaging",
+      "date": "2026-06-15",
+      "authors": [
+        "Ming Z",
+        "Pogosyan A",
+        "Dong X",
+        "Finn JP",
+        "Ruan D",
+        "Christodoulou AG",
+        "Nguyen KL"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1002/jmri.70379",
+      "journal_tier": 2,
+      "score": 68.0,
+      "score_parts": {
+        "journal": 60,
+        "pubtype": 0,
+        "recency": 8.0
+      },
+      "tier": 3
+    },
+    {
+      "pmid": "42295571",
+      "title": "A radio-pathological fusion model for predicting PD-L1 expression and immunotherapy response in non-small cell lung cancer.",
+      "abstract": "This study aims to construct a multimodal fusion model (FM) based on CT and hematoxylin and eosin (H&E) stained slices to predict the PD-L1 expression in non-small cell lung cancer (NSCLC) and to explore its additional value in predicting the prognosis of immunotherapy.  A retrospective analysis was conducted of 328 NSCLC patients with available PD-L1 immunohistochemical results. They were randomly divided into a training set, a validation set, and a test set in a 4:1:1 ratio. Radiomics and pathological models were constructed based on CT images and H&E slides, respectively, to predict PD-L1 expression, and then a radio-pathological FM was established. Then, the radio-pathological FM was used to generate predictive scores for an independent NSCLC immunotherapy survival validation cohort.  A total of 55.5% (182/328) of patients were PD-L1 positive and included in the PD-L1 prediction cohort. Compared to the single-modality model, the radio-pathological FM achieved the highest predictive performance, with AUCs of 0.90, 0.80, and 0.73 across the three subsets, respectively. In the survival validation cohort, patients in the high-score group had significantly better progression-free survival (PFS) and overall survival than those in the low-score group. Furthermore, the FM score was an independent predictor of PFS. When combined with clinical factors, its C-index for predicting PFS was 0.74 (95% CI: 0.665-0.809).  For the first time, a radio-pathological FM was constructed to predict PD-L1 expression in NSCLC. The study also demonstrated the model's potential for predicting patient prognosis under immunotherapy.  This first fusion model combining CT radiomics and hematoxylin and eosin (H&E) deep learning non-invasively predicts programmed death-ligand 1 (PD-L1) and immunotherapy response in non-small cell lung cancer (NSCLC).  The fusion model can accurately predict programmed death-ligand 1 (PD-L1) and immunotherapy outcomes in non-small cell lung cancer (NSCLC). The fusion model outperformed either single-modality model in distinguishing PD-L1-positive. Potential to reduce PD-L1 immunohistochemical testing and support precision immunotherapy decisions.",
+      "journal": "Insights Imaging",
+      "date": "2026-06-15",
+      "authors": [
+        "Huang D",
+        "Xu F",
+        "Gan Y",
+        "Ding L",
+        "Lou K",
+        "Li Y",
+        "Xie D",
+        "Zhang H",
+        "Shi L",
+        "Xu R",
+        "Hu H"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1186/s13244-026-02322-4",
+      "journal_tier": 2,
+      "score": 68.0,
+      "score_parts": {
+        "journal": 60,
+        "pubtype": 0,
+        "recency": 8.0
+      },
+      "tier": 3
+    },
+    {
+      "pmid": "42295363",
+      "title": "Association of middle cerebral artery atherosclerotic plaque with vessel tortuosity and white matter hyperintensity.",
+      "abstract": "To investigate the association between middle cerebral artery (MCA) geometric parameters and atherosclerotic plaque, and the relationship between MCA plaque and white matter hyperintensity (WMH) burden.  157 patients suspected ischemic stroke or transient ischemic attack were enrolled. MCA geometry was measured on magnetic resonance angiography. MCA plaque was assessed using high-resolution magnetic resonance imaging. WMH was graded using the modified Fazekas scale. Generalized estimating equations were used to evaluate the association between MCA geometry and plaque. Logistic regression was performed to identify factors associated with moderate-to-severe WMH. Hemispheric WMH scores were compared in patients with unilateral MCA plaque.  148 patients were analyzed. After adjusting for confounders, MCA main trunk tortuosity remained independently associated with the presence of MCA plaque (odds ratio (OR), 1.069; P = 0.017). The prevalence of MCA plaque was significantly higher in patients with moderate-to-severe WMH than in those with no-or-mild WMH ( P < 0.001). MCA plaque (OR = 2.926, P = 0.010) and stenosis severity (OR = 3.340, P < 0.001) were independently associated with moderate-to-severe WMH. The association was no longer significant after excluding patients with moderate-to-severe stenosis (OR = 1.761, P = 0.203). In patients with unilateral MCA plaque, WMH burden was significantly higher in the ipsilateral hemisphere than in the contralateral hemisphere (P = 0.006).  Greater MCA main trunk tortuosity is independently associated with the presence of MCA atherosclerotic plaque. MCA plaque is significantly associated with moderate-to-severe WMH, and this association is mainly driven by moderate-to-severe luminal stenosis. The ipsilateral predominance of WMH burden supports a local, territory-specific association rather than systemic atherosclerosis alone.",
+      "journal": "Neuroradiology",
+      "date": "2026-06-15",
+      "authors": [
+        "Zheng J",
+        "Teng Y",
+        "Xing Z",
+        "Lin L",
+        "Hu H",
+        "Lin M",
+        "Zheng E",
+        "Sun B",
+        "Lin R",
+        "Xue Y"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1007/s00234-026-04071-z",
+      "journal_tier": 2,
+      "score": 68.0,
+      "score_parts": {
+        "journal": 60,
+        "pubtype": 0,
+        "recency": 8.0
+      },
+      "tier": 3
+    },
+    {
+      "pmid": "42288448",
+      "title": "Differentiation of HER2-Zero, -Low, and -Overexpressing Breast Cancer Using Amide Proton Transfer-Weighted Magnetic Resonance Imaging: A Single-center Preliminary Study.",
+      "abstract": "To assess amide proton transfer-weighted imaging (APTWI) for identifying HER2 expression in breast cancer (BC) and to evaluate multiparametric model performance.  This study finally included 173 BC patients who underwent MRI between July 2023 and December 2024 and received pathological examination. All participants were evaluated with diffusion weighted imaging (DWI) and APTWI sequences. Group comparisons of clinical, MRI qualitative, and quantitative features, including apparent diffusion coefficient (ADC) and magnetization transfer ratio asymmetry (MTRasym) at 3.5 ppm, were conducted using one-way ANOVA, the Kruskal-Wallis test, or the χ² test as appropriate. Multivariate logistic regression identified independent predictors of HER2 status, with receiver operating characteristic analysis assessing models' performance for subclass discrimination.  Clinically, estrogen receptor and progesterone receptor status, histological grade, Ki-67 index, and axillary lymph node differed significantly across HER2 subtypes (all P<0.05). In MRI analyses, morphological features, including margin and blood supply condition, varied significantly among subtypes(all P = 0.01). Quantitatively, both ADC and MTRasym_3.5ppm values were significantly higher in HER2-low and HER2-overexpressing groups than in HER2-zero (all p<0.001). MTRasym_3.5ppm was further identified as an independent predictor for stratifying HER2 subtypes. The combined model integrating MRI qualitative and quantitative features demonstrated optimal performance, with AUCs of 0.811 and 0.911 for distinguishing HER2-zero from HER2-low and HER2-overexpressing BCs, respectively. MTRasym_3.5ppm alone achieved the highest accuracy (AUC = 0.739) in differentiating HER2-low from HER2-overexpressing groups.  MTRasym_3.5ppm is a promising biomarker for HER2 stratification, offering a non-invasive framework to optimize personalized therapy.",
+      "journal": "Acad Radiol",
+      "date": "2026-06-13",
+      "authors": [
+        "Zhan T",
+        "Leng Y",
+        "Liu X",
+        "Dai J",
+        "Gong L"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.acra.2026.05.015",
+      "journal_tier": 2,
+      "score": 64.0,
+      "score_parts": {
+        "journal": 60,
+        "pubtype": 0,
+        "recency": 4.0
+      },
+      "tier": 3
+    },
+    {
+      "pmid": "42288334",
+      "title": "Neuroimaging within an Evolving Stroke Care Paradigm: A Year in Review - Updates from the March 2026 Brain Attack Coalition Meeting.",
+      "abstract": "Neuroimaging is a central component of the acute stroke care workflow. At the March 2026 Brain Attack Coalition (BAC), discussion centered on changes in practice within modern stroke systems and accessibility of imaging. The primary focus of this discussion was addressing the core imaging requirements of Primary Stroke Centers (PSC). Additional points of discussion include the role of perfusion imaging, growing evidence of neuroimaging's utility in distal medium vessel occlusion (DMVO) stroke, pediatric neuroimaging considerations, and the role of artificial intelligence (AI) within the stroke imaging workflow to support timely care delivery for afflicted patients.  This State of Practice reflects a multidisciplinary expert consensus process convened by the BAC in March 2026, including representatives from neuroradiology, neurology, interventional specialties, and the NIH. The BAC reviewed the latest literature and how those impact the prior BAC recommendations. A point of emphasis was the feasibility of imaging across environments of different resource levels. These deliberations reached consensus through exhaustive evaluation of workflow efficiency, equity of access, and clinical applicability. AI was arguably the most deliberated topic, where discussion mainly focused on which components of imaging could be expedited.  Noncontrast CT and CT angiography are considered essential at PSCs. Use of advanced imaging, such as perfusion imaging and MRI, is strongly recommended but not required in order to account for resource variability across centers. Imaging remains a central component of the stroke workflow but must facilitate treatment decisions while maintaining flexibility in modality choice based on institutional capabilities. Emerging tools such as AI show promise and can provide supportive value but must be implemented with caution. Overall, the consensus of the BAC was to focus on feasibility and access across centers with respect to mandatory imaging capabilities, while also recognizing the utility of advanced imaging and potentially AI as well.",
+      "journal": "AJNR Am J Neuroradiol",
+      "date": "2026-06-13",
+      "authors": [
+        "Yedavalli VS",
+        "Jensen ML"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.3174/ajnr.A9476",
+      "journal_tier": 2,
+      "score": 64.0,
+      "score_parts": {
+        "journal": 60,
+        "pubtype": 0,
+        "recency": 4.0
+      },
+      "tier": 3
+    },
+    {
+      "pmid": "42288333",
+      "title": "Item-Level Evaluation of Multimodal Large Language Models in Neuroradiology: Generational Performance and Execution Variability.",
+      "abstract": "Multimodal large language models have demonstrated consistent generational improvements on medical benchmark tasks, including radiology applications. However, whether these gains represent meaningful convergence toward the expert reference performance in subspecialty imaging domains such as neuroradiology remains uncertain, particularly when evaluated using item-level, human-referenced designs.  We compared expert neuroradiologists, radiology residents, and four vision-capable large language models (GPT-4, GPT-5, Gemini 1.5, Gemini 2.5) using 106 image-based neuroradiology multiple-choice questions derived from Radiopaedia. Analyses were conducted at the question (item) level, preserving within-question pairing across groups. Mean accuracy differences were estimated using non-parametric bootstrap 95% confidence intervals, and statistical inference was performed using paired permutation tests restricted to pre-specified contrasts with false discovery rate correction for primary comparisons. Repeated model executions were analyzed to characterize execution-level variability. Performance was further contextualized against Radiopaedia community accuracy as a community-level reference.  Expert neuroradiologists achieved the highest mean item-level accuracy (0.915; 95% confidence interval, 0.877-0.953). Second-generation models demonstrated improved mean accuracy relative to earlier versions and approximated or exceeded resident-level performance in selected comparisons. However, a substantial gap relative to the expert reference persisted. GPT-5 and Gemini 2.5 underperformed the expert reference by mean per-item differences of -0.236 and -0.217, respectively. When contextualized against the community-level reference, advanced models aligned more closely with aggregate learner performance than with the expert reference accuracy. Improvements in mean accuracy were not uniformly accompanied by improved execution consistency.  Although multimodal large language models show meaningful generational gains on neuroradiology tasks, these improvements do not constitute convergence toward the expert reference performance. Item-level, paired, human-referenced evaluation provides critical context for interpreting benchmark performance and helps distinguish apparent performance gains from true alignment with the expert reference. Importantly, relative stability in aggregate accuracy does not necessarily imply reliability at the level of individual decisions, underscoring the need to assess both performance magnitude and execution-level consistency.",
+      "journal": "AJNR Am J Neuroradiol",
+      "date": "2026-06-13",
+      "authors": [
+        "Ojeda-Esparza JF",
+        "Yun YC",
+        "Meinzer C",
+        "Santarosa C",
+        "Botta D",
+        "Fitsiori A",
+        "Pucci M",
+        "Scheffler M",
+        "Vrancsik N",
+        "Reith N",
+        "Lövblad KO",
+        "Kurz FT"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.3174/ajnr.A9477",
+      "journal_tier": 2,
+      "score": 64.0,
+      "score_parts": {
+        "journal": 60,
+        "pubtype": 0,
+        "recency": 4.0
+      },
+      "tier": 3
+    },
+    {
+      "pmid": "42242824",
+      "title": "Artificial Intelligence Readiness is Now an Educational Obligation.",
+      "abstract": "[Abstract not available]",
+      "journal": "Acad Radiol",
+      "date": "2026-07",
+      "authors": [
+        "Chen PH"
+      ],
+      "pubtypes": [
+        "Editorial"
+      ],
+      "doi": "10.1016/j.acra.2026.02.032",
+      "journal_tier": 2,
+      "score": 35.0,
+      "score_parts": {
+        "journal": 60,
+        "pubtype": -25,
         "recency": 0.0
       },
       "tier": 3
