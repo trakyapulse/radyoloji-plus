@@ -32,7 +32,14 @@ from config import (
     PUBTYPE_WEIGHTS, RECENCY_PER_DAY,
     RELDATE_DAYS, DATETYPE, RETMAX, EXTRA_TERMS,
     TIER1_THRESHOLD, TIER2_THRESHOLD,
+    JOURNAL_IF, DEFAULT_IF, BEST_KEEP,
 )
+
+# dergi -> etki faktörü hızlı arama
+_IF_LOOKUP = {k.lower().rstrip("."): v for k, v in JOURNAL_IF.items()}
+
+BEST_YEAR = 2026
+BEST_PATH = "best2026.json"
 
 EUTILS = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils"
 API_KEY = os.environ.get("NCBI_API_KEY", "").strip()
@@ -216,6 +223,10 @@ def journal_tier(journal):
     return _TIER_LOOKUP.get(journal.strip().lower().rstrip("."), DEFAULT_TIER)
 
 
+def journal_impact(journal):
+    return _IF_LOOKUP.get(journal.strip().lower().rstrip("."), DEFAULT_IF)
+
+
 def pubtype_score(ptypes):
     weights = [PUBTYPE_WEIGHTS.get(pt, 0) for pt in ptypes]
     pos = max([w for w in weights if w > 0], default=0)
@@ -263,6 +274,7 @@ def score_article(a):
     total = jw + pw + rw
 
     a["journal_tier"] = jt
+    a["impact"] = journal_impact(a["journal"])
     a["score"] = round(total, 1)
     a["score_parts"] = {"journal": jw, "pubtype": pw, "recency": round(rw, 1)}
     a["tier"] = 1 if total >= TIER1_THRESHOLD else (2 if total >= TIER2_THRESHOLD else 3)
@@ -288,6 +300,50 @@ def write_json(articles, path="data.json"):
     return payload
 
 
+def update_best_2026(arts, path=BEST_PATH):
+    """Yıl boyunca biriken 'Best of 2026' listesini günceller.
+    Bu yılın makalelerini mevcut listeyle birleştirir, PMID'ye göre tekilleştirir,
+    etki faktörüne (sonra skora) göre sıralayıp en iyi BEST_KEEP tanesini tutar."""
+    existing = []
+    if os.path.exists(path):
+        try:
+            with open(path, encoding="utf-8") as f:
+                existing = json.load(f).get("articles", [])
+        except Exception:
+            existing = []
+
+    by_pmid = {}
+    for a in existing:
+        pmid = a.get("pmid")
+        if pmid:
+            by_pmid[pmid] = a
+    # yeni çekilenler (yalnız bu yıl) eskileri günceller/ekler
+    for a in arts:
+        if str(a.get("date", ""))[:4] != str(BEST_YEAR):
+            continue
+        pmid = a.get("pmid")
+        if pmid:
+            by_pmid[pmid] = a
+
+    merged = list(by_pmid.values())
+    for a in merged:
+        if "impact" not in a:
+            a["impact"] = journal_impact(a.get("journal", ""))
+    merged.sort(key=lambda x: (x.get("impact", 0), x.get("score", 0)), reverse=True)
+    merged = merged[:BEST_KEEP]
+
+    payload = {
+        "updated": datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds"),
+        "year": BEST_YEAR,
+        "count": len(merged),
+        "criteria": "Etki faktörü (sonra etki skoru) sıralı",
+        "articles": merged,
+    }
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(payload, f, ensure_ascii=False, indent=2)
+    return payload
+
+
 def build():
     print("PubMed sorgusu hazırlanıyor...")
     if not API_KEY:
@@ -304,8 +360,11 @@ def build():
     for a in arts:
         a["abstract_tr"] = translate_tr(a.get("abstract", ""))
     payload = write_json(arts)
+    best = update_best_2026(arts)
     print("Tamam -> data.json  (%d makale, %d Tier 1)"
           % (payload["count"], payload["tier1_count"]))
+    print("Best of %d güncellendi -> %s  (%d makale)"
+          % (BEST_YEAR, BEST_PATH, best["count"]))
 
 
 if __name__ == "__main__":

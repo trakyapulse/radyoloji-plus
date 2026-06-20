@@ -48,6 +48,17 @@
     font-family:var(--mono);font-size:11px;letter-spacing:.28em;color:var(--faint);
     text-transform:uppercase;
   }
+  /* LIVE rozeti — canlı his */
+  .live{display:inline-flex;align-items:center;gap:7px;font-family:var(--mono);
+    font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:#c01818;
+    border:1px solid #e7b4b4;background:#fdecec;padding:5px 11px;border-radius:999px}
+  .live .dot{width:8px;height:8px;border-radius:50%;background:#e0241b;
+    box-shadow:0 0 0 0 rgba(224,36,27,.6);animation:pulse 1.6s infinite}
+  @keyframes pulse{
+    0%{box-shadow:0 0 0 0 rgba(224,36,27,.55)}
+    70%{box-shadow:0 0 0 9px rgba(224,36,27,0)}
+    100%{box-shadow:0 0 0 0 rgba(224,36,27,0)}
+  }
   .tagline{color:var(--muted);margin:14px 0 0;max-width:54ch}
   /* signature: window/level grayscale ramp */
   .ramp{height:6px;margin:20px 0 0;border-radius:3px;
@@ -71,6 +82,8 @@
   .chip:hover{border-color:var(--accent);color:var(--text)}
   .chip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);
     color:#ffffff;font-weight:600}
+  .chip.best{border-color:var(--gold-dim);color:#8a5310}
+  .chip.best[aria-pressed="true"]{background:var(--gold);border-color:var(--gold);color:#3a2606}
   .search{flex:1;min-width:180px}
   .search input{width:100%;font-family:var(--body);font-size:14px;color:var(--text);
     background:var(--panel);border:1px solid var(--line2);border-radius:999px;
@@ -106,6 +119,7 @@
     display:flex;gap:10px;flex-wrap:wrap;align-items:center}
   .meta .j{color:var(--accent)}
   .meta .dot{color:var(--faint)}
+  .meta .if{color:#8a5310;font-weight:600}
   .authors{color:var(--faint);font-size:13px;margin:8px 0 0}
   .ptypes{display:flex;gap:6px;flex-wrap:wrap;margin:11px 0 0}
   .pt{font-family:var(--mono);font-size:10.5px;color:var(--muted);
@@ -163,8 +177,9 @@
 <body>
 <div class="wrap">
   <header>
-    <div class="brand">
+    <div class="brand" style="width:100%;justify-content:space-between">
       <span class="eyebrow">Makale Radarı</span>
+      <span class="live"><span class="dot"></span>LIVE</span>
     </div>
     <div class="brand" style="margin-top:6px">
       <h1>Radyoloji <span class="accent">Pulse</span></h1>
@@ -180,6 +195,7 @@
       <button class="chip" data-tier="1" aria-pressed="false">Tier 1</button>
       <button class="chip" data-tier="2" aria-pressed="false">Tier 2</button>
       <button class="chip" data-tier="3" aria-pressed="false">Tier 3</button>
+      <button class="chip best" data-tier="best" aria-pressed="false">★ Best 2026</button>
     </div>
     <div class="search">
       <input id="q" type="search" placeholder="Başlık, dergi veya yazarda ara…" autocomplete="off">
@@ -198,7 +214,7 @@
 </div>
 
 <script>
-const state = { data:null, tier:"all", q:"" };
+const state = { data:null, best:null, tier:"all", q:"" };
 const TR_CACHE = {};   // pmid -> çevrilmiş özet (oturum içi önbellek)
 
 function escapeHtml(s){return (s||"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));}
@@ -286,6 +302,7 @@ function card(a, rank){
         <div class="meta">
           <span class="j">${escapeHtml(a.journal||"")}</span>
           <span class="dot">·</span><span>${fmtDate(a.date)}</span>
+          ${a.impact?`<span class="dot">·</span><span class="if">IF ${a.impact}</span>`:""}
           ${a.pmid?`<span class="dot">·</span><a href="https://pubmed.ncbi.nlm.nih.gov/${a.pmid}/" target="_blank" rel="noopener">PMID ${a.pmid}</a>`:""}
         </div>
         ${authorLine(a.authors)?`<div class="authors">${escapeHtml(authorLine(a.authors))}</div>`:""}
@@ -317,11 +334,28 @@ async function doTranslate(btn){
   }
 }
 
+async function loadBest(){
+  if(state.best) return;
+  try{
+    const res = await fetch("best2026.json",{cache:"no-store"});
+    if(!res.ok) throw new Error(res.status);
+    state.best = await res.json();
+  }catch(e){
+    state.best = {articles:[]};
+  }
+}
+
 function render(){
-  const d = state.data;
-  if(!d){return;}
-  let arts = d.articles||[];
-  if(state.tier!=="all") arts = arts.filter(a=>String(a.tier)===state.tier);
+  const isBest = state.tier==="best";
+  const src = isBest ? state.best : state.data;
+  const list = document.getElementById("list");
+  if(!src){
+    if(isBest) list.innerHTML = `<div class="state"><h3>Best of 2026 yükleniyor…</h3></div>`;
+    return;
+  }
+  let arts = (src.articles||[]).slice();
+  // Best görünümü zaten etki faktörüne göre sıralı; Tier filtreleri yalnız ana akışta
+  if(!isBest && state.tier!=="all") arts = arts.filter(a=>String(a.tier)===state.tier);
   if(state.q){
     const q = state.q.toLowerCase();
     arts = arts.filter(a=>
@@ -329,10 +363,12 @@ function render(){
       (a.journal||"").toLowerCase().includes(q) ||
       (a.authors||[]).join(" ").toLowerCase().includes(q));
   }
-  const list = document.getElementById("list");
   if(!arts.length){
-    list.innerHTML = `<div class="state"><h3>Eşleşen makale yok</h3>
-      <p>Filtreyi değiştir ya da aramayı temizle.</p></div>`;
+    list.innerHTML = isBest
+      ? `<div class="state"><h3>Best of 2026 henüz boş</h3>
+         <p>Liste, betik her çalıştığında bu yılın en yüksek etki faktörlü makaleleriyle dolar.</p></div>`
+      : `<div class="state"><h3>Eşleşen makale yok</h3>
+         <p>Filtreyi değiştir ya da aramayı temizle.</p></div>`;
     return;
   }
   list.innerHTML = arts.map((a,i)=>card(a,i+1)).join("");
@@ -361,10 +397,15 @@ function render(){
 
 function bindControls(){
   document.querySelectorAll(".chip").forEach(c=>{
-    c.addEventListener("click",()=>{
+    c.addEventListener("click",async ()=>{
       document.querySelectorAll(".chip").forEach(x=>x.setAttribute("aria-pressed","false"));
       c.setAttribute("aria-pressed","true");
-      state.tier = c.dataset.tier; render();
+      state.tier = c.dataset.tier;
+      if(state.tier==="best" && !state.best){
+        document.getElementById("list").innerHTML = `<div class="state"><h3>Best of 2026 yükleniyor…</h3></div>`;
+        await loadBest();
+      }
+      render();
     });
   });
   document.getElementById("q").addEventListener("input",e=>{state.q=e.target.value.trim();render();});

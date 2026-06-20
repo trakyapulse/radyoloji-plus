@@ -35,7 +35,8 @@
         "pubtype": 10,
         "recency": 0.0
       },
-      "tier": 1
+      "tier": 1,
+      "impact": 5.2
     },
     {
       "pmid": "42275241",
@@ -62,7 +63,8 @@
         "pubtype": 10,
         "recency": 0.0
       },
-      "tier": 1
+      "tier": 1,
+      "impact": 5.2
     },
     {
       "pmid": "42275240",
@@ -95,7 +97,8 @@
         "pubtype": 10,
         "recency": 0.0
       },
-      "tier": 1
+      "tier": 1,
+      "impact": 5.2
     },
     {
       "pmid": "42298150",
@@ -118,7 +121,8 @@
         "pubtype": -30,
         "recency": 10.0
       },
-      "tier": 2
+      "tier": 2,
+      "impact": 4.7
     },
     {
       "pmid": "42247819",
@@ -143,7 +147,8 @@
         "pubtype": 18,
         "recency": 0.0
       },
-      "tier": 3
+      "tier": 3,
+      "impact": 3.2
     },
     {
       "pmid": "42242825",
@@ -173,7 +178,8 @@
         "pubtype": 18,
         "recency": 0.0
       },
-      "tier": 3
+      "tier": 3,
+      "impact": 3.8
     },
     {
       "pmid": "42297236",
@@ -201,7 +207,8 @@
         "pubtype": 10,
         "recency": 8.0
       },
-      "tier": 3
+      "tier": 3,
+      "impact": 3.2
     },
     {
       "pmid": "42295505",
@@ -225,7 +232,8 @@
         "pubtype": 10,
         "recency": 8.0
       },
-      "tier": 3
+      "tier": 3,
+      "impact": 4.1
     },
     {
       "pmid": "42295327",
@@ -250,7 +258,8 @@
         "pubtype": -30,
         "recency": 8.0
       },
-      "tier": 3
+      "tier": 3,
+      "impact": 4.7
     },
     {
       "pmid": "42275242",
@@ -276,7 +285,8 @@
         "pubtype": -25,
         "recency": 0.0
       },
-      "tier": 3
+      "tier": 3,
+      "impact": 5.2
     },
     {
       "pmid": "42267962",
@@ -300,7 +310,8 @@
         "pubtype": -25,
         "recency": 0.0
       },
-      "tier": 3
+      "tier": 3,
+      "impact": 8.1
     },
     {
       "pmid": "42275239",
@@ -323,7 +334,8 @@
         "pubtype": -30,
         "recency": 0.0
       },
-      "tier": 3
+      "tier": 3,
+      "impact": 5.2
     },
     {
       "pmid": "42242823",
@@ -361,7 +373,8 @@
         "pubtype": 10,
         "recency": 0.0
       },
-      "tier": 3
+      "tier": 3,
+      "impact": 3.8
     },
     {
       "pmid": "42295942",
@@ -389,7 +402,8 @@
         "pubtype": 0,
         "recency": 8.0
       },
-      "tier": 3
+      "tier": 3,
+      "impact": 3.3
     },
     {
       "pmid": "42295571",
@@ -421,7 +435,8 @@
         "pubtype": 0,
         "recency": 8.0
       },
-      "tier": 3
+      "tier": 3,
+      "impact": 4.1
     },
     {
       "pmid": "42295363",
@@ -452,7 +467,8 @@
         "pubtype": 0,
         "recency": 8.0
       },
-      "tier": 3
+      "tier": 3,
+      "impact": 2.4
     },
     {
       "pmid": "42288448",
@@ -478,7 +494,8 @@
         "pubtype": 0,
         "recency": 4.0
       },
-      "tier": 3
+      "tier": 3,
+      "impact": 3.8
     },
     {
       "pmid": "42288334",
@@ -501,7 +518,8 @@
         "pubtype": 0,
         "recency": 4.0
       },
-      "tier": 3
+      "tier": 3,
+      "impact": 3.3
     },
     {
       "pmid": "42288333",
@@ -534,7 +552,8 @@
         "pubtype": 0,
         "recency": 4.0
       },
-      "tier": 3
+      "tier": 3,
+      "impact": 3.3
     },
     {
       "pmid": "42242824",
@@ -556,7 +575,8 @@
         "pubtype": -25,
         "recency": 0.0
       },
-      "tier": 3
+      "tier": 3,
+      "impact": 3.8
     }
   ]
 }

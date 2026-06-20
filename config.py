@@ -54,6 +54,43 @@ JOURNAL_TIER_WEIGHT = {1: 100, 2: 60, 3: 35}
 DEFAULT_TIER = 3
 
 # --------------------------------------------------------------------------
+# DERGİ ETKİ FAKTÖRLERİ (yaklaşık JCR değerleri — "Best of 2026" sıralaması için)
+# Bu değerler her yıl güncellenir; dilediğin gibi düzenleyebilirsin.
+# --------------------------------------------------------------------------
+JOURNAL_IF = {
+    "Radiology": 12.1,
+    "Radiol Artif Intell": 8.1,
+    "Radiographics": 5.2,
+    "Invest Radiol": 7.0,
+    "Eur Radiol": 4.7,
+    "AJR Am J Roentgenol": 4.7,
+    "Korean J Radiol": 4.4,
+    "Insights Imaging": 4.1,
+    "Ultraschall Med": 4.0,
+    "J Am Coll Radiol": 4.0,
+    "Acad Radiol": 3.8,
+    "Eur Radiol Exp": 3.7,
+    "J Magn Reson Imaging": 3.3,
+    "AJNR Am J Neuroradiol": 3.3,
+    "Eur J Radiol": 3.2,
+    "J Vasc Interv Radiol": 3.2,
+    "Ultrasonography": 3.2,
+    "Cardiovasc Intervent Radiol": 2.6,
+    "Neuroradiology": 2.4,
+    "Abdom Radiol (NY)": 2.3,
+    "Pediatr Radiol": 2.1,
+    "Clin Radiol": 2.1,
+    "J Ultrasound Med": 1.8,
+    "Diagn Interv Radiol": 1.7,
+}
+
+# Listede olmayan dergi için varsayılan etki faktörü
+DEFAULT_IF = 1.5
+
+# "Best of 2026" listesinde en fazla kaç makale tutulsun
+BEST_KEEP = 60
+
+# --------------------------------------------------------------------------
 # MAKALE TİPİ AĞIRLIKLARI
 # PubMed PublicationType etiketleriyle birebir eşleşir.
 # Pozitif tip varsa en yükseği alınır; ceza tipi varsa düşülür.
@@ -87,7 +124,7 @@ RECENCY_PER_DAY = 2.0
 # --------------------------------------------------------------------------
 # ARAMA AYARLARI
 # --------------------------------------------------------------------------
-RELDATE_DAYS = 5         # son kaç gün
+RELDATE_DAYS = 1         # son kaç gün (1 = sadece bugün eklenenler; canlı/taze akış)
 DATETYPE = "edat"         # "edat" = PubMed'e eklenme tarihi (taze radar için ideal)
                           # "pdat" = yayın tarihi  (sitedeki "yayınlanan" mantığı)
 RETMAX = 300              # en fazla kaç makale çekilsin
