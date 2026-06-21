@@ -45,6 +45,34 @@ JOURNAL_TIERS = {
     "Eur Radiol Exp": 3,
     "Diagn Interv Radiol": 3,
     "Clin Radiol": 3,
+
+    # --- Görüntüleme bilimi / yöntem / yapay zeka (SCI) ---
+    "Med Image Anal": 1,                  # Medical Image Analysis
+    "IEEE Trans Med Imaging": 1,          # IEEE TMI
+    "Radiol Med": 1,                      # La Radiologia Medica
+    "J Nucl Med": 1,                      # JNM
+    "Eur J Nucl Med Mol Imaging": 1,      # EJNMMI
+    "Magn Reson Med": 2,
+    "Neuroimage": 2,
+    "Med Phys": 2,
+    "Phys Med Biol": 2,
+    "Radiother Oncol": 2,                 # Green Journal
+    "Br J Radiol": 2,
+    "Skeletal Radiol": 2,
+    "Cancer Imaging": 2,
+    "Jpn J Radiol": 2,
+    "Int J Comput Assist Radiol Surg": 2,
+    "NMR Biomed": 2,
+    "Radiol Imaging Cancer": 2,
+    "J Imaging Inform Med": 2,            # eski adı J Digit Imaging
+    "Comput Med Imaging Graph": 3,
+    "Quant Imaging Med Surg": 3,
+    "Emerg Radiol": 3,
+    "Clin Imaging": 3,
+    "Magn Reson Imaging": 3,
+    "Jpn J Radiol Technol": 3,
+    "Tomography": 3,
+    "Diagnostics (Basel)": 3,
 }
 
 # Tier başına temel puan
@@ -82,6 +110,32 @@ JOURNAL_IF = {
     "Clin Radiol": 2.1,
     "J Ultrasound Med": 1.8,
     "Diagn Interv Radiol": 1.7,
+    # Görüntüleme bilimi / yöntem / yapay zeka
+    "Med Image Anal": 10.7,
+    "IEEE Trans Med Imaging": 10.6,
+    "Radiol Med": 9.4,
+    "J Nucl Med": 9.1,
+    "Eur J Nucl Med Mol Imaging": 8.6,
+    "Neuroimage": 4.7,
+    "Radiother Oncol": 4.9,
+    "Cancer Imaging": 4.9,
+    "Radiol Imaging Cancer": 5.0,
+    "Magn Reson Med": 3.0,
+    "Med Phys": 3.8,
+    "Phys Med Biol": 3.3,
+    "Br J Radiol": 2.8,
+    "Skeletal Radiol": 2.0,
+    "Jpn J Radiol": 3.0,
+    "Int J Comput Assist Radiol Surg": 2.9,
+    "NMR Biomed": 2.7,
+    "J Imaging Inform Med": 2.9,
+    "Comput Med Imaging Graph": 5.4,
+    "Quant Imaging Med Surg": 2.9,
+    "Emerg Radiol": 2.1,
+    "Clin Imaging": 1.9,
+    "Magn Reson Imaging": 2.1,
+    "Tomography": 2.2,
+    "Diagnostics (Basel)": 3.0,
 }
 
 # Listede olmayan dergi için varsayılan etki faktörü

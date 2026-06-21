@@ -84,6 +84,8 @@
     color:#ffffff;font-weight:600}
   .chip.best{border-color:var(--gold-dim);color:#8a5310}
   .chip.best[aria-pressed="true"]{background:var(--gold);border-color:var(--gold);color:#3a2606}
+  .chip.tez{border-color:#cbb6e6;color:#6d4aa6}
+  .chip.tez[aria-pressed="true"]{background:#6d4aa6;border-color:#6d4aa6;color:#fff}
   .search{flex:1;min-width:180px}
   .search input{width:100%;font-family:var(--body);font-size:14px;color:var(--text);
     background:var(--panel);border:1px solid var(--line2);border-radius:999px;
@@ -112,6 +114,9 @@
   .badge.t1{color:#8a5310;border-color:var(--gold-dim);background:#fdf3df}
   .badge.t2{color:#0b6e80;border-color:#bfe7ee;background:#e6f7fa}
   .badge.t3{color:#475569;border-color:#cfd8e1;background:#eef2f6}
+  .badge.tez{color:#6d4aa6;border-color:#d6c6ec;background:#f3eefb}
+  .card.tez{border-left-color:#6d4aa6}
+  .tez-en{color:var(--muted);font-size:13.5px;line-height:1.6;margin:10px 0 0}
   .title{font-family:var(--display);font-weight:600;font-size:18px;
     letter-spacing:-.01em;line-height:1.3;margin:0;color:var(--text)}
   .title a:hover{color:var(--accent)}
@@ -196,6 +201,7 @@
       <button class="chip" data-tier="2" aria-pressed="false">Tier 2</button>
       <button class="chip" data-tier="3" aria-pressed="false">Tier 3</button>
       <button class="chip best" data-tier="best" aria-pressed="false">★ Best 2026</button>
+      <button class="chip tez" data-tier="tez" aria-pressed="false">🎓 Tez 2026</button>
     </div>
     <div class="search">
       <input id="q" type="search" placeholder="Başlık, dergi veya yazarda ara…" autocomplete="off">
@@ -214,7 +220,7 @@
 </div>
 
 <script>
-const state = { data:null, best:null, tier:"all", q:"" };
+const state = { data:null, best:null, tez:null, tier:"all", q:"" };
 const TR_CACHE = {};   // pmid -> çevrilmiş özet (oturum içi önbellek)
 
 function escapeHtml(s){return (s||"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));}
@@ -345,7 +351,60 @@ async function loadBest(){
   }
 }
 
+async function loadTez(){
+  if(state.tez) return;
+  try{
+    const res = await fetch("tez2026.json",{cache:"no-store"});
+    if(!res.ok) throw new Error(res.status);
+    state.tez = await res.json();
+  }catch(e){
+    state.tez = {theses:[]};
+  }
+}
+
+function tezCard(t, rank){
+  return `
+  <article class="card tez">
+    <div class="top">
+      <div class="rank">#${rank}</div>
+      <div class="head">
+        <span class="badge tez">Tez</span>
+        <h2 class="title"><a href="${escapeHtml(t.url||'#')}" target="_blank" rel="noopener">${escapeHtml(t.title||"")}</a></h2>
+        <div class="meta">
+          <span class="j">${escapeHtml(t.university||"")}</span>
+          ${t.type?`<span class="dot">·</span><span>${escapeHtml(t.type)}</span>`:""}
+          ${t.subject?`<span class="dot">·</span><span>${escapeHtml(t.subject)}</span>`:""}
+        </div>
+        ${t.author?`<div class="authors">${escapeHtml(t.author)}</div>`:""}
+        ${t.title_en?`<div class="tez-en">${escapeHtml(t.title_en)}</div>`:""}
+      </div>
+    </div>
+  </article>`;
+}
+
+function renderTez(){
+  const list = document.getElementById("list");
+  const src = state.tez;
+  if(!src){ list.innerHTML = `<div class="state"><h3>Tezler yükleniyor…</h3></div>`; return; }
+  let items = (src.theses||[]).slice();
+  if(state.q){
+    const q = state.q.toLowerCase();
+    items = items.filter(t=>
+      (t.title||"").toLowerCase().includes(q) ||
+      (t.title_en||"").toLowerCase().includes(q) ||
+      (t.author||"").toLowerCase().includes(q) ||
+      (t.university||"").toLowerCase().includes(q));
+  }
+  if(!items.length){
+    list.innerHTML = `<div class="state"><h3>Tez bulunamadı</h3>
+      <p>Bu yıl için YÖK Ulusal Tez Merkezi'nden radyoloji tezleri burada listelenir.</p></div>`;
+    return;
+  }
+  list.innerHTML = items.map((t,i)=>tezCard(t,i+1)).join("");
+}
+
 function render(){
+  if(state.tier==="tez"){ renderTez(); return; }
   const isBest = state.tier==="best";
   const src = isBest ? state.best : state.data;
   const list = document.getElementById("list");
@@ -404,6 +463,10 @@ function bindControls(){
       if(state.tier==="best" && !state.best){
         document.getElementById("list").innerHTML = `<div class="state"><h3>Best of 2026 yükleniyor…</h3></div>`;
         await loadBest();
+      }
+      if(state.tier==="tez" && !state.tez){
+        document.getElementById("list").innerHTML = `<div class="state"><h3>Tezler yükleniyor…</h3></div>`;
+        await loadTez();
       }
       render();
     });
