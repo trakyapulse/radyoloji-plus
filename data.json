@@ -1,11 +1,44 @@
 {
-  "updated": "2026-08-02T08:27:53+00:00",
+  "updated": "2026-08-03T09:51:26+00:00",
   "window_days": 1,
   "datetype": "edat",
-  "count": 35,
+  "count": 27,
   "tier1_count": 0,
   "source": "PubMed (NCBI E-utilities)",
   "articles": [
+    {
+      "pmid": "42541545",
+      "title": "From image reconstruction to clinical prognosis: A comprehensive analysis of centiloid-based amyloid PET assessment.",
+      "abstract": "PURPOSE: To investigate the sources of variability in Centiloid (CL) calculations, particularly the influence of image reconstruction and reference region selection, and to examine the relationship between baseline CL scores, visual interpretation and subsequent disease progression. METHODS: 162 aMCI patients who underwent amyloid PET at a single center were retrospectively analyzed. Visual assessment was performed by two nuclear medicine physicians and Centiloid scoring was determined using syngo.MI Neurology Cortical Analysis, using different reference regions (RR) and image reconstruction settings. The CL values were compared against visual interpretation, using a ROC analysis. The value of CL in predicting the onset of Alzheimer's dementia was assessed. RESULTS: The use of the whole cerebellum as RR provided the most robust and consistent CL values across reconstruction methods. The RR was critical in the case of flutemetamol, as CL varied in more than 20 units between pons and whole cerebellum. Visual classifications and CL values showed strong concordance (area under the ROC curve: 0.9786) and the CL cut-off value that maximized agreement with visual reading was 28 CL. During follow-up, 49% of patients progressed to AD dementia and CL-based amyloid positivity was a significant predictor of progression. CONCLUSION: Standardized CL quantification using the whole cerebellum as RR enhances the reliability of amyloid PET interpretation across tracers and reconstruction settings. CL values strongly correlate with visual assessment and are predictive of clinical progression. These findings suggest the potential utility of CL quantification in both clinical and research settings.",
+      "journal": "Eur J Nucl Med Mol Imaging",
+      "date": "2026-08-01",
+      "authors": [
+        "Hirschmüller KCE",
+        "Prieto E",
+        "Guillén EF",
+        "Echeveste B",
+        "Mínguez F",
+        "Romera M",
+        "Pareja F",
+        "Fahmi R",
+        "Riverol M",
+        "Arbizu J"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1007/s00259-026-07943-x",
+      "journal_tier": 1,
+      "impact": 8.6,
+      "score": 100.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 2,
+      "abstract_tr": "AMAÇ: Centiloid (CL) hesaplamalarındaki değişkenliğin kaynaklarını, özellikle de görüntü yeniden yapılandırmasının ve referans bölge seçiminin etkisini araştırmak ve temel CL skorları, görsel yorumlama ve sonraki hastalık ilerlemesi arasındaki ilişkiyi incelemek. YÖNTEMLER: Tek merkezde amiloid PET uygulanan 162 aMCI hastası retrospektif olarak analiz edildi. Görsel değerlendirme iki nükleer tıp doktoru tarafından yapıldı ve Centiloid skorlaması syngo.MI Nöroloji Kortikal Analizi, farklı referans bölgeleri (RR) ve görüntü yeniden yapılandırma ayarları kullanılarak belirlendi. CL değerleri bir ROC analizi kullanılarak görsel yorumlamayla karşılaştırıldı. Alzheimer demansının başlangıcını öngörmede CL'nin değeri değerlendirildi. SONUÇLAR: Tüm beyinciğin RR olarak kullanılması, yeniden yapılandırma yöntemleri arasında en sağlam ve tutarlı CL değerlerini sağladı. Flutemetamol durumunda RR kritikti çünkü CL pons ve tüm beyincik arasında 20 üniteden fazla değişiklik gösteriyordu. Görsel sınıflandırmalar ve CL değerleri güçlü bir uyum gösterdi (ROC eğrisi altındaki alan: 0,9786) ve görsel okumayla uyumu maksimuma çıkaran CL kesme değeri 28 CL idi. Takip sırasında hastaların %49'unda AD demansı ilerledi ve CL bazlı amiloid pozitifliği ilerlemenin önemli bir belirleyicisiydi. SONUÇ: RR olarak tüm serebellumu kullanan standartlaştırılmış CL ölçümü, izleyiciler ve yeniden yapılandırma ortamlarında amiloid PET yorumunun güvenilirliğini artırır. CL değerleri görsel değerlendirmeyle güçlü bir şekilde ilişkilidir ve klinik ilerlemenin öngörüsüdür. Bu bulgular CL miktarının hem klinik hem de araştırma ortamlarında potansiyel faydasını göstermektedir."
+    },
     {
       "pmid": "42541544",
       "title": "Effect of neoadjuvant chemotherapy on [68Ga]Ga-FAPI-46 PET/CT in peritoneal carcinomatosis: a prospective translational exploratory sub-cohort analysis.",
@@ -44,105 +77,36 @@
       "abstract_tr": "AMAÇ: [68Ga]Ga-FAPI-46 PET/CT'nin (FAPI PET) peritoneal karsinomatozda (PC) neoadjuvan kemoterapi (NAC) ile ilişkili değişikliklere duyarlı olup olmadığını ve NAC sonrası FAPI PET parametreleri ile NAC öncesi/sonrası değişikliklerin histopatolojik ve biyokimyasal yanıtla ilişkili olup olmadığını değerlendirmek. YÖNTEMLER: Bu keşfedici translasyonel alt grup analizi, PK olduğu bilinen/şüphelenilen kolorektal veya yumurtalık kanseri olan hastaların dahil edildiği prospektif faz II FAPeCa çalışması (NCT06061874) kapsamında gerçekleştirildi. Güncel analize yakın zamanda kemoterapi almış hastalar dahil edildi. SUVmax, peritoneal tümör hacmi (PTV) ve toplam lezyon alımını (TLF/TLG) içeren PET parametreleri hem FAPI hem de [18F]-FDG PET/CT'de analiz edildi. Patolojik kemoterapi yanıt skoru (pCRS) ve CA-125 değişikliği ile ilişkiler araştırıldı. NAC öncesi ve sonrası eşleştirilmiş FAPI PET ve FAP immünohistokimyasal (IHC) analizleri yapıldı. IHC skoru ile FAPI PET alımı arasındaki segment düzeyindeki korelasyon değerlendirildi. SONUÇLAR: Ağırlıklı olarak yumurtalık kanseri olan (26/27) 27 hasta dahil edildi; bunlardan 10'u eşleştirilmiş NAC öncesi/sonrası görüntülemeye sahipti. Eşleştirilmiş tüm FAPI PET parametreleri, NAC'den sonra önemli ölçüde azaldı. Eşleştirilmiş FAPI PET parametrelerindeki değişimin büyüklüğü, özellikle SUVmax (ρ=0,866, p=0,005), PTV(2,5) (ρ=0,830, p=0,011) ve TLF(2,5) (ρ=0,830, p=0,011) için pCRS ile güçlü bir korelasyon gösterirken, FDG PET parametreleri ve FAPI PTV(40) ve TLF(40) anlamlı bir sonuç göstermedi PCRS ile korelasyon. FAPI PET parametrelerindeki değişiklikler de CA-125 değişikliğiyle ilişkiliydi. NAC sonrası kohort genelinde, FAPI PET hacimsel parametreleri pCRS kategorileri arasında önemli ölçüde farklılık gösterdi. Eşleştirilmiş IHC, NAC'den sonra FAP ekspresyonunda anlamlı bir azalma gösterdi ve segment düzeyinde FAP IHC skoru, FAPI alımıyla anlamlı orta düzeyde bir korelasyon gösterdi (SUVmax ρ=0,467, p=0,012; SUVmean ρ=0,554, p=0,005). SONUÇLAR: [68Ga]Ga-FAPI-46 PET/CT, PC'de NAC'den sonra tedavi duyarlılığını, PET parametrelerinde ve stromal FAP ekspresyonunda uyumlu azalmalarla gösterdi. FAPI PET hacimsel parametreleri, bu araştırma alt grubundaki histopatolojik yanıt ve CA-125 değişikliği ile ilişkiliydi; bu, PC'de yanıt değerlendirmesi için bir görüntüleme biyobelirteç olarak FAPI PET'in daha fazla araştırılmasını desteklemektedir."
     },
     {
-      "pmid": "42541545",
-      "title": "From image reconstruction to clinical prognosis: A comprehensive analysis of centiloid-based amyloid PET assessment.",
-      "abstract": "PURPOSE: To investigate the sources of variability in Centiloid (CL) calculations, particularly the influence of image reconstruction and reference region selection, and to examine the relationship between baseline CL scores, visual interpretation and subsequent disease progression. METHODS: 162 aMCI patients who underwent amyloid PET at a single center were retrospectively analyzed. Visual assessment was performed by two nuclear medicine physicians and Centiloid scoring was determined using syngo.MI Neurology Cortical Analysis, using different reference regions (RR) and image reconstruction settings. The CL values were compared against visual interpretation, using a ROC analysis. The value of CL in predicting the onset of Alzheimer's dementia was assessed. RESULTS: The use of the whole cerebellum as RR provided the most robust and consistent CL values across reconstruction methods. The RR was critical in the case of flutemetamol, as CL varied in more than 20 units between pons and whole cerebellum. Visual classifications and CL values showed strong concordance (area under the ROC curve: 0.9786) and the CL cut-off value that maximized agreement with visual reading was 28 CL. During follow-up, 49% of patients progressed to AD dementia and CL-based amyloid positivity was a significant predictor of progression. CONCLUSION: Standardized CL quantification using the whole cerebellum as RR enhances the reliability of amyloid PET interpretation across tracers and reconstruction settings. CL values strongly correlate with visual assessment and are predictive of clinical progression. These findings suggest the potential utility of CL quantification in both clinical and research settings.",
-      "journal": "Eur J Nucl Med Mol Imaging",
-      "date": "2026-08-01",
+      "pmid": "42543403",
+      "title": "Transarterial Embolization Versus Manipulation Under Anesthesia and Arthroscopic Capsular Release for Refractory Adhesive Capsulitis-A Cost-Effectiveness Analysis.",
+      "abstract": "This study compared the cost-effectiveness of transarterial embolization (TAE), manipulation under anesthesia (MUA), and arthroscopic capsular release (ACR) for refractory primary adhesive capsulitis. A systematic review with single-arm meta-analyses informed a three-state Markov model over a 36-month horizon. Clinical success, defined as mild pain at 3 months, was highest for TAE (73.3%), followed by ACR (61.4%) and MUA (55.5%). At a $100,000 per quality-adjusted life-year (QALY) threshold, TAE was the optimal strategy (incremental cost-effectiveness ratio vs. ACR: $77,807/QALY). When success was defined by range-of-motion recovery, MUA and ACR yielded more QALYs at lower cost. Based on indirect comparisons, these findings suggest TAE may be a cost-effective option for pain-predominant adhesive capsulitis, while MUA and ACR may be preferred when mechanical restriction is the primary target.",
+      "journal": "Cardiovasc Intervent Radiol",
+      "date": "2026-08-02",
       "authors": [
-        "Hirschmüller KCE",
-        "Prieto E",
-        "Guillén EF",
-        "Echeveste B",
-        "Mínguez F",
-        "Romera M",
-        "Pareja F",
-        "Fahmi R",
-        "Riverol M",
-        "Arbizu J"
+        "Khabaz K",
+        "Alananzeh R",
+        "Alkhani L",
+        "Allaw S",
+        "Wu X",
+        "Yu Q",
+        "Patel M",
+        "Ahmed O"
       ],
       "pubtypes": [
-        "Journal Article"
+        "Journal Article",
+        "Review"
       ],
-      "doi": "10.1007/s00259-026-07943-x",
-      "journal_tier": 1,
-      "impact": 8.6,
-      "score": 100.0,
+      "doi": "10.1007/s00270-026-04563-8",
+      "journal_tier": 2,
+      "impact": 2.6,
+      "score": 70.0,
       "score_parts": {
-        "journal": 100,
-        "pubtype": 0,
+        "journal": 60,
+        "pubtype": 10,
         "recency": 0.0
       },
-      "tier": 2,
-      "abstract_tr": "AMAÇ: Centiloid (CL) hesaplamalarındaki değişkenliğin kaynaklarını, özellikle de görüntü yeniden yapılandırmasının ve referans bölge seçiminin etkisini araştırmak ve temel CL skorları, görsel yorumlama ve sonraki hastalık ilerlemesi arasındaki ilişkiyi incelemek. YÖNTEMLER: Tek merkezde amiloid PET uygulanan 162 aMCI hastası retrospektif olarak analiz edildi. Görsel değerlendirme iki nükleer tıp doktoru tarafından yapıldı ve Centiloid skorlaması syngo.MI Nöroloji Kortikal Analizi, farklı referans bölgeleri (RR) ve görüntü yeniden yapılandırma ayarları kullanılarak belirlendi. CL değerleri bir ROC analizi kullanılarak görsel yorumlamayla karşılaştırıldı. Alzheimer demansının başlangıcını öngörmede CL'nin değeri değerlendirildi. SONUÇLAR: Tüm beyinciğin RR olarak kullanılması, yeniden yapılandırma yöntemleri arasında en sağlam ve tutarlı CL değerlerini sağladı. Flutemetamol durumunda RR kritikti çünkü CL pons ve tüm beyincik arasında 20 üniteden fazla değişiklik gösteriyordu. Görsel sınıflandırmalar ve CL değerleri güçlü bir uyum gösterdi (ROC eğrisi altındaki alan: 0,9786) ve görsel okumayla uyumu maksimuma çıkaran CL kesme değeri 28 CL idi. Takip sırasında hastaların %49'unda AD demansı ilerledi ve CL bazlı amiloid pozitifliği ilerlemenin önemli bir belirleyicisiydi. SONUÇ: RR olarak tüm serebellumu kullanan standartlaştırılmış CL ölçümü, izleyiciler ve yeniden yapılandırma ortamlarında amiloid PET yorumunun güvenilirliğini artırır. CL değerleri görsel değerlendirmeyle güçlü bir şekilde ilişkilidir ve klinik ilerlemenin öngörüsüdür. Bu bulgular CL miktarının hem klinik hem de araştırma ortamlarında potansiyel faydasını göstermektedir."
-    },
-    {
-      "pmid": "42538453",
-      "title": "Regional brain metabolism and metabolic connectivity alterations in corticobasal syndrome assessed with [18F]FDG-PET.",
-      "abstract": "PURPOSE: Corticobasal syndrome (CBS) is a clinically defined phenotype with different underlying neuropathological substrates most commonly the 4-repeat tauopathy corticobasal degeneration (CBD). 2-[18F] fluoro-2-deoxy-D-glucose Positron Emission Tomography ([18F]FDG-PET) studies have described regional metabolic abnormalities but detailed subcortical and cerebellar structures involvement is less known and metabolic connectivity remains unexplored. This study combined voxel-based, region-of-interest (ROI) analyses and connectivity approaches to further characterize metabolic alterations and to provide a network-level framework in CBS. METHODS: Thirty-nine CBS patients underwent [18F]FDG-PET at two sites, with images flipped to align the most affected hemisphere; 99 controls were drawn from a national normative database. Voxel-based SPM method and ROIs analysis were performed. Thirty-six bilateral cortical and subcortical regions of interest were processed to perform interregional correlation and network-based analyses within five functional networks. Pairwise Spearman correlations were computed from normalized regional signals. Group differences were assessed at regional and network levels using Fisher-transformed correlations, Cohen's q, permutation testing (10,000 iterations), and graph-theoretical metrics (node strength, clustering coefficient; threshold ρ > 0.25). RESULTS: CBS patients showed asymmetric hypometabolism predominantly in frontal, parietal, and temporal cortices, caudate and thalamus of the predominantly affected hemisphere, with additional contralateral involvement, notably in the cerebellum and caudate. Metabolic connectivity analyses revealed widespread intra- and inter-network disconnection, particularly involving frontal, parietal, and sensorimotor cortices, and thalamo-cortical pathways, with significant lateralization toward the affected hemisphere. Graph analysis showed decreased cortical node strength with relative increases in subcortical hubs and mixed changes in clustering coefficients, suggesting network reorganization. CONCLUSION: This first [18F]FDG-PET metabolic connectivity study in CBS demonstrates asymmetric and bilateral regional hypometabolism, widespread and lateralized network disconnection, and subcortical reorganization. These findings reflect both degenerative, functional and compensatory mechanisms and highlight metabolic connectivity as a sensitive marker of network-level alterations in neurodegenerative disease.",
-      "journal": "Eur J Nucl Med Mol Imaging",
-      "date": "2026-08-01",
-      "authors": [
-        "Nerattini M",
-        "Leo A",
-        "Bessi V",
-        "De Rosa A",
-        "De Michele G",
-        "Gaudieri V",
-        "Giacomucci G",
-        "Cuocolo A",
-        "De Michele G",
-        "Berti V",
-        "Pappatà S"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1007/s00259-026-08108-6",
-      "journal_tier": 1,
-      "impact": 8.6,
-      "score": 100.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 2,
-      "abstract_tr": "AMAÇ: Kortikobazal sendrom (CBS), altta yatan farklı nöropatolojik substratlara sahip klinik olarak tanımlanmış bir fenotiptir; en yaygın olarak 4 tekrarlı tauopati kortikobazal dejenerasyon (CBD). 2-[18F] floro-2-deoksi-D-glikoz Pozitron Emisyon Tomografisi ([18F]FDG-PET) çalışmaları bölgesel metabolik anormallikleri tanımlamıştır ancak ayrıntılı subkortikal ve serebellar yapıların tutulumu daha az bilinmektedir ve metabolik bağlantı henüz keşfedilmemiştir. Bu çalışma, metabolik değişiklikleri daha fazla karakterize etmek ve CBS'de ağ düzeyinde bir çerçeve sağlamak için voksel bazlı, ilgi alanı (ROI) analizlerini ve bağlantı yaklaşımlarını birleştirdi. YÖNTEMLER: Otuz dokuz CBS hastasına iki bölgede [18F]FDG-PET uygulandı; görüntüler en çok etkilenen hemisferi hizalamak için çevrildi; Ulusal normatif veri tabanından 99 kontrol alınmıştır. Voxel tabanlı SPM yöntemi ve ROI analizi yapıldı. Beş fonksiyonel ağ içerisinde bölgeler arası korelasyon ve ağ tabanlı analizler gerçekleştirmek için otuz altı iki taraflı kortikal ve kortikal altı ilgi alanı işlendi. İkili Spearman korelasyonları normalleştirilmiş bölgesel sinyallerden hesaplandı. Grup farklılıkları, Fisher-dönüştürülmüş korelasyonlar, Cohen'in q'su, permütasyon testi (10.000 yineleme) ve grafik-teorik ölçümler (düğüm gücü, kümelenme katsayısı; eşik ρ > 0,25) kullanılarak bölgesel ve ağ düzeyinde değerlendirildi. BULGULAR: CBS hastalarında ağırlıklı olarak etkilenen hemisferin frontal, parietal ve temporal kortekslerinde, kaudat ve talamusunda asimetrik hipometabolizma görüldü; ayrıca özellikle serebellum ve kaudatta ek kontralateral tutulum görüldü. Metabolik bağlantı analizleri, özellikle frontal, parietal ve sensörimotor korteksleri ve talamo-kortikal yolları kapsayan, etkilenen hemisfere doğru belirgin lateralizasyonla birlikte yaygın ağ içi ve ağlar arası bağlantı kopukluğunu ortaya çıkardı. Grafik analizi, kortikal düğüm gücünün azaldığını, kortikal altı merkezlerde göreceli artışlar ve kümelenme katsayılarında karışık değişiklikler olduğunu gösterdi; bu da ağın yeniden düzenlendiğini gösteriyor. SONUÇ: CBS'deki bu ilk [18F]FDG-PET metabolik bağlantı çalışması, asimetrik ve iki taraflı bölgesel hipometabolizma, yaygın ve lateralize ağ bağlantısı kesilmesi ve subkortikal yeniden yapılanmayı göstermektedir. Bu bulgular hem dejeneratif, fonksiyonel hem de telafi edici mekanizmaları yansıtıyor ve nörodejeneratif hastalıkta ağ düzeyindeki değişikliklerin hassas bir belirteci olarak metabolik bağlantının altını çiziyor."
-    },
-    {
-      "pmid": "42538452",
-      "title": "Imaging of ROR1 expression in tumors using radiolabeled affibody molecules.",
-      "abstract": "PURPOSE: Receptor tyrosine kinase-like orphan receptor 1 (ROR1) is an attractive molecular target for anti-tumor therapies undergoing late-stage clinical development. Quantitative imaging of ROR1 expression could enable identification of patients likely to respond to such treatments. This study aimed to assess the feasibility of specific in vivo imaging of ROR1 using radiolabeled affibody molecules. METHODS: The affibody molecule ZROR1:A10, with high affinity for human (4 nM) and murine (2 nM) ROR1, was labeled with indium-111 using a DOTA chelator. In vitro binding specificity, affinity, and cellular processing were evaluated using a panel of ROR1-expressing cell lines. The affibody [111In]In-DOTA-Zcov19s, which does not bind ROR1, served as a nonspecific control. The biodistribution of [111In]In-DOTA-ZROR1:A10 and [111In]In-DOTA-Zcov19s was measured in immunodeficient mice bearing ROR1-positive tumors, with ROR1-negative Ramos xenografts used as an additional specificity control. RESULTS: [111In]In-DOTA-ZROR1:A10 bound specifically to ROR1-expressing cells, with significantly higher uptake than [111In]In-DOTA-Zcov19s. The apparent equilibrium dissociation constant for ROR1 binding in vitro was 1-4 nM. Tumor uptake of [111In]In-DOTA-ZROR1:A10 in MDA-MB-468 xenografts was saturable and significantly (p < 0.05) higher than in Ramos tumors, as well as higher than uptake of the control affibody. At 4 h post‑injection of 1 µg (50 µg/kg), tumor‑to‑blood, tumor‑to‑bone, and tumor‑to‑muscle ratios were 14 ± 6, 19 ± 6, and 11 ± 1, respectively. Micro-SPECT/CT imaging clearly visualized ROR1‑positive tumors and discriminated them from ROR1‑negative xenografts. CONCLUSION: The preclinical evaluation shows that visualization of ROR1-expressing tumors using a radiolabeled affibody molecule is feasible.",
-      "journal": "Eur J Nucl Med Mol Imaging",
-      "date": "2026-08-01",
-      "authors": [
-        "Westerberg C",
-        "Xu T",
-        "Marth M",
-        "Ud-Din M",
-        "Abushaia R",
-        "Hagelin T",
-        "Ståhl S",
-        "Orlova A",
-        "Tolmachev V",
-        "Löfblom J",
-        "Vorobyeva A"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1007/s00259-026-08106-8",
-      "journal_tier": 1,
-      "impact": 8.6,
-      "score": 100.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 2,
-      "abstract_tr": "AMAÇ: Reseptör tirozin kinaz benzeri yetim reseptör 1 (ROR1), ileri evre klinik gelişime giren anti-tümör tedavileri için çekici bir moleküler hedeftir. ROR1 ekspresyonunun kantitatif olarak görüntülenmesi, bu tür tedavilere yanıt vermesi muhtemel hastaların tanımlanmasına olanak sağlayabilir. Bu çalışma, radyo-etiketli afibody molekülleri kullanılarak ROR1'in spesifik in vivo görüntülemesinin fizibilitesini değerlendirmeyi amaçladı. YÖNTEMLER: İnsan (4 nM) ve fare (2 nM) ROR1'e yüksek afiniteye sahip olan ilgi molekülü ZROR1:A10, bir DOTA şelatörü kullanılarak indiyum-111 ile etiketlendi. İn vitro bağlanma özgüllüğü, afinite ve hücresel işleme, ROR1 eksprese eden hücre çizgilerinden oluşan bir panel kullanılarak değerlendirildi. ROR1'i bağlamayan [111In]In-DOTA-Zcov19'lar spesifik olmayan bir kontrol olarak görev yaptı. [111In]In-DOTA-ZROR1:A10 ve [111In]In-DOTA-Zcov19'ların biyolojik dağılımı, ROR1-pozitif tümörler taşıyan bağışıklık yetersizliği olan farelerde ölçüldü; ROR1-negatif Ramos ksenograftları ek bir özgüllük kontrolü olarak kullanıldı. SONUÇLAR: [111In]In-DOTA-ZROR1:A10, özellikle ROR1 eksprese eden hücrelere bağlandı ve [111In]In-DOTA-Zcov19'lardan önemli ölçüde daha yüksek alıma sahip oldu. ROR1 bağlanmasının in vitro görünür denge ayrışma sabiti 1-4 nM idi. MDA-MB-468 ksenogreftlerinde [111In]In-DOTA-ZROR1:A10'un tümör alımı doyurulabilirdi ve Ramos tümörlerine göre önemli ölçüde (p < 0.05) daha yüksekti, ayrıca kontrol afibody alımından daha yüksekti. 1 µg (50 µg/kg) enjeksiyonundan 4 saat sonra tümör-kan, tümör-kemiğe ve tümör-kas oranları sırasıyla 14 ± 6, 19 ± 6 ve 11 ± 1 olmuştur. Mikro SPECT/CT görüntüleme, ROR1 pozitif tümörleri net bir şekilde görselleştirdi ve bunları ROR1 negatif ksenograftlardan ayırdı. SONUÇ: Klinik öncesi değerlendirme, ROR1 eksprese eden tümörlerin radyoetiketli bir afibody molekülü kullanılarak görselleştirilmesinin mümkün olduğunu göstermektedir."
+      "tier": 3,
+      "abstract_tr": "Bu çalışma, dirençli primer yapışkan kapsülit için transarteriyel embolizasyonun (TAE), anestezi altında manipülasyonun (MUA) ve artroskopik kapsüler serbestleştirmenin (ACR) maliyet etkinliğini karşılaştırdı. Tek kollu meta analizlerle yapılan sistematik bir inceleme, 36 aylık bir ufuk boyunca üç durumlu Markov modelini bilgilendirdi. 3 ayda hafif ağrı olarak tanımlanan klinik başarı en yüksek TAE (%73,3) için elde edilirken, bunu ACR (%61,4) ve MUA (%55,5) izledi. Kaliteye göre ayarlanmış yaşam yılı (QALY) eşiği başına 100.000 ABD doları düzeyinde, TAE en uygun stratejiydi (artan maliyet-etkinlik oranı, ACR'ye karşı: 77.807 ABD doları/QALY). Başarı hareket aralığının iyileşmesi ile tanımlandığında, MUA ve ACR daha düşük maliyetle daha fazla QALY sağladı. Dolaylı karşılaştırmalara dayanan bu bulgular, ağrının baskın olduğu adeziv kapsülit için TAE'nin uygun maliyetli bir seçenek olabileceğini, mekanik kısıtlamanın birincil hedef olduğu durumlarda MUA ve ACR'nin tercih edilebileceğini düşündürmektedir."
     },
     {
       "pmid": "42541997",
@@ -298,6 +262,105 @@
       "abstract_tr": "Çocuklarda karaciğer tümörlerinin radyolojik karakterizasyonu, iyi huylu lezyonları kötü huylu veya potansiyel olarak kötü huylu lezyonlardan ayırmayı ve mümkün olduğunda biyopsi ihtiyacını ortadan kaldırmayı amaçlamaktadır. Bu yaklaşım, gereksiz morbiditeyi ve ebeveyn/hasta kaygısını azaltmayı amaçlar ve radyolojik ve cerrahi kaynakların akılcı kullanımını teşvik eder. Fokal nodüler hiperplazi (FNH) ve hepatik adenom genellikle iyi huylu bir seyir gösterir ancak genişleme ve/veya maligniteyi taklit etme eğilimleri nedeniyle kişiye özel görüntüleme takibi ve yönetimi gerektirir. Hepatik adenom durumunda, malign transformasyon ve tümör kanaması/rüptürü temel endişelerdir. Bu makale, bu iki antitenin klinik gidişatını, çeşitli modalitelere ilişkin tipik görüntüleme bulgularını ve bunun klinik düzeyde karar almayı nasıl etkilediğini tartışacaktır. Hepatobiliyer spesifik MRG kontrast maddelerinin kullanımı, FNH'yi hepatik adenomdan ayırmadaki anahtar rolleri referans alınarak tartışılacak, aynı zamanda sınırlamalar ve potansiyel yorumlama güçlükleri vurgulanacaktır."
     },
     {
+      "pmid": "42543402",
+      "title": "Clinical Outcome and Safety of Procedural Sedation and Analgesia Performed by Interventional Radiologists in Patients Undergoing Local Tumor Ablation of the Liver.",
+      "abstract": "PURPOSE: To evaluate clinical outcome and safety of procedural conscious sedation and analgesia (PCSA) performed by interventional radiologists (IRs) for patients undergoing percutaneous high-dose-rate brachytherapy (HDR-BT) of the liver. MATERIAL AND METHODS: This large-scale, monocentric, retrospective study analyzed the safety-profile of PCSA using fentanyl and midazolam in patients undergoing HDR-BT for liver tumors. Medication was administered by trained IRs exclusively responsible for drug administration and cardiorespiratory monitoring. American Association of Anesthesiologists (ASA) status was recorded for all patients. Peri- and post-interventional complications directly or presumably related to PCSA, were assessed. RESULTS: Between 08/2017 and 12/2023, 1062 minimally invasive tumor ablations were performed in 686 patients with: 29.4% hepatocellular carcinoma, 28.7% metastasized colorectal cancer, 6.4% cholangiocarcinoma, metastases from lung cancer (6.1%), pancreatic cancer (4.1%), neuroendocrine tumors (5.1%) and 15.8% other metastases. PCSA-related complications were low (14/1062 procedures, 1.3%). Peri-interventional arrhythmias occurred during 4 procedures (0.4%). One patient (0.09%) experienced severe hypoxemia requiring brief cardiopulmonary resuscitation with return of spontaneous circulation, intubation and ICU-admission. Multivariable regression showed no significant correlations of PCSA-related complications with age, sex, BMI, ASA, chronic obstructive pulmonary disease (COPD), liver cirrhosis or medication doses but a significant correlation of obstructive sleep apnea syndrome (OSAS). No peri- or post-procedural deaths occurred. CONCLUSION: PCSA can safely be performed by adequately trained IRs with standardised protocols and support from anesthesiologists for emergencies or high-risk-patients. Careful patient selection, hemodynamic monitoring, structured PCSA documentation and immediate availability of anesthesiological support for severe AEs are essential to minimize risks. PCSA in OSAS should be managed by anesthesiologists.",
+      "journal": "Cardiovasc Intervent Radiol",
+      "date": "2026-08-02",
+      "authors": [
+        "Puhr-Westerheide D",
+        "Hannak C",
+        "Fabritius MP",
+        "Öcal O",
+        "Stechele M",
+        "Mansour N",
+        "Schmidt VF",
+        "Schäfer V",
+        "Walter F",
+        "Rogowski P",
+        "Corradini S",
+        "Wildgruber M",
+        "Ricke J",
+        "Seidensticker M"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1007/s00270-026-04557-6",
+      "journal_tier": 2,
+      "impact": 2.6,
+      "score": 60.0,
+      "score_parts": {
+        "journal": 60,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": "AMAÇ: Karaciğerde perkütan yüksek doz hızlı brakiterapi (HDR-BT) uygulanan hastalarda girişimsel radyologlar (IR'ler) tarafından gerçekleştirilen prosedürel bilinçli sedasyon ve analjezinin (PCSA) klinik sonucunu ve güvenliğini değerlendirmek. GEREÇ VE YÖNTEMLER: Bu büyük ölçekli, tek merkezli, retrospektif çalışma, karaciğer tümörleri için HDR-BT uygulanan hastalarda fentanil ve midazolam kullanılarak yapılan PCSA'nın güvenlik profilini analiz etti. İlaç tedavisi, yalnızca ilaç uygulaması ve kardiyorespiratuar izlemeden sorumlu eğitimli IR'ler tarafından uygulandı. Tüm hastaların Amerikan Anestezi Uzmanları Birliği (ASA) durumu kaydedildi. Doğrudan veya muhtemelen PCSA ile ilişkili olan girişim öncesi ve sonrası komplikasyonlar değerlendirildi. BULGULAR: 08/2017 ile 12/2023 tarihleri arasında, %29,4 hepatoselüler karsinom, %28,7 metastazlı kolorektal kanser, %6,4 kolanjiyokarsinom, akciğer kanseri metastazları (%6,1), pankreas kanseri (%4,1), nöroendokrin tümörleri olan 686 hastaya 1062 minimal invazif tümör ablasyonu uygulandı. (%5,1) ve %15,8 diğer metastazlar. PCSA ile ilişkili komplikasyonlar düşüktü (14/1062 işlem, %1,3). Girişimsel aritmiler 4 işlem sırasında (%0,4) meydana geldi. Bir hastada (%0,09) spontan dolaşımın geri dönmesi, entübasyon ve yoğun bakım ünitesine kabul ile birlikte kısa kardiyopulmoner resüsitasyon gerektiren şiddetli hipoksemi yaşandı. Çok değişkenli regresyon, PCSA ile ilişkili komplikasyonların yaş, cinsiyet, BMI, ASA, kronik obstrüktif akciğer hastalığı (KOAH), karaciğer sirozu veya ilaç dozları ile anlamlı bir korelasyon göstermediğini ancak obstrüktif uyku apne sendromu (OSAS) ile anlamlı bir korelasyon gösterdi. Prosedür sırasında veya sonrasında herhangi bir ölüm meydana gelmedi. SONUÇ: PCSA, acil durumlar veya yüksek riskli hastalar için standartlaştırılmış protokoller ve anestezistlerin desteği ile yeterli eğitimli IR'ler tarafından güvenli bir şekilde gerçekleştirilebilir. Dikkatli hasta seçimi, hemodinamik izleme, yapılandırılmış PCSA dokümantasyonu ve şiddetli AE'ler için anesteziyolojik desteğin anında sağlanması, riskleri en aza indirmek için çok önemlidir. OUAS'ta PCSA anestezistler tarafından yönetilmelidir."
+    },
+    {
+      "pmid": "42543401",
+      "title": "Computed Tomography-Proven Active Bleeding with Negative Emergency Angiography: Early Mortality Predictors and Development of the Negative Angiography Bleeding-Lethality Score.",
+      "abstract": "PURPOSE: To identify predictors of 30-day mortality and derive a bedside risk score in patients with computed tomography (CT)-proven active bleeding and negative emergency angiography. MATERIALS AND METHODS: We retrospectively included consecutive adults with CT-detected active bleeding and negative emergency angiography in a single-center cohort (2012-2026). Univariate analyses (Fisher exact, Mann-Whitney U) were followed by multivariable logistic regression, with a LASSO-penalized model (fivefold cross-validation) performed as sensitivity analysis. A simplified score, Negative Angiography Bleeding-Lethality (NAB-L), was derived from regression coefficients. Discrimination was assessed by area under the receiver operating characteristic curve (AUC) with bootstrap internal validation, calibration by the Hosmer-Lemeshow test, and survival by Kaplan-Meier methods with log-rank comparison. RESULTS: A total of 118 patients were included (median age 67.5 years [IQR 51-78]; 55% male). Thirty-day mortality was 14.4% (17/118) and rebleeding occurred in 33.9% (40/118). Hemoglobin nadir < 8 g/dL (adjusted odds ratio (aOR) 11.44; 95% confidence intervals (CI) 1.45-90.35), arterial lactate > 2 mmol/L (aOR 5.69; 1.27-25.42), and age > 70 years (aOR 3.63; 1.01-13.02) were independently associated with mortality. The NAB-L score (0-5) showed good discrimination (AUC 0.854; 95% CI 0.760-0.941; optimism-corrected 0.816) and adequate calibration (Hosmer-Lemeshow p = 0.946). Mortality rose from 0% (score 0-1) to 56% (score 5). Rebleeding was more frequent in high-risk patients (52% vs. 17%, p = 0.036). CONCLUSION: CT-positive/angiography-negative bleeding carries substantial early mortality and rebleeding risk. The NAB-L score enables simple early bedside risk stratification but should be considered hypothesis-generating pending external validation.",
+      "journal": "Cardiovasc Intervent Radiol",
+      "date": "2026-08-02",
+      "authors": [
+        "Russier L",
+        "El Boukili I",
+        "Elhadjene N",
+        "Magand N",
+        "Lutz N",
+        "Boutet C",
+        "Grange S",
+        "Grange R"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1007/s00270-026-04566-5",
+      "journal_tier": 2,
+      "impact": 2.6,
+      "score": 60.0,
+      "score_parts": {
+        "journal": 60,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": "AMAÇ: Bilgisayarlı tomografi (BT) ile kanıtlanmış aktif kanaması olan ve acil anjiyografisi negatif olan hastalarda 30 günlük mortalitenin öngörücülerini tanımlamak ve yatak başı risk skoru elde etmek. Gereçler ve Yöntemler: Tek merkezli bir kohorta (2012-2026) BT ile saptanan aktif kanaması ve negatif acil anjiyografisi olan ardışık yetişkinleri retrospektif olarak dahil ettik. Tek değişkenli analizleri (Fisher kesin, Mann-Whitney U), duyarlılık analizi olarak LASSO tarafından cezalandırılan bir model (beş kat çapraz doğrulama) ile çok değişkenli lojistik regresyon izledi. Basitleştirilmiş bir skor olan Negatif Anjiyografi Kanama-Öldürücülük (NAB-L), regresyon katsayılarından türetilmiştir. Ayrımcılık, önyükleme dahili doğrulaması ile alıcı işletim karakteristik eğrisi (AUC) altındaki alan, Hosmer-Lemeshow testi ile kalibrasyon ve log-sıra karşılaştırması ile Kaplan-Meier yöntemleri ile hayatta kalma ile değerlendirildi. SONUÇLAR: Toplam 118 hasta dahil edildi (ortalama yaş 67,5 yıl [IQR 51-78]; %55 erkek). Otuz günlük mortalite %14,4 (17/118) idi ve yeniden kanama %33,9'da (40/118) meydana geldi. Hemoglobin nadir < 8 g/dL (düzeltilmiş olasılık oranı (aOR) 11,44; %95 güven aralığı (CI) 1,45-90,35), arteriyel laktat > 2 mmol/L (aOR 5,69; 1,27-25,42) ve yaş > 70 (aOR 3.63; 1.01-13.02) bağımsız olarak mortaliteyle ilişkilendirildi. NAB-L skoru (0-5) iyi bir ayrım (AUC 0,854; %95 CI 0,760-0,941; iyimserlik düzeltmeli 0,816) ve yeterli kalibrasyon (Hosmer-Lemeshow p = 0,946) gösterdi. Ölüm oranı %0'dan (puan 0-1) %56'ya (puan 5) yükseldi. Tekrar kanama yüksek riskli hastalarda daha sıktı (%52 vs. %17, p = 0,036). SONUÇ: BT pozitif/anjiyografi negatif kanama önemli derecede erken mortalite ve tekrar kanama riski taşır. NAB-L skoru, basit erken hasta başı risk sınıflandırmasına olanak tanır, ancak harici doğrulamaya kadar hipotez oluşturucu olarak düşünülmelidir."
+    },
+    {
+      "pmid": "42543000",
+      "title": "Local LLMs as cooperative agents for low-cost surgical navigation support.",
+      "abstract": "PURPOSE: Computer-integrated surgical navigation systems are often run in the OR with the assistance of a technician for controlling the user interface and advising on technical details of the system. In lower-resource healthcare settings, limited access to additional OR staff and technical training for operating navigation systems can represent a barrier to sustainably deploying a low-cost surgical navigation solution. Recent advancements in locally deployable large language models (LLMs) have improved their ability to answer technical questions based on source materials and safely perform limited tasks on behalf of a user. METHODS: The objective of this paper is to explore the feasibility of using a network of local LLM-based agents to act as a natural language interface for a low-cost surgical navigation system, facilitating hands-free manipulation of the user interface and providing documentation-grounded technical guidance. We propose the navigation offline virtual agent (NOVA), an end-to-end architecture that integrates distinct local LLM-based agents for knowledge tasks, action tasks, and delegation between the agents. Two semisynthetic benchmark datasets were generated for ablation studies of individual agents, and a prototype was built which integrates these agents into NousNav, an open-source neuronavigation system. RESULTS: The agents based on local LLMs were found to perform comparably to closed-source, commercially hosted LLMs. In a user study with nine participants, NOVA facilitated hands-free patient registration with a mean end-to-end latency of 10.4 ± 2.4   s and an 81% command success rate. CONCLUSIONS: This work demonstrates that local LLM-based agents can be deployed to support users of low-cost navigation systems by providing a context-aware natural language interface, representing an important step toward reducing technician dependence in low-cost surgical navigation.",
+      "journal": "Int J Comput Assist Radiol Surg",
+      "date": "2026-08-02",
+      "authors": [
+        "Barr C",
+        "Galvin C",
+        "Azimi A",
+        "Frisken S",
+        "Pieper S",
+        "Fichtinger G",
+        "Golby A",
+        "Mousavi P"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1007/s11548-026-03772-3",
+      "journal_tier": 2,
+      "impact": 2.9,
+      "score": 60.0,
+      "score_parts": {
+        "journal": 60,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": "AMAÇ: Bilgisayarla bütünleşik cerrahi navigasyon sistemleri genellikle ameliyathanede kullanıcı arayüzünü kontrol etmek ve sistemin teknik ayrıntıları konusunda tavsiyelerde bulunmak için bir teknisyenin yardımıyla çalıştırılır. Kaynakların düşük olduğu sağlık hizmetlerinde, ek ameliyathane personeline sınırlı erişim ve navigasyon sistemlerinin çalıştırılmasına yönelik teknik eğitim, düşük maliyetli bir cerrahi navigasyon çözümünün sürdürülebilir bir şekilde uygulanmasının önünde bir engel oluşturabilir. Yerel olarak dağıtılabilir büyük dil modellerindeki (LLM'ler) son gelişmeler, kaynak materyallere dayalı teknik soruları yanıtlama ve kullanıcı adına sınırlı görevleri güvenli bir şekilde gerçekleştirme yeteneklerini geliştirmiştir. YÖNTEMLER: Bu makalenin amacı, düşük maliyetli bir cerrahi navigasyon sistemi için doğal bir dil arayüzü görevi görecek, kullanıcı arayüzünün eller serbest manipülasyonunu kolaylaştıracak ve dokümantasyona dayalı teknik rehberlik sağlayacak yerel LLM tabanlı aracılardan oluşan bir ağ kullanmanın fizibilitesini araştırmaktır. Bilgi görevleri, eylem görevleri ve aracılar arasında delegasyon için farklı yerel LLM tabanlı aracıları birleştiren uçtan uca bir mimari olan navigasyon çevrimdışı sanal aracısını (NOVA) öneriyoruz. Bireysel ajanların ablasyon çalışmaları için iki yarı sentetik kıyaslama veri seti oluşturuldu ve bu ajanları açık kaynaklı bir nöronavigasyon sistemi olan NousNav'e entegre eden bir prototip oluşturuldu. SONUÇLAR: Yerel LLM'leri temel alan aracıların, kapalı kaynaklı, ticari olarak barındırılan LLM'lerle karşılaştırılabilir performans gösterdiği bulundu. Dokuz katılımcıyla yapılan bir kullanıcı çalışmasında NOVA, 10,4 ± 2,4 saniyelik ortalama uçtan uca gecikme süresi ve %81 komut başarı oranıyla eller serbest hasta kaydını kolaylaştırdı. SONUÇLAR: Bu çalışma, düşük maliyetli cerrahi navigasyonda teknisyen bağımlılığının azaltılmasına yönelik önemli bir adımı temsil eden, bağlama duyarlı bir doğal dil arayüzü sağlayarak, düşük maliyetli navigasyon sistemleri kullanıcılarını desteklemek için yerel LLM tabanlı aracıların kullanılabileceğini göstermektedir."
+    },
+    {
       "pmid": "42542494",
       "title": "Primary bone lymphoma: a radiologic-pathologic series of 72 cases uncovering the diagnostic complexity of a rare and heterogeneous entity.",
       "abstract": "INTRODUCTION: Primary bone lymphoma (PBL) is a rare extranodal lymphoma accounting for approximately 7% of malignant primary bone tumors. It typically presents with nonspecific features, frequently resulting in diagnostic delay and inappropriate initial management. MATERIAL AND METHODS: We retrospectively analyzed the characteristics of 72 patients diagnosed with PBL between 1966 and 2025 at a tertiary referral center in Spain. RESULTS: Diffuse large B-cell lymphoma (DLBCL) was the predominant histological subtype. The most frequent presentations included persistent bone pain, pathological fractures, and palpable masses, often associated with elevated LDH levels or underlying immunosuppressive conditions. Imaging findings were heterogeneous, ranging from permeative lytic patterns to sclerotic lesions, occasionally resembling osteomyelitis or other aggressive neoplasms. MRI proved essential for early detection, accurate assessment of bone marrow infiltration, and soft tissue extension, while CT played a key role in biopsy guidance. FDG PET/CT was critical for staging, restaging, and treatment response evaluation. Diagnostic precision depended heavily on close clinico-radiological-pathological correlation, particularly in cases with atypical or misleading imaging patterns. Most patients were treated with combined chemotherapy and radiotherapy, which was associated with high response rates and favorable survival outcomes. CONCLUSION: PBL is an uncommon but potentially curable malignancy. Early diagnosis requires a high index of suspicion and systematic integration of clinical data, laboratory findings, and multimodal imaging. PBL should be systematically considered in patients presenting with aggressive-appearing bone lesions, pathological fractures, or unexplained marrow replacement, especially in the presence of elevated LDH levels or immunosuppression, in order to prevent diagnostic delay and optimize outcomes.",
@@ -328,64 +391,6 @@
       },
       "tier": 3,
       "abstract_tr": "GİRİŞ: Primer kemik lenfoması (PBL), malign primer kemik tümörlerinin yaklaşık %7'sini oluşturan nadir bir ekstranodal lenfomadır. Tipik olarak spesifik olmayan özelliklerle ortaya çıkar ve sıklıkla tanısal gecikmeye ve uygunsuz başlangıç ​​tedavisine neden olur. GEREÇ VE YÖNTEMLER: 1966 ile 2025 yılları arasında İspanya'daki üçüncü basamak bir sevk merkezinde PDÖ tanısı alan 72 hastanın özelliklerini retrospektif olarak analiz ettik. BULGULAR: Diffüz büyük B hücreli lenfoma (DLBCL) baskın histolojik alt tipti. En sık görülen belirtiler arasında kalıcı kemik ağrısı, patolojik kırıklar ve genellikle yüksek LDH seviyeleri veya altta yatan immünosüpresif durumlarla ilişkili ele gelen kitleler yer alıyordu. Görüntüleme bulguları, geçirgen litik paternlerden sklerotik lezyonlara kadar değişen, zaman zaman osteomiyelit veya diğer agresif neoplazmlara benzeyen heterojendi. MRI'nın erken teşhis, kemik iliği infiltrasyonunun ve yumuşak doku uzantısının doğru değerlendirilmesi için gerekli olduğu kanıtlanırken, BT biyopsi rehberliğinde önemli bir rol oynadı. FDG PET/CT evreleme, yeniden evreleme ve tedaviye yanıt değerlendirmesi açısından kritik öneme sahipti. Tanısal kesinlik, özellikle atipik veya yanıltıcı görüntüleme modellerine sahip vakalarda, büyük ölçüde yakın klinik-radyolojik-patolojik korelasyona bağlıydı. Hastaların çoğu, yüksek yanıt oranları ve olumlu hayatta kalma sonuçlarıyla ilişkilendirilen kombine kemoterapi ve radyoterapi ile tedavi edildi. SONUÇ: PBL nadir görülen ancak tedavi edilebilir bir malignitedir. Erken tanı, yüksek şüphe indeksini ve klinik veriler, laboratuvar bulguları ve multimodal görüntülemenin sistematik entegrasyonunu gerektirir. Agresif görünen kemik lezyonları, patolojik kırıklar veya açıklanamayan kemik iliği replasmanı ile başvuran hastalarda, özellikle yüksek LDH düzeyleri veya immünsüpresyonun varlığında tanısal gecikmeyi önlemek ve sonuçları optimize etmek için PBL sistematik olarak düşünülmelidir."
-    },
-    {
-      "pmid": "42541555",
-      "title": "Abbreviated versus comprehensive MRI protocols in the surveillance of branch-duct intraductal papillary mucinous neoplasms (BD-IPMN): an exploratory analysis of inter-reader agreement, management concordance, time and cost savings.",
-      "abstract": "BACKGROUND AND AIM: To compare abbreviated (APs) and comprehensive (CP) MRI protocols for branch-duct intraductal papillary mucinous neoplasms (BD-IPMN) surveillance in terms of imaging findings, management recommendations and inter-reader agreement across readers with different levels of expertise, while assessing potential time and cost savings. METHODS: This single-center retrospective study included patients with BD-IPMN undergoing baseline and follow-up MRI between January 2018 and April 2024. The CP included axial and coronal T2WI, axial fat-saturated T1-weighted images before and after contrast injection (T1WI), 2D- and 3D-MRCP and DWI images. Two APs were obtained from CP follow-up examinations: AP with DWI consisted of axial and coronal T2WI, 2D- 3D-MRCP, axial fat-saturated T1WI and DWI; AP without DWI consisted of the same AP sequences excluding DWI. A senior radiologist (> 20 years of experience in pancreatic imaging) and a junior radiologist (4th-year-radiology resident), blinded to subsequent examinations, independently analysed each protocol according to Kyoto guidelines and management recommendations. Inter-reader and inter-protocol agreement were analysed using Cohen's and Fleiss' Kappa. Acquisition times and resource-saving were compared using national reimbursement rates (p < 0.05 statistically significant). RESULTS: Overall, 40 patients (25 women and 15 men) with a median age of 67 years (range 48-87) were included. No statistically significant differences were observed among the 3 protocols in identifying worrisome features, including high-risk stigmata, cyst size, main pancreatic duct dilation and mural nodules. The inter-protocol agreement was almost perfect (Fleiss' Kappa = 0.82). Substantial inter-reader agreement (Cohen's Kappa > 0.6) was observed for all protocols, with almost perfect agreement (Cohen's Kappa > 0.8) in some instances. APs demonstrated up to 48% reduction in acquisition time and a 27.4% resource-saving compared to CP. The addition of DWI did not significantly improve inter-reader and inter-protocol agreement or influence management recommendations. CONCLUSIONS: Abbreviated protocols, particularly without DWI, showed substantial agreement with CP and similar management recommendations, supporting their feasibility as resource-saving alternatives for BD-IPMN surveillance, even among less experienced radiologists.",
-      "journal": "Abdom Radiol (NY)",
-      "date": "2026-08-01",
-      "authors": [
-        "Reca C",
-        "Bonifacio C",
-        "Levi R",
-        "Laghi A"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1007/s00261-026-05705-9",
-      "journal_tier": 2,
-      "impact": 2.3,
-      "score": 60.0,
-      "score_parts": {
-        "journal": 60,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": "ARKA PLAN VE AMAÇ: Dal kanalı intraduktal papiller müsinöz neoplazmların (BD-IPMN) gözetimi için kısaltılmış (AP'ler) ve kapsamlı (CP) MRI protokollerini, görüntüleme bulguları, yönetim önerileri ve farklı uzmanlık düzeylerine sahip okuyucular arasında okuyucular arası anlaşma açısından karşılaştırmak ve aynı zamanda potansiyel zaman ve maliyet tasarruflarını değerlendirmek. YÖNTEMLER: Bu tek merkezli retrospektif çalışmaya, Ocak 2018 ile Nisan 2024 arasında başlangıç ​​ve takip MR'ı çekilen BD-IPMN hastaları dahil edildi. CP, aksiyal ve koronal T2A, kontrast enjeksiyonu öncesi ve sonrası aksiyal yağa doymuş T1 ağırlıklı görüntüler (T1WI), 2D- ve 3D-MRCP ve DAG görüntülerini içeriyordu. CP takip muayenelerinden iki AP elde edildi: Aksiyel ve koronal T2WI, 2D-3D-MRCP, aksiyal yağla doymuş T1WI ve DAI'den oluşan DAG ile AP; DWI'sız AP, DWI hariç aynı AP dizilerinden oluşuyordu. Sonraki muayenelerden haberi olmayan kıdemli bir radyolog (pankreatik görüntülemede >20 yıllık deneyim) ve kıdemsiz bir radyolog (4. yıl radyoloji asistanı), her protokolü Kyoto kılavuzlarına ve yönetim tavsiyelerine göre bağımsız olarak analiz etti. Okuyucular arası ve protokoller arası anlaşma Cohen ve Fleiss' Kappa kullanılarak analiz edildi. Edinme süreleri ve kaynak tasarrufu, ulusal geri ödeme oranları kullanılarak karşılaştırıldı (p < 0,05 istatistiksel olarak anlamlı). BULGULAR: Toplamda, ortalama yaşı 67 (48-87 aralığı) olan 40 hasta (25 kadın ve 15 erkek) dahil edildi. Yüksek riskli stigmata, kist boyutu, ana pankreatik kanal genişlemesi ve mural nodüller dahil olmak üzere endişe verici özelliklerin belirlenmesinde 3 protokol arasında istatistiksel olarak anlamlı bir fark gözlenmedi. Protokoller arası uyum neredeyse mükemmeldi (Fleiss' Kappa = 0.82). Tüm protokoller için okuyucular arası önemli bir uyum (Cohen's Kappa > 0,6) gözlendi ve bazı durumlarda neredeyse mükemmel bir uyum (Cohen's Kappa > 0,8) görüldü. AP'ler, CP'ye kıyasla edinme süresinde %48'e varan azalma ve %27,4 kaynak tasarrufu gösterdi. DWI'nin eklenmesi, okuyucular arası ve protokoller arası anlaşmayı önemli ölçüde iyileştirmedi veya yönetim önerilerini etkilemedi. SONUÇLAR: Özellikle DWI içermeyen kısaltılmış protokoller, CP ve benzer yönetim önerileriyle önemli ölçüde uyum gösterdi ve daha az deneyimli radyologlar arasında bile BD-IPMN sürveyansı için kaynak tasarrufu sağlayan alternatifler olarak fizibilitelerini destekledi."
-    },
-    {
-      "pmid": "42541552",
-      "title": "Assessment of vertebral bone quality in women with type 2 diabetes mellitus using digital tomosynthesis.",
-      "abstract": "OBJECTIVES: Type 2 diabetes mellitus (T2DM) increases vertebral fracture risk. Despite normal (or higher) bone mineral density (BMD), patients with T2DM typically have a lower trabecular bone score (TBS), indicating degraded bone microstructure in T2DM. However, assessment of vertebral microstructure using TBS remains limited because it is based on 2D DXA imaging. Due to high in-plane resolution and 3D imaging capabilities, vertebral microstructure and geometry can be quantified using digital tomosynthesis (DTS) imaging. This study aimed to examine the differences in DTS-derived vertebral parameters between T2DM patients and controls without T2DM (NT2DM). METHODS: Fifty postmenopausal women with T2DM and 54 controls were recruited. Lumbar spine BMD and trabecular bone score (TBS) were calculated from DXA images. Microstructural (fractal dimension, lacunarity, scale-dependent lacunarity, anisotropy, and line fraction deviation) and geometrical (vertebral area and width) parameters were calculated from DTS images for T12 and L1 vertebrae. Group differences were examined within the framework of generalized linear models. RESULTS: T2DM and NT2DM were different in race (p < 0.001) but not in age or BMI. T2DM had higher BMD than NT2DM (p < 0.02), but the difference was not present after adjustment for demographic variables (age, BMI, and race) (p > 0.1). T2DM had lower vertebral area (p < 0.002), higher anisotropy (p < 0.03), and marginally lower lacunarity (p = 0.063) as assessed by DTS, even after adjusting for demographic variables. CONCLUSIONS: DTS imaging of vertebrae reveals distinct bone size and microstructure characteristics in patients with T2DM, and thus may be clinically useful to explain increased fracture risk in T2DM beyond DXA.",
-      "journal": "Skeletal Radiol",
-      "date": "2026-08-01",
-      "authors": [
-        "Yadav RN",
-        "Oravec DJ",
-        "Drost J",
-        "Warner E",
-        "Flynn MJ",
-        "Divine GW",
-        "Rao SD",
-        "Yeni YN"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1007/s00256-026-05321-0",
-      "journal_tier": 2,
-      "impact": 2.0,
-      "score": 60.0,
-      "score_parts": {
-        "journal": 60,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": "AMAÇ: Tip 2 diyabet (T2DM) vertebral kırık riskini artırmaktadır. Normal (veya daha yüksek) kemik mineral yoğunluğuna (BMD) rağmen, T2DM'li hastalarda tipik olarak daha düşük bir trabeküler kemik skoru (TBS) vardır, bu da T2DM'de kemik mikro yapısının bozulduğunu gösterir. Ancak TBS kullanılarak vertebral mikroyapının değerlendirilmesi, 2D DXA görüntülemeye dayalı olması nedeniyle sınırlı kalmaktadır. Yüksek düzlem içi çözünürlük ve 3 boyutlu görüntüleme yetenekleri nedeniyle vertebral mikro yapı ve geometri, dijital tomosentez (DTS) görüntüleme kullanılarak ölçülebilir. Bu çalışma, T2DM hastaları ile T2DM olmayan kontroller (NT2DM) arasında DTS'den türetilen vertebral parametrelerdeki farklılıkları incelemeyi amaçladı. YÖNTEMLER: T2DM'li 50 postmenopozal kadın ve 54 kontrol çalışmaya alındı. Lomber omurga KMY'si ve trabeküler kemik skoru (TBS) DXA görüntülerinden hesaplandı. T12 ve L1 omurları için DTS görüntülerinden mikroyapısal (fraktal boyut, lacunarite, ölçeğe bağlı lacunarite, anizotropi ve çizgi fraksiyonu sapması) ve geometrik (vertebral alan ve genişlik) parametreler hesaplandı. Grup farklılıkları genelleştirilmiş doğrusal modeller çerçevesinde incelenmiştir. BULGULAR: T2DM ve NT2DM ırk açısından farklıydı (p < 0.001), ancak yaş veya BMI açısından farklı değildi. T2DM, NT2DM'den daha yüksek BMD'ye sahipti (p < 0,02), ancak demografik değişkenler (yaş, BMI ve ırk) için düzeltmeler yapıldıktan sonra fark mevcut değildi (p > 0,1). T2DM, demografik değişkenler için düzeltmeler yapıldıktan sonra bile DTS ile değerlendirildiği üzere daha düşük vertebral alana (p < 0,002), daha yüksek anizotropiye (p < 0,03) ve marjinal olarak daha düşük lakünerliğe (p = 0,063) sahipti. SONUÇ: Omurganın DTS görüntülemesi, T2DM'li hastalarda farklı kemik boyutu ve mikroyapı özelliklerini ortaya koymaktadır ve bu nedenle, DXA'nın ötesinde T2DM'de artan kırık riskini açıklamak için klinik olarak yararlı olabilir."
     },
     {
       "pmid": "42542176",
@@ -419,7 +424,7 @@
         "recency": 0.0
       },
       "tier": 3,
-      "abstract_tr": "Stereo-elektroensefalografi uygulanan 59 ilaca dirençli epilepsi hastasında, 80-250 Hz yüksek frekanslı salınım (HFO-R'ler) oranları ile standart nöropsikolojik skorlar arasındaki ilişkileri değerlendirdik. Ayrıca yerel HFO-R'lerin, önemli HFO-R-bilişsel skor ilişkilerini gösteren beyin bölgeleri arasındaki fonksiyonel bağlantıyı nasıl modüle ettiğini de ölçtük. Kortikal HFO-R'lerdeki bölgesel çeşitliliğin alana özgü nöropsikolojik performansla ilişkili olduğunu varsaydık. HFO-R'leri epileptojenik ve lezyonel korteksler hariç 6048 gri madde kanalında analiz ettik. Dinlenme durumundaki HFO-R'ler, sırasıyla HFO-R'lerin sağda daha yüksek olduğu alt frontal ve supramarjinal giruslar ve sol tarafta daha yüksek olduğu superior frontal girus hariç, sol ve sağ hemisferik homologlar arasında karşılaştırılabilirdi. Wechsler skalasındaki puanlar, görsel uzaysal hariç sağ medial oksipital bölgedeki HFO-R'lerle pozitif yönde, işlem hızı hariç sol insuladaki HFO-R'lerle negatif yönde değişkenlik gösterdi. Sol alt temporal girustaki HFO-R'ler, Woodcock-Johnson testlerinin hesaplama, pasaj anlama ve heceleme puanlarıyla negatif ilişkiliyken, bazı sağ hemisferik parsellerde bu puanların pozitif ilişkileri görüldü. Bellek ve Öğrenmenin Geniş Kapsamlı Değerlendirmeleri için, sol parahipokampal ve sağ medial oksipital girustaki HFO-R'ler çoklu alt skorlarla pozitif olarak ortak değişkenlik göstermiştir. Sağ yarıkürede daha yüksek oranda pozitif HFO-R-bilişsel puan ilişkileri (%81 vs %37, p<0,001) ve HFO ile ilişkili fonksiyonel bağlantı tarafından oluşturulan ağlarda yalnızca sağ taraftaki parseller arasında kendi kendine bağlantıların ve ara bağlantıların varlığıyla hemisferik asimetri kaydedildi. Bulgularımız HFO'ların insan bilişinde daha geniş bir rolünü destekliyor, uzun menzilli sinirsel bağlantının HFO-R'ler tarafından modülasyonunu gösteriyor ve bireysel nöropsikolojik alanların nörofizyolojisine yönelik araştırmalar için bir çerçeve sağlıyor."
+      "abstract_tr": "Stereo-elektroensefalografi uygulanan 59 ilaca dirençli epilepsi hastasında, 80-250 Hz yüksek frekanslı salınım (HFO-R'ler) oranları ile standart nöropsikolojik skorlar arasındaki ilişkileri değerlendirdik. Ayrıca yerel HFO-R'lerin, önemli HFO-R-bilişsel puan ilişkilerini gösteren beyin bölgeleri arasındaki fonksiyonel bağlantıyı nasıl modüle ettiğini de ölçtük. Kortikal HFO-R'lerdeki bölgesel çeşitliliğin alana özgü nöropsikolojik performansla ilişkili olduğunu varsaydık. HFO-R'leri epileptojenik ve lezyonel korteksler hariç 6048 gri madde kanalında analiz ettik. Dinlenme durumundaki HFO-R'ler, sırasıyla HFO-R'lerin sağda daha yüksek olduğu alt frontal ve supramarjinal giruslar ve sol tarafta daha yüksek olduğu superior frontal girus hariç, sol ve sağ hemisferik homologlar arasında karşılaştırılabilirdi. Wechsler skalasındaki puanlar, görsel uzaysal hariç sağ medial oksipital bölgedeki HFO-R'lerle pozitif yönde, işlem hızı hariç sol insuladaki HFO-R'lerle negatif yönde değişkenlik gösterdi. Sol alt temporal girustaki HFO-R'ler, Woodcock-Johnson testlerinin hesaplama, pasaj anlama ve heceleme puanlarıyla negatif ilişkiliyken, bazı sağ hemisferik parsellerde bu puanların pozitif ilişkileri görüldü. Bellek ve Öğrenmenin Geniş Kapsamlı Değerlendirmeleri için, sol parahipokampal ve sağ medial oksipital girustaki HFO-R'ler çoklu alt skorlarla pozitif olarak ortak değişkenlik göstermiştir. Sağ yarıkürede daha yüksek oranda pozitif HFO-R-bilişsel puan ilişkileri (%81 vs %37, p<0,001) ve HFO ile ilişkili fonksiyonel bağlantı tarafından oluşturulan ağlarda yalnızca sağ taraftaki parseller arasında kendi kendine bağlantıların ve ara bağlantıların varlığıyla hemisferik asimetri kaydedildi. Bulgularımız HFO'ların insan bilişinde daha geniş bir rolünü destekliyor, uzun menzilli sinirsel bağlantının HFO-R'ler tarafından modülasyonunu gösteriyor ve bireysel nöropsikolojik alanların nörofizyolojisine yönelik araştırmalar için bir çerçeve sağlıyor."
     },
     {
       "pmid": "42541996",
@@ -451,26 +456,23 @@
       "abstract_tr": "AMAÇ: Lokal ileri nazofaringeal karsinomda (LANPC) indüksiyon kemoimmünoterapi sonrası erken tam yanıtı (CR) öngörmek için tedavi öncesi multiparametrik MRI tabanlı habitat radyomik nomogramını geliştirmek ve harici olarak doğrulamak. MATERYAL VE YÖNTEMLER: Bu iki merkezli retrospektif çalışma, Ocak 2021 ile Ocak 2025 arasında indüksiyon kemoimmünoterapi ile tedavi edilen 435 LANPC hastasını içeriyordu. Guangxi Tıp Üniversitesi Kanser Hastanesi'ndeki (GXMUCH) hastalar, eğitim (n = 195) ve dahili doğrulama (n = 49) kohortlarına ve Guangxi Medical İlk Bağlı Hastanesindeki hastalara ayrıldı. Üniversite (FAH-GXMU) bağımsız bir harici test grubu oluşturdu (n = 191). Tedavi öncesi T1 ağırlıklı, yağ baskılanmış T2 ağırlıklı ve kontrastlı T1 ağırlıklı görüntüler analiz edildi. Voksel açısından çok parametreli MRI özellikleri, habitat alt bölgeleri oluşturmak için kümelendi. Geleneksel radyomikler, habitat radyomikleri, birleşik radyomikler ve radyomik nomogram modelleri AUC, kalibrasyon, karar eğrisi analizi ve DeLong testi kullanılarak geliştirildi ve değerlendirildi. BULGULAR: Üç kohorttaki sırasıyla 51, 11 ve 56 hastada erken CR elde edildi. Habitat radyomikleri, harici test AUC'sinin 0,735'ten 0,821'e yükselmesiyle, geleneksel tüm tümör radyomiklerinden daha iyi performans gösterdi. Kombine radyomik modeli ve radyomik nomogramı, sırasıyla 0,827 ve 0,840'lık harici test AUC'lerine ulaştı. Nomogram, üç grupta en yüksek sayısal AUC'leri verdi (sırasıyla 0,961, 0,888 ve 0,840). SONUÇ: Tedavi öncesi multiparametrik MRI bazlı habitat radyomikleri, LANPC'de indüksiyon kemoimmünoterapi sonrası erken CR tahmini için geleneksel tüm tümör radyomiklerinin ötesinde ek öngörücü bilgiler sağladı. Radyomik nomogram, bireyselleştirilmiş yanıt sınıflandırması için klinik olarak yorumlanabilir bir araç olarak hizmet edebilir, ancak ileriye dönük çok merkezli doğrulama garanti edilir."
     },
     {
-      "pmid": "42538818",
-      "title": "From Shadows to Signals: Exploring the Strengths and Limitations of AI in Breast Cancer Lesion Detection on Screening Mammograms Compared to Radiologists and Radiology Trainees.",
-      "abstract": "OBJECTIVES: Breast cancer screening with mammography reduces mortality, but interpretation errors persist. While artificial intelligence (AI) shows promise, most studies focus on case-level accuracy and overlook lesion-level performance. This study evaluated the AI (GMIC+CLAHE) model against radiologists and radiology trainees, considering breast density and lesion characteristics. METHODS: Nine BREAST test sets of screening digital mammograms (540 cases:179 cancer, 361 normal) were analysed. AI performance was compared with 17 radiologists and 26 trainees. Case- and lesion-level performance were assessed across breast density, lesion type, and size. AI malignancy scores were dichotomised using Youden's index. Sensitivity, specificity, ROC AUC, lesion localisation, and odds ratios (ORs) were calculated. RESULTS: AI achieved higher case-level AUC (0.974) than radiologists (0.82±0.06;P=0.01) and trainees (0.74±0.05;P<0.0001) across breast densities. At lesion level, AI matched radiologists and outperformed trainees (OR = 1.6;P=0.03), with lesion sensitivities of 66.3% (AI), 67.0% (radiologists), and 55.0% (trainees). AI also outperformed trainees in detecting mixed-type lesions (75%-vs-55%;OR=2.4) and small lesions ≤15 mm (65.7%-vs-55%;OR=1.6). Architectural distortion had the highest miss rate (43.8%) whereas mixed-type lesions demonstrated the lowest miss rate (25.0%) by AI. CONCLUSION: AI demonstrated superior case-level accuracy compared with radiologists and trainees, but limitations in localising specific lesion types, supporting its role as an adjunct to human readers in screening and training. ADVANCES IN KNOWLEDGE: This study integrates case-and-lesion-level evaluation in different case characteristics, identifying key strengths and limitations for clinical implementation. Despite superior case-level accuracy, variability in lesion localisation across cancer types and sizes highlights important considerations for its integration into screening services.",
-      "journal": "Br J Radiol",
-      "date": "2026-07-31",
+      "pmid": "42541555",
+      "title": "Abbreviated versus comprehensive MRI protocols in the surveillance of branch-duct intraductal papillary mucinous neoplasms (BD-IPMN): an exploratory analysis of inter-reader agreement, management concordance, time and cost savings.",
+      "abstract": "BACKGROUND AND AIM: To compare abbreviated (APs) and comprehensive (CP) MRI protocols for branch-duct intraductal papillary mucinous neoplasms (BD-IPMN) surveillance in terms of imaging findings, management recommendations and inter-reader agreement across readers with different levels of expertise, while assessing potential time and cost savings. METHODS: This single-center retrospective study included patients with BD-IPMN undergoing baseline and follow-up MRI between January 2018 and April 2024. The CP included axial and coronal T2WI, axial fat-saturated T1-weighted images before and after contrast injection (T1WI), 2D- and 3D-MRCP and DWI images. Two APs were obtained from CP follow-up examinations: AP with DWI consisted of axial and coronal T2WI, 2D- 3D-MRCP, axial fat-saturated T1WI and DWI; AP without DWI consisted of the same AP sequences excluding DWI. A senior radiologist (> 20 years of experience in pancreatic imaging) and a junior radiologist (4th-year-radiology resident), blinded to subsequent examinations, independently analysed each protocol according to Kyoto guidelines and management recommendations. Inter-reader and inter-protocol agreement were analysed using Cohen's and Fleiss' Kappa. Acquisition times and resource-saving were compared using national reimbursement rates (p < 0.05 statistically significant). RESULTS: Overall, 40 patients (25 women and 15 men) with a median age of 67 years (range 48-87) were included. No statistically significant differences were observed among the 3 protocols in identifying worrisome features, including high-risk stigmata, cyst size, main pancreatic duct dilation and mural nodules. The inter-protocol agreement was almost perfect (Fleiss' Kappa = 0.82). Substantial inter-reader agreement (Cohen's Kappa > 0.6) was observed for all protocols, with almost perfect agreement (Cohen's Kappa > 0.8) in some instances. APs demonstrated up to 48% reduction in acquisition time and a 27.4% resource-saving compared to CP. The addition of DWI did not significantly improve inter-reader and inter-protocol agreement or influence management recommendations. CONCLUSIONS: Abbreviated protocols, particularly without DWI, showed substantial agreement with CP and similar management recommendations, supporting their feasibility as resource-saving alternatives for BD-IPMN surveillance, even among less experienced radiologists.",
+      "journal": "Abdom Radiol (NY)",
+      "date": "2026-08-01",
       "authors": [
-        "Yun Trieu PD",
-        "Jiang Z",
-        "Tavakoli Taba S",
-        "Zeng M",
-        "Awwad DA",
-        "Barron ML",
-        "Lewis SJ"
+        "Reca C",
+        "Bonifacio C",
+        "Levi R",
+        "Laghi A"
       ],
       "pubtypes": [
         "Journal Article"
       ],
-      "doi": "10.1093/bjr/tqag177",
+      "doi": "10.1007/s00261-026-05705-9",
       "journal_tier": 2,
-      "impact": 2.8,
+      "impact": 2.3,
       "score": 60.0,
       "score_parts": {
         "journal": 60,
@@ -478,37 +480,30 @@
         "recency": 0.0
       },
       "tier": 3,
-      "abstract_tr": "AMAÇ: Mamografi ile meme kanseri taraması mortaliteyi azaltmaktadır ancak yorumlama hataları devam etmektedir. Yapay zeka (AI) umut verici olsa da çoğu çalışma vaka düzeyindeki doğruluğa odaklanıyor ve lezyon düzeyindeki performansı gözden kaçırıyor. Bu çalışmada meme yoğunluğu ve lezyon özellikleri dikkate alınarak AI (GMIC+CLAHE) modeli radyologlar ve radyoloji stajyerleri karşısında değerlendirildi. YÖNTEMLER: Tarama dijital mamogramlarından oluşan dokuz MEME testi seti (540 vaka: 179 kanser, 361 normal) analiz edildi. Yapay zeka performansı 17 radyolog ve 26 stajyer ile karşılaştırıldı. Vaka ve lezyon düzeyindeki performans meme yoğunluğu, lezyon tipi ve boyutuna göre değerlendirildi. AI malignite skorları Youden indeksi kullanılarak ikiye ayrıldı. Duyarlılık, özgüllük, ROC AUC, lezyon lokalizasyonu ve olasılık oranları (OR'ler) hesaplandı. SONUÇLAR: AI, meme yoğunlukları genelinde radyologlara (0,82±0,06;P=0,01) ve stajyerlere (0,74±0,05;P<0,0001) kıyasla daha yüksek vaka düzeyinde AUC (0,974) elde etti. Lezyon düzeyinde AI, %66,3 (AI), %67,0 (radyolog) ve %55,0 (stajyerler) lezyon hassasiyetleriyle radyologları ve daha iyi performans gösteren stajyerleri (OR = 1,6;P=0,03) eşleştirdi. AI ayrıca karışık tip lezyonları (%75-vs-%55;OR=2,4) ve ≤15 mm küçük lezyonları (%65,7-vs-%55;OR=1,6) saptamada stajyerlerden daha iyi performans gösterdi. Mimari çarpıklık en yüksek gözden kaçırma oranına (%43,8) sahipken, karma tip lezyonlar yapay zeka ile en düşük kaçırma oranını (%25,0) gösterdi. SONUÇ: Yapay zeka, radyologlar ve stajyerlerle karşılaştırıldığında vaka düzeyinde üstün doğruluk gösterdi, ancak belirli lezyon tiplerinin lokalizasyonunda sınırlamalar gösterdi, bu da onun tarama ve eğitimde insan okuyuculara yardımcı olma rolünü destekledi. BİLGİDEKİ GELİŞMELER: Bu çalışma, farklı vaka özelliklerinde vaka ve lezyon düzeyindeki değerlendirmeyi birleştirerek klinik uygulama için temel güçlü yönleri ve sınırlamaları tanımlar. Vaka düzeyindeki üstün doğruluğa rağmen, kanser türleri ve boyutlarına göre lezyon lokalizasyonundaki değişkenlik, bunun tarama hizmetlerine entegrasyonu açısından önemli hususları vurgulamaktadır."
+      "abstract_tr": "ARKA PLAN VE AMAÇ: Dal kanalı intraduktal papiller müsinöz neoplazmların (BD-IPMN) gözetimi için kısaltılmış (AP'ler) ve kapsamlı (CP) MRI protokollerini, görüntüleme bulguları, yönetim önerileri ve farklı uzmanlık düzeylerine sahip okuyucular arasında okuyucular arası anlaşma açısından karşılaştırmak ve aynı zamanda potansiyel zaman ve maliyet tasarruflarını değerlendirmek. YÖNTEMLER: Bu tek merkezli retrospektif çalışmaya, Ocak 2018 ile Nisan 2024 arasında başlangıç ​​ve takip MR'ı çekilen BD-IPMN hastaları dahil edildi. CP, aksiyal ve koronal T2A, kontrast enjeksiyonu öncesi ve sonrası aksiyal yağa doymuş T1 ağırlıklı görüntüler (T1WI), 2D- ve 3D-MRCP ve DAG görüntülerini içeriyordu. CP takip muayenelerinden iki AP elde edildi: Aksiyel ve koronal T2WI, 2D-3D-MRCP, aksiyal yağla doymuş T1WI ve DAI'den oluşan DAG ile AP; DWI'sız AP, DWI hariç aynı AP dizilerinden oluşuyordu. Sonraki muayenelerden haberi olmayan kıdemli bir radyolog (pankreatik görüntülemede >20 yıllık deneyim) ve kıdemsiz bir radyolog (4. yıl radyoloji asistanı), her protokolü Kyoto kılavuzlarına ve yönetim tavsiyelerine göre bağımsız olarak analiz etti. Okuyucular arası ve protokoller arası anlaşma Cohen ve Fleiss' Kappa kullanılarak analiz edildi. Edinme süreleri ve kaynak tasarrufu, ulusal geri ödeme oranları kullanılarak karşılaştırıldı (p < 0,05 istatistiksel olarak anlamlı). BULGULAR: Toplamda, ortalama yaşı 67 (48-87 aralığı) olan 40 hasta (25 kadın ve 15 erkek) dahil edildi. Yüksek riskli stigmata, kist boyutu, ana pankreatik kanal genişlemesi ve mural nodüller dahil olmak üzere endişe verici özelliklerin belirlenmesinde 3 protokol arasında istatistiksel olarak anlamlı bir fark gözlenmedi. Protokoller arası uyum neredeyse mükemmeldi (Fleiss' Kappa = 0,82). Tüm protokoller için okuyucular arası önemli bir uyum (Cohen's Kappa > 0,6) gözlendi ve bazı durumlarda neredeyse mükemmel bir uyum (Cohen's Kappa > 0,8) görüldü. AP'ler, CP'ye kıyasla edinme süresinde %48'e varan azalma ve %27,4 kaynak tasarrufu gösterdi. DWI'nin eklenmesi, okuyucular arası ve protokoller arası anlaşmayı önemli ölçüde iyileştirmedi veya yönetim önerilerini etkilemedi. SONUÇLAR: Özellikle DWI içermeyen kısaltılmış protokoller, CP ve benzer yönetim önerileriyle önemli ölçüde uyum gösterdi ve daha az deneyimli radyologlar arasında bile BD-IPMN sürveyansı için kaynak tasarrufu sağlayan alternatifler olarak fizibilitelerini destekledi."
     },
     {
-      "pmid": "42538573",
-      "title": "CEUS with VEGFR2-targeted microbubbles for monitoring of early immunotherapy effects in a colorectal cancer model.",
-      "abstract": "BACKGROUND: To evaluate contrast-enhanced ultrasound (CEUS) with VEGFR2-targeted microbubbles for longitudinal monitoring of early treatment effects during combined anti-PD-L1/anti-CTLA-4 immunotherapy in a murine colorectal cancer model. METHODS: Murine colorectal cancer allografts (CT26) were established subcutaneously in 29 female Balb/c mice (therapy n = 15; control n = 14). Baseline CEUS with VEGFR2-targeted microbubbles was performed on day 7. The therapy group received intraperitoneal anti-PD-L1 and anti-CTLA-4 antibodies between days 7-15; controls received sham treatment. Follow-up CEUS was performed on days 14 and 21. Tumor perfusion (WiAUC) and VEGFR2 binding (SI8min, SI10min) were quantified, and immunohistochemistry assessed CD8, Ki-67, TUNEL, CD31, and VEGFR2. RESULTS: At FU1, WiAUC was significantly lower in the therapy group compared with controls (4,029 ± 61 vs. 6,391 ± 412; p < 0.001), and remained significantly lower at FU2 (1,028 ± 27 vs. 2,049 ± 39; p < 0.001). VEGFR2-targeted microbubble binding was consistently lower under therapy. At FU1, SI8min was 407 ± 11 vs. 626 ± 13 and SI10min was 409 ± 10 vs. 634 ± 28 (both p < 0.001). At FU2, SI8min was 106 ± 6 vs. 207 ± 4 and SI10min was 107 ± 5 vs. 207 ± 4 (both p < 0.001). Immunohistochemistry confirmed higher apoptosis and tumor-infiltrating lymphocytes, and lower proliferation, microvascular density, and VEGFR2 expression in treated tumors (all p < 0.05). CONCLUSIONS: VEGFR2-targeted CEUS enabled longitudinal monitoring of early response to dual anti-PD-L1/anti-CTLA-4 immunotherapy in colorectal cancer. Treated tumors showed lower perfusion and VEGFR2-targeted binding, paralleled by reduced vessel density and VEGFR2 expression as well as increased CD8 infiltration and apoptosis. These findings support VEGFR2-targeted CEUS as a promising noninvasive imaging biomarker for monitoring early immunotherapy-associated vascular changes.",
-      "journal": "Cancer Imaging",
-      "date": "2026-07-31",
+      "pmid": "42541552",
+      "title": "Assessment of vertebral bone quality in women with type 2 diabetes mellitus using digital tomosynthesis.",
+      "abstract": "OBJECTIVES: Type 2 diabetes mellitus (T2DM) increases vertebral fracture risk. Despite normal (or higher) bone mineral density (BMD), patients with T2DM typically have a lower trabecular bone score (TBS), indicating degraded bone microstructure in T2DM. However, assessment of vertebral microstructure using TBS remains limited because it is based on 2D DXA imaging. Due to high in-plane resolution and 3D imaging capabilities, vertebral microstructure and geometry can be quantified using digital tomosynthesis (DTS) imaging. This study aimed to examine the differences in DTS-derived vertebral parameters between T2DM patients and controls without T2DM (NT2DM). METHODS: Fifty postmenopausal women with T2DM and 54 controls were recruited. Lumbar spine BMD and trabecular bone score (TBS) were calculated from DXA images. Microstructural (fractal dimension, lacunarity, scale-dependent lacunarity, anisotropy, and line fraction deviation) and geometrical (vertebral area and width) parameters were calculated from DTS images for T12 and L1 vertebrae. Group differences were examined within the framework of generalized linear models. RESULTS: T2DM and NT2DM were different in race (p < 0.001) but not in age or BMI. T2DM had higher BMD than NT2DM (p < 0.02), but the difference was not present after adjustment for demographic variables (age, BMI, and race) (p > 0.1). T2DM had lower vertebral area (p < 0.002), higher anisotropy (p < 0.03), and marginally lower lacunarity (p = 0.063) as assessed by DTS, even after adjusting for demographic variables. CONCLUSIONS: DTS imaging of vertebrae reveals distinct bone size and microstructure characteristics in patients with T2DM, and thus may be clinically useful to explain increased fracture risk in T2DM beyond DXA.",
+      "journal": "Skeletal Radiol",
+      "date": "2026-08-01",
       "authors": [
-        "Herr FL",
-        "Stock JK",
-        "Solms-Baruth VGZ",
-        "Blume LV",
-        "Kloiber-Langhorst S",
-        "Hirner-Eppeneder H",
-        "Stueckl J",
-        "Akla B",
-        "Ricke J",
-        "Geyer T",
-        "Kunz W",
-        "Heimer MM",
-        "Clevert DA",
-        "Antons MJ",
-        "Cyran CC"
+        "Yadav RN",
+        "Oravec DJ",
+        "Drost J",
+        "Warner E",
+        "Flynn MJ",
+        "Divine GW",
+        "Rao SD",
+        "Yeni YN"
       ],
       "pubtypes": [
         "Journal Article"
       ],
-      "doi": "10.1186/s40644-026-01101-0",
+      "doi": "10.1007/s00256-026-05321-0",
       "journal_tier": 2,
-      "impact": 4.9,
+      "impact": 2.0,
       "score": 60.0,
       "score_parts": {
         "journal": 60,
@@ -516,299 +511,153 @@
         "recency": 0.0
       },
       "tier": 3,
-      "abstract_tr": "AMAÇ: Fare kolorektal kanser modelinde kombine anti-PD-L1/anti-CTLA-4 immünoterapisi sırasında erken tedavi etkilerinin uzunlamasına izlenmesi için VEGFR2 hedefli mikrokabarcıklarla kontrastlı ultrasonu (CEUS) değerlendirmek. YÖNTEMLER: Murin kolorektal kanser allograftları (CT26), 29 dişi Balb/c faresinde deri altından oluşturuldu (tedavi n = 15; kontrol n = 14). VEGFR2 hedefli mikrokabarcıklar içeren başlangıç ​​CEUS'si 7. günde gerçekleştirildi. Terapi grubuna 7-15. günler arasında intraperitoneal anti-PD-L1 ve anti-CTLA-4 antikorları verildi; kontroller sahte tedavi gördü. Takip CEUS'si 14. ve 21. günlerde gerçekleştirildi. Tümör perfüzyonu (WiAUC) ve VEGFR2 bağlanması (SI8min, SI10min) ölçüldü ve immünohistokimya, CD8, Ki-67, TUNEL, CD31 ve VEGFR2'yi değerlendirdi. BULGULAR: FU1'de WiAUC, kontrollere kıyasla tedavi grubunda anlamlı derecede düşüktü (4,029 ± 61'e karşı 6,391 ± 412; p < 0,001) ve FU2'de anlamlı derecede düşük kaldı (1,028 ± 27'ye karşı 2,049 ± 39; p < 0,001). VEGFR2 hedefli mikrokabarcık bağlanması tedavi altında tutarlı bir şekilde daha düşüktü. FU1'de SI8min 407 ± 11 ve 626 ± 13 ve SI10min 409 ± 10 ve 634 ± 28 idi (her ikisi de p < 0,001). FU2'de SI8min 106 ± 6 ve 207 ± 4 ve SI10min 107 ± 5 ve 207 ± 4 idi (her ikisi de p < 0,001). İmmünohistokimya, tedavi edilen tümörlerde daha yüksek apoptoz ve tümör infiltre eden lenfositleri ve daha düşük proliferasyon, mikrovasküler yoğunluk ve VEGFR2 ekspresyonunu doğruladı (tümü p < 0.05). SONUÇLAR: VEGFR2 hedefli CEUS, kolorektal kanserde ikili anti-PD-L1/anti-CTLA-4 immünoterapisine erken yanıtın uzunlamasına izlenmesini sağladı. Tedavi edilen tümörler, azalmış damar yoğunluğu ve VEGFR2 ekspresyonunun yanı sıra artan CD8 infiltrasyonu ve apoptoz ile paralel olarak daha düşük perfüzyon ve VEGFR2 hedefli bağlanma gösterdi. Bu bulgular VEGFR2 hedefli CEUS'u erken immünoterapiyle ilişkili vasküler değişiklikleri izlemek için umut verici, invaziv olmayan bir görüntüleme biyobelirteç olarak desteklemektedir."
+      "abstract_tr": "AMAÇ: Tip 2 diyabet (T2DM) vertebral kırık riskini artırmaktadır. Normal (veya daha yüksek) kemik mineral yoğunluğuna (BMD) rağmen, T2DM'li hastalarda tipik olarak daha düşük bir trabeküler kemik skoru (TBS) vardır, bu da T2DM'de kemik mikro yapısının bozulduğunu gösterir. Ancak TBS kullanılarak vertebral mikroyapının değerlendirilmesi, 2D DXA görüntülemeye dayalı olması nedeniyle sınırlı kalmaktadır. Yüksek düzlem içi çözünürlük ve 3 boyutlu görüntüleme yetenekleri nedeniyle vertebral mikro yapı ve geometri, dijital tomosentez (DTS) görüntüleme kullanılarak ölçülebilir. Bu çalışma, T2DM hastaları ile T2DM olmayan kontroller (NT2DM) arasında DTS'den türetilen vertebral parametrelerdeki farklılıkları incelemeyi amaçladı. YÖNTEMLER: T2DM'li 50 postmenopozal kadın ve 54 kontrol çalışmaya alındı. Lomber omurga KMY'si ve trabeküler kemik skoru (TBS) DXA görüntülerinden hesaplandı. T12 ve L1 omurları için DTS görüntülerinden mikroyapısal (fraktal boyut, lacunarite, ölçeğe bağlı lacunarite, anizotropi ve çizgi fraksiyonu sapması) ve geometrik (vertebral alan ve genişlik) parametreler hesaplandı. Grup farklılıkları genelleştirilmiş doğrusal modeller çerçevesinde incelenmiştir. BULGULAR: T2DM ve NT2DM ırk açısından farklıydı (p < 0.001), ancak yaş veya BMI açısından farklı değildi. T2DM, NT2DM'den daha yüksek BMD'ye sahipti (p < 0,02), ancak demografik değişkenler (yaş, BMI ve ırk) için düzeltmeler yapıldıktan sonra fark mevcut değildi (p > 0,1). T2DM, demografik değişkenler için düzeltmeler yapıldıktan sonra bile DTS ile değerlendirildiği üzere daha düşük vertebral alana (p < 0,002), daha yüksek anizotropiye (p < 0,03) ve marjinal olarak daha düşük lakünerliğe (p = 0,063) sahipti. SONUÇ: Omurganın DTS görüntülemesi, T2DM'li hastalarda farklı kemik boyutu ve mikroyapı özelliklerini ortaya koymaktadır ve bu nedenle, DXA'nın ötesinde T2DM'de artan kırık riskini açıklamak için klinik olarak yararlı olabilir."
     },
     {
-      "pmid": "42538220",
-      "title": "GEMO: A Deep Learning Method for Brain Fiber Classification and Tract Segmentation Using Geometrical and Morphological Features.",
-      "abstract": "RATIONALE AND OBJECTIVES: Diffusion-weighted magnetic resonance imaging (dMRI) is often used to study brain structure. One of the important applications made possible by dMRI is streamline tractography that is utilized for structural connectivity evaluation and neurosurgical planning. Reliable localization of brain fibers can considerably enhance the outcome of these applications. In this study, a supervised deep learning approach entitled \"GEMO\" was proposed for fiber classification. MATERIALS AND METHODS: This approach benefits from GEometrical and MOrphological features in addition to the features extracted from a convolutional neural network for improving the final classification performance. Streamlines are transformed from three-dimensional coordinate space into two-dimensional color-encoded images using the \"xyz2RGB\" mapping method and are subsequently fed into a convolutional neural network for learning and classification. RESULTS: Our results demonstrate that incorporating morphological and geometric features of streamlines enhances the accuracy of the deep learning network in the classification of fibers in comparison with the case where no extracted features were employed. An individual analysis of these features further revealed that they can increase the network's accuracy to as high as 98.34%. GEMO demonstrated consistently higher performance across six segmentation accuracy metrics compared with other existing approaches. CONCLUSION: Our method performs the streamline classification from a whole brain tractogram, only focusing on each streamline's features, which include those provided from CNN in addition to geometric and morphologic features. GEMO does not need any structural images or preprocessing and outperforms the state-of-the-art segmentation methods. Moreover, it can facilitate further assessment of brain structures by providing automated white matter tract segmentations.",
-      "journal": "Acad Radiol",
-      "date": "2026-07-31",
+      "pmid": "42543126",
+      "title": "MRI-based oxygen extraction fraction mapping using qBOLD, QSM, and hybrid QSM-qBOLD methods: Methodological advances, validation, and clinical applications.",
+      "abstract": "Oxygen extraction fraction (OEF) is a physiological parameter reflecting the fraction of delivered arterial oxygen extracted by cerebral tissue, providing information complementary to perfusion, structural MRI, and conventional BOLD contrast. Positron emission tomography (PET) remains the reference standard for quantitative assessment of OEF and cerebral metabolic rate of oxygen (CMRO₂), but limited availability, radiotracer requirements, and operational complexity have motivated MRI-based alternatives. This review focuses on MRI-derived OEF mapping using quantitative BOLD (qBOLD), quantitative susceptibility mapping (QSM), hybrid QSM-qBOLD (QQ) methods, constrained qBOLD, Bayesian/prior-based reconstruction, and artificial-intelligence-assisted approaches. Classical qBOLD provides a model-based route for estimating oxygenation-related parameters from deoxyhemoglobin-induced signal decay, but remains limited by parameter degeneracy, noise sensitivity, and assumptions regarding venous blood volume, hematocrit, relaxation, and vascular geometry. QSM provides complementary susceptibility information from gradient-echo phase data; however, total susceptibility cannot independently distinguish heme-related venous deoxygenation from non-heme sources such as iron, myelin, calcification, or tissue composition. Hybrid QSM-qBOLD methods address this limitation by jointly using magnitude and susceptibility information to improve susceptibility-source separation and reduce unrealistic assumptions. Recent developments, including constrained qBOLD, temporal clustering, multi-echo complex QQ, Bayesian reconstruction, ANN-based inference, and QQ-NET, aim to improve stability, computational efficiency, and clinical practicality. Validation remains a central challenge because direct MRI-PET comparison studies are limited. Clinical applications are most promising in disorders where oxygen delivery, extraction, and metabolism become uncoupled.",
+      "journal": "Magn Reson Imaging",
+      "date": "2026-08-02",
       "authors": [
-        "Barati Shoorche A",
-        "Makkiabadi B",
-        "Farnia P",
-        "Raminfard S",
-        "Leemans A"
+        "Arun Raj T",
+        "Johnson A",
+        "Karthik K",
+        "Paul JS"
       ],
       "pubtypes": [
-        "Journal Article"
+        "Journal Article",
+        "Review"
       ],
-      "doi": "10.1016/j.acra.2026.07.024",
-      "journal_tier": 2,
-      "impact": 3.8,
-      "score": 60.0,
+      "doi": "10.1016/j.mri.2026.110763",
+      "journal_tier": 3,
+      "impact": 2.1,
+      "score": 45.0,
       "score_parts": {
-        "journal": 60,
-        "pubtype": 0,
+        "journal": 35,
+        "pubtype": 10,
         "recency": 0.0
       },
       "tier": 3,
-      "abstract_tr": "GEREKÇE VE HEDEFLER: Difüzyon ağırlıklı manyetik rezonans görüntüleme (dMRI) sıklıkla beyin yapısını incelemek için kullanılır. DMRI'nin mümkün kıldığı önemli uygulamalardan biri, yapısal bağlantı değerlendirmesi ve beyin cerrahisi planlaması için kullanılan düzene çekilmiş traktografidir. Beyin liflerinin güvenilir lokalizasyonu bu uygulamaların sonuçlarını önemli ölçüde artırabilir. Bu çalışmada, fiber sınıflandırması için \"GEMO\" adlı denetimli bir derin öğrenme yaklaşımı önerilmiştir. GEREÇ VE YÖNTEM: Bu yaklaşım, son sınıflandırma performansını iyileştirmek için evrişimli bir sinir ağından çıkarılan özelliklere ek olarak GEometrik ve Morfolojik özelliklerden de yararlanır. Akış çizgileri, \"xyz2RGB\" haritalama yöntemini kullanarak üç boyutlu koordinat uzayından iki boyutlu renk kodlu görüntülere dönüştürülür ve daha sonra öğrenme ve sınıflandırma için evrişimli bir sinir ağına beslenir. SONUÇLAR: Sonuçlarımız, akım çizgilerinin morfolojik ve geometrik özelliklerinin dahil edilmesinin, hiçbir ekstrakte özelliğin kullanılmadığı durumla karşılaştırıldığında, fiberlerin sınıflandırılmasında derin öğrenme ağının doğruluğunu arttırdığını göstermektedir. Bu özelliklerin bireysel analizi ayrıca, ağın doğruluğunu %98,34'e kadar artırabileceklerini ortaya çıkardı. GEMO, diğer mevcut yaklaşımlarla karşılaştırıldığında altı segmentasyon doğruluğu ölçümünde tutarlı bir şekilde daha yüksek performans sergiledi. SONUÇ: Yöntemimiz, geometrik ve morfolojik özelliklere ek olarak CNN'den sağlananları da içeren her bir akış çizgisinin özelliklerine odaklanarak, tüm beyin traktogramından akış çizgisi sınıflandırmasını gerçekleştirir. GEMO herhangi bir yapısal görüntüye veya ön işleme ihtiyaç duymaz ve en gelişmiş segmentasyon yöntemlerinden daha iyi performans gösterir. Dahası, otomatik beyaz madde yolu bölümlemeleri sağlayarak beyin yapılarının daha ileri değerlendirmesini kolaylaştırabilir."
+      "abstract_tr": "Oksijen ekstraksiyon fraksiyonu (OEF), serebral doku tarafından ekstrakte edilen, iletilen arteriyel oksijenin fraksiyonunu yansıtan, perfüzyon, yapısal MRI ve geleneksel BOLD kontrastını tamamlayıcı bilgiler sağlayan fizyolojik bir parametredir. Pozitron emisyon tomografisi (PET), OEF ve serebral metabolik oksijen hızının (CMRO₂) kantitatif değerlendirmesi için referans standart olmaya devam etmektedir, ancak sınırlı kullanılabilirlik, radyotraktör gereklilikleri ve operasyonel karmaşıklık, MRI tabanlı alternatifleri motive etmiştir. Bu inceleme, kantitatif BOLD (qBOLD), kantitatif duyarlılık haritalaması (QSM), hibrit QSM-qBOLD (QQ) yöntemleri, kısıtlı qBOLD, Bayesian/önceki tabanlı yeniden yapılandırma ve yapay zeka destekli yaklaşımlar kullanılarak MRI'dan türetilen OEF haritalamasına odaklanmaktadır. Klasik qBOLD, deoksihemoglobin kaynaklı sinyal bozulmasından oksijenasyonla ilişkili parametreleri tahmin etmek için model bazlı bir yol sağlar, ancak parametre dejenerasyonu, gürültü duyarlılığı ve venöz kan hacmi, hematokrit, gevşeme ve vasküler geometriye ilişkin varsayımlar nedeniyle sınırlı kalır. QSM, gradyan-eko fazı verilerinden tamamlayıcı duyarlılık bilgileri sağlar; ancak toplam duyarlılık heme ile ilişkili venöz deoksijenasyonu demir, miyelin, kalsifikasyon veya doku bileşimi gibi hem olmayan kaynaklardan bağımsız olarak ayırt edemez. Hibrit QSM-qBOLD yöntemleri, duyarlılık-kaynak ayrımını iyileştirmek ve gerçekçi olmayan varsayımları azaltmak için büyüklük ve duyarlılık bilgilerini ortaklaşa kullanarak bu sınırlamayı giderir. Kısıtlı qBOLD, zamansal kümeleme, çok yankılı karmaşık QQ, Bayes yeniden yapılandırması, YSA tabanlı çıkarım ve QQ-NET dahil olmak üzere son gelişmeler kararlılığı, hesaplama verimliliğini ve klinik pratikliği geliştirmeyi amaçlamaktadır. Doğrudan MRI-PET karşılaştırma çalışmaları sınırlı olduğundan doğrulama önemli bir zorluk olmaya devam etmektedir. Klinik uygulamalar en çok oksijen dağıtımının, ekstraksiyonunun ve metabolizmasının bağlantısız hale geldiği bozukluklarda umut vericidir."
     },
     {
-      "pmid": "42538219",
-      "title": "Predicting Response to Radiotherapy in Locally Advanced Cervical Squamous Cell Carcinoma Based on Multisequence MRI and Clinical Variables.",
-      "abstract": "RATIONALE AND OBJECTIVES: Locally advanced cervical cancer (LACC) remains a major cause of cancer-related mortality among women. We developed and tested a machine learning model integrating radiomic and clinical features to predict tumor shrinkage rate (TSR) after external beam radiotherapy (EBRT). MATERIALS AND METHODS: This study retrospectively enrolled 248 patients with histopathologically confirmed locally advanced cervical squamous cell carcinoma from April 2020 to April 2025. The cohort was split randomly into a training set (n = 173) and a validation set (n = 75) for internal testing. A deep learning model extracted deep features from T1-weighted, T2-weighted, T2-SPAIR, and diffusion-weighted imaging (DWI) pretreatment Magnetic resonance imaging (MRI) sequences. Fusion combined these radiomic features with clinical variables. Conditional weighted gradient boosting survival (CWGBS), eXtreme Gradient Boosting (XGBoost), gradient boosting survival tree (GBST), and random survival forest (RSF) models were trained on the fused dataset. Model performance metrics comprised area under the receiver operating characteristic curve Area Under the Curve (AUC), accuracy, sensitivity, and specificity. RESULTS: The machine-learning radiomics-clinical fusion models demonstrated robust performance in predicting TSR after EBRT. The AUCs of the four fusion models ranged from 0.824 to 0.863, outperforming models based solely on DWI (AUC 0.711-0.754), T1WI (AUC 0.681-0.737), T2WI (AUC 0.694-0.825), or T2-SPAIR (AUC 0.714-0.827). Among them, the RSF model achieved the highest accuracy (0.920), sensitivity (0.937), specificity (0.833), and AUC (0.863). CONCLUSION: A deep-learning radiomics-clinical model demonstrated robust capability for predicting TSR after EBRT in LACC. Early identification of high-risk patients supports individualized treatment planning.",
-      "journal": "Acad Radiol",
-      "date": "2026-07-31",
+      "pmid": "42543400",
+      "title": "Technology or Context? Interpreting the Association Between IVUS Guidance and Mortality After Peripheral Arterial Intervention.",
+      "abstract": "",
+      "journal": "Cardiovasc Intervent Radiol",
+      "date": "2026-08-02",
       "authors": [
-        "Zhuo Y",
-        "Wang Y",
-        "Li Y",
-        "Qiu L",
-        "Ke D",
-        "Luo F",
-        "Zhuo R",
-        "Zheng C",
-        "Xie Y"
+        "Munive AC",
+        "Otálvaro D",
+        "Torres Cortes DF",
+        "Mejía Núñez JA"
       ],
       "pubtypes": [
-        "Journal Article"
+        "Editorial"
       ],
-      "doi": "10.1016/j.acra.2026.07.015",
+      "doi": "10.1007/s00270-026-04560-x",
       "journal_tier": 2,
-      "impact": 3.8,
-      "score": 60.0,
+      "impact": 2.6,
+      "score": 35.0,
       "score_parts": {
         "journal": 60,
-        "pubtype": 0,
+        "pubtype": -25,
         "recency": 0.0
       },
       "tier": 3,
-      "abstract_tr": "GEREKÇE VE HEDEFLER: Lokal ileri rahim ağzı kanseri (LACC), kadınlar arasında kansere bağlı ölümlerin önemli bir nedeni olmaya devam etmektedir. Harici ışın radyoterapisinden (EBRT) sonra tümör büzülme oranını (TSR) tahmin etmek için radyomik ve klinik özellikleri entegre eden bir makine öğrenme modeli geliştirdik ve test ettik. MATERYALLER VE YÖNTEMLER: Bu çalışmaya, Nisan 2020'den Nisan 2025'e kadar histopatolojik olarak doğrulanmış lokal ileri servikal skuamöz hücreli karsinomu olan 248 hasta retrospektif olarak dahil edildi. Kohort, dahili testler için rastgele bir eğitim seti (n = 173) ve bir doğrulama seti (n = 75) olarak ikiye ayrıldı. Derin bir öğrenme modeli, T1 ağırlıklı, T2 ağırlıklı, T2-SPAIR ve difüzyon ağırlıklı görüntüleme (DWI) ön tedavi Manyetik rezonans görüntüleme (MRI) sekanslarından derin özellikler çıkardı. Füzyon bu radyomik özellikleri klinik değişkenlerle birleştirdi. Koşullu ağırlıklı gradyan artırıcı hayatta kalma (CWGBS), eXtreme Gradient Boosting (XGBoost), gradyan artırıcı hayatta kalma ağacı (GBST) ve rastgele hayatta kalma ormanı (RSF) modelleri, birleştirilmiş veri kümesi üzerinde eğitildi. Model performans metrikleri, alıcı çalışma karakteristik eğrisi altındaki alanı Eğri Altındaki Alan (AUC), doğruluk, hassasiyet ve özgüllükten oluşuyordu. SONUÇLAR: Makine öğrenimi radyomik-klinik füzyon modelleri, EBRT sonrası TSR'yi tahmin etmede güçlü performans gösterdi. Dört füzyon modelinin AUC'leri 0,824 ile 0,863 arasında değişmekte olup, yalnızca DWI (AUC 0,711-0,754), T1WI (AUC 0,681-0,737), T2WI (AUC 0,694-0,825) veya T2-SPAIR (AUC 0,714-0,827) temeline dayalı modellerden daha iyi performans göstermektedir. Bunların arasında RSF modeli en yüksek doğruluğu (0,920), duyarlılığı (0,937), özgüllüğü (0,833) ve AUC'yi (0,863) elde etti. SONUÇ: Derin öğrenmeli bir radyomik klinik modeli, LACC'de EBRT sonrası TSR'yi tahmin etme konusunda güçlü bir yetenek gösterdi. Yüksek riskli hastaların erken tespiti, bireyselleştirilmiş tedavi planlamasını destekler."
+      "abstract_tr": ""
     },
     {
-      "pmid": "42538218",
-      "title": "CT-Derived Extracellular Volume Fraction Enables Noninvasive Risk Stratification of Small Clear Cell Renal Cell Carcinoma.",
-      "abstract": "UNLABELLED: RATIONALE AND OBJECTIVES: To investigate whether extracellular volume fraction (ECV) derived from contrast-enhanced computed tomography (CT) differs across pathological grades of small clear cell renal cell carcinoma (ccRCC) and to evaluate its diagnostic value for identifying high-grade ccRCC. METHODS: This retrospective single-center study included 115 treatment-naïve patients with pathologically confirmed ccRCC ≤4 cm who underwent preoperative contrast-enhanced CT between January 2020 and October 2025. Tumors were classified as low-grade (ISUP grades 1-2, n = 84) or high-grade (ISUP grades 3-4, n = 31). CT-derived ECV was independently measured by two radiologists. Interobserver reproducibility, receiver operating characteristic analysis, multivariable logistic regression, and bootstrap internal validation were performed using SPSS, GraphPad Prism, and R software, with P < 0.05 considered statistically significant. RESULTS: ECV showed excellent interobserver reproducibility, with an ICC of 0.922 (95% CI, 0.892-0.945). High-grade ccRCC showed significantly lower ECV values than low-grade tumors (40.59 ± 12.52 vs 49.87 ± 13.45, P = 0.002). ECV showed modest-to-moderate diagnostic performance for identifying high-grade ccRCC, with an AUC of 0.69 (95% CI, 0.58-0.80). At the exploratory cutoff of 45.45%, sensitivity and specificity were 71.0% and 68.0%, respectively. After adjustment for sex, age, tumor size, and hematocrit, higher ECV (>45.45%) remained associated with a lower likelihood of high-grade ccRCC (OR = 0.36; 95% CI, 0.14-0.89; P = 0.028). Bootstrap internal validation demonstrated stable but modest diagnostic performance. CONCLUSION: CT-derived ECV is associated with pathological grade in small ccRCC and may serve as a reproducible complementary biomarker for preoperative risk stratification. External validation is warranted.",
-      "journal": "Acad Radiol",
-      "date": "2026-07-31",
+      "pmid": "42543128",
+      "title": "Ultra-high-field 5 T MRI for parotid gland assessment in Sjögren's syndrome: Improved image quality and reliable fat fraction quantification.",
+      "abstract": "BACKGROUND: Ultra-high-field 5 T MRI systems offers potential advantages in signal-to-noise ratio(SNR) for visualizing fine anatomical structures. This prospective study aimed to assess the feasibility of parotid gland imaging in patients with Sjögren's syndrome (SS) at 5 T MRI and to compare image quality and fat fraction (FF) with between 5 T and 3 T MRI. METHODS: Thirty-one patients with SS underwent MRI examinations on both 3 T and 5 T scanners from October 2024 to August 2025. The sequences included transverse T1-weighted (T1W) sequence, transverse T2-weighted (T2W) fat-only, transverse T2-weighted (T2W) water-only, 3D MR sialography(MRS), and sequences for FF quantification: Iterative decomposition of water and fat with echo asymmetry and least-squares estimation (IDEAL-IQ) at 3 T/Fat Analysis & Calculation Technique (FACT3d) at 5 T. Image quality was assessed subjectively using a five-point Likert scale and objectively by calculating signal-to-noise ratio (SNR), contrast-to-noise ratio (CNR) and the contrast ratio (CR). MRS sialography staging and parotid gland FF measurements were also performed. Statistical comparisons were made using paired t-tests, Wilcoxon signed-rank tests, Bland-Altman analysis, Pearson Correlation analysis and intraclass correlation coefficient (ICC). RESULTS: Compared with 3 T MRI, 5 T MRI demonstrated significantly superior subjective image quality scores, SNR, and CNR across all anatomical sequences (all p < 0.05), with the most pronounced improvement on T2WI. 5 T MRS showed a tendency to detect more advanced ductal changes and achieved significantly higher ductal CNR (all p < 0.05). FF measurements between 5 T and 3 T showed excellent agreement and a strong positive correlation (r = 0.981, p < 0.01). CONCLUSIONS: 5 T MRI provides markedly improved image quality for parotid gland assessment in SS while maintaining excellent consistency in FF quantification and sialography staging compared with 3 T MRI, highlighting its potential for detecting early-stage glandular changes.",
+      "journal": "Magn Reson Imaging",
+      "date": "2026-08-02",
       "authors": [
-        "Li Y",
-        "Xue L",
-        "Fan D",
-        "Wu Z",
-        "Guo D"
+        "Xu M",
+        "Bai X",
+        "Bai M",
+        "Li E",
+        "Yu D",
+        "Yan X",
+        "Zhou M",
+        "Qiao PG"
       ],
       "pubtypes": [
         "Journal Article"
       ],
-      "doi": "10.1016/j.acra.2026.07.010",
-      "journal_tier": 2,
-      "impact": 3.8,
-      "score": 60.0,
+      "doi": "10.1016/j.mri.2026.110767",
+      "journal_tier": 3,
+      "impact": 2.1,
+      "score": 35.0,
       "score_parts": {
-        "journal": 60,
+        "journal": 35,
         "pubtype": 0,
         "recency": 0.0
       },
       "tier": 3,
-      "abstract_tr": "ETİKETLENMEMİŞ: GEREKÇE VE HEDEFLER: Kontrastlı bilgisayarlı tomografiden (BT) elde edilen hücre dışı hacim fraksiyonunun (ECV), küçük berrak hücreli renal hücreli karsinomun (ccRCC) patolojik dereceleri arasında farklılık gösterip göstermediğini araştırmak ve yüksek dereceli ccRCC'yi tanımlamak için tanısal değerini değerlendirmek. YÖNTEMLER: Bu retrospektif tek merkezli çalışmaya, Ocak 2020 ile Ekim 2025 arasında preoperatif kontrastlı BT uygulanan, patolojik olarak doğrulanmış ccRCC ≤4 cm olan, daha önce tedavi görmemiş 115 hasta dahil edildi. Tümörler, düşük dereceli (ISUP dereceleri 1-2, n = 84) veya yüksek dereceli (ISUP dereceleri 3-4, n = 31) olarak sınıflandırıldı. CT'den türetilen ECV, iki radyolog tarafından bağımsız olarak ölçüldü. Gözlemciler arası tekrarlanabilirlik, alıcı işletim karakteristik analizi, çok değişkenli lojistik regresyon ve önyükleme dahili doğrulaması SPSS, GraphPad Prism ve R yazılımı kullanılarak yapıldı; P <0,05 istatistiksel olarak anlamlı kabul edildi. SONUÇLAR: ECV, 0,922'lik ICC (%95 GA, 0,892-0,945) ile mükemmel gözlemciler arası tekrarlanabilirlik gösterdi. Yüksek dereceli ccRCC, düşük dereceli tümörlere göre önemli ölçüde daha düşük ECV değerleri gösterdi (40,59 ± 12,52'ye karşı 49,87 ± 13,45, P = 0,002). ECV, 0,69'luk bir AUC (%95 GA, 0,58-0,80) ile yüksek dereceli ccRCC'yi tanımlamak için orta ila orta düzeyde tanısal performans gösterdi. %45,45'lik araştırma kesiminde duyarlılık ve özgüllük sırasıyla %71,0 ve %68,0 idi. Cinsiyet, yaş, tümör boyutu ve hematokrit için ayarlama yapıldıktan sonra, daha yüksek ECV (>%45,45) daha düşük yüksek dereceli ccRCC olasılığıyla ilişkili kaldı (OR = 0,36; %95 CI, 0,14-0,89; P = 0,028). Bootstrap dahili doğrulaması istikrarlı ancak mütevazı bir teşhis performansı gösterdi. SONUÇ: BT'den türetilen ECV, küçük ccRCC'de patolojik derece ile ilişkilidir ve ameliyat öncesi risk sınıflandırması için tekrarlanabilir bir tamamlayıcı biyobelirteç olarak hizmet edebilir. Harici doğrulama garanti edilir."
+      "abstract_tr": "AMAÇ: Ultra yüksek alanlı 5T MRI sistemleri, ince anatomik yapıların görselleştirilmesi için sinyal-gürültü oranında (SNR) potansiyel avantajlar sunar. Bu prospektif çalışma, Sjögren sendromlu (SS) hastalarda 5T MR'da parotis bezi görüntülemenin uygulanabilirliğini değerlendirmeyi ve 5T ile 3T MR arasındaki görüntü kalitesini ve yağ fraksiyonunu (FF) karşılaştırmayı amaçladı. YÖNTEMLER: SS'li 31 hastaya Ekim 2024'ten Ağustos 2025'e kadar hem 3T hem de 5T tarayıcılarda MRI incelemeleri yapıldı. Diziler, enine T1 ağırlıklı (T1W) sekansı, enine T2 ağırlıklı (T2W) yalnızca yağ, enine T2 ağırlıklı (T2W) yalnızca su, 3D MR sialografiyi (MRS) ve FF ölçümü için sekansları içeriyordu: 3T/Yağ Analizi ve Hesaplama Tekniği'nde (FACT3d) 5T'de eko asimetrisi ve en küçük kareler tahmini (IDEAL-IQ) ile su ve yağın yinelemeli ayrışması. Görüntü kalitesi, beş noktalı Likert ölçeği kullanılarak subjektif olarak ve sinyal-gürültü oranı (SNR), kontrast-gürültü oranı (CNR) ve kontrast oranı (CR) hesaplanarak objektif olarak değerlendirildi. MRS sialografi evrelemesi ve parotis bezi FF ölçümleri de yapıldı. İstatistiksel karşılaştırmalar eşleştirilmiş t-testleri, Wilcoxon işaretli sıra testleri, Bland-Altman analizi, Pearson Korelasyon analizi ve sınıf içi korelasyon katsayısı (ICC) kullanılarak yapıldı. SONUÇLAR: 3T MRI ile karşılaştırıldığında, 5T MRI tüm anatomik sekanslarda anlamlı derecede üstün subjektif görüntü kalitesi skorları, SNR ve CNR gösterdi (hepsi p<0,05), en belirgin iyileşme ise T2WI'daydı. 5T MRS, daha gelişmiş duktal değişiklikleri tespit etme eğilimi gösterdi ve önemli ölçüde daha yüksek duktal CNR elde etti (hepsi p<0.05). 5T ile 3T arasındaki FF ölçümleri mükemmel uyum ve güçlü bir pozitif korelasyon gösterdi (r=0,981, p<0,01). SONUÇLAR: 5T MRI, SS'de parotis bezi değerlendirmesi için önemli ölçüde iyileştirilmiş görüntü kalitesi sağlarken, 3T MRI ile karşılaştırıldığında FF ölçümü ve sialografi evrelemesinde mükemmel tutarlılığı korur ve erken evre glandüler değişiklikleri tespit etme potansiyelini vurgular."
     },
     {
-      "pmid": "42538217",
-      "title": "Institutional Contributions to the Radiology Literature: A Subspecialty Assessment.",
-      "abstract": "RATIONALE AND OBJECTIVES: Academic radiologists concentrate scholarly activity within defined subspecialties, producing heterogeneous institutional research profiles. The relationship between institutional bibliometric performance and National Institutes of Health (NIH) radiology funding across subspecialties is incompletely characterized. We evaluated institutional scholarly output across U.S. radiology subspecialties and its association with NIH funding. MATERIALS AND METHODS: This cross-sectional study analyzed U.S. academic radiology faculty using Scopus data (March 2026). Faculty were identified from institutional websites and categorized into eight subspecialties. Institutional publications, citations, and h-index values were aggregated and compared with 2025 NIH radiology funding rankings from the Blue Ridge Institute for Medical Research using Spearman's rank correlation. RESULTS: 121 institutions encompassing 6488 faculty were included. Scholarly output was highly concentrated: the 5 most productive institutions accounted for 21% of publications and 23% of citations, and the top 25 for 61% and 67%. NIH funding was even more concentrated (top 5, 30%; top 25, 81%). Mayo Clinic-Rochester led in total publications (18,197) and citations (774,565). Rankings by total publications, total citations, and summed faculty h-index were closely aligned, whereas per-faculty metrics highlighted a distinct group of smaller programs. Subspecialty leadership varied substantially. Among 62 matched institutions, total publications, summed faculty h-index, total citations, and faculty count correlated most strongly with NIH funding rank (ρ = 0.748, 0.745, 0.719, and 0.702, respectively; all p < 0.001). CONCLUSION: Radiology scholarly productivity is concentrated within a few dozen academic centers, with substantial subspecialty heterogeneity within institutions. Aggregate bibliometric indicators show moderate concordance with NIH funding, suggesting that cumulative scholarly output reflects institutional research strength.",
-      "journal": "Acad Radiol",
-      "date": "2026-07-31",
+      "pmid": "42543127",
+      "title": "Measuring the vibrational response of a high performance gradient coil.",
+      "abstract": "The vibrational response of a gradient coil in a magnetic resonance imaging system to a pulse of current gives rise to additional currents driven by the electromotive force generated by the motion of the gradient coil windings through the field. These vibration induced fields can be detected directly via a dynamic field camera and the frequency spectrum of these fields is characteristic of the gradient coil mechanical structure and its mounting. The following describes the measurement and analysis of these fields via this method. The measurements obtained herein are compared with the manufacturer's designated lockout frequencies, chosen to minimize the potential for excessive vibration and damage to the gradient coil based on prior measurements by the manufacturer during the initial system design.",
+      "journal": "Magn Reson Imaging",
+      "date": "2026-08-02",
       "authors": [
-        "Tafazolimoghadam A",
-        "Radmard M",
-        "Yousem DM",
-        "Nadgir R"
+        "Kelley DAC"
       ],
       "pubtypes": [
         "Journal Article"
       ],
-      "doi": "10.1016/j.acra.2026.06.065",
-      "journal_tier": 2,
-      "impact": 3.8,
-      "score": 60.0,
+      "doi": "10.1016/j.mri.2026.110766",
+      "journal_tier": 3,
+      "impact": 2.1,
+      "score": 35.0,
       "score_parts": {
-        "journal": 60,
+        "journal": 35,
         "pubtype": 0,
         "recency": 0.0
       },
       "tier": 3,
-      "abstract_tr": "GEREKÇE VE HEDEFLER: Akademik radyologlar, akademik faaliyetleri tanımlanmış alt uzmanlıklar dahilinde yoğunlaştırarak, heterojen kurumsal araştırma profilleri üretirler. Kurumsal bibliyometrik performans ile alt uzmanlıklar genelinde Ulusal Sağlık Enstitüleri (NIH) radyoloji finansmanı arasındaki ilişki tam olarak tanımlanmamıştır. ABD radyoloji alt uzmanlık alanlarındaki kurumsal bilimsel çıktıları ve bunun NIH finansmanıyla ilişkisini değerlendirdik. Gereçler ve Yöntemler: Bu kesitsel çalışma, Scopus verilerini (Mart 2026) kullanarak ABD akademik radyoloji fakültesini analiz etti. Fakülte kurumsal web sitelerinden belirlendi ve sekiz alt uzmanlığa ayrıldı. Kurumsal yayınlar, alıntılar ve h-endeksi değerleri bir araya getirildi ve Spearman sıralama korelasyonu kullanılarak Blue Ridge Tıbbi Araştırma Enstitüsü'nün 2025 NIH radyoloji finansmanı sıralamasıyla karşılaştırıldı. BULGULAR: 6488 fakülteyi kapsayan 121 kurum dahil edildi. Bilimsel çıktı oldukça yoğunlaşmıştı: En üretken 5 kurum, yayınların %21'ini ve alıntıların %23'ünü oluştururken, ilk 25 kurum, %61 ve %67'yi oluşturdu. NIH finansmanı daha da yoğunlaşmıştı (ilk 5, %30; ilk 25, %81). Mayo Clinic-Rochester toplam yayın sayısı (18.197) ve alıntı sayısı (774.565) bakımından lider konumdadır. Toplam yayınlara, toplam alıntılara ve özet fakülte h-indeksine göre sıralamalar birbirine yakındı, oysa fakülte başına ölçümler farklı bir grup daha küçük programa dikkat çekiyordu. Alt uzmanlık liderliği önemli ölçüde farklılık gösteriyordu. Eşleşen 62 kurum arasında toplam yayınlar, toplam fakülte h-indeksi, toplam alıntılar ve öğretim üyesi sayısı, NIH finansman sıralamasıyla en güçlü korelasyonu gösterdi (sırasıyla ρ = 0,748, 0,745, 0,719 ve 0,702; tümü p < 0,001). SONUÇ: Radyoloji akademik üretkenliği birkaç düzine akademik merkezde yoğunlaşmıştır ve kurumlar içinde önemli alt uzmanlık heterojenliği vardır. Toplu bibliyometrik göstergeler, NIH finansmanıyla orta derecede uyum gösteriyor; bu da kümülatif bilimsel çıktının kurumsal araştırma gücünü yansıttığını gösteriyor."
+      "abstract_tr": "Bir manyetik rezonans görüntüleme sistemindeki bir gradyan bobininin bir akım darbesine verdiği titreşim tepkisi, gradyan bobin sargılarının alan boyunca hareketi tarafından üretilen elektromotor kuvvet tarafından tahrik edilen ek akımlara yol açar. Titreşimin neden olduğu bu alanlar, bir dinamik alan kamerası aracılığıyla doğrudan tespit edilebilir ve bu alanların frekans spektrumu, gradyan bobinin mekanik yapısının ve montajının karakteristiğidir. Aşağıda bu alanların bu yöntemle ölçümü ve analizi açıklanmaktadır. Burada elde edilen ölçümler, üreticinin ilk sistem tasarımı sırasında yaptığı önceki ölçümlere dayalı olarak aşırı titreşim potansiyelini ve gradyan bobinindeki hasarı en aza indirmek için seçilen üreticinin belirlediği kilitleme frekanslarıyla karşılaştırılır."
     },
     {
-      "pmid": "42537892",
-      "title": "Phase of transcranial alternating current stimulation modulates reaction time in working memory tasks.",
-      "abstract": "BACKGROUND: Theta-frequency transcranial alternating current stimulation (tACS) over prefrontal cortex has been proposed to modulate working memory (WM), yet behavioral effects are often inconsistent. One potential source of variability is the tACS phase during stimulus presentation. OBJECTIVE: We tested whether behavioral performance during WM depends on the phase of prefrontal theta-tACS. METHODS: Twenty participants completed two sessions of prefrontal 4 Hz tACS in a within-subject design, receiving active and sham stimulation in separate sessions. Participants performed a visuospatial change detection task (CDT) and a verbal N-back task. Stimulation effects on overall accuracy and reaction time were analyzed. Subsequently, phase-specific analyses related stimulation phase at task-relevant stimulus presentation to behavioral performance using circular regression models. Preferred phases across participants were tested using Rayleigh tests. RESULTS: No significant overall effects of active compared with sham tACS on accuracy or reaction time were observed in either task. However, phase-specific analyses revealed stronger phase-dependent modulation of reaction time during active tACS compared with sham. In the CDT, this effect was present across difficulty levels, whereas in the N-back task it was observed only in the 3-back condition. No reliable phase-dependent effects were observed for accuracy. Preferred phases varied across participants and did not cluster around a common phase. CONCLUSIONS: Prefrontal theta-tACS can modulate WM performance in a phase-dependent manner even in the absence of average behavioral effects. The observation of phase-dependent reaction-time modulation across visuospatial and verbal WM tasks suggests that stimulation phase may be a relevant source of variability across cognitive domains.",
-      "journal": "Neuroimage",
-      "date": "2026-07-31",
+      "pmid": "42542220",
+      "title": "Free-breathing 3D pancreatic water T1 mapping using radial sampling technique: Comparison with conventional 2D technique.",
+      "abstract": "PURPOSE: This study aimed to compare the clinical feasibility and measurement performance of free-breathing three-dimensional (3D) pancreatic water T1 mapping between a 3D radial 6-point DIXON Look-Locker (3D-LL) technique and a conventional breath-hold two-dimensional Look-Locker (2D-LL) technique. METHODS: Six phantom syringes, comprising three organ-equivalent phantoms and three serial gadolinium dilution phantoms, were scanned using inversion recovery (IR), 2D-LL, and 3D-LL techniques. Pearson correlation coefficient and Bland-Altman analyses were used to assess measurement accuracy relative to IR and agreement between 2D-LL and 3D-LL, respectively. This prospective clinical study included 45 participants who underwent breath-hold 2D-LL T1 mapping and free-breathing 3D-LL pancreatic water T1 mapping. Two independent readers measured T1 values in the pancreatic head, body, and tail, and calculated whole-pancreas averages. Nonevaluable regions were recorded. T1 values were compared between the two techniques using the Wilcoxon signed-rank test. RESULTS: Phantom experiments demonstrated very strong correlations with IR for both techniques (2D-LL, r = 0.9998; 3D-LL, r = 0.9993), and Bland-Altman analysis revealed a small positive bias of 3D-LL over 2D-LL (+15.1 ms). A clinical study revealed coverage- or motion-related regional failures in six participants (13%) with 2D-LL, but in none with 3D-LL. The median T1 values in the pancreatic head (P = 0.25), body (P = 0.21), tail (P = 0.25), and whole-pancreas average (P = 0.17) did not differ significantly between the two techniques. CONCLUSION: The 3D-LL technique demonstrated accurate T1 quantification in phantoms, comparable to IR and 2D-LL. Clinical data indicate that the 3D-LL technique improved pancreatic measurability by avoiding coverage- and motion-related regional.",
+      "journal": "Magn Reson Imaging",
+      "date": "2026-08-01",
       "authors": [
-        "Dimmendaal J",
-        "Wang X",
-        "Dijkslag BJ",
-        "Huizinga LE",
-        "Maalderink S",
-        "Priest M",
-        "van Dam FJE",
-        "Span MM",
-        "Wischnewski M"
+        "Omata S",
+        "Noda Y",
+        "Ito A",
+        "Kawai N",
+        "Kaga T",
+        "Ohashi Y",
+        "Ido S",
+        "Kajita K",
+        "Ueda Y",
+        "Elhelaly AE",
+        "Imai H",
+        "Kato H",
+        "Matsuo M"
       ],
       "pubtypes": [
         "Journal Article"
       ],
-      "doi": "10.1016/j.neuroimage.2026.122157",
-      "journal_tier": 2,
-      "impact": 4.7,
-      "score": 60.0,
+      "doi": "10.1016/j.mri.2026.110764",
+      "journal_tier": 3,
+      "impact": 2.1,
+      "score": 35.0,
       "score_parts": {
-        "journal": 60,
+        "journal": 35,
         "pubtype": 0,
         "recency": 0.0
       },
       "tier": 3,
-      "abstract_tr": "ARKA PLAN: Prefrontal korteks üzerindeki teta frekanslı transkraniyal alternatif akım uyarımının (tACS), çalışma belleğini (WM) modüle etmesi önerilmiştir, ancak davranışsal etkiler genellikle tutarsızdır. Potansiyel bir değişkenlik kaynağı, uyaran sunumu sırasındaki tACS aşamasıdır. AMAÇ: WM sırasındaki davranışsal performansın prefrontal teta-tACS aşamasına bağlı olup olmadığını test ettik. YÖNTEMLER: Yirmi katılımcı, denek içi tasarımda iki oturumluk prefrontal 4 Hz tACS'yi tamamladı ve ayrı oturumlarda aktif ve sahte uyarı aldı. Katılımcılar görsel-uzamsal değişiklik tespit görevi (CDT) ve sözel N-geri görevini gerçekleştirdiler. Genel doğruluk ve reaksiyon süresi üzerindeki stimülasyon etkileri analiz edildi. Daha sonra, döngüsel regresyon modellerini kullanarak, görevle ilgili uyaran sunumundaki uyarım aşamasını davranışsal performansla ilişkilendiren faza özgü analizler yapılır. Katılımcılar arasında tercih edilen aşamalar Rayleigh testleri kullanılarak test edildi. SONUÇLAR: Her iki görevde de aktifin sahte tACS ile karşılaştırıldığında doğruluk veya reaksiyon süresi üzerinde önemli bir genel etkisi gözlenmedi. Bununla birlikte, faza özgü analizler, sahte ile karşılaştırıldığında aktif tACS sırasında reaksiyon süresinin daha güçlü faza bağlı modülasyonunu ortaya çıkardı. CDT'de bu etki tüm zorluk seviyelerinde mevcutken, N-geri görevinde yalnızca 3-geri koşulunda gözlemlendi. Doğruluk açısından güvenilir, faza bağlı etkiler gözlemlenmedi. Tercih edilen aşamalar katılımcılar arasında değişiklik gösterdi ve ortak bir aşama etrafında kümelenmedi. SONUÇLAR: Prefrontal theta-tACS, ortalama davranışsal etkilerin yokluğunda bile WM performansını faza bağlı bir şekilde modüle edebilir. Görsel-uzaysal ve sözel WM görevleri arasında faza bağlı reaksiyon-zaman modülasyonunun gözlemlenmesi, stimülasyon fazının bilişsel alanlar arasında ilgili bir değişkenlik kaynağı olabileceğini düşündürmektedir."
-    },
-    {
-      "pmid": "42537891",
-      "title": "Associations between Maternal Adiposity during Pregnancy and Neonatal Brain Cortical Development.",
-      "abstract": "BACKGROUND: Previous studies have suggested that obesity during pregnancy is associated with changes in child neurodevelopmental outcomes, indicating in utero effects of maternal obesity on offspring brain development. PURPOSE: This study aims to evaluate whether there are associations between maternal body fat mass percentage (a direct measure of adiposity) at different stages of pregnancy and neonatal cortical brain development. MATERIALS AND METHODS: 169 mother/newborn dyads (79 boys and 90 girls) were included in this longitudinal and prospective study. Maternal fat mass percentage was assessed using air displacement plethysmography methodology at 12 and 36 weeks of pregnancy. At ∼2 weeks of postnatal age, the neonates underwent a brain MRI during natural sleep without sedation using high-resolution 3D T1- and T2-weighted imaging. Multiple linear regression models, controlling for appropriate covariates, were used to evaluate associations between maternal fat mass percentage and neonatal cortical features (volume, thickness, and surface area), as well as to test for interaction effects between neonatal sex and maternal fat mass percentage on these outcomes. RESULTS: Maternal fat mass percentage at 12 weeks of pregnancy negatively associated with neonatal cortical volume of left entorhinal cortex (ꞵ = -1.36, t = -3.53, P = 0.04), and left parahippocampal gyrus (ꞵ = -1.50, t = -3.31, P = 0.04); maternal fat mass percentage at 36 weeks of pregnancy negatively associated with neonatal cortical volume of left entorhinal cortex (ꞵ = -1.76, t = -3.25, P = 0.04), left parahippocampal gyrus (ꞵ = -2.26, t = -3.53, P = 0.04), and right temporal pole (ꞵ = -2.24, t = -3.19, P = 0.04), Sex interaction with maternal fat mass percentage at 12 weeks significantly associated with cortical volume in left pars triangularis (ꞵ = -8.28, t = -3.46, P = 0.05). CONCLUSION: Significant relationships were identified between maternal body fat mass percentage during pregnancy and neonatal cortical volume, suggesting potential in utero and sex-specific impacts of increased maternal adiposity on offspring brain development.",
-      "journal": "Neuroimage",
-      "date": "2026-07-31",
-      "authors": [
-        "Na X",
-        "Yancey-Ward BL",
-        "Xue Y",
-        "Glasier CM",
-        "Liu Y",
-        "Ou X"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1016/j.neuroimage.2026.122158",
-      "journal_tier": 2,
-      "impact": 4.7,
-      "score": 60.0,
-      "score_parts": {
-        "journal": 60,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": "AMAÇ: Önceki çalışmalar, hamilelik sırasındaki obezitenin, çocuğun nörogelişimsel sonuçlarındaki değişikliklerle ilişkili olduğunu ileri sürmüştür; bu, annedeki obezitenin, çocuğun beyin gelişimi üzerindeki in utero etkilerine işaret etmektedir. AMAÇ: Bu çalışma, hamileliğin farklı aşamalarında annenin vücut yağ kitle yüzdesi (yağlanmanın doğrudan ölçüsü) ile neonatal kortikal beyin gelişimi arasında bir ilişki olup olmadığını değerlendirmeyi amaçlamaktadır. GEREÇ VE YÖNTEM: Bu uzunlamasına ve ileriye dönük çalışmaya 169 anne/yenidoğan ikilisi (79 erkek ve 90 kız) dahil edildi. Annenin yağ kütlesi yüzdesi, gebeliğin 12. ve 36. haftalarında hava yer değiştirme pletismografi metodolojisi kullanılarak değerlendirildi. Doğum sonrası yaklaşık 2 haftalıkken, yenidoğanlara yüksek çözünürlüklü 3D T1 ve T2 ağırlıklı görüntüleme kullanılarak sedasyon olmadan doğal uyku sırasında beyin MRI uygulandı. Uygun ortak değişkenleri kontrol eden çoklu doğrusal regresyon modelleri, annenin yağ kütlesi yüzdesi ile neonatal kortikal özellikler (hacim, kalınlık ve yüzey alanı) arasındaki ilişkileri değerlendirmek ve ayrıca neonatal cinsiyet ile annenin yağ kütlesi yüzdesi arasındaki bu sonuçlar üzerindeki etkileşim etkilerini test etmek için kullanıldı. BULGULAR: Gebeliğin 12. haftasındaki annenin yağ kütlesi yüzdesi, sol entorhinal korteksin neonatal kortikal hacmi (ꞵ=-1.36, t=-3.53, P=0.04) ve sol parahipokampal girus (ꞵ=-1.50, t=-3.31, P=0.04) ile negatif ilişkiliydi; 36. gebelik haftasında annenin yağ kütlesi yüzdesi, sol entorinal korteksin neonatal kortikal hacmi (ꞵ=-1.76, t=-3.25, P=0.04), sol parahipokampal girus (ꞵ=-2.26, t=-3.53, P=0.04) ve sağ temporal kutup (ꞵ=-2.24, t=-3.19, P=0.04), 12. haftada annenin yağ kütlesi yüzdesi ile cinsiyet etkileşimi, sol pars triangularis'teki kortikal hacim ile anlamlı düzeyde ilişkiliydi (ꞵ=-8.28, t=-3.46, P=0.05). SONUÇ: Hamilelik sırasında annenin vücut yağ kitlesi yüzdesi ile neonatal kortikal hacim arasında anlamlı ilişkiler tespit edildi; bu, artan anne yağlanmasının bebeğin beyin gelişimi üzerindeki utero ve cinsiyete özgü etkilerini düşündürmektedir."
-    },
-    {
-      "pmid": "42537876",
-      "title": "Three-Dimensional Margin Assessment Predicts Local Tumor Progression After Stereotactic Microwave Ablation of Small HCC ≤3 cm.",
-      "abstract": "PURPOSE: To evaluate the impact of the minimal ablation margin (MAM) on local tumor progression (LTP) after stereotactic microwave ablation (MWA) of small hepatocellular carcinoma (HCC) using three-dimensional quantitative ablation margin assessment (3D-QAM). MATERIALS AND METHODS: This retrospective single-center study included 175 lesions in 115 patients with HCC ≤ 3 cm treated with stereotactic MWA. The MAM was assessed using 3D-QAM analysis. Associations with LTP were evaluated using multivariable logistic regression. Model performance was assessed by receiver operating characteristic (ROC) analysis and internally validated using bootstrap resampling. Sensitivity analyses included generalized estimating equations (GEE) to account for clustering of lesions within patients. Additional analyses adjusted for re-ablation and included time-to-event analyses. RESULTS: LTP occurred in 36 of 175 lesions (20.6%). Lesions with LTP had significantly smaller margins compared with those without progression (2.9 vs. 4.7 mm, p < 0.001). The MAM was a strong independent protective factor (odds ratio 0.68 per millimeter increase, p < 0.001). Right-sided lesion location was associated with increased risk (odds ratio 2.75, p = 0.045), whereas multifocality was not significant. ROC analysis showed moderate discrimination (area under the curve 0.70). Internal validation demonstrated stable model performance with an optimism-corrected AUC of 0.73 and good calibration (slope 0.93). Results remained consistent in sensitivity analyses using GEE. Time-to-event analyses confirmed the MAM-LTPFS association. CONCLUSION: The MAM is a key determinant of LTP after stereotactic MWA of small HCC. Margin-based risk prediction is robust and supports the clinical use of three-dimensional margin assessment to optimize local tumor control.",
-      "journal": "J Vasc Interv Radiol",
-      "date": "2026-07-31",
-      "authors": [
-        "Brönnimann MP",
-        "Lauber P",
-        "Hung ML",
-        "Conradi LC",
-        "Storni F",
-        "Binkert CA",
-        "Heverhagen JT"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1016/j.jvir.2026.108988",
-      "journal_tier": 2,
-      "impact": 3.2,
-      "score": 60.0,
-      "score_parts": {
-        "journal": 60,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": "AMAÇ: Üç boyutlu kantitatif ablasyon sınırı değerlendirmesi (3D-QAM) kullanarak küçük hepatoselüler karsinomun (HCC) stereotaktik mikrodalga ablasyonundan (MWA) sonra minimal ablasyon sınırının (MAM) lokal tümör ilerlemesi (LTP) üzerindeki etkisini değerlendirmek. GEREÇ VE YÖNTEM: Bu retrospektif tek merkezli çalışmaya stereotaktik MWA ile tedavi edilen HCC ≤ 3 cm'li 115 hastadaki 175 lezyon dahil edildi. MAM, 3D-QAM analizi kullanılarak değerlendirildi. LTP ile ilişkiler çok değişkenli lojistik regresyon kullanılarak değerlendirildi. Model performansı, alıcı işletim karakteristiği (ROC) analizi ile değerlendirildi ve önyükleme yeniden örnekleme kullanılarak dahili olarak doğrulandı. Duyarlılık analizleri, hastalar içindeki lezyonların kümelenmesini hesaba katan genelleştirilmiş tahmin denklemlerini (GEE) içermiştir. Yeniden ablasyon için ayarlanan ve olaya kadar geçen süre analizlerini içeren ek analizler. BULGULAR: 175 lezyonun 36'sında (%20,6) LTP oluştu. LTP'li lezyonların kenarları, ilerlemeyenlere kıyasla anlamlı derecede daha küçüktü (2,9'a karşı 4,7 mm, p < 0,001). MAM güçlü bir bağımsız koruyucu faktördü (olasılık oranı milimetre artışı başına 0,68, p < 0,001). Sağ taraftaki lezyon lokasyonu artan risk ile ilişkiliydi (olasılık oranı 2,75, p = 0,045), ancak multifokalite anlamlı değildi. ROC analizi orta düzeyde ayrımcılık gösterdi (eğrinin altındaki alan 0,70). Dahili doğrulama, iyimserliğe göre düzeltilmiş 0,73 AUC ve iyi kalibrasyon (eğim 0,93) ile istikrarlı model performansı gösterdi. GEE kullanılarak yapılan duyarlılık analizlerinde sonuçlar tutarlı kaldı. Olay-zaman analizleri MAM-LTPFS ilişkisini doğruladı. SONUÇ: MAM, küçük HCC'nin stereotaktik MWA'sından sonra LTP'nin temel belirleyicisidir. Marj bazlı risk tahmini sağlamdır ve lokal tümör kontrolünü optimize etmek için üç boyutlu marj değerlendirmesinin klinik kullanımını destekler."
-    },
-    {
-      "pmid": "42537344",
-      "title": "Shared bone marrow-spleen-lymph node hypermetabolic phenotype on 18F-FDG PET/CT in AOSD and undiagnosed FUO is associated with distinct glucocorticoid trajectories.",
-      "abstract": "PURPOSE: To characterize the bone marrow-spleen-lymph node hypermetabolic phenotype (BSL-HMP) identified by 18F-FDG PET/CT in patients with fever of unknown origin (FUO) and to explore whether imaging-defined inflammatory burden was associated with subsequent treatment intensity. METHODS: This single-center retrospective cohort study included FUO patients who attended the Department of Rheumatology and Immunology at the Third Affiliated Hospital of Soochow University between January 2020 and January 2025, underwent 18F-FDG PET/CT, and exhibited BSL-HMP. After systematic exclusion of known diseases, patients were divided into an AOSD group and a FUO group that did not meet the Yamaguchi criteria at baseline, and differences between the two groups were compared. Exploratory unsupervised phenotyping of PET/CT features was performed using weighted Gower distance combined with PAM clustering. A mixed-effects model for repeated measures (MMRM) was further applied to analyze longitudinal changes in glucocorticoid dose across different clusters. An exploratory PET/CT-based model was additionally developed and internally evaluated to characterize cluster membership. RESULTS: A total of 95 patients were included, comprising 40 patients with AOSD and 55 patients with FUO. Although the FUO group showed PET/CT features broadly similar to those of the AOSD group, they had overall lower inflammatory marker levels and less frequent rash and sore throat. During follow-up, 8 patients in the FUO group eventually received an alternative definite diagnosis, while 47 remained undiagnosed. Unsupervised clustering classified the patients into high- and low-inflammatory-burden groups, with 80% of AOSD patients and 42% of FUO patients assigned to the high-inflammatory-burden group. Glucocorticoid dose trajectories differed significantly between clusters in the unadjusted MMRM (group-by-time interaction, P = 0.007) and after adjustment for age, sex, baseline diagnosis, C-reactive protein, and ferritin levels (P = 0.005). The difference remained significant after additional adjustment for baseline glucocorticoid dose (P = 0.029). DMARD use was also more frequent in the high-burden cluster (P = 0.011). CONCLUSION: BSL-HMP is a shared, nonspecific systemic inflammatory imaging phenotype. Among patients exhibiting this phenotype, PET/CT-based phenotyping identified different inflammatory burdens associated with subsequent glucocorticoid dose trajectories and DMARD use. These exploratory and hypothesis-generating findings suggest that PET/CT-derived inflammatory burden may help characterize patient heterogeneity, although further validation in independent prospective cohorts is warranted.",
-      "journal": "Eur J Radiol",
-      "date": "2026-07-29",
-      "authors": [
-        "Li Z",
-        "Wu Y",
-        "Chen K",
-        "Wu M"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1016/j.ejrad.2026.113117",
-      "journal_tier": 2,
-      "impact": 3.2,
-      "score": 60.0,
-      "score_parts": {
-        "journal": 60,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": "AMAÇ: Kaynağı bilinmeyen ateşi (FUO) olan hastalarda 18F-FDG PET/CT ile tanımlanan kemik iliği-dalak-lenf düğümü hipermetabolik fenotipini (BSL-HMP) karakterize etmek ve görüntülemeyle tanımlanan inflamatuar yükün sonraki tedavi yoğunluğuyla ilişkili olup olmadığını araştırmak. YÖNTEMLER: Bu tek merkezli retrospektif kohort çalışmasına Ocak 2020 ile Ocak 2025 arasında Soochow Üniversitesi Üçüncü Bağlı Hastanesi Romatoloji ve İmmünoloji Bölümüne başvuran, 18F-FDG PET/CT uygulanan ve BSL-HMP sergileyen FUO hastaları dahil edildi. Bilinen hastalıkların sistematik olarak dışlanmasının ardından hastalar, başlangıçta Yamaguchi kriterlerini karşılamayan AOSD grubu ve FUO grubu olarak ikiye ayrıldı ve iki grup arasındaki farklar karşılaştırıldı. PET/CT özelliklerinin keşifsel denetimsiz fenotiplemesi, PAM kümelemesi ile birleştirilmiş ağırlıklı Gower mesafesi kullanılarak gerçekleştirildi. Farklı kümeler arasında glukokortikoid dozundaki boylamsal değişiklikleri analiz etmek için tekrarlanan ölçümler için bir karma etki modeli (MMRM) ayrıca uygulandı. Küme üyeliğini karakterize etmek için ek olarak keşif amaçlı bir PET/CT tabanlı model geliştirildi ve dahili olarak değerlendirildi. BULGULAR: AOSD'li 40 hasta ve FUO'lu 55 hasta olmak üzere toplam 95 hasta dahil edildi. FUO grubu, AOSD grubuna genel olarak benzer PET/CT özellikleri gösterse de, genel olarak daha düşük inflamatuar belirteç seviyelerine ve daha az sıklıkta döküntü ve boğaz ağrısına sahipti. Takip sırasında FUO grubundaki 8 hastaya alternatif kesin tanı konuldu, 47 hastaya ise tanı konulamadı. Denetimsiz kümeleme, hastaları yüksek ve düşük iltihap yükü gruplarına ayırdı; AOSD hastalarının %80'i ve FUO hastalarının %42'si yüksek iltihap yükü grubuna atandı. Glukokortikoid dozu yörüngeleri, ayarlanmamış MMRM'deki (zamana göre grup etkileşimi, P = 0,007) ve yaş, cinsiyet, başlangıç ​​tanısı, C-reaktif protein ve ferritin düzeyleri (P = 0,005) için ayarlama yapıldıktan sonra kümeler arasında önemli ölçüde farklılık gösterdi. Başlangıç ​​glukokortikoid dozu için ilave ayarlamalar yapıldıktan sonra fark anlamlı kalmaya devam etti (P ​​= 0,029). Yüksek yük kümesinde DMARD kullanımı da daha sıktı (P = 0,011). SONUÇ: BSL-HMP ortak, spesifik olmayan sistemik inflamatuar görüntüleme fenotipidir. Bu fenotipi sergileyen hastalar arasında PET/CT bazlı fenotipleme, sonraki glukokortikoid dozu yörüngeleri ve DMARD kullanımıyla ilişkili farklı inflamatuar yükleri tanımladı. Bu araştırıcı ve hipotez oluşturucu bulgular, PET/BT'den türetilen inflamatuar yükün, hasta heterojenliğini karakterize etmeye yardımcı olabileceğini, ancak bağımsız prospektif kohortlarda daha fazla doğrulamanın gerekli olduğunu göstermektedir."
-    },
-    {
-      "pmid": "42537343",
-      "title": "SPIO-induced susceptibility effects on quantitative liver MRI: cross-method assessment of R2*, PDFF, T1 mapping, and MRE.",
-      "abstract": "OBJECTIVES: To compare hepatic and splenic transverse relaxivity (R2*) derived from two-dimensional (2D) and three-dimensional (3D) multi-echo gradient-echo (ME-GRE) acquisitions before and after superparamagnetic iron oxide (SPIO) administration and to evaluate the effects of SPIO on proton density fat fraction (PDFF), MR spectroscopy (MRS)-derived PDFF, native T1 mapping, and magnetic resonance elastography (MRE)-derived liver stiffness. MATERIALS AND METHODS: In this retrospective study, 48 adults underwent liver MRI at 3 T before and after SPIO administration. Hepatic and splenic R2* and PDFF were obtained from 2D and 3D ME-GRE acquisitions processed using MRQuantif and LiverLab. MRS-derived PDFF, native variable flip angle T1 mapping, and MRE-derived liver stiffness were assessed before and after SPIO administration. Agreement between methods was evaluated using Pearson correlation coefficients, intraclass correlation coefficients (ICC), and Bland-Altman analysis. Predictors of SPIO-induced changes were assessed using multivariable linear regression. RESULTS: SPIO administration resulted in a marked increase in hepatic R2* (approximately 3.5-fold), exceeding the increase observed in the spleen (approximately 2-fold), consistent with predominant hepatic uptake. Correlation between LiverLab and MRQuantif R2* measurements remained strong; however, inter-method agreement deteriorated at higher R2* values after SPIO administration. ME-GRE-based PDFF measurements remained stable with preserved inter-method agreement. In contrast, MRS-derived PDFF demonstrated reduced reliability after SPIO administration, with apparent increases in fat fraction and weakened correlation with ME-GRE PDFF measurements. Native hepatic T1 values decreased uniformly by approximately 500 ms following SPIO administration. MRE-derived liver stiffness showed no significant change after SPIO administration. CONCLUSION: Using SPIO as a controlled in vivo susceptibility model, this study provides an integrated evaluation of the susceptibility dependence of commonly used quantitative liver MRI biomarkers. SPIO-induced susceptibility effects substantially increase hepatic R2*, impair the reliability of MRS-based fat quantification, and markedly shorten native variable flip angle T1 measurements, while preserving the relative stability of ME-GRE-based PDFF and MRE-derived liver stiffness. These findings improve understanding of the susceptibility-related performance of quantitative liver MRI techniques and may help inform the interpretation and standardization of iron-sensitive MRI biomarkers.",
-      "journal": "Eur J Radiol",
-      "date": "2026-07-25",
-      "authors": [
-        "Ba-Ssalamah SA",
-        "Poetter-Lang S",
-        "Yitik AY",
-        "El-Aal TA",
-        "Ba-Ssalamah A",
-        "Kannengiesser S",
-        "Gandon Y",
-        "Langs G",
-        "Bastati N",
-        "Attenberger U"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1016/j.ejrad.2026.113116",
-      "journal_tier": 2,
-      "impact": 3.2,
-      "score": 60.0,
-      "score_parts": {
-        "journal": 60,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": "AMAÇLAR: Süperparamanyetik demir oksit (SPIO) uygulamasından önce ve sonra iki boyutlu (2D) ve üç boyutlu (3D) çok eko gradyan-eko (ME-GRE) kazanımlarından türetilen hepatik ve dalak enine relaksivitesini (R2*) karşılaştırmak ve SPIO'nun proton yoğunluğu yağ fraksiyonu (PDFF), MR spektroskopisi (MRS) türetilmiş PDFF, doğal T1 haritalaması ve manyetik rezonans üzerindeki etkilerini değerlendirmek. elastografi (MRE) kaynaklı karaciğer sertliği. MALZEMELER VE YÖNTEMLER: Bu retrospektif çalışmada 48 yetişkine SPIO uygulamasından önce ve sonra 3 T'de karaciğer MRI uygulandı. Hepatik ve dalak R2* ve PDFF, MRQuantif ve LiverLab kullanılarak işlenen 2D ve 3D ME-GRE alımlarından elde edildi. MRS'den türetilmiş PDFF, doğal değişken çevirme açısı T1 haritalaması ve MRE'den türetilmiş karaciğer sertliği, SPIO uygulamasından önce ve sonra değerlendirildi. Yöntemler arasındaki uyum Pearson korelasyon katsayıları, sınıf içi korelasyon katsayıları (ICC) ve Bland-Altman analizi kullanılarak değerlendirildi. SPIO'nun neden olduğu değişikliklerin öngörücüleri, çok değişkenli doğrusal regresyon kullanılarak değerlendirildi. SONUÇLAR: SPIO uygulaması, baskın hepatik alımla tutarlı olarak dalakta gözlenen artışı (yaklaşık 2 kat) aşan, hepatik R2*'de belirgin bir artışa (yaklaşık 3,5 kat) neden oldu. LiverLab ve MRQuantif R2* ölçümleri arasındaki korelasyon güçlü kaldı; ancak yöntemler arası uyum, SPIO uygulamasından sonra daha yüksek R2* değerlerinde bozuldu. ME-GRE tabanlı PDFF ölçümleri, yöntemler arası uyumun korunmasıyla stabil kaldı. Buna karşılık, MRS'den türetilmiş PDFF, SPIO uygulamasından sonra güvenilirliğin azaldığını, yağ fraksiyonunda belirgin artışlar olduğunu ve ME-GRE PDFF ölçümleriyle zayıflamış bir korelasyon gösterdi. Doğal hepatik T1 değerleri, SPIO uygulamasını takiben yaklaşık 500 ms kadar düzgün bir şekilde azaldı. MRE'den türetilen karaciğer sertliği, SPIO uygulamasından sonra anlamlı bir değişiklik göstermedi. SONUÇ: SPIO'yu kontrollü bir in vivo duyarlılık modeli olarak kullanan bu çalışma, yaygın olarak kullanılan kantitatif karaciğer MRI biyobelirteçlerinin duyarlılık bağımlılığının entegre bir değerlendirmesini sağlar. SPIO kaynaklı duyarlılık etkileri, hepatik R2*'yi önemli ölçüde artırır, MRS bazlı yağ miktarının güvenilirliğini bozar ve ME-GRE bazlı PDFF ve MRE'den türetilmiş karaciğer sertliğinin göreceli stabilitesini korurken doğal değişken çevirme açısı T1 ölçümlerini önemli ölçüde kısaltır. Bu bulgular, kantitatif karaciğer MR tekniklerinin duyarlılıkla ilişkili performansının anlaşılmasını geliştirir ve demire duyarlı MR biyobelirteçlerinin yorumlanması ve standardizasyonu konusunda bilgi sağlamaya yardımcı olabilir."
-    },
-    {
-      "pmid": "42537342",
-      "title": "RECIST 1.1 and PERCIST for response assessment in metastatic breast cancer: feasibility and agreement in a real‑world retrospective cohort study.",
-      "abstract": "BACKGROUND: Accurate response assessment during systemic therapy of metastatic breast cancer (mBC) is essential to guide treatment decisions. We aimed to compare the applicability of RECIST 1.1 (CT) and PERCIST (FDG-PET) for response evaluation in mBC within a contemporary real-world setting. METHODS: In this retrospective cohort study, mBC patients undergoing systemic therapy between 2017 and 2025 were identified from a large imaging database. Paired CT and FDG-PET examinations were analyzed using RECIST 1.1 and PERCIST, respectively. We evaluated target lesion availability, agreement in response categorization, concordance of metastatic patterns-including oligometastatic disease-and time to progression. RESULTS: Fifty-one patients with 375 imaging examinations were included, yielding 151 paired CT and FDG-PET scans. All FDG-PET scans (151/151) had measurable target lesions according to PERCIST, whereas 65% of CT scans (98/151) lacked measurable target lesions per RECIST 1.1. Response category agreement reached 68% (53/78) among paired scans evaluable by both RECIST 1.1 and PERCIST. FDG-PET detected progression significantly earlier than CT (p < 0.05). In 23% of CT scans classified as oligometastatic, FDG‑PET demonstrated a higher metastatic burden (p < 0.001). CONCLUSION: In this real-world study of mBC, FDG-PET consistently enabled response assessment according to PERCIST, whereas CT frequently could not provide measurable target lesions according to RECIST 1.1. Moreover, FDG-PET revealed a higher metastatic burden than CT, with implications for classification of oligometastatic disease. These findings suggest that integrating FDG-PET could refine treatment individualization, potentially broaden trial eligibility, and better support clinical decision-making, though further validation is needed.",
-      "journal": "Eur J Radiol",
-      "date": "2026-07-17",
-      "authors": [
-        "Andersson VL",
-        "Johnson K",
-        "Skarping I"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1016/j.ejrad.2026.113083",
-      "journal_tier": 2,
-      "impact": 3.2,
-      "score": 60.0,
-      "score_parts": {
-        "journal": 60,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": "AMAÇ: Metastatik meme kanserinin (mBC) sistemik tedavisi sırasında doğru yanıt değerlendirmesi, tedavi kararlarına rehberlik etmek için gereklidir. Çağdaş gerçek dünya ortamında mBC'de yanıt değerlendirmesi için RECIST 1.1 (CT) ve PERCIST'in (FDG-PET) uygulanabilirliğini karşılaştırmayı amaçladık. YÖNTEMLER: Bu retrospektif kohort çalışmada, 2017 ile 2025 yılları arasında sistemik tedavi gören mBC hastaları geniş bir görüntüleme veri tabanından belirlendi. Eşleştirilmiş CT ve FDG-PET incelemeleri sırasıyla RECIST 1.1 ve PERCIST kullanılarak analiz edildi. Hedef lezyonun kullanılabilirliğini, yanıt kategorizasyonundaki anlaşmayı, oligometastatik hastalık dahil metastatik modellerin uyumunu ve ilerlemeye kadar geçen süreyi değerlendirdik. BULGULAR: 375 görüntüleme incelemesine sahip 51 hasta dahil edildi ve 151 eşleştirilmiş CT ve FDG-PET taraması elde edildi. Tüm FDG-PET taramalarında (151/151) PERCIST'e göre ölçülebilir hedef lezyonlar bulunurken, CT taramalarının %65'inde (98/151) RECIST 1.1'e göre ölçülebilir hedef lezyonlar yoktu. Hem RECIST 1.1 hem de PERCIST tarafından değerlendirilebilen eşleştirilmiş taramalar arasında yanıt kategorisi uyumu %68'e (53/78) ulaştı. FDG-PET, ilerlemeyi CT'den anlamlı derecede daha erken tespit etti (p<0,05). Oligometastatik olarak sınıflandırılan BT taramalarının %23'ünde FDG‑PET, daha yüksek bir metastatik yük göstermiştir (p < 0,001). SONUÇ: Bu gerçek dünya mBC çalışmasında, FDG-PET sürekli olarak PERCIST'e göre yanıt değerlendirmesini mümkün kılarken CT sıklıkla RECIST 1.1'e göre ölçülebilir hedef lezyonlar sağlayamadı. Üstelik FDG-PET, oligometastatik hastalığın sınıflandırılmasına yönelik çıkarımlarla birlikte BT'den daha yüksek bir metastatik yük ortaya çıkardı. Bu bulgular, FDG-PET'in entegre edilmesinin tedavinin bireyselleştirilmesini iyileştirebileceğini, potansiyel olarak deneme uygunluğunu genişletebileceğini ve klinik karar almayı daha iyi destekleyebileceğini, ancak daha fazla doğrulamaya ihtiyaç duyulduğunu göstermektedir."
+      "abstract_tr": "AMAÇ: Bu çalışma, 3D radyal 6 noktalı DIXON Look-Locker (3D-LL) tekniği ile geleneksel nefes tutma iki boyutlu Look-Locker (2D-LL) tekniği arasında serbest nefes alan üç boyutlu (3D) pankreas suyu T1 haritalamasının klinik fizibilitesini ve ölçüm performansını karşılaştırmayı amaçladı. YÖNTEMLER: Üç organ eşdeğeri fantom ve üç seri gadolinyum seyreltme fantomundan oluşan altı fantom şırınga, inversiyon kurtarma (IR), 2D-LL ve 3D-LL teknikleri kullanılarak tarandı. IR'ye göre ölçüm doğruluğunu ve sırasıyla 2D-LL ve 3D-LL arasındaki uyumu değerlendirmek için Pearson korelasyon katsayısı ve Bland-Altman analizleri kullanıldı. Bu prospektif klinik çalışmaya nefes tutan 2D-LL T1 haritalaması ve serbest nefes alan 3D-LL pankreas suyu T1 haritalaması uygulanan 45 katılımcı dahil edildi. İki bağımsız okuyucu pankreasın baş, gövde ve kuyruğundaki T1 değerlerini ölçtü ve tüm pankreas ortalamalarını hesapladı. Değerlendirilemeyen bölgeler kaydedildi. Wilcoxon işaretli sıra testi kullanılarak iki teknik arasında T1 değerleri karşılaştırıldı. SONUÇLAR: Fantom deneyleri, her iki teknik için de IR ile çok güçlü korelasyonlar gösterdi (2D-LL, r=0,9998; 3D-LL, r=0,9993) ve Bland-Altman analizi, 3D-LL'nin 2D-LL'ye (+15,1 ms) göre küçük bir pozitif önyargısını ortaya çıkardı. Bir klinik çalışma, 2D-LL'li altı katılımcıda (%13) kapsama veya hareketle ilgili bölgesel başarısızlıklar ortaya çıkardı, ancak 3D-LL'li hiçbir katılımcıda olmadı. Pankreas başında (P=0.25), gövdede (P=0.21), kuyrukta (P=0.25) ve tüm pankreas ortalamasında (P=0.17) medyan T1 değerleri iki teknik arasında anlamlı farklılık göstermedi. SONUÇ: 3D-LL tekniği, fantomlarda IR ve 2D-LL ile karşılaştırılabilir düzeyde doğru T1 ölçümü gösterdi. Klinik veriler, 3D-LL tekniğinin, kapsama ve hareketle ilgili bölgesel engelleri ortadan kaldırarak pankreas ölçülebilirliğini iyileştirdiğini göstermektedir."
     },
     {
       "pmid": "42542219",
@@ -840,7 +689,7 @@
         "recency": 0.0
       },
       "tier": 3,
-      "abstract_tr": "AMAÇ: Parkinson hastalığı (PD), yaygın beyin ağı disfonksiyonu ile karakterizedir. Metabolik anormallikler bildirilmiş olmasına rağmen, metabolik konnektomlardaki ağ düzeyindeki değişiklikler yeterince anlaşılmamıştır. AMAÇ: Çok gecikmeli arteriyel spin etiketlemesinden (mASL) serebral kan akışı (CBF), arteriyel serebral kan hacmi (aCBV) ve arteriyel geçiş süresi (ATT) hemodinamik ölçümlerini kullanarak PD'deki metabolik konnektomların topolojik değişikliklerini araştırmak. YÖNTEMLER: Bu prospektif çalışmaya 52 Parkinson hastası ve 55 HC hastası dahil edildi. Metabolik konektomlar, tek gecikmeli ASL'den düzeltilmemiş CBF'den (un-CBF) ve mASL'den düzeltilmiş CBF (c-CBF), aCBV ve ATT'den türetilen perfüzyon parametreleri kullanılarak oluşturuldu. Küresel, düğümsel ve bağlantı düzeyindeki topolojik özellikler analiz edildi ve gruplar arasında karşılaştırıldı. SONUÇLAR: Parkinson hastalarında metabolik konnektom, düzeltilmiş CBF ve aCBV altında karakteristik yol uzunluğunun azalmasıyla birlikte artan normalleştirilmiş kümelenme katsayısı ve küçük dünyalılık gösterdi; bu da gelişmiş global entegrasyonun göstergesidir. Düzeltilmemiş CBF ve ATT altında hiçbir küresel değişiklik gözlemlenmedi. Nodal seviyede, PD hastası, tamamlayıcı motor alanı, postsantral girus ve parasantral lobül dahil olmak üzere sensörimotor bölgelerde artan merkezilik ve verimlilik gösterdi. Bağlantı seviyesi analizi, aCBV ve ATT'den türetilmiş konnektomlarda daha yaygın değişikliklerle birlikte, sensörimotor ağ içinde ve sensörimotor, temporal, ön ve subkortikal bölgeler arasında güçlendirilmiş kovaryansı ortaya çıkardı. SONUÇ: Bulgularımız PD'nin metabolik konnektomların yaygın topolojik yeniden düzenlenmesi ile ilişkili olduğunu kanıtladı ve PD'deki ağ işlev bozukluğunu tespit etmek için mASL'yi gelişmiş bir yaklaşım olarak destekledi."
+      "abstract_tr": "AMAÇ: Parkinson hastalığı (PD), yaygın beyin ağı disfonksiyonu ile karakterizedir. Metabolik anormallikler bildirilmiş olmasına rağmen, metabolik konnektomlardaki ağ düzeyindeki değişiklikler yeterince anlaşılmamıştır. AMAÇ: Çok gecikmeli arteriyel spin etiketlemesinden (mASL) serebral kan akışı (CBF), arteriyel serebral kan hacmi (aCBV) ve arteriyel geçiş süresi (ATT) hemodinamik ölçümlerini kullanarak PD'deki metabolik konnektomların topolojik değişikliklerini araştırmak. YÖNTEMLER: Bu prospektif çalışmaya 52 Parkinson hastası ve 55 HC hastası dahil edildi. Metabolik konektomlar, tek gecikmeli ASL'den düzeltilmemiş CBF'den (un-CBF) ve mASL'den düzeltilmiş CBF (c-CBF), aCBV ve ATT'den türetilen perfüzyon parametreleri kullanılarak oluşturuldu. Küresel, düğümsel ve bağlantı düzeyindeki topolojik özellikler analiz edildi ve gruplar arasında karşılaştırıldı. SONUÇLAR: Parkinson hastalarında metabolik konnektom, düzeltilmiş CBF ve aCBV altında karakteristik yol uzunluğunun azalmasıyla birlikte artan normalleştirilmiş kümelenme katsayısı ve küçük dünyalılık gösterdi; bu da gelişmiş global entegrasyonun göstergesidir. Düzeltilmemiş CBF ve ATT altında hiçbir küresel değişiklik gözlemlenmedi. Nodal seviyede, PD hastası, tamamlayıcı motor alanı, postsantral girus ve parasantral lobül dahil olmak üzere sensörimotor bölgelerde artan merkezilik ve verimlilik gösterdi. Bağlantı seviyesi analizi, aCBV ve ATT'den türetilmiş konnektomlarda daha yaygın değişikliklerle birlikte, sensörimotor ağı içinde ve sensörimotor, temporal, ön ve subkortikal bölgeler arasında güçlendirilmiş kovaryansı ortaya çıkardı. SONUÇ: Bulgularımız PD'nin metabolik konnektomların yaygın topolojik yeniden düzenlenmesi ile ilişkili olduğunu kanıtladı ve PD'deki ağ işlev bozukluğunu tespit etmek için mASL'yi gelişmiş bir yaklaşım olarak destekledi."
     },
     {
       "pmid": "42541941",
@@ -904,42 +753,6 @@
       "abstract_tr": "AMAÇ: El bileği travmasının optimal tedavisi için el bileği kırıklarının doğru tespiti ve karakterizasyonu önemlidir. Bu çalışma, travmatik el bileği kırıklarının tespiti ve morfolojik karakterizasyonu için bilgisayarlı tomografi (BT) benzeri 3D-multiecho hızlı alan eko (mFFE) manyetik rezonans görüntüleme (MRI) sekansının tanısal performansını konik ışınlı bilgisayarlı tomografi (CBCT) ile karşılaştırmalı olarak değerlendirmeyi amaçladı. GEREÇ VE YÖNTEM: Bu retrospektif çalışmaya Ekim 2022 ile Eylül 2023 arasında yakın zamanda el bileği travması geçirmiş ve kırık şüphesi olan 66 hasta dahil edilmiştir. İki kas-iskelet sistemi radyoloğu (R1 ve R2) bağımsız olarak CBCT ve 3D-mFFE BT benzeri MRI görüntülerini inceledi. Travmatik kemik yaralanmalarını saptamak ve karakterize etmek için 3D-mFFE sekansının tanısal performansı, referans standardı olarak üçüncü bir radyolog (R3) tarafından yapılan fikir birliği yorumu kullanılarak değerlendirildi. BULGULAR: 66 hastanın 38'inde (%58) 63 travmatik kemik yaralanması tespit edildi. 3D-mFFE dizisiyle yaralanma tespiti için hassasiyet, özgüllük ve doğruluk, R1 için 0,62, 0,99 ve 0,96 ve R2 için 0,60, 1,00 ve 0,96 idi. CBCT için duyarlılık, özgüllük ve doğruluk R1 için 0,68, 1,00 ve 0,97 ve R2 için 0,70, 1,00 ve 0,97 idi. 3D-mFFE sekansı ile kırılma karakterizasyonuna yönelik referans standart arasındaki uyum, hem ufalanma (κ = 0,69-0,87) hem de yer değiştirme (κ = 0,63-0,92) için mükemmele yakın düzeydeydi. SONUÇ: CT benzeri 3D-mFFE MRI sekansı, el bileği kırıklarının morfolojik değerlendirmesinde CBCT ile karşılaştırılabilir tanısal performans göstermiştir. Standart bir MRI protokolüne dahil edildiğinde bu dizi, radyasyonsuz tek bir muayenede travmatik kemik yaralanmalarının hem tespitine hem de karakterizasyonuna olanak sağlayabilir."
     },
     {
-      "pmid": "42542220",
-      "title": "Free-breathing 3D pancreatic water T1 mapping using radial sampling technique: Comparison with conventional 2D technique.",
-      "abstract": "PURPOSE: This study aimed to compare the clinical feasibility and measurement performance of free-breathing three-dimensional (3D) pancreatic water T1 mapping between a 3D radial 6-point DIXON Look-Locker (3D-LL) technique and a conventional breath-hold two-dimensional Look-Locker (2D-LL) technique. METHODS: Six phantom syringes, comprising three organ-equivalent phantoms and three serial gadolinium dilution phantoms, were scanned using inversion recovery (IR), 2D-LL, and 3D-LL techniques. Pearson correlation coefficient and Bland-Altman analyses were used to assess measurement accuracy relative to IR and agreement between 2D-LL and 3D-LL, respectively. This prospective clinical study included 45 participants who underwent breath-hold 2D-LL T1 mapping and free-breathing 3D-LL pancreatic water T1 mapping. Two independent readers measured T1 values in the pancreatic head, body, and tail, and calculated whole-pancreas averages. Nonevaluable regions were recorded. T1 values were compared between the two techniques using the Wilcoxon signed-rank test. RESULTS: Phantom experiments demonstrated very strong correlations with IR for both techniques (2D-LL, r = 0.9998; 3D-LL, r = 0.9993), and Bland-Altman analysis revealed a small positive bias of 3D-LL over 2D-LL (+15.1 ms). A clinical study revealed coverage- or motion-related regional failures in six participants (13%) with 2D-LL, but in none with 3D-LL. The median T1 values in the pancreatic head (P = 0.25), body (P = 0.21), tail (P = 0.25), and whole-pancreas average (P = 0.17) did not differ significantly between the two techniques. CONCLUSION: The 3D-LL technique demonstrated accurate T1 quantification in phantoms, comparable to IR and 2D-LL. Clinical data indicate that the 3D-LL technique improved pancreatic measurability by avoiding coverage- and motion-related regional.",
-      "journal": "Magn Reson Imaging",
-      "date": "2026-08-01",
-      "authors": [
-        "Omata S",
-        "Noda Y",
-        "Ito A",
-        "Kawai N",
-        "Kaga T",
-        "Ohashi Y",
-        "Ido S",
-        "Kajita K",
-        "Ueda Y",
-        "Elhelaly AE",
-        "Imai H",
-        "Kato H",
-        "Matsuo M"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1016/j.mri.2026.110764",
-      "journal_tier": 3,
-      "impact": 2.1,
-      "score": 35.0,
-      "score_parts": {
-        "journal": 35,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": "AMAÇ: Bu çalışma, 3D radyal 6 noktalı DIXON Look-Locker (3D-LL) tekniği ile geleneksel nefes tutma iki boyutlu Look-Locker (2D-LL) tekniği arasında serbest nefes alan üç boyutlu (3D) pankreas suyu T1 haritalamasının klinik fizibilitesini ve ölçüm performansını karşılaştırmayı amaçladı. YÖNTEMLER: Üç organ eşdeğeri fantom ve üç seri gadolinyum seyreltme fantomundan oluşan altı fantom şırınga, inversiyon kurtarma (IR), 2D-LL ve 3D-LL teknikleri kullanılarak tarandı. IR'ye göre ölçüm doğruluğunu ve sırasıyla 2D-LL ve 3D-LL arasındaki uyumu değerlendirmek için Pearson korelasyon katsayısı ve Bland-Altman analizleri kullanıldı. Bu prospektif klinik çalışmaya nefes tutan 2D-LL T1 haritalaması ve serbest nefes alan 3D-LL pankreas suyu T1 haritalaması uygulanan 45 katılımcı dahil edildi. İki bağımsız okuyucu pankreasın baş, gövde ve kuyruğundaki T1 değerlerini ölçtü ve tüm pankreas ortalamalarını hesapladı. Değerlendirilemeyen bölgeler kaydedildi. Wilcoxon işaretli sıra testi kullanılarak iki teknik arasında T1 değerleri karşılaştırıldı. SONUÇLAR: Fantom deneyleri, her iki teknik için de IR ile çok güçlü korelasyonlar gösterdi (2D-LL, r=0,9998; 3D-LL, r=0,9993) ve Bland-Altman analizi, 3D-LL'nin 2D-LL'ye (+15,1 ms) göre küçük bir pozitif önyargısını ortaya çıkardı. Bir klinik çalışma, 2D-LL'li altı katılımcıda (%13) kapsama veya hareketle ilgili bölgesel başarısızlıklar ortaya çıkardı, ancak 3D-LL'li hiçbir katılımcıda olmadı. Pankreas başında (P=0.25), gövdede (P=0.21), kuyrukta (P=0.25) ve tüm pankreas ortalamasında (P=0.17) medyan T1 değerleri iki teknik arasında anlamlı farklılık göstermedi. SONUÇ: 3D-LL tekniği, fantomlarda IR ve 2D-LL ile karşılaştırılabilir düzeyde doğru T1 ölçümü göstermiştir. Klinik veriler, 3D-LL tekniğinin, kapsama ve hareketle ilgili bölgesel engelleri ortadan kaldırarak pankreas ölçülebilirliğini iyileştirdiğini göstermektedir."
-    },
-    {
       "pmid": "42541820",
       "title": "Dynamic nature of choroid fissure cysts.",
       "abstract": "BACKGROUND: Choroidal fissure cysts (CFCs) are considered benign, static lesions within the brain's choroidal fissure. However, their behavior over time remains incompletely understood. OBJECTIVE: To investigate longitudinal changes in CFC size and morphology and assess associated hippocampal mass effect. METHODS: This retrospective longitudinal study included patients with CFCs measuring ≥2 mm on initial magnetic resonance imaging (MRI) who also had follow-up MRI. Changes in cyst size were categorized as increase, decrease, or no change, with significant change defined as ≥0.2 mL from baseline. To account for the confounding effects of rapid brain growth, patients younger than 5 years were analyzed separately from those aged 5 years and older. RESULTS: A total of 42 patients with 43 cysts were included. Among 35 patients aged ≥5 years (mean age, 18 years; range, 5-54 years), mean cyst volume was 1.1 mL, with diameters ranging from 3 to 31 mm. Appreciable hippocampal mass effect was present in 21 cases (60%). Mean follow-up interval was 5.7 years (range, 1 month to 23.6 years). Cyst size increased in 2 cases (6%), decreased in 11 (31%), and remained stable in 22 (63%). In patients younger than 5 years (7 patients, 8 cysts), cysts increased in 3 (38%), decreased in 3 (38%), and remained unchanged in 2 (25%). CONCLUSION: CFCs can demonstrate significant interval size changes, challenging the traditional view of these lesions as static. More than one-third of cysts in patients aged ≥5 years changed over time, and appreciable hippocampal mass effect was common.",
@@ -963,82 +776,34 @@
         "recency": 0.0
       },
       "tier": 3,
-      "abstract_tr": "AMAÇ: Koroid fissür kistleri (CFC'ler), beynin koroid fissüründeki iyi huylu, statik lezyonlar olarak kabul edilir. Ancak zaman içindeki davranışları tam olarak anlaşılmamıştır. AMAÇ: CFC boyutu ve morfolojisindeki uzunlamasına değişiklikleri araştırmak ve ilişkili hipokampal kitle etkisini değerlendirmek. YÖNTEMLER: Bu retrospektif boylamsal çalışmaya, ilk manyetik rezonans görüntülemede (MRI) CFC'leri ≥2 mm olan ve aynı zamanda takip MR'ı da çekilen hastalar dahil edilmiştir. Kist boyutundaki değişiklikler artış, azalma veya değişiklik yok olarak kategorize edildi ve anlamlı değişiklik başlangıca göre ≥0,2 mL olarak tanımlandı. Hızlı beyin büyümesinin kafa karıştırıcı etkilerini hesaba katmak için 5 yaşından küçük hastalar, 5 yaş ve üzeri hastalardan ayrı olarak analiz edildi. BULGULAR: Toplamda 43 kisti olan 42 hasta dahil edildi. Yaşı ≥5 olan (ortalama yaş 18; aralık 5-54) 35 hasta arasında ortalama kist hacmi 1,1 mL olup çapları 3 ila 31 mm arasında değişmektedir. 21 vakada (%60) kayda değer hipokampal kitle etkisi mevcuttu. Ortalama takip aralığı 5,7 yıldı (aralık, 1 ay ila 23,6 yıl). Kist boyutu 2 olguda (%6) arttı, 11 olguda (%31) azaldı ve 22 olguda (%63) sabit kaldı. 5 yaşından küçük hastaların (7 hasta, 8 kist) 3'ünde (%38) kistler arttı, 3'ünde (%38) azaldı ve 2'sinde (%25) değişmeden kaldı. SONUÇ: CFC'ler, bu lezyonların statik olduğu yönündeki geleneksel görüşe meydan okuyarak önemli aralık boyutu değişiklikleri gösterebilir. ≥5 yaşındaki hastalardaki kistlerin üçte birinden fazlası zamanla değişti ve kayda değer hipokampal kitle etkisi yaygındı."
+      "abstract_tr": "AMAÇ: Koroid fissür kistleri (CFC'ler), beynin koroid fissüründeki iyi huylu, statik lezyonlar olarak kabul edilir. Ancak zaman içindeki davranışları tam olarak anlaşılmamıştır. AMAÇ: CFC boyutu ve morfolojisindeki uzunlamasına değişiklikleri araştırmak ve ilişkili hipokampal kitle etkisini değerlendirmek. YÖNTEMLER: Bu retrospektif boylamsal çalışmaya, ilk manyetik rezonans görüntülemede (MRI) CFC'leri ≥2 mm olan ve aynı zamanda takip MR'ı da çekilen hastalar dahil edilmiştir. Kist boyutundaki değişiklikler artış, azalma veya değişiklik yok olarak kategorize edildi ve anlamlı değişiklik başlangıca göre ≥0,2 mL olarak tanımlandı. Hızlı beyin büyümesinin kafa karıştırıcı etkilerini hesaba katmak için 5 yaşından küçük hastalar, 5 yaş ve üzeri hastalardan ayrı olarak analiz edildi. BULGULAR: Toplamda 43 kisti olan 42 hasta dahil edildi. Yaşı ≥5 olan (ortalama yaş 18; aralık 5-54) 35 hasta arasında ortalama kist hacmi 1,1 mL olup çapları 3 ila 31 mm arasında değişmektedir. 21 vakada (%60) kayda değer hipokampal kitle etkisi mevcuttu. Ortalama takip aralığı 5,7 yıldı (aralık, 1 ay ila 23,6 yıl). Kist boyutu 2 olguda (%6) arttı, 11 olguda (%31) azaldı ve 22 olguda (%63) stabil kaldı. 5 yaşından küçük hastaların (7 hasta, 8 kist) 3'ünde (%38) kistler arttı, 3'ünde (%38) azaldı ve 2'sinde (%25) değişmeden kaldı. SONUÇ: CFC'ler, bu lezyonların statik olduğu yönündeki geleneksel görüşe meydan okuyarak önemli aralık boyutu değişiklikleri gösterebilir. ≥5 yaşındaki hastalardaki kistlerin üçte birinden fazlası zamanla değişti ve kayda değer hipokampal kitle etkisi yaygındı."
     },
     {
-      "pmid": "42537575",
-      "title": "Supporting transformer-based cardiac MRI segmentation with text-to-image controllable diffusion pipelines.",
-      "abstract": "Cardiac magnetic resonance imaging (MRI) plays a critical role in diagnosing cardiovascular diseases; however, acquiring large, annotated datasets remains a significant challenge due to ethical, economic, and logistical constraints. In this paper, we propose a generative framework based on diffusion models for the controllable synthesis of anatomically consistent cardiac MRI scans with corresponding segmentation labels. Our approach combines Low-Rank Adaptation (LoRA) to generate pathology-aware label maps from textual prompts, and ControlNet to guide image synthesis using both semantic and spatial conditioning. This enables the creation of a fully annotated synthetic dataset aligned with cardiac pathologies and phases, supporting supervised training of segmentation models without additional manual labeling. We evaluate the proposed framework in terms of image realism using Fréchet Inception Distance (FID), Kernel Inception Distance (KID), and Fréchet Radiomic Distance (FRD), as well as downstream segmentation performance using a SegFormer model trained on real, synthetic, and combined datasets. Results show that the proposed method improves segmentation accuracy, particularly in data-limited settings. Beyond in-domain evaluation on the ACDC dataset, cross-dataset experiments on the multi-center M&Ms cohort demonstrate improved generalization and robustness to domain shifts. These findings highlight the potential of text-guided diffusion pipelines to generate high-quality, semantically consistent medical imaging data for robust and generalizable AI training.",
-      "journal": "Comput Med Imaging Graph",
-      "date": "2026-07-30",
-      "authors": [
-        "Fouadi H",
-        "Kas M",
-        "Ruichek Y",
-        "El Merabet Y"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1016/j.compmedimag.2026.102803",
-      "journal_tier": 3,
-      "impact": 5.4,
-      "score": 35.0,
-      "score_parts": {
-        "journal": 35,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": "Kardiyak manyetik rezonans görüntüleme (MRI), kardiyovasküler hastalıkların teşhisinde kritik bir rol oynar; ancak büyük, açıklamalı veri kümelerinin elde edilmesi etik, ekonomik ve lojistik kısıtlamalar nedeniyle önemli bir zorluk olmaya devam ediyor. Bu yazıda, anatomik olarak tutarlı kardiyak MRI taramalarının karşılık gelen segmentasyon etiketleriyle kontrol edilebilir sentezi için difüzyon modellerine dayalı üretken bir çerçeve öneriyoruz. Yaklaşımımız, metin istemlerinden patolojiye duyarlı etiket haritaları oluşturmak için Düşük Sıralı Adaptasyonu (LoRA) ve hem semantik hem de uzaysal koşullandırmayı kullanarak görüntü sentezini yönlendirmek için ControlNet'i birleştirir. Bu, kardiyak patolojiler ve aşamalarla uyumlu, tamamen açıklamalı bir sentetik veri kümesinin oluşturulmasına olanak tanır ve ek manuel etiketlemeye gerek kalmadan segmentasyon modellerinin denetimli eğitimini destekler. Önerilen çerçeveyi, Fréchet Başlangıç ​​Mesafesi (FID), Çekirdek Başlangıç ​​Mesafesi (KID) ve Fréchet Radyomik Mesafe (FRD) kullanarak görüntü gerçekçiliği ve ayrıca gerçek, sentetik ve birleştirilmiş veri kümeleri üzerinde eğitilmiş bir SegFormer modeli kullanılarak aşağı akış segmentasyon performansı açısından değerlendiriyoruz. Sonuçlar, önerilen yöntemin özellikle veri sınırlı ortamlarda segmentasyon doğruluğunu arttırdığını göstermektedir. ACDC veri kümesinde alan içi değerlendirmenin ötesinde, çok merkezli M&M kohortu üzerinde yapılan çapraz veri kümesi deneyleri, alan değişimlerinde gelişmiş genelleme ve sağlamlık göstermektedir. Bu bulgular, sağlam ve genelleştirilebilir yapay zeka eğitimi için yüksek kaliteli, anlamsal olarak tutarlı tıbbi görüntüleme verileri üretme konusunda metin kılavuzlu dağıtım boru hatlarının potansiyelini vurgulamaktadır."
-    },
-    {
-      "pmid": "42537513",
-      "title": "Stroke care - critical time metrics: does CT scanner placement in the emergency department matter?",
+      "pmid": "42543404",
+      "title": "Correction to: Comparison of Single fiber Transperineal Laser Ablation and Radiofrequency Ablation in the Treatment of Benign Prostatic Hyperplasia.",
       "abstract": "",
-      "journal": "Clin Imaging",
-      "date": "2026-07-23",
+      "journal": "Cardiovasc Intervent Radiol",
+      "date": "2026-08-02",
       "authors": [
-        "Mohanty P",
-        "Khosla S",
-        "Patel K"
+        "Han X",
+        "Yang P",
+        "Zhao X",
+        "Li R",
+        "Xiao J",
+        "Shen H",
+        "Zhang Y",
+        "Shi XQ"
       ],
       "pubtypes": [
-        "Journal Article"
+        "Published Erratum"
       ],
-      "doi": "10.1016/j.clinimag.2026.110909",
-      "journal_tier": 3,
-      "impact": 1.9,
-      "score": 35.0,
-      "score_parts": {
-        "journal": 35,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42537877",
-      "title": "Mixed Reality Fluoroscopy Guidance for Direct Thoracic Duct Cannulation and Pre-Operative Lymphangiography.",
-      "abstract": "",
-      "journal": "J Vasc Interv Radiol",
-      "date": "2026-07-31",
-      "authors": [
-        "Gordon AC",
-        "Zahra SA",
-        "Jordan S"
-      ],
-      "pubtypes": [
-        "Letter"
-      ],
-      "doi": "10.1016/j.jvir.2026.108989",
+      "doi": "10.1007/s00270-026-04536-x",
       "journal_tier": 2,
-      "impact": 3.2,
-      "score": 30.0,
+      "impact": 2.6,
+      "score": -40.0,
       "score_parts": {
         "journal": 60,
-        "pubtype": -30,
+        "pubtype": -100,
         "recency": 0.0
       },
       "tier": 3,
