@@ -4,22 +4,17 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Radyoloji Pulse — Makale Radarı</title>
-<meta name="description" content="Son günlerin radyoloji literatürü, etki skoruyla sıralı. Kaynak: PubMed.">
+<meta name="description" content="Radyoloji alanında güncel ve yenilenen literatür derlemesi. Kaynak: PubMed.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
   :root{
-    /* ---- Açık tema: açık arka plan, koyu okunur yazı ---- */
     --bg:#eef2f6; --bg2:#e3e9ef; --panel:#ffffff; --panel2:#f6f9fb;
     --line:#d6dee6; --line2:#c2cdd8;
-    --text:#0f1d2e;            /* koyu, yüksek kontrast */
-    --muted:#3b4b5b;           /* ikincil metin — okunur */
-    --faint:#64748b;           /* etiket/ipucu */
-    --accent:#0e8aa0;          /* teal — beyaz üzerinde okunur */
-    --accent-dim:#bfe9f1;      /* açık teal dolgu */
-    --gold:#a86a12;            /* Tier 1 — beyaz üzerinde okunur */
-    --gold-dim:#e6c074;
+    --text:#0f1d2e; --muted:#3b4b5b; --faint:#64748b;
+    --accent:#0e8aa0; --accent-dim:#bfe9f1;
+    --gold:#a86a12; --gold-dim:#e6c074;
     --t2:#0e8aa0; --t3:#7488a0;
     --display:'Space Grotesk',system-ui,sans-serif;
     --body:'Inter',system-ui,sans-serif;
@@ -36,31 +31,21 @@
   a{color:inherit;text-decoration:none}
   .wrap{max-width:900px;margin:0 auto;padding:0 18px}
 
-  /* ---------- Header ---------- */
   header{padding:40px 0 0}
   .brand{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
-  .brand h1{
-    font-family:var(--display);font-weight:700;font-size:clamp(28px,6vw,44px);
-    letter-spacing:-.02em;margin:0;line-height:1;
-  }
+  .brand h1{font-family:var(--display);font-weight:700;font-size:clamp(28px,6vw,44px);
+    letter-spacing:-.02em;margin:0;line-height:1;}
   .brand h1 .accent{color:var(--accent)}
-  .brand .eyebrow{
-    font-family:var(--mono);font-size:11px;letter-spacing:.28em;color:var(--faint);
-    text-transform:uppercase;
-  }
-  /* LIVE rozeti — canlı his */
+  .brand .eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.28em;color:var(--faint);
+    text-transform:uppercase;}
   .live{display:inline-flex;align-items:center;gap:7px;font-family:var(--mono);
     font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:#c01818;
     border:1px solid #e7b4b4;background:#fdecec;padding:5px 11px;border-radius:999px}
   .live .dot{width:8px;height:8px;border-radius:50%;background:#e0241b;
     box-shadow:0 0 0 0 rgba(224,36,27,.6);animation:pulse 1.6s infinite}
-  @keyframes pulse{
-    0%{box-shadow:0 0 0 0 rgba(224,36,27,.55)}
-    70%{box-shadow:0 0 0 9px rgba(224,36,27,0)}
-    100%{box-shadow:0 0 0 0 rgba(224,36,27,0)}
-  }
+  @keyframes pulse{0%{box-shadow:0 0 0 0 rgba(224,36,27,.55)}
+    70%{box-shadow:0 0 0 9px rgba(224,36,27,0)}100%{box-shadow:0 0 0 0 rgba(224,36,27,0)}}
   .tagline{color:var(--muted);margin:14px 0 0;max-width:54ch}
-  /* signature: window/level grayscale ramp */
   .ramp{height:6px;margin:20px 0 0;border-radius:3px;
     background:linear-gradient(90deg,#0f1d2e,#5b6b7a 40%,#aab8c4 70%,#fff);
     box-shadow:inset 0 0 0 1px var(--line);}
@@ -71,7 +56,6 @@
     text-transform:uppercase;color:var(--faint);margin-top:6px}
   .stat.gold .n{color:var(--gold)}
 
-  /* ---------- Controls ---------- */
   .controls{display:flex;gap:12px;align-items:center;flex-wrap:wrap;
     margin:30px 0 18px;position:sticky;top:0;z-index:5;
     padding:14px 0;background:linear-gradient(var(--bg) 78%,transparent)}
@@ -93,8 +77,13 @@
   .search input:focus{border-color:var(--accent)}
   .search input::placeholder{color:var(--faint)}
 
-  /* ---------- Worklist ---------- */
   .list{display:flex;flex-direction:column;gap:14px;padding-bottom:60px}
+  .section-head{font-family:var(--display);font-size:16px;font-weight:600;color:var(--text);
+    letter-spacing:.01em;margin:24px 0 2px;padding-bottom:9px;border-bottom:2px solid var(--accent-dim);
+    display:flex;align-items:baseline;gap:10px}
+  .section-head:first-child{margin-top:2px}
+  .section-head .scount{font-family:var(--mono);font-size:11px;color:var(--faint);font-weight:400}
+
   .card{position:relative;background:var(--panel);border:1px solid var(--line);
     border-left:3px solid var(--t3);border-radius:var(--r);padding:18px 20px 16px;
     box-shadow:0 1px 2px rgba(15,29,46,.05);
@@ -102,6 +91,7 @@
   .card:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(15,29,46,.10);border-left-color:var(--accent)}
   .card.t1{border-left-color:var(--gold)}
   .card.t2{border-left-color:var(--t2)}
+  .card.tez{border-left-color:#6d4aa6}
   @keyframes rise{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
 
   .top{display:flex;gap:14px;align-items:flex-start}
@@ -115,8 +105,6 @@
   .badge.t2{color:#0b6e80;border-color:#bfe7ee;background:#e6f7fa}
   .badge.t3{color:#475569;border-color:#cfd8e1;background:#eef2f6}
   .badge.tez{color:#6d4aa6;border-color:#d6c6ec;background:#f3eefb}
-  .card.tez{border-left-color:#6d4aa6}
-  .tez-en{color:var(--muted);font-size:13.5px;line-height:1.6;margin:10px 0 0}
   .title{font-family:var(--display);font-weight:600;font-size:18px;
     letter-spacing:-.01em;line-height:1.3;margin:0;color:var(--text)}
   .title a:hover{color:var(--accent)}
@@ -129,8 +117,8 @@
   .ptypes{display:flex;gap:6px;flex-wrap:wrap;margin:11px 0 0}
   .pt{font-family:var(--mono);font-size:10.5px;color:var(--muted);
     padding:2px 7px;border:1px solid var(--line2);border-radius:4px;background:var(--panel2)}
+  .tez-en{color:var(--muted);font-size:13.5px;line-height:1.6;margin:10px 0 0}
 
-  /* ---------- Özet + çeviri ---------- */
   .abstract{margin:12px 0 0;max-height:0;overflow:hidden;transition:max-height .25s ease}
   .abstract.open{max-height:2400px}
   .abs-langbar{display:flex;gap:6px;margin:0 0 8px}
@@ -146,23 +134,18 @@
     background:none;border:none;cursor:pointer;padding:10px 0 0;letter-spacing:.05em}
   .toggle:hover{text-decoration:underline}
 
-  /* score gauge — signal intensity bar */
   .gauge{display:flex;align-items:center;gap:10px;margin:14px 0 0}
   .bar{flex:1;height:5px;border-radius:3px;background:var(--bg2);
     border:1px solid var(--line);overflow:hidden}
-  .fill{height:100%;border-radius:3px;
-    background:linear-gradient(90deg,var(--accent-dim),var(--accent))}
+  .fill{height:100%;border-radius:3px;background:linear-gradient(90deg,var(--accent-dim),var(--accent))}
   .card.t1 .fill{background:linear-gradient(90deg,var(--gold-dim),var(--gold))}
   .sval{font-family:var(--mono);font-size:12px;color:var(--muted);min-width:42px;text-align:right}
 
-  /* states */
   .state{text-align:center;padding:60px 20px;color:var(--muted)}
   .state h3{font-family:var(--display);color:var(--text);font-weight:600}
   .state code{font-family:var(--mono);font-size:12px;background:var(--panel);
     padding:3px 7px;border-radius:5px;border:1px solid var(--line2);color:var(--accent)}
-
   .loadbar{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:16px 0 0}
-  .loadbar .hint{font-family:var(--mono);font-size:11px;color:var(--faint)}
 
   footer{border-top:1px solid var(--line);padding:26px 0 50px;margin-top:20px;
     color:var(--faint);font-size:13px;display:flex;justify-content:space-between;
@@ -174,9 +157,7 @@
     .rank{min-width:24px;font-size:12px}
     .title{font-size:16.5px}
   }
-  @media (prefers-reduced-motion:reduce){
-    *{animation:none!important;transition:none!important}
-  }
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
 </style>
 </head>
 <body>
@@ -196,12 +177,9 @@
 
   <div class="controls">
     <div class="chips" id="chips">
-      <button class="chip" data-tier="all" aria-pressed="true">Tümü</button>
-      <button class="chip" data-tier="1" aria-pressed="false">Tier 1</button>
-      <button class="chip" data-tier="2" aria-pressed="false">Tier 2</button>
-      <button class="chip" data-tier="3" aria-pressed="false">Tier 3</button>
-      <button class="chip best" data-tier="best" aria-pressed="false">★ Best 2026</button>
-      <button class="chip tez" data-tier="tez" aria-pressed="false">🎓 Tez 2026</button>
+      <button class="chip" data-view="all" aria-pressed="true">Tümü</button>
+      <button class="chip best" data-view="best" aria-pressed="false">★ Best 2026</button>
+      <button class="chip tez" data-view="tez" aria-pressed="false">🎓 Tez 2026</button>
     </div>
     <div class="search">
       <input id="q" type="search" placeholder="Başlık, dergi veya yazarda ara…" autocomplete="off">
@@ -220,10 +198,24 @@
 </div>
 
 <script>
-const state = { data:null, best:null, tez:null, tier:"all", q:"" };
-const TR_CACHE = {};   // pmid -> çevrilmiş özet (oturum içi önbellek)
+const SECTION_ORDER = ["girisim","nukleer","meme","neuro","toraks","abdomen","kas","pediatri","yapayzeka","egitim","genel"];
+const SECTION_LABELS = {
+  girisim:"Girişimsel Radyoloji", nukleer:"Nükleer & Moleküler Görüntüleme",
+  meme:"Meme Görüntüleme", neuro:"Nöroradyoloji", toraks:"Toraks & Kardiyak",
+  abdomen:"Abdominal & Genitoüriner", kas:"Kas-İskelet", pediatri:"Pediatrik Radyoloji",
+  yapayzeka:"Yapay Zeka & Radyomik", egitim:"Eğitim & Meslek", genel:"Genel & Diğer"
+};
+const SECTION_SHORT = {
+  girisim:"Girişimsel", nukleer:"Nükleer", meme:"Meme", neuro:"Nöro", toraks:"Toraks/Kardiyak",
+  abdomen:"Abdominal", kas:"Kas-İskelet", pediatri:"Pediatrik", yapayzeka:"Yapay Zeka",
+  egitim:"Eğitim", genel:"Genel"
+};
+
+const state = { data:null, best:null, tez:null, view:"all", section:"all", q:"" };
+const TR_CACHE = {};
 
 function escapeHtml(s){return (s||"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));}
+function secOf(a){ return (a.section && SECTION_LABELS[a.section]) ? a.section : "genel"; }
 
 function fmtDate(iso){
   if(!iso) return "";
@@ -243,16 +235,12 @@ function articleUrl(a){
   return "#";
 }
 
-/* Tarayıcıda otomatik çeviri (Google'ın anahtarsız uç noktası).
-   Uzun metni cümle sınırından parçalara böler. */
 async function gtxTranslate(text){
-  const chunks = [];
-  let s = text;
+  const chunks = []; let s = text;
   while(s.length > 4500){
     let cut = s.lastIndexOf(". ", 4500);
     if(cut < 1000) cut = 4500;
-    chunks.push(s.slice(0, cut+1));
-    s = s.slice(cut+1);
+    chunks.push(s.slice(0, cut+1)); s = s.slice(cut+1);
   }
   chunks.push(s);
   let out = "";
@@ -280,7 +268,9 @@ function renderStats(d){
   }
 }
 
-function card(a, rank){
+let RANK = 0;
+function card(a){
+  const rank = ++RANK;
   const t = a.tier||3;
   const width = Math.max(6, Math.min(100, a.score/1.7));
   const tagged = (a.pubtypes||[]).filter(p=>p!=="Journal Article").slice(0,4);
@@ -321,6 +311,19 @@ function card(a, rank){
   </article>`;
 }
 
+function sectionHead(key, n){
+  return `<h2 class="section-head">${escapeHtml(SECTION_LABELS[key]||"Genel")}<span class="scount">${n} makale</span></h2>`;
+}
+
+function filterBySearch(arts){
+  if(!state.q) return arts;
+  const q = state.q.toLowerCase();
+  return arts.filter(a=>
+    (a.title||"").toLowerCase().includes(q) ||
+    (a.journal||"").toLowerCase().includes(q) ||
+    (a.authors||[]).join(" ").toLowerCase().includes(q));
+}
+
 async function doTranslate(btn){
   if(btn.dataset.done === "1") return;
   btn.dataset.done = "1";
@@ -336,30 +339,66 @@ async function doTranslate(btn){
     const link = "https://translate.google.com/?sl=en&tl=tr&op=translate&text=" + encodeURIComponent(enText);
     trEl.innerHTML = '<span class="absnote">Otomatik çeviri şu an yapılamadı.</span> ' +
       '<a class="abs-fallback" target="_blank" rel="noopener" href="' + link + '">Google Translate’te aç →</a>';
-    btn.dataset.done = "0";   // tekrar denenebilsin
+    btn.dataset.done = "0";
   }
 }
 
-async function loadBest(){
-  if(state.best) return;
-  try{
-    const res = await fetch("best2026.json",{cache:"no-store"});
-    if(!res.ok) throw new Error(res.status);
-    state.best = await res.json();
-  }catch(e){
-    state.best = {articles:[]};
-  }
+function wireAbstracts(list){
+  list.querySelectorAll(".toggle").forEach(btn=>{
+    btn.addEventListener("click",()=>{
+      const el = document.getElementById("abs-"+btn.dataset.abs);
+      const open = el.classList.toggle("open");
+      btn.textContent = open ? "Özeti gizle −" : "Özeti göster +";
+      if(open && btn.dataset.hasTr === "0") doTranslate(btn);
+    });
+  });
+  list.querySelectorAll(".lang").forEach(b=>{
+    b.addEventListener("click",()=>{
+      const r = b.dataset.r, l = b.dataset.l;
+      const box = document.getElementById("abs-"+r);
+      box.querySelectorAll(".lang").forEach(x=>x.classList.toggle("on", x.dataset.l===l));
+      document.getElementById("abstr-"+r).hidden = (l!=="tr");
+      document.getElementById("absen-"+r).hidden = (l!=="en");
+    });
+  });
 }
 
-async function loadTez(){
-  if(state.tez) return;
-  try{
-    const res = await fetch("tez2026.json",{cache:"no-store"});
-    if(!res.ok) throw new Error(res.status);
-    state.tez = await res.json();
-  }catch(e){
-    state.tez = {theses:[]};
+function renderArticles(){
+  const list = document.getElementById("list");
+  if(!state.data){ return; }
+  RANK = 0;
+  let arts = filterBySearch(state.data.articles||[]);
+  if(state.section!=="all") arts = arts.filter(a=>secOf(a)===state.section);
+  if(!arts.length){
+    list.innerHTML = `<div class="state"><h3>Eşleşen makale yok</h3>
+      <p>Bölümü değiştir ya da aramayı temizle.</p></div>`;
+    return;
   }
+  let html = "";
+  if(state.section!=="all"){
+    html = sectionHead(state.section, arts.length) + arts.map(card).join("");
+  }else{
+    for(const key of SECTION_ORDER){
+      const items = arts.filter(a=>secOf(a)===key);
+      if(items.length) html += sectionHead(key, items.length) + items.map(card).join("");
+    }
+  }
+  list.innerHTML = html;
+  wireAbstracts(list);
+}
+
+function renderBest(){
+  const list = document.getElementById("list");
+  if(!state.best){ list.innerHTML = `<div class="state"><h3>Best of 2026 yükleniyor…</h3></div>`; return; }
+  RANK = 0;
+  let arts = filterBySearch(state.best.articles||[]);
+  if(!arts.length){
+    list.innerHTML = `<div class="state"><h3>Best of 2026 henüz boş</h3>
+      <p>Liste, betik her çalıştığında bu yılın en yüksek etki faktörlü makaleleriyle dolar.</p></div>`;
+    return;
+  }
+  list.innerHTML = `<h2 class="section-head">Best of 2026 — etki faktörüne göre<span class="scount">${arts.length} makale</span></h2>` + arts.map(card).join("");
+  wireAbstracts(list);
 }
 
 function tezCard(t, rank){
@@ -384,9 +423,8 @@ function tezCard(t, rank){
 
 function renderTez(){
   const list = document.getElementById("list");
-  const src = state.tez;
-  if(!src){ list.innerHTML = `<div class="state"><h3>Tezler yükleniyor…</h3></div>`; return; }
-  let items = (src.theses||[]).slice();
+  if(!state.tez){ list.innerHTML = `<div class="state"><h3>Tezler yükleniyor…</h3></div>`; return; }
+  let items = (state.tez.theses||[]).slice();
   if(state.q){
     const q = state.q.toLowerCase();
     items = items.filter(t=>
@@ -400,76 +438,64 @@ function renderTez(){
       <p>Bu yıl için YÖK Ulusal Tez Merkezi'nden radyoloji tezleri burada listelenir.</p></div>`;
     return;
   }
-  list.innerHTML = items.map((t,i)=>tezCard(t,i+1)).join("");
+  list.innerHTML = `<h2 class="section-head">Radyoloji Tezleri 2026 — YÖK<span class="scount">${items.length} tez</span></h2>` + items.map((t,i)=>tezCard(t,i+1)).join("");
 }
 
 function render(){
-  if(state.tier==="tez"){ renderTez(); return; }
-  const isBest = state.tier==="best";
-  const src = isBest ? state.best : state.data;
-  const list = document.getElementById("list");
-  if(!src){
-    if(isBest) list.innerHTML = `<div class="state"><h3>Best of 2026 yükleniyor…</h3></div>`;
-    return;
-  }
-  let arts = (src.articles||[]).slice();
-  // Best görünümü zaten etki faktörüne göre sıralı; Tier filtreleri yalnız ana akışta
-  if(!isBest && state.tier!=="all") arts = arts.filter(a=>String(a.tier)===state.tier);
-  if(state.q){
-    const q = state.q.toLowerCase();
-    arts = arts.filter(a=>
-      (a.title||"").toLowerCase().includes(q) ||
-      (a.journal||"").toLowerCase().includes(q) ||
-      (a.authors||[]).join(" ").toLowerCase().includes(q));
-  }
-  if(!arts.length){
-    list.innerHTML = isBest
-      ? `<div class="state"><h3>Best of 2026 henüz boş</h3>
-         <p>Liste, betik her çalıştığında bu yılın en yüksek etki faktörlü makaleleriyle dolar.</p></div>`
-      : `<div class="state"><h3>Eşleşen makale yok</h3>
-         <p>Filtreyi değiştir ya da aramayı temizle.</p></div>`;
-    return;
-  }
-  list.innerHTML = arts.map((a,i)=>card(a,i+1)).join("");
+  if(state.view==="best") return renderBest();
+  if(state.view==="tez") return renderTez();
+  renderArticles();
+}
 
-  // Özeti göster/gizle + açılınca otomatik çeviri
-  list.querySelectorAll(".toggle").forEach(btn=>{
-    btn.addEventListener("click",()=>{
-      const el = document.getElementById("abs-"+btn.dataset.abs);
-      const open = el.classList.toggle("open");
-      btn.textContent = open ? "Özeti gizle −" : "Özeti göster +";
-      if(open && btn.dataset.hasTr === "0") doTranslate(btn);
-    });
-  });
-
-  // Dil değiştirme (Türkçe / English)
-  list.querySelectorAll(".lang").forEach(b=>{
-    b.addEventListener("click",()=>{
-      const r = b.dataset.r, l = b.dataset.l;
-      const box = document.getElementById("abs-"+r);
-      box.querySelectorAll(".lang").forEach(x=>x.classList.toggle("on", x.dataset.l===l));
-      document.getElementById("abstr-"+r).hidden = (l!=="tr");
-      document.getElementById("absen-"+r).hidden = (l!=="en");
-    });
+function buildSectionChips(){
+  if(!state.data) return;
+  const chips = document.getElementById("chips");
+  const anchor = chips.querySelector('.chip.best');
+  const counts = {};
+  (state.data.articles||[]).forEach(a=>{ const k=secOf(a); counts[k]=(counts[k]||0)+1; });
+  SECTION_ORDER.forEach(key=>{
+    if(!counts[key]) return;
+    const b = document.createElement("button");
+    b.className = "chip";
+    b.setAttribute("data-view","section");
+    b.setAttribute("data-section", key);
+    b.setAttribute("aria-pressed","false");
+    b.textContent = `${SECTION_SHORT[key]} ${counts[key]}`;
+    chips.insertBefore(b, anchor);
   });
 }
 
+async function loadBest(){
+  if(state.best) return;
+  try{ const r = await fetch("best2026.json",{cache:"no-store"}); if(!r.ok) throw 0; state.best = await r.json(); }
+  catch(e){ state.best = {articles:[]}; }
+}
+async function loadTez(){
+  if(state.tez) return;
+  try{ const r = await fetch("tez2026.json",{cache:"no-store"}); if(!r.ok) throw 0; state.tez = await r.json(); }
+  catch(e){ state.tez = {theses:[]}; }
+}
+
 function bindControls(){
-  document.querySelectorAll(".chip").forEach(c=>{
-    c.addEventListener("click",async ()=>{
-      document.querySelectorAll(".chip").forEach(x=>x.setAttribute("aria-pressed","false"));
-      c.setAttribute("aria-pressed","true");
-      state.tier = c.dataset.tier;
-      if(state.tier==="best" && !state.best){
-        document.getElementById("list").innerHTML = `<div class="state"><h3>Best of 2026 yükleniyor…</h3></div>`;
-        await loadBest();
-      }
-      if(state.tier==="tez" && !state.tez){
-        document.getElementById("list").innerHTML = `<div class="state"><h3>Tezler yükleniyor…</h3></div>`;
-        await loadTez();
-      }
-      render();
-    });
+  const chips = document.getElementById("chips");
+  chips.addEventListener("click", async e=>{
+    const c = e.target.closest(".chip");
+    if(!c) return;
+    chips.querySelectorAll(".chip").forEach(x=>x.setAttribute("aria-pressed","false"));
+    c.setAttribute("aria-pressed","true");
+    const view = c.dataset.view;
+    if(view==="section"){ state.view="all"; state.section=c.dataset.section; }
+    else if(view==="all"){ state.view="all"; state.section="all"; }
+    else { state.view=view; }
+    if(state.view==="best" && !state.best){
+      document.getElementById("list").innerHTML = `<div class="state"><h3>Best of 2026 yükleniyor…</h3></div>`;
+      await loadBest();
+    }
+    if(state.view==="tez" && !state.tez){
+      document.getElementById("list").innerHTML = `<div class="state"><h3>Tezler yükleniyor…</h3></div>`;
+      await loadTez();
+    }
+    render();
   });
   document.getElementById("q").addEventListener("input",e=>{state.q=e.target.value.trim();render();});
 }
@@ -484,11 +510,8 @@ function wireFileLoader(){
     if(!f) return;
     const r = new FileReader();
     r.onload = ()=>{
-      try{
-        state.data = JSON.parse(r.result);
-        renderStats(state.data);
-        render();
-      }catch(e){ alert("Bu dosya geçerli bir data.json değil."); }
+      try{ state.data = JSON.parse(r.result); renderStats(state.data); buildSectionChips(); render(); }
+      catch(e){ alert("Bu dosya geçerli bir data.json değil."); }
     };
     r.readAsText(f);
   });
@@ -501,6 +524,7 @@ async function load(){
     if(!res.ok) throw new Error(res.status);
     state.data = await res.json();
     renderStats(state.data);
+    buildSectionChips();
     render();
   }catch(err){
     const isFile = location.protocol === "file:";

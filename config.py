@@ -191,5 +191,66 @@ EXTRA_TERMS = ""
 TIER1_THRESHOLD = 110
 TIER2_THRESHOLD = 80
 
+# --------------------------------------------------------------------------
+# BÖLÜMLER (alt uzmanlık) — makaleler tier yerine konuya göre gruplanır.
+# Sınıflandırma başlık + özet + dergi metninde anahtar kelime aramasıyla yapılır;
+# SECTION_ORDER sırasıyla ilk eşleşen bölüm atanır (eşleşme yoksa "genel").
+# Anahtar kelimeleri dilediğin gibi düzenleyebilirsin.
+# --------------------------------------------------------------------------
+SECTION_ORDER = [
+    "girisim", "nukleer", "meme", "neuro", "toraks",
+    "abdomen", "kas", "pediatri", "yapayzeka", "egitim", "genel",
+]
+
+SECTION_LABELS = {
+    "girisim": "Girişimsel Radyoloji",
+    "nukleer": "Nükleer & Moleküler Görüntüleme",
+    "meme": "Meme Görüntüleme",
+    "neuro": "Nöroradyoloji",
+    "toraks": "Toraks & Kardiyak",
+    "abdomen": "Abdominal & Genitoüriner",
+    "kas": "Kas-İskelet",
+    "pediatri": "Pediatrik Radyoloji",
+    "yapayzeka": "Yapay Zeka & Radyomik",
+    "egitim": "Eğitim & Meslek",
+    "genel": "Genel & Diğer",
+}
+
+SECTION_KEYWORDS = {
+    "girisim": ["intervention", "girişim", "embol", "ablation", "ablasyon", "stent",
+                "evar", "tevar", "angioplast", "anjiyoplast", "thrombect", "trombekt",
+                "biopsy", "biyopsi", "catheter", "kateter", "aneurysm", "anevrizma",
+                "drug-coated", "dcb", "fistula", "fistül", "chimney", "sandwich",
+                "recanaliz", "rekanaliz", "endovascular", "endovasküler"],
+    "nukleer": ["pet/", "pet-", " pet ", "psma", "spect", "nuclear", "nükleer",
+                "lutetium", "lutesyum", "theranost", "radionuclide", "fdg",
+                "gallium", "dotatate", "scintigraph", "sintigraf", "molecular imaging"],
+    "meme": ["breast", "mammograph", "meme", "dce-mri", "her2", "bi-rads"],
+    "neuro": ["brain", "cerebral", "serebral", "glioma", "glial", "stroke", "inme",
+              "neuro", "nöro", "white matter", "mca", "hydrocephal", "hidrosefali",
+              "intracranial", "intrakranial", "pituitary", "hipofiz", "meningi",
+              "demyelin", "epilep"],
+    "toraks": ["lung", "pulmonary", "pulmoner", "chest", "thorac", "toraks",
+               "cardiac", "kardiyak", "coronary", "koroner", "pneumonia", "pnömoni",
+               "copd", "koah", "myocard", "miyokard", "pleural", "plevral", "aort"],
+    "abdomen": ["liver", "hepatic", "karaciğer", "hepatocellular", "pancrea", "pankreas",
+                "renal", "kidney", "böbrek", "prostate", "prostat", "rectal", "rektum",
+                "abdom", "bowel", "bağırsak", "biliary", "biliyer", "adrenal",
+                "gastro", "hydronephro", "hidronefroz", "üriner", "urinary"],
+    "kas": ["bone", "kemik", "skeletal", "musculoskeletal", "meniscus", "menisküs",
+            "cartilage", "kıkırdak", " joint", "eklem", "spine", "omurga", "arthro",
+            "artro", "sarcopenia", "sarkopeni", "scoliosis", "skolyoz", "molar",
+            "dental", "mandibular"],
+    "pediatri": ["pediatric", "pediatrik", "child", "çocuk", "neonat", "yenidoğan",
+                 "puberty", "puberte", "congenital", "doğumsal", "fetal"],
+    "yapayzeka": ["deep learning", "derin öğrenme", "machine learning", "makine öğren",
+                  "artificial intelligence", "yapay zeka", "radiomic", "radyomik",
+                  "neural network", "large language model", " llm", "gpt", "gemini",
+                  "convolutional", "algorithm"],
+    "egitim": ["education", "eğitim", "training", "curriculum", "müfredat",
+               "tumor board", "resident", "asistan", "teaching", "workforce",
+               "readiness", "guideline", "kılavuz"],
+}
+
 # Dergi listesini sorgu için düz liste olarak çıkar
 JOURNALS = list(JOURNAL_TIERS.keys())

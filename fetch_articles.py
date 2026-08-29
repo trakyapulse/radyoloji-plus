@@ -33,6 +33,7 @@ from config import (
     RELDATE_DAYS, DATETYPE, RETMAX, EXTRA_TERMS,
     TIER1_THRESHOLD, TIER2_THRESHOLD,
     JOURNAL_IF, DEFAULT_IF, BEST_KEEP,
+    SECTION_ORDER, SECTION_KEYWORDS,
 )
 
 # dergi -> etki faktörü hızlı arama
@@ -227,6 +228,21 @@ def journal_impact(journal):
     return _IF_LOOKUP.get(journal.strip().lower().rstrip("."), DEFAULT_IF)
 
 
+def classify_section(a):
+    """Makaleyi başlık + özet + dergi metnindeki anahtar kelimelere göre bir
+    alt uzmanlık bölümüne atar. Eşleşme yoksa 'genel'."""
+    text = " ".join([
+        a.get("title", ""), a.get("abstract", ""), a.get("journal", ""),
+    ]).lower()
+    for key in SECTION_ORDER:
+        if key == "genel":
+            continue
+        for kw in SECTION_KEYWORDS.get(key, []):
+            if kw in text:
+                return key
+    return "genel"
+
+
 def pubtype_score(ptypes):
     weights = [PUBTYPE_WEIGHTS.get(pt, 0) for pt in ptypes]
     pos = max([w for w in weights if w > 0], default=0)
@@ -275,6 +291,7 @@ def score_article(a):
 
     a["journal_tier"] = jt
     a["impact"] = journal_impact(a["journal"])
+    a["section"] = classify_section(a)
     a["score"] = round(total, 1)
     a["score_parts"] = {"journal": jw, "pubtype": pw, "recency": round(rw, 1)}
     a["tier"] = 1 if total >= TIER1_THRESHOLD else (2 if total >= TIER2_THRESHOLD else 3)

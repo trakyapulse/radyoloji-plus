@@ -27,7 +27,8 @@
         "recency": 0.0
       },
       "tier": 3,
-      "impact": 8.1
+      "impact": 8.1,
+      "section": "yapayzeka"
     },
     {
       "pmid": "42275243",
@@ -59,7 +60,8 @@
         "recency": 0.0
       },
       "tier": 1,
-      "impact": 5.2
+      "impact": 5.2,
+      "section": "nukleer"
     },
     {
       "pmid": "42275241",
@@ -87,7 +89,8 @@
         "recency": 0.0
       },
       "tier": 1,
-      "impact": 5.2
+      "impact": 5.2,
+      "section": "toraks"
     },
     {
       "pmid": "42275240",
@@ -121,7 +124,8 @@
         "recency": 0.0
       },
       "tier": 1,
-      "impact": 5.2
+      "impact": 5.2,
+      "section": "girisim"
     },
     {
       "pmid": "42275242",
@@ -148,7 +152,8 @@
         "recency": 0.0
       },
       "tier": 3,
-      "impact": 5.2
+      "impact": 5.2,
+      "section": "egitim"
     },
     {
       "pmid": "42275239",
@@ -172,7 +177,8 @@
         "recency": 0.0
       },
       "tier": 3,
-      "impact": 5.2
+      "impact": 5.2,
+      "section": "genel"
     },
     {
       "pmid": "42298150",
@@ -196,7 +202,8 @@
         "recency": 10.0
       },
       "tier": 2,
-      "impact": 4.7
+      "impact": 4.7,
+      "section": "girisim"
     },
     {
       "pmid": "42295327",
@@ -222,7 +229,8 @@
         "recency": 8.0
       },
       "tier": 3,
-      "impact": 4.7
+      "impact": 4.7,
+      "section": "girisim"
     },
     {
       "pmid": "42295505",
@@ -247,7 +255,8 @@
         "recency": 8.0
       },
       "tier": 3,
-      "impact": 4.1
+      "impact": 4.1,
+      "section": "meme"
     },
     {
       "pmid": "42295571",
@@ -280,7 +289,8 @@
         "recency": 8.0
       },
       "tier": 3,
-      "impact": 4.1
+      "impact": 4.1,
+      "section": "nukleer"
     },
     {
       "pmid": "42242825",
@@ -311,7 +321,8 @@
         "recency": 0.0
       },
       "tier": 3,
-      "impact": 3.8
+      "impact": 3.8,
+      "section": "nukleer"
     },
     {
       "pmid": "42242823",
@@ -350,7 +361,8 @@
         "recency": 0.0
       },
       "tier": 3,
-      "impact": 3.8
+      "impact": 3.8,
+      "section": "yapayzeka"
     },
     {
       "pmid": "42288448",
@@ -377,7 +389,8 @@
         "recency": 4.0
       },
       "tier": 3,
-      "impact": 3.8
+      "impact": 3.8,
+      "section": "nukleer"
     },
     {
       "pmid": "42242824",
@@ -400,7 +413,8 @@
         "recency": 0.0
       },
       "tier": 3,
-      "impact": 3.8
+      "impact": 3.8,
+      "section": "yapayzeka"
     },
     {
       "pmid": "42295942",
@@ -429,7 +443,8 @@
         "recency": 8.0
       },
       "tier": 3,
-      "impact": 3.3
+      "impact": 3.3,
+      "section": "nukleer"
     },
     {
       "pmid": "42288334",
@@ -453,7 +468,8 @@
         "recency": 4.0
       },
       "tier": 3,
-      "impact": 3.3
+      "impact": 3.3,
+      "section": "girisim"
     },
     {
       "pmid": "42288333",
@@ -487,7 +503,8 @@
         "recency": 4.0
       },
       "tier": 3,
-      "impact": 3.3
+      "impact": 3.3,
+      "section": "girisim"
     },
     {
       "pmid": "42247819",
@@ -513,7 +530,8 @@
         "recency": 0.0
       },
       "tier": 3,
-      "impact": 3.2
+      "impact": 3.2,
+      "section": "girisim"
     },
     {
       "pmid": "42297236",
@@ -542,7 +560,8 @@
         "recency": 8.0
       },
       "tier": 3,
-      "impact": 3.2
+      "impact": 3.2,
+      "section": "girisim"
     },
     {
       "pmid": "42295363",
@@ -574,7 +593,8 @@
         "recency": 8.0
       },
       "tier": 3,
-      "impact": 2.4
+      "impact": 2.4,
+      "section": "nukleer"
     }
   ]
 }
