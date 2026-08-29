@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-29T13:58:08+00:00",
+  "updated": "2026-08-29T14:07:04+00:00",
   "window_days": 1,
   "datetype": "edat",
   "count": 66,
@@ -128,7 +128,7 @@
       "doi": "10.1016/j.media.2026.104257",
       "journal_tier": 1,
       "impact": 10.7,
-      "section": "nukleer",
+      "section": "abdomen",
       "score": 100.0,
       "score_parts": {
         "journal": 100,
@@ -136,7 +136,7 @@
         "recency": 0.0
       },
       "tier": 2,
-      "abstract_tr": "Segmentasyon modelleri, tümör tespitinde radyologları, sınıflandırma modellerini ve görme dili modellerini aşabilir. Ayrıca segmentasyon modelleri tümörlerin ana hatlarını çizerek radyologların yapay zeka çıktısını daha iyi doğrulamasına ve ona güvenmesine olanak tanır. Bununla birlikte, bunların ana sınırlaması, tümör maskelerinin azlığıdır: bir 3 boyutlu tümör maskesinin oluşturulması 30 dakika kadar sürer, dolayısıyla çoğu genel BT veri seti yalnızca birkaç yüz maske içerir ve en büyük özel veri setleri bile yalnızca birkaç bin maske içerir. Tümör maskeleri klinik rutinde üretilmiyor ancak radyoloji raporları üretiliyor. Kamuya açık veri kümeleri on binlerce CT Raporu çifti içerir ve hastaneler yüz binlerce içerir. Bu raporlar, tümörleri ayrıntılı olarak tanımlayarak geniş ölçekli, bilgilendirici eğitim verileri sağlar. Burada, tümör segmentasyonunu doğrudan denetlemek ve iyileştirmek için raporları kullanan bir eğitim çerçevesi olan Rapor Denetimini (R-Super) tanıtıyoruz. R-Super, tümör sayısı, boyutları ve konumlarına ilişkin rapor açıklamalarıyla eşleşen tümörleri segmentlere ayırmak için segmentasyon modellerini öğreten yeni kayıp fonksiyonlarını sunar. Raporlar yalnızca eğitim amaçlı kullanılır. R-Super'ı böbrek ve pankreas tümör segmentasyonu üzerinde değerlendirdik ve 41.418'e kadar CT Raporu çifti artı 3.488 CT-Maskesi çiftine kadar çeşitli eğitim veri boyutlarını araştırdık. Harici doğrulamada R-Super, yalnızca maske eğitimine göre tümör tespit F1-Skorunu ve segmentasyon DSC'sini +%15'e kadar artırdı. Ayrıca CLIP ve çok görevli öğrenme gibi alternatif yöntemleri de geride bıraktı. Kontrastsız BT'de tümör maskelerine gerek kalmadan kontrastsız BT'de pankreas tümörü tespitini mümkün kıldı. Özetle, R-Super, kıt maskeleri desteklemek için hazır bulunan çok sayıda rapordan yararlanarak, çok az sayıda eğitim maskesi mevcut olduğunda (örn. 50) ve çok sayıda maske mevcut olduğunda (örn. 3488) yapay zeka performansını güçlü bir şekilde geliştirerek tümör segmentasyonundaki ölçeğin kilidini açar. Proje: https://github.com/MrGiovanni/R-Super."
+      "abstract_tr": ""
     },
     {
       "pmid": "42664660",
@@ -167,7 +167,7 @@
         "recency": 0.0
       },
       "tier": 2,
-      "abstract_tr": "Cerrahi alet tanıma ve doku hareketi analizi, robot yardımlı minimal invazif cerrahide alet-doku karakterizasyonu (ITC) için cerrahi sahneyi anlama ve 3 boyutlu yeniden yapılandırmada geniş uygulamalarla iki kritik görevdir. Hassas alet bölümlendirme ve ayrıntılı hareket haritası tahmini bu görevlerin temelini oluştururken, mevcut yöntemler genellikle bu iki görevi bağımsız olarak ele alır ve uzaysal bölümleme ile zamansal hareket arasındaki içsel ilişkileri araştırmak için bu iki görevin birleşimine çok az dikkat gösterilmiştir. Bu sorunu çözmek için, ardışık görüntülerden hareket haritalarını ve alet maskelerini eş zamanlı olarak tahmin eden, alet-doku karakterizasyonu için çok görevli, kendi kendini denetleyen bir alet bölümlendirmesi ve hareket tahmin ağı olan ITCNet'i öneriyoruz. Önerilen ITCNet, birleştirilmiş temsillerin çıkarılması için paylaşılan bir özellik kodlayıcı ve her bir görev için iki göreve özgü kod çözücü üzerine kurulmuştur. Uzamsal segmentasyon ve zamansal hareket arasındaki doğal ilişkilere dalmak için, çoklu görev eğitim sürecini kolaylaştırmak amacıyla, harekete dayalı geometrik segmentasyon tutarlılığı ve segmentasyon bazlı kenar bilinçli hareket tutarlılığı dahil olmak üzere çeşitli füzyon kısıtlamaları tasarlanmıştır. Bu arada, önerilen çok görevli füzyon şeması, az atışlı ve sıfır atışlı öğrenme stratejileriyle farklı cerrahi sahnelerde adaptasyonu mümkün kılıyor. Mevcut yöntemlerle karşılaştırmak için üç halka açık veri seti üzerinde kapsamlı deneyler yapılmıştır. Niceliksel ve niteliksel sonuçlar, önerdiğimiz yöntemin cerrahi aletleri doğru bir şekilde bölümlere ayırabildiğini ve çeşitli cerrahi senaryolarda doku hareketlerini tahmin edebildiğini göstermektedir. Ayrıca yerleşik cerrahi robotik sistemimizdeki uygulama sonuçları, sistemin gerçek dünyadaki cerrahi robotik potansiyelini vurgulamaktadır."
+      "abstract_tr": ""
     },
     {
       "pmid": "42664659",
@@ -192,7 +192,7 @@
         "recency": 0.0
       },
       "tier": 2,
-      "abstract_tr": "Paylaşılan, yorumlanabilir bir darboğaz etrafında organize edilen tıbbi görüntü segmentasyonu ve sınıflandırmasına yönelik bir ağ mimarisi olan HamVision'ı sunuyoruz. Darboğaz, her uzamsal konumda, ileri geçişinin doğal çıktıları olarak üç ara harita üretir: girdinin filtrelenmiş bir temsili, bunun uzamsal türevi ve negatif olmayan bir belirginlik haritası. Yapılarını motive eden sönümlü harmonik osilatörün dinamiklerine benzetme yaparak, üç haritayı konum q, momentum p ve enerji H=12(|q|2+|p|2) olarak adlandırıyoruz. Bu haritalar, özel olarak denetlenen modüller yerine ağ tarafından üretildiğinden, aynı darboğaz, göreve özgü iki kafa tarafından yeniden kullanılır: HamSeg geçit kodlayıcısı, enerji haritasıyla bağlantıları atlar ve her kod çözücü çözünürlüğünde momentum enjekte eder ve HamCls, q ve p'nin frekans alanı özelliklerini kanal başına enerji dikkatiyle birleştiren bir Faz-Uzay Spektral Havuzlama başlığı kullanır. Dermoskopi, ultrason, MRI, optik koherens tomografi, histoloji, kan hücresi mikroskobu, bilgisayarlı tomografi, göğüs röntgeni ve retina fundus fotoğrafçılığını kapsayan 14 tıbbi görüntüleme kriterini (beş segmentasyon, dokuz sınıflandırma) değerlendiriyoruz. Beş segmentasyon veri setinde (ISIC 2018, ISIC 2017, TN3K, MMOTU, ACDC) HamSeg, 8,57 milyon parametreyle Dice skorunda önde; ACDC'de %93,81 ± 0,10'luk 3 tohumlu sonuç, önceki tekniğin durumunu (FreqConvMamba, %89,79) yüzde 4,02 puan aşmaktadır. Dokuz MedMNIST sınıflandırma kıyaslamasında HamCls, 2242 girişinde 2,95 milyon parametre ve 1,71 GFLOP'ta, önceki son teknoloji MedKAFormer-T'ye göre 4 kat parametre ve 7 kat FLOP azalmayla çalışır ve 3 tohum hassasiyetinde 9 veri kümesinin 8'inde önde gider veya bağlanır, makro F1'de ＋17,76 yüzde puana varan marjlarla DermaMNIST ve OCTMNIST'te ＋8,30 yüzde puanla ilk 1. En küçük ikili kıyaslama olan BreastMNIST'te (546 eğitim görüntüsü), HamCls MedKAFormer-T'yi takip ediyor; boşluk küçük veri rejimiyle tutarlıdır. Tanısal ölçümler, momentumun lezyon segmentasyon görevlerinde bir iç > sınır > dış aktivite gradyanı taşıdığını ve enerji haritasının, herhangi bir lokalizasyon denetimi olmaksızın her sınıflandırma yönteminin sınıf ayrımcı yapısına odaklandığını göstermektedir. Bir ablasyon çalışması, darboğazın, derinlik uyumlu geleneksel evrişimli bloğun kopyalanamayacağı sinyaline katkıda bulunduğunu doğrulamaktadır. Kod, konfigürasyonlar ve eğitimli modeller kabul üzerine yayınlanacaktır."
+      "abstract_tr": ""
     },
     {
       "pmid": "42664658",
@@ -222,7 +222,7 @@
       "doi": "10.1016/j.media.2026.104265",
       "journal_tier": 1,
       "impact": 10.7,
-      "section": "nukleer",
+      "section": "neuro",
       "score": 100.0,
       "score_parts": {
         "journal": 100,
@@ -257,7 +257,7 @@
       "doi": "10.1109/TMI.2026.3728200",
       "journal_tier": 1,
       "impact": 10.6,
-      "section": "nukleer",
+      "section": "genel",
       "score": 100.0,
       "score_parts": {
         "journal": 100,
@@ -287,7 +287,7 @@
       "doi": "10.1007/s00259-026-08164-y",
       "journal_tier": 1,
       "impact": 8.6,
-      "section": "nukleer",
+      "section": "neuro",
       "score": 100.0,
       "score_parts": {
         "journal": 100,
@@ -295,7 +295,7 @@
         "recency": 0.0
       },
       "tier": 2,
-      "abstract_tr": ""
+      "abstract_tr": "AMAÇ: Viseral yağ dokusunun (VAT) Alzheimer hastalığı (AD) için bir risk faktörü olduğu belirlenmiştir. Bu çalışma, AD hastalarında KDV'deki glikoz metabolizması ve deri altı yağ dokusu (SAT) ile büyük ölçekli beyin metabolik ağlarındaki anormallikler ve bilişsel bozulma arasındaki ilişkileri araştırmayı amaçladı. YÖNTEMLER: AD'li 98 hastaya ve 51 normal kontrole (NC) toplam vücut 18F-FDG PET/BT incelemesi yapıldı. KDV ve SAT'taki glikoz metabolik aktivitesi, yağsız vücut kitlesine göre düzeltilmiş standartlaştırılmış alım değerleri (SUL'ler) kullanılarak ölçüldü. Deneğe özgü metabolik yük puanlarının türetildiği büyük ölçekli metabolik ağları tanımlamak için beyin PET görüntülerine bağımsız bileşen analizi (ICA) uygulandı. DMN ve diğer büyük ölçekli beyin ağları arasındaki bireysel düzeydeki göreceli metabolik ekspresyon modellerini karakterize etmek için ayrıca bir varsayılan mod ağı (DMN) merkezli metabolik ekspresyon uyumu (DMN-MEC) indeksi türetildi. Yağ dokusu metabolizması ve beyin metabolik ağ ölçümlerindeki grup farklılıkları incelendi. AD grubunda karın yağ dokusu metabolizması, DMN-MEC indeksi ve bilişsel performans arasındaki korelasyonlar değerlendirildi. SONUÇLAR: NC'lerle karşılaştırıldığında, AD'li hastalarda hem VAT hem de SAT'ta anlamlı derecede artmış glukoz metabolizması görüldü; buna DMN, dorsal dikkat ağı (DAN), frontoparietal ağ (FPN) ve sensörimotor ağ (SMN)'de azalmış metabolik yük puanları ve daha düşük global DMN-MEC eşlik etti. AD grubu içindeki korelasyon analizleri, DMN metabolik yük puanının diğer birçok ağın metabolik yük puanlarıyla anlamlı derecede pozitif korelasyon gösterdiğini gösterdi. Ayrıca, KDV metabolizması küresel DMN-MEC indeksi ile anlamlı derecede negatif ilişkiliyken, SAT metabolizması böyle bir ilişki göstermedi. KDV metabolik aktivitesi aynı zamanda Mini-Zihinsel Durum Muayenesi (MMSE) ve Montreal Bilişsel Değerlendirme (MoCA) puanlarıyla da negatif korelasyon göstermiştir. Buna karşılık, DMN metabolik yükü ve global DMN-MEC indeksi bilişsel performansla pozitif ilişkiler gösterdi. SONUÇ: Bu bulgular AH'de eşlik eden abdominal yağ dokusu metabolik disfonksiyonu ve büyük ölçekli beyin metabolik ağ ekspresyonundaki bozulmayı ortaya çıkardı. Önemli olarak, daha yüksek KDV metabolizması, daha düşük küresel DMN-MEC ve daha zayıf bilişsel performansla ilişkilendirildi."
     },
     {
       "pmid": "42661000",
@@ -325,7 +325,7 @@
         "recency": 0.0
       },
       "tier": 2,
-      "abstract_tr": "AMAÇ: Bu çalışma, Alzheimer hastalığına (AD) dönüşümü öngörmek için üç amiloid PET yorumlama yönteminin (geleneksel görsel okuma, yardımlı görsel yorumlama ve standartlaştırılmış alım değeri oranı (SUVR) bazlı ölçüm) prognostik değerini ve gözlemciler arası/gözlemciler arası güvenilirliğini değerlendirdi. YÖNTEMLER: Bu retrospektif uzunlamasına çalışmaya, amiloid PET uygulanan ve tek bir hafıza kliniğinde 8 yıla kadar takip edilen amnestik hafif bilişsel bozukluğu olan 145 hasta dahil edildi. İki sertifikalı nükleer tıp doktoru, yapılandırılmış görsel okumalar ve yardımcı görsel yorumlamalar gerçekleştirdi. Önceki çalışmalarda doğrulanan yarı niceliksel SUVR eşikleri üçüncü bir yöntem olarak uygulandı. Gözlemciler arası ve gözlemci içi anlaşma Cohen'in kappa'sı (κ) kullanılarak değerlendirildi. Cox regresyon modelleri, her yöntem için PET pozitif ve PET negatif hastalarda AD'ye dönüşüm ilişkisini yaş, cinsiyet ve eğitime göre ayarlama yaparak tahmin etti. BULGULAR: Gözlemciler arası uyum, yapılandırılmış görsel okuma (κ = 0,877) ve yardımlı görsel yorumlama (κ = 0,904) için mükemmeldi. Gözlemci içi güvenilirlik de yüksekti (Okuyucu 1 için κ = 0,891; Okuyucu 2 için κ = 0,859). Destekli yöntem için fikir birliği anlaşması κ = 0,936'ya ulaştı. Amiloid PET pozitifliği, tüm yöntemlerde AD'ye ilerlemeyle güçlü bir şekilde ilişkiliydi. Tehlike oranları en yüksek destekli görsel yorumlama (HR = 3,23, %95 GA 1,94-5,38, p < 0,0001), ardından SUVR ölçümü (HR = 2,19, %95 GA 1,55-3,10, p < 0,0001) ve yapılandırılmış görsel okuma için olmuştur. (HR = 1,83, %95 GA 1,10-3,06, p = 0,02). SONUÇ: Amiloid PET pozitifliği, yorumlama yönteminden bağımsız olarak AD'ye dönüşümü tutarlı bir şekilde öngördü. Yardımlı görsel ve yarı niceliksel yaklaşımlar sayısal olarak daha yüksek prognostik ayrımcılık gösterirken, uzman yapılandırılmış görsel okuma klinik olarak güvenilir kaldı."
+      "abstract_tr": ""
     },
     {
       "pmid": "42660999",
@@ -352,7 +352,7 @@
       "doi": "10.1007/s00259-026-08157-x",
       "journal_tier": 1,
       "impact": 8.6,
-      "section": "nukleer",
+      "section": "genel",
       "score": 100.0,
       "score_parts": {
         "journal": 100,
@@ -360,7 +360,7 @@
         "recency": 0.0
       },
       "tier": 2,
-      "abstract_tr": "AMAÇ: Bu çalışma, PET ve multi-parametrik MRI'dan türetilen özellikler ile bunların öngörücü performansı arasındaki korelasyonu araştırarak, tiroidle ilişkili oftalmopatide (TAO) CAS tanımlı klinik aktivite değerlendirmesi için entegre 18F-NOTA-FAPI-04 PET/MRI'nin değerini değerlendirmeyi amaçladı. YÖNTEMLER: Toplam 33 TAO katılımcısı prospektif olarak kaydedildi ve entegre 18F-NOTA-FAPI-04 PET/MRI uygulandı. Klinik Aktivite Skoruna (CAS) göre Gözler aktif (CAS ≥ 3) veya inaktif (CAS<3) olarak sınıflandırıldı. Hasta düzeyindeki analiz için katılımcılar yalnızca her iki gözü de aktif olmadığında aktif olmayan olarak sınıflandırıldı; aksi takdirde aktif olarak sınıflandırıldılar. PET'ten türetilmiş parametreler (maksimum standartlaştırılmış alım değeri [SUVmax], ortalama standartlaştırılmış alım değeri [SUVmean], metabolik tümör hacmi [MTV] ve toplam lezyon FAPI alımı [TLF]) ve ayrıca MRI'dan türetilmiş parametrik haritalardan (normalleştirilmiş T2 ağırlıklı görüntülemeden türetilmiş parametre [T2WI], heterojenlik indeksi) birinci derece özellikler (ortalama, minimum, maksimum, medyan, çarpıklık ve basıklık) [α], dağıtılmış difüzyon katsayısı [DDC], difüzyon katsayısı [D], gerçek bağıl kan akışı [rBF], ortalama yayılma [MD] ve ortalama basıklık [MK]) çıkarıldı. Tekrarlanabilirlik, VOI tanımlamasının Zar benzerlik katsayısı (DSC) ve niceliksel parametreler için sınıf içi korelasyon katsayısı (ICC) kullanılarak değerlendirildi. PET ve MRI özellikleri arasındaki korelasyon analizleri, aktif ve inaktif grup arasındaki karşılaştırmalar ve PET, MRI ve kombine PET/MRI modellerinin ayırt edici performans değerlendirmeleri hem hasta hem de göz düzeyinde gerçekleştirildi. Ayırt edici performansı karşılaştırmak için destek vektör makinesi (SVM) ve alıcı işletim karakteristiği (ROC) analizi yapıldı. SONUÇLAR: VOI tanımlaması, 0,850 (%95 GA: 0,815-0,886), 0,880± 0,068 (%95 GA: 0,831, 0,929) ve 0,901 (%95 GA: 0,838, 0,965), sırasıyla. Tüm PET/MRI kantitatif parametreleri yüksek tekrarlanabilirlik gösterdi (ICC > 0,907). PET/MRI korelasyonları genellikle hasta seviyesinde zayıftı ancak özellikle PET ölçümleri ile T2WI-, α-, D- ve MD'den türetilmiş özellikler arasındaki ilişkiler için göz seviyesinde oldukça güçlüydü. Göz seviyesinde SUVmean, MTV ve TLF aktif TAO'da inaktif gruba göre anlamlı derecede yüksekti, SUVmax ise anlamlı bir fark göstermedi. T2WI, α, D, MD ve MK özellikleri de dahil olmak üzere MRI'dan türetilen çeşitli parametreler de gruplar arasında anlamlı farklılık gösterdi. Ayırt edici performans için SUVmean, hasta seviyesinde tek PET parametreleri arasında en iyi performansı gösterirken (AUC = 0,759), MTV ise göz seviyesinde (AUC = 0,767) en iyi performansı gösterdi. Kombine PET/MRI modeli hem hasta hem de göz seviyelerinde en yüksek performansı elde etti (sırasıyla AUC = 0,844 ve 0,859). SONUÇ: Entegre 18F-NOTA-FAPI-04 PET/MRI, TAO'da FAPI alımı ve MRI kaynaklı doku mikroyapısal değişiklikleri hakkında tamamlayıcı bilgiler sağlar. SUVmean / MTV (PET) ve T2WI-, D'den türetilen özellikler (MRI), CAS tarafından tanımlanan hastalık aktivitesi ile potansiyel ilişkiler gösterdi. Kombine PET/MRI modeli, aktif ve aktif olmayanların değerlendirilmesinde gelişmiş ayırt edici performans gösterdi; ancak daha büyük bağımsız gruplarda daha fazla doğrulama yapılması gerekmektedir. KLİNİK DENEME KAYDI: NCT07400224 (2/3/2026)."
+      "abstract_tr": ""
     },
     {
       "pmid": "42660636",
@@ -409,7 +409,7 @@
       "doi": "10.2967/jnumed.125.271377",
       "journal_tier": 1,
       "impact": 9.1,
-      "section": "nukleer",
+      "section": "toraks",
       "score": 100.0,
       "score_parts": {
         "journal": 100,
@@ -417,7 +417,7 @@
         "recency": 0.0
       },
       "tier": 2,
-      "abstract_tr": "Akciğer kanserinde anti-programlanmış hücre ölümü proteini 1 (PD-1) immünoterapisine heterojen yanıt, sistemik CD8+ T hücresi dinamiklerinin izlenmesi için güvenilir biyobelirteçler gerektirir. Bu çalışma, hastalığın ilerlemesi ve tedaviye yanıtla ilişkili olarak CD8+ T hücresi dağılımını değerlendirmek için CD8 hedefli bir PET izleyicisi olan [68Ga]Ga-NODAGA-SNA006'yı kullandı. Yöntemler: Evre II-IV akciğer kanseri olan 14 hastaya başlangıçta [68Ga]Ga-NODAGA-SNA006 PET/CT ve kan CD8+ T hücresi ölçümü uygulandı. Anti-PD-1 bazlı kemoimmünoterapi alan sekiz hastaya tedavi öncesi ve 2 tedavi siklusu sonrasında PET/BT ve kan analizleri yapıldı. SUVmax, tümörlerde (tümör-arka plan oranıyla birlikte), dalakta, karaciğerde ve aksiyel (sternum, T12, pelvis) ve apendiküler (femur) kemik iliğinde ölçüldü. Hastalık evresi, periferik kan CD8+ T hücresi ölçümü, programlanmış ölüm ligandı 1 (PD-L1) ekspresyonu ve tümör azalması ile korelasyonlar değerlendirildi. Bulgular: Evre IV hastalığı olan hastalarda daha düşük periferik kan CD8+ T hücresi sayımı ve yüzdesi (P < 0.05) sergilenirken, dalaktaki (P < 0.05) ve aksiyal kemik iliğinde (sternum, T12, pelvis; P < 0.01) SUVmax değeri daha erken evre hastalığı olan hastalara göre daha yüksekti. Periferik kandaki CD8+ T hücresi yüzdesi, dalaktaki (r2 = 0,38, P < 0,05) ve aksiyal kemik iliği bölgelerindeki (en önemli sternumda: r2 = 0,68, P < 0,001) SUVmax ile koreleydi. Anti-PD-1 tedavisinden sonra, birleşik \"eksenel iskelet SUV\" (sternum, T12, pelvis) analizi, zaman ile PD-L1 grubu arasında anlamlı bir etkileşimi ortaya çıkardı (P < 0.001): SUV, düşük PD-L1 (<%10) grubunda arttı, ancak yüksek PD-L1 (≥%10) grubunda azaldı. Periferik kandaki CD8+ T hücre sayısı ve yüzdesindeki değişiklikler anlamlı değildi. Tümör büzülmesi, periferik kandaki CD8+ T hücresi yüzdesi veya T hücresi dinamikleri ile anlamlı düzeyde ilişkili değildi. Tüm hedef lezyonlar için tümör küçülmesi, başlangıçtaki lezyon SUVmaks'ı (r2 = 0.30, P < 0.01) ve başlangıçtaki tümör-arka plan oranı (r2 = 0.34, P < 0.001) ile orta düzeyde pozitif korelasyon gösterdi ve tedaviden sonra lezyon SUVmax'ındaki azalma ile güçlü bir pozitif korelasyon gösterdi (r2 = 0.44, P < 0.01). Sonuç: [68Ga]Ga-NODAGA-SNA006 PET/CT, ileri akciğer kanserinde sistemik CD8 + T hücresi tükenmesini ve dalak/aksiyel kemik iliği sekestrasyonunu ortaya çıkardı. Anti-PD-1 tedavisi sırasında CD8+ T hücreleri, PD-L1 durumuna göre yeniden dağıtılır. Temel intratumoral CD8 + T hücre yoğunluğu ve tedavinin erken döneminde SUVmax azalması, periferik kan izlemesinden daha iyi performans gösteren, yanıtın güçlü görüntüleme biyobelirteçleridir."
+      "abstract_tr": ""
     },
     {
       "pmid": "42660634",
@@ -446,7 +446,7 @@
       "doi": "10.2967/jnumed.126.272757",
       "journal_tier": 1,
       "impact": 9.1,
-      "section": "nukleer",
+      "section": "abdomen",
       "score": 100.0,
       "score_parts": {
         "journal": 100,
@@ -454,7 +454,7 @@
         "recency": 0.0
       },
       "tier": 2,
-      "abstract_tr": "Bir hücre yüzeyi proteoglikanı olan Glypican-3, çoğu hepatoselüler karsinomda (HCC) aşırı eksprese edilir. Son zamanlarda, glipikan-3 hedefli PET izleyicinin [68Ga]Ga-RAYZ-8009'un HCC'nin invaziv olmayan tespitini mümkün kıldığı gösterilmiştir. Bu retrospektif analiz, immünohistokimya ile belirlendiği üzere, [68Ga]Ga-RAYZ-8009 PET/CT'nin tümör alımı ile glipikan-3 ekspresyonu arasındaki korelasyonu değerlendirir. Yöntemler: Histolojik olarak doğrulanmış HSK'lı 14 hastanın [68Ga]Ga-RAYZ-8009 PET/BT taramaları analiz edildi. HCC lezyonları tarafından izleyici alımı, SUVmax ile ölçüldü ve SUVmean Glypican-3 ekspresyonu, yarı kantitatif H-skoru kullanılarak immünohistokimya ile değerlendirildi. PET/CT tutulumu ile H-skoru arasındaki korelasyonlar Spearman sıra korelasyonu kullanılarak analiz edildi. Bulgular: Analiz edilen 14 HCC lezyonundan 13'ü PET'te görsel olarak pozitifti; SUVortalaması 1,9 ila 63,7 (medyan, 7,1) ve SUVmaks değeri 3,9 ila 147,9 (medyan, 17,7) arasında değişiyordu. Bir ekstrahepatik HCC lezyonu, PET veya glipikan-3 ekspresyonunda alım göstermedi. İzleyici alımı ile glipikan-3 ekspresyonu arasında güçlü bir pozitif korelasyon gözlendi (SUVmean: ρ = 0,72, P = 0,0048; SUVmax: ρ = 0,71, P = 0,0058). Sonuç: HCC lezyonlarında [68Ga]Ga-RAYZ-8009 alımı, glipikan-3 ekspresyonunun invaziv olmayan in vivo değerlendirmesi için umut verici bir biyobelirteçtir ve glipikan-3 hedefli tedavilerin planlanmasını ve izlenmesini destekleyebilir."
+      "abstract_tr": ""
     },
     {
       "pmid": "42660633",
@@ -481,7 +481,7 @@
       "doi": "10.2967/jnumed.125.271126",
       "journal_tier": 1,
       "impact": 9.1,
-      "section": "girisim",
+      "section": "abdomen",
       "score": 100.0,
       "score_parts": {
         "journal": 100,
@@ -515,7 +515,7 @@
       "doi": "10.2967/jnumed.125.271954",
       "journal_tier": 1,
       "impact": 9.1,
-      "section": "nukleer",
+      "section": "abdomen",
       "score": 100.0,
       "score_parts": {
         "journal": 100,
@@ -523,7 +523,7 @@
         "recency": 0.0
       },
       "tier": 2,
-      "abstract_tr": "Nöroendokrin neoplazmlarda (NEN'ler) [68Ga]Ga-DOTATATE PET/CT için doğru şekillendirme, karaciğer, dalak ve diğer organlardaki değişken fizyolojik alım nedeniyle zordur. Bu, karaciğer alımına dayalı olsa bile (PERCIST tarafından [18F]FDG PET/CT için önerildiği gibi) tek bir eşik kullanan mutlak eşik algoritmalarını karmaşık hale getirir. Hepatik lezyonlar için bir eşik ve ekstrahepatik lezyonlar için başka bir eşik değeri olan bir [68Ga]Ga-DOTATATE PET/CT şekillendirme algoritması önerdik ve bunların gastroenteropankreatik NEN'lerde (GEP-NEN'ler) prognostik önemini araştırdık. Yöntemler: Bu retrospektif çalışma Avustralya'daki Royal North Shore Hastanesi'nde gerçekleştirildi. 2012 ile 2020 yılları arasında [68Ga]Ga-DOTATATE PET/CT görüntüleme uygulanan ileri GEP-NEN'li hastalar dahil edilmeye uygun bulunmuştur. Toplam lezyon hacmi (TLV) ölçümleri, nükleer tıp doktoru doğrulaması ile yarı otomatik bir yazılım iş akışı kullanılarak, ekstrahepatik lezyonlar için 4'lük düz bir eşik ve hepatik lezyonlar için 1,5 x karaciğer SUVortalama + 2 SD'lik bir eşik kullanılarak elde edildi. Birincil son nokta genel sağkalım (OS) ve ikincil son nokta ise tedavi başarısızlığına kadar geçen süre (TTF) idi. Bulgular: Toplamda 151 hasta dahil edildi (%50 erkek; ortanca yaş, 62); %38'inde pankreas ve %50'sinde orta bağırsak tümörü vardı. Medyan OS, düşük TLV kohortuyla karşılaştırıldığında yüksek TLV kohortunda önemli ölçüde daha kısaydı (41,0 ay vs. ulaşılamadı; risk oranı [HR], 2,17; %95 GA, 1,26-3,82; P = 0,006). TTF ayrıca yüksek TLV kohortunda düşük TLV kohortuna göre anlamlı derecede kısaydı (15,7 ay ve 25,1 ay; HR, 1,63; %95 GA, 1,11-2,42; P = 0,01). Çok değişkenli bir analizde diğer prognostik faktörler için düzeltmeler yapıldıktan sonra yüksek TLV, daha kötü OS için güçlü bir bağımsız belirleyici olarak kaldı (HR, 2,25; %95 GA, 1,18-4,44; P = 0,02). Sonuç: [68Ga]Ga-DOTATATE PET/CT için çift eşikli konturlama mümkündür; TLV, GEP-NEN'lerin bulunduğu bir kohortta prognostik önem göstermektedir."
+      "abstract_tr": ""
     },
     {
       "pmid": "42660476",
@@ -549,7 +549,7 @@
       "doi": "10.1016/j.jacr.2026.08.015",
       "journal_tier": 1,
       "impact": 4.0,
-      "section": "girisim",
+      "section": "yapayzeka",
       "score": 100.0,
       "score_parts": {
         "journal": 100,
@@ -557,7 +557,7 @@
         "recency": 0.0
       },
       "tier": 2,
-      "abstract_tr": "AMAÇ: Ayakta radyoloji randevularının gelmemesi, zamanında tanıyı geciktirir ve sağlık hizmetleri eşitsizliklerini daha da kötüleştirir, aynı zamanda sağlık sistemleri üzerinde önemli bir mali ve operasyonel yüke neden olur. Makine öğrenimi (ML) modelleri, risk altındaki hastaların randevuya gelmemesinden önce tespit edilmesi için umut verici bir araç sunar. Ayakta radyolojiye gelmeyen hastaları tahmin etmek ve hedeflenen müdahalelerin sağlık eşitliğini ve mali sonuçlarını değerlendirmek için sağlığın sosyal belirleyicileri (SDOH) faktörleriyle zenginleştirilmiş bir ML modeli geliştirmeye çalıştık. YÖNTEMLER: Büyük bir akademik sağlık sisteminde IRB onaylı bu retrospektif vaka kontrol çalışmasında, Ocak 2023 ile Aralık 2024 arasında 9.998 hastadan (çalışma döneminde en az bir randevuya gelmeyen 5.000, 4.998 gelmeyen) 32.776 ayakta tedavi radyoloji randevusunu analiz ettik. Stabil model eğitiminin sonucunu zenginleştirmek için 1:1 vaka kontrol tasarımı seçildi (nüfustaki kullanılmayan prevalans) %3,9). Alan Yoksunluk Endeksi (ADI) de dahil olmak üzere 16 öngörücü içeren bir Rastgele Orman modeli geliştirildi ve dahili olarak doğrulandı. Tahmin edilen olasılıklar, konuşlandırılabilir bir risk hesaplayıcısı oluşturmak için nüfus yaygınlığına göre yeniden kalibre edildi. Genelleştirilmiş tahmin denklemleri (GEE) lojistik regresyonu, SDOH faktörleri ile kullanılmama riski arasındaki düzeltilmiş ilişkileri ölçtü. SONUÇLAR: Rastgele Orman, alıcı işletim karakteristiğinin (AUROC) 0,760 altında bir alana ulaştı. Rezervasyona katılmama oranları, en az yoksun mahallelerde %15,0'dan en çok yoksun mahallelerde %31,8'e kadar değişen net bir Alan Yoksunluk Endeksi (ADI) eğimi ortaya koydu. En yüksek riskli randevuların ilk %10'u, randevulara gelmeyenlerin %25,7'sini kapsıyor ve müdahale edilmesi gereken randevuların sayısı (NNI) 1,8 oldu. Kaçırılan randevuların tahmini yıllık maliyet yükü 57,7 milyon dolardı. SONUÇ: Radyoloji randevuya gelmeme hesaplayıcısı, randevuların kaçırılma olasılığını tahmin etmek için SDOH faktörlerini kullanan bir tahmin modelidir. Hesap makinesi, rezervasyona gelmemeyi tahmin etmek için orta düzeyde bir ayrımcılık gösterir ve ileriye yönelik hedeflenen sosyal yardıma olanak tanır. Bu modelin gelecekte uygulanması, sosyoekonomik açıdan savunmasız hastalar arasında sağlık sonuçlarının iyileştirilmesi ve kurumsal maliyet yükünün azaltılması konusunda umut vaat ediyor."
+      "abstract_tr": ""
     },
     {
       "pmid": "42660475",
@@ -588,7 +588,7 @@
       "doi": "10.1016/j.jacr.2026.08.014",
       "journal_tier": 1,
       "impact": 4.0,
-      "section": "nukleer",
+      "section": "genel",
       "score": 100.0,
       "score_parts": {
         "journal": 100,
@@ -646,7 +646,7 @@
       "doi": "10.1016/j.media.2026.104272",
       "journal_tier": 1,
       "impact": 10.7,
-      "section": "nukleer",
+      "section": "genel",
       "score": 100.0,
       "score_parts": {
         "journal": 100,
@@ -671,7 +671,7 @@
       "doi": "10.2967/jnumed.126.273637",
       "journal_tier": 1,
       "impact": 9.1,
-      "section": "nukleer",
+      "section": "genel",
       "score": 75.0,
       "score_parts": {
         "journal": 100,
@@ -700,7 +700,7 @@
       "doi": "10.1007/s00256-026-05351-8",
       "journal_tier": 2,
       "impact": 2.0,
-      "section": "nukleer",
+      "section": "genel",
       "score": 70.0,
       "score_parts": {
         "journal": 60,
@@ -708,7 +708,7 @@
         "recency": 0.0
       },
       "tier": 3,
-      "abstract_tr": ""
+      "abstract_tr": "AMAÇ: Yumuşak doku hibernomunun klinik belirtilerini ve görüntüleme özelliklerini gözden geçirmek, bu tanının en karakteristik özelliklerini vurgulamak. MATERYAL VE YÖNTEMLER: 2004'ten 2025'e kadar kurumsal patoloji ve görüntüleme veritabanlarımızın retrospektif olarak incelenmesi, hibernoma patoloji tanısı ve görüntüleme değerlendirmesi doğrulanmış 73 yumuşak doku lezyonu tanımladı. Görüntüleme, MRI (54 vaka), BT (29 vaka), ultrason (20 vaka), radyografi (20 vaka) ve PET'i (8 vaka) içeriyordu. SONUÇLAR: 73 yumuşak doku lezyonu, yaşları 5 ile 75 arasında değişen 39 erkekte (%53,4) ve 34 kadında (%46,6) meydana geldi; genel ortalama yaş ve ortalama yaş 46 idi. Yumuşak doku lezyonlarının en büyük boyutu 5 ila 288 mm arasında ölçülmüştür; medyan 101 mm ve ortalama 111,5 mm'dir. Yumuşak doku lezyonları, yağ baskılanmayan T1 ağırlıklı görüntülemede en iyi şekilde tanımlanan T1 gölgelemenin karakteristik özelliklerini gösterdi; bu, yumuşak doku hibernomatöz lezyonlarının çoğunda doğru tanıya izin vermelidir. Hibernomatöz lezyonlar ayrıca BT, ultrason ve radyografide de tanımlandı; ancak bu yöntemler, kesin bir görüntüleme tanısına izin verecek şekilde kahverengi yağı yeterince karakterize edemedi. Bağırsaklarda, 8 hastada mevcut olan PET görüntüleme, ortalama 10,4 (aralık: 3,5-28,1) olan standardize edilmiş alım değerleri (SUVmax) göstermiştir; bu, maligniteyi önermek için bir belirteç olarak kullanılan geleneksel PET/CT 2,5 değerinden daha yüksektir. SONUÇ: Hibernoma nispeten nadir görülen bir tümör olmasına rağmen, yumuşak dokudan kaynaklanan vakaların çoğunda güvenilir tanıya olanak sağlayacak spesifik görüntüleme özellikleri vardır."
     },
     {
       "pmid": "42663624",
@@ -727,7 +727,7 @@
       "doi": "10.1007/s00261-026-05717-5",
       "journal_tier": 2,
       "impact": 2.3,
-      "section": "girisim",
+      "section": "abdomen",
       "score": 70.0,
       "score_parts": {
         "journal": 60,
@@ -735,7 +735,7 @@
         "recency": 0.0
       },
       "tier": 3,
-      "abstract_tr": "İnflamatuar barsak hastalığı (IBD) olan hastalar, kronik inflamasyon, displazi, striktür hastalığı ve fistülizasyon komplikasyonlarından kaynaklanan gastrointestinal ve hepatobiliyer maligniteler açısından yüksek risk altındadır. Her ne kadar endoskopik gözetim, displazi tespiti için temel taşı olmaya devam etse de, görüntüleme, invaziv malignitenin tanımlanmasında, transmural ve ekstra-intestinal hastalıkların değerlendirilmesinde ve erişilemeyen veya endoskopik değerlendirmeye zayıf şekilde uygun olan segmentlerdeki lezyonların tespit edilmesinde giderek daha önemli bir tamamlayıcı rol oynamaktadır. Malign transformasyonu kronik inflamatuar değişiklikten ayırmak, görüntüleme bulguları sıklıkla örtüştüğü için hala zorlayıcıdır. Uygulamada, malignite genellikle tek bir tanımlayıcı özellikten ziyade zaman içinde inflamatuar hastalığın beklenen görüntüleme davranışından sapma ile öne sürülmektedir. Bu derleme, Crohn hastalığı ile ilişkili ince bağırsak adenokarsinomu, kolit ile ilişkili kolorektal karsinom, fistül ile ilişkili anorektal malignite ve primer sklerozan kolanjitte kolanjiokarsinom üzerinde durarak, ince bağırsak, kolon, rektum, perianal bölge ve hepatobiliyer sistemdeki İBH'daki malignitenin görüntüleme bulgularını özetlemektedir. Difüzyon ağırlıklı MRI, çift enerjili CT, radyomikler, elastografi ve fibroblast aktivasyon protein inhibitörü (FAPI) bazlı görüntüleme dahil olmak üzere ortaya çıkan kantitatif ve moleküler görüntüleme teknikleri ile birlikte temel tanısal tuzaklar, taklitler ve yapılandırılmış raporlama hususları tartışılmaktadır. Hafif aralıklı morfolojik değişimin ve beklenen inflamatuar davranışla uyumsuzluğun tanınması, İBH ile ilişkili malignitenin erken tespitinde merkezi öneme sahiptir. Dikkatli boylamsal karşılaştırma ve multidisipliner korelasyon, yoğun gözetim, doku örneklemesi veya daha fazla müdahaleyi gerektiren görüntüleme özelliklerinin belirlenmesinde radyologların kritik bir rol oynamasıyla, hala hayati öneme sahiptir."
+      "abstract_tr": ""
     },
     {
       "pmid": "42663623",
@@ -755,7 +755,7 @@
       "doi": "10.1007/s00261-026-05754-0",
       "journal_tier": 2,
       "impact": 2.3,
-      "section": "girisim",
+      "section": "abdomen",
       "score": 70.0,
       "score_parts": {
         "journal": 60,
@@ -763,7 +763,7 @@
         "recency": 0.0
       },
       "tier": 3,
-      "abstract_tr": "Pelvik manyetik rezonans görüntüleme (MRI), şüpheli jinekolojik malignitelerin değerlendirilmesinde önemli bir rol oynar, yüksek yumuşak doku kontrastı ve difüzyon ağırlıklı görüntüleme ve dinamik kontrast iyileştirme dahil olmak üzere multiparametrik yetenekler sağlar, tanı ve yönetim stratejilerine yardımcı olur. Bununla birlikte, çeşitli iyi huylu varlıklar ve neoplastik olmayan durumlar, MRI'da kötü huylu tümörlerle örtüşen görüntüleme özellikleri gösterebilir, bu da potansiyel tanısal tuzaklar yaratabilir ve tedaviyi geciktirebilir veya gereksiz müdahalelere yol açabilir. Bunlar arasında diğerlerinin yanı sıra endometriozis, atipik leiomyom varyantları, yumurtalık fibromatozu ve tedavi veya prosedürle ilişkili değişiklikler yer alır. Ayrıca, nadir görülen maligniteler, daha sık görülen maligniteleri taklit edebilir veya zaman zaman benign antitelerle örtüşen özelliklere sahip olabilir; bunların her ikisi de, uygun yönetim planının belirlenmesinde önemli sonuçlara sahip olabilir. Bu resimli makale, yaygın ve nadir tanısal tuzakları temsil eden seçilmiş jinekolojik durumların temel MRI bulgularını vurgulamaktadır. Görüntüleme modellerine, multiparametrik MRI özelliklerine ve klinik sunumla korelasyona vurgu yapılmaktadır. Karakteristik bulguları göstererek ve ayırt edici özellikleri vurgulayarak, bu derleme radyologların benign taklitçileri gerçek maligniteden ayırma konusundaki güvenini arttırmayı amaçlamaktadır."
+      "abstract_tr": ""
     },
     {
       "pmid": "42659896",
@@ -821,7 +821,7 @@
       "doi": "10.1016/j.ejrad.2026.113192",
       "journal_tier": 2,
       "impact": 3.2,
-      "section": "kas",
+      "section": "genel",
       "score": 70.0,
       "score_parts": {
         "journal": 60,
@@ -829,7 +829,7 @@
         "recency": 0.0
       },
       "tier": 3,
-      "abstract_tr": ""
+      "abstract_tr": "İyot bazlı kontrast madde (ICM), BT veya anjiyografinin ayrılmaz bir parçasıdır. Kullanımı aşırı duyarlılık reaksiyonlarına (HR) yol açabilir ve daha önce HR geçirmiş veya akut alerji öyküsü olan hastalarda tekrarlama riski artar. İyonik yüksek ozmolar ICM çağından kalma kortikosteroidler ve/veya H1-antihistaminiklerle premedikasyon radyologlar arasında popüler olmuştur. Bununla birlikte, noniyonik düşük ozmolar ICM ile kullanıldığında kanıt kalitesi düşüktür, orta-şiddetli HR'de etkinlik suboptimaldir, sıklıkla ani reaksiyonlar meydana gelir ve şiddetli olabilir ve kullanımı maliyetleri artırabilir. Spesifik klinik senaryolarda yüksek riskli hastalarda premedikasyon kullanımına ilişkin veri eksikliği vardır ve genel olarak doğru HR dokümantasyonu ve spesifik ICM'nin, tercihen alergolojik değerlendirmeden sonra farklı bir yan zincirle değiştirilmesi daha iyi sonuçlara yol açar. Görüntüleme ortamı (hastane veya klinik) ve acil durumlarda destek düzeyi, muhtemelen kullanımının önemli belirleyicileri olacaktır. Suçlu ICM'nin izlenemediği veya bilinmediği, önceden şiddetli kalp krizi geçiren hastaların stresli acil durum görüntülemesinde premedikasyon için uygun bir endikasyon olabilir."
     },
     {
       "pmid": "42666040",
@@ -864,7 +864,7 @@
         "recency": 0.0
       },
       "tier": 3,
-      "abstract_tr": ""
+      "abstract_tr": "Pulseq, insan tarafından okunabilen .seq dosyalarındaki MRI darbe dizilerinin tedarikçiden bağımsız tanımlanmasını sağlar ve dizi geliştirme ve paylaşımı için yaygın olarak kullanılır. Tasarım ve hata ayıklama sırasında RF darbeleri, gradyan dalga formları ve ADC olayları boyunca sıra zamanlamasının hızlı bir şekilde değerlendirilmesi önemlidir. Bu, dalga biçimi zamanlamasının altta yatan k-uzay yörüngesini kolayca ortaya çıkarmadığı Kartezyen olmayan edinimler için özellikle zordur. Ancak mevcut araçlar bu görev için sınırlı etkileşimli yetenekler sağlar. Burada, verimli dizi analizi için uyarlanmış Pulseq .seq dosyalarına yönelik etkileşimli bir görüntüleyici olan SeqEyes'i tanıtıyoruz. Yazılım, karşılık gelen k-uzay yörüngelerinin yanı sıra RF, gradyan ve ADC dalga formlarının senkronize görselleştirilmesini sağlamak için .seq dosyalarını ayrıştırır. Bu, tek bir arayüzde dizi yapısı ile örnekleme davranışı arasında doğrudan bir bağlantı kurar. Araç, zaman, TR'ler ve sıra blokları arasında etkileşimli gezinmenin yanı sıra olay düzeyinde zamanlama doğrulamasını, Pulseq uzantılarının görselleştirilmesini ve tanılama katmanlarını destekler. SeqEyes, mevcut araştırma iş akışlarına entegrasyon için komut satırı, Python ve MATLAB arayüzleriyle tamamlanan bir grafik kullanıcı arayüzüne sahiptir. Bu açık kaynaklı araç kutusu, dalga biçimi ve yörünge görselleştirmelerini birleştirerek Pulseq dizilerinin rutin doğrulamasını optimize eder ve sonuçta karmaşık MRI çekimlerinin geliştirilmesi ve paylaşılmasının önündeki engelleri azaltır."
     },
     {
       "pmid": "42665755",
@@ -910,7 +910,7 @@
       "doi": "10.1007/s00256-026-05358-1",
       "journal_tier": 2,
       "impact": 2.0,
-      "section": "nukleer",
+      "section": "kas",
       "score": 60.0,
       "score_parts": {
         "journal": 60,
@@ -943,7 +943,7 @@
       "doi": "10.1007/s10278-026-02230-5",
       "journal_tier": 2,
       "impact": 2.9,
-      "section": "nukleer",
+      "section": "kas",
       "score": 60.0,
       "score_parts": {
         "journal": 60,
@@ -951,7 +951,7 @@
         "recency": 0.0
       },
       "tier": 3,
-      "abstract_tr": ""
+      "abstract_tr": "Pelvik radyografilerde intertrokanterik kırıkların zamanında ve doğru tespiti, hızlı klinik değerlendirme ve tedavi planlamasını destekleyebilir. Ancak acil klinik ortamlarda standart nesne algılama modelleri, karmaşık anatomik yapılar ve normal kortikal kemik örtüşmeleri nedeniyle sıklıkla yüksek yanlış alarm oranlarına maruz kalır. Bu klinik sınırlamayı ele almak için bu uygulama odaklı çalışma, özellikle otomatik intertrokanterik kırık taraması için uyarlanmış, YOLOv8s-HAGB adlı gelişmiş bir derin öğrenme çerçevesi önermektedir. Karmaşık pelvik radyografilerdeki özellik yanıtlarını modüle etmek için genişletilmiş yerel özellik çıkarımı, havuzlanmış bağlamsal modelleme ve bağlama duyarlı uzaysal geçitlemeyi birleştiren özelleştirilmiş bir hibrit dikkat geçiş bloğunu (HAGB) entegre ediyoruz. Çerçeve, doğrulanmış intertrokanterik kırıkları olan 458 katılımcı ve 236 kırık negatif kontrol dahil olmak üzere 694 benzersiz kişiden 694 tek taraflı radyografiden oluşan bir klinik veri seti üzerinde, sabit kat atamalarıyla katmanlı beş katlı çapraz doğrulama kullanılarak değerlendirildi. Beş katlı çapraz doğrulama prosedürünün tamamı, farklı rastgele başlatmalar kullanılarak bağımsız olarak beş kez tekrarlandı. Her tekrarda, ölçümlerin beş doğrulama katı boyunca ortalaması alındı ​​ve nihai sonuçlar, beş tekrar seviyesi ortalamaları boyunca ortalama ± standart sapma olarak rapor edildi. Tekrarlanan sabit katlamalı çapraz doğrulama protokolü kapsamında YOLOv8s-HAGB, değerlendirilen YOLOv8'ler, YOLOv9'lar, YOLOv10'lar, SE, GAM ve CBAM taban çizgilerinden daha yüksek nokta tahminleriyle 0,893 ± 0,008 hassasiyete ve 0,866 ± 0,011 mAP@50'ye ulaştı. Dahili olarak doğrulanmış bu sonuçlar, çerçevenin bağımsız dış gruplarda ve ileriye dönük klinik ortamlarda daha fazla değerlendirilmesini desteklemektedir."
     },
     {
       "pmid": "42665129",
@@ -1014,7 +1014,7 @@
         "recency": 0.0
       },
       "tier": 3,
-      "abstract_tr": "AMAÇ: Konik ışınlı bilgisayarlı tomografinin (CBCT), özellikle güçlendirilmiş planlamayla birleştirildiğinde, prostatik arter embolizasyonu (PAE) sırasında dijital çıkarma anjiyografisine (DSA) kıyasla prostat arterlerinin (PA'lar) tanımlanmasını ve sınıflandırılmasını iyileştirdiği hipotezini test etmek. GEREÇ VE YÖNTEM: Bu retrospektif çalışmaya, 2017-2019 yılları arasında tek bir akademik merkezde gerçekleştirilen PAE'lerden 133 hemipelf dahil edildi. PA anatomisi DSA, işlenmemiş CBCT (uCBCT) ve artırılmış planlamayla işlenmiş CBCT (pCBCT; Embo ASSIST, GE HealthCare, Chicago, IL) kullanılarak değerlendirildi. Bulgular, çoklu görüntüleme analizine dayanan prosedür içi anatomik referansla karşılaştırıldı. Performans ölçümleri bu referansa göre raporlanır. Birincil son noktalar, tüm PA'ların tanımlanması ve doğru köken sınıflandırması ve çoklu PA kaynağının tespiti olarak tanımlanan hemipelvis düzeyinde değerlendirmeydi. SONUÇLAR: İşlem içi anatomik referans, 39'u ikincil PA dahil olmak üzere 172 PA tanımladı; 38/133 yarı-pelflerin (%28,6) birden fazla PA kaynağı vardı. Anatomik değerlendirme, DSA ile hemipellerin %53,4'ünde [%44,5-%62,1], uCBCT ile %91,0 [%84,8-%95,3] ve pCBCT ile %100'ünde [%97,3-%100] doğruydu (tüm ikili karşılaştırmalar için P<.001). Çoklu PA tespiti için duyarlılık DSA ile %28,9 [%15,4-%45,9], uCBCT ile %84,2 [%68,7-%94,0] ve pCBCT ile %100 [%90,7-%100] idi. DSA, uCBCT ile %82,1 [%66,5-%92,5] ve pCBCT ile %100 [%91,0-%100] ile karşılaştırıldığında %28,2 [%15,0-%44,9] ikincil PA tespit etti. uCBCT ve DSA ile karşılaştırıldığında pCBCT, sırasıyla %17,9 ve %71,8 artışa karşılık gelen 7 ve 28 ek ikincil PA tanımladı. SONUÇ: CBCT, özellikle artırılmış planlama ile DSA'ya kıyasla üstün anatomik analiz sağlayarak PA'ların daha doğru tanımlanmasına ve sınıflandırılmasına olanak tanır ve PAE sırasında çoklu PA kaynağının tespitini artırır."
+      "abstract_tr": ""
     },
     {
       "pmid": "42665011",
@@ -1034,7 +1034,7 @@
       "doi": "10.1088/1361-6560/aea04c",
       "journal_tier": 2,
       "impact": 3.3,
-      "section": "nukleer",
+      "section": "meme",
       "score": 60.0,
       "score_parts": {
         "journal": 60,
@@ -1074,7 +1074,7 @@
         "recency": 0.0
       },
       "tier": 3,
-      "abstract_tr": "Konik ışınlı BT'den (CBCT) denetimli sentetik bilgisayarlı tomografi (sCT) üretimi, mekansal olarak kayıtlı eğitim çiftleri gerektirir, ancak ayrı ayrı elde edilen taramalar arasında mükemmel kayıt elde edilemez. Bu kayıt yanlılığı eğitimli modellere yayılır ve yoğunluğa dayalı değerlendirmeyi bozar; dolayısıyla daha yüksek kıyaslama puanları, kayıt eserlerinin çoğaltılmasını anatomik aslına uygunluktan daha fazla ödüllendirebilir. Yapısal olarak geometrik olarak hizalanmış eğitim çiftleri için önyargıya dayanıklı geometrik ölçümlerle fizik tabanlı CBCT simülasyonu öneriyoruz. Yaklaşım: Hizalanmış simüle edilmiş CBCT/CT çiftleri elde etmek için solunum hareketini, X-ışını saçılımını ve gürültüyü modelleyen fan ışınlı BT'den simüle edilmiş pelvik CBCT'ye sahip bir çerçeve. Klinik jinekolojik veri seti (deforme olabilen kayıt) ve SynthRAD2023 pelvik veri seti (katı kayıt) üzerinde, simüle edilmiş veriler üzerinde eğitilen sCT modelleri, gerçek çiftler, ince ayarlı bir varyant ve CycleGAN ve RegGAN temel çizgileri üzerinde eğitilen modellerle karşılaştırıldı. Değerlendirme, yoğunluk ölçümlerini (MAE, PSNR, SSIM) geometrik hizalama ölçümleriyle (normalleştirilmiş karşılıklı bilgi, NMI; korelasyon katsayısı, CC) giriş CBCT'ye karşı birleştirdi. Mesane, rektum ve bağırsak torbasının aşağı yönde segmentasyonu iki modda değerlendirildi: sCT çıktılarına CT tarafından eğitilmiş bir model uygulayan bir sCT kademesi ve simüle edilmiş CBCT üzerinde eğitilmiş bir model ile doğrudan segmentasyon, artı bir fizik ablasyonu ve beş gözlemcili kalite değerlendirmesi.&#xD;&#xD;Ana sonuçlar: Simülasyonla eğitilmiş modeller, gerçek eğitimli modellerden daha yüksek geometrik hizalama elde etti (çapraz veri kümesi NMI 0,31 vs) 0.22) daha düşük yoğunluk puanlarına rağmen. Yoğunluk ölçümleri, deforme olabilir kayıt altındaki gözlemci derecelendirmeleriyle ters orantılıyken, NMI tutarlı bir şekilde klinik tercihi tahmin ediyordu (klinik ρ = 0,29, SynthRAD ρ = 0,31). Gözlemciler vakaların %87'sinde simülasyonla eğitilmiş çıktıları tercih etti. sCT kademesinde, simülasyonla eğitilmiş modeller segmentasyonu iyileştirdi (DSC 0,91/0,86/0,54'e karşı 0,84/0,77/0,04), doğrudan simülasyonla eğitilmiş CBCT segmentasyonu ise bağırsak torbasındaki hayalet tabanlı temeli aşarak 0,92/0,87/0,83'e ulaştı. kayıt yanlılığını kaynağında ortadan kaldırır ve aşağı yöndeki segmentasyon, yoğunluk ölçümlerinin gözden kaçırdığı, sCT dönüşüm kalitesinin göreve dayalı bir ölçümünü sağlar. Önyargılı temel gerçekle yoğunluk uyumu değil, geometrik doğruluk, uyarlanabilir radyoterapinin mekansal doğruluk gereksinimleriyle uyumludur."
+      "abstract_tr": ""
     },
     {
       "pmid": "42664726",
@@ -1098,7 +1098,7 @@
       "doi": "10.1016/j.ejrad.2026.113185",
       "journal_tier": 2,
       "impact": 3.2,
-      "section": "nukleer",
+      "section": "meme",
       "score": 60.0,
       "score_parts": {
         "journal": 60,
@@ -1106,7 +1106,7 @@
         "recency": 0.0
       },
       "tier": 3,
-      "abstract_tr": "AMAÇ: Mide karsinomunda (GC) insan epidermal büyüme faktörü reseptörü 2 (HER2) ekspresyonunun ameliyat öncesi tanımlanmasını geliştirmek için tüm tümör alt bölgesi bazlı CT habitatı ve geleneksel radyomiklerin kombinasyonunun uygulanabilirliğini araştırmak. YÖNTEMLER: İki merkezden preoperatif kontrastlı BT uygulanan 328 GC hastası retrospektif olarak dahil edildi. Merkez 1'deki hastalar (n = 278) rastgele eğitim (n = 222) ve dahili doğrulama (n = 56) gruplarına ayrıldı ve harici doğrulama kohortu, Merkez 2'den 50 hastadan oluşuyordu. Geleneksel CT radyomik özellikleri tüm tümörden çıkarıldı. Habitat radyomik özellikleri, K-ortalama kümelemesi kullanılarak tüm tümörün üç habitat alt bölgesinden alınmıştır. Habitat tabanlı ve geleneksel radyomik modeller ve HER2 durumunu tahmin etmeye yönelik önceki özellikleri entegre eden birleştirilmiş model, Destek Vektör Makinesi (SVM) sınıflandırıcıları ve ardından eXtreme Gradient Boosting (XGBoost) ve Light Gradient Boosting Machine (LightGBM) kullanılarak oluşturuldu. Modellerin performansı, alıcı çalışma karakteristik eğrisi (AUC) altındaki alan ve Delong testi kullanılarak değerlendirildi. SONUÇLAR: SVM sınıflandırıcıları için birleştirilmiş model, eğitim, iç ve dış doğrulama gruplarında habitat temelli veya geleneksel modelden (AUC: 0,956'ya karşı 0,911 veya 0,792, 0,847'ye karşı 0,835 veya 0,771 ve 0,725'e karşı 0,685 veya 0,614) göre daha iyi öngörülebilirlik gösterdi. XGBoost (AUC: 0,784'e karşı 0,754 veya 0,702 ve 0,745'e karşı 0,696 veya 0,638) ve LightGBM (AUC: 0,804'e karşı 0,748 veya 0,685 ve 0,708'e karşı 0,699 veya 0,553) dahili ve sırasıyla harici doğrulama grupları (çoğu karşılaştırma için p < 0,05). SONUÇ: Birleştirilmiş model, GC'de HER2 ekspresyonu tahmininin öngörücü bir biyobelirteç olarak hizmet edebilir."
+      "abstract_tr": ""
     },
     {
       "pmid": "42664725",
@@ -1134,7 +1134,7 @@
       "doi": "10.1016/j.ejrad.2026.113190",
       "journal_tier": 2,
       "impact": 3.2,
-      "section": "nukleer",
+      "section": "neuro",
       "score": 60.0,
       "score_parts": {
         "journal": 60,
@@ -1142,7 +1142,7 @@
         "recency": 0.0
       },
       "tier": 3,
-      "abstract_tr": ""
+      "abstract_tr": "AMAÇ: Nöromiyelitis optika spektrum bozukluğu (NMOSD), astrositik ve nörovasküler ünite hasarına yol açan inflamatuar demiyelinizan bir hastalıktır. Akut ataklar sırasında BBB'nin yapısal bozulması iyi bilinmesine rağmen, klinik remisyon sırasında BBB su değişimi belirsizliğini koruyor. Bu çalışma, faz kontrastlı su ekstraksiyonu arteriyel spin etiketleme (WEPCAST) MRI kullanarak remisyon fazı NMOSD'de BBB su değişimini ölçmeyi ve bu bulguları tekrarlayan remisyonlu multipl skleroz (RRMS) ve sağlıklı kontrollerdeki (HC'ler) bulgularla karşılaştırmayı amaçladı. YÖNTEMLER: NMOSD'li yirmi yedi hasta (42,5 ± 11,2 yıl, 27 kadın), RRMS'li 18 hasta (36,9 ± 11,9 yıl, 16 kadın) ve yaş ve cinsiyet uyumlu 22 HC (43,1 ± 9,5 yıl, 22 kadın) prospektif olarak kaydedildi. Remisyon, görüntülemeden önceki 3 ay içinde klinik nüks veya yeni MRI lezyonunun olmaması olarak tanımlandı. Beyin MR'ı FLAIR, faz kontrastı, T1 ağırlıklı ve WEPCAST ​​sekanslarını içeriyordu. BBB su değişimi, WEPCAST'tan türetilen geçirgenlik yüzey alanı ürünü (PS) kullanılarak ölçüldü ve FLAIR görüntüleri üzerinde kantitatif beyaz madde hiperintensitesi (WMH) hacmi değerlendirildi. Ortak değişken düzeltmesi ile grup karşılaştırması için ikili doğrusal regresyon analizleri kullanıldı. SONUÇLAR: Remisyondaki NMOSD hastaları, RRMS hastalarına (117,8 ± 20,8 mL/100 g/dak; p < 0,05) ve HC'lere (120,3 ± 16,8 mL/100 g/dak; p<0,05), oysa RRMS HC'lerden farklı değildi. İkili regresyon analizlerinde PS, ortak değişken ayarlaması ve WMH hacmi için ek ayarlama sonrasında NMOSD'de RRMS ve HC'lere göre anlamlı derecede yüksek kaldı. SONUÇ: WEPCAST'tan türetilen PS, remisyon fazı NMOSD'de RRMS ve HC'lere göre daha yüksektir, bu da klinik remisyon sırasında BBB su değişiminin değiştiğini düşündürmektedir. Bu araştırma grubu düzeyindeki bulgular, daha büyük boylamsal kohortlarda doğrulamayı garanti eder."
     },
     {
       "pmid": "42663947",
@@ -1176,7 +1176,7 @@
         "recency": 0.0
       },
       "tier": 3,
-      "abstract_tr": "AMAÇ: Cerrahi hareketlerin incelikli ve zamansal olarak örtüşen doğası nedeniyle, cerrahi hareketlerin ayrıntılı bir şekilde anlaşılması, bilgisayarlı görmede temel bir zorluk olmaya devam etmektedir. Cerrahi eylemler arasındaki geçişlerin meydana geldiği hareket sınırları, hassas zamansal lokalizasyon açısından zorluklar ortaya çıkarmaktadır. Eylemler arasındaki geçişleri açıkça modelleyerek genel cerrahi jest bölümlendirmesini geliştiren bir zamansal sınır analizi çerçevesi öneriyoruz. Mevcut yöntemlerin çoğu hem RGB hem de kinematik verilere dayansa da yaklaşımımız, çıkarımda ek açıklamalar veya hesaplama yükü gerektirmeden yalnızca RGB video üzerinde çalışır. YÖNTEMLER: Sınıra duyarlı özellikleri öğrenmek için eğitim sırasında ayrıcalıklı bilgilerden yararlanan bir geçici sınır damıtma modülünü (TBDM) tanıtıyoruz. TBDM, geçiş bilgisini açıkça kodlayan, temel gerçeklik açıklamalarından türetilen, sınıfta mevcut olan ve olmayan zamansal bölgeler arasındaki çapraz dikkati kullanır. Hafif bir projeksiyon katmanı, sınıflandırma ve damıtma kaybı (MSE) tarafından denetlenen TBDM'den bilgi damıtma yoluyla sınır tanımayan özellikleri öğrenir. Çıkarımda yalnızca eğitilmiş projeksiyon katmanı gereklidir, bu da ek hesaplama maliyeti doğurmaz. BULGULAR: TBDM'yi CholecT50 ve RARP-45 cerrahi veri setleri üzerinde değerlendirdik. TBDM, temel modelleri tüm ölçümlerde sürekli olarak iyileştirerek CholecT50'de +8,5'e kadar düzenleme puanı artışı elde etti. Yaklaşımımız, RARP-45'te en son düzenleme puanına (81,4) ve F1@50'ye (77,9) ulaşarak farklı mimariler ve veri kümeleri genelinde etkili olduğunu gösterdi. SONUÇ: TBDM, yalnızca RGB verilerini kullanarak ayrıntılı cerrahi hareket bölümlendirmesi için genelleştirilmiş, tak ve çalıştır bir çerçeve sağlar. Zamansal sınırları açıkça modelleyerek, çıkarım karmaşıklığını artırmadan birden fazla mimari ve cerrahi veri kümesinde tutarlı iyileştirme sağlar. Kod, https://github.com/ezemsuraekmekci/TBDM-Surgical-Gesture-Segmentation adresinde halka açıktır."
+      "abstract_tr": ""
     },
     {
       "pmid": "42663679",
@@ -1196,7 +1196,7 @@
       "doi": "10.1007/s00234-026-04171-w",
       "journal_tier": 2,
       "impact": 2.4,
-      "section": "nukleer",
+      "section": "neuro",
       "score": 60.0,
       "score_parts": {
         "journal": 60,
@@ -1204,7 +1204,7 @@
         "recency": 0.0
       },
       "tier": 3,
-      "abstract_tr": ""
+      "abstract_tr": "AMAÇ: Tandem lezyonların daha karmaşık stratejiler ve potansiyel olarak daha kötü sonuçlarla ilişkili olması nedeniyle, tandemi izole iç karotid arter (ICA) tıkanıklığından ayırmak, tedaviyi en iyi sonuçları elde edecek şekilde yönlendirmek açısından önemlidir. Bilgisayarlı tomografi anjiyografisi (BTA) yaygın olarak kullanılmasına rağmen, yalancı tıkanıklıklar, yanlış pozitif görüntüleme bulguları gibi tanısal zorluklar güvenilirliği sınırlamaktadır. Bu çalışma, niceliksel görüntüleme parametrelerinin ayrımı destekleyip desteklemediğini değerlendirmektedir. YÖNTEMLER: Retrospektif, tek merkezli bu çalışmaya 2020-2024 yılları arasında İKA tıkanıklığı tanısı konulan 71 hasta dahil edildi. Tandem grubunda 35, izole İKA tıkanıklığı grubunda 36 hasta dahil edildi. Demografik bilgiler (yaş, cinsiyet, tıkanma etiyolojisi ve komorbidite) ve BTA bazlı görüntüleme parametreleri toplandı. Tahminciler, tek değişkenli, cezalandırılmış regresyon ve ikili Pearson korelasyon analizleri kullanılarak adaylar arasından seçildi. Birincil üç belirleyicili model, Firth'in cezalandırılmış lojistik regresyonu kullanılarak tahmin edildi ve dahili doğrulama ve kalibrasyon kullanılarak değerlendirildi. BULGULAR: Yaş hariç, çalışma grupları arasında demografik veriler benzerdi. Çok adımlı öngörücü seçim sürecinin ardından tıkalı ICA ön tıkanmasının ortalama yoğunluğu (Mean_Occl_ICA_pre), trombüs geçirgenlik oranının ortalama yoğunlukları (Thrm_Perm_Ratio_Mean) ve tıkalı ICA'nın tıkanma sonrası gradyan oranı (GR_Occl_ICA_post) son modele dahil edildi. Model, önyükleme iyimserliğiyle düzeltilmiş 0,713 AUC değerini gösterdi. SONUÇ: CTA'dan türetilmiş zayıflama parametrelerinin kombinasyonu, tandem ve izole ICA oklüzyonu arasında ılımlı bir ayrım gösterdi. Bu parametreler tamamlayıcı tanısal bilgiler sağlayabilir ancak daha büyük bağımsız kohortlarda doğrulama gereklidir."
     },
     {
       "pmid": "42663678",
@@ -1237,7 +1237,7 @@
         "recency": 0.0
       },
       "tier": 3,
-      "abstract_tr": "AMAÇ: Transdural besleme (TDS), beyin arteriyovenöz malformasyonlarının (bAVM'ler) tanınmış bir anjiyomimari özelliğidir. Transdural besleyicilerin nidus içinde mi sonlandığına yoksa doğrudan drenaj venine mi bağlandığına odaklanarak bAVM'lerdeki TDS'nin anjiyo mimarisini sistematik olarak karakterize etmeyi amaçladık. TDS prevalansı ve bununla ilişkili klinik özellikler de araştırıldı. YÖNTEMLER: Bu retrospektif çalışmaya, sistematik altı damarlı dijital çıkarma anjiyografisi yapılan 16 merkezden 521 hasta (524 bAVM) dahil edildi. bAVM'ler nidus veya fistül baskın olarak sınıflandırıldı. Anjiyografi, özellikle TDS'nin varlığına ve transdural besleyicilerin sonlanma bölgesine odaklanılarak değerlendirildi. TDS, TDS-Nidus (nidus içindeki fistül noktası) veya TDS-DV (drenaj yapan ven duvarındaki fistül noktası) olarak sınıflandırıldı. BULGULAR: 88 bAVM'de (%16,8) TDS tespit edildi. Fistül baskın tip TDS'li bAVM'lerde daha sıktı (P < 0.01). TDS vakalarının 25'inde (%28,4) TDS-DV görüldü. Fistül baskın morfoloji, TDS-DV'nin tek bağımsız belirleyicisiydi (P < 0.01). TDS-Nidus ve TDS-DV grupları arasında tedaviden sonra tam tıkanma oranlarında veya değiştirilmiş Rankin Skalası skorunda anlamlı bir fark gözlenmedi. Daha ileri yaş (olasılık oranı [OR]: 1,04; %95 güven aralığı [CI]: 1,02-1,06), daha büyük nidus boyutu (OR: 1,95; %95 GA: 1,60-2,42), oksipital konum (OR: 3,12; %95 GA: 1,28-7,62), anlamlı alan tutulumu (OR: 3,23; %95 GA: 1,61-6,50) ve baş ağrısı (OR: 2,85; %95 GA: 1,26-6,44) bağımsız olarak TDS ile ilişkilendirildi. SONUÇ: TDS-DV, TDS'li bAVM'lerin %28'inde tanımlandı ve fistül baskın morfoloji ile güçlü bir şekilde ilişkiliydi. Bu anjiyomimari modelin tanınması, bAVM'lerin TDS ile anjiyografik karakterizasyonunu kolaylaştırabilir."
+      "abstract_tr": ""
     },
     {
       "pmid": "42663532",
@@ -1265,7 +1265,7 @@
       "doi": "10.1148/rycan.250784",
       "journal_tier": 2,
       "impact": 5.0,
-      "section": "nukleer",
+      "section": "abdomen",
       "score": 60.0,
       "score_parts": {
         "journal": 60,
@@ -1273,7 +1273,7 @@
         "recency": 0.0
       },
       "tier": 3,
-      "abstract_tr": "Amaç Hepatoselüler karsinomun (HCC) noninvaziv metabolik karakterizasyonu için standart CT/MRI tabanlı Karaciğer Görüntüleme Raporlama ve Veri Sistemi (LI-RADS) kategorizasyonuna ek olarak hiperpolarize [1-13C]piruvat MRI'nın (HP-MRI) uygulanabilirliğini değerlendirmek. Gereçler ve Yöntemler Bu prospektif, araştırma amaçlı, tek merkezli çalışma, Haziran 2023 ile Haziran 2025 arasında HP-MRI uygulanan karaciğer lezyonu olan katılımcıları ve kontrol katılımcılarını içermektedir. BT ve/veya MRI taramalarında tanımlanan lezyonlar, LI-RADS'ye göre kategorize edilmiştir. HP-MRI metabolik okuması, laktat-piruvat (L/P) oranı, alanin-piruvat (A/P) oranı, alanin-laktat (A/L) oranı ve karşılık gelen tümör-arka plan oranları (TBR'ler) gibi dinamik 13C görüntülemeden elde edilen oranları içeriyordu. Oluşturulan HCC'ler, eşleştirilmemiş t testleri ve Hedges g kullanılarak daha sonra HCC'ye ilerleyen belirsiz lezyonlarla karşılaştırıldı. Sonuçlar On dört katılımcı dahil edildi (ortalama yaş, 64 yıl; IQR, 53-70 yıl]; 14 (%100) erkek): CT/MRI taramalarında lezyonları olan 10 katılımcı ve dört kontrol katılımcısı. A/P ve A/L oranları, ilerleyen belirsiz lezyonlarda (n = 4), hem mutlak ölçümlerde hem de TBR'lere endeksli olarak (P < 0,05) yerleşik HCC'lere (n = 5) göre daha düşüktü, ancak L/P oranında herhangi bir farklılık olduğuna dair bir kanıt yoktu. Bunun tersine, L/P TBR, ilerleyen belirsiz lezyonlarda yerleşik HCC'lere göre daha yüksekti (P ​​= 0,03). Alanine endeksli TBR'ler, Hedges g'nin 2,01 (%95 GA: 0,33, 3,70) ile 3,02 (%95 GA: 0,97, 5,08) arasında değiştiği büyük etki büyüklükleri gösterdi. Sürveyans altındaki bir LI-RADS kategori 3 (LR-3) lezyonunda erken bir ilerleme görülmedi ve bir LR-4 lezyonu için ilerleme doğrulanamadı. Sonuç Yardımcı HP-MRI, standart BT ve/veya MRI'nın ötesinde tamamlayıcı lezyon düzeyinde metabolik bilgi sağladı ve azalmış bir A/L oranı, malign ilerlemenin aday belirteci olarak ortaya çıktı. Anahtar Kelimeler: Karaciğer, Onkoloji, Siroz, Hepatoselüler Karsinom Bu makale için ek materyal mevcuttur. Avrupa İlaç Ajansı tarafından barındırılan Klinik Araştırmalar Bilgi Sistemi (EU-CTIS 2024-512490-27-00) © RSNA, 2026."
+      "abstract_tr": ""
     },
     {
       "pmid": "42661401",
@@ -1297,7 +1297,7 @@
       "doi": "10.1002/jmri.70494",
       "journal_tier": 2,
       "impact": 3.3,
-      "section": "nukleer",
+      "section": "neuro",
       "score": 60.0,
       "score_parts": {
         "journal": 60,
@@ -1305,7 +1305,7 @@
         "recency": 0.0
       },
       "tier": 3,
-      "abstract_tr": "AMAÇ: Serebrovasküler fonksiyon bozukluğu hafif bilişsel bozulmaya (MCI) katkıda bulunur, ancak çok değişkenli MRI sınıflandırması için arteriyel dönüş etiketleme (ASL) kaynaklı serebral kan akışı (CBF) ve nefes tutma serebrovasküler reaktivitesinin (CVR) tamamlayıcı değeri belirsizliğini koruyor. AMAÇ/HİPOTEZ: CBF ve CVR'nin birleştirilmesinin, klinik olarak tanımlanmış MCI'nın çok değişkenli sınıflandırmasını, tek başına ölçümle karşılaştırıldığında iyileştirip iyileştirmediğini ve sınıflandırıcıdan türetilen puanların bilişsel performansla ilişkili olup olmadığını belirlemek. ÇALIŞMANIN TÜRÜ: Retrospektif vaka kontrol çalışması. NÜFUS/DENEKLER: Klinik olarak tanımlanmış MCI'li 37 katılımcı (73,8 ± 5,1 yıl; 21 erkek) ve 48 bilişsel bozukluğu olmayan (CU) kontrol (69,2 ± 7,1 yıl; 14 erkek) dahil olmak üzere 85 yaşlı yetişkin. ALAN GÜCÜ/SIRASI: 3 T MRI; 3D yalancı sürekli arteriyel spin etiketleme (pCASL), çok bantlı multi-eko (MBME) eko düzlemsel görüntüleme (EPI), kan oksijen düzeyine bağlı (BOLD) fonksiyonel MR nefes tutmalı CVR görüntüleme, 3D T1 ağırlıklı mıknatıslamayla hazırlanmış hızlı gradyan eko ve 3D T2 ağırlıklı hızlı spin-eko (FSE). DEĞERLENDİRME: Doğrusal bir lojistik regresyon sınıflandırıcısı kullanan tüm beyin projektörü çok değişkenli desen analizi, yalnızca CBF, yalnızca CVR ve birleşik CBF + CVR özelliklerinden MCI'ya karşı CU deneklerini değerlendirdi. Bölgesel performans 400 bölgeli Schaefer atlası kullanılarak özetlendi. Birleştirilmiş modelden elde edilen karar puanları, gecikmeli hatırlama ve İz Sürme Testi (TMT) Bölüm A ve B performansıyla ilişkilendirildi. İSTATİSTİKSEL TESTLER: Permütasyon testi sınıflandırıcının önemini değerlendirdi. Doğrusal regresyon bilişsel ilişkileri değerlendirdi. Çoklu karşılaştırmalar için yanlış keşif oranı düzeltmesi uygulandı. İstatistiksel anlamlılık p < 0,05 olarak tanımlandı. SONUÇLAR: En yüksek performans gösteren 10 bölgedeki ortalama bölgesel AUC değerleri, CBF için 0,740 ila 0,766, CVR için 0,753 ila 0,805 ve birleşik CBF + CVR modeli için 0,816 ila 0,830 arasında değişiyordu. Daha iyi performans gösteren tek metrik modelle karşılaştırıldığında, birleştirilmiş model bölgesel sınıflandırma performansını ΔAUC = 0,020-0,062 oranında artırdı. Beş bölge nominal eşleştirilmiş permütasyon önemi gösterdi, ancak hiçbiri yanlış keşif oranı düzeltmesinden sonra anlamlı kalmadı. Daha yüksek karar puanları, daha zayıf gecikmeli hatırlama (kısmi r = -0,353 ila -0,422) ve daha zayıf TMT Bölüm A ve B performansı (kısmi r = -0,243 ila -0,390) ile ilişkiliydi. VERİ SONUCU: CBF ve CVR'nin birleştirilmesi, klinik olarak tanımlanmış MCI'nın tek başına ölçüme göre çok değişkenli ayrımını iyileştirdi ve hafıza ve yürütücü işlev bozukluğu ile ilişkili klinik olarak anlamlı posterior kortikal nörovasküler kalıpları belirledi. KANIT DÜZEYİ: 3. TEKNİK YETERLİLİK: Aşama 2."
+      "abstract_tr": ""
     },
     {
       "pmid": "42661388",
@@ -1334,7 +1334,7 @@
       "doi": "10.1002/mrm.70563",
       "journal_tier": 2,
       "impact": 3.0,
-      "section": "neuro",
+      "section": "genel",
       "score": 60.0,
       "score_parts": {
         "journal": 60,
@@ -1342,7 +1342,7 @@
         "recency": 0.0
       },
       "tier": 3,
-      "abstract_tr": "AMAÇ: Soma ve Nörit Yoğunluğu Görüntüleme (SANDI) modeli, soma ve nörit sinyal fraksiyonlarını tahmin ederek gri madde (GM) mikro yapısının karakterizasyonuna olanak tanır, ancak klinik uygulanabilirliği, yüksek gradyanlı MRI sistemleri gerektiren çok kabuklu edinimlere (6000 s/mm2'ye kadar en az beş b değeri) duyulan ihtiyaç nedeniyle sınırlıdır. Hücresel düzeydeki mikroyapısal özelliklere duyarlılığı korurken veri gereksinimlerini ve model karmaşıklığını azaltan, klinik olarak uygulanabilir bir SANDI modeli geliştirdik. YÖNTEMLER: Klinik SANDI, sabit nörit içi yayılma ve hücre içi hacim fraksiyonlarından hücre dışı yayılmayı tahmin etmek için etkili ortam teorisinden elde edilen bir kıvrımlılık ilişkisi yoluyla biyofiziksel kısıtlamaları birleştirerek serbest parametrelerin sayısını ve veri gerekliliklerini azaltır. Model, GM benzeri mikro ortamlarda Monte Carlo difüzyon simülasyonları kullanılarak doğrulandı ve ultra yüksek gradyanlı 3 T Connectome 2.0 tarayıcı (Gmax = 500 mT/m, beş kabuk,∼19 min) ve klinik 3 T sistemi (Gmax = 80 mT/m, iki kabuk, iki kabuk) üzerinde in vivo olarak değerlendirildi. ∼7 dak). Çoklu gradyan güçleri, difüzyon süreleri ve alanlar üzerinde yapılan ek deneyler, modelin sağlamlığını değerlendirdi. SONUÇLAR: Difüzyon simülasyonları, değişen hücre içi hacim fraksiyonlarında simüle edilmiş ve teorik hücre dışı difüzyon arasında yakın bir uyum (Pearson r = 0.99) gösterdi. 500 mT/m gradyanlarla, iki kabuk kullanan klinik SANDI, beş kabuklu standart SANDI (r = 0,97, sınıf içi korelasyon katsayısı = 0,94) ile güçlü bir uyum gösterdi. Azaltılmış gradyan güçlerinde klinik SANDI, kortikal soma içi sinyal fraksiyonu değerlerini korurken standart SANDI, 80 mT/m'nin altındaki gradyan güçlerinde eksik tahmin sergiledi. SONUÇ: Klinik SANDI, yaygın olarak bulunan klinik 3T tarayıcılarda uygun tarama süreleri içerisinde güvenilir kortikal GM mikroyapı tahmini sağlar ve yaşlanma, nörodejenerasyon ve nörolojik bozuklukları incelemek için ileri difüzyon MRI yöntemlerinin daha geniş bir şekilde çevrilmesini kolaylaştırır."
+      "abstract_tr": ""
     },
     {
       "pmid": "42661232",
@@ -1361,7 +1361,7 @@
       "doi": "10.1186/s40644-026-01119-4",
       "journal_tier": 2,
       "impact": 4.9,
-      "section": "nukleer",
+      "section": "meme",
       "score": 60.0,
       "score_parts": {
         "journal": 60,
@@ -1369,7 +1369,7 @@
         "recency": 0.0
       },
       "tier": 3,
-      "abstract_tr": "AMAÇ: Aynı hastada bazı lezyonların eşzamanlı gerilemesi ve diğerlerinin ilerlemesi ile karakterize edilen heterojen tedavi yanıtı, metastatik meme kanserinde (mBC) giderek daha fazla tanınmaktadır ve biyolojik heterojenliği yansıtabilir. Ancak bu yanıt modeli mevcut yanıt değerlendirme çerçeveleri tarafından kapsanmamaktadır. mBC sistemik tedavisi sırasında FDG-PET'te heterojen tedavi yanıtı ve BT'de karışık yanıt prevalansını belirlemeyi amaçladık. YÖNTEMLER: Bu retrospektif çalışmaya, Kasım 2017 ile Kasım 2025 arasında tedavi edilen ve her birine ≥ 2 FDG-PET/BT taraması yapılan mBC'li 51 kadın hasta dahil edildi. Yanıt, RECIST 1.1 (CT) ve PERCIST'e (FDG-PET) göre, literatüre göre heterojen/karışık yanıt için çalışmaya özgü tanımlar kullanılarak değerlendirildi. BULGULAR: Tüm takip FDG‑PET incelemelerinin %30'unda heterojen metabolik yanıt gözlendi (40/132). Bu incelemeler PERCIST'e göre ilerleyici metabolik hastalık (PMD) olarak sınıflandırılan taramaların %60'ını (40/67) oluşturuyordu. BT incelemeleri arasında 141 takip muayenesinden 65'inde (%46) ölçülebilir hastalık vardı; bu taramaların hiçbiri (0/65, %0) karışık yanıt kriterlerini karşılamadı. SONUÇ: Sistemik tedavi gören bu gerçek mBC kohortunda, FDG-PET hastaların önemli bir kısmında heterojen tedavi yanıtı tanımladı; ancak mevcut PERCIST kriterlerine göre bu vakalar genel olarak PMD olarak sınıflandırılmıştır. Bunun aksine, RECIST'ten ilham alan kriterleri kullanan BT, hiçbir hastayı karışık yanıt olarak sınıflandırmadı. Bu bulgular, mevcut çerçevelerin hasta içi yanıt heterojenliğini tam olarak yakalayamayabileceğini göstermektedir. Heterojen yanıt yerleşik bir PERCIST yanıt kategorisi olmadığından, bu tür kalıpların nasıl tanımlanması ve gelecekteki yanıt değerlendirme çerçevelerine nasıl dahil edilmesi gerektiğini belirlemek için daha fazla çalışmaya ihtiyaç vardır. KLİNİK DENEME NUMARASI: Geçerli değil."
+      "abstract_tr": ""
     },
     {
       "pmid": "42661227",
@@ -1399,7 +1399,7 @@
       "doi": "10.1186/s40644-026-01110-z",
       "journal_tier": 2,
       "impact": 4.9,
-      "section": "nukleer",
+      "section": "toraks",
       "score": 60.0,
       "score_parts": {
         "journal": 60,
@@ -1477,7 +1477,7 @@
       "doi": "10.1016/j.acra.2026.08.041",
       "journal_tier": 2,
       "impact": 3.8,
-      "section": "nukleer",
+      "section": "genel",
       "score": 60.0,
       "score_parts": {
         "journal": 60,
@@ -1485,7 +1485,7 @@
         "recency": 0.0
       },
       "tier": 3,
-      "abstract_tr": "GEREKÇE VE AMAÇLAR: 3T MRI kullanarak statik uterus anatomisindeki siklik varyasyonları ve menstruasyon evreleri boyunca dinamik endometrial peristaltizmi araştırmak. YÖNTEMLER VE MATERYALLER: Kırk iki sağlıklı doğum yapmamış kadına prospektif olarak üç standart aşamada 3T MRG uygulandı: adet (MP), ovulatuar (OP) ve luteal (LP). T2 ağırlıklı görüntülemede statik uterus boyutları ve tabakalı duvar kalınlığı ölçüldü. Dinamik endometrial peristalsis, HASTE sine sekansları kullanılarak, anterior ve posterior uterus duvarlarında frekansı, yönü ve genliği ayrı ayrı ölçerek değerlendirildi. BULGULAR: Rahim korpus parametrelerinde ve peristaltik ölçümlerde faza özel anlamlı farklılıklar gözlenirken, servikal parametreler stabil kaldı. Uterus hacmi en güçlü şekilde uterus yüksekliği ile ilişkilidir; servikal hacim ise uzunluk (OP, LP) ve genişlik (MP) ile ilişkilidir. Endometriyal peristaltizm farklı yön modelleri gösterdi: OP'de serviko-fundal dalgalar, MP'de fundo-servikal dalgalar baskındı. Ön duvar peristaltizm frekansı yumurtlama fazını doğru bir şekilde tahmin etti. Özellikle peristaltik amplitüd, özellikle OP sırasında ön ve arka uterus duvarları arasında anlamlı farklılık gösterdi. SONUÇ: Statik uterus morfolojisi ve dinamik endometrial peristaltizm, genç kadınlarda öngörülebilir, hormona dayalı döngüsel yeniden yapılanmaya uğrar. Yumurtlama penceresi sırasında ön-arka genlik asimetrisinin yeni gözlemi, lokalize fonksiyonel uzmanlaşmaya dikkat çekiyor. Bu bulgular rahim fizyolojisi için normatif bir MRI referansı sağlar ve üreme bozukluklarında rahim hareketsizliğinin araştırılması için bir temel sağlar."
+      "abstract_tr": ""
     },
     {
       "pmid": "42660734",
@@ -1511,7 +1511,7 @@
       "doi": "10.1016/j.acra.2026.08.044",
       "journal_tier": 2,
       "impact": 3.8,
-      "section": "girisim",
+      "section": "meme",
       "score": 60.0,
       "score_parts": {
         "journal": 60,
@@ -1551,7 +1551,7 @@
       "doi": "10.1016/j.acra.2026.07.072",
       "journal_tier": 2,
       "impact": 3.8,
-      "section": "girisim",
+      "section": "abdomen",
       "score": 60.0,
       "score_parts": {
         "journal": 60,
@@ -1579,7 +1579,7 @@
       "doi": "10.1016/j.acra.2026.08.003",
       "journal_tier": 2,
       "impact": 3.8,
-      "section": "nukleer",
+      "section": "meme",
       "score": 60.0,
       "score_parts": {
         "journal": 60,
@@ -1647,7 +1647,7 @@
       "doi": "10.1016/j.radonc.2026.111752",
       "journal_tier": 2,
       "impact": 4.9,
-      "section": "nukleer",
+      "section": "abdomen",
       "score": 60.0,
       "score_parts": {
         "journal": 60,
@@ -1689,7 +1689,7 @@
         "recency": 0.0
       },
       "tier": 3,
-      "abstract_tr": "Özofagus kanserinde radyoterapinin etkinliğini belirlemek için brüt tümör hacminin (GTV) doğru bir şekilde tanımlanması kritik öneme sahiptir. Geleneksel segmentasyon yöntemleri ya yalnızca küçük tümör hacimlerini ve belirsiz sınırları ele almakta zorlanan görüntüleme özelliklerinden uçtan uca öğrenmeye dayanır ya da kaba maskeleri uzamsal öncelikler olarak dahil eder ancak klinik karar verme için gerekli olan patolojik semantiği entegre etmekte başarısız olur. Bu kopukluk, klinik uygulamayla pek uyumlu olmayan segmentasyon sonuçlarına yol açabilir. Bu sınırlamaları gidermek için bu çalışma, Maske Rehberliği ve Metin İstemi Segmentasyonu (MGTP-Seg) çerçevesini önerdi. UNETR'yi temel alan MGTP-Seg, bir maske yönlendirme dalını ve bir metin yönlendirme dalını yenilikçi bir şekilde entegre eder. Maske yönlendirme dalı, uzamsal öncelikler sağlamak için nnU-Net'in önceden bölümlenmiş maskelerini kullanırken, metin yönlendirme dalı, öğrenilebilir istem ayarlama yoluyla büyük dil modellerinden klinik olarak ilgili anlambilimi görsel özellik alanına dinamik olarak entegre eder. Uyarlanabilir füzyon ve çift yönlü hizalama sayesinde bu dallar, görüntüleme ayrıntılarının, mekansal önceliklerin ve üst düzey klinik bilginin uçtan uca sinerjik entegrasyonunu sağlar. Çok merkezli veri kümeleri üzerinde yapılan deneyler, MGTP-Seg'in hem iç hem de dış doğrulama kümelerinde doğru ve sağlam segmentasyon sağladığını doğrulamaktadır. Bu çalışma, MGTP-Seg'in yalnızca otomatik GTV tanımlaması için doğru, yorumlanabilir ve klinik olarak uygun bir çözüm sağlamakla kalmayıp aynı zamanda tıbbi görüntü analizinde mekansal öncelikleri anlamsal bilgiyle birleştirmek için yeni bir metodolojik çerçeve sunduğunu göstermektedir."
+      "abstract_tr": ""
     },
     {
       "pmid": "42660181",
@@ -1716,7 +1716,7 @@
         "recency": 0.0
       },
       "tier": 3,
-      "abstract_tr": "Proton terapisindeki aralık belirsizlikleri büyük ölçüde, X-ışını bilgisayarlı tomografi (CT) Hounsfield Ünitelerinin yarı deneysel olarak suya göre durdurma gücüne (RSP) dönüştürülmesinden kaynaklanmaktadır ve cömert güvenlik marjları veya sağlam optimizasyon gerektirir. Parçacık bütünleştirici bir detektör kullanılarak proton iletimi görüntülemesi yoluyla elde edilen kalem ışını şeklinde entegre derinlik doz profilleri (IDD'ler), hastaya özel dönüşüm eğrileri elde etmek için tedavi planlama CT'si ile birleştirilebilir. Mevcut kalibrasyon yaklaşımları, sinyal ayrıştırma veya ters evrişim yoluyla IDD'lerden türetilen projeksiyon görüntülerine veya suya eşdeğer yol uzunluğu (WEPL) histogramlarına dayanır. Ayrıştırma veya ters evrişim ihtiyacını ve bunlarla ilişkili WEPL doğruluğunu ve çözünürlük sınırlamalarını ortadan kaldıran, elde edilen IDD sinyalini temel alan doğrudan bir optimizasyon yaklaşımı önerilmektedir. Yaklaşım: RSP dönüşüm eğrisi, çizgi taramalı proton görüntüleme kurulumunda iki ortogonal projeksiyon açısından elde edilen Monte Carlo simüle edilmiş IDD'ler kullanılarak yinelemeli olarak optimize edilmiştir. İleri projeksiyon operatörünün farklılaştırılabilir uygulaması, gradyan tabanlı bir optimizasyon şemasına yerleştirilmiştir. Ana sonuçlar: Önerilen IDD tabanlı optimizasyon yaklaşımı, ilk tahminle karşılaştırıldığında kalibrasyon hatasını önemli ölçüde azaltır. Bir dizi eksenel CT dilimindeki medyan ortalama mutlak yüzde hatası, dilim başına 5,47 saatlik medyan hesaplama süresiyle %1,88'den %0,58'e düşer. Optimize edilmiş kalibrasyon, örnek bir tedavi kalem ışınının doz doğruluğunu artırır. Nokta aralığını on kat artırmak, minimum doğruluk kaybıyla hesaplama süresini 0,60 saate düşürür. Tek bir projeksiyon açısının kullanılması, her iki projeksiyonun kullanılmasıyla karşılaştırılabilir sonuçlar verir (%0,64'e karşı %0,57). ~2 mm'lik mevcut dedektör derinlik çözünürlükleriyle, daha iyi çözünürlüklü dedektörlerin kullanılmasıyla potansiyel iyileştirmelerle birlikte ~%0,7'lik kalibrasyon doğruluğuna ulaşılabilir. Önemi: Parçacık bütünleştirici dedektörler, daha düşük maliyet ve karmaşıklık nedeniyle klinik çeviri için potansiyel sunar. Türevlenebilir bir ileri operatör kullanarak IDD'lerde doğrudan optimizasyon, daha önceki manuel IDD tabanlı veya otomatik WEPL tabanlı yaklaşımlara göre iyileştirerek doğru, tam otomatik kalibrasyona olanak tanır."
+      "abstract_tr": ""
     },
     {
       "pmid": "42659943",
@@ -1773,7 +1773,7 @@
       "doi": "10.1016/j.ejrad.2026.113179",
       "journal_tier": 2,
       "impact": 3.2,
-      "section": "nukleer",
+      "section": "toraks",
       "score": 60.0,
       "score_parts": {
         "journal": 60,
@@ -1781,7 +1781,7 @@
         "recency": 0.0
       },
       "tier": 3,
-      "abstract_tr": "AMAÇ: Perikoroner yağ dokusu (PCAT) zayıflaması, dinamik perivasküler değişiklikleri yansıtan, koroner inflamasyonun yeni bir görüntüleme biyobelirteci olarak ortaya çıkmıştır. Yüksek PCAT zayıflaması olumsuz kardiyovasküler sonuçlarla ilişkilendirilmiştir; ancak farklı popülasyonlar, koroner bölgeler ve analitik yöntemler genelinde prognostik önemi belirsizliğini koruyor. Majör advers kardiyovasküler olaylar (MACE) ve mortalite açısından PCAT zayıflamasının prognostik değerini belirlemek ve alt grup ve meta-regresyon analizleri aracılığıyla potansiyel etki değiştiricileri belirlemek. YÖNTEMLER: Bu sistematik inceleme ve meta-analiz, PRISMA kılavuzlarını takip etti. PubMed, Cochrane Library ve Web of Science, Ağustos 2025'e kadar araştırıldı. PCAT zayıflaması ile kardiyovasküler sonuçlar arasındaki ilişkileri bildiren gözlemsel çalışmalar dahil edildi. Tehlike oranları (HR'ler), rastgele etki modelleri kullanılarak bir araya getirildi ve heterojenliği araştırmak için önceden belirlenmiş alt grup ve meta-regresyon analizleri yapıldı. BULGULAR: 27 popülasyonu (17.160 hasta) kapsayan 21 çalışma analiz edildi. Yüksek PCAT zayıflaması, MACE (HR 1,58; %95 GA: 1,38-1,81, p<0,001), tüm nedenlere bağlı mortalite (HR 1,77; %95 GA: 1,51-2,07, p<0,001) ve kardiyak mortalite (HR 2,25; %95 GA: 1,62-3,13, p<0,001). Koroner bölgeye dayalı analizler sol ön inen ve sağ koroner arterlerde anlamlı prognostik ilişkiler gösterirken, sol sirkumfleks arterdeki ilişki istatistiksel olarak anlamlı değildi. Meta-regresyon, değiştiriciler olarak Asya nüfusunu (p = 0,015), ölçüm yöntemini (Caristo vs diğerleri; p < 0,001) ve vücut kitle indeksini (p = 0,046) tanımladı; çok değişkenli analizde yalnızca ölçüm yöntemi anlamlı kaldı (p = 0,021). SONUÇ: Daha yüksek PCAT zayıflaması, özellikle MACE olmak üzere kardiyovasküler olay riskinin artmasıyla ilişkilidir. Ancak ilişkinin büyüklüğü ölçüm metodolojisinden, küçük çalışma etkilerinden ve yayın yanlılığından etkilenebilir. Rutin klinik uygulamadan önce daha ileri doğrulama, metodolojik standardizasyon ve artan prognostik değerin değerlendirilmesi gerekmektedir."
+      "abstract_tr": ""
     },
     {
       "pmid": "42659899",
@@ -1818,7 +1818,7 @@
       "doi": "10.1016/j.ejrad.2026.113169",
       "journal_tier": 2,
       "impact": 3.2,
-      "section": "nukleer",
+      "section": "toraks",
       "score": 60.0,
       "score_parts": {
         "journal": 60,
@@ -1826,7 +1826,7 @@
         "recency": 0.0
       },
       "tier": 3,
-      "abstract_tr": ""
+      "abstract_tr": "GİRİŞ: Koroner bilgisayarlı tomografi anjiyografisindeki (CCTA) koroner arter hastalığı (KAH), tipik olarak ikili ≥%50 darlık eşiği kullanılarak değerlendirilir. Ancak KAH'ın yaygınlığı hasta yönetimini ve sonuçlarını da etkileyebilir. PRECISE denemesi bu ilişkileri incelemek için yüksek kaliteli veriler sağlar. YÖNTEMLER VE SONUÇLAR: Bu PRECISE alt çalışmasında, FFR-CT ve kantitatif plak analizi ile CCTA uygulanan stabil KAH şüphesi olan hastalar değerlendirildi. Bir stenoz boyunca FFR-CT'deki düşüş, stenozFFR-CT olarak tanımlandı ve yaygın hastalığa atfedilen düşüş, yaygınFFR-CT olarak tanımlandı. ≥%50 darlığı olan hastalar, stenoz FFR-CT ve diffüzFFR-CT'nin kohort medyanları kullanılarak dört fenotip halinde sınıflandırıldı: fokal (FOC), yaygın (DIF), kombine fokal ve yaygın (DIFFOC) veya hemodinamik olarak anlamlı KAH yok (NoHEM). % ≥ 50 darlığı olmayan katılımcılar beşinci grubu oluşturdu. Toplam 737 katılımcı dahil edildi (ortalama yaş 60 ± 10 yıl, %44 kadın): NoHEM (n = 37), DIF (n = 53), FOC (n = 57), DIFFOC (n = 37) ve < %50 darlık (n = 553). Toplam plak hacmi (TPV) en yüksek DIFFOC'de (262 [175-504] mm3) görüldü, bunu DIF (210 [97-302] mm3), FOC (209 [88-415] mm3), NoHEM (153 [87-254] mm3) ve <%50 darlık (7 [0-59] mm3; p<0,0001). FOC hastalarında tipik anjina daha sık rapor edildi (p = 0,04) ancak semptom yoğunluğu fenotipler arasında benzerdi. %51 (FOC), %49 (DIFFOC), %6 (DIF), %5 (NoHEM) ve %2'de (<%50 stenoz) revaskülarizasyon gerçekleştirildi. SONUÇ: Fokal hastalıkta daha tipik anjina görülmesi dışında, fokal ve mikst KAH fenotipleri klinik olarak benzerdi. Diffüz bileşenden bağımsız olarak fokal paterni olan hastaların yaklaşık yarısında revaskülarizasyon uygulandı."
     },
     {
       "pmid": "42659898",
@@ -1852,7 +1852,7 @@
       "doi": "10.1016/j.ejrad.2026.113154",
       "journal_tier": 2,
       "impact": 3.2,
-      "section": "kas",
+      "section": "abdomen",
       "score": 60.0,
       "score_parts": {
         "journal": 60,
@@ -1882,7 +1882,7 @@
       "doi": "10.1016/j.ejrad.2026.113187",
       "journal_tier": 2,
       "impact": 3.2,
-      "section": "nukleer",
+      "section": "toraks",
       "score": 60.0,
       "score_parts": {
         "journal": 60,
@@ -1918,7 +1918,7 @@
         "recency": 0.0
       },
       "tier": 3,
-      "abstract_tr": "Felç, ciddi travma ve sepsis gibi akut kritik durumlar, sağlık sistemleri üzerinde ölüm, sakatlık ve mali baskının başlıca nedenlerini temsil etmektedir. Bu zamana bağlı senaryolarda, bilgisayarlı tomografi (BT) ve manyetik rezonans görüntüleme (MRI), tanısal ve terapötik karar vermede temeldir; ancak görüntülemeye erişimdeki gecikmeler, klinik ve sağlık sistemi sonuçlarıyla ilişkili yapısal darboğazları temsil edebilir. BT ve MR'a zamanında erişim ile akut kritik durumlarda klinik ve sağlık sistemi sonuçları arasındaki ilişkiye ilişkin mevcut kanıtları haritalamak ve sentezlemek. Joanna Briggs Enstitüsü yönergelerine uygun olarak bir kapsam belirleme incelemesi gerçekleştirildi ve PRISMA-ScR'ye uygun olarak rapor edildi. PubMed, Scopus, Web of Science ve ScienceDirect'te (Ocak 2010-Şubat 2026) yapılandırılmış bir arama gerçekleştirildi. İnme, travma veya sepsis hastalarını içeren, görüntüleme erişim ölçümlerini ve bunların klinik veya sistem sonuçlarıyla ilişkilerini değerlendiren çalışmalar dahil edildi. Yirmi yedi çalışma dahil edildi. On bir kişi, özellikle inme ve vasküler travmada, daha uzun görüntüleme aralıkları ile hastane içi mortalitenin artması, fonksiyonel bağımsızlığın azalması veya terapötik uygunluk kaybı dahil olmak üzere olumsuz klinik sonuçlar arasında düzeltilmiş ilişkiler olduğunu bildirdi. Hastanede kalış süresinin uzaması ve operasyonel verimliliğin azalması gibi sistem ölçümleriyle sekiz ilişki rapor edildi. Geri kalan çalışmalar, bakım yolu organizasyonu, kaynak kullanılabilirliği ve mimari faktörlerle ilgili tanısal gecikmeyle ilişkili yapısal faktörleri tanımladı. CT ve MRI'ya zamanında erişim, akut zamana bağlı durumlarda klinik ve operasyonel sonuçlarla ilişkili sağlık sistemi performansının bir göstergesi olarak hizmet edebilir. Görüntüleme süresi ölçümlerinin potansiyel performans göstergeleri olarak dahil edilmesi, akut bakım sunumunun planlanmasını ve değerlendirilmesini destekleyebilir."
+      "abstract_tr": ""
     },
     {
       "pmid": "42664924",
@@ -1939,7 +1939,7 @@
       "doi": "10.1016/j.clinimag.2026.110935",
       "journal_tier": 3,
       "impact": 1.9,
-      "section": "girisim",
+      "section": "meme",
       "score": 35.0,
       "score_parts": {
         "journal": 35,
@@ -1947,7 +1947,7 @@
         "recency": 0.0
       },
       "tier": 3,
-      "abstract_tr": "ETİKETSİZ: Amaç İzole mastalji ve normal klinik meme muayenesi ile başvuran kadınlarda mamografinin kanser tespit oranını (CDR) belirlemek. YÖNTEMLER: 1 Ocak 2020'den 31 Aralık 2024'e kadar 5 yıl boyunca büyük bir sağlık kurulunda \"ağrı\", \"meme ağrısı\" veya \"mastalji\" nedeniyle gerçekleştirilen tüm mamografiler retrospektif olarak incelendi. E2 iyi huylu veya üzeri olarak derecelendirilen ek semptomları veya klinik bulguları olan vakalar hariç tutuldu. Görüntüleme, histopatoloji, hasta demografisi ve hasta sonuçları analiz edildi. SONUÇLAR: Gerçekleştirilen 9795 mamografiden 6670'i dahil edilme kriterlerini karşıladı. Bunlar arasında 70 mamogramın nihai mamografik derecelendirmesi M3 veya üzeriydi ve ileri değerlendirmeye geçildi. 69 hastaya biyopsi yapıldı ve 44 malignite (38 invaziv ve 6 DCIS) elde edildi ve bu da 1000'de 6 (%0,6) genel CDR'yi temsil ediyordu. İnvaziv kanserlerin çoğu invaziv duktal karsinom (%68), derece 2 (%51) ve güçlü ER pozitif (%72) idi. SONUÇ: Sadece mastalji ile başvuran ve muayenesi normal olan kadınlarda invaziv maligniteyi tespit etmede mamografinin tanısal verimi %0,6 olup, Birleşik Krallık Ulusal Meme Tarama Programı Kanser Tespit Oranı (%0,7) ile karşılaştırılabilir ancak biraz daha düşüktür ve benzer çalışmalarla karşılaştırılabilir. Bu derleme, izole mastalji ile başvuran ve klinik muayenesi normal olan hastalarda görüntülemenin gerekli olmadığı görüşünü desteklemektedir."
+      "abstract_tr": ""
     },
     {
       "pmid": "42664923",
@@ -1970,7 +1970,7 @@
       "doi": "10.1016/j.clinimag.2026.110933",
       "journal_tier": 3,
       "impact": 1.9,
-      "section": "nukleer",
+      "section": "toraks",
       "score": 35.0,
       "score_parts": {
         "journal": 35,
