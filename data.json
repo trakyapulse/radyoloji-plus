@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-30T10:57:41+00:00",
+  "updated": "2026-08-30T11:30:56+00:00",
   "window_days": 1,
   "datetype": "edat",
   "count": 27,
@@ -363,6 +363,34 @@
       "abstract_tr": "ARKA PLAN: Radyoloji asistanları için, kesitsel anatominin (özellikle BT ve MR'da) zorlu öğrenme eğrisi, daha verimli ve ilgi çekici eğitim araçları gerektirir. Son yıllarda oyun temelli öğrenme (GBL) ve oyunlaştırma, rekabetçi bir çerçeve içinde 'aktif hatırlama' ve 'aralıklı tekrar'dan yararlanarak lisansüstü eğitimi geliştirmek için güçlü stratejiler olarak ortaya çıkmıştır. Burada ANATOMIADI'nin bağlamını tanımlıyoruz ve algılanan eğitimsel etkiyi değerlendiriyoruz. MATERYALLER VE YÖNTEMLER: Görüntü veri kümeleri anonimleştirildi, arşivlendi ve belirli anatomik yapıları vurgulamak için manuel olarak etiketlendi. Anatomik sisteme göre kategorize edilen ve üç zorluk seviyesine ayrılan 400'ün üzerinde benzersiz oyun geliştirildi. Eğitimsel değer, oyunlaştırma ve katılım, platform kullanılabilirliği ve ekip işbirliği, teknik iş akışı, lojistik, bilimsel doğruluk, adalet ve kalite değerlendirmesine ilişkin farklı alanlara ilişkin verileri toplamak amacıyla etkinlik sonrasında yapılandırılmış bir geri bildirim anketi tasarlandı ve katılımcılara dağıtıldı. SONUÇLAR: ANATOMIADI yarışmasına İtalya genelinde 28 uzmanlık programını temsil eden 141 katılımcının katılımı kaydedildi. Etkinliğin algılanan değerinin değerlendirilmesi oybirliğiyle olumlu yanıt verdi; katılımcıların %100'ü yarışmanın gelecek akademik yıllarda da tekrarlanmasını önerdi. Gerekli bilgi düzeyine dayanarak etkinlik, lisansüstü eğitimin 3. (54/63 yanıt) ve 4. yılında (48/63 yanıt) asistanlara önerildi. SONUÇ: ANATOMIADI mücadelesi, yüksek kaliteli görüntülemeyi etkileşimli oyun mekaniğiyle birleştirerek yalnızca anatomik öğrenmeyi teşvik etmekle kalmadı, aynı zamanda daha işbirlikçi ve teknolojik açıdan daha yetenekli bir radyolog neslinin temelini de oluşturdu. ÖNEMLİ NOKTALAR: Soru: Yüksek çözünürlüklü, çok dedektörlü BT ve gelişmiş MR çağında, radyoloji uzmanının işlemesi gereken anatomik veri hacmi eşi benzeri görülmemiş bir düzeydedir. BULGULAR: Radyolojideki farklı uzmanlık okullarını görüntüleme tabanlı anatomik yapılar ve kurallar konusunda sorgulamak için görüntü tabanlı bulmaca oyunlarını kullanarak bir bağlam geliştirdik. Kritik uygunluk beyanı: ANATOMIADI, radyolojik anatomiye dayanan ve asistanlara adanan ilk ulusal yarışmadır. Uzmanlık programları arasında kapsayıcı bir \"eşleştirme\" çerçevesi kullanarak, yoğun teorik çalışmayı son derece motive edici, işbirlikçi ve sosyal bir öğrenme deneyimine dönüştürür."
     },
     {
+      "pmid": "42668307",
+      "title": "De novo osteosarcoma following prolonged denosumab treatment for giant cell tumor of bone at an anatomically distant site: a case report.",
+      "abstract": "Denosumab is a monoclonal antibody targeting RANKL, FDA-approved for the treatment of giant cell tumor of bone (GCTB). While it has shown efficacy in tumor regression and bone preservation, rare cases of malignant transformation to osteosarcoma have been associated with denosumab treatments. Previous literature has attributed such cases to either initial misdiagnosis of a malignant giant cell tumor at baseline presentation or, more rarely, transformation of previously histologically benign GCTB to a secondary malignant GCTB. To our knowledge, these cases involved or arose from an existing giant cell tumor neoplasm. We present a unique case of a patient who developed de novo osteosarcoma at a distant location from their original GCTB tumor following prolonged denosumab therapy, highlighting the clinical course, diagnostic challenges, and therapeutic considerations.",
+      "journal": "Skeletal Radiol",
+      "date": "2026-08-29",
+      "authors": [
+        "Burbank KE",
+        "Henshaw RM",
+        "Jelinek JS",
+        "Murphey MD"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1007/s00256-026-05347-4",
+      "journal_tier": 2,
+      "impact": 2.0,
+      "section": "genel",
+      "score": 60.0,
+      "score_parts": {
+        "journal": 60,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": "Denosumab, dev hücreli kemik tümörünün (GCTB) tedavisi için FDA onaylı RANKL'ı hedef alan bir monoklonal antikordur. Tümörün gerilemesinde ve kemiğin korunmasında etkinlik gösterilmiş olsa da, denosumab tedavileriyle nadir görülen malignitenin osteosarkoma dönüşümü vakaları ilişkilendirilmiştir. Önceki literatür, bu tür vakaları ya başlangıçta kötü huylu dev hücreli tümörün başlangıçtaki yanlış tanısına, ya da daha nadiren, önceden histolojik olarak iyi huylu olan GCTB'nin ikincil kötü huylu GCTB'ye dönüşümüne bağlamıştır. Bildiğimiz kadarıyla bu vakalar mevcut bir dev hücreli tümör neoplazmını içeriyordu veya bundan kaynaklandı. Uzun süreli denosumab tedavisinin ardından orijinal GCTB tümöründen uzak bir yerde de novo osteosarkom gelişen bir hastanın benzersiz bir vakasını sunuyoruz; klinik gidişatı, tanısal zorlukları ve terapötik hususları vurgulıyoruz."
+    },
+    {
       "pmid": "42668308",
       "title": "Arthroscopic Double-Bundle Posterior Cruciate Ligament (PCL) Reconstruction: characterization of imaging findings and temporal changes on postoperative MRI.",
       "abstract": "OBJECTIVE: The study aims to characterize the postoperative MRI appearance of double-bundle PCL graft reconstructions (DB-PCL-R) with correlation to clinical PCL stability. METHODS: A retrospective evaluation of 23 patients, 37 MRIs (12/37, 0-3 months; 8/37, 3-12 months; 17/37, > 12 months) following DB-PCL-R for MRI findings, integrity of the anterolateral (ALB) and posteromedial (PMB) bundles, position of tunnels, peritunnel marrow edema, graft fixation, graft signal, graft-bundle thickening, and synovitis or arthrofibrosis was performed. MRI findings were categorized by time interval postoperatively. PCL stability was assessed clinically (grade 0-III) in all patients. Chi-square or Fisher's exact analysis was performed to explore associations between MRI findings and PCL stability. RESULTS: Graft bundles appeared intact in all cases. PMB graft femoral tunnel was inferiorly positioned in 2/23 patients. The tibial tunnel was inferiorly positioned in 5/23 and superiorly positioned in 2/23 patients. Displaced/fractured fixation hardware related to the PMB tunnel was observed in 3/23 patients, and in the tibial tunnel in 2/23 patients. The highest prevalence of peritunnel marrow edema (50-81.8%) was observed 0-3 months postoperatively, which decreased progressively with increasing timeframe postoperatively. The highest prevalence of increased graft signal (25-62.5%) and graft thickening (25-37.5%) was seen 3-12 months postoperatively, with subsequent decrease on exams > 12 months postoperatively. Synovitis or arthrofibrosis was observed in 87.5% of exams obtained 3-12 months postoperatively, with a decrease (58.8%) on MRI exams > 12 months post-surgery. No significant correlation was observed between MRI variables and PCL stability (p-values, 0.085-0.815). CONCLUSIONS: Although a high prevalence of peritunnel edema, increased graft signal and thickness and synovitis/arthrofibrosis may be encountered early postoperatively, particularly in the first 12 months; these findings are not correlated to PCL instability and seem to decrease over longer-term follow-up.",
@@ -390,34 +418,6 @@
       },
       "tier": 3,
       "abstract_tr": "AMAÇ: Çalışma, çift demet PCL greft rekonstrüksiyonlarının (DB-PCL-R) postoperatif MRG görünümünü klinik PCL stabilitesi ile korelasyonla karakterize etmeyi amaçlamaktadır. YÖNTEMLER: MRI bulguları, anterolateral (ALB) ve posteromedial (PMB) demetlerin bütünlüğü, tünellerin konumu, peritünel iliği ödemi, greft fiksasyonu, greft sinyali, greft demetinin kalınlaştırılması ve sinovit veya artrofibroz uygulandı. MR bulguları ameliyat sonrası zaman aralığına göre sınıflandırıldı. PCL stabilitesi tüm hastalarda klinik olarak değerlendirildi (derece 0-III). MRI bulguları ile PCL stabilitesi arasındaki ilişkileri araştırmak için ki-kare veya Fisher'in kesin analizi yapıldı. BULGULAR: Tüm vakalarda greft demetleri sağlam görünüyordu. PMB greft femoral tüneli hastaların 2/23'ünde aşağı konumdaydı. Tibial tünel hastaların 5/23'ünde altta, 2/23'ünde ise üstte yerleşmişti. Hastaların 3/23'ünde PMB tüneliyle ilgili, 2/23'ünde ise tibial tünelde tespit donanımının yerinden çıktığı/kırıldığı gözlendi. Peritünel iliği ödeminin en yüksek prevalansı (%50-81,8) ameliyat sonrası 0-3 ay arasında gözlemlendi ve ameliyat sonrası zaman aralığı arttıkça bu oran giderek azaldı. Artmış greft sinyali (%25-62,5) ve greft kalınlaşmasının (%25-37,5) en yüksek prevalansı ameliyat sonrası 3-12 ay arasında görüldü ve ardından ameliyat sonrası > 12 ay muayenelerde azalma görüldü. Ameliyattan 3-12 ay sonra yapılan muayenelerin %87,5'inde sinovit veya artrofibroz gözlendi; ameliyattan > 12 ay sonra yapılan MRI muayenelerinde ise azalma (%58,8) görüldü. MRI değişkenleri ile PCL stabilitesi arasında anlamlı bir korelasyon gözlenmedi (p değerleri, 0,085-0,815). SONUÇ: Her ne kadar peritünel ödemi prevalansı yüksek olsa da, ameliyat sonrası erken dönemde, özellikle ilk 12 ayda, artmış greft sinyali ve kalınlığı ve sinovit/artrofibrozis ile karşılaşılabilir; bu bulgular PCL instabilitesi ile ilişkili değildir ve uzun vadeli takipte azalıyor gibi görünmektedir."
-    },
-    {
-      "pmid": "42668307",
-      "title": "De novo osteosarcoma following prolonged denosumab treatment for giant cell tumor of bone at an anatomically distant site: a case report.",
-      "abstract": "Denosumab is a monoclonal antibody targeting RANKL, FDA-approved for the treatment of giant cell tumor of bone (GCTB). While it has shown efficacy in tumor regression and bone preservation, rare cases of malignant transformation to osteosarcoma have been associated with denosumab treatments. Previous literature has attributed such cases to either initial misdiagnosis of a malignant giant cell tumor at baseline presentation or, more rarely, transformation of previously histologically benign GCTB to a secondary malignant GCTB. To our knowledge, these cases involved or arose from an existing giant cell tumor neoplasm. We present a unique case of a patient who developed de novo osteosarcoma at a distant location from their original GCTB tumor following prolonged denosumab therapy, highlighting the clinical course, diagnostic challenges, and therapeutic considerations.",
-      "journal": "Skeletal Radiol",
-      "date": "2026-08-29",
-      "authors": [
-        "Burbank KE",
-        "Henshaw RM",
-        "Jelinek JS",
-        "Murphey MD"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1007/s00256-026-05347-4",
-      "journal_tier": 2,
-      "impact": 2.0,
-      "section": "genel",
-      "score": 60.0,
-      "score_parts": {
-        "journal": 60,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": "Denosumab, dev hücreli kemik tümörünün (GCTB) tedavisi için FDA onaylı RANKL'ı hedef alan bir monoklonal antikordur. Tümörün gerilemesinde ve kemiğin korunmasında etkinlik gösterilmiş olsa da, denosumab tedavileriyle nadir görülen malignitenin osteosarkoma dönüşümü vakaları ilişkilendirilmiştir. Önceki literatür, bu tür vakaları ya başlangıçta kötü huylu dev hücreli tümörün başlangıçtaki yanlış tanısına, ya da daha nadiren, önceden histolojik olarak iyi huylu olan GCTB'nin ikincil kötü huylu GCTB'ye dönüşümüne bağlamıştır. Bildiğimiz kadarıyla bu vakalar mevcut bir dev hücreli tümör neoplazmını içeriyordu veya bundan kaynaklandı. Uzun süreli denosumab tedavisinin ardından orijinal GCTB tümöründen uzak bir yerde de novo osteosarkom gelişen bir hastanın benzersiz bir vakasını sunuyoruz; klinik gidişatı, tanısal zorlukları ve terapötik hususları vurgulıyoruz."
     },
     {
       "pmid": "42667807",
