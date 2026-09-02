@@ -1,9 +1,273 @@
 {
-  "updated": "2026-09-01T10:52:02+00:00",
+  "updated": "2026-09-02T10:17:13+00:00",
   "year": 2026,
   "count": 60,
   "criteria": "Etki faktörü (sonra etki skoru) sıralı",
   "articles": [
+    {
+      "pmid": "42678260",
+      "title": "Convergence of Local and Systemic Therapies: A Comprehensive Society of Interventional Oncology Framework for 90Y Radioembolization with Immunotherapy in HCC.",
+      "abstract": "Combination approaches using systemic immunotherapy agents are now standard of care for patients with advanced-stage hepatocellular carcinoma (HCC), resulting in improved overall survival. However, even with optimal systemic regimens, fewer than 40% of cases respond to treatment, presumably due to resistance mechanisms, including antidrug antibodies and acquired resistance related to alterations in the tumor immune microenvironment (TIME). As a result, new strategies are needed to improve immunotherapeutic efficacy in this setting. Early investigations into the local and systemic effects of yttrium 90 (90Y) radioembolization using resin and glass microspheres demonstrated activation of both innate and adaptive immune systems, leading to sustained therapeutic efficacy in a subgroup of patients with HCC undergoing curative surgical resection after downstaging procedures. Preliminary prospective and retrospective studies have confirmed the safety of combining liver-directed interventions with immunotherapy. Based on these findings, clinical trials are being designed to evaluate the efficacy of different therapeutic strategies combining 90Y radioembolization and immune checkpoint inhibitor therapy. The Society of Interventional Oncology is committed to advancing research on how local-regional therapies influence the TIME and systemic inflammatory response. This review aims to inform the interventional and medical oncology community about essential considerations and strategies for implementing these combination therapies involving 90Y radioembolization and immunotherapy.",
+      "journal": "Radiology",
+      "date": "2026-09",
+      "authors": [
+        "Avritscher R",
+        "Kim E",
+        "Chew V",
+        "Abou-Alfa GK",
+        "Kaseb A",
+        "Toskich B",
+        "Gade T",
+        "Mendiratta-Lala M",
+        "Krishnan S",
+        "Kappadath SC",
+        "Salem R"
+      ],
+      "pubtypes": [
+        "Journal Article",
+        "Review"
+      ],
+      "doi": "10.1148/radiol.251415",
+      "journal_tier": 1,
+      "impact": 12.1,
+      "section": "girisim",
+      "score": 110.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 10,
+        "recency": 0.0
+      },
+      "tier": 1,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42678262",
+      "title": "Styloid Process Elongation Leads to Carotid Artery Dissection in a Patient with Ankylosing Spondylitis.",
+      "abstract": "",
+      "journal": "Radiology",
+      "date": "2026-09",
+      "authors": [
+        "Wu J",
+        "Zhang Y"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1148/radiol.261271",
+      "journal_tier": 1,
+      "impact": 12.1,
+      "section": "genel",
+      "score": 100.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 2,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42678261",
+      "title": "Exploring the Diagnostic Utility of Ferumoxytol for Brachial Plexus MR Neurography.",
+      "abstract": "Background Ferumoxytol has been described as an alternative contrast agent for vascular suppression in MR neurography (MRN), but its diagnostic utility in patients has yet to be evaluated. Purpose To evaluate the impact of ferumoxytol on vascular suppression, nerve conspicuity, and evaluation of nerve abnormalities at three-dimensional (3D) brachial plexus MRN, compared with noncontrast and gadolinium-enhanced MRN, in participants with suspected Parsonage-Turner syndrome (PTS) or thoracic outlet syndrome (TOS). Materials and Methods This prospective study included participants who underwent 3D MRN with and/or without gadolinium chelate for clinical suspicion of PTS or TOS and subsequently underwent 3D MRN with ferumoxytol (within 3 months of the clinical examination). Two musculoskeletal radiologists qualitatively evaluated 3D short-tau inversion-recovery fast spin-echo scans for the degree of vascular suppression, nerve conspicuity, and presence of nerve abnormalities. Wilcoxon signed-rank or McNemar tests were used for comparing noncontrast and gadolinium-enhanced scans with ferumoxytol-enhanced scans. Results This study included 18 participants (mean age, 42 years ± 15.2 [SD]; 10 men). Ferumoxytol-enhanced scans demonstrated improved vascular suppression compared with both noncontrast scans (both raters, P < .001) and gadolinium-enhanced scans (both P = .04). For rater 2, ferumoxytol-enhanced acquisitions demonstrated improved conspicuity of several nerve segments relative to the noncontrast scan, including segments of the suprascapular (P = .01), axillary (P = .02), and long thoracic nerves (P = .004). The distribution of scores for these nerve segments for rater 1 also favored ferumoxytol-enhanced versus noncontrast scans, but the differences were not statistically significant (all P ≥ .06). There was no evidence of a difference in nerve conspicuity between ferumoxytol-enhanced and gadolinium-enhanced scans (P ≥ .17 for all nerve segments) and also no evidence of discrepancies in abnormal nerve findings between the acquisitions (all P ≥ .48). Conclusion Ferumoxytol improved vascular suppression compared with noncontrast and gadolinium-enhanced 3D short-tau inversion-recovery fast spin-echo sequences in brachial plexus MRN, enhancing the conspicuity of several nerve branches versus noncontrast scans, with similar detection of abnormal nerve findings. © RSNA, 2026 Supplemental material is available for this article.",
+      "journal": "Radiology",
+      "date": "2026-09",
+      "authors": [
+        "Ensle F",
+        "Tan ET",
+        "Queler SC",
+        "Lin Y",
+        "Wang SH",
+        "Sneag DB"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1148/radiol.254051",
+      "journal_tier": 1,
+      "impact": 12.1,
+      "section": "toraks",
+      "score": 100.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 2,
+      "abstract_tr": "Arka Plan Ferumoksitol, MR nörografisinde (MRN) vasküler baskılama için alternatif bir kontrast madde olarak tanımlanmıştır, ancak hastalardaki tanısal faydası henüz değerlendirilmemiştir. Amaç Parsonage-Turner sendromu (PTS) veya torasik çıkış sendromundan (TOS) şüphelenilen katılımcılarda ferumoksitolün vasküler baskılanma, sinir görünürlüğü ve üç boyutlu (3D) brakiyal pleksus MRN'deki sinir anormalliklerinin değerlendirilmesi üzerindeki etkisini kontrastsız ve gadolinyumla zenginleştirilmiş MRN ile karşılaştırarak değerlendirmek. Gereçler ve Yöntemler Bu prospektif çalışma, klinik PTS veya TOS şüphesi nedeniyle gadolinyum şelatlı ve/veya gadolinyum şelatsız 3D MRN uygulanan ve ardından ferumoksitol ile 3D MRN uygulanan (klinik muayeneden sonraki 3 ay içinde) katılımcıları içermektedir. İki kas-iskelet sistemi radyoloğu, vasküler baskılanma derecesi, sinir görünürlüğü ve sinir anormalliklerinin varlığı açısından 3 boyutlu kısa tau inversiyon-kurtarma hızlı spin-eko taramalarını niteliksel olarak değerlendirdi. Kontrastsız ve gadolinyumla zenginleştirilmiş taramaları ferumoksitolle zenginleştirilmiş taramalarla karşılaştırmak için Wilcoxon işaretli sıra veya McNemar testleri kullanıldı. Sonuçlar Bu çalışmaya 18 katılımcı dahil edilmiştir (ortalama yaş, 42 yıl ± 15,2 [SD]; 10 erkek). Ferumoksitol ile zenginleştirilmiş taramalar, hem kontrastsız taramalarla (her ikisi de değerlendirici, P < .001) hem de gadolinyumla zenginleştirilmiş taramalarla (her ikisi de P = .04) karşılaştırıldığında gelişmiş vasküler baskılanma gösterdi. Değerlendirici 2 için, ferumoksitol ile zenginleştirilmiş kazanımlar, supraskapular (P = 0,01), aksiller (P = 0,02) ve uzun torasik sinirlerin (P = 0,004) bölümleri de dahil olmak üzere çeşitli sinir bölümlerinin kontrastsız taramaya göre daha belirgin hale geldiğini gösterdi. Değerlendirici 1 için bu sinir segmentlerine ilişkin puanların dağılımı da kontrastsız taramalara karşı ferumoksitol ile güçlendirilmiş taramaları tercih etti, ancak farklar istatistiksel olarak anlamlı değildi (tümü P ≥ 0,06). Ferumoksitol ile zenginleştirilmiş ve gadolinyum ile zenginleştirilmiş taramalar arasında sinir belirginliği açısından bir fark olduğuna dair bir kanıt yoktu (tüm sinir segmentleri için P ≥ 0,17) ve ayrıca edinimler arasında anormal sinir bulgularında tutarsızlıklara dair bir kanıt yoktu (tümü P ≥ 0,48). Sonuç Ferumoksitol, brakiyal pleksus MRN'de kontrastsız ve gadolinyumla güçlendirilmiş 3 boyutlu kısa-tau inversiyon-kurtarma hızlı spin-eko sekanslarıyla karşılaştırıldığında vasküler baskılamayı iyileştirdi, anormal sinir bulgularının benzer şekilde saptanması ile kontrastsız taramalara kıyasla çeşitli sinir dallarının görünürlüğünü arttırdı. © RSNA, 2026 Bu makale için ek materyal mevcuttur."
+    },
+    {
+      "pmid": "42678259",
+      "title": "Impact of Commercial Artificial Intelligence on Radiologist Reading Time for Pulmonary Nodule Evaluation at Chest CT.",
+      "abstract": "Background Chest CT is a primary method for identifying pulmonary nodules, yet interpreting scans remains time-intensive and demanding. Currently, artificial intelligence (AI) is expected to reduce reading times, but the effect of AI on reporting times in this setting is unknown. Purpose To evaluate the impact of a commercial AI software on radiologists' reading time for pulmonary nodule assessment on chest CT scans within a real-world clinical setting. Materials and Methods This retrospective study included patients who underwent chest CT examinations at a tertiary medical center between September 2021 and May 2024. The study period was divided into pre- and post-AI phases. The primary outcome was radiology reporting time. The association between AI implementation and reporting time was evaluated using a multivariable parametric Weibull shared frailty survival model adjusted for reader function, examination type, patient location, and requesting specialty, with clustering at the radiologist level. Interaction analyses assessed heterogeneity across prespecified subgroups. An exploratory extrapolation estimated projected workforce and financial impact. Results This study included 19 433 patients (mean age, 62 years ± 14.2 [SD]; 21 814 men; 39 323 chest CT examinations, 19 190 pre-AI, and 20 133 post-AI). AI implementation was associated with faster report completion (adjusted hazard ratio, 1.17; 95% CI: 1.14, 1.21; P < .001). The adjusted median reporting time decreased from 21.3 minutes pre-AI to 18.2 minutes post-AI (14.6% reduction; P < .001). Heterogeneity was observed across reader function (P < .001), examination type (P = .048), and requesting specialty (P = .03). The largest relative reductions were observed for CT thorax electrocardiogram-gated examinations (-41.1%; P < .001) and thoracic radiologists (-25.0%; P < .001), whereas emergency department examinations showed increased median reporting time (7.1%; P < .001). At institutional scan volumes (approximately 20 000-22 000 chest CT examinations annually), exploratory modeling suggested an approximate reduction of 0.5 full-time equivalent radiologist workload. Conclusion Implementation of commercial AI-assisted pulmonary nodule assessment on chest CT scans reduced radiologist reporting time in a real-world clinical setting. © The Author(s) 2026. Published by the Radiological Society of North America under a CC BY 4.0 license. Supplemental material is available for this article. See also the editorial by Iwasawa in this issue.",
+      "journal": "Radiology",
+      "date": "2026-09",
+      "authors": [
+        "Paramasamy J",
+        "Odink AE",
+        "Mulders TA",
+        "Bos D",
+        "van der Lugt A",
+        "Aerts JGJV",
+        "Visser JJ"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1148/radiol.260484",
+      "journal_tier": 1,
+      "impact": 12.1,
+      "section": "toraks",
+      "score": 100.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 2,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42678257",
+      "title": "Brain MRI Assessment of Anterior Inferior Cerebellar Artery Aneurysm Formation after Stereotactic Radiosurgery for Vestibular Schwannomas.",
+      "abstract": "",
+      "journal": "Radiology",
+      "date": "2026-09",
+      "authors": [
+        "Umekawa M",
+        "Shinya Y",
+        "Hasegawa H",
+        "Miyawaki S",
+        "Hirata T",
+        "Katano A",
+        "Saito N"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1148/radiol.261112",
+      "journal_tier": 1,
+      "impact": 12.1,
+      "section": "girisim",
+      "score": 100.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 2,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42678255",
+      "title": "Performance of Photon-counting CT for Assessing Pretreatment Breast Cancer: Comparison with Mammography, MRI, and 18F-FDG PET/CT.",
+      "abstract": "Background Photon-counting CT (PCCT) offers improved spatial resolution, contrast to noise ratio, and dose efficiency, but its clinical utility remains incompletely defined for breast cancer. Purpose To evaluate the feasibility of PCCT for pretreatment breast cancer assessment through comparisons with MRI, full-field digital mammography (FFDM), and fluorine 18 (18F) fluorodeoxyglucose (FDG) PET/CT. Materials and Methods In this prospective study (March-May 2025), female participants with breast lesions categorized as Breast Imaging Reporting and Data System 4C or higher at US or FFDM underwent breast MRI and multiphasic contrast-enhanced PCCT. 18F-FDG PET/CT was performed in a subset with locally advanced disease. Four radiologists independently evaluated lesion morphologic characteristics, additional findings, and clinical TNM stage. Agreement was analyzed using intraclass correlation coefficients (ICCs) and κ statistics. The diagnostic performance for additional lesions and nodal metastasis was compared with the reference standard (pathologic examination). Results Among 126 participants (mean age, 58.1 years ± 12.3 [SD]), interreader agreement across PCCT, MRI, and FFDM was good to excellent. PCCT agreed with MRI for lesion characterization (κ = 0.57-0.96) and clinical T categorization (κ = 0.86-0.88), with highest agreement with pathologic size (ICC, 0.70-0.81). For 46 pathologically confirmed additional lesions, PCCT was more sensitive than FFDM (difference, 44% [95% CI: 19, 66]) and similar to MRI (difference, 7% [95% CI: -5, 21]). Additionally, 44% (95% CI: 27, 52) of microcalcifications were missed at PCCT versus FFDM. For pathologically confirmed nodal metastasis, PCCT was more sensitive (difference, 10% [95% CI: 1, 20]) and accurate (difference, 6% [95% CI: 1, 11]) than MRI. For clinical N category, PCCT agreed with PET/CT (κ = 0.82 [95% CI: 0.62, 0.96]; n = 19). Two distant metastases identified at PCCT were consistent with 18F-FDG PET/CT and pathologic findings. Conclusion PCCT demonstrated similar performance to MRI for lesion characterization and detection of additional lesions, with better performance for nodal metastasis evaluation; however, detection of microcalcifications was limited. © RSNA, 2026 Supplemental material is available for this article.",
+      "journal": "Radiology",
+      "date": "2026-09",
+      "authors": [
+        "Fu Q",
+        "Zeng Y",
+        "Chang R",
+        "Xu Z",
+        "Zhan Y",
+        "Tan L",
+        "Zhou J",
+        "Chen X",
+        "Chai W",
+        "Yan F"
+      ],
+      "pubtypes": [
+        "Journal Article",
+        "Comparative Study"
+      ],
+      "doi": "10.1148/radiol.253531",
+      "journal_tier": 1,
+      "impact": 12.1,
+      "section": "girisim",
+      "score": 100.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 2,
+      "abstract_tr": "Arka Plan Foton sayıcı BT (PCCT), gelişmiş uzaysal çözünürlük, kontrast-gürültü oranı ve doz verimliliği sunar, ancak klinik faydası meme kanseri için tam olarak tanımlanmamıştır. Amaç Tedavi öncesi meme kanseri değerlendirmesi için PCCT'nin uygulanabilirliğini MRI, tam alan dijital mamografi (FFDM) ve flor 18 (18F) florodeoksiglukoz (FDG) PET/CT ile karşılaştırmalar yoluyla değerlendirmek. Gereçler ve Yöntemler Bu prospektif çalışmada (Mart-Mayıs 2025), ABD veya FFDM'de Meme Görüntüleme Raporlama ve Veri Sistemi 4C veya daha yüksek olarak sınıflandırılan meme lezyonları olan kadın katılımcılara meme MR'ı ve çok fazlı kontrastlı PCCT uygulandı. Lokal ileri hastalığı olan bir alt gruba 18F-FDG PET/CT uygulandı. Dört radyolog bağımsız olarak lezyonun morfolojik özelliklerini, ek bulguları ve klinik TNM evresini değerlendirdi. Anlaşma, sınıf içi korelasyon katsayıları (ICC'ler) ve κ istatistikleri kullanılarak analiz edildi. Ek lezyonlar ve nodal metastaz için tanısal performans referans standartla (patolojik inceleme) karşılaştırıldı. Sonuçlar 126 katılımcı arasında (ortalama yaş, 58,1 yıl ± 12,3 [SS]), PCCT, MRI ve FFDM'de okuyucular arası uyum iyi ile mükemmel arasındaydı. PCCT, lezyon karakterizasyonu (κ = 0,57-0,96) ve klinik T kategorizasyonu (κ = 0,86-0,88) açısından MRI ile uyumluydu ve patolojik boyutla en yüksek uyum (ICC, 0,70-0,81) idi. Patolojik olarak doğrulanan 46 ek lezyon için PCCT, FFDM'den daha duyarlıydı (fark, %44 [%95 GA: 19, 66]) ve MRI'ya benzerdi (fark, %7 [%95 GA: -5, 21]). Ek olarak, FFDM'ye kıyasla PCCT'de mikrokalsifikasyonların %44'ü (%95 GA: 27, 52) gözden kaçırıldı. Patolojik olarak doğrulanmış nodal metastaz için PCCT, MRI'dan daha duyarlı (fark, %10 [%95 GA: 1, 20]) ve doğruydu (fark, %6 [%95 GA: 1, 11]). Klinik N kategorisi için PCCT, PET/CT ile uyumluydu (κ = 0,82 [%95 GA: 0,62, 0,96]; n = 19). PCCT'de tespit edilen iki uzak metastaz 18F-FDG PET/BT ve patolojik bulgularla uyumluydu. Sonuç PCCT, lezyon karakterizasyonu ve ilave lezyonların saptanması açısından MRG'ye benzer performans sergilemiş ve nodal metastaz değerlendirmesinde daha iyi performans göstermiştir; ancak mikrokalsifikasyonların tespiti sınırlıydı. © RSNA, 2026 Bu makale için ek materyal mevcuttur."
+    },
+    {
+      "pmid": "42678256",
+      "title": "CT Interpretation in the Artificial Intelligence Age: Turning Efficiency into Better Patient Care.",
+      "abstract": "",
+      "journal": "Radiology",
+      "date": "2026-09",
+      "authors": [
+        "Iwasawa T"
+      ],
+      "pubtypes": [
+        "Editorial"
+      ],
+      "doi": "10.1148/radiol.262248",
+      "journal_tier": 1,
+      "impact": 12.1,
+      "section": "yapayzeka",
+      "score": 75.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": -25,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42678254",
+      "title": "Beyond Burnout in Radiology: A Call to Action in the AI Era.",
+      "abstract": "",
+      "journal": "Radiology",
+      "date": "2026-09",
+      "authors": [
+        "Boiselle PM"
+      ],
+      "pubtypes": [
+        "Editorial"
+      ],
+      "doi": "10.1148/radiol.261218",
+      "journal_tier": 1,
+      "impact": 12.1,
+      "section": "genel",
+      "score": 75.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": -25,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42678258",
+      "title": "Ethical Implications of the Invisibility of Intracellular Electrolytes.",
+      "abstract": "",
+      "journal": "Radiology",
+      "date": "2026-09",
+      "authors": [
+        "Rodríguez Sazipa JS"
+      ],
+      "pubtypes": [
+        "Letter"
+      ],
+      "doi": "10.1148/radiol.260782",
+      "journal_tier": 1,
+      "impact": 12.1,
+      "section": "genel",
+      "score": 70.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": -30,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
     {
       "pmid": "42673840",
       "title": "crossMoDA challenge: Evolution of cross-modality domain adaptation techniques for vestibular schwannoma and cochlea segmentation from 2021 to 2023.",
@@ -68,6 +332,168 @@
       },
       "tier": 2,
       "abstract_tr": "Uluslararası Tıbbi Görüntü Hesaplama ve Bilgisayar Destekli Müdahale Konferansı (MICCAI) ile birlikte 2021 yılında başlatılan çapraz Modalite Etki Alanı Uyarlaması (crossMoDA) mücadele serisi, denetimsiz çapraz modalite segmentasyonuna, kontrastı arttırılmış T1'den (ceT1) öğrenmeye ve T2 MRI'ya aktarmaya odaklanıyor. Görev, anlamlı ve açıklayıcı bir kıyaslama olarak hizmet etmek üzere seçilen etki alanı değişiminin uç bir örneğidir. Klinik uygulama açısından bakıldığında, daha uygun maliyetli VS yönetimi için Vestibüler Schwannoma (VS) ve koklea segmentasyonunu T2 taramalarında otomatikleştirmeyi amaçlamaktadır. Zorluk, giderek daha karmaşık hale gelen klinik senaryoları ele almak için üç baskıda gelişti: 2021'de ikili segmentasyon (tümör ve koklea) için tek kurum kontrollü verilerle başlayıp, 2022'de Koos dereceli sınıflandırma ile çok kurumlu verilere uzanıyor ve 2023'te intra-meatal tümör alt segmentasyonu ile heterojen rutin sürveyans verileriyle doruğa ulaşıyor. Bu çalışmada, 2022'nin bulgularını rapor ediyoruz ve 2023 crossMoDA sürümleri ve zorlukların ilerleyişinin geriye dönük analizi. Ardışık baskılar, veri seti heterojenliğinin eşzamanlı olarak artmasına rağmen segmentasyon aykırı değerlerinde bir azalma olduğunu gösteriyor; bu da genişletilmiş eğitim çeşitliliğinin model sağlamlığını artırdığını gösteriyor. Özellikle, 2023'ü kazanan yaklaşım önceki homojen test setlerine etkili bir şekilde genellenerek heterojen eğitim verilerinin faydasını kanıtladı. Ancak koklear Zar puanları 2023'te düştü. Bu azalma, artan veri kümesi heterojenliğinin, çözünürlük değişkenliğinin ve üç sınıflı segmentasyon görevinin eklenen optimizasyon karmaşıklığının birleşik etkilerini yansıtıyor olabilir, ancak kesin neden belirsizliğini koruyor. Klinik kabul edilebilirliğe ulaşmak için VS segmentasyonunun spesifik görevi konusunda ilerleme yapılabilir ve hala ilerleme kaydedilmelidir, ancak önde gelen rakiplerin performansı durma noktasına geldikçe, daha zorlu bir modlar arası öğrenme görevi gelecekte bir kıyaslama aracı olarak hizmet etmek faydalı olabilir."
+    },
+    {
+      "pmid": "42679487",
+      "title": "Informativeness-driven active adaptation of SAM: Structural prompts and contrastive parameter selection for medical tubular segmentation.",
+      "abstract": "Accurate segmentation of tubular structures, such as blood vessels and airway trees, is critical across various medical applications. However, this task remains highly challenging due to the diverse global morphologies and thin local structures of these tubular formations. Segment Anything Model (SAM)-based methods have shown impressive performance in image segmentation, yet their reliance on manually crafted prompts makes them unsuitable for fine-grained tubular structures. Moreover, existing methods for fine-tuning SAM have not fully explored how to identify the most informative parameters to maximize adaptation performance. To address these issues, we introduce a novel framework termed Active Adaptation of SAM (A2SAM), which adopts informativeness-driven adaptation as its governing principle for medical tubular segmentation. Specifically, we design a structural prompt generator that automatically produces topology-aware prompts, guiding SAM toward anatomically meaningful tubular structures. The structural uncertainty embedded in these prompts captures variations in global morphology. Furthermore, we find that parameters with strong task-specific influence and a lower risk of disrupting generalizable knowledge are beneficial for adapting SAM. We define these parameters as contrastive parameters and propose a contrastive parameter selection strategy that modulates squared-gradient influence with magnitude-based preservation. The proposed strategy enhances adaptation performance in tubular segmentation and preserves SAM's generalizable knowledge. Finally, we propose a thickness-aware loss function to improve local connectivity in thin structures. The proposed A2SAM is validated on five diverse benchmark datasets for medical tubular segmentation. Comprehensive experiments demonstrate that A2SAM achieves strong overall performance. Our code is publicly available at: https://github.com/YongChen-Exact/A2SAM.",
+      "journal": "Med Image Anal",
+      "date": "2026-08-27",
+      "authors": [
+        "Chen Y",
+        "Chen R",
+        "Kang Q",
+        "Wang R",
+        "Lyu H",
+        "Jiang Z",
+        "Wang H",
+        "Song H",
+        "Li K"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.media.2026.104285",
+      "journal_tier": 1,
+      "impact": 10.7,
+      "section": "genel",
+      "score": 100.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 2,
+      "abstract_tr": "Kan damarları ve hava yolu ağaçları gibi boru şeklindeki yapıların doğru şekilde bölümlendirilmesi çeşitli tıbbi uygulamalarda kritik öneme sahiptir. Ancak bu görev, bu boru şeklindeki oluşumların çeşitli küresel morfolojileri ve ince yerel yapıları nedeniyle oldukça zorlu olmaya devam ediyor. Her Şeyi Segmente Ayırma Modeli (SAM) tabanlı yöntemler, görüntü segmentasyonunda etkileyici bir performans göstermiştir, ancak bunların manuel olarak hazırlanmış istemlere dayanması, onları ince taneli boru şeklindeki yapılar için uygunsuz kılmaktadır. Ayrıca, SAM'de ince ayar yapmaya yönelik mevcut yöntemler, uyarlama performansını en üst düzeye çıkarmak için en bilgilendirici parametrelerin nasıl tanımlanacağını tam olarak keşfetmemiştir. Bu sorunları çözmek için, tıbbi boru şeklinde segmentasyon için bilgi odaklı adaptasyonu ana prensip olarak benimseyen SAM'in Aktif Adaptasyonu (A2SAM) adı verilen yeni bir çerçeve sunuyoruz. Spesifik olarak, topolojiye duyarlı istemleri otomatik olarak üreten ve SAM'i anatomik açıdan anlamlı boru şeklindeki yapılara yönlendiren yapısal bir bilgi istemi üreteci tasarlıyoruz. Bu ipuçlarına gömülü yapısal belirsizlik, küresel morfolojideki farklılıkları yakalar. Ayrıca, göreve özgü etkisi güçlü ve genelleştirilebilir bilgiyi bozma riski daha düşük olan parametrelerin, SAM'in uyarlanması için faydalı olduğunu bulduk. Bu parametreleri karşılaştırmalı parametreler olarak tanımlıyoruz ve karesel gradyan etkisini büyüklüğe dayalı korumayla modüle eden karşılaştırmalı bir parametre seçim stratejisi öneriyoruz. Önerilen strateji, boru şeklindeki bölümlendirmede adaptasyon performansını artırır ve SAM'in genelleştirilebilir bilgisini korur. Son olarak, ince yapılarda yerel bağlantıyı geliştirmek için kalınlığa duyarlı bir kayıp fonksiyonu öneriyoruz. Önerilen A2SAM, tıbbi boru şekilli segmentasyon için beş farklı kıyaslama veri kümesinde doğrulanmıştır. Kapsamlı deneyler, A2SAM'in güçlü bir genel performansa ulaştığını göstermektedir. Kodumuz şu adreste halka açıktır: https://github.com/YongChen-Exact/A2SAM."
+    },
+    {
+      "pmid": "42679486",
+      "title": "A frequency-aware dual-domain collaborative framework for medical image enhancement.",
+      "abstract": "Automated medical image analysis plays a critical role in disease screening and diagnosis. However, image quality degradation, such as blurring and uneven illumination hinders both clinical interpretation and computer-aided diagnostic performance. Most existing enhancement methods often overlook frequency-domain degradation patterns, leading to over-enhancement or loss of clinically relevant details. To address these limitations, we propose a frequency-aware dual-domain collaborative framework for medical image enhancement, termed FDRNet, comprising two key components in this paper: (1) a frequency-decoupled deblurring module with asymmetric channel integration, which combines global and local views using high- and low-frequency information to preserve fine and broad structural features, and (2) a Retinex-guided illumination compensation module with a multi-scale color preservation unit for accurate estimation and correction. Our framework further incorporates a dual-domain collaboration mechanism into each encoder-decoder block of the deblurring module, enabling joint learning of degradation representations in spatial and frequency domains. Extensive experiments on three medical image modalities, utilizing seven public and clinical datasets demonstrate that our method surpasses both traditional and learning-based enhancement techniques. Evaluations on downstream clinical tasks, including vessel segmentation, polyp segmentation, disease diagnosis, and disease severity grading, further confirm significant improvements in task performance and clinical applicability. Our code is available at: https://github.com/iMED-Lab/FDRNet-PyTorch.",
+      "journal": "Med Image Anal",
+      "date": "2026-08-29",
+      "authors": [
+        "Liao W",
+        "Ma Y",
+        "Chen Z",
+        "Zhou S",
+        "Zhang M",
+        "Gu Y",
+        "Wang M",
+        "Zhao Y"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.media.2026.104261",
+      "journal_tier": 1,
+      "impact": 10.7,
+      "section": "genel",
+      "score": 100.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 2,
+      "abstract_tr": "Otomatik tıbbi görüntü analizi, hastalık taraması ve teşhisinde kritik bir rol oynar. Ancak bulanıklık ve eşit olmayan aydınlatma gibi görüntü kalitesindeki bozulmalar, hem klinik yorumu hem de bilgisayar destekli tanı performansını engeller. Mevcut iyileştirme yöntemlerinin çoğu sıklıkla frekans alanı bozulma modellerini gözden kaçırır ve bu da aşırı iyileştirmeye veya klinik olarak ilgili ayrıntıların kaybolmasına yol açar. Bu sınırlamaları ele almak için, FDRNet olarak adlandırılan, tıbbi görüntü iyileştirme için frekansa duyarlı, çift alanlı işbirliğine dayalı bir çerçeve öneriyoruz ve bu belgede iki temel bileşenden oluşuyor: (1) ince ve geniş yapısal özellikleri korumak için yüksek ve düşük frekans bilgileri kullanarak küresel ve yerel görünümleri birleştiren, asimetrik kanal entegrasyonuna sahip, frekansı ayrıştırılmış bulanıklık giderme modülü ve (2) doğru tahmin ve düzeltme için çok ölçekli bir renk koruma ünitesine sahip bir Retinex kılavuzlu aydınlatma dengeleme modülü. Çerçevemiz ayrıca, bulanıklaştırma modülünün her bir kodlayıcı-kod çözücü bloğuna çift alanlı bir işbirliği mekanizması dahil ederek, uzaysal ve frekans alanlarındaki bozulma temsillerinin ortak öğrenilmesini sağlar. Yedi genel ve klinik veri kümesini kullanan, üç tıbbi görüntü yöntemi üzerinde yapılan kapsamlı deneyler, yöntemimizin hem geleneksel hem de öğrenmeye dayalı geliştirme tekniklerini geride bıraktığını göstermektedir. Damar segmentasyonu, polip segmentasyonu, hastalık tanısı ve hastalık şiddeti derecelendirmesi dahil olmak üzere aşağı yönlü klinik görevlere ilişkin değerlendirmeler, görev performansında ve klinik uygulanabilirlikte önemli iyileşmeleri daha da doğrulamaktadır. Kodumuz şu adreste mevcuttur: https://github.com/iMED-Lab/FDRNet-PyTorch."
+    },
+    {
+      "pmid": "42678842",
+      "title": "Annotation-efficient Semi-supervised and Active Learning for Breast Cancer Segmentation in DCE-MRI.",
+      "abstract": "Accurate breast tumor segmentation in dynamic contrast-enhanced magnetic resonance imaging (DCE-MRI) is vital for diagnosis and treatment planning. Despite advances in deep learning, its performance remains constrained by the need for extensive voxel-wise annotations. To mitigate this burden, we propose an annotation-efficient framework that jointly optimizes data selection, unlabeled data utilization, and data augmentation under limited annotation budgets. A diversity-aware uncertainty query (DUQ) strategy guides the annotation by jointly modeling data representativeness and informativeness through a representative candidate selector (RCS) and an uncertainty-based decision maker (UDM), ensuring efficient and targeted labeling. To leverage unlabeled data, a cross-decoder consistency regularization (CDCR) mechanism enforces prediction consistency between two decoders with distinct attention mechanisms, enhancing robustness and confidence. Furthermore, a lesion transplant augmentation (LTA) technique synthesizes anatomically valid pseudo samples by transplanting lesion regions from labeled to unlabeled images, effectively expanding training diversity. Experiments were conducted on two DCE-MRI datasets with biopsy-proven breast cancers, one as internal dataset containing 676 subjects and the other as external dataset with 344 subjects. Comparative and ablation results demonstrate that our framework consistently outperforms state-of-the-art semi-supervised and active learning methods, providing a simple yet effective annotation-efficient solution for breast cancer segmentation in DCE-MRI. The code is publicly available at https: //github.com/zouquanling/DUQ_and_CDCR.",
+      "journal": "IEEE Trans Med Imaging",
+      "date": "2026-09-01",
+      "authors": [
+        "Feng Z",
+        "Zou Q",
+        "Xie Y",
+        "Cai W",
+        "Zhong S",
+        "Xu Z",
+        "Wang Y"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1109/TMI.2026.3729235",
+      "journal_tier": 1,
+      "impact": 10.6,
+      "section": "girisim",
+      "score": 100.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 2,
+      "abstract_tr": "Dinamik kontrastlı manyetik rezonans görüntülemede (DCE-MRI) doğru meme tümörü segmentasyonu, tanı ve tedavi planlaması için hayati öneme sahiptir. Derin öğrenmedeki ilerlemelere rağmen performansı, kapsamlı voksel bazında açıklamalara duyulan ihtiyaç nedeniyle kısıtlı olmaya devam ediyor. Bu yükü hafifletmek için, sınırlı ek açıklama bütçeleri altında veri seçimini, etiketlenmemiş veri kullanımını ve veri artırmayı ortaklaşa optimize eden, açıklama açısından verimli bir çerçeve öneriyoruz. Çeşitliliğe duyarlı bir belirsizlik sorgusu (DUQ) stratejisi, veri temsililiğini ve bilgilendiriciliğini temsili bir aday seçici (RCS) ve belirsizliğe dayalı bir karar verici (UDM) aracılığıyla ortaklaşa modelleyerek, verimli ve hedefli etiketleme sağlayarak ek açıklamaya rehberlik eder. Etiketlenmemiş verilerden yararlanmak için kod çözücüler arası tutarlılık düzenleme (CDCR) mekanizması, farklı dikkat mekanizmalarına sahip iki kod çözücü arasındaki tahmin tutarlılığını güçlendirerek sağlamlığı ve güveni artırır. Ayrıca, bir lezyon nakli büyütme (LTA) tekniği, lezyon bölgelerini etiketli görüntülerden etiketsiz görüntülere naklederek anatomik olarak geçerli sahte örnekleri sentezler ve eğitim çeşitliliğini etkili bir şekilde genişletir. Biyopsi ile kanıtlanmış meme kanserlerini içeren iki DCE-MRI veri seti üzerinde deneyler yapıldı; biri 676 denek içeren dahili veri seti, diğeri ise 344 denek içeren harici veri seti idi. Karşılaştırmalı ve ablasyon sonuçları, çerçevemizin sürekli olarak en son teknolojiye sahip yarı denetimli ve aktif öğrenme yöntemlerinden daha iyi performans gösterdiğini ve DCE-MRI'da meme kanseri segmentasyonu için basit ama etkili, açıklama açısından verimli bir çözüm sağladığını göstermektedir. Kod, https://github.com/zouquanling/DUQ_and_CDCR adresinde halka açıktır."
+    },
+    {
+      "pmid": "42678841",
+      "title": "Prototype-guided Multimodal Retrieval for Knowledge-assisted Interventional Radiology.",
+      "abstract": "Interventional radiology (IR) requires joint reasoning over procedural images and domain-specific clinical knowledge. Existing medical retrieval-augmented generation (RAG) methods are mainly text-oriented or designed for general medical vision-language tasks, and therefore remain limited in retrieving fine-grained visual-textual evidence for IR scenarios. To address this limitation, we present Prototype-guided Retrieval for Interventional Medical Assistance (PRIMA), a multimodal RAG framework that jointly leverages multimodal imaging and clinical text to support IR decision-making. PRIMA constructs a multimodal IR knowledge index through anatomy-aware visual-textual alignment and modality-preserving representation learning. It then introduces domain-informed prototype learning to organize IR concepts, enabling prototype-guided retrieval that re-ranks evidence using both query similarity and prototype affinity. We conduct comprehensive evaluations on literature-curated and clinically collected IR datasets. Experimental results show that PRIMA consistently improves generation quality, question-answering accuracy and expert-rated clinical interpretability compared with existing RAG baselines. These findings demonstrate the effectiveness of clinically grounded prototype-guided retrieval for multimodal knowledge assistance in interventional radiology. Related resources are available at https://github.com/StonHamA/PRIMA.",
+      "journal": "IEEE Trans Med Imaging",
+      "date": "2026-09-01",
+      "authors": [
+        "Li J",
+        "Zhu C",
+        "Sun Y",
+        "Si Y",
+        "Yang L",
+        "Li G",
+        "Zhang Y",
+        "Xiao L",
+        "Zhou T"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1109/TMI.2026.3728817",
+      "journal_tier": 1,
+      "impact": 10.6,
+      "section": "girisim",
+      "score": 100.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 2,
+      "abstract_tr": "Girişimsel radyoloji (IR), prosedürel görüntüler ve alana özgü klinik bilgi üzerinde ortak akıl yürütmeyi gerektirir. Mevcut tıbbi erişimle artırılmış oluşturma (RAG) yöntemleri esas olarak metin odaklıdır veya genel tıbbi görüş-dil görevleri için tasarlanmıştır ve bu nedenle IR senaryoları için ince taneli görsel-metinsel kanıtların alınmasında sınırlı kalmaktadır. Bu sınırlamayı gidermek için, IR karar almayı desteklemek üzere çok modlu görüntüleme ve klinik metinden ortaklaşa yararlanan çok modlu bir RAG çerçevesi olan Girişimsel Tıbbi Yardım için Prototip Kılavuzlu Erişimi (PRIMA) sunuyoruz. PRIMA, anatomiye duyarlı görsel-metinsel hizalama ve modaliteyi koruyan temsil öğrenimi yoluyla çok modlu bir IR bilgi dizini oluşturur. Daha sonra, IR kavramlarını düzenlemek için etki alanı bilgili prototip öğrenimini tanıtarak, hem sorgu benzerliğini hem de prototip benzeşimini kullanarak kanıtları yeniden sıralayan prototip kılavuzlu alımı mümkün kılar. Literatürde derlenen ve klinik olarak toplanan IR veri kümeleri üzerinde kapsamlı değerlendirmeler yapıyoruz. Deneysel sonuçlar, PRIMA'nın mevcut RAG temel değerlerine kıyasla üretim kalitesini, soru yanıtlama doğruluğunu ve uzmanlar tarafından değerlendirilen klinik yorumlanabilirliği sürekli olarak iyileştirdiğini göstermektedir. Bu bulgular, girişimsel radyolojide multimodal bilgi yardımı için klinik temelli prototip rehberliğinde erişimin etkinliğini göstermektedir. İlgili kaynaklar https://github.com/StonHamA/PRIMA adresinde mevcuttur."
+    },
+    {
+      "pmid": "42680912",
+      "title": "Prognostic value of D-SPECT-derived myocardial flow reserve in detecting coronary microvascular disease and predicting outcomes after complete revascularization: a two-center pilot study.",
+      "abstract": "PURPOSE: This two-center prospective study sought to evaluate whether D-SPECT-derived myocardial flow reserve (MFR) can identify coronary microvascular disease (CMD) and predict major adverse cardiac events (MACE) in patients who had undergone complete revascularization by percutaneous coronary intervention (PCI). METHODS: We enrolled 174 patients with angiographically confirmed complete revascularization post-PCI. Global and regional MFR were quantified using dynamic D-SPECT at rest and during pharmacological stress. CMD was defined as global or territorial MFR < 2.0 in the absence of > 50% epicardial stenosis. The primary endpoint was major adverse cardiac events (MACE), defined as a composite of all-cause death, myocardial infarction, unscheduled coronary revascularization, stroke, heart failure hospitalization, and rehospitalization for angina pectoris. Multivariable Cox regression and reclassification analyses (NRI/IDI) were used to assess prognostic value. RESULTS: Over a median follow-up of 12 months (interquartile range, IQR 7-21 months), 42 patients (24.1%) experienced MACE. Patients with CMD had significantly higher MACE rates (log-rank χ²=11.375, P = 0.001). After multivariate adjustment for cardiovascular risk factors and abnormal myocardial perfusion imaging, CMD remained an independent predictor of MACE (HR = 2.46; 95%CI: 1.27-4.76; P = 0.007). Regional MFR provided significant incremental prognostic value over global MFR (NRI = 0.524, 95%CI: 0.202-0.821; IDI = 0.036, 95%CI 0.007-0.067). The association between CMD and MACE was consistent across all prespecified subgroups. CONCLUSION: In this two-center cohort of patients with complete revascularization after PCI, D-SPECT-derived CMD is associated with a > 2-fold increased risk of future MACE, independent of traditional risk factors and perfusion abnormalities. Regional MFR provides incremental prognostic value beyond global MFR. These findings are exploratory and warrant validation in multi-center studies with longer follow-up and comparisons with invasive measurements.",
+      "journal": "Eur J Nucl Med Mol Imaging",
+      "date": "2026-09-02",
+      "authors": [
+        "Wang R",
+        "Bai J",
+        "Xie P",
+        "Wang H",
+        "Wang X",
+        "Gao Z",
+        "Chen Y",
+        "Mi H",
+        "Dong W"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1007/s00259-026-08162-0",
+      "journal_tier": 1,
+      "impact": 8.6,
+      "section": "girisim",
+      "score": 102.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 0,
+        "recency": 2.0
+      },
+      "tier": 2,
+      "abstract_tr": "AMAÇ: Bu iki merkezli prospektif çalışma, perkütan koroner girişim (PCI) ile tam revaskülarizasyon uygulanan hastalarda D-SPECT'ten türetilen miyokard akış rezervinin (MFR) koroner mikrovasküler hastalığı (CMD) tanımlayıp belirleyemeyeceğini ve majör olumsuz kardiyak olayları (MACE) tahmin edip edemeyeceğini değerlendirmeyi amaçladı. YÖNTEMLER: PCI sonrası tam revaskülarizasyonun anjiyografik olarak doğrulandığı 174 hastayı kaydettik. Global ve bölgesel MFR, istirahatte ve farmakolojik stres sırasında dinamik D-SPECT kullanılarak ölçüldü. CMD, > %50 epikardiyal stenozun yokluğunda global veya bölgesel MFR < 2,0 olarak tanımlandı. Birincil sonlanım noktası, tüm nedenlere bağlı ölüm, miyokard enfarktüsü, planlanmamış koroner revaskülarizasyon, inme, kalp yetmezliği nedeniyle hastaneye yatış ve anjina pektoris nedeniyle yeniden hastaneye yatıştan oluşan bir bileşik olarak tanımlanan majör olumsuz kardiyak olaylardır (MACE). Prognostik değeri değerlendirmek için çok değişkenli Cox regresyon ve yeniden sınıflandırma analizleri (NRI/IDI) kullanıldı. BULGULAR: Ortalama 12 aylık takip süresi boyunca (çeyrekler arası aralık, IQR 7-21 ay), 42 hastada (%24,1) MACE görüldü. CMD'li hastalarda MACE oranları anlamlı derecede yüksekti (log-rank χ²=11,375, P = 0,001). Kardiyovasküler risk faktörleri ve anormal miyokard perfüzyon görüntülemesi için çok değişkenli ayarlama sonrasında CMD, MACE'nin bağımsız bir belirleyicisi olarak kaldı (HR = 2,46; %95CI: 1,27-4,76; P = 0,007). Bölgesel MFR, global MFR'ye göre anlamlı artan prognostik değer sağladı (NRI = 0,524, %95CI: 0,202-0,821; IDI = 0,036, %95CI 0,007-0,067). CMD ve MACE arasındaki ilişki önceden belirlenmiş tüm alt gruplarda tutarlıydı. SONUÇ: PKG sonrası tam revaskülarizasyon sağlanan bu iki merkezli hasta grubunda, D-SPECT'ten türetilen CMD, geleneksel risk faktörleri ve perfüzyon anormalliklerinden bağımsız olarak gelecekteki MACE riskinin  > 2 kat artmasıyla ilişkilidir. Bölgesel MFR, küresel MFR'nin ötesinde artan prognostik değer sağlar. Bu bulgular keşfedicidir ve daha uzun takip ve invazif ölçümlerle karşılaştırmalar içeren çok merkezli çalışmalarla doğrulanmayı garanti eder."
     },
     {
       "pmid": "42667310",
@@ -205,6 +631,43 @@
       "abstract_tr": ""
     },
     {
+      "pmid": "42678521",
+      "title": "Comparative analysis of PSMA-RADS Version 2.0 versus bone uptake metastatic probability (BUMP) score for characterising focal bone uptake on [18F]PSMA-1007 PET/CT in prostate cancer - a multicentre evaluation.",
+      "abstract": "PURPOSE: Prostate-specific membrane antigen (PSMA) PET/CT is widely used in prostate cancer management, but unspecific bone uptake (UBU) remains a diagnostic challenge particularly with [18F]PSMA-1007. Bone uptake metastatic probability (BUMP) score - a composite imaging-clinical model, was compared with PSMA Reporting and Data System (PSMA-RADS, Version 2) for predicting skeletal metastases in UBU. METHODS: A real-world cohort of [18F]PSMA-1007 PET/CT scans performed at three tertiary cancer centres was retrospectively analysed. Bone lesions with focal PSMA uptake were evaluated. SUVmax, CT-derived mean Hounsfield unit and androgen deprivation therapy status were recorded to calculate BUMP score for each lesion. Lesional PSMA-RADS scores were assigned by experienced radiologists. Ground truth was established using follow-up imaging, prostate-specific antigen (PSA) kinetics and multidisciplinary consensus. Receiver operating characteristic (ROC) analyses assessed diagnostic performance. RESULTS: 130 patients (median age 70 years) with 412 bone lesions were analysed; 60.9% (n = 251) of lesions were metastatic. Median SUVmax was higher in malignant than benign lesions: 7.54 (Interquartile range (IQR) 10.3) versus 3.53 (IQR 1.51). BUMP achieved an AUROC of 0.812 (95% CI: 0.636-0.931), the optimal threshold was 0.134 yielding an F1 score of 0.800. PSMA-RADS v2.0 outperformed BUMP with higher sensitivity and specificity (98% and 96%, versus 74% and 80%). In equivocal PSMA-RADS Score 3 lesions (n = 44), BUMP showed reduced discrimination (AUROC 0.61, 95% CI 0.457-0.781). CONCLUSION: BUMP had good predictive ability for classifying bone metastases but underperformed compared with human-led PSMA-RADS assessment. For equivocal lesions BUMP offered limited added value, highlighting the importance of expert interpretation.",
+      "journal": "Eur J Nucl Med Mol Imaging",
+      "date": "2026-09-01",
+      "authors": [
+        "Cairns J",
+        "Arain S",
+        "Challapalli A",
+        "Stavropoulos A",
+        "Ali T",
+        "Ward D",
+        "Sage J",
+        "Ionescu G",
+        "Willaime JMY",
+        "Frood R",
+        "Bahl A",
+        "Petrides G",
+        "Scarsbrook A"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1007/s00259-026-08154-0",
+      "journal_tier": 1,
+      "impact": 8.6,
+      "section": "abdomen",
+      "score": 100.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 2,
+      "abstract_tr": "AMAÇ: Prostat spesifik membran antijeni (PSMA) PET/CT, prostat kanseri tedavisinde yaygın olarak kullanılmaktadır ancak spesifik olmayan kemik alımı (UBU), özellikle [18F]PSMA-1007 ile tanısal bir zorluk olmaya devam etmektedir. Kemik alımı metastatik olasılık (BUMP) skoru - kompozit bir görüntüleme-klinik modeli, UBU'daki iskelet metastazlarını tahmin etmek için PSMA Raporlama ve Veri Sistemi (PSMA-RADS, Versiyon 2) ile karşılaştırıldı. YÖNTEMLER: Üç üçüncü basamak kanser merkezinde gerçekleştirilen [18F]PSMA-1007 PET/BT taramalarının gerçek dünyadaki bir kohortu geriye dönük olarak analiz edildi. Fokal PSMA tutulumu olan kemik lezyonları değerlendirildi. Her lezyon için BUMP skorunu hesaplamak amacıyla SUVmax, BT'den türetilmiş ortalama Hounsfield ünitesi ve androjen yoksunluğu tedavisi durumu kaydedildi. Lezyonel PSMA-RADS skorları deneyimli radyologlar tarafından belirlendi. Takip görüntüleme, prostat spesifik antijen (PSA) kinetiği ve multidisipliner fikir birliği kullanılarak temel gerçek belirlendi. Alıcı çalışma karakteristiği (ROC), değerlendirilen teşhis performansını analiz eder. SONUÇLAR: 412 kemik lezyonu olan 130 hasta (ortalama yaş 70) analiz edildi; Lezyonların %60,9'u (n = 251) metastatikti. Medyan SUVmax, malign lezyonlarda benign lezyonlardan daha yüksekti: 7,54 (Çeyrekler arası aralık (IQR) 10,3) ve 3,53 (IQR 1,51). BUMP, 0,812'lik bir AUROC'ye ulaştı (%95 GA: 0,636-0,931), optimal eşik 0,134 oldu ve F1 puanı 0,800 oldu. PSMA-RADS v2.0, daha yüksek duyarlılık ve özgüllük ile BUMP'tan daha iyi performans gösterdi (%98 ve %96'ya karşı %74 ve %80). Şüpheli PSMA-RADS Skoru 3 lezyonlarda (n = 44), BUMP azaltılmış ayrımcılık gösterdi (AUROC 0,61, %95 CI 0,457-0,781). SONUÇ: BUMP, kemik metastazlarını sınıflandırma konusunda iyi bir tahmin yeteneğine sahipti ancak insan liderliğindeki PSMA-RADS değerlendirmesine kıyasla daha düşük performans gösterdi. Şüpheli lezyonlar için BUMP sınırlı katma değer sunarak uzman yorumunun önemini vurguladı."
+    },
+    {
       "pmid": "42267962",
       "title": "Toward More Rigorous Meta-Analyses of Artificial Intelligence in Radiology: Addressing Methodological Challenges and Bias.",
       "abstract": "[Abstract not available]",
@@ -261,6 +724,35 @@
       },
       "tier": 3,
       "abstract_tr": "Dermoskopi görüntülerinde cilt lezyonlarının doğru şekilde segmentasyonu, yoğun şekilde açıklamalı tıbbi görüntülerin azlığı nedeniyle zorlu olmayı sürdürüyor; çünkü manuel piksel düzeyinde açıklama, önemli ölçüde uzman çabası gerektiriyor. Tersine, metinsel açıklamalar daha kolay elde edilebilir ve bölümleme modellerinin geliştirilmesi için potansiyel olarak zengin anlamsal bağlam sağlayabilir. Bu yazıda, yarı denetimli cilt lezyonu segmentasyonunu geliştirmek için metin kılavuzlu sözde açıklamalardan yararlanan yeni bir çerçeve öneriyoruz. Yaklaşımımız, gürültülü olmasına rağmen değerli anlamsal bilgiler içeren etiketlenmemiş dermoskopi görüntülerinin yaklaşık metinsel açıklamalarını oluşturmak için geniş dilli görme modellerinin ortaya çıkan yeteneklerinden yararlanır. Ayrıca görsel özellikleri metin semantiğiyle etkili bir şekilde bütünleştiren yeni bir görüntü-metin özelliği birleştirme mekanizması da sunuyoruz. Dermoskopi görüntülerindeki doğal yüksek gürültü seviyelerinin üstesinden gelmek için özellikle cilt lezyonu özelliklerine göre tasarlanmış özel bir veri artırma stratejisi geliştiriyoruz. Herkese açık kıyaslama veri kümeleri üzerindeki deneysel sonuçlar, metin kılavuzlu yaklaşımımızın, özellikle düşük açıklama ayarlarında, geleneksel yarı denetimli yöntemlere kıyasla bölümleme performansını önemli ölçüde artırdığını göstermektedir. Üstelik metinsel açıklamalar, segmentasyon sürecine ilişkin yorumlanabilir bilgiler sağlayarak, piksel düzeyindeki tahminlerin ötesinde klinik açıdan anlamlı bağlam sunar. Uzun vadeli bir perspektiften bakıldığında çalışmamız, minimum görüntü açıklamalarını daha kolay elde edilen metinsel açıklamalarla birleştirmenin, tıbbi görüntü bölümlendirmesine daha verimli ve etkili bir yaklaşım sunduğunu öne sürüyor. Gelecekteki araştırmaları kolaylaştırmak için, ISIC 2017 ve 2018 zorluklarını temel alan yeni bir metin-görüntü eşleştirilmiş veri kümesi olan ISIC-GPT veri kümesini yayınlıyoruz."
+    },
+    {
+      "pmid": "42679753",
+      "title": "3D-FuseNet: An innovative multimodal fusion network for enhancing survival prediction.",
+      "abstract": "Predicting the survival time of brain tumor patients remains a critical challenge in the medical prognosis. Existing methods often struggle to integrate heterogeneous data types, such as imaging and clinical records. This paper proposes a novel approach, the Three-Dimensional Feature Fusion Network (3D-FuseNet), designed to address these limitations by integrating high-dimensional imaging features with clinical variables through a late fusion strategy. 3D-FuseNet leverages artificial intelligence (AI) models to automatically extract features from 3D of four MRI sequence images and fuses them with key clinical variables to fully exploit their complementary nature. The network was evaluated using 10 widely-used optimizers and 5 machine learning (ML) methods to assess its performance comprehensively. In the best-case scenario, 3D-FuseNet achieved a mean absolute error (MAE) that is 4% lower than the best baseline model. Furthermore, it reduced the MAE by 2.7% compared to the lowest MAE obtained using individual models such as ResNet50, Unet3D encoder, and Vision Transformer. By effectively integrating multimodal data sources, 3D-FuseNet has demonstrated competitive performance in predicting survival in brain tumor patients, achieving moderate yet consistent improvements over the evaluated baseline. The proposed method outperforms existing architectures and is publicly available at: https://github.com/AIPMLab/3D-FuseNet.",
+      "journal": "Comput Med Imaging Graph",
+      "date": "2026-08-29",
+      "authors": [
+        "Chaddad A",
+        "Feng J",
+        "Daqqaq T",
+        "Katib Y",
+        "Jiang L"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.compmedimag.2026.102808",
+      "journal_tier": 3,
+      "impact": 5.4,
+      "section": "girisim",
+      "score": 35.0,
+      "score_parts": {
+        "journal": 35,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": "Beyin tümörü hastalarının hayatta kalma süresinin tahmin edilmesi, tıbbi prognozda kritik bir zorluk olmaya devam etmektedir. Mevcut yöntemler genellikle görüntüleme ve klinik kayıtlar gibi heterojen veri türlerini entegre etmekte zorlanır. Bu makale, yüksek boyutlu görüntüleme özelliklerini geç füzyon stratejisi yoluyla klinik değişkenlerle entegre ederek bu sınırlamaları gidermek için tasarlanan Üç Boyutlu Özellik Füzyon Ağı (3D-FuseNet) adlı yeni bir yaklaşım önermektedir. 3D-FuseNet, dört MRI sekans görüntüsünün 3D'sinden özellikleri otomatik olarak çıkarmak için yapay zeka (AI) modellerinden yararlanır ve tamamlayıcı doğalarından tam anlamıyla yararlanmak için bunları temel klinik değişkenlerle birleştirir. Ağ, performansını kapsamlı bir şekilde değerlendirmek için yaygın olarak kullanılan 10 optimize edici ve 5 makine öğrenimi (ML) yöntemi kullanılarak değerlendirildi. En iyi senaryoda 3D-FuseNet, en iyi temel modelden %4 daha düşük bir ortalama mutlak hataya (MAE) ulaştı. Ayrıca ResNet50, Unet3D kodlayıcı ve Vision Transformer gibi bireysel modeller kullanılarak elde edilen en düşük MAE ile karşılaştırıldığında MAE'yi %2,7 oranında azalttı. 3D-FuseNet, çok modlu veri kaynaklarını etkili bir şekilde entegre ederek, beyin tümörü hastalarında sağkalımı tahmin etmede rekabetçi bir performans sergileyerek, değerlendirilen taban çizgisine göre orta ancak tutarlı iyileştirmeler elde etti. Önerilen yöntem mevcut mimarilerden daha iyi performans gösteriyor ve şu adreste kamuya açık: https://github.com/AIPMLab/3D-FuseNet."
     },
     {
       "pmid": "42275243",
@@ -537,6 +1029,32 @@
       },
       "tier": 2,
       "abstract_tr": ""
+    },
+    {
+      "pmid": "42680937",
+      "title": "From digital bench to bedside: exaggerated risks, realistic expectations, and genuine challenges of medical AI.",
+      "abstract": "Artificial intelligence (AI) has become an increasingly prominent force in medicine, driven by rapid technical advances and a growing number of clinical applications. As the field matures, it now increasingly moves from experimental development toward a phase of broader implementation. However, debates surrounding medical AI are often shaped by exaggerated risks and overly optimistic expectations. This paper seeks to contribute to a more balanced and realistic discussion. Rather than framing AI as either an existential threat or a universal solution, we advocate for an open-minded, evidence-based understanding of AI as a tool to support healthcare and discuss current and emerging challenges related to clinical validation, human-AI interaction, bias and discrimination, education, agentic AI, and the development and maintenance of trust. KEY POINTS: Question Discussions about AI in medicine continue to be dominated by exaggerated risks and overly optimistic expectations. Findings We provide a more realistic evaluation of the current opportunities of AI in medicine and want to highlight some genuine challenges that lie ahead. Clinical relevance AI is here to stay in medicine. Focusing on real and present challenges, rather than being distracted by exaggerated risks, as well as responsible expectation management, will be key to its success.",
+      "journal": "Eur Radiol",
+      "date": "2026-09-01",
+      "authors": [
+        "Caspers J",
+        "Heinrichs B"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1007/s00330-026-12812-0",
+      "journal_tier": 1,
+      "impact": 4.7,
+      "section": "girisim",
+      "score": 100.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 2,
+      "abstract_tr": "Yapay zeka (AI), hızlı teknik gelişmeler ve artan sayıda klinik uygulama sayesinde tıpta giderek daha fazla öne çıkan bir güç haline geldi. Alan olgunlaştıkça deneysel geliştirmeden daha geniş uygulama aşamasına doğru giderek daha fazla ilerlemektedir. Ancak tıbbi yapay zekayı çevreleyen tartışmalar genellikle abartılı riskler ve aşırı iyimser beklentilerle şekilleniyor. Bu makale daha dengeli ve gerçekçi bir tartışmaya katkıda bulunmayı amaçlamaktadır. Yapay zekayı varoluşsal bir tehdit ya da evrensel bir çözüm olarak çerçevelemek yerine, sağlık hizmetlerini destekleyen ve klinik doğrulama, insan-yapay zeka etkileşimi, önyargı ve ayrımcılık, eğitim, ajansal yapay zeka ve güvenin geliştirilmesi ve sürdürülmesi ile ilgili mevcut ve ortaya çıkan zorlukları tartışacak bir araç olarak açık fikirli, kanıta dayalı bir yapay zeka anlayışını savunuyoruz. ÖNEMLİ NOKTALAR: Soru Tıpta yapay zeka hakkındaki tartışmalara abartılı riskler ve aşırı iyimser beklentiler hakim olmaya devam ediyor. Bulgular Tıpta yapay zekanın mevcut fırsatlarının daha gerçekçi bir değerlendirmesini sunuyoruz ve önümüzdeki bazı gerçek zorlukları vurgulamak istiyoruz. Klinik uygunluk Yapay zeka tıpta kalmaya devam edecek. Abartılı riskler nedeniyle dikkatin dağılması yerine gerçek ve mevcut zorluklara odaklanmak ve sorumlu beklenti yönetimi, başarının anahtarı olacaktır."
     },
     {
       "pmid": "42298150",
@@ -827,6 +1345,136 @@
       "abstract_tr": "AMAÇ: Motor eğitiminin genç yetişkinlerin beyinlerinde yapısal değişikliklere neden olduğu tespit edilmiş olsa da, yaşlanan beyinlerdeki yapısal adaptasyonlar daha az araştırılmaktadır. YÖNTEMLER: Bu randomize kontrollü çalışma, çok modlu nörogörüntüleme kullanarak 60 yaşlı yetişkinde (64 - 82 yaş, 70,6 ± 4,7) uzun süreli kuvvet ve denge antrenmanının yapısal plastisite üzerindeki etkisini araştırdı. Üç aylık kuvvet antrenmanının etkilerini aynı süreli denge antrenmanı ve pasif kontrol grubuyla karşılaştırdık. Gri madde (GM) ve beyaz madde (WM) plastisitesini değerlendirmek için voksel bazlı morfometri (VBM) ve sistem bazlı uzaysal istatistikler (TBSS) kullanıldı. Beyaz madde değişikliklerinin mikroyapısal temellerini araştırmak için beyaz madde yolu bütünlüğü (WMTI) modellemesi kullanıldı. SONUÇLAR: Kuvvet antrenmanının, beyaz madde mikroyapısal yeniden yapılanması ile tutarlı difüzyon ölçümlerindeki değişikliklerle, özellikle de iki taraflı alt fronto-oksipital ve uzunlamasına fasiküllerde artan ekstraaksonal aksiyal yayılma ile ilişkili olduğunu bulduk. Ek olarak, hem denge hem de kuvvet antrenmanı, kontrol grubunda gözlemlenen korpus kallozumun spleniumunda ve sağ posterior korona radiatasında aksonal su fraksiyonundaki azalmaları hafifletti. SONUÇ: Bu sonuçlar, korpus kallozumdaki yaşlanmaya bağlı demiyelinizasyonu önleyerek faydalı nöral plastisiteyi teşvik etmek için güç ve denge eğitiminin potansiyel öneminin altını çiziyor ve temel iletim lifi yollarında beyaz cevherin yeniden düzenlenmesini kolaylaştırmada kuvvet eğitiminin spesifik rolünü vurguluyor."
     },
     {
+      "pmid": "42680023",
+      "title": "Privacy-preserving visualization of brain functional connectivity.",
+      "abstract": "Visualizations are fundamental to neuroimaging research, facilitating tasks ranging from exploratory data analysis to the communication and interpretation of findings. Despite their necessity, visualizations can potentially compromise the confidentiality of individual participants. In this paper, we discuss how visualizations may inadvertently lead to privacy leakage and explore methods to mitigate such risks. Our work investigates ways to securely share visualizations that faithfully preserve the patterns supporting the derived insights from data analysis, rather than deriving conclusions from the visualizations themselves. We address privacy-preserving visualization within a differential privacy (DP) framework, focusing on commonly used visualization methods for functional network connectivity. Various perturbation-based strategies are investigated for protecting correlation-related measures, with analyses of their privacy costs and the effects of pre-processing and/or post-processing. To achieve a better balance between privacy and visual utility, this paper introduces novel workflows tailored for connectogram and seed-based connectivity visualizations that maintain the qualitative patterns observed in non-private results. Overall, this work illustrates how DP can be effectively applied to neuroimaging visualization, demonstrating its efficacy as a robust methodology for securing sensitive biomedical data.",
+      "journal": "Neuroimage",
+      "date": "2026-09-01",
+      "authors": [
+        "Tao Y",
+        "Sarwate AD",
+        "Panta S",
+        "Turner J",
+        "Plis S",
+        "Beason-Held L",
+        "Bilgel M",
+        "Resnick S",
+        "Abrol A",
+        "Calhoun VD"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.neuroimage.2026.122175",
+      "journal_tier": 2,
+      "impact": 4.7,
+      "section": "neuro",
+      "score": 60.0,
+      "score_parts": {
+        "journal": 60,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": "Görselleştirmeler, keşifsel veri analizinden bulguların iletilmesine ve yorumlanmasına kadar çeşitli görevleri kolaylaştıran nörogörüntüleme araştırmaları için temeldir. Gerekliliğine rağmen görselleştirmeler potansiyel olarak bireysel katılımcıların gizliliğini tehlikeye atabilir. Bu yazıda, görselleştirmelerin yanlışlıkla gizlilik sızıntısına nasıl yol açabileceğini tartışıyor ve bu tür riskleri azaltmaya yönelik yöntemleri araştırıyoruz. Çalışmamız, görselleştirmelerden sonuçlar çıkarmak yerine, veri analizinden elde edilen içgörüleri destekleyen kalıpları aslına uygun şekilde koruyan görselleştirmeleri güvenli bir şekilde paylaşmanın yollarını araştırıyor. Gizliliği koruyan görselleştirmeyi, işlevsel ağ bağlantısı için yaygın olarak kullanılan görselleştirme yöntemlerine odaklanarak, diferansiyel gizlilik (DP) çerçevesinde ele alıyoruz. Korelasyonla ilgili ölçümleri korumak için gizlilik maliyetlerinin ve ön işleme ve/veya son işlemenin etkilerinin analizleriyle birlikte çeşitli pertürbasyona dayalı stratejiler araştırılır. Gizlilik ve görsel fayda arasında daha iyi bir denge elde etmek için bu belgede, özel olmayan sonuçlarda gözlemlenen niteliksel kalıpları koruyan bağlantı şeması ve tohum tabanlı bağlantı görselleştirmeleri için özel olarak tasarlanmış yeni iş akışları tanıtılmaktadır. Genel olarak bu çalışma, DP'nin nörogörüntüleme görselleştirmesine nasıl etkili bir şekilde uygulanabileceğini göstererek, hassas biyomedikal verilerin güvenliğinin sağlanmasında sağlam bir metodoloji olarak etkinliğini ortaya koymaktadır."
+    },
+    {
+      "pmid": "42680022",
+      "title": "Individual differences in brain dynamics across a social cognition network induced by cortico-cerebellar tDCS in adults with autism spectrum disorder (ASD).",
+      "abstract": "Autism spectrum disorder (ASD) is a neurodevelopmental condition with core diagnostic domains of social communication impairments, restricted interests and repetitive behaviors. Idiosyncratic brain organization is a potential hallmark of ASD. Previous transcranial direct current stimulation (tDCS) studies often targeted dorsolateral prefrontal cortex, with changes oin brain dynamics averaged across the cohort. We utilized a magnetoencephalographic (MEG) array to characterize individual differences in brain dynamics induced by cortico-cerebellar tDCS across nodes of a social cognition network. A randomized, sham-controlled, double-blind, within-subject clinical trial was conducted in a cohort of 24 young adults with ASD or high autistic traits. Two separate sessions of computerized social learning activities were combined with verum/sham tDCS, with anodal electrode over right temporoparietal junction (TPJ) and cathode on right deltoid. Following stimulation, theta- and alpha-band activity were evaluated within nodes of a social cognition network: bilateral TPJ, fusiform, medial prefrontal cortex and Crus I/II of cerebellum. Idiosyncratic participant-specific up- and down-regulation of theta- and alpha-band activity occurred across the network. Activity in right Crus I/II, a region inundated by the stimulation current, strongly correlated with the change of activity summed across all cerebral cortical nodes in theta- but not alpha-band. Intrinsic theta-band activity is believed to mediate input/output relationships in cerebellar cortex and to drive synaptic plasticity. These results suggest that theta-band stimulation of cerebellar cortex might be an effective therapy for individuals on the autism spectrum who present with cerebellar hyperactivity.",
+      "journal": "Neuroimage",
+      "date": "2026-09-01",
+      "authors": [
+        "Tesche CD",
+        "Wilson JE"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.neuroimage.2026.122194",
+      "journal_tier": 2,
+      "impact": 4.7,
+      "section": "neuro",
+      "score": 60.0,
+      "score_parts": {
+        "journal": 60,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": "Otizm spektrum bozukluğu (ASD), sosyal iletişim bozuklukları, kısıtlı ilgi alanları ve tekrarlayan davranışlardan oluşan temel tanı alanlarını içeren nörogelişimsel bir durumdur. Kendine özgü beyin organizasyonu OSB'nin potansiyel bir özelliğidir. Önceki transkraniyal doğru akım uyarımı (tDCS) çalışmaları sıklıkla dorsolateral prefrontal korteksi hedef alıyordu ve beyin dinamiklerindeki değişikliklerin kohort genelinde ortalaması alınıyordu. Bir sosyal biliş ağının düğümleri arasında kortiko-serebellar tDCS'nin neden olduğu beyin dinamiklerindeki bireysel farklılıkları karakterize etmek için bir manyetoensefalografik (MEG) diziden yararlandık. OSB'li veya yüksek otistik özelliklere sahip 24 genç yetişkinden oluşan bir kohort üzerinde randomize, sahte kontrollü, çift kör, denek içi bir klinik çalışma gerçekleştirildi. Bilgisayarlı sosyal öğrenme etkinliklerinin iki ayrı oturumu, sağ temporoparietal bağlantı (TPJ) üzerinde anodal elektrot ve sağ deltoid üzerinde katot ile verum/sahte tDCS ile birleştirildi. Stimülasyonun ardından teta ve alfa bant aktivitesi, sosyal biliş ağının düğümleri içinde değerlendirildi: iki taraflı TPJ, fusiform, medial prefrontal korteks ve beyincik Crus I/II. Ağ genelinde teta ve alfa bant aktivitesinin kendine özgü katılımcıya özgü yukarı ve aşağı regülasyonu meydana geldi. Stimülasyon akımıyla dolu bir bölge olan sağ Crus I/II'deki aktivite, alfa bandında değil, teta bandında tüm serebral kortikal düğümlerde toplanan aktivite değişikliği ile güçlü bir şekilde ilişkilidir. İçsel teta-bant aktivitesinin serebellar korteksteki giriş/çıkış ilişkilerine aracılık ettiğine ve sinaptik plastisiteyi yönlendirdiğine inanılmaktadır. Bu sonuçlar, serebellar korteksin teta-bant stimülasyonunun, serebellar hiperaktivite ile başvuran otizm spektrumundaki bireyler için etkili bir tedavi olabileceğini düşündürmektedir."
+    },
+    {
+      "pmid": "42680021",
+      "title": "Associations Between Video Gaming Behaviors and Cortical Morphology in Adolescents.",
+      "abstract": "Video gaming is highly prevalent in adolescence, yet its relationship with cortical morphology in early adolescence remains unclear. Data from the large, diverse nationwide Adolescent Brain and Cognitive Development Study cohort (N=5,686) were analyzed to investigate the association between video gaming behaviors and cortical morphology in adolescents. Adolescents (mean: 14.2 years old) reported time spent playing single and multi-player games each day and their frequency of playing mature-rated games. Measures of cortical volume, surface area, and thickness of regions defined by the Desikan-Killiany atlas were obtained from 3T MRI scanners. Generalized additive mixed effects models were used to evaluate the association between gaming behaviors and cortical morphology, adjusting for demographics, genetic ancestry, socioeconomic status, non-gaming screen time, pubertal stage, body mass index percentile, scanner characteristics, and familial relationships. In addition to regional analysis, vertexwise analysis was performed using the Fast and Efficient Mixed Effects Algorithm, which provides higher spatial resolution. Higher total gaming time was associated with lower cortical surface area and thickness across multiple regions. Single-player but not multi-player gaming was associated with altered morphology regions involved in language processing and social cognition, which may be due to the different processes engaged by each game type. Mature-rated gaming frequency was also associated with lower cortical thickness in several regions and lower surface area in the right parahippocampal gyrus. Our results demonstrate that different gaming behaviors are associated with distinct patterns of cortical morphology. Decreases in cortical surface area and thickness are a normative feature of adolescent development, and future research on long-term outcomes is required to determine whether these differences reflect variation outside of normative developmental trajectories and the directionality of this association.",
+      "journal": "Neuroimage",
+      "date": "2026-09-01",
+      "authors": [
+        "Nagata JM",
+        "Bao K",
+        "Handoko K",
+        "Murray SB",
+        "Kim KE",
+        "Nedelec P",
+        "Muller-Oehring E",
+        "Scheffler A",
+        "King LE",
+        "Rauschecker AM",
+        "Baker FC"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.neuroimage.2026.122196",
+      "journal_tier": 2,
+      "impact": 4.7,
+      "section": "neuro",
+      "score": 60.0,
+      "score_parts": {
+        "journal": 60,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": "Video oyunları ergenlik döneminde oldukça yaygındır, ancak erken ergenlik döneminde bunun kortikal morfoloji ile ilişkisi belirsizliğini koruyor. Ülke çapındaki geniş ve çeşitli Ergen Beyin ve Bilişsel Gelişim Çalışması kohortundan (N=5.686) elde edilen veriler, ergenlerde video oyunu davranışları ile kortikal morfoloji arasındaki ilişkiyi araştırmak için analiz edildi. Ergenler (ortalama: 14,2 yaşında) her gün tek ve çok oyunculu oyunlar oynayarak geçirdikleri süreyi ve yetişkinlere uygun oyunlar oynama sıklıklarını bildirdiler. Desikan-Killiany atlası tarafından tanımlanan kortikal hacim, yüzey alanı ve bölgelerin kalınlığına ilişkin ölçümler 3T MRI tarayıcılarından elde edildi. Oyun oynama davranışları ile kortikal morfoloji arasındaki ilişkiyi, demografik özelliklere, genetik kökene, sosyoekonomik duruma, oyun dışı ekran süresine, ergenlik aşamasına, vücut kitle indeksi yüzdelik dilimine, tarayıcı özelliklerine ve aile ilişkilerine göre ayarlamayı değerlendirmek için genelleştirilmiş toplamsal karma etki modelleri kullanıldı. Bölgesel analize ek olarak, daha yüksek uzaysal çözünürlük sağlayan Hızlı ve Verimli Karışık Etkiler Algoritması kullanılarak vertexwise analiz gerçekleştirildi. Daha yüksek toplam oyun süresi, birden fazla bölgedeki daha düşük kortikal yüzey alanı ve kalınlıkla ilişkilendirildi. Tek oyunculu oyun, ancak çok oyunculu olmayan oyun, dil işleme ve sosyal bilişle ilgili değişen morfoloji bölgeleriyle ilişkilendirildi; bu, her oyun türünün içerdiği farklı süreçlerden kaynaklanıyor olabilir. Yetişkinlere yönelik oyun frekansı aynı zamanda çeşitli bölgelerdeki düşük kortikal kalınlık ve sağ parahipokampal girustaki daha düşük yüzey alanıyla da ilişkilendirildi. Sonuçlarımız, farklı oyun davranışlarının farklı kortikal morfoloji kalıplarıyla ilişkili olduğunu göstermektedir. Kortikal yüzey alanı ve kalınlığındaki azalma ergen gelişiminin normatif bir özelliğidir ve bu farklılıkların normatif gelişimsel yörüngelerin dışındaki varyasyonları ve bu ilişkinin yönünü yansıtıp yansıtmadığını belirlemek için uzun vadeli sonuçlar üzerine gelecekteki araştırmalara ihtiyaç vardır."
+    },
+    {
+      "pmid": "42680020",
+      "title": "Spatio-temporal Dynamics of Safety Learning, Discrimination, and Anticipation during Fear Acquisition and Fear Generalization.",
+      "abstract": "Existing neural studies have predominantly focused on threat processing during fear acquisition and generalization, whereas the spatiotemporal dynamics of safety learning remain poorly understood. Here, we examined safety learning across early acquisition, late acquisition, and fear generalization, while characterizing early and late event-related potential (ERP) responses using a fear conditioning and generalization paradigm with multiple conditioning sets (N = 29). Behavioral ratings and reaction times indicated enhanced safety learning from early to late acquisition, together with a generalization gradient from threat to safety stimuli. Non-parametric cluster-based permutation tests (CBPT) revealed larger frontal N2 amplitudes to the safety cue than the threat cue across all experimental phases. During fear generalization, both the safety cue and the generalization stimuli (GS1-GS4) elicited larger occipital P2 amplitudes than the threat cue. The safety cue further elicited larger right frontocentral late positive potential (LPP) amplitudes than the threat cue and the generalization stimuli, as well as larger sustained anterior negativity (SAN) than the generalization stimuli. Descriptive source reconstruction suggested shifts in the estimated sources of the N2 from early to late acquisition, whereas source estimates of the P2, LPP, and SAN showed spatial overlap with medial prefrontal, limbic subcortical, occipitotemporal, medial temporal, medial parietal, and cerebellar regions. Together, these findings provide a preliminary characterization of the spatiotemporal dynamics of safety learning across fear acquisition and generalization and establish a normative framework for future investigations of altered safety learning in anxiety disorders.",
+      "journal": "Neuroimage",
+      "date": "2026-09-01",
+      "authors": [
+        "Mei Y",
+        "Lou Y",
+        "Otieno-Leppänen S",
+        "Wieser M",
+        "Sun Y",
+        "Dou H",
+        "Sun T",
+        "Chen Z",
+        "Li H",
+        "Lei Y",
+        "Leppänen PHT"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.neuroimage.2026.122193",
+      "journal_tier": 2,
+      "impact": 4.7,
+      "section": "neuro",
+      "score": 60.0,
+      "score_parts": {
+        "journal": 60,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": "Mevcut sinirsel çalışmalar ağırlıklı olarak korku edinimi ve genelleme sırasındaki tehdit işlemeye odaklanmışken, güvenli öğrenmenin uzay-zamansal dinamikleri tam olarak anlaşılamamıştır. Burada, çoklu koşullandırma setleriyle (N=29) bir korku koşullandırma ve genelleme paradigması kullanarak erken ve geç olayla ilgili potansiyel (ERP) yanıtları karakterize ederken, erken edinim, geç edinim ve korku genellemesi boyunca güvenlik öğrenimini inceledik. Davranışsal derecelendirmeler ve tepki süreleri, tehditten güvenlik uyaranlarına doğru bir genelleme eğilimi ile birlikte, erken edinimden geç edinime kadar gelişmiş güvenlik öğrenimini gösterdi. Parametrik olmayan küme tabanlı permütasyon testleri (CBPT), tüm deney aşamaları boyunca güvenlik işaretinin tehdit işaretinden daha büyük ön N2 genliklerini ortaya çıkardı. Korku genellemesi sırasında, hem güvenlik işareti hem de genelleme uyaranları (GS1-GS4), tehdit işaretinden daha büyük oksipital P2 genliklerini ortaya çıkardı. Güvenlik işareti ayrıca, tehdit işaretinden ve genelleme uyaranlarından daha büyük sağ frontosantral geç pozitif potansiyel (LPP) genliklerinin yanı sıra genelleme uyaranlarından daha büyük sürekli anterior negatifliği (SAN) ortaya çıkardı. Tanımlayıcı kaynak yeniden yapılandırması, N2'nin tahmini kaynaklarında erken edinimden geç edinime doğru kaymalar olduğunu öne sürerken, P2, LPP ve SAN'ın kaynak tahminleri medial prefrontal, limbik subkortikal, oksipitotemporal, medial temporal, medial parietal ve serebellar bölgelerle mekansal örtüşme gösterdi. Birlikte, bu bulgular, korku edinimi ve genelleme boyunca güvenli öğrenmenin uzay-zamansal dinamiklerinin bir ön karakterizasyonunu sağlar ve anksiyete bozukluklarında değişen güvenli öğrenmenin gelecekteki araştırmaları için normatif bir çerçeve oluşturur."
+    },
+    {
       "pmid": "42676173",
       "title": "Sequential Changes in Right Ventricular Straein During the Development of Pulmonary Hypertension Assessed With Magnetic Resonance Feature Tracking: An Animal Study.",
       "abstract": "OBJECTIVE: To evaluate the sequential changes in right ventricular (RV) strain and histological vascular remodeling and their correlations during pulmonary hypertension (PH) development in a rat model by using cardiac magnetic resonance (CMR)-feature tracking (FT). MATERIALS AND METHODS: Separate cohorts of six-week-old male Wistar rats (10 per group) were allocated to a baseline group, PH induction groups assessed at 1, 2, 3, or 4 weeks after monocrotaline injection, and vehicle-injected control groups assessed at 2 and 4 weeks. Each rat underwent a single magnetic resonance imaging (MRI) examination and was subsequently euthanized for histological analysis. Cine images were acquired using a 9.4T MRI scanner, and strain was analyzed using the FT technique. Histological analysis was used to quantify pulmonary arterial wall thickness percentage (PA %WT) and RV collagen density. Overall group differences were analyzed using the Kruskal-Wallis test, which was followed by the Mann-Whitney U test with Bonferroni correction for pairwise comparisons with the baseline group. Correlations between the variables were assessed using Spearman's correlation coefficients. RESULTS: All CMR-derived RV parameters showed significant differences across the baseline and PH induction groups (all P < 0.001). RV free wall longitudinal strain (RVFWLS) showed the earliest impairment at 2 weeks, with a progressive decline thereafter. The RV free wall circumferential strain (RVFWCS) and RV ejection fraction were reduced beginning at 3 weeks, whereas the RV end-diastolic volume index increased significantly only at 4 weeks. The PA %WT increased progressively from week 2, whereas the RV collagen density did not change significantly. RVFWLS and RVFWCS showed strong positive correlations with PA %WT (r = 0.885 and r = 0.757, respectively; both P < 0.001), which were primarily driven by parallel changes across the post-induction time points. The control groups showed no significant temporal changes in the CMR or histological measurements. CONCLUSION: In this preclinical model of PH, staged CMR and histological assessments demonstrated sequential RV remodeling in parallel with PA remodeling, with RVFWLS impairment preceding overt RV dysfunction and enlargement.",
@@ -849,11 +1497,11 @@
       "journal_tier": 2,
       "impact": 4.4,
       "section": "toraks",
-      "score": 62.0,
+      "score": 60.0,
       "score_parts": {
         "journal": 60,
         "pubtype": 0,
-        "recency": 2.0
+        "recency": 0.0
       },
       "tier": 3,
       "abstract_tr": "AMAÇ: Bir sıçan modelinde kardiyak manyetik rezonans (CMR)-özellik izleme (FT) kullanarak sağ ventriküler (RV) gerginlik ve histolojik vasküler yeniden şekillenmedeki sıralı değişiklikleri ve bunların pulmoner hipertansiyon (PH) gelişimi sırasındaki korelasyonlarını değerlendirmek. MATERYALLER VE YÖNTEMLER: Altı haftalık erkek Wistar sıçanlarından oluşan ayrı gruplar (grup başına 10 adet) bir başlangıç ​​grubuna ayrıldı; PH indüksiyon grupları monokrotalin enjeksiyonundan 1, 2, 3 veya 4 hafta sonra değerlendirildi ve araç enjekte edilen kontrol grupları 2 ve 4 haftada değerlendirildi. Her sıçana tek bir manyetik rezonans görüntüleme (MRI) incelemesi yapıldı ve ardından histolojik analiz için ötenazi uygulandı. Sine görüntüleri 9.4T MRI tarayıcısı kullanılarak elde edildi ve gerilim, FT tekniği kullanılarak analiz edildi. Pulmoner arter duvar kalınlığı yüzdesini (PA %WT) ve RV kollajen yoğunluğunu ölçmek için histolojik analiz kullanıldı. Genel grup farklılıkları Kruskal-Wallis testi kullanılarak analiz edildi ve ardından başlangıç ​​grubuyla ikili karşılaştırmalar için Bonferroni düzeltmeli Mann-Whitney U testi yapıldı. Değişkenler arasındaki korelasyonlar Spearman'ın korelasyon katsayıları kullanılarak değerlendirildi. SONUÇLAR: CMR'den türetilen tüm RV parametreleri, başlangıç ​​ve PH indüksiyon grupları arasında anlamlı farklılıklar gösterdi (tümü P < 0,001). RV serbest duvar uzunlamasına gerilimi (RVFWLS), 2 haftada en erken bozulmayı gösterdi ve daha sonra ilerleyici bir düşüş gösterdi. RV serbest duvar çevresel gerilimi (RVFWCS) ve RV ejeksiyon fraksiyonu 3. haftadan başlayarak azalırken, RV diyastol sonu hacim indeksi yalnızca 4. haftada önemli ölçüde arttı. PA %WT'si 2. haftadan itibaren giderek artarken RV kollajen yoğunluğu önemli ölçüde değişmedi. RVFWLS ve RVFWCS, PA %WT (sırasıyla r = 0,885 ve r = 0,757; her ikisi de P < 0,001) ile güçlü pozitif korelasyonlar gösterdi; bunlar öncelikle indüksiyon sonrası zaman noktalarındaki paralel değişikliklerle yönlendirildi. Kontrol grupları CMR'de veya histolojik ölçümlerde önemli bir zamansal değişiklik göstermedi. SONUÇ: PH'nin bu klinik öncesi modelinde, aşamalı KMR ve histolojik değerlendirmeler, RVFWLS bozukluğunun açık RV disfonksiyonu ve genişlemesinden önce geldiği, PA yeniden yapılanmasına paralel olarak sıralı RV yeniden yapılanmasını gösterdi."
@@ -881,11 +1529,11 @@
       "journal_tier": 2,
       "impact": 4.4,
       "section": "abdomen",
-      "score": 62.0,
+      "score": 60.0,
       "score_parts": {
         "journal": 60,
         "pubtype": 0,
-        "recency": 2.0
+        "recency": 0.0
       },
       "tier": 3,
       "abstract_tr": "AMAÇ: Karaciğer Görüntüleme Raporlama ve Veri Sistemi kategorisi M (LR-M), intrahepatik kolanjiyokarsinomda (iCCA) kötü prognoz ile ilişkilidir. Ancak bireysel LR-M özelliklerinin görüntüleme yöntemlerindeki prognostik değeri belirsizliğini koruyor. Hepatoselüler karsinom riski taşıyan iCCA hastalarında bireysel LR-M özelliklerinin prognostik değerinin BT ve MRI arasında farklılık gösterip göstermediğini bireysel karşılaştırmalar yoluyla belirlemeyi amaçladık. GEREÇ VE YÖNTEM: Bu retrospektif çalışmaya 2010 ve 2019 yılları arasında iCCA için küratif amaçlı rezeksiyon ve ameliyat öncesi multifazik BT ve MR uygulanan siroz veya kronik hepatit B'li ardışık hastalar dahil edildi. BT ve MR görüntüleri ≥4 hafta arayla ayrı oturumlarda incelendi. LI-RADS kategorizasyonu (LR-M olmayan ve tek modlu LR-M veya çift modlu LR-M) için ayarlamalı ve ayarlamasız Cox orantılı tehlike regresyon analizleri, CT ve MRI bazlı hedef ve hedef dışı LR-M özellikleri ve diğer değişkenlerin nükssüz sağkalım (RFS) ve genel sağkalım (OS) ile ilişkilerini değerlendirmek için gerçekleştirildi. BULGULAR: 122 hastadan oluşan bir kohort (ortalama yaş, 57.9 ± 10.4 yıl) dahil edildi. MRI, hedef odaklı (%84,4'e karşı %73,8, P = 0,007) ve hedef dışı özellikler (%43,4'e karşı %20,5, P < 0,001) için BT'den önemli ölçüde daha yüksek frekanslar gösterdi; bu da daha yüksek bir LR-M kategorizasyonu oranıyla sonuçlandı (%90,2'ye karşı %81,1, P = 0,003). Çok değişkenli analizde, BT bazlı hedefoid özellikler (RFS için tehlike oranı [HR] = 2,31, P = 0,010; OS için HR = 1,85, P = 0,043) ve MRI bazlı hedef dışı özellikler (RFS için HR = 2,15, P = 0,005; OS için HR = 2,09, P = 0,008) bağımsız olarak daha zayıf olanlarla ilişkilendirildi. hayatta kalma. LI-RADS kategorizasyonu için ayarlama yapıldıktan sonra, MRI bazlı hedef olmayan özellikler, daha zayıf RFS (HR = 1,76, P = 0,041) ve OS (HR = 1,79, P = 0,038) ile bağımsız olarak ilişkili kaldı. Çift modlu LR-M tanımı bağımsız olarak daha zayıf RFS ile ilişkilendirildi (HR = 8,02, P = 0,042). SONUÇ: iCCA'da LR-M özelliklerinin prognostik etkileri görüntüleme yöntemine ve özellik türüne göre değişir. BT bazlı hedef ve MRI bazlı hedef olmayan özellikler, daha zayıf sağkalımla ilişkilendirildi ve MRI bazlı hedef olmayan özellikler ile hayatta kalma arasındaki ilişkiler, LI-RADS kategorizasyonu için düzeltme yapıldıktan sonra anlamlı kaldı."
@@ -910,11 +1558,11 @@
       "journal_tier": 2,
       "impact": 4.4,
       "section": "meme",
-      "score": 32.0,
+      "score": 30.0,
       "score_parts": {
         "journal": 60,
         "pubtype": -30,
-        "recency": 2.0
+        "recency": 0.0
       },
       "tier": 3,
       "abstract_tr": ""
@@ -937,11 +1585,11 @@
       "journal_tier": 2,
       "impact": 4.4,
       "section": "abdomen",
-      "score": 32.0,
+      "score": 30.0,
       "score_parts": {
         "journal": 60,
         "pubtype": -30,
-        "recency": 2.0
+        "recency": 0.0
       },
       "tier": 3,
       "abstract_tr": ""
@@ -966,11 +1614,11 @@
       "journal_tier": 2,
       "impact": 4.4,
       "section": "abdomen",
-      "score": 32.0,
+      "score": 30.0,
       "score_parts": {
         "journal": 60,
         "pubtype": -30,
-        "recency": 2.0
+        "recency": 0.0
       },
       "tier": 3,
       "abstract_tr": ""
@@ -1196,661 +1844,6 @@
       "tier": 3,
       "impact": 4.1,
       "section": "nukleer"
-    },
-    {
-      "pmid": "42668346",
-      "title": "ANATOMIADI: a national, image-based anatomy competition for residents in Italy to enhance postgraduate education through interactive learning.",
-      "abstract": "BACKGROUND: For radiology residents, the steep learning curve of cross-sectional anatomy (especially in CT and MRI) demands more efficient and engaging educational tools. In recent years, game-based learning (GBL) and gamification have emerged as powerful strategies to enhance postgraduate education by leveraging 'active recall' and 'spaced repetition' within a competitive framework. Here we describe the context of ANATOMIADI and assess the perceived educational impact. MATERIALS AND METHODS: Image datasets were anonymized, archived, and manually labeled to highlight specific anatomical structures. Over 400 unique games were developed, categorized by anatomical system and tiered into three levels of difficulty. A structured feedback survey was designed and distributed to the participants after the event to capture data on different domains regarding the educational value, gamification and engagement, platform usability and team collaboration, technical workflow, logistics, scientific accuracy, fairness, and quality assessment. RESULTS: ANATOMIADI challenge registered an attendance of 141 participants representing 28 residency programs across Italy. The evaluation of the event's perceived value yielded a unanimous positive response; indeed, 100% of the participants recommended that the competition be repeated in future academic years. Based on the required level of knowledge, the event was recommended to residents in their 3rd (54/63 responses) and 4th year (48/63 responses) of postgraduate education. CONCLUSION: By integrating high-fidelity imaging with interactive game mechanics, the ANATOMIADI challenge not only fostered anatomical learning but also built the foundation for a more collaborative and technologically adept generation of radiologists. KEY POINTS: Question: In the era of high-resolution multidetector CT and advanced MRI, the volume of anatomical data that a resident in radiology must process is unprecedented. FINDINGS: We developed a context using image-based puzzle games to challenge different residency schools in radiology on imaging-based anatomical structures and rules. Critical relevance statement: ANATOMIADI is the first national competition based on radiological anatomy and dedicated to residents. By using an inclusive \"twinning\" framework among residency programs, it transforms dense theoretical study into a highly motivating, collaborative, and social learning experience.",
-      "journal": "Insights Imaging",
-      "date": "2026-08-29",
-      "authors": [
-        "Quattrocchi CC",
-        "Neri M",
-        "Antolini M",
-        "Apollonio A",
-        "Casula A",
-        "De Rosa F",
-        "Domestico V",
-        "Fusina M",
-        "Giorgini P",
-        "Greco G",
-        "Raimi D",
-        "Sannino F",
-        "Vo D",
-        "Falzone A"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1186/s13244-026-02389-z",
-      "journal_tier": 2,
-      "impact": 4.1,
-      "section": "egitim",
-      "score": 60.0,
-      "score_parts": {
-        "journal": 60,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42242825",
-      "title": "Urgent Need for Artificial Intelligence Readiness: Insights From a Multicenter Cross-Sectional Study on Medical Undergraduates and Radiology Trainees in Central and Western China.",
-      "abstract": "Artificial intelligence (AI) is reshaping the future of medicine, particularly influencing specialties like radiology. While the adoption of AI continues to accelerate, its integration presents both opportunities and challenges. To date, limited research has examined the perspectives of medical students and radiology trainees in less-developed regions of China-groups essential to the future healthcare workforce. This study aimed to assess their perceptions, attitudes, usage, and concerns regarding AI in clinical practice.  A cross-sectional, multicenter study was conducted between February and March 2025 across three provinces in central and western China. A total of 5043 medical undergraduates and 190 radiology trainees completed a self-designed questionnaire assessing their knowledge of AI, perceived utility, and awareness of its clinical applications.  Most medical undergraduates reported limited exposure to formal AI training or hands-on experience yet expressed general support for its clinical use. Concerns regarding data privacy, transparency, and patient trust were commonly noted. Radiology trainees demonstrated higher levels of AI education and tool utilization. Both groups agreed AI could enhance efficiency without replacing physicians and emphasized the need to address technical, legal, and ethical challenges for successful implementation. Further analysis presented both grades and gender will influence participants' attitudes toward AI.  This study highlights a generally positive attitude toward AI among future healthcare professionals, while revealing substantial educational gaps. Structured AI training should be integrated into undergraduate and radiology curricula to better prepare trainees for AI-assisted clinical environments.",
-      "journal": "Acad Radiol",
-      "date": "2026-07",
-      "authors": [
-        "Qiu H",
-        "Zhang G",
-        "Li J",
-        "Yan P",
-        "Chen G",
-        "Chang X",
-        "Li Y",
-        "Shang L"
-      ],
-      "pubtypes": [
-        "Journal Article",
-        "Multicenter Study"
-      ],
-      "doi": "10.1016/j.acra.2026.01.033",
-      "journal_tier": 2,
-      "score": 78.0,
-      "score_parts": {
-        "journal": 60,
-        "pubtype": 18,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "impact": 3.8,
-      "section": "nukleer"
-    },
-    {
-      "pmid": "42242823",
-      "title": "Diagnostic Uncertainty & Improving Diagnostic Certainty in Radiology.",
-      "abstract": "The Radiology Research Alliance (RRA) of the Association of Academic Radiology (AAR) convenes task forces to study trends that will shape the future of radiology. In this article, the AAR-RRA Task Force on Diagnostic Uncertainty in Radiology set out to examine the causes of diagnostic uncertainty in radiology and identify strategies to improve and communicate diagnostic certainty. Drawing on a targeted literature review and expert insights from medical students, residents, and radiologists across subspecialties, the group identified key drivers of uncertainty and synthesized evidence-informed recommendations. Proposed strategies span quality improvement, research, artificial intelligence (AI) integration, education, and report standardization, with emphasis on effective communication of uncertainty to clinicians and patients.",
-      "journal": "Acad Radiol",
-      "date": "2026-07",
-      "authors": [
-        "DeSimone AK",
-        "Deng F",
-        "Kirk B",
-        "Liu C",
-        "Miao JH",
-        "Miao KH",
-        "Worthington M",
-        "Farinas C",
-        "Bajaj G",
-        "Jose J",
-        "Clayton MJ",
-        "Agarwal A",
-        "Cohen SL",
-        "Gulko E",
-        "Jawahar A",
-        "Whitman GJ"
-      ],
-      "pubtypes": [
-        "Journal Article",
-        "Review"
-      ],
-      "doi": "10.1016/j.acra.2026.02.025",
-      "journal_tier": 2,
-      "score": 70.0,
-      "score_parts": {
-        "journal": 60,
-        "pubtype": 10,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "impact": 3.8,
-      "section": "yapayzeka"
-    },
-    {
-      "pmid": "42674935",
-      "title": "Sixty Years of Lung Cancer Screening: From Sputum Cytology to Low-Dose CT and the Emerging Precision Era.",
-      "abstract": "RATIONAL AND OBJECTIVES: To trace the evolution of lung cancer screening from early radiographic and sputum cytology trials through the landmark randomized trials that established low-dose computed tomography (LDCT) as a guideline-endorsed intervention, and to examine emerging technologies poised to transform the field. MATERIALS AND METHODS: A narrative synthesis of primary trial literature, guideline documents, and emerging research conducted March-May 2026. Key milestones-the Mayo Lung Project, Johns Hopkins Lung Project, Anti-Lung Cancer Association (ALCA) CT trials, Early Lung Cancer Action Project (ELCAP), National Lung Screening Trial (NLST), NELSON trial, and iterative US Preventive Services Task Force (USPSTF) guideline revisions-are reviewed chronologically alongside developments in CT technology and reporting systems. RESULTS: Early sputum cytology and radiographic trials improved early-stage detection without a mortality benefit. Japanese ALCA trials established LDCT feasibility, demonstrating superior stage distribution (93% vs 53% stage I). The NLST demonstrated a 20% reduction in lung cancer mortality and 6.7% reduction in all-cause mortality with LDCT versus chest radiography, providing the evidence basis for the 2013 USPSTF guidelines. NELSON corroborated these findings, with a 24% lung cancer mortality reduction in men and greater benefit in women. The 2021 USPSTF revision broadened eligibility to ages 50-80 with ≥20 pack-years. Adherence remains suboptimal at 22-55%. CONCLUSION: LDCT screening represents a convergence of technological innovation, rigorous clinical investigation, and evolving health policy. Emerging adjuncts, including circulating tumor DNA analysis and AI-assisted image interpretation, may improve detection accuracy and address adherence gaps. Lung-RADS has substantially reduced false-positive rates and continues to evolve.",
-      "journal": "Acad Radiol",
-      "date": "2026-08-31",
-      "authors": [
-        "Raihane AS",
-        "Flesner SL",
-        "Sohail AH"
-      ],
-      "pubtypes": [
-        "Journal Article",
-        "Review"
-      ],
-      "doi": "10.1016/j.acra.2026.08.052",
-      "journal_tier": 2,
-      "impact": 3.8,
-      "section": "toraks",
-      "score": 70.0,
-      "score_parts": {
-        "journal": 60,
-        "pubtype": 10,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": "AKILCI VE HEDEFLER: Erken radyografik ve balgam sitolojisi çalışmalarından, düşük doz bilgisayarlı tomografiyi (LDCT) kılavuz onaylı bir müdahale olarak belirleyen dönüm noktası niteliğindeki randomize araştırmalara kadar akciğer kanseri taramasının gelişimini izlemek ve alanı dönüştürmeye hazır yeni teknolojileri incelemek. MATERYALLER VE YÖNTEMLER: Mart-Mayıs 2026'da gerçekleştirilen birincil araştırma literatürü, kılavuz belgeleri ve yeni ortaya çıkan araştırmaların anlatısal bir sentezi. Önemli kilometre taşları - Mayo Akciğer Projesi, Johns Hopkins Akciğer Projesi, Akciğer Kanseriyle Mücadele Derneği (ALCA) CT çalışmaları, Erken Akciğer Kanseri Eylem Projesi (ELCAP), Ulusal Akciğer Tarama Çalışması (NLST), NELSON çalışması ve yinelenen ABD Önleyici Hizmetler Görev Gücü (USPSTF) kılavuz revizyonları - gözden geçirilir. CT teknolojisi ve raporlama sistemlerindeki gelişmelerin yanı sıra kronolojik olarak. SONUÇLAR: Erken balgam sitolojisi ve radyografik çalışmalar, mortalite yararı olmaksızın erken evre tespitini iyileştirdi. Japon ALCA çalışmaları, üstün aşama dağılımını göstererek LDCT fizibilitesini ortaya koydu (%93'e karşı %53 aşama I). NLST, göğüs radyografisine kıyasla LDCT ile akciğer kanseri mortalitesinde %20'lik bir azalma ve tüm nedenlere bağlı mortalitede %6,7'lik bir azalma gösterdi; bu da 2013 USPSTF kılavuzları için kanıt temeli sağladı. NELSON, erkeklerde akciğer kanseri mortalitesinde %24'lük bir azalma ve kadınlarda daha fazla fayda elde ederek bu bulguları doğruladı. 2021 USPSTF revizyonu, uygunluğu ≥20 paket-yıl ile 50-80 yaş aralığına genişletti. Uyum %22-55 ile optimalin altında kalıyor. SONUÇ: LDCT taraması teknolojik yeniliklerin, titiz klinik araştırmaların ve gelişen sağlık politikasının birleşimini temsil etmektedir. Dolaşımdaki tümör DNA analizi ve yapay zeka destekli görüntü yorumlaması dahil olmak üzere ortaya çıkan yardımcılar, tespit doğruluğunu artırabilir ve uyum boşluklarını giderebilir. Lung-RADS, yanlış pozitiflik oranlarını önemli ölçüde azaltmıştır ve gelişmeye devam etmektedir."
-    },
-    {
-      "pmid": "42288448",
-      "title": "Differentiation of HER2-Zero, -Low, and -Overexpressing Breast Cancer Using Amide Proton Transfer-Weighted Magnetic Resonance Imaging: A Single-center Preliminary Study.",
-      "abstract": "To assess amide proton transfer-weighted imaging (APTWI) for identifying HER2 expression in breast cancer (BC) and to evaluate multiparametric model performance.  This study finally included 173 BC patients who underwent MRI between July 2023 and December 2024 and received pathological examination. All participants were evaluated with diffusion weighted imaging (DWI) and APTWI sequences. Group comparisons of clinical, MRI qualitative, and quantitative features, including apparent diffusion coefficient (ADC) and magnetization transfer ratio asymmetry (MTRasym) at 3.5 ppm, were conducted using one-way ANOVA, the Kruskal-Wallis test, or the χ² test as appropriate. Multivariate logistic regression identified independent predictors of HER2 status, with receiver operating characteristic analysis assessing models' performance for subclass discrimination.  Clinically, estrogen receptor and progesterone receptor status, histological grade, Ki-67 index, and axillary lymph node differed significantly across HER2 subtypes (all P<0.05). In MRI analyses, morphological features, including margin and blood supply condition, varied significantly among subtypes(all P = 0.01). Quantitatively, both ADC and MTRasym_3.5ppm values were significantly higher in HER2-low and HER2-overexpressing groups than in HER2-zero (all p<0.001). MTRasym_3.5ppm was further identified as an independent predictor for stratifying HER2 subtypes. The combined model integrating MRI qualitative and quantitative features demonstrated optimal performance, with AUCs of 0.811 and 0.911 for distinguishing HER2-zero from HER2-low and HER2-overexpressing BCs, respectively. MTRasym_3.5ppm alone achieved the highest accuracy (AUC = 0.739) in differentiating HER2-low from HER2-overexpressing groups.  MTRasym_3.5ppm is a promising biomarker for HER2 stratification, offering a non-invasive framework to optimize personalized therapy.",
-      "journal": "Acad Radiol",
-      "date": "2026-06-13",
-      "authors": [
-        "Zhan T",
-        "Leng Y",
-        "Liu X",
-        "Dai J",
-        "Gong L"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1016/j.acra.2026.05.015",
-      "journal_tier": 2,
-      "score": 64.0,
-      "score_parts": {
-        "journal": 60,
-        "pubtype": 0,
-        "recency": 4.0
-      },
-      "tier": 3,
-      "impact": 3.8,
-      "section": "nukleer"
-    },
-    {
-      "pmid": "42674936",
-      "title": "When Statistics Meet AI, or How to Not Show Your Results to the Scientific Community.",
-      "abstract": "",
-      "journal": "Acad Radiol",
-      "date": "2026-09-01",
-      "authors": [
-        "López-Úbeda P",
-        "Martín-Noguerol T",
-        "Luna A"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1016/j.acra.2026.08.008",
-      "journal_tier": 2,
-      "impact": 3.8,
-      "section": "genel",
-      "score": 62.0,
-      "score_parts": {
-        "journal": 60,
-        "pubtype": 0,
-        "recency": 2.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42674937",
-      "title": "Explainable Radiomics Model Based on Intratumoral and Peritumoral CEMRI Features: Predicting Macrotrabecular-Massive Hepatocellular Carcinoma and Evaluating Immune Status.",
-      "abstract": "RATIONALE AND OBJECTIVES: Macrotrabecular-Massive Hepatocellular Carcinoma (MTM-HCC) is characterized by strong invasiveness and poor prognosis, necessitating noninvasive preoperative identification methods. PURPOSE: To construct and validate a radiomics model for MTM-HCC prediction based on contrast-enhanced magnetic resonance imaging (CEMRI), and to explore its molecular and immune-related features. METHODS: A retrospective analysis was performed on CEMRI data of 209 pathologically confirmed hepatocellular carcinoma (HCC) patients (including 88 MTM-HCC cases), divided into a training set (146 cases) and a test set (63 cases) at a 7:3 ratio. For the first time, six radiomics models were constructed based on portal venous phase images obtained before and after super-resolution (SR) reconstruction, covering three feature combinations: intratumoral features, intratumoral + 5 mm peritumoral features, and intratumoral + 10 mm peritumoral features. The optimal model was integrated with clinical factors to construct a nomogram. Based on radiomics signature labels, risk stratification, molecular analysis, and immune infiltration analysis were conducted using transcriptomic data of 32 HCC patients from The Cancer Genome Atlas (TCGA) and Gene Set Variation Analysis (GSVA). RESULTS: The fusion model of intratumoral + 5 mm peritumoral features after super-resolution reconstruction (sup_IntraPeri5mm) showed the best performance, with area under the curve (AUC) values of 0.892 in the training set and 0.812 in the test set. The nomogram integrating the radiomics model with Child-Pugh class/score and protein induced by vitamin K absence or antagonist-II (PIVKA-II) further improved predictive efficacy (AUC = 0.906 in the training set, AUC = 0.853 in the test set). The high-risk group was enriched in angiogenesis, epithelial-mesenchymal transition (EMT), and inflammatory pathways, with increased infiltration of resting mast cells, suggesting a distinct immunosuppressive tumor microenvironment. CONCLUSION: This study establishes a noninvasive radiogenomic framework that can accurately predict MTM-HCC and reflect its molecular and immune characteristics, providing new insights for individualized diagnosis and therapeutic stratification.",
-      "journal": "Acad Radiol",
-      "date": "2026-08-31",
-      "authors": [
-        "Xiong Y",
-        "Zhao Y",
-        "Xie X",
-        "Zhao Y",
-        "Xiao X",
-        "Tang X",
-        "Li Y",
-        "Liu A"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1016/j.acra.2026.07.047",
-      "journal_tier": 2,
-      "impact": 3.8,
-      "section": "abdomen",
-      "score": 60.0,
-      "score_parts": {
-        "journal": 60,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": "GEREKÇE VE HEDEFLER: Makrotrabeküler-Masif Hepatoselüler Karsinom (MTM-HCC), güçlü invazivlik ve kötü prognoz ile karakterize olup, invaziv olmayan preoperatif tanımlama yöntemlerini gerektirir. AMAÇ: Kontrastlı manyetik rezonans görüntülemeye (CEMRI) dayalı MTM-HCC tahmini için bir radyomik model oluşturmak ve doğrulamak ve bunun moleküler ve bağışıklıkla ilgili özelliklerini araştırmak. YÖNTEMLER: Patolojik olarak doğrulanmış 209 hepatoselüler karsinom (HCC) hastasının (88 MTM-HCC vakası dahil) CEMRI verileri üzerinde retrospektif bir analiz yapıldı ve 7:3 oranında bir eğitim seti (146 vaka) ve bir test seti (63 vaka) ayrıldı. İlk kez, süper çözünürlüklü (SR) rekonstrüksiyondan önce ve sonra elde edilen portal venöz faz görüntülerine dayanarak üç özellik kombinasyonunu kapsayan altı radyomik model oluşturuldu: intratümöral özellikler, intratümöral + 5 mm peritümöral özellikler ve intratümöral + 10 mm peritümöral özellikler. Optimal model, bir nomogram oluşturmak için klinik faktörlerle entegre edildi. Radyomik imza etiketlerine dayanarak risk sınıflandırması, moleküler analiz ve immün infiltrasyon analizi, Kanser Genom Atlası (TCGA) ve Gen Seti Varyasyon Analizinden (GSVA) ​​32 HCC hastasının transkriptomik verileri kullanılarak gerçekleştirildi. SONUÇLAR: Süper çözünürlüklü rekonstrüksiyon (sup_IntraPeri5mm) sonrasında tümör içi + 5 mm peritümöral özelliklerin füzyon modeli, eğitim setinde 0,892 ve test setinde 0,812 olan eğri altındaki alan (AUC) değerleriyle en iyi performansı gösterdi. Radyomik modelini Child-Pugh sınıfı/skoruyla ve K vitamini yokluğu veya antagonist-II (PIVKA-II) tarafından indüklenen proteinle birleştiren nomogram, öngörücü etkinliği daha da geliştirdi (eğitim setinde AUC = 0,906, test setinde AUC = 0,853). Yüksek risk grubu, anjiyogenez, epitelyal-mezenkimal geçiş (EMT) ve inflamatuar yollarda zenginleşmiş olup, dinlenme mast hücrelerinin artan infiltrasyonu, farklı bir immünosüpresif tümör mikro ortamını düşündürmektedir. SONUÇ: Bu çalışma, MTM-HCC'yi doğru bir şekilde tahmin edebilen ve moleküler ve immün özelliklerini yansıtabilen, bireyselleştirilmiş tanı ve terapötik sınıflandırma için yeni bilgiler sağlayan, invazif olmayan bir radyogenomik çerçeve oluşturmaktadır."
-    },
-    {
-      "pmid": "42674933",
-      "title": "Performance of Frontier Large Language Models on an FRCR Part 1-Style Examination: A Comparative Study of Physics and Anatomy Modules.",
-      "abstract": "RATIONALE AND OBJECTIVES: This study aims to compare the performance of three frontier large language models on an Fellowship of the Royal College of Radiologists (FRCR) Part 1-style examination comprising physics and image-based anatomy modules. MATERIALS AND METHODS: GPT-5.4 Thinking, Gemini 3.1 Pro, and Claude Opus 4.6 were evaluated using a custom FRCR Part 1-style examination. The physics module included 40 true/false questions comprising 200 independently scored statements, while the anatomy module included 100 image-based questions scored on a 0-2 scale. Both modules were structured according to the published FRCR Part 1 topic and modality distributions and were reviewed by two radiologists who had previously passed the examination. Model performance was compared using Cochran's Q and exact McNemar tests for physics and Friedman and Wilcoxon signed-rank tests for anatomy. RESULTS: Physics scores were 195/200 for Claude, 189/200 for GPT, and 187/200 for Gemini (overall P = 0.018). After Holm correction, Claude outperformed Gemini (adjusted P = 0.023), whereas the other pairwise differences were not significant. Anatomy scores were 160/200 for Gemini, 137/200 for GPT, and 83/200 for Claude (overall P < 0.001); all pairwise comparisons remained significant after Holm correction (adjusted P ≤ 0.038). CONCLUSION: In this custom FRCR Part 1-style assessment, large language models performed strongly on text-based physics questions but showed more variable performance on image-based anatomy, supporting their potential educational role while highlighting persistent limitations in precise anatomical localization.",
-      "journal": "Acad Radiol",
-      "date": "2026-08-31",
-      "authors": [
-        "Güzel HE",
-        "Ünverdi B"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1016/j.acra.2026.08.077",
-      "journal_tier": 2,
-      "impact": 3.8,
-      "section": "girisim",
-      "score": 60.0,
-      "score_parts": {
-        "journal": 60,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": "GEREKÇE VE HEDEFLER: Bu çalışma, fizik ve görüntü tabanlı anatomi modüllerini içeren Kraliyet Radyologlar Koleji (FRCR) Bölüm 1 tarzı incelemede üç sınır büyük dil modelinin performansını karşılaştırmayı amaçlamaktadır. MATERYALLER VE YÖNTEMLER: GPT-5.4 Thinking, Gemini 3.1 Pro ve Claude Opus 4.6, özel bir FRCR Bölüm 1 tarzı inceleme kullanılarak değerlendirildi. Fizik modülü, bağımsız olarak puanlanan 200 ifadeden oluşan 40 doğru/yanlış soru içerirken, anatomi modülü, 0-2 ölçeğinde puanlanan 100 görüntü tabanlı soru içeriyordu. Her iki modül de yayınlanan FRCR Bölüm 1 konu ve modalite dağılımlarına göre yapılandırılmıştır ve daha önce sınavı geçen iki radyolog tarafından incelenmiştir. Model performansı, fizik için Cochran'ın Q ve kesin McNemar testleri ve anatomi için Friedman ve Wilcoxon işaretli sıra testleri kullanılarak karşılaştırıldı. SONUÇLAR: Fizik puanları Claude için 195/200, GPT için 189/200 ve Gemini için 187/200 idi (genel P = 0,018). Holm düzeltmesinden sonra Claude Gemini'den daha iyi performans gösterdi (düzeltilmiş P = 0,023), oysa diğer ikili farklar anlamlı değildi. Anatomi puanları Gemini için 160/200, GPT için 137/200 ve Claude için 83/200 idi (genel P <0,001); Holm düzeltmesinden sonra tüm ikili karşılaştırmalar anlamlı kaldı (düzeltilmiş P≤0,038). SONUÇ: Bu özel FRCR Bölüm 1 tarzı değerlendirmede, büyük dil modelleri metin tabanlı fizik sorularında güçlü bir performans gösterdi ancak görüntü tabanlı anatomide daha değişken performans göstererek, kesin anatomik lokalizasyondaki kalıcı sınırlamaları vurgularken potansiyel eğitimsel rollerini destekledi."
-    },
-    {
-      "pmid": "42670037",
-      "title": "Multi-modal direct LINAC parameter prediction for pancreatic VMAT: An optimization-free approach.",
-      "abstract": "BACKGROUND: Pancreatic cancer Volumetric Modulated Arc Therapy (VMAT) planning presents a significant dosimetric challenge due to the high-dose gradients required to spare adjacent, radiosensitive organs at risk (OARs) like the stomach and duodenum. This anatomical complexity has limited the scope of automated planning for this site. Broadly, while deep learning (DL) has been introduced to streamline treatment planning, most existing models only predict intermediate outputs, such as dose distributions or fluence maps, which still necessitate a subsequent, computationally expensive inverse optimization step on a treatment planning system. PURPOSE: To address these challenges, we aim to develop an optimization-free fully automated VMAT planning framework for pancreatic cancer. As a key component of this system, this study introduces a DL model designed to directly generate machine parameters from dose distributions and anatomical contours. METHODS: A total of 200 vmat plans for pancreatic cancer (prescription: 42 Gy in 15 fractions) were retrospectively collected. The dataset was randomly split into training (n = 170), validation (n = 10), and testing (n = 20) sets. The proposed Multi-modal, Attention & Transformer-Enhanced U-Net (MATE-UNet) utilizes beam's-eye-view (BEV) projections of the reference dose distribution and anatomical contours to directly predict machine-executable multi-leaf collimator (MLC) apertures and Monitor Units (MUs). The proposed model was benchmarked against baseline U-Nets (using contour-only, dose-only, and combined inputs) on the testing set. Model accuracy was assessed using the Dice Similarity Coefficient (DSC) for MLC and Mean Absolute Error (MAE) for MU, while plan quality was evaluated using clinical dose-volume histogram (DVH) metrics and Conformity Index (CI), Homogeneity Index (HI), and Gradient Index (GI). RESULTS: MATE-UNet achieved a clinical acceptance rate of 100% (20/20), compared to 70% for the best-performing baseline model. In terms of prediction accuracy, the proposed model achieved a DSC of 0.9553 ± 0.0042 for MLC apertures and an MAE of 1.960 ± 0.396 for MU. Dosimetric evaluation demonstrated that, relative to the reference plans, MATE-UNet maintained comparable target coverage, CI (0.773), and HI (0.100), while achieving a significantly improved GI (3.732, p < 0.05). Furthermore, MATE-UNet significantly reduced the V39Gy of the stomach and duodenum, as well as the global maximum dose, compared with the baseline models (p < 0.05). CONCLUSIONS: This study demonstrates the feasibility of MATE-UNet for the direct prediction of VMAT machine parameters without iterative optimization. By leveraging multi-modal BEV inputs and a Transformer-enhanced architecture, the proposed framework represents a valuable step toward bridging the gap between dose distributions and clinically usable treatment plans. Although an additional normalization step is required to determine the absolute MUs, MATE-UNet has the potential to serve as a downstream component of a future fully automated anatomy-to-plan pipeline.",
-      "journal": "Med Phys",
-      "date": "2026-09",
-      "authors": [
-        "Guan Z",
-        "Shimizu Y",
-        "Iwai T",
-        "Yoshimura M",
-        "Mizowaki T",
-        "Nakamura M"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1002/mp.70656",
-      "journal_tier": 2,
-      "impact": 3.8,
-      "section": "abdomen",
-      "score": 60.0,
-      "score_parts": {
-        "journal": 60,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42670024",
-      "title": "Machine Model-Specific Delivery Sequence Optimization for Spot-scanning Proton Arc Therapy Using a Compact Superconducting Synchrocyclotron.",
-      "abstract": "BACKGROUND: Spot scanning proton arc therapy (SPArc) combines the dosimetric advantages of proton therapy with the beam-angle freedom of arc delivery. However, current planning algorithms rely on static delivery assumptions that do not account for the temporal characteristics of pulsed-beam synchrocyclotron systems during continuous gantry rotation. This mismatch between nominal plans and actual treatment delivery may lead to clinically meaningful dose deviations. PURPOSE: To develop and evaluate a dynamic arc delivery sequencing optimization framework that incorporates machine-specific delivery characteristics to minimize deviations between planned and delivered dose in SPArc. METHODS: A five-step dynamic arc delivery sequencing optimization framework was developed. The framework includes: (1) static and dynamic delivery time calculation, (2) spot and energy-layer disassembling, (3) incorporation of dynamic delivery timing into control points, (4) spot-weight fine-tuning, and (5) reconstruction of energy-layer sequences. Five multi-metastatic brain stereotactic radiosurgery cases were retrospectively evaluated. Delivery accuracy, efficiency and plan quality were assessed using virtual machine logfiles. RESULTS: The sequencing optimization framework substantially improved delivery accuracy while preserving plan quality and efficiency. For the total gross tumor volume, the mean absolute D98 deviation between planned and virtual logfile reconstructed doses decreased from 77.4 ± 81.0 cGyE (4.2 ± 4.5%) with static SPArc plans to 9.6 ± 4.0 cGyE (0.5 ± 0.2%) after sequencing optimization. For the worst metastasis in each case, D98 deviation decreased from 184.4 ± 145.2 cGyE (9.8 ± 7.9%) to 19.0 ± 16.4 cGyE (1.0 ± 0.8%), and D2 deviation decreased from 148.4 ± 114.4 cGyE (6.8 ± 5.6%) to 13.2 ± 8.6 cGyE (0.6 ± 0.4%). Target coverage and normal brain sparing remained statistically unchanged (p > 0.05), and total delivery times differed by < 1 s. CONCLUSIONS: The proposed sequencing optimization framework addresses the temporal mismatch between static SPArc planning and dynamic delivery in synchrocyclotron-based systems. By improving delivery accuracy without compromising plan quality or delivery efficiency, the framework demonstrates the feasibility of incorporating machine-specific delivery timing into dynamic proton arc therapy.",
-      "journal": "Med Phys",
-      "date": "2026-09",
-      "authors": [
-        "Liu P",
-        "Zhao L",
-        "Cong X",
-        "Liu G",
-        "Li X",
-        "Ding X"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1002/mp.70658",
-      "journal_tier": 2,
-      "impact": 3.8,
-      "section": "neuro",
-      "score": 60.0,
-      "score_parts": {
-        "journal": 60,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": "AMAÇ: Nokta taramalı proton ark tedavisi (SPARc), proton tedavisinin dozimetrik avantajlarını ark iletiminin ışın açısı özgürlüğü ile birleştirir. Bununla birlikte, mevcut planlama algoritmaları, sürekli portal dönüşü sırasında darbeli ışın senkrosiklotron sistemlerinin zamansal özelliklerini hesaba katmayan statik dağıtım varsayımlarına dayanmaktadır. Nominal planlar ile fiili tedavi uygulaması arasındaki bu uyumsuzluk, klinik olarak anlamlı doz sapmalarına yol açabilir. AMAÇ: SPArc'ta planlanan ve iletilen doz arasındaki sapmaları en aza indirmek için makineye özgü dağıtım özelliklerini içeren bir dinamik ark dağıtım sıralama optimizasyon çerçevesi geliştirmek ve değerlendirmek. YÖNTEMLER: Beş adımlı bir dinamik yay dağıtım sıralama optimizasyon çerçevesi geliştirildi. Çerçeve şunları içerir: (1) statik ve dinamik teslimat süresi hesaplaması, (2) spot ve enerji katmanının ayrıştırılması, (3) dinamik dağıtım zamanlamasının kontrol noktalarına dahil edilmesi, (4) spot ağırlık ince ayarı ve (5) enerji katmanı dizilerinin yeniden yapılandırılması. Beş multimetastatik beyin stereotaktik radyocerrahisi vakası retrospektif olarak değerlendirildi. Teslimat doğruluğu, verimlilik ve plan kalitesi sanal makine günlük dosyaları kullanılarak değerlendirildi. SONUÇLAR: Sıralama optimizasyon çerçevesi, plan kalitesini ve verimliliğini korurken teslimat doğruluğunu önemli ölçüde artırdı. Toplam brüt tümör hacmi için, planlanan ve sanal günlük dosyasıyla yeniden oluşturulan dozlar arasındaki ortalama mutlak D98 sapması, statik SPArc planlarıyla 77,4±81,0 cGyE'den (%4,2±4,5) sıralama optimizasyonundan sonra 9,6±4,0 cGyE'ye (%0,5±0,2) düştü. Her vakadaki en kötü metastaz için, D98 sapması 184,4±145,2 cGyE'den (%9,8±7,9) 19,0±16,4 cGyE'ye (%1,0±0,8) düştü ve D2 sapması 148,4±114,4 cGyE'den (%6,8±%5,6) düştü 13,2 ± 8,6 cGyE (%0,6±0,4). Hedef kapsamı ve normal beyin koruması istatistiksel olarak değişmeden kaldı (p > 0,05) ve toplam teslimat süreleri < 1 saniye farklılık gösterdi. SONUÇLAR: Önerilen sıralama optimizasyon çerçevesi, senkrosiklotron tabanlı sistemlerde statik SPArc planlaması ile dinamik dağıtım arasındaki zamansal uyumsuzluğu giderir. Plan kalitesinden veya teslimat verimliliğinden ödün vermeden teslimat doğruluğunu geliştiren çerçeve, makineye özel teslimat zamanlamasının dinamik proton ark terapisine dahil edilmesinin fizibilitesini ortaya koyuyor."
-    },
-    {
-      "pmid": "42670019",
-      "title": "CT texture phantom dataset with paired image quality assessments for quantitative imaging.",
-      "abstract": "To establish a public repository of computed tomography (CT) texture phantom images paired with objective 3D image quality measurements from multiple scanner models using a diverse range of imaging protocols, facilitating investigations into relationships between image quality and quantitative imaging features. Three specialized CT phantoms were scanned: (1) the Corgi® phantom for image quality assessment, (2) a radiomics liver phantom, and (3) an open-source 3D-printed texture phantom. Image quality assessment included measurement of contrast-to-noise ratio, 3D modulation transfer function, and 3D noise power spectrum. Data were acquired on four CT scanner models from two manufacturers at five CTDI v o l   levels (2.05-17.11 mGy) and reconstructed with eight different kernels, yielding 160 total conditions (combinations of scanner, dose, kernel). Data were validated for integrity and completeness, resulting in the exclusion of six conditions. The paired texture phantom and image quality (PTP-IQ) dataset includes: (1) DICOM image series of two texture phantoms acquired across the 154 conditions, as well as (2) image quality metrics derived from each corresponding set of scanner, acquisition and reconstruction settings provided in HDF5 format. This dataset enables the development and validation of harmonization methods for multi-center quantitative imaging studies, investigation of protocol-dependent QIF variability, and optimization of acquisition protocols for radiomics applications. The controlled and systematic study design facilitates isolation of individual protocol effects on quantitative measurements.",
-      "journal": "Med Phys",
-      "date": "2026-09",
-      "authors": [
-        "Daly MA",
-        "Hoffman JM",
-        "Hernandez AM",
-        "Uneri A",
-        "Varghese BA",
-        "Levy J",
-        "McNitt-Gray MF"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1002/mp.70633",
-      "journal_tier": 2,
-      "impact": 3.8,
-      "section": "abdomen",
-      "score": 60.0,
-      "score_parts": {
-        "journal": 60,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42242824",
-      "title": "Artificial Intelligence Readiness is Now an Educational Obligation.",
-      "abstract": "[Abstract not available]",
-      "journal": "Acad Radiol",
-      "date": "2026-07",
-      "authors": [
-        "Chen PH"
-      ],
-      "pubtypes": [
-        "Editorial"
-      ],
-      "doi": "10.1016/j.acra.2026.02.032",
-      "journal_tier": 2,
-      "score": 35.0,
-      "score_parts": {
-        "journal": 60,
-        "pubtype": -25,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "impact": 3.8,
-      "section": "yapayzeka"
-    },
-    {
-      "pmid": "42674934",
-      "title": "Are Metabolic Imaging Biomarkers Ready for Clinical Translation in BRAF/MEK-Targeted Melanoma Therapy?",
-      "abstract": "",
-      "journal": "Acad Radiol",
-      "date": "2026-08-31",
-      "authors": [
-        "Sahin A",
-        "Gutara MY",
-        "Rizanty R",
-        "Hesta OY"
-      ],
-      "pubtypes": [
-        "Letter"
-      ],
-      "doi": "10.1016/j.acra.2026.08.026",
-      "journal_tier": 2,
-      "impact": 3.8,
-      "section": "genel",
-      "score": 30.0,
-      "score_parts": {
-        "journal": 60,
-        "pubtype": -30,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42295942",
-      "title": "Free-Breathing Dynamic, Regularized, Adaptive Cluster Optimization (DRACO) Cine Cardiac MRI in Atrial Fibrillation.",
-      "abstract": "Existing strategies for free-breathing cine cardiac MR, including real-time imaging, struggle with complex arrhythmias such as atrial fibrillation (AF). Dynamic regularized adaptive clustering optimization (DRACO) has been proposed to generate high-quality and quantifiable breath-held cine images for patients in AF.  To tailor DRACO for free-breathing and evaluate its potential to simultaneously handle cardiac and respiratory motion.  Prospective.  10 sinus rhythm (10 males), 20 AF (18 males).  3.0 T, balanced steady-state free precession (bSSFP) with sorted golden-step, ECG-gated segmented cine, and real-time.  Patients were imaged using the golden-step sequence under breath-held and free-breathing conditions, and the reference bSSFP cine sequence. Signal-to-noise ratio (SNR), contrast-to-noise ratio (CNR), edge sharpness, and image quality (4-point Likert scale) were assessed.  Paired t-test, Friedman test, regression analysis, Fleiss' Kappa. Significance level p < 0.05.  The SNR and CNR values of DRACO images showed no significant differences between breath-held and free-breathing conditions in both sinus rhythm (SNR p = 0.53; CNR p = 0.87) and in AF (SNR p = 0.56; CNR p = 0.55). Image sharpness was not significantly different between breath-held and free-breathing in both sinus rhythm (p = 0.24) and AF (p = 0.79). In AF patients, breath-held DRACO and free-breathing DRACO had significantly higher image quality scores than real-time cine. In sinus rhythm patients, there was no significant difference (p = 0.13) between breath-held or free-breathing DRACO and segmented cine. Despite significant within-patient ejection fraction (EF) differences between breath-held versus free-breathing in 80% of sinus rhythm and 70% of AF patients, the average EF between breath-held versus free-breathing DRACO showed high correlation (sinus rhythm R = 0.71; AF R = 0.71), demonstrating DRACO's robustness to motion variation.  DRACO is robust to respiratory motion and AF-related irregular cardiac motion. It enables high-quality cine image generation in both regular and irregular cardiac motion, with or without breath holding.  Stage 2.",
-      "journal": "J Magn Reson Imaging",
-      "date": "2026-06-15",
-      "authors": [
-        "Ming Z",
-        "Pogosyan A",
-        "Dong X",
-        "Finn JP",
-        "Ruan D",
-        "Christodoulou AG",
-        "Nguyen KL"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1002/jmri.70379",
-      "journal_tier": 2,
-      "score": 68.0,
-      "score_parts": {
-        "journal": 60,
-        "pubtype": 0,
-        "recency": 8.0
-      },
-      "tier": 3,
-      "impact": 3.3,
-      "section": "nukleer"
-    },
-    {
-      "pmid": "42288334",
-      "title": "Neuroimaging within an Evolving Stroke Care Paradigm: A Year in Review - Updates from the March 2026 Brain Attack Coalition Meeting.",
-      "abstract": "Neuroimaging is a central component of the acute stroke care workflow. At the March 2026 Brain Attack Coalition (BAC), discussion centered on changes in practice within modern stroke systems and accessibility of imaging. The primary focus of this discussion was addressing the core imaging requirements of Primary Stroke Centers (PSC). Additional points of discussion include the role of perfusion imaging, growing evidence of neuroimaging's utility in distal medium vessel occlusion (DMVO) stroke, pediatric neuroimaging considerations, and the role of artificial intelligence (AI) within the stroke imaging workflow to support timely care delivery for afflicted patients.  This State of Practice reflects a multidisciplinary expert consensus process convened by the BAC in March 2026, including representatives from neuroradiology, neurology, interventional specialties, and the NIH. The BAC reviewed the latest literature and how those impact the prior BAC recommendations. A point of emphasis was the feasibility of imaging across environments of different resource levels. These deliberations reached consensus through exhaustive evaluation of workflow efficiency, equity of access, and clinical applicability. AI was arguably the most deliberated topic, where discussion mainly focused on which components of imaging could be expedited.  Noncontrast CT and CT angiography are considered essential at PSCs. Use of advanced imaging, such as perfusion imaging and MRI, is strongly recommended but not required in order to account for resource variability across centers. Imaging remains a central component of the stroke workflow but must facilitate treatment decisions while maintaining flexibility in modality choice based on institutional capabilities. Emerging tools such as AI show promise and can provide supportive value but must be implemented with caution. Overall, the consensus of the BAC was to focus on feasibility and access across centers with respect to mandatory imaging capabilities, while also recognizing the utility of advanced imaging and potentially AI as well.",
-      "journal": "AJNR Am J Neuroradiol",
-      "date": "2026-06-13",
-      "authors": [
-        "Yedavalli VS",
-        "Jensen ML"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.3174/ajnr.A9476",
-      "journal_tier": 2,
-      "score": 64.0,
-      "score_parts": {
-        "journal": 60,
-        "pubtype": 0,
-        "recency": 4.0
-      },
-      "tier": 3,
-      "impact": 3.3,
-      "section": "girisim"
-    },
-    {
-      "pmid": "42288333",
-      "title": "Item-Level Evaluation of Multimodal Large Language Models in Neuroradiology: Generational Performance and Execution Variability.",
-      "abstract": "Multimodal large language models have demonstrated consistent generational improvements on medical benchmark tasks, including radiology applications. However, whether these gains represent meaningful convergence toward the expert reference performance in subspecialty imaging domains such as neuroradiology remains uncertain, particularly when evaluated using item-level, human-referenced designs.  We compared expert neuroradiologists, radiology residents, and four vision-capable large language models (GPT-4, GPT-5, Gemini 1.5, Gemini 2.5) using 106 image-based neuroradiology multiple-choice questions derived from Radiopaedia. Analyses were conducted at the question (item) level, preserving within-question pairing across groups. Mean accuracy differences were estimated using non-parametric bootstrap 95% confidence intervals, and statistical inference was performed using paired permutation tests restricted to pre-specified contrasts with false discovery rate correction for primary comparisons. Repeated model executions were analyzed to characterize execution-level variability. Performance was further contextualized against Radiopaedia community accuracy as a community-level reference.  Expert neuroradiologists achieved the highest mean item-level accuracy (0.915; 95% confidence interval, 0.877-0.953). Second-generation models demonstrated improved mean accuracy relative to earlier versions and approximated or exceeded resident-level performance in selected comparisons. However, a substantial gap relative to the expert reference persisted. GPT-5 and Gemini 2.5 underperformed the expert reference by mean per-item differences of -0.236 and -0.217, respectively. When contextualized against the community-level reference, advanced models aligned more closely with aggregate learner performance than with the expert reference accuracy. Improvements in mean accuracy were not uniformly accompanied by improved execution consistency.  Although multimodal large language models show meaningful generational gains on neuroradiology tasks, these improvements do not constitute convergence toward the expert reference performance. Item-level, paired, human-referenced evaluation provides critical context for interpreting benchmark performance and helps distinguish apparent performance gains from true alignment with the expert reference. Importantly, relative stability in aggregate accuracy does not necessarily imply reliability at the level of individual decisions, underscoring the need to assess both performance magnitude and execution-level consistency.",
-      "journal": "AJNR Am J Neuroradiol",
-      "date": "2026-06-13",
-      "authors": [
-        "Ojeda-Esparza JF",
-        "Yun YC",
-        "Meinzer C",
-        "Santarosa C",
-        "Botta D",
-        "Fitsiori A",
-        "Pucci M",
-        "Scheffler M",
-        "Vrancsik N",
-        "Reith N",
-        "Lövblad KO",
-        "Kurz FT"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.3174/ajnr.A9477",
-      "journal_tier": 2,
-      "score": 64.0,
-      "score_parts": {
-        "journal": 60,
-        "pubtype": 0,
-        "recency": 4.0
-      },
-      "tier": 3,
-      "impact": 3.3,
-      "section": "girisim"
-    },
-    {
-      "pmid": "42669028",
-      "title": "Intracranial Cerebrovascular Characteristics Associated With Long-Term Endurance Exercise and Age-Related Changes: A 4D Flow MRI Study.",
-      "abstract": "BACKGROUND: Cerebrovascular aging is characterized by progressive reductions in cerebral blood flow and vascular compliance. Although long-term endurance exercise has been associated with improved brain health, its relationship with cerebrovascular aging remains incompletely understood. PURPOSE: To assess associations between long-term endurance exercise and intracranial arterial structural and hemodynamic characteristics, and to determine whether these associations differ with age. STUDY TYPE: Prospective cross-sectional study. POPULATION: Fifty-one endurance runners (≥ 5 h/week endurance exercise for ≥ 3 years) and 51 matched sedentary controls. FIELD STRENGTH/SEQUENCE: Intracranial four-dimensional velocity-encoded gradient echo sequence (4D Flow MRI) at 3.0 T. ASSESSMENT: Luminal cross-sectional area, blood flow, pulsatility index (PI), and resistive index (RI) were quantified in the bilateral internal carotid arteries and basilar artery. Total cerebral blood flow (TCBF) was calculated from these vessels. STATISTICAL TESTS: Univariable analysis was used to compare groups. Multivariable linear regression and linear mixed-effects models were used to assess associations of age and long-term endurance exercise with cerebrovascular structural and hemodynamic parameters, with additional testing for age-by-exercise interactions. A p value < 0.05 was considered significant. RESULTS: Endurance runners had significantly higher TCBF than sedentary controls (586.2 ± 85.7 vs. 540.7 ± 85.6 mL/min). Older age was independently associated with lower cerebral blood flow (β = -2.636 mL/min per year) and higher PI (β = 0.003 per year), whereas long-term endurance exercise was independently associated with larger luminal cross-sectional area (β = 1.119 mm2) and higher TCBF (β = 52.929 mL/min) and higher vessel-level blood flow (β = 19.313 mL/min). In addition, endurance exercise was associated with higher RI (β = 0.054) but not PI (β = 0.026). No significant age-by-exercise interactions were observed. DATA CONCLUSION: Long-term endurance exercise was associated with larger intracranial arterial luminal dimensions and higher cerebral blood flow, without significant differences in age-related hemodynamic changes between groups. STAGE OF TECHNICAL EFFICACY: 2.",
-      "journal": "J Magn Reson Imaging",
-      "date": "2026-08-30",
-      "authors": [
-        "Tang M",
-        "Wang Z",
-        "Yang D",
-        "Liu J",
-        "Jia F",
-        "Jiang J",
-        "Yan J",
-        "Liu G",
-        "Jiang Y",
-        "Yue S",
-        "Ma Y",
-        "Xiong Y",
-        "Zhang J"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1002/jmri.70520",
-      "journal_tier": 2,
-      "impact": 3.3,
-      "section": "neuro",
-      "score": 60.0,
-      "score_parts": {
-        "journal": 60,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42675316",
-      "title": "Pre-Scan Breathing Pattern and Image Quality in Respiratory-Triggered T2-Weighted Liver MRI: Radial Versus Cartesian Fast Spin Echo.",
-      "abstract": "BACKGROUND: Respiratory-triggered T2-weighted imaging (T2WI) may use rectilinear sampling (respiratory-triggered fast recovery fast spin echo [RT-FRFSE]) or radial sampling (periodically rotated overlapping parallel lines with enhanced reconstruction [PROPELLER]). Their relative performance across breathing patterns is unclear. PURPOSE: To compare image quality of PROPELLER and RT-FRFSE according to pre-scan breathing pattern. STUDY TYPE: Retrospective. SUBJECTS: 200 patients undergoing liver MRI (124 males; mean age, 58.1 ± 13.3 years). FIELD STRENGTH/SEQUENCE: 1.5 T; fat-suppressed T2WI using PROPELLER and RT-FRFSE, both respiratory-triggered. ASSESSMENT: Patients were stratified by pre-scan respiratory rate and regularity: Group A (regular, ≤ 14 breaths/min, n = 49), B (15-17, n = 57), C (≥ 18, n = 49), D (irregular, n = 45). Three radiologists, blinded to respiratory group, graded ghost artifacts, sharpness, noise, and overall quality on five-point scales. Liver signal-to-noise (SNR) and liver-to-gallbladder contrast-to-noise ratios (CNR) were measured. STATISTICAL TESTS: Wilcoxon signed-rank test with Holm correction; Kruskal-Wallis analysis of within-patient difference scores and a linear mixed-effects model for SNR/CNR interactions; quadratic weighted kappa and intraclass correlation coefficient for interobserver agreement. p < 0.05 indicated significance. RESULTS: In Groups A and B, RT-FRFSE scored higher qualitatively, except ghost artifacts in Group A (p = 0.197). In Groups C and D, PROPELLER was superior (overall quality 3.96 vs. 3.41 and 3.93 vs. 3.01). Quantitatively (PROPELLER vs. RT-FRFSE), median SNR was 79.2 vs. 95.6 (A) and 70.0 vs. 58.6 (C), and median CNR 57.6 vs. 64.4 (A) and 55.5 vs. 42.7 (D); SNR did not differ in Groups B (p = 0.504) or D (p = 0.480), and CNR did not differ in Groups B or C (both p = 1.000). Interobserver agreement was substantial to almost perfect (kappa: 0.64-0.83; ICC: 0.89-0.93). DATA CONCLUSION: RT-FRFSE performed better with slower, regular breathing and PROPELLER with faster or irregular breathing. Pre-scan respiratory assessment may inform sequence selection. EVIDENCE LEVEL: 3. TECHNICAL EFFICACY: Stage 1.",
-      "journal": "J Magn Reson Imaging",
-      "date": "2026-08-31",
-      "authors": [
-        "Park HS",
-        "Huh J",
-        "Lee K",
-        "Lee HS",
-        "Park H",
-        "Kim KW",
-        "Kim JK"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1002/jmri.70528",
-      "journal_tier": 2,
-      "impact": 3.3,
-      "section": "abdomen",
-      "score": 60.0,
-      "score_parts": {
-        "journal": 60,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": "ARKA PLAN: Solunumla tetiklenen T2 ağırlıklı görüntüleme (T2WI), doğrusal örnekleme (solunumla tetiklenen hızlı iyileşme hızlı dönüş eko [RT-FRFSE]) veya radyal örnekleme (periyodik olarak döndürülmüş, üst üste binen paralel çizgiler ile gelişmiş yeniden yapılanma [PROPELLER]) kullanabilir. Solunum düzenlerindeki göreceli performansları belirsizdir. AMAÇ: PERVANE ve RT-FRFSE'nin görüntü kalitesini tarama öncesi nefes alma düzenine göre karşılaştırmak. ÇALIŞMA TÜRÜ: Retrospektif. KONULAR: Karaciğer MR'ı çekilen 200 hasta (124 erkek; ortalama yaş, 58,1 ± 13,3 yıl). ALAN GÜCÜ/SIRASI: 1,5 T; Her ikisi de solunumla tetiklenen PROPELLER ve RT-FRFSE kullanılarak yağ baskılanmış T2WI. DEĞERLENDİRME: Hastalar tarama öncesi solunum hızı ve düzenliliğine göre sınıflandırıldı: Grup A (düzenli, ≤ 14 nefes/dakika, n = 49), B (15-17, n = 57), C (≥ 18, n = 49), D (düzensiz, n = 45). Solunum grubuna kör olan üç radyolog, hayalet artefaktları, keskinliği, gürültüyü ve genel kaliteyi beş puanlık ölçeklerde derecelendirdi. Karaciğer sinyal-gürültü (SNR) ve karaciğer-safra kesesi kontrast-gürültü oranları (CNR) ölçüldü. İSTATİSTİKSEL TESTLER: Holm düzeltmeli Wilcoxon işaretli sıra testi; Hasta içi fark puanlarının Kruskal-Wallis analizi ve SNR/CNR etkileşimleri için doğrusal bir karma etki modeli; gözlemciler arası uyum için ikinci dereceden ağırlıklı kappa ve sınıf içi korelasyon katsayısı. p < 0,05 anlamlılığı gösterdi. BULGULAR: Grup A ve B'de RT-FRFSE, Grup A'daki hayalet artefaktlar dışında niteliksel olarak daha yüksek puan aldı (p = 0,197). Grup C ve D'de PROPELLER üstündü (genel kalite 3,96'ya karşı 3,41 ve 3,93'e karşı 3,01). Niceliksel olarak (PROPELLER - RT-FRFSE), medyan SNR 79,2'ye karşı 95,6 (A) ve 70,0'a karşı 58,6 (C) ve medyan CNR 57,6'ya karşı 64,4 (A) ve 55,5'e karşı 42,7 (D) idi; SNR, Grup B (p = 0,504) veya D'de (p = 0,480) farklılık göstermedi ve CNR, Grup B veya C'de (her ikisi de p = 1,000) farklılık göstermedi. Gözlemciler arası uyum önemli ila neredeyse mükemmel arasındaydı (kappa: 0,64-0,83; ICC: 0,89-0,93). VERİ SONUCU: RT-FRFSE daha yavaş, düzenli nefes almayla ve PROPELLER daha hızlı veya düzensiz nefes almayla daha iyi performans gösterdi. Tarama öncesi solunum değerlendirmesi dizi seçimi konusunda bilgi verebilir. KANIT DÜZEYİ: 3. TEKNİK YETERLİLİK: Aşama 1."
-    },
-    {
-      "pmid": "42674967",
-      "title": "Decadal Trends in Emergency Department Head and Neck CTA Utilization: A Comprehensive Analysis of Volume, Trauma, and Clinical Severity.",
-      "abstract": "BACKGROUND AND PURPOSE: Neuroradiology services report rising ED CTA head and neck demand. Although late-window thrombectomy trials increased interest in perfusion-based selection, relative growth of CTA head and neck versus CT perfusion (CTP), and how these trends compare with overall neuro-ED imaging volume, ED throughput, and coverage periods, remains incompletely characterized. We evaluated decade-long neuro-ED imaging trends at a tertiary care academic medical center. MATERIALS AND METHODS: Retrospective observational study including all neuroradiology ED examinations from two hospital ED sites from fiscal years (FY) 2016-2025. Primary outcomes included annual CTA head, CTA neck, and CTP volumes; their proportions of total neuro-ED imaging; examinations per ED encounter; and (CTA head + CTA neck)-to-CTP ratio. Encounter-normalized trends for FY2016-FY2025 were modeled using negative binomial regression. Coverage-period distribution was assessed using CTA exam-code rates per hour during regular versus on-call hours. Secondary clinical-context sub-analyses assessed baseline National Institutes of Health Stroke Scale (NIHSS) and large language model (LLM)-assisted report abstraction for indications and large vessel occlusion (LVO) yield. RESULTS: Across 303,753 neuro-ED examinations, ED encounters increased modestly from FY2016 to FY2025 (+11%, 108,948 to 121,288), while neuro-ED imaging more than doubled (+111%, 20,087 to 42,398). Combined CTA head and neck examination-code volume increased 8.5-fold (745 in FY2016 to 6,317 in FY2025). Share of CTA head and neck rose from 3.7% (745/20,087) to 14.9% (6,317/42,398) of neuro-ED imaging. Encounter-normalized utilization increased significantly for CTA head and neck (incidence rate ratio [IRR] per FY 1.22 and 1.20, respectively; both p<0.001) but did not change significantly for CTP (IRR 1.00). (CTA head + CTA neck)-to-CTP ratio increased from 4.2 in FY2018 to 9.9 in FY2025. CTA rates per hour increased during both regular and on-call coverage without differential growth. Secondary exploratory analyses suggested increasing CTA use in NIHSS 0 presentations and declining LVO yield. CONCLUSIONS: Over a decade at a tertiary academic center, ED CTA head and neck volumes rose sharply, outpacing ED throughput, overall neuro-ED imaging growth, and CTP utilization. CTA demand increased similarly across regular and on-call periods, underscoring escalating after-hours operational burden and implications for neuroradiology coverage models.",
-      "journal": "AJNR Am J Neuroradiol",
-      "date": "2026-08-31",
-      "authors": [
-        "Sakai Y",
-        "Hassankhani A",
-        "Lyo S",
-        "Venkataraman A",
-        "Jha M",
-        "Pogozelski A",
-        "Demasi J",
-        "Lewis GL",
-        "Ferretti L",
-        "Thomas D",
-        "Waters D",
-        "Mohan S"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.3174/ajnr.A9616",
-      "journal_tier": 2,
-      "impact": 3.3,
-      "section": "girisim",
-      "score": 60.0,
-      "score_parts": {
-        "journal": 60,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": "ARKA PLAN VE AMAÇ: Nöroradyoloji hizmetleri, acil servis CTA baş ve boyun talebinin arttığını bildiriyor. Her ne kadar geç pencere trombektomi çalışmaları perfüzyon bazlı seçime olan ilgiyi arttırmış olsa da, BT perfüzyonuna (CTP) kıyasla BTA baş ve boyundaki göreceli büyüme ve bu eğilimlerin genel nöro-ED görüntüleme hacmi, ED verimi ve kapsama süreleri ile nasıl karşılaştırılacağı henüz tam olarak tanımlanmamıştır. Üçüncü basamak bir akademik tıp merkezinde on yıl süren nöro-ED görüntüleme trendlerini değerlendirdik. MATERYALLER VE YÖNTEMLER: 2016-2025 mali yıllarına (MY) ait iki hastanenin acil servis merkezindeki tüm nöroradyoloji acil servis muayenelerini içeren retrospektif gözlemsel çalışma. Birincil sonuçlar yıllık CTA başı, CTA boynu ve CTP hacimlerini içeriyordu; toplam nöro-ED görüntüleme oranları; Acil Servis karşılaşması başına muayeneler; ve (CTA kafası + CTA boynu)-CTP oranı. 2016-2025 Mali Yılı için karşılaşmaya göre normalleştirilmiş eğilimler, negatif binom regresyon kullanılarak modellendi. Kapsama süresi dağılımı, normal ve çağrı sırasında saat başına CTA sınav kodu oranları kullanılarak değerlendirildi. İkincil klinik bağlam alt analizleri, temel Ulusal Sağlık İnme Ölçeği Enstitüleri (NIHSS) ve endikasyonlar ve büyük damar tıkanıklığı (LVO) verimi için büyük dil modeli (LLM) destekli rapor soyutlamasını değerlendirdi. SONUÇLAR: 303.753 nöro-ED muayenesinde, ED karşılaşmaları 2016 Mali Yılı'ndan 2025 Mali Yılı'na kadar hafif bir artış gösterirken (+%11, 108.948'den 121.288'e), nöro-ED görüntülemesi ise iki kattan fazla arttı (+%111, 20.087'den 42.398'e). Birleşik CTA baş ve boyun muayene kodu hacmi 8,5 kat arttı (2016 Mali Yılında 745, 2025 Mali Yılında 6.317'ye). Nöro-ED görüntülemede CTA baş ve boyun payı %3,7'den (745/20.087) %14,9'a (6.317/42.398) yükseldi. Karşılaşma normalleştirilmiş kullanım, CTA baş ve boyun için önemli ölçüde arttı (insidans oranı oranı [IRR] mali yıl başına sırasıyla 1,22 ve 1,20; her ikisi de p<0,001) ancak CTP için önemli ölçüde değişmedi (IRR 1,00). (CTA baş + CTA boyun)-CTP oranı 2018 Mali Yılı'nda 4,2'den 2025 Mali Yılı'nda 9,9'a yükseldi. Saat başına CTA oranları, hem normal hem de çağrı üzerine kapsama sırasında farklı bir büyüme olmaksızın arttı. İkincil keşif analizleri, NIHSS 0 sunumlarında CTA kullanımının arttığını ve LVO veriminin azaldığını gösterdi. SONUÇLAR: Üçüncü düzey bir akademik merkezde on yıldan fazla bir süredir, ED CTA baş ve boyun hacimleri keskin bir şekilde arttı; acil servis çıktısını, genel nöro-ED görüntüleme büyümesini ve CTP kullanımını geride bıraktı. CTA talebinin normal ve çağrı sırasındaki dönemlerde benzer şekilde artması, mesai saatleri dışında artan operasyonel yükün ve nöroradyoloji kapsama modelleri üzerindeki etkilerinin altını çizdi."
-    },
-    {
-      "pmid": "42674966",
-      "title": "Reporting Clinically Actionable Imaging Features of Intracerebral Hemorrhage: A Survey of Neuroradiologist Practice.",
-      "abstract": "BACKGROUND AND PURPOSE: Recent advances in spontaneous intracerebral hemorrhage (ICH) management increasingly expand the role of neuroimaging beyond diagnosis to potentially guide time-sensitive therapies and targeted clinical trial enrollment. We surveyed neuroradiologists to characterize current ICH imaging and reporting practices and identify opportunities for quality improvement. MATERIALS AND METHODS: An anonymous 52-item electronic survey was distributed through the American Journal of Neuroradiology Survey Corner and REDCap between April and May 2026. Survey domains included imaging acquisition, reporting practices, hematoma volume quantification, assessment of hematoma expansion predictors, ICH localization, etiologic assessment, and follow-up imaging. Responses were summarized using descriptive statistics. RESULTS: A total of 267 neuroradiologists completed the survey. Nearly all respondents (97.3%) reported 24/7 emergency head CT interpretation coverage. However, 41.5% did not routinely quantify hematoma volume, only 45% reported routine CTA acquisition for patients with ICH, and 30% rarely or only occasionally recommended CTA when it was not performed. While 91.3% routinely reported a positive CTA spot-sign, only 43.0% almost always assessed non-contrast CT predictors of hematoma expansion. Confidence in hemorrhage localization when crossing anatomical boundaries and etiologic classification was modest, and 45.8% routinely used the Boston Criteria version 2.0 for MRI-based assessment of cerebral amyloid angiopathy. CONCLUSIONS: Contemporary neuroradiology practice demonstrates several readily addressable gaps in ICH imaging and reporting, including hematoma volume quantification, routine vascular imaging, standardized assessment of hematoma expansion imaging markers, and etiologic assessment. Standardizing these practices can improved image guided risk-stratification and facilitate implementation of emerging time-sensitive ICH therapies.",
-      "journal": "AJNR Am J Neuroradiol",
-      "date": "2026-08-31",
-      "authors": [
-        "Valizadeh N",
-        "Baradaran H",
-        "Malhotra A",
-        "Romero JM",
-        "Majidi S",
-        "Roh D",
-        "Murthy SB",
-        "Falcone GJ",
-        "Sheth KN",
-        "Payabvash S"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.3174/ajnr.A9615",
-      "journal_tier": 2,
-      "impact": 3.3,
-      "section": "neuro",
-      "score": 60.0,
-      "score_parts": {
-        "journal": 60,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": "ARKA PLAN VE AMAÇ: Spontan intraserebral kanama (ICH) yönetimindeki son gelişmeler, nörogörüntülemenin rolünü, teşhisin ötesinde, zamana duyarlı tedavilere ve hedeflenen klinik deney kayıtlarına potansiyel olarak rehberlik etmek üzere giderek genişletmektedir. Mevcut ICH görüntüleme ve raporlama uygulamalarını karakterize etmek ve kalite iyileştirme fırsatlarını belirlemek için nöroradyologlarla anket yaptık. Gereçler ve Yöntemler: Nisan ve Mayıs 2026 arasında American Journal of Neuroradiology Survey Corner ve REDCap aracılığıyla anonim 52 maddelik bir elektronik anket dağıtıldı. Anket alanları arasında görüntüleme edinimi, raporlama uygulamaları, hematom hacmi ölçümü, hematom genişleme öngörücülerinin değerlendirilmesi, ICH lokalizasyonu, etiyolojik değerlendirme ve takip görüntülemesi yer alıyordu. Yanıtlar tanımlayıcı istatistikler kullanılarak özetlendi. BULGULAR: Anketi toplam 267 nöroradyolog tamamladı. Katılımcıların neredeyse tamamı (%97,3) 7/24 acil kafa CT yorumlama kapsamını bildirdi. Bununla birlikte, %41,5'i rutin olarak hematom hacmini ölçmedi, yalnızca %45'i ICH'li hastalar için rutin BTA edinimini bildirdi ve %30'u nadiren veya yalnızca ara sıra yapılmadığında BTA'yı önerdi. %91,3'ü rutin olarak pozitif bir BTA nokta işareti bildirirken, yalnızca %43,0'ü neredeyse her zaman hematom genişlemesinin kontrastsız BT öngörücülerini değerlendirdi. Anatomik sınırları ve etiyolojik sınıflandırmayı aşarken kanama lokalizasyonuna olan güven orta düzeydeydi ve %45,8'i serebral amiloid anjiyopatinin MRI bazlı değerlendirmesi için rutin olarak Boston Criteria versiyon 2.0'ı kullanıyordu. SONUÇLAR: Çağdaş nöroradyoloji pratiği, hematom hacmi ölçümü, rutin vasküler görüntüleme, hematom genişleme görüntüleme belirteçlerinin standartlaştırılmış değerlendirmesi ve etiyolojik değerlendirme dahil olmak üzere, ICH görüntüleme ve raporlamada kolaylıkla ele alınabilecek birçok boşluk olduğunu göstermektedir. Bu uygulamaların standartlaştırılması, görüntü rehberliğinde risk sınıflandırmasını iyileştirebilir ve ortaya çıkan zamana duyarlı ICH tedavilerinin uygulanmasını kolaylaştırabilir."
-    },
-    {
-      "pmid": "42674965",
-      "title": "The Association of Annular Fissures and Cervical Spinal Cord Infarction in Children: A Potential Clue to the Pathogenesis of Fibrocartilaginous Embolization to the Spinal Cord.",
-      "abstract": "BACKGROUND: Fibrocartilaginous embolism (FCE) is a rare but serious cause of spinal cord infarction. Vertical disc herniation (e.g., Schmorl's nodes) may enable FCE in the thoracolumbar spine but is unlikely in the pediatric cervical spine. We hypothesized that radial disc herniation (annular fissuring), rather than vertical herniation, may contribute to cervical spinal cord infarction in children via an FCE mechanism. METHODS: In this retrospective case-control study, the frequency of annular fissures and nuclear degeneration was assessed in patients with possible FCE from January 2004 to December 2023. The presumed diagnosis of FCE was based on clinical evaluation characteristic imaging findings of cord infarction, and exclusion of other diagnoses in electronic medical records. The two control groups included children without myelopathy (Control 1), selected during a 6-month consecutive sampling period from March to July 2014, and children with non-compressive cervical myelopathy (Control 2), selected through consecutive sampling from April 2004 to February 2014. Data analysis was performed using SPSS (IBM, version 29.0). The significance level was p<0.05. RESULTS: A total of 156 children were included, 18 with possible FCE (Case) and 138 without (Control 1 and Control 2 with 39 and 99 patients, respectively). The median ages (IQR) were 12.6 (9.0-16.5), 9.6 (5.0-15.6), and 10.3 (5.0-14.6) years for Case, Control 1, and Control 2 groups respectively and 48.1% (75/156) were female. Annular fissures were observed in 28.8% (45/156) across ≥1 disc levels, and all patients showed nuclear degeneration at one or more disc levels. Among FCE patients, 88.9% (16/18) had at least one annular fissure. The odds ratio of having an annular fissure in FCE patients compared with the total control group was 30.06 (CI [6.53-138.30]). The odds ratio compared with Control 1 was 31.60 (CI [6.70-148.83]) and compared with Control 2 was 26.66 (CI [5.13-138.56]). CONCLUSION: This study demonstrated a statistically significant association between annular fissures and cervical spinal cord infarction. This finding is consistent with the theory that disc material may embolize through a radial annular tear into the cervical spinal cord microcirculation.",
-      "journal": "AJNR Am J Neuroradiol",
-      "date": "2026-08-31",
-      "authors": [
-        "Hajibonabi F",
-        "Kadom N",
-        "Reisner A",
-        "Myers H",
-        "Palasis S",
-        "Grattan-Smith D",
-        "Jones R",
-        "Little S",
-        "Parikh A"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.3174/ajnr.A9613",
-      "journal_tier": 2,
-      "impact": 3.3,
-      "section": "girisim",
-      "score": 60.0,
-      "score_parts": {
-        "journal": 60,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": "AMAÇ: Fibrokartilajinöz emboli (FCE), omurilik enfarktüsünün nadir fakat ciddi bir nedenidir. Dikey disk herniasyonu (örn. Schmorl düğümleri) torakolomber omurgada FCE'yi etkinleştirebilir ancak pediatrik servikal omurgada pek olası değildir. Dikey herniasyondan ziyade radyal disk herniasyonunun (halka şeklinde çatlak) çocuklarda FCE mekanizması yoluyla servikal omurilik enfarktüsüne katkıda bulunabileceğini varsaydık. YÖNTEMLER: Bu retrospektif vaka kontrol çalışmasında, Ocak 2004'ten Aralık 2023'e kadar olası FCE'li hastalarda halka şeklindeki çatlakların ve nükleer dejenerasyonun sıklığı değerlendirildi. Varsayılan FCE tanısı, klinik değerlendirme karakteristik kordon enfarktüs görüntüleme bulgularına ve elektronik tıbbi kayıtlardaki diğer tanıların hariç tutulmasına dayanıyordu. İki kontrol grubu, Mart'tan Temmuz 2014'e kadar 6 aylık ardışık örnekleme döneminde seçilen miyelopatisi olmayan çocukları (Kontrol 1) ve Nisan 2004'ten Şubat 2014'e kadar ardışık örnekleme yoluyla seçilen kompresyonsuz servikal miyelopatili çocukları (Kontrol 2) içermiştir. Veri analizi, SPSS (IBM, sürüm 29.0) kullanılarak gerçekleştirilmiştir. Anlamlılık düzeyi p<0,05 idi. BULGULAR: Toplam 156 çocuk dahil edildi; 18'i olası FCE'li (Vaka) ve 138'i FCE'siz (sırasıyla 39 ve 99 hastayla Kontrol 1 ve Kontrol 2). Ortalama yaş (IQR) Vaka, Kontrol 1 ve Kontrol 2 grupları için sırasıyla 12,6 (9,0-16,5), 9,6 (5,0-15,6) ve 10,3 (5,0-14,6) yıldı ve %48,1'i (75/156) kadındı. ≥1 disk seviyelerinde %28,8'inde (45/156) halka şeklinde çatlaklar gözlendi ve tüm hastalarda bir veya daha fazla disk seviyesinde nükleer dejenerasyon görüldü. FCE hastalarının %88,9'unda (16/18) en az bir halka şeklinde fissür vardı. Toplam kontrol grubuyla karşılaştırıldığında FCE hastalarında anüler fissür bulunması olasılık oranı 30,06 idi (CI [6,53-138,30]). Kontrol 1 ile karşılaştırıldığında olasılık oranı 31,60 (CI [6,70-148,83]) ve Kontrol 2 ile karşılaştırıldığında 26,66 (CI [5,13-138,56]) idi. SONUÇ: Bu çalışma, anüler fissürler ile servikal omurilik enfarktüsü arasında istatistiksel olarak anlamlı bir ilişki olduğunu göstermiştir. Bu bulgu, disk materyalinin radyal halka şeklinde bir yırtılma yoluyla servikal omurilik mikrosirkülasyonuna embolize olabileceği teorisi ile tutarlıdır."
     }
   ]
 }
