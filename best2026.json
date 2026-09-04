@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03T10:27:29+00:00",
+  "updated": "2026-09-04T10:16:54+00:00",
   "year": 2026,
   "count": 60,
   "criteria": "Etki faktörü (sonra etki skoru) sıralı",
@@ -508,6 +508,102 @@
       "abstract_tr": "Helicobacter pylori (H. pylori) enfeksiyonu mide karsinogenezi için önemli bir risk faktörüdür ve dağıtılmış mukozal anormalliklerin bütünsel endoskopik değerlendirmesini gerektirir. Hasta düzeyinde tanı etiketlerine erişilebilir olmakla birlikte, büyük ölçekli ince taneli ek açıklamaların elde edilmesi, gözlemciler arası yüksek değişkenlik ve sürecin yoğun emek gerektiren doğası nedeniyle sınırlıdır. Bu doğal olarak görevi çoklu örnek öğrenme (MIL) problemi olarak formüle eder. Mevcut görüntü düzeyindeki yaklaşımlar genellikle dizi bağlamını modellemeden gürültülü denetleyici sinyallere dayanırken, standart yerleştirmeye dayalı MIL yöntemleri, optimal olmayan özellik temsillerinden ve H. pylori'ye özgü fenotiplerin yetersiz entegrasyonundan muzdariptir. Bu zorlukların üstesinden gelmek için klinik hiyerarşik akıl yürütmeyi taklit eden iki aşamalı bir çerçeve olan PhenoMIL'i öneriyoruz. İlk olarak, İnce Taneli Fenotip Düzeyinde Yarı Denetimli Öğrenme (FPS-SL) aşaması, fenotipe özgü bilgi edinmek ve sınırlı örnek düzeyindeki ek açıklamalardan aktarılabilir temsili öğrenmek için çok etiketli denetimli karşılaştırmalı öğrenmeyi ve prototip tabanlı sözde etiket oluşturmayı kullanır. Daha sonra, Klinik Olarak Bilgilendirilmiş MIL (CIMIL) aşaması, gizli komşuluk yapılarından yararlanmak için Konsensüs Farkında Özellik Modülasyonu (CFM) ve örnek ağırlıklandırmasını teşhis öncelikleriyle uyumlu hale getirmek için Fenotip Kılavuzlu Dikkat Toplama (PAA) kullanarak bütünsel torba düzeyinde teşhis gerçekleştirir. Büyük ölçekli, çok merkezli bir veri seti (6388 hastadan 303.910 görüntü) üzerinde yapılan kapsamlı değerlendirme, PhenoMIL'in hem çok etiketli fenotip sınıflandırmasında hem de H. pylori enfeksiyonu tanısında üstünlüğünü göstermektedir. Özellikle gerçek dünyada yapılan bir okuyucu çalışmasında PhenoMIL %81,63 duyarlılık ve %87,84 özgüllük elde ederek hem kıdemsiz hem de kıdemli endoskopistlerden daha iyi performans gösterdi."
     },
     {
+      "pmid": "42691733",
+      "title": "SoftMorph: Differentiable probabilistic morphological operators for image analysis.",
+      "abstract": "Morphological operators are crucial in image analysis. Their integration into deep learning pipelines could improve performances by extracting or enhancing important image features, either within network architectures or loss functions. However, the difficulties in rendering those operators differentiable hinder their integration. In this paper, we present SoftMorph, a novel framework designed to convert any binary morphological operator defined as a Boolean expression into its differentiable and probabilistic counterpart, compatible with gradient-based optimization. Specifically, we define probabilistic operators as the expectation of the binary operator with respect to the probability of generating each binary configuration. This expectation can be computed trivially from the truth table of the binary morphological filter, as a multi-linear polynomial function. Moreover, we approximate the probabilistic operators with quasi-probabilistic operators directly translated from the Boolean expressions leveraging Fuzzy logic, maintaining the computational complexity of the original binary operator. We evaluate the backpropagation capability of the proposed operators, and showcase several medical applications of morphological operators integrated into neural networks for image segmentation tasks. The code is available at https://github.com/lisaGUZZI/SoftMorph2.",
+      "journal": "Med Image Anal",
+      "date": "2026-09-02",
+      "authors": [
+        "Guzzi L",
+        "Zuluaga MA",
+        "Lareyre F",
+        "Di Lorenzo G",
+        "Goffart S",
+        "Chierici A",
+        "Raffort J",
+        "Delingette H"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.media.2026.104284",
+      "journal_tier": 1,
+      "impact": 10.7,
+      "section": "yapayzeka",
+      "score": 100.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 2,
+      "abstract_tr": "Morfolojik operatörler görüntü analizinde çok önemlidir. Bunların derin öğrenme hatlarına entegrasyonu, ağ mimarileri veya kayıp fonksiyonları içindeki önemli görüntü özelliklerini çıkararak veya geliştirerek performansları artırabilir. Ancak bu operatörlerin türevlenebilir hale getirilmesindeki zorluklar entegrasyonlarını engellemektedir. Bu yazıda, Boolean ifadesi olarak tanımlanan herhangi bir ikili morfolojik operatörü, gradyan tabanlı optimizasyonla uyumlu, türevlenebilir ve olasılıksal karşılığına dönüştürmek için tasarlanmış yeni bir çerçeve olan SoftMorph'u sunuyoruz. Spesifik olarak, olasılıksal operatörleri, her bir ikili konfigürasyonu üretme olasılığına göre ikili operatörün beklentisi olarak tanımlıyoruz. Bu beklenti, ikili morfolojik filtrenin doğruluk tablosundan çok doğrusal bir polinom fonksiyonu olarak basit bir şekilde hesaplanabilir. Ayrıca, orijinal ikili operatörün hesaplama karmaşıklığını koruyarak, Bulanık mantıktan yararlanarak Boole ifadelerinden doğrudan çevrilen yarı olasılıklı operatörlerle olasılıksal operatörleri yaklaşıklaştırıyoruz. Önerilen operatörlerin geri yayılım yeteneğini değerlendiriyoruz ve görüntü bölümlendirme görevleri için sinir ağlarına entegre edilmiş morfolojik operatörlerin çeşitli tıbbi uygulamalarını sergiliyoruz. Kodu https://github.com/lisaGUZZI/SoftMorph2 adresinde bulabilirsiniz."
+    },
+    {
+      "pmid": "42691732",
+      "title": "TEAMS: Text-prompted spatiotEmporal dual-heAd Mamba Snake.",
+      "abstract": "Deep snake is a promising family of instance segmentation methods that accurately predicts object-level contours, thereby overcoming common pixel-level misclassification issues such as mask cavities and jagged edges in semantic segmentation approaches. However, existing deep snake methods face challenges in handling complex morphological variations, accurately capturing fine-grained organ details, and correcting base detection errors. To mitigate these limitations, we propose a cohesive Text-prompted spatiotEmporal dual-heAd Mamba Snake (TEAMS), a novel vision-language Mamba snake framework with three key innovations: (1) A Spatiotemporal Snake Evolution Strategy (SSES) is introduced to tackle complex morphological variations by capturing bidirectional spatial dependencies along the snake contour and temporal dynamics across evolution steps in a state space model. (2) A Contour Morphology-Aware Mamba (CMAM) is proposed to quantify local contour morphologies to modulate the structured attention mask in the Mamba2 SSD dual form, which extends Mamba's capability to perceive the relative importance of its input sequence elements for better delineation of fine-grained organ details. (3) A Text-prompted Collaborative Dual-Head Snake (TCDHS) is designed to incorporate cues from textual prompts and transfer the evolved contour information to the base detection head, which enhances the deep snake workflow and mitigates wrong detections. Comprehensive evaluations on five datasets covering different organs and imaging modalities demonstrate that TEAMS outperforms existing semantic and deep snake segmentation methods (e.g., relative mDice/mBF improvements of 6.9%/9.1% in a spinal dataset), underscoring its potential as a reliable tool across diverse medical image segmentation scenarios. Codes are available at: https://github.com/Richard-Zhang-AI/TEAMS.",
+      "journal": "Med Image Anal",
+      "date": "2026-09-02",
+      "authors": [
+        "Zhang R",
+        "Lei J",
+        "Shen K",
+        "Guo H",
+        "Zhou J",
+        "Chen B",
+        "Li M",
+        "Zhao S",
+        "Li S"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.media.2026.104277",
+      "journal_tier": 1,
+      "impact": 10.7,
+      "section": "genel",
+      "score": 100.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 2,
+      "abstract_tr": "Deep Snake, nesne düzeyindeki konturları doğru bir şekilde tahmin eden, böylece anlamsal bölümleme yaklaşımlarında maske boşlukları ve pürüzlü kenarlar gibi yaygın piksel düzeyindeki yanlış sınıflandırma sorunlarının üstesinden gelen, gelecek vaat eden bir örnek bölümleme yöntemleri ailesidir. Bununla birlikte, mevcut derin yılan yöntemleri, karmaşık morfolojik varyasyonları ele alma, ince taneli organ ayrıntılarını doğru bir şekilde yakalama ve baz tespit hatalarını düzeltme konusunda zorluklarla karşı karşıyadır. Bu sınırlamaları hafifletmek için, üç temel yeniliğe sahip yeni bir görüş dili Mamba yılanı çerçevesi olan uyumlu bir Metin yönlendirmeli spatiotEmporal çift kafalı Mamba Yılanı (TEAMS) öneriyoruz: (1) Bir durum uzay modelinde yılan konturu boyunca çift yönlü uzaysal bağımlılıkları ve evrim adımları boyunca zamansal dinamikleri yakalayarak karmaşık morfolojik varyasyonların üstesinden gelmek için bir Uzay-zamansal Yılan Evrim Stratejisi (SSES) tanıtıldı. (2) Mamba2 SSD ikili formundaki yapılandırılmış dikkat maskesini modüle etmek için yerel kontur morfolojilerini ölçmek üzere bir Kontur Morfolojisine Duyarlı Mamba (CMAM) önerilmiştir; bu, Mamba'nın ince taneli organ ayrıntılarının daha iyi tanımlanması için giriş dizisi öğelerinin göreceli önemini algılama yeteneğini genişletir. (3) Metin Yönlendirmeli İşbirliğine Dayalı Çift Kafalı Yılan (TCDHS), metin komutlarından gelen ipuçlarını birleştirmek ve gelişmiş kontur bilgilerini temel algılama kafasına aktarmak üzere tasarlanmıştır; bu, derin yılan iş akışını geliştirir ve yanlış algılamaları azaltır. Farklı organları ve görüntüleme yöntemlerini kapsayan beş veri seti üzerinde yapılan kapsamlı değerlendirmeler, TEAMS'in mevcut anlamsal ve derin yılan segmentasyon yöntemlerinden daha iyi performans gösterdiğini (örneğin, omurga veri setinde göreceli mDice/mBF iyileştirmeleri %6,9/%9,1 oranında) ortaya koyuyor ve çeşitli tıbbi görüntü segmentasyon senaryolarında güvenilir bir araç olarak potansiyelini vurguluyor. Kodlara şu adresten ulaşılabilir: https://github.com/Richard-Zhang-AI/TEAMS."
+    },
+    {
+      "pmid": "42691555",
+      "title": "Orientation-robust latent motion trajectory learning for annotation-free cardiac phase detection in fetal echocardiography.",
+      "abstract": "Fetal echocardiography is essential for detecting congenital heart disease (CHD), facilitating pregnancy management, optimized delivery planning, and timely postnatal interventions. Among standard imaging planes, the four-chamber view (4CV) provides important information for CHD diagnosis, where clinicians carefully inspect the end-diastolic (ED) and end-systolic (ES) phases to evaluate cardiac structure and motion. Automated detection of these cardiac phases is thus a critical component towards fully automated CHD analysis. However, existing approaches typically rely on manual annotation of ED/ES frames, which is labour-intensive and time-consuming. We present ORBIT (Orientation-Robust Beat Inference from Trajectories), a self-supervised framework that identifies cardiac phases without manual annotations under various fetal heart orientation. ORBIT employs registration as self-supervision task and learns a latent motion trajectory of cardiac deformation, whose turning points capture transitions between cardiac relaxation and contraction, enabling accurate and orientation-robust localization of ED and ES frames across diverse fetal positions. Trained exclusively on normal fetal echocardiography videos, ORBIT achieves consistent performance on both normal (mean absolute error 1.9 frames for ED and 1.6 for ES) and CHD cases (mean absolute error 2.4 frames for ED and 2.1 for ES), outperforming existing annotation-free approaches constrained by fixed orientation assumptions. These results highlight the potential of ORBIT to facilitate robust cardiac phase detection directly from 4CV fetal echocardiography.",
+      "journal": "Med Image Anal",
+      "date": "2026-08-31",
+      "authors": [
+        "Yang Y",
+        "Yang Q",
+        "Peng C",
+        "D'Alberti E",
+        "Patey O",
+        "Papageorghiou AT",
+        "Noble JA"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.media.2026.104288",
+      "journal_tier": 1,
+      "impact": 10.7,
+      "section": "girisim",
+      "score": 100.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 2,
+      "abstract_tr": "Fetal ekokardiyografi, konjenital kalp hastalığını (KKH) saptamak, gebelik yönetimini kolaylaştırmak, optimize edilmiş doğum planlaması ve zamanında doğum sonrası müdahaleler için gereklidir. Standart görüntüleme düzlemleri arasında dört odacıklı görünüm (4CV), klinisyenlerin kardiyak yapı ve hareketi değerlendirmek için diyastol sonu (ED) ve sistol sonu (ES) aşamaları dikkatle incelediği KKH tanısı için önemli bilgiler sağlar. Dolayısıyla bu kardiyak aşamaların otomatik olarak saptanması, tam otomatik KKH analizine yönelik kritik bir bileşendir. Bununla birlikte, mevcut yaklaşımlar tipik olarak ED/ES çerçevelerinin manuel olarak açıklanmasına dayanır ve bu da emek yoğun ve zaman alıcıdır. Çeşitli fetal kalp oryantasyonları altında manuel açıklamalar olmadan kardiyak aşamaları tanımlayan, kendi kendini denetleyen bir çerçeve olan ORBIT'i (Yörüngelerden Yönelim-Sağlam Vuruş Çıkarımı) sunuyoruz. ORBIT, kaydı kendi kendini denetleme görevi olarak kullanır ve kardiyak deformasyonun gizli hareket yörüngesini öğrenir; bu yörüngenin dönüm noktaları, kardiyak gevşeme ve kasılma arasındaki geçişleri yakalayarak, farklı fetal pozisyonlarda ED ve ES çerçevelerinin doğru ve oryantasyon açısından sağlam lokalizasyonuna olanak tanır. Yalnızca normal fetal ekokardiyografi videoları üzerinde eğitilen ORBIT, hem normal (ortalama mutlak hata 1,9 kare ED için ve ES için 1,6) hem de CHD vakalarında (ortalama mutlak hata 2,4 kare ED için ve ES için 2,1 kare) tutarlı performans elde ederek, sabit oryantasyon varsayımları tarafından kısıtlanan mevcut açıklama içermeyen yaklaşımlardan daha iyi performans gösterir. Bu sonuçlar, ORBIT'in doğrudan 4CV fetal ekokardiyografiden sağlam kardiyak faz tespitini kolaylaştırma potansiyelini vurgulamaktadır."
+    },
+    {
       "pmid": "42678842",
       "title": "Annotation-efficient Semi-supervised and Active Learning for Breast Cancer Segmentation in DCE-MRI.",
       "abstract": "Accurate breast tumor segmentation in dynamic contrast-enhanced magnetic resonance imaging (DCE-MRI) is vital for diagnosis and treatment planning. Despite advances in deep learning, its performance remains constrained by the need for extensive voxel-wise annotations. To mitigate this burden, we propose an annotation-efficient framework that jointly optimizes data selection, unlabeled data utilization, and data augmentation under limited annotation budgets. A diversity-aware uncertainty query (DUQ) strategy guides the annotation by jointly modeling data representativeness and informativeness through a representative candidate selector (RCS) and an uncertainty-based decision maker (UDM), ensuring efficient and targeted labeling. To leverage unlabeled data, a cross-decoder consistency regularization (CDCR) mechanism enforces prediction consistency between two decoders with distinct attention mechanisms, enhancing robustness and confidence. Furthermore, a lesion transplant augmentation (LTA) technique synthesizes anatomically valid pseudo samples by transplanting lesion regions from labeled to unlabeled images, effectively expanding training diversity. Experiments were conducted on two DCE-MRI datasets with biopsy-proven breast cancers, one as internal dataset containing 676 subjects and the other as external dataset with 344 subjects. Comparative and ablation results demonstrate that our framework consistently outperforms state-of-the-art semi-supervised and active learning methods, providing a simple yet effective annotation-efficient solution for breast cancer segmentation in DCE-MRI. The code is publicly available at https: //github.com/zouquanling/DUQ_and_CDCR.",
@@ -599,7 +695,7 @@
         "recency": 0.0
       },
       "tier": 2,
-      "abstract_tr": "Çok örnekli öğrenme (MIL), histokimyasal olarak boyanmış tam slayt görüntülerini (WSI'ler) kullanarak yapay zeka destekli kanser teşhisini önemli ölçüde geliştirmiştir. Ancak bu tür WSI'ların edinilmesi zaman alıcıdır, emek yoğundur ve çevre dostu değildir. Bu sorunu çözmek için, MIL tabanlı tanıya uygun maliyetli bir alternatif olarak etiketlenmemiş otofloresan (UAF) WSI'lerin kullanılmasını öneriyoruz. Doğrudan karşılaştırma için aynı doku kesitlerinden türetilen, özel bir UAF WSI veri seti olan LCUHI-UAF'ı ve eşleşen H&E boyalı WSI veri seti olan LCUHI-H&E'yi sunuyoruz. Sınıflandırma görevleri için UAF görüntülerindeki düşük sinyal-gürültü oranının ve bulanık morfolojik ayrıntıların üstesinden gelmek için yeni bir Çok Parçalı Grafiği-Mamba (MGGM) MIL çerçevesi öneriyoruz. Bu çerçevede, her WSI, doku örneklerinin uzamsal koordinatlarından oluşturulan bir grafik olarak temsil edilir ve Mamba mimarisi uzun vadeli ilişkileri modellerken grafik evrişiminin yerel uzamsal bağımlılıkları yakalamasına olanak tanır. Doku içindeki hücre kümeleri ve mikro ortamlar arasındaki hiyerarşik ilişkilerin kapsamlı bir şekilde temsil edilmesini sağlamak için çok parçacıklı bir mekanizma da önerilmiştir. LCUHI-H&E ve LCUHI-UAF eşleştirilmiş akciğer kanseri veri kümeleri üzerinde yapılan deneyler, MGGM-MIL'in önceden eğitilmiş iki özellik ayarında en iyi performansı gösteren sonuçlara ulaştığını göstermektedir. Bu sonuçlar aynı zamanda UAF lekeli WSI'lerin kanser tanısında H&E'nin uygun maliyetli bir alternatifi olarak uygulanabilirliğini doğrulamaktadır. Camelyon16 meme kanseri veri seti üzerinde yapılan ek değerlendirmeler, MGGM-MIL'nin doku tipleri arasında genelleştirilebilirliğini daha da doğrulamaktadır. Kod https://github.com/JiuyangDong/MGGMMIL adresinde mevcuttur."
+      "abstract_tr": "Çok örnekli öğrenme (MIL), histokimyasal olarak boyanmış tam slayt görüntülerini (WSI'ler) kullanarak yapay zeka destekli kanser teşhisini önemli ölçüde geliştirmiştir. Ancak bu tür WSI'ların edinilmesi zaman alıcıdır, emek yoğundur ve çevre dostu değildir. Bu sorunu çözmek için, MIL tabanlı tanıya uygun maliyetli bir alternatif olarak etiketlenmemiş otofloresan (UAF) WSI'lerin kullanılmasını öneriyoruz. Doğrudan karşılaştırma için aynı doku kesitlerinden türetilen, özel bir UAF WSI veri seti olan LCUHI-UAF'ı ve eşleşen H&E boyalı WSI veri seti olan LCUHI-H&E'yi sunuyoruz. Sınıflandırma görevleri için UAF görüntülerindeki düşük sinyal-gürültü oranının ve bulanık morfolojik ayrıntıların üstesinden gelmek için yeni bir Çok Parçalı Grafiği-Mamba (MGGM) MIL çerçevesi öneriyoruz. Bu çerçevede, her WSI, doku örneklerinin uzaysal koordinatlarından oluşturulan bir grafik olarak temsil edilir ve Mamba mimarisi uzun menzilli ilişkileri modellerken grafik evrişiminin yerel uzaysal bağımlılıkları yakalamasına olanak tanır. Doku içindeki hücre kümeleri ve mikro ortamlar arasındaki hiyerarşik ilişkilerin kapsamlı bir şekilde temsil edilmesini sağlamak için çok parçacıklı bir mekanizma da önerilmiştir. LCUHI-H&E ve LCUHI-UAF eşleştirilmiş akciğer kanseri veri kümeleri üzerinde yapılan deneyler, MGGM-MIL'in önceden eğitilmiş iki özellik ayarında en iyi performansı gösteren sonuçlara ulaştığını göstermektedir. Bu sonuçlar aynı zamanda UAF lekeli WSI'lerin kanser tanısında H&E'nin uygun maliyetli bir alternatifi olarak uygulanabilirliğini doğrulamaktadır. Camelyon16 meme kanseri veri seti üzerinde yapılan ek değerlendirmeler, MGGM-MIL'nin doku tipleri arasında genelleştirilebilirliğini daha da doğrulamaktadır. Kod https://github.com/JiuyangDong/MGGMMIL adresinde mevcuttur."
     },
     {
       "pmid": "42686383",
@@ -612,6 +708,183 @@
         "Journal Article"
       ],
       "doi": "",
+      "journal_tier": 1,
+      "impact": 9.1,
+      "section": "genel",
+      "score": 100.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 2,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42692830",
+      "title": "Evaluating Suspected Tumor Recurrence with Epidermal Growth Factor Receptor-Targeted [89Zr]Zr-Panitumumab PET/CT.",
+      "abstract": "",
+      "journal": "J Nucl Med",
+      "date": "2026-09-03",
+      "authors": [
+        "Hoang J",
+        "Golliday K",
+        "McAdoo A",
+        "Rosenberg A",
+        "Jouad K",
+        "Rosenthal E",
+        "Topf MC"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.2967/jnumed.125.271333",
+      "journal_tier": 1,
+      "impact": 9.1,
+      "section": "genel",
+      "score": 100.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 2,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42692828",
+      "title": "PET Imaging of Tumor-Associated Macrophage Dynamics and Response to Clinical Treatment for Potential Translation.",
+      "abstract": "Tumor-associated macrophages (TAMs) are an important component of the tumor microenvironment (TME). The abundance and distribution of TAMs significantly affect the immune responses of TME to determine the tumor progression and treatment response of solid tumors such as head and neck squamous cell carcinoma (HNSCC). Molecular characterization of human HNSCC specimens and mouse models has identified CD163 as a unique biomarker for TAMs in HNSCC. The goal of this study was to determine the dynamic changes of CD163-positive TAMs in HNSCC progression and treatment response to assess the potential of a CD163 targeted radiotracer, 64Cu-ICT-01, in detecting CD163-positive TAMs for translation in HNSCC. Methods: We assessed the capability of 64Cu-ICT-01 for noninvasive imaging of CD163-positive TAMs using PET. We determined its targeting specificity in multiple mouse HNSCC models to track the progression of tumors. We assessed its sensitivity in tracking variations of CD163-positive TAMs and correlation with tumor volumes after clinical treatment. We also measured its binding to CD163-positive TAMs upregulated on human HNSCC tissues. Results: 64Cu-ICT-01 PET specifically determined the spatiotemporal distribution of CD163-positive TAMs in a MOC1 cell line model and patient-derived xenograft HNSCC models. CD163 PET sensitively tracked the dynamics of CD163-positive TAMs after clinical treatment. Its tumor binding correlated with CD163 expression levels and the volumes of tumors. In human HNSCC specimens, 64Cu-ICT-01 showed strong and specific binding to human CD163. Conclusion: 64Cu-ICT-01 demonstrated accurate targeting of CD163 in both mouse tumor models and human HNSCC tissues. CD163 PET has great potential to be a noninvasive biomarker to measure TAM activities within TME, monitor treatment response, and optimize treatment strategy.",
+      "journal": "J Nucl Med",
+      "date": "2026-09-03",
+      "authors": [
+        "Heo GS",
+        "Li A",
+        "Tao J",
+        "Zaretsky JM",
+        "Sultan D",
+        "Detering L",
+        "Lahad D",
+        "Luehmann H",
+        "Zhang X",
+        "Zhang X",
+        "Gao X",
+        "Venkatesan R",
+        "Belmar J",
+        "Crowder R",
+        "Voller P",
+        "Mallady A",
+        "Nai YH",
+        "Gropler R",
+        "Laforest R",
+        "Lin CY",
+        "Li S",
+        "Dehdashti F",
+        "Puram SV",
+        "Liu Y"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.2967/jnumed.126.272473",
+      "journal_tier": 1,
+      "impact": 9.1,
+      "section": "genel",
+      "score": 100.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 2,
+      "abstract_tr": "Tümörle ilişkili makrofajlar (TAM'ler), tümör mikro ortamının (TME) önemli bir bileşenidir. TAM'lerin bolluğu ve dağılımı, baş ve boyun skuamöz hücreli karsinom (HNSCC) gibi katı tümörlerin tümör ilerlemesini ve tedavi yanıtını belirlemek için TME'nin bağışıklık tepkilerini önemli ölçüde etkiler. İnsan HNSCC örneklerinin ve fare modellerinin moleküler karakterizasyonu, CD163'ü HNSCC'deki TAM'ler için benzersiz bir biyobelirteç olarak tanımlamıştır. Bu çalışmanın amacı, HNSCC ilerlemesinde CD163-pozitif TAM'lerin dinamik değişikliklerini belirlemek ve CD163 hedefli bir radyo izleyici olan 64Cu-ICT-01'in HNSCC'de çeviri için CD163-pozitif TAM'leri tespit etme potansiyelini değerlendirmek için tedavi yanıtını belirlemekti. Yöntemler: 64Cu-ICT-01'in, PET kullanarak CD163-pozitif TAM'lerin invaziv olmayan görüntülemesi için kapasitesini değerlendirdik. Tümörlerin ilerlemesini izlemek için birden fazla fare HNSCC modelinde hedefleme özgüllüğünü belirledik. CD163-pozitif TAM'lerin varyasyonlarının izlenmesindeki duyarlılığını ve klinik tedaviden sonra tümör hacimleriyle korelasyonunu değerlendirdik. Ayrıca insan HNSCC dokularında yukarı regüle edilen CD163-pozitif TAM'lere bağlanmasını da ölçtük. Sonuçlar: 64Cu-ICT-01 PET, bir MOC1 hücre çizgisi modelinde ve hastadan türetilen ksenograft HNSCC modellerinde CD163-pozitif TAM'lerin uzay-zamansal dağılımını spesifik olarak belirledi. CD163 PET, klinik tedaviden sonra CD163 pozitif TAM'lerin dinamiklerini hassas bir şekilde takip etti. Tümör bağlanması, CD163 ekspresyon seviyeleri ve tümör hacimleri ile koreleydi. İnsan HNSCC örneklerinde 64Cu-ICT-01, insan CD163'e güçlü ve spesifik bağlanma gösterdi. Sonuç: 64Cu-ICT-01, hem fare tümör modellerinde hem de insan HNSCC dokularında CD163'ün doğru hedeflendiğini gösterdi. CD163 PET, TME içindeki TAM aktivitelerini ölçmek, tedavi yanıtını izlemek ve tedavi stratejisini optimize etmek için invaziv olmayan bir biyobelirteç olma konusunda büyük bir potansiyele sahiptir."
+    },
+    {
+      "pmid": "42692826",
+      "title": "A Prospective, Single-Center, Single-Arm, Exploratory Study of 177Lu-LNC1010 Peptide Receptor Radionuclide Therapy for Advanced Neuroendocrine Tumors.",
+      "abstract": "Rapid radiopharmaceutical clearance limits the efficacy of peptide receptor radionuclide therapy (PRRT) for the treatment of advanced neuroendocrine tumors (NETs). In this prospective, single-center, single-arm, investigator-initiated trial, we evaluated the safety and efficacy of 177Lu-LNC1010-an optimized, long-acting somatostatin analog-in patients with progressive metastatic NETs. Methods: Twenty-two patients with unresectable, metastatic NETs and disease progression despite treatment with somatostatin analogs or tyrosine kinase inhibitors were enrolled in the study. Participants received up to 4 cycles of PRRT with 177Lu-LNC1010 (3.3 GBq/cycle) at 8-wk intervals. Adverse events were graded according to the National Cancer Institute's Common Terminology Criteria for Adverse Events version 5.0. The treatment response was evaluated using RECIST 1.1. Kaplan-Meier analysis was used to estimate progression-free survival (PFS) and overall survival (OS). Results: The patients (13 men, 9 women; median age, 50.5 y) received 69 PRRT cycles in total. Treatment-related grade 3 or 4 hematologic toxicities were observed in 6 patients (27%). No grade 3 or higher nephrotoxicity or hepatotoxicity was recorded. The median absorbed tumor dose was 2.12 (interquartile range: 1.68-2.96) Gy/GBq. Response after PRRT was assessed in 18 patients. A partial response was achieved in 8 patients (44.0%), stable disease in 9 (50.0%), and progressive disease in 1 (5.6%). The objective response rate was 44.4%, and the disease control rate was 94.4%. After a median follow-up of 21.0 mo, the median PFS was 15.0 mo, and the median OS was not reached. Conclusion: PRRT with 3.3 GBq/cycle of 177Lu-LNC1010 was well-tolerated and exhibited an acceptable safety profile. The objective response rate and disease control rate were high and positively correlated with improved PFS and OS. Appropriate patient selection and earlier intervention may further optimize the therapeutic benefit.",
+      "journal": "J Nucl Med",
+      "date": "2026-09-03",
+      "authors": [
+        "Guo W",
+        "Fan C",
+        "Chen Y",
+        "Yu S",
+        "Yue G",
+        "Zhao T",
+        "Ruan D",
+        "Xu W",
+        "Fu H",
+        "Su B",
+        "Yu L",
+        "Zhao L",
+        "Huang J",
+        "Wu H",
+        "Zhang J",
+        "Zhao X",
+        "Chen X",
+        "Chen H"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.2967/jnumed.126.272607",
+      "journal_tier": 1,
+      "impact": 9.1,
+      "section": "genel",
+      "score": 100.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 2,
+      "abstract_tr": "Hızlı radyofarmasötik temizleme, ilerlemiş nöroendokrin tümörlerin (NET'ler) tedavisi için peptit reseptörü radyonüklid tedavisinin (PRRT) etkinliğini sınırlar. Bu prospektif, tek merkezli, tek kollu, araştırmacının başlattığı denemede, ilerleyici metastatik NET'li hastalarda optimize edilmiş, uzun etkili bir somatostatin analoğu olan 177Lu-LNC1010'un güvenliğini ve etkinliğini değerlendirdik. Yöntemler: Çalışmaya somatostatin analogları veya tirozin kinaz inhibitörleri ile tedaviye rağmen rezeke edilemeyen, metastatik NET'leri olan ve hastalık ilerlemesi gösteren 22 hasta dahil edildi. Katılımcılar 8 haftalık aralıklarla 177Lu-LNC1010 (3,3 GBq/döngü) ile 4 döngüye kadar PRRT aldı. Olumsuz olaylar, Ulusal Kanser Enstitüsü'nün Olumsuz Olaylar için Ortak Terminoloji Kriterleri sürüm 5.0'a göre derecelendirildi. Tedavi yanıtı RECIST 1.1 kullanılarak değerlendirildi. Progresyonsuz sağkalımı (PFS) ve genel sağkalımı (OS) tahmin etmek için Kaplan-Meier analizi kullanıldı. Bulgular: Hastalara (13 erkek, 9 kadın; ortanca yaş, 50,5 yıl) toplam 69 PRRT siklusu uygulandı. Tedaviye bağlı 3. veya 4. derece hematolojik toksisiteler 6 hastada (%27) gözlendi. Derece 3 veya daha yüksek nefrotoksisite veya hepatotoksisite kaydedilmemiştir. Emilen ortalama tümör dozu 2,12 (çeyrekler arası aralık: 1,68-2,96) Gy/GBq idi. PRRT sonrası yanıt 18 hastada değerlendirildi. Hastaların 8'inde (%44,0) kısmi yanıt, 9'unda (%50,0) stabil hastalık, 1'inde (%5,6) ilerleyici hastalık elde edildi. Objektif yanıt oranı %44,4, hastalık kontrol oranı ise %94,4 oldu. 21,0 aylık medyan takip sonrasında medyan PFS 15,0 ay oldu ve medyan OS'ye ulaşılamadı. Sonuç: 3,3 GBq/döngü 177Lu-LNC1010'a sahip PRRT iyi tolere edildi ve kabul edilebilir bir güvenlik profili sergiledi. Objektif yanıt oranı ve hastalık kontrol oranı yüksekti ve gelişmiş PFS ve OS ile pozitif korelasyon gösterdi. Uygun hasta seçimi ve erken müdahale, terapötik faydayı daha da optimize edebilir."
+    },
+    {
+      "pmid": "42692825",
+      "title": "A Conversation Between Stefano Fanti and Johannes Czernin.",
+      "abstract": "",
+      "journal": "J Nucl Med",
+      "date": "2026-09-03",
+      "authors": [
+        "Fanti S",
+        "Czernin J"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.2967/jnumed.126.273735",
+      "journal_tier": 1,
+      "impact": 9.1,
+      "section": "genel",
+      "score": 100.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 2,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42692824",
+      "title": "Radioiodine Spill-Induced Radiation Dermatitis.",
+      "abstract": "",
+      "journal": "J Nucl Med",
+      "date": "2026-09-03",
+      "authors": [
+        "Jafarvand M",
+        "Schiepers C",
+        "Dalhbom M",
+        "Castellanos Rieger A",
+        "Maliha PG",
+        "Bahri S"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.2967/jnumed.125.270585",
       "journal_tier": 1,
       "impact": 9.1,
       "section": "genel",
@@ -654,6 +927,142 @@
       "abstract_tr": ""
     },
     {
+      "pmid": "42692833",
+      "title": "Reply to \"Cost-Effectiveness of 177Lu-PSMA-617 Versus Cabazitaxel: Accounting for Real-World and Health Equity Considerations\".",
+      "abstract": "",
+      "journal": "J Nucl Med",
+      "date": "2026-09-03",
+      "authors": [
+        "Gogebakan KC",
+        "Kunst N",
+        "Ghodsi A",
+        "Owens L",
+        "Iravani A",
+        "Etzioni R"
+      ],
+      "pubtypes": [
+        "Letter"
+      ],
+      "doi": "10.2967/jnumed.126.273360",
+      "journal_tier": 1,
+      "impact": 9.1,
+      "section": "genel",
+      "score": 70.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": -30,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42692832",
+      "title": "Comment on FDA Approval Pathways.",
+      "abstract": "",
+      "journal": "J Nucl Med",
+      "date": "2026-09-03",
+      "authors": [
+        "Zhu S",
+        "Whalen B",
+        "Hope TA"
+      ],
+      "pubtypes": [
+        "Letter"
+      ],
+      "doi": "10.2967/jnumed.126.273516",
+      "journal_tier": 1,
+      "impact": 9.1,
+      "section": "genel",
+      "score": 70.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": -30,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42692831",
+      "title": "Cost-Effectiveness of 177Lu-PSMA-617 Versus Cabazitaxel: Accounting for Real-World and Health Equity Considerations.",
+      "abstract": "",
+      "journal": "J Nucl Med",
+      "date": "2026-09-03",
+      "authors": [
+        "Subramanian K",
+        "Osborne JR"
+      ],
+      "pubtypes": [
+        "Letter"
+      ],
+      "doi": "10.2967/jnumed.126.272700",
+      "journal_tier": 1,
+      "impact": 9.1,
+      "section": "genel",
+      "score": 70.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": -30,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42692829",
+      "title": "Reassessing 177Lu-PSMA-617 Acquisition Costs: Implications for U.S. Radiopharmaceutical Therapy Cost-Effectiveness Analyses.",
+      "abstract": "",
+      "journal": "J Nucl Med",
+      "date": "2026-09-03",
+      "authors": [
+        "Flannery K",
+        "Cavanaugh PF",
+        "Steele K"
+      ],
+      "pubtypes": [
+        "Letter"
+      ],
+      "doi": "10.2967/jnumed.126.272999",
+      "journal_tier": 1,
+      "impact": 9.1,
+      "section": "genel",
+      "score": 70.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": -30,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42692827",
+      "title": "PSMA PET/CT and Multiparametric MRI Before Prostate Biopsy.",
+      "abstract": "",
+      "journal": "J Nucl Med",
+      "date": "2026-09-03",
+      "authors": [
+        "Froehner M",
+        "Zöphel K"
+      ],
+      "pubtypes": [
+        "Letter"
+      ],
+      "doi": "10.2967/jnumed.126.272393",
+      "journal_tier": 1,
+      "impact": 9.1,
+      "section": "abdomen",
+      "score": 70.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": -30,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
       "pmid": "42686385",
       "title": "Erratum.",
       "abstract": "",
@@ -676,6 +1085,44 @@
       },
       "tier": 3,
       "abstract_tr": ""
+    },
+    {
+      "pmid": "42693211",
+      "title": "PSMA PET/CT-guided salvage elective nodal radiotherapy for nodal metastases after radical prostatectomy: a bi-institutional long-term outcome analysis.",
+      "abstract": "PURPOSE: PSMA PET/CT has transformed the detection of nodal recurrence after radical prostatectomy, yet real-world evidence on long-term outcomes of PSMA PET/CT-guided salvage elective nodal radiotherapy (ENRT) remains limited. This study evaluated oncological outcomes of PSMA PET/CT-guided salvage ENRT in a bi-institutional cohort with extended follow-up. METHODS: We retrospectively analysed 179 patients who received PSMA PET/CT-based ENRT for nodal recurrence after radical prostatectomy at two tertiary centres between 2014 and 2024. Patients with pelvic and/or paraaortic lymph node metastases were included. The primary endpoint was metastasis-free survival (MFS); secondary endpoints included biochemical progression-free survival (BPFS) and overall survival (OS). Survival outcomes were estimated using the Kaplan-Meier method, and prognostic factors were assessed using Cox regression analysis. RESULTS: Of the 179 patients, 104 (58.1%) had true biochemical recurrence after radical prostatectomy, whereas 75 (41.9%) had PSA persistence. After a median follow-up of 60.3 months, 5-year MFS and BPFS rates were 74.3% and 62.3%, respectively, in patients with true biochemical recurrence, compared with 61.2% and 56.4% in the overall cohort. In multivariable analyses of the entire cohort, concomitant ADT was associated with improved MFS (HR 0.36, p < 0.001) and BPFS (HR 0.26, p < 0.001), compared with no ADT. PSA persistence after surgery was associated with worse outcomes (MFS: HR 2.72, p < 0.001; BPFS: HR 2.09, p = 0.005). CONCLUSION: PSMA PET/CT-guided salvage ENRT predominantly combined with ADT provides durable long-term disease control in patients with nodal recurrence in routine clinical practice. In patients with true recurrence after radical prostatectomy, the 5-year MFS rate was 74.3%, approaching outcomes reported in prospective trials. However, the absence of systematically collected clinician-assessed toxicity and patient-reported outcomes precludes a reliable assessment of treatment tolerability.",
+      "journal": "Eur J Nucl Med Mol Imaging",
+      "date": "2026-09-04",
+      "authors": [
+        "Vorbach SM",
+        "Seppi T",
+        "Santo G",
+        "Virgolini I",
+        "Ganswindt U",
+        "Keilholz M",
+        "Brose SF",
+        "Casuscelli J",
+        "Klimek K",
+        "Werner RA",
+        "Schmidt-Hegemann NS",
+        "Belka C",
+        "Trapp C",
+        "Rogowski P"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1007/s00259-026-08147-z",
+      "journal_tier": 1,
+      "impact": 8.6,
+      "section": "toraks",
+      "score": 102.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 0,
+        "recency": 2.0
+      },
+      "tier": 2,
+      "abstract_tr": "AMAÇ: PSMA PET/BT, radikal prostatektomi sonrası nodal nüks tespitini değiştirdi, ancak PSMA PET/CT kılavuzluğunda kurtarıcı elektif nodal radyoterapinin (ENRT) uzun vadeli sonuçlarına ilişkin gerçek dünyadaki kanıtlar sınırlı kalıyor. Bu çalışma, uzun takipli, iki-kurumlu bir kohortta PSMA PET/BT kılavuzluğunda kurtarma ENRT'nin onkolojik sonuçlarını değerlendirdi. YÖNTEMLER: 2014 ve 2024 yılları arasında iki tersiyer merkezde radikal prostatektomi sonrası nodal nüks nedeniyle PSMA PET/BT bazlı ENRT uygulanan 179 hastayı retrospektif olarak analiz ettik. Pelvik ve/veya paraaortik lenf nodu metastazı olan hastalar dahil edildi. Birincil son nokta metastazsız sağkalım (MFS) idi; ikincil son noktalar arasında biyokimyasal ilerlemesiz sağkalım (BPFS) ve genel sağkalım (OS) yer aldı. Hayatta kalma sonuçları Kaplan-Meier yöntemi kullanılarak tahmin edildi ve prognostik faktörler Cox regresyon analizi kullanılarak değerlendirildi. BULGULAR: 179 hastanın 104'ünde (%58,1) radikal prostatektomi sonrası gerçek biyokimyasal nüks görülürken, 75'inde (%41,9) PSA kalıcılığı vardı. Ortalama 60,3 aylık takip sonrasında, gerçek biyokimyasal nüksü olan hastalarda 5 yıllık MFS ve BPFS oranları sırasıyla %74,3 ve %62,3 iken genel kohortta bu oranlar %61,2 ve %56,4'tü. Tüm kohortun çok değişkenli analizlerinde, eşlik eden ADT, ADT uygulanmamasına kıyasla MFS'de (HR 0,36, p < 0,001) ve BPFS'de (HR 0,26, p < 0,001) iyileşme ile ilişkilendirildi. Ameliyattan sonra PSA'nın kalıcılığı daha kötü sonuçlarla ilişkiliydi (MFS: HR 2,72, p < 0,001; BPFS: HR 2,09, p = 0,005). SONUÇ: Rutin klinik uygulamada nodal nüksü olan hastalarda ağırlıklı olarak ADT ile kombine edilen PSMA PET/BT kılavuzluğunda kurtarıcı ENRT, uzun süreli hastalık kontrolü sağlar. Radikal prostatektomi sonrası gerçek nüksü olan hastalarda 5 yıllık MFS oranı %74,3 olup, prospektif çalışmalarda bildirilen sonuçlara yaklaşmaktadır. Bununla birlikte, sistematik olarak toplanan klinisyen tarafından değerlendirilen toksisitenin ve hasta tarafından bildirilen sonuçların bulunmaması, tedavi tolerabilitesinin güvenilir bir şekilde değerlendirilmesini engellemektedir."
     },
     {
       "pmid": "42680912",
@@ -883,6 +1330,45 @@
       "abstract_tr": "AMAÇ: Prostat spesifik membran antijeni (PSMA) PET/CT, prostat kanseri tedavisinde yaygın olarak kullanılmaktadır ancak spesifik olmayan kemik alımı (UBU), özellikle [18F]PSMA-1007 ile tanısal bir zorluk olmaya devam etmektedir. Kemik alımı metastatik olasılık (BUMP) skoru - kompozit bir görüntüleme-klinik modeli, UBU'daki iskelet metastazlarını tahmin etmek için PSMA Raporlama ve Veri Sistemi (PSMA-RADS, Versiyon 2) ile karşılaştırıldı. YÖNTEMLER: Üç üçüncü basamak kanser merkezinde gerçekleştirilen [18F]PSMA-1007 PET/BT taramalarının gerçek dünyadaki bir kohortu geriye dönük olarak analiz edildi. Fokal PSMA tutulumu olan kemik lezyonları değerlendirildi. Her lezyon için BUMP skorunu hesaplamak amacıyla SUVmax, BT'den türetilmiş ortalama Hounsfield ünitesi ve androjen yoksunluğu tedavisi durumu kaydedildi. Lezyonel PSMA-RADS skorları deneyimli radyologlar tarafından belirlendi. Takip görüntüleme, prostat spesifik antijen (PSA) kinetiği ve multidisipliner fikir birliği kullanılarak temel gerçek belirlendi. Alıcı çalışma karakteristiği (ROC), değerlendirilen teşhis performansını analiz eder. SONUÇLAR: 412 kemik lezyonu olan 130 hasta (ortalama yaş 70) analiz edildi; Lezyonların %60,9'u (n = 251) metastatikti. Medyan SUVmax, malign lezyonlarda benign lezyonlardan daha yüksekti: 7,54 (Çeyrekler arası aralık (IQR) 10,3) ve 3,53 (IQR 1,51). BUMP, 0,812'lik bir AUROC'ye ulaştı (%95 GA: 0,636-0,931), optimal eşik 0,134 oldu ve F1 puanı 0,800 oldu. PSMA-RADS v2.0, daha yüksek duyarlılık ve özgüllük ile BUMP'tan daha iyi performans gösterdi (%98 ve %96'ya karşı %74 ve %80). Şüpheli PSMA-RADS Skoru 3 lezyonlarda (n = 44), BUMP azaltılmış ayrımcılık gösterdi (AUROC 0,61, %95 CI 0,457-0,781). SONUÇ: BUMP, kemik metastazlarını sınıflandırma konusunda iyi bir tahmin yeteneğine sahipti ancak insan liderliğindeki PSMA-RADS değerlendirmesine kıyasla daha düşük performans gösterdi. Şüpheli lezyonlar için BUMP sınırlı katma değer sunarak uzman yorumunun önemini vurguladı."
     },
     {
+      "pmid": "42690333",
+      "title": "CEA-targeted fluorescence endoscopy for the detection of high-grade dysplasia and early invasive rectal cancer: A proof-of-concept trial.",
+      "abstract": "PURPOSE: Accurate recognition of high-grade dysplasia (HGD) and early invasive carcinoma (IC) within colorectal polyps is essential for selecting the preferred local resection technique. However, optical endoscopic diagnosis can be challenging, particularly in large and advanced polyps. This study investigates whether carcinoembryonic antigen (CEA)-targeted near-infrared fluorescence (NIRF) imaging can distinguish polyps containing HGD/IC from polyps solely containing low-grade dysplasia (LGD), given prior evidence of CEA overexpression in HGD/IC relative to LGD. METHODS: Patients scheduled for local en-bloc endoscopic resection of advanced rectal polyps were included in the study and received 5 mg or 10 mg intravenous SGM-101, a CEA-targeted fluorescent agent. In vivo imaging was performed using a rigid Quest-Olympus NIRF-endoscope, followed by ex vivo whole-specimen and bread-loaf imaging using the PEARL imaging system. The primary endpoint was the NIRF tumour-to-low-grade-dysplasia ratio (TDR; HGD/IC divided by LGD) performed on bread loafs, as this method enabled direct pathological correlation. Secondary endpoints included dose-finding as well as sensitivity and specificity for detecting HGD/IC. RESULTS: A total of 22 patients were included, with 9/22 containing LGD only and 13/22 containing HGD/IC. Eleven patients received 10 mg and 11 received 5 mg SGM-101. Ex vivo bread-loaf imaging showed a median (IQR) TDR of 1.7 (1.3-2.9), with higher values in the 10 mg group of 2.5 (2.0-3.5) compared to the 1.3 (1.2-1.6) in the 5 mg group (p = 0.023). The sensitivity for detecting HGD/IC was 86% (2 false-negatives), and specificity was 88% (1 false-positive). CONCLUSION: Although with limited sample size, this study demonstrates proof-of-concept of CEA-targeted NIRF-imaging in differentiating HGD/IC bearing polyps from completely benign LGD polyps. Clinical utility, including its impact on treatment decision-making and patient outcomes, remains to be demonstrated in future, larger prospective studies. CLINICAL TRIAL REGISTRATION NUMBER: NCT06280690.",
+      "journal": "Eur J Nucl Med Mol Imaging",
+      "date": "2026-09-03",
+      "authors": [
+        "Warmerdam MI",
+        "Dijkhuis TH",
+        "Linders DJG",
+        "Pesch CMW",
+        "Crobach ASLP",
+        "Matoshi A",
+        "Basiliya K",
+        "van den Berg SH",
+        "Cailler F",
+        "Peeters KCMJ",
+        "Holman FA",
+        "Mieog JSD",
+        "Vahrmeijer AL",
+        "Hilling DE",
+        "Boonstra JJ"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1007/s00259-026-08155-z",
+      "journal_tier": 1,
+      "impact": 8.6,
+      "section": "abdomen",
+      "score": 100.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 2,
+      "abstract_tr": "AMAÇ: Kolorektal poliplerdeki yüksek dereceli displazinin (HGD) ve erken invazif karsinomun (IC) doğru tanınması, tercih edilen lokal rezeksiyon tekniğinin seçilmesi için esastır. Ancak özellikle büyük ve ilerlemiş poliplerde optik endoskopik tanı zorlayıcı olabilir. Bu çalışma, karsinoembriyonik antijen (CEA) hedefli yakın kızılötesi floresans (NIRF) görüntülemenin, HGD/IC içeren polipleri, LGD'ye göre HGD/IC'de CEA aşırı ekspresyonuna ilişkin önceden kanıt göz önüne alındığında, yalnızca düşük dereceli displazi (LGD) içeren poliplerden ayırt edip edemediğini araştırmaktadır. YÖNTEMLER: İlerlemiş rektal poliplerin lokal en-blok endoskopik rezeksiyonu planlanan hastalar çalışmaya dahil edildi ve CEA hedefli bir floresan ajan olan 5 mg veya 10 mg intravenöz SGM-101 aldı. İn vivo görüntüleme, sert bir Quest-Olympus NIRF endoskopu kullanılarak gerçekleştirildi, ardından PEARL görüntüleme sistemi kullanılarak ex vivo tam numune ve ekmek somunu görüntüleme yapıldı. Birincil son nokta, ekmek somunları üzerinde gerçekleştirilen NIRF tümör-düşük dereceli displazi oranıydı (TDR; HGD/IC bölü LGD), çünkü bu yöntem doğrudan patolojik korelasyona olanak sağladı. İkincil son noktalar, doz bulmanın yanı sıra HGD/IC'nin saptanmasına yönelik duyarlılık ve özgüllüğü içeriyordu. SONUÇLAR: 9/22'si yalnızca LGD içeren ve 13/22'si HGD/IC içeren toplam 22 hasta dahil edildi. On bir hastaya 10 mg ve 11 hastaya 5 mg SGM-101 verildi. Ex vivo ekmek somunu görüntüleme, 5 mg grubundaki 1,3 (1,2-1,6) ile karşılaştırıldığında 10 mg grubunda 2,5 (2,0-3,5) değerinde daha yüksek değerlerle 1,7 (1,3-2,9) ortalama (IQR) TDR gösterdi (p = 0,023). HGD/IC'yi tespit etme duyarlılığı %86 (2 yanlış negatif) ve özgüllük %88 (1 yanlış pozitif) idi. SONUÇ: Sınırlı örneklem büyüklüğüne rağmen, bu çalışma, HGD/IC taşıyan polipleri tamamen iyi huylu LGD poliplerinden ayırmada CEA hedefli NIRF görüntülemenin kavram kanıtını göstermektedir. Tedaviye karar verme ve hasta sonuçları üzerindeki etkisi de dahil olmak üzere klinik faydanın gelecekteki daha büyük prospektif çalışmalarda gösterilmesi gerekmektedir. KLİNİK ARAŞTIRMA KAYIT NUMARASI: NCT06280690."
+    },
+    {
       "pmid": "42684147",
       "title": "Image Quality in the Era of Artificial Intelligence: Understanding the Limitations of AI-based Image Reconstruction and Postprocessing.",
       "abstract": "Artificial intelligence (AI) is being deployed in radiology for image reconstruction and postprocessing to produce images that appear sharper, smoother, and more detailed. However, incorporating AI also introduces new failure modes and can exacerbate the disconnect between the perceived quality of an image and its diagnostic information content. Understanding the limitations of AI-enabled image reconstruction and postprocessing is essential for the safe and effective use of this technology. Therefore, the purpose of this report is to raise awareness of the limitations of AI-based image reconstruction and postprocessing to help users realize the benefits of the technology while minimizing risks. Accordingly, this report reviews approaches to image quality assessment, discusses the regulatory framework relevant to AI-enabled imaging devices, describes AI-specific failure modes, and outlines strategies to mitigate associated risks.",
@@ -909,7 +1395,7 @@
         "recency": 0.0
       },
       "tier": 2,
-      "abstract_tr": ""
+      "abstract_tr": "Yapay zeka (AI), daha keskin, daha pürüzsüz ve daha ayrıntılı görünen görüntüler üretmek amacıyla görüntü yeniden yapılandırması ve son işleme için radyolojide kullanılıyor. Bununla birlikte, yapay zekanın dahil edilmesi aynı zamanda yeni hata modlarını da beraberinde getirir ve bir görüntünün algılanan kalitesi ile tanısal bilgi içeriği arasındaki kopukluğu daha da kötüleştirebilir. Yapay zeka destekli görüntü yeniden oluşturma ve son işlemenin sınırlamalarını anlamak, bu teknolojinin güvenli ve etkili kullanımı için çok önemlidir. Bu nedenle, bu raporun amacı, kullanıcıların riskleri en aza indirirken teknolojinin faydalarını fark etmelerine yardımcı olmak için yapay zeka tabanlı görüntü yeniden oluşturma ve son işlemenin sınırlamaları konusunda farkındalık yaratmaktır. Buna göre bu rapor, görüntü kalitesi değerlendirmesine yönelik yaklaşımları gözden geçiriyor, yapay zeka destekli görüntüleme cihazlarıyla ilgili düzenleyici çerçeveyi tartışıyor, yapay zekaya özgü arıza modlarını açıklıyor ve ilgili riskleri azaltmaya yönelik stratejilerin ana hatlarını çiziyor."
     },
     {
       "pmid": "42267962",
@@ -963,7 +1449,7 @@
         "recency": 0.0
       },
       "tier": 3,
-      "abstract_tr": ""
+      "abstract_tr": "Tanısal radyolojide yapay zeka üzerine yapılan araştırmalar, algoritma geliştirmeye ve bağımsız performansa odaklanmıştır, ancak sonuçta yapay zekanın klinik değerini belirleyen insan-yapay zeka etkileşimleri yeterince anlaşılmamıştır. İnsan-yapay zeka etkileşimi ve radyoloji yapay zeka literatürünün anlatısal bir sentezi, radyolojide başarılı insan-yapay zeka işbirliğinin yeterince tanınmayan üç belirleyicisinin altını çizdi. Birincisi, bilişsel psikoloji, otomasyon yanlılığının, yapay zeka belirsizliğinin çerçevelenmesinin ve yapay zekanın neden olduğu beceri zayıflamasının tanısal akıl yürütmeyi nasıl bozduğunu belirler. İkincisi, yapay zeka araçlarının kullanıcı arayüzü (UI) ve kullanıcı deneyimi (UX), yapay zeka bulgularının zamanlamasının, belirginliğinin ve belgelenmesinin radyologların dikkatini ve raporlama davranışını nasıl şekillendirdiğini belirler; Üretken yapay zekanın yeni uygulamalar ve etkileşim paradigmaları sunması nedeniyle UI/UX'in etkisi daha da kritik hale geliyor. Üçüncüsü, algoritmik uygunluk, radyologların adli, şeffaflık ve organizasyonel baskılar altında kendi kararlarını geçersiz kılmasına yol açmaktadır. Her alan için, algoritmik yetenekler ile klinik fayda arasındaki boşluğu kapatmak amacıyla somut araştırma talimatları önerilmektedir."
     },
     {
       "pmid": "42684110",
@@ -997,7 +1483,7 @@
         "recency": 0.0
       },
       "tier": 2,
-      "abstract_tr": ""
+      "abstract_tr": "AMAÇLAR: Bu çalışmanın amacı (1) geleneksel tek çekim eko-düzlemsel görüntüleme (EPI) ile karşılaştırıldığında brakiyal pleksus (BP) difüzyon tensör görüntüleme (DTI) görüntü kalitesi ve kantitatif ölçümler üzerinde derin öğrenme (DL) rekonstrüksiyonunun farklı etkisini ölçmek, (2) zorlu KB anatomisinde eşzamanlı çok kesitli (SMS) hızlandırmayı DL DTI ile entegre etmenin klinik faydasını ve sınırlamalarını açıklığa kavuşturmak ve (3) optimal, Güçlü KB traktografisi için zaman tasarrufu sağlayan DTI protokolü. GEREÇ VE YÖNTEM: Yirmi yedi sağlıklı gönüllü prospektif olarak çalışmaya alındı ​​(evre 1: n = 14; evre 2: n = 13). Tüm DTI alımlarında tek çekimli bir EPI dizisi kullanıldı. İlk aşamada DL rekonstrüksiyonlu DTI, geleneksel DL olmayan DTI ile karşılaştırıldı. İkinci aşamada, SMS hızlandırmanın DL DTI protokollerine entegrasyonu 5 protokol seti üzerinden değerlendirildi. BP postganglionik sinir köklerinde ve omurilikte fiber yolu sayısı, kanal uzunluğu, kanal bazlı DTI ölçümleri, sinyal-gürültü oranı (SNR), kontrast-gürültü oranı (CNR), görüntü tutarlılığı ve okuyucular arası uyum değerlendirildi. SONUÇLAR: İlk aşamada, DL DTI, KB'de önemli ölçüde daha yüksek traktografi başarı oranları, lif sayıları ve lif uzunlukları gösterdi (P < 0.05). DL, Zar benzerliği katsayısının (DSC) 0,537'den 0,740'a (P = 0,006) yükselmesiyle okuyucular arası uyumu ve görüntü tutarlılığını önemli ölçüde iyileştirdi. DL rekonstrüksiyonu, anatomiye özgü fraksiyonel anizotropide değişikliklerle sonuçlandı; BP fraksiyonel anizotropisinde önemli bir azalma, ancak omurilik fraksiyonel anizotropisinde bir artış oldu. İkinci aşamada, SMS ile entegre protokoller, SMS olmayan DL protokolleriyle karşılaştırıldığında önemli ölçüde daha düşük traktografi başarısı üretti ve görüntü kalitesini düşürdü (P < 0.05). SMS entegrasyonu daha düşük SNR ve CNR (P < 0,05) ve görüntü tutarlılığının azalmasıyla sonuçlandı (DSC 0,727'den 0,486'ya düştü, P = 0,015). DL12-2 protokolü (12 difüzyon yönü ve iki b800 edinimi), zaman açısından verimli en uygun çözüm olarak tanımlandı. SONUÇLAR: DL rekonstrüksiyonu, BP DTI'nin fizibilitesini ve güvenilirliğini önemli ölçüde artırır ve niceliksel ölçümleri anatomiye özgü bir şekilde etkiler. Buna karşılık, SMS hızlandırmanın tek seferlik EPI ile entegrasyonu, yüksek duyarlılığa sahip BP bölgesinde teknik olarak zorlu olmaya devam ediyor. Bulgularımız, DL ile geliştirilmiş DTI'nin başarılı klinik entegrasyonu için anatomiye özgü optimizasyonun gerekli olduğunun altını çiziyor."
     },
     {
       "pmid": "42667839",
@@ -1059,6 +1545,36 @@
       },
       "tier": 3,
       "abstract_tr": "Beyin tümörü hastalarının hayatta kalma süresinin tahmin edilmesi, tıbbi prognozda kritik bir zorluk olmaya devam etmektedir. Mevcut yöntemler genellikle görüntüleme ve klinik kayıtlar gibi heterojen veri türlerini entegre etmekte zorlanır. Bu makale, yüksek boyutlu görüntüleme özelliklerini geç füzyon stratejisi yoluyla klinik değişkenlerle entegre ederek bu sınırlamaları gidermek için tasarlanan Üç Boyutlu Özellik Füzyon Ağı (3D-FuseNet) adlı yeni bir yaklaşım önermektedir. 3D-FuseNet, dört MRI sekans görüntüsünün 3D'sinden özellikleri otomatik olarak çıkarmak için yapay zeka (AI) modellerinden yararlanır ve tamamlayıcı doğalarından tam anlamıyla yararlanmak için bunları temel klinik değişkenlerle birleştirir. Ağ, performansını kapsamlı bir şekilde değerlendirmek için yaygın olarak kullanılan 10 optimize edici ve 5 makine öğrenimi (ML) yöntemi kullanılarak değerlendirildi. En iyi senaryoda 3D-FuseNet, en iyi temel modelden %4 daha düşük bir ortalama mutlak hataya (MAE) ulaştı. Ayrıca ResNet50, Unet3D kodlayıcı ve Vision Transformer gibi bireysel modeller kullanılarak elde edilen en düşük MAE ile karşılaştırıldığında MAE'yi %2,7 oranında azalttı. 3D-FuseNet, çok modlu veri kaynaklarını etkili bir şekilde entegre ederek, beyin tümörü hastalarında sağkalımı tahmin etmede rekabetçi bir performans sergileyerek, değerlendirilen taban çizgisine göre orta ancak tutarlı iyileştirmeler elde etti. Önerilen yöntem mevcut mimarilerden daha iyi performans gösteriyor ve şu adreste kamuya açık: https://github.com/AIPMLab/3D-FuseNet."
+    },
+    {
+      "pmid": "42691874",
+      "title": "TeF-SAM: Prototype memory for medical lesion segmentation with text-free inference.",
+      "abstract": "Medical lesion segmentation often depends on large, high-quality pixel-level annotations, which are costly to obtain because they require expert delineation. Recent multimodal methods use clinical text to improve visual representation learning, but they usually require paired image-report data during training and text input during inference. This dependency limits their use when paired reports are scarce or when segmentation is performed before report generation. To address this limitation, we propose TeF-SAM, a Segment Anything Model (SAM)-based framework for limited-text training and text-free medical lesion segmentation. TeF-SAM builds a Persistent Region-Informed Semantic Memory (PRISM) from the paired reports available during training. PRISM distils segmentation-relevant textual knowledge into a region-aware prototype space, allowing image features to retrieve semantic cues at inference without online text input. We further introduce Prototype-Driven Regional Lesion Detection (PRLD), which combines prototype-level semantic responses with multi-scale visual features to generate SAM-compatible prompts, including coarse masks, points, and semantic embeddings. We evaluate TeF-SAM on three lesion segmentation benchmarks spanning different anatomies and imaging modalities: QaTa-COV19, MosMedData+, and BUSI. Experimental results show that TeF-SAM achieves competitive segmentation performance using only 1%-15% of the available paired reports and requires no text input during inference. Our code will be released at: https://github.com/Jinxinya2/TeF-SAM.",
+      "journal": "Comput Med Imaging Graph",
+      "date": "2026-08-31",
+      "authors": [
+        "Liang J",
+        "Liu X",
+        "Zang Z",
+        "Wang X",
+        "Qi Y",
+        "Li X"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.compmedimag.2026.102816",
+      "journal_tier": 3,
+      "impact": 5.4,
+      "section": "girisim",
+      "score": 35.0,
+      "score_parts": {
+        "journal": 35,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": "Tıbbi lezyon segmentasyonu genellikle büyük, yüksek kaliteli piksel düzeyindeki açıklamalara dayanır ve bunların elde edilmesi, uzman tanımlaması gerektirdiğinden maliyetlidir. Son zamanlardaki çok modlu yöntemler, görsel temsil öğrenimini geliştirmek için klinik metni kullanır, ancak genellikle eğitim sırasında eşleştirilmiş görüntü-rapor verilerine ve çıkarım sırasında metin girişine ihtiyaç duyarlar. Bu bağımlılık, eşleştirilmiş raporlar az olduğunda veya rapor oluşturulmadan önce segmentasyon yapıldığında bunların kullanımını sınırlar. Bu sınırlamayı gidermek için, sınırlı metin eğitimi ve metinsiz tıbbi lezyon segmentasyonu için Her Şeyi Segment Modeli (SAM) tabanlı bir çerçeve olan TeF-SAM'i öneriyoruz. TeF-SAM, eğitim sırasında mevcut olan eşleştirilmiş raporlardan Kalıcı Bölge Bilgili Anlamsal Bellek (PRISM) oluşturur. PRISM, segmentasyonla ilgili metin bilgisini bölgeye duyarlı bir prototip alanına damıtarak görüntü özelliklerinin çevrimiçi metin girişi olmadan çıkarım sırasında anlamsal ipuçları almasına olanak tanır. Ayrıca, kaba maskeler, noktalar ve anlamsal yerleştirmeler de dahil olmak üzere SAM uyumlu istemler oluşturmak için prototip düzeyinde anlamsal yanıtları çok ölçekli görsel özelliklerle birleştiren Prototip Güdümlü Bölgesel Lezyon Tespiti'ni (PRLD) tanıtıyoruz. TeF-SAM'i farklı anatomileri ve görüntüleme yöntemlerini kapsayan üç lezyon segmentasyon kriterine göre değerlendiriyoruz: QaTa-COV19, MosMedData+ ve BUSI. Deneysel sonuçlar, TeF-SAM'in mevcut eşleştirilmiş raporların yalnızca %1 ila %15'ini kullanarak rekabetçi segmentasyon performansı elde ettiğini ve çıkarım sırasında herhangi bir metin girişi gerektirmediğini göstermektedir. Kodumuz şu adreste yayınlanacaktır: https://github.com/Jinxinya2/TeF-SAM."
     },
     {
       "pmid": "42275243",
@@ -1156,6 +1672,99 @@
       "tier": 1,
       "impact": 5.2,
       "section": "girisim"
+    },
+    {
+      "pmid": "42690965",
+      "title": "Lung Cancer Screening: Beyond Pulmonary Nodules.",
+      "abstract": "Low-dose CT lung cancer screening reduces lung cancer mortality in individuals at high risk and frequently reveals clinically relevant incidental findings. In the National Lung Screening Trial, approximately one-third of screening CT examinations demonstrated abnormalities other than lung cancer, raising challenges related to interpretation, reporting, and further management. The absence of consistent guidance and the variable clinical significance of these findings may hinder the broader adoption of lung cancer screening. Opportunistic screening leverages low-dose CT examinations performed for lung cancer detection to identify additional serious conditions at no extra cost, radiation exposure, or patient burden. The authors provide a practical framework for recognizing, reporting, and managing common opportunistic findings on lung cancer screening CT images, with an emphasis on evidence-based recommendations and current professional society guidance. Key thoracic findings include emphysema, interstitial lung abnormalities, interstitial lung disease, coronary artery calcification, thoracic aortic aneurysm, and pulmonary artery enlargement. Each of these findings, if unrecognized, is associated with substantial morbidity and mortality. Extrapulmonary findings such as low bone density and lesions found incidentally in the upper abdominal organs further expand the clinical value of lung cancer screening. The authors highlight standardized visual and quantitative assessment methods, recommended follow-up pathways, and the importance of structured reporting, including appropriate use of the Lung CT Screening Reporting and Data System \"S\" (other non-lung cancer findings) modifier. Emerging artificial intelligence tools are discussed as critical enablers for scalable opportunistic screening, offering automated detection, quantification, and longitudinal assessment of emphysema, coronary calcium levels, vascular dimensions, bone density, body composition, and selected abdominal pathologic conditions. By integrating opportunistic screening into routine lung cancer screening workflows, radiologists can extend the benefit of lung cancer screening with CT beyond cancer detection to facilitate comprehensive risk stratification and preventive care.",
+      "journal": "Radiographics",
+      "date": "2026-10",
+      "authors": [
+        "Singh A",
+        "El Khoury T",
+        "Tannoury E",
+        "Brenner E",
+        "Jhala K",
+        "Byrne SC"
+      ],
+      "pubtypes": [
+        "Journal Article",
+        "Review"
+      ],
+      "doi": "10.1148/rg.260012",
+      "journal_tier": 1,
+      "impact": 5.2,
+      "section": "girisim",
+      "score": 110.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 10,
+        "recency": 0.0
+      },
+      "tier": 1,
+      "abstract_tr": "Düşük doz BT akciğer kanseri taraması, yüksek risk altındaki bireylerde akciğer kanseri mortalitesini azaltır ve sıklıkla klinik olarak anlamlı tesadüfi bulguları ortaya çıkarır. Ulusal Akciğer Tarama Çalışmasında, tarama BT incelemelerinin yaklaşık üçte birinde akciğer kanseri dışında anormallikler ortaya çıktı ve bu da yorumlama, raporlama ve ileri yönetimle ilgili zorlukları artırdı. Tutarlı bir rehberin bulunmaması ve bu bulguların değişken klinik önemi, akciğer kanseri taramasının daha geniş çapta benimsenmesini engelleyebilir. Fırsatçı tarama, hiçbir ekstra maliyet, radyasyona maruz kalma veya hasta yükü olmadan ek ciddi koşulları belirlemek için akciğer kanseri tespiti için gerçekleştirilen düşük dozlu BT incelemelerinden yararlanır. Yazarlar, kanıta dayalı önerilere ve güncel profesyonel toplum rehberliğine vurgu yaparak, akciğer kanseri tarama BT görüntüleri üzerindeki yaygın fırsatçı bulguların tanınması, raporlanması ve yönetilmesi için pratik bir çerçeve sunmaktadır. Anahtar torasik bulgular arasında amfizem, interstisyel akciğer anormallikleri, interstisyel akciğer hastalığı, koroner arter kalsifikasyonu, torasik aort anevrizması ve pulmoner arter genişlemesi yer alır. Bu bulguların her biri, eğer fark edilmezse, ciddi morbidite ve mortalite ile ilişkilidir. Düşük kemik yoğunluğu ve tesadüfen üst karın organlarında bulunan lezyonlar gibi ekstrapulmoner bulgular, akciğer kanseri taramasının klinik değerini daha da artırmaktadır. Yazarlar standartlaştırılmış görsel ve niceliksel değerlendirme yöntemlerini, önerilen takip yollarını ve Akciğer BT Tarama Raporlama ve Veri Sistemi \"S\" (akciğer dışı diğer bulgular) değiştiricisinin uygun kullanımı dahil olmak üzere yapılandırılmış raporlamanın önemini vurgulamaktadır. Ortaya çıkan yapay zeka araçları, amfizemin, koroner kalsiyum seviyelerinin, vasküler boyutların, kemik yoğunluğunun, vücut kompozisyonunun ve seçilmiş abdominal patolojik durumların otomatik olarak tespit edilmesini, ölçülmesini ve uzunlamasına değerlendirilmesini sunan, ölçeklenebilir fırsatçı tarama için kritik kolaylaştırıcılar olarak tartışılmaktadır. Radyologlar, fırsatçı taramayı rutin akciğer kanseri tarama iş akışlarına entegre ederek, kapsamlı risk sınıflandırmasını ve önleyici bakımı kolaylaştırmak için CT ile akciğer kanseri taramasının faydasını kanser tespitinin ötesine taşıyabilir."
+    },
+    {
+      "pmid": "42690964",
+      "title": "Surveillance for Hepatocellular Carcinoma in Patients at High Risk.",
+      "abstract": "Hepatocellular carcinoma (HCC) is the third leading cause of cancer-related mortality worldwide and most often arises in patients with chronic liver disease and cirrhosis. Since curative treatment options are largely limited to early-stage disease, effective surveillance strategies are essential to improve outcomes. Current guidelines recommend semiannual US combined with serum α-fetoprotein level testing as the standard surveillance approach for most patients at high risk. Liver Imaging Reporting and Data System 2024 guidance provides a structured framework for interpretation of surveillance US and highlights the importance of examination quality assessment and reporting by incorporating it into the management decision-making algorithm. US surveillance improves early tumor detection and survival but demonstrates suboptimal sensitivity in certain high-risk subgroups, particularly patients with obesity, hepatic steatosis, and advanced cirrhosis. Growing evidence supports the use of alternative strategies including biomarker panel results and abbreviated MRI protocols in selected patient subgroups because these approaches demonstrate higher sensitivity and favorable cost-effectiveness when applied to appropriately risk-stratified populations. Furthermore, cost-effectiveness analyses consistently indicate that surveillance efficiency strongly depends on individual HCC risk, imaging costs, surveillance use, and societal willingness-to-pay thresholds, supporting a departure from uniform \"one-size-fits-all\" strategies in favor of personalized, risk-adapted surveillance paradigms. Despite advances in diagnostic performance, surveillance use remains suboptimal in clinical practice due to patient-, provider-, and system-level barriers. The authors aim to synthesize current evidence on HCC surveillance including identifying target populations; evaluating the diagnostic performance of available modalities; and considering cost-effectiveness, emerging technologies, and real-world barriers to implementation of surveillance protocols.",
+      "journal": "Radiographics",
+      "date": "2026-10",
+      "authors": [
+        "Fowler KJ",
+        "Kamaya A",
+        "Rodgers SK",
+        "Kruse D",
+        "Bashir MR",
+        "Bhamra GS",
+        "Choi ES",
+        "El Kaffas A",
+        "Singal AG",
+        "Park HJ",
+        "Chernyak V"
+      ],
+      "pubtypes": [
+        "Journal Article",
+        "Review"
+      ],
+      "doi": "10.1148/rg.260010",
+      "journal_tier": 1,
+      "impact": 5.2,
+      "section": "girisim",
+      "score": 110.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 10,
+        "recency": 0.0
+      },
+      "tier": 1,
+      "abstract_tr": "Hepatoselüler karsinom (HCC), dünya çapında kansere bağlı ölümlerin üçüncü önde gelen nedenidir ve çoğunlukla kronik karaciğer hastalığı ve sirozu olan hastalarda ortaya çıkar. İyileştirici tedavi seçenekleri büyük ölçüde erken evre hastalıkla sınırlı olduğundan, sonuçların iyileştirilmesi için etkili gözetim stratejileri gereklidir. Mevcut kılavuzlar, yüksek risk altındaki çoğu hasta için standart gözetim yaklaşımı olarak altı ayda bir US'yi serum α-fetoprotein düzeyi testiyle birlikte önermektedir. Karaciğer Görüntüleme Raporlaması ve Veri Sistemi 2024 kılavuzu, ABD sürveyansının yorumlanması için yapılandırılmış bir çerçeve sağlar ve muayene kalitesi değerlendirmesinin ve bunu yönetim karar verme algoritmasına dahil ederek raporlamanın önemini vurgular. ABD sürveyansı, erken tümör tespitini ve sağkalımı iyileştirir ancak bazı yüksek riskli alt gruplarda, özellikle obezite, hepatik steatoz ve ilerlemiş siroz hastalarında suboptimal duyarlılık gösterir. Giderek artan kanıtlar, seçilen hasta alt gruplarında biyobelirteç paneli sonuçları ve kısaltılmış MRI protokolleri dahil olmak üzere alternatif stratejilerin kullanımını desteklemektedir çünkü bu yaklaşımlar, uygun şekilde risk sınıflandırmasına sahip popülasyonlara uygulandığında daha yüksek hassasiyet ve olumlu maliyet etkinliği göstermektedir. Ayrıca, maliyet-etkinlik analizleri, sürveyans verimliliğinin güçlü bir şekilde bireysel HCC riskine, görüntüleme maliyetlerine, sürveyans kullanımına ve toplumsal ödeme istekliliği eşiklerine bağlı olduğunu sürekli olarak göstermektedir; bu da, kişiselleştirilmiş, riske uyarlanmış sürveyans paradigmaları lehine tek tip \"herkese uyan tek boyut\" stratejilerinden ayrılmayı desteklemektedir. Tanı performansındaki ilerlemelere rağmen sürveyans kullanımı hasta, sağlayıcı ve sistem düzeyindeki engeller nedeniyle klinik uygulamada optimalin altında olmaya devam ediyor. Yazarlar, hedef popülasyonların belirlenmesi de dahil olmak üzere HCC sürveyansına ilişkin mevcut kanıtları sentezlemeyi amaçlamaktadır; mevcut yöntemlerin tanısal performansının değerlendirilmesi; ve gözetim protokollerinin uygulanmasında maliyet etkinliği, gelişen teknolojiler ve gerçek dünyadaki engellerin dikkate alınması."
+    },
+    {
+      "pmid": "42690963",
+      "title": "Invited Commentary: Measured, Not Yet Managed: Moving Toward Comprehensive Lung Screening.",
+      "abstract": "",
+      "journal": "Radiographics",
+      "date": "2026-10",
+      "authors": [
+        "Gunderman PR",
+        "Fintelmann FJ"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1148/rg.260194",
+      "journal_tier": 1,
+      "impact": 5.2,
+      "section": "toraks",
+      "score": 100.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 2,
+      "abstract_tr": ""
     },
     {
       "pmid": "42275242",
@@ -1276,591 +1885,40 @@
         "recency": 0.0
       },
       "tier": 3,
-      "abstract_tr": "İlerlemesiz hayatta kalma, biyolojik ve klinik olarak farklı ilerleme olaylarını eşit şekilde tedavi eder ve oligometastatik radyoterapi çalışmalarındaki yorumlanabilirliğini sınırlar. 21 randomize araştırmada olay düzeyinde raporlama sıklıkla eksikti ve hiçbiri radyoterapi sonrası görüntülemenin PFS içerisinde nasıl karara bağlandığını açıklamadı. Pragmatik raporlama standartları, yeni son noktalara veya değiştirilmiş deneme tasarımına gerek kalmadan yorumlamayı iyileştirebilir."
+      "abstract_tr": "İlerlemesiz sağkalım, biyolojik ve klinik olarak farklı ilerleme olaylarını eşit şekilde tedavi eder ve oligometastatik radyoterapi çalışmalarındaki yorumlanabilirliğini sınırlar. 21 randomize araştırmada olay düzeyinde raporlama sıklıkla yoktu ve hiçbiri radyoterapi sonrası görüntülemenin PFS içerisinde nasıl karara bağlandığını açıklamadı. Pragmatik raporlama standartları, yeni son noktalara veya değiştirilmiş deneme tasarımına ihtiyaç duymadan yorumlamayı iyileştirebilir."
     },
     {
-      "pmid": "42668045",
-      "title": "Letter to the editor regarding 'Patient selection for proton therapy in lung cancer: Nationwide external validation and model update of a prognostic model for 2-year mortality including mean heart dose'.",
-      "abstract": "",
+      "pmid": "42692084",
+      "title": "Parametric delineation of the clinical target volume for glioma: Model-based approach that tailors to physician contouring practices.",
+      "abstract": "BACKGROUND AND PURPOSE: Delineating the clinical target volume (CTV) is an essential part of a radiation oncologist's practice. However, this process is subject to variability due to factors such as clinical experience, institutional standards, and contouring guidelines being followed. We propose a parameterized CTV delineation model for glioma tumors that can tailor to CTV delineation practices. The model is validated based on its ability to replicate different physician-delineated CTVs within our institution. MATERIAL AND METHODS: Five delineation parameters define the model-based CTV for glioma: CTV margin expansion, reduction of CTV margins in the brainstem and optic structures for reduced likelihood of tumor infiltration or preferential sparing, and increase of CTV margins at the ventricles and falx cerebri to account for positional uncertainties. Parameters are fitted by matching the model CTV to the manually-delineated CTVs for patients, maximizing the Dice score. The model is developed using 93 retrospectively collected glioma cases treated by three physicians in our institution. The parameter values for different physicians provide CTV delineation starting points, which was tested by training a classification model using fitted CTV parameters. RESULTS: Physician quality assessments showed no statistically significant difference in quality ratings between model-generated and physician-delineated CTVs (p > 0.05), with both groups achieving an average quality rating of 2.3 (0: unusable, 1: major edits, 2: minor edits, 3: acceptable). The distribution of the delineation parameters varied systematically across physicians, especially in the CTV contours near the brainstem and ventricles. The distribution of the fitted delineation parameters varied systematically across physicians, especially in the CTV contours near the brainstem and ventricles. The best-performing classification model identified physician-specific CTV delineation starting points with 80% accuracy and Cohen's Kappa score of 0.68. CONCLUSION: Our parametric CTV delineation system effectively captures and quantifies physician contouring practices. The model can be used in a contour quality assurance program to promote consensus-building and CTV standardization across physician practices.",
       "journal": "Radiother Oncol",
-      "date": "2026-08-29",
+      "date": "2026-09-03",
       "authors": [
-        "Peters M",
-        "van Rossum PSN",
-        "Raaijmakers CPJ",
-        "Minken AW",
-        "Muller K",
-        "Verkooijen HM"
+        "Buti G",
+        "Ajdari A",
+        "Bridge C",
+        "Marciscano AE",
+        "Sharp GC",
+        "Oh K",
+        "Löfman F",
+        "Shih HA",
+        "Bortfeld T"
       ],
       "pubtypes": [
-        "Letter"
+        "Journal Article"
       ],
-      "doi": "10.1016/j.radonc.2026.111751",
+      "doi": "10.1016/j.radonc.2026.111753",
       "journal_tier": 2,
       "impact": 4.9,
-      "section": "toraks",
-      "score": 30.0,
-      "score_parts": {
-        "journal": 60,
-        "pubtype": -30,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42669359",
-      "title": "Comment to letter to the editor: Patient selection for proton therapy in lung cancer: Nationwide external validation and model update of a prognostic model for 2-year mortality including mean heart dose.",
-      "abstract": "",
-      "journal": "Radiother Oncol",
-      "date": "2026-08-30",
-      "authors": [
-        "van Loon J",
-        "Wijsman R",
-        "Boersma L",
-        "Langendijk JA",
-        "Krol S",
-        "Schuit E",
-        "national platform for proton therapy for lung cancer"
-      ],
-      "pubtypes": [
-        "Letter"
-      ],
-      "doi": "10.1016/j.radonc.2026.111750",
-      "journal_tier": 2,
-      "impact": 4.9,
-      "section": "toraks",
-      "score": 30.0,
-      "score_parts": {
-        "journal": 60,
-        "pubtype": -30,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42684816",
-      "title": "PI-QUAL in Clinical Practice: Rationale and a Step-by-Step Approach to Implementation.",
-      "abstract": "Prostate MRI has become integral to prostate cancer diagnosis and management, extending beyond prebiopsy triage to biopsy guidance, local staging, active surveillance, focal therapy planning, posttreatment surveillance, and evaluation of biochemical recurrence. As MRI use expands, image quality has emerged as a critical determinant of diagnostic reliability. Suboptimal prostate MRI quality can reduce cancer detection, increase equivocal PI-RADS assessments, compromise staging and longitudinal assessment, and undermine referring clinician confidence in MRI-directed care. The Prostate Imaging Quality System, or PI-QUAL, provides a standardized framework for assessing the diagnostic adequacy of prostate MRI examinations. Initially developed as a research quality-control tool using data from the multicenter PRECISION trial, PI-QUAL has been refined by the European Society of Urogenital Radiology into a more practical version applicable to both multiparametric and biparametric MRI examinations. In this Special Series Review, we describe the rationale for PI-QUAL, summarize evidence linking image quality with prostate MRI performance and patient management, and propose a stepwise approach for clinical implementation, including multidisciplinary training, retrospective audits, protocol optimization, structured reporting, quality dashboards, benchmark development, and artificial intelligence tools. Incorporating PI-QUAL into routine practice can make prostate MRI quality easier to measure, communicate, and improve.",
-      "journal": "AJR Am J Roentgenol",
-      "date": "2026-09-02",
-      "authors": [
-        "Purysko AS",
-        "Asbach P",
-        "Baroni R",
-        "Barrett T",
-        "Dias AB",
-        "Brembilla G",
-        "Chang S",
-        "de Rooij M",
-        "Løgager V",
-        "Renard-Penna R",
-        "Tong A",
-        "Giganti F"
-      ],
-      "pubtypes": [
-        "Journal Article",
-        "Review"
-      ],
-      "doi": "10.2214/AJR.26.35512",
-      "journal_tier": 1,
-      "impact": 4.7,
-      "section": "abdomen",
-      "score": 110.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": 10,
-        "recency": 0.0
-      },
-      "tier": 1,
-      "abstract_tr": "Prostat MRG, biyopsi öncesi triyajın ötesinde biyopsi rehberliği, lokal evreleme, aktif gözetim, fokal tedavi planlaması, tedavi sonrası gözetim ve biyokimyasal nüksün değerlendirilmesine kadar uzanan prostat kanseri tanısı ve yönetiminin ayrılmaz bir parçası haline geldi. MRI kullanımı yaygınlaştıkça görüntü kalitesi tanısal güvenilirliğin kritik bir belirleyicisi olarak ortaya çıktı. Optimumun altındaki prostat MRG kalitesi, kanser tespitini azaltabilir, şüpheli PI-RADS değerlendirmelerini artırabilir, evreleme ve boylamsal değerlendirmeyi tehlikeye atabilir ve başvuran klinisyenin MRI odaklı bakıma olan güvenini zayıflatabilir. Prostat Görüntüleme Kalite Sistemi veya PI-QUAL, prostat MR incelemelerinin tanısal yeterliliğini değerlendirmek için standartlaştırılmış bir çerçeve sağlar. Başlangıçta çok merkezli PRECISION çalışmasından elde edilen verileri kullanan bir araştırma kalite kontrol aracı olarak geliştirilen PI-QUAL, Avrupa Ürogenital Radyoloji Derneği tarafından hem multiparametrik hem de biparametrik MRI incelemelerine uygulanabilecek daha pratik bir versiyona dönüştürüldü. Bu Özel Seri İncelemesinde, PI-QUAL'in gerekçesini açıklıyoruz, görüntü kalitesini prostat MR performansı ve hasta yönetimiyle ilişkilendiren kanıtları özetliyoruz ve multidisipliner eğitim, geriye dönük denetimler, protokol optimizasyonu, yapılandırılmış raporlama, kalite kontrol panelleri, karşılaştırmalı değerlendirme geliştirme ve yapay zeka araçları dahil olmak üzere klinik uygulama için adım adım bir yaklaşım öneriyoruz. PI-QUAL'in rutin uygulamaya dahil edilmesi prostat MR kalitesinin ölçülmesini, iletilmesini ve iyileştirilmesini kolaylaştırabilir."
-    },
-    {
-      "pmid": "42684814",
-      "title": "Intracranial MR Vessel Wall Imaging: Barriers to Clinical Implementation-AJR Expert Panel Review.",
-      "abstract": "MR vessel wall imaging is an advanced technique for evaluating intracranial arterial pathology by directly depicting abnormalities of the vessel wall, including abnormalities that may precede, accompany, or occur without luminal findings on routine angiographic imaging. Despite increasing clinical interest and a growing evidence base, intracranial MR vessel wall imaging remains inconsistently implemented and underutilized in routine practice. In this AJR Expert Panel Narrative Review, we evaluate the barriers that limit implementation and effective utilization of VWI in the clinical environment for evaluation of intracranial arterial pathology, so that these can be addressed with future efforts. The discussed barriers to broader adoption span four major domains: technical implementation, education and expertise, clinical workflow and communication, and evidence generation. Addressing these barriers will require coordinated efforts among radiologists, technologists, referring clinicians, MRI physicists, and vendors. The goal is not simply greater use of intracranial MR vessel wall imaging, but appropriate utilization. Broader adoption will require moving this from a technique primarily found at specialized centers to a reproducible, widely available clinical service through standardized acquisition, coordinated education, workflow integration, and multicenter evidence demonstrating management impact and patient benefit.",
-      "journal": "AJR Am J Roentgenol",
-      "date": "2026-09-02",
-      "authors": [
-        "Freeman CW",
-        "Mossa-Basha M",
-        "Yuan C",
-        "van der Geest RJ",
-        "Cucchiara BL",
-        "Sellers RT",
-        "Lehman VT",
-        "Chatterjee AR",
-        "McNally JS",
-        "Wasserman BA",
-        "Ansari SA",
-        "Fan Z",
-        "Song JW"
-      ],
-      "pubtypes": [
-        "Journal Article",
-        "Review"
-      ],
-      "doi": "10.2214/AJR.26.35585",
-      "journal_tier": 1,
-      "impact": 4.7,
-      "section": "girisim",
-      "score": 110.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": 10,
-        "recency": 0.0
-      },
-      "tier": 1,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42684813",
-      "title": "Real-World Challenges in the MRI Detection and Classification of Amyloid-Related Imaging Abnormalities.",
-      "abstract": "Anti-amyloid monoclonal antibody therapies (AATs) are increasingly used for the treatment of early symptomatic Alzheimer disease. Safe implementation of AATs relies on accurate assessment for exclusionary findings on baseline brain MRI and reliable longitudinal detection of amyloid-related imaging abnormalities (ARIA), including ARIA-H (hemosiderin or hemorrhage) and ARIA-E (edema or effusion). In routine clinical practice, MRI findings encountered during baseline screening and ARIA surveillance sometimes fall into borderline or ambiguous categories that do not clearly conform to trial-defined criteria. For example, subtle or artifactual FLAIR signal abnormality, equivocal microhemorrhage counts, and overlapping features of ARIA-E and ARIA-H can create uncertainty with direct implications for treatment management. Given limited practical guidance addressing these and other gray zones, this imaging-focused review synthesizes common interpretive challenges encountered in a high-volume AAT program and offers practical management-oriented recommendations. Key issues addressed include recognizing technical factors that affect interpretation of susceptibility-weighted and FLAIR images, managing variability in lesion detection across serial examinations, and accurately reporting the temporal evolution of ARIA-related findings. As AAT use expands, recognition of the presented pitfalls can improve diagnostic confidence and help avoid misclassification of findings that may influence therapeutic decisions.",
-      "journal": "AJR Am J Roentgenol",
-      "date": "2026-09-02",
-      "authors": [
-        "Unger RH",
-        "Rohatgi S",
-        "Ferraciolli SF",
-        "Kako B",
-        "Omid-Fard N",
-        "Imbett REM",
-        "Dowling T",
-        "Zhu S",
-        "Romero JM",
-        "Ford JN"
-      ],
-      "pubtypes": [
-        "Journal Article",
-        "Review"
-      ],
-      "doi": "10.2214/AJR.26.35478",
-      "journal_tier": 1,
-      "impact": 4.7,
       "section": "neuro",
-      "score": 110.0,
+      "score": 60.0,
       "score_parts": {
-        "journal": 100,
-        "pubtype": 10,
-        "recency": 0.0
-      },
-      "tier": 1,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42668304",
-      "title": "Improving diagnostic performance of O-RADS MRI: semi-quantitative intensity curves vs visual assessment of enhancement.",
-      "abstract": "BACKGROUND: O-RADS MRI improves differentiation of benign adnexal lesions managed by a gynecologist and malignant lesions managed by a gynecologic oncologist. OBJECTIVE: To compare O-RADS MRI visual assessment (VA) of mass enhancement with a semi-quantitative intensity curve of enhancement (SIC), a modified manual version of the time intensity curve. MATERIALS AND METHODS: We conducted a retrospective MRI review of patients who underwent surgical resection between January 2008 and December 2018 at two referral centers. O-RADS MRI score was assigned by two radiologists with different experience. O-RADS score ≥ 4 was considered suspicious for malignancy. Per-lesion diagnostic accuracy and impact on surgical management were compared between VA and SIC in lesions with solid components. Inter/intra-reader agreement was assessed. Borderline and invasive lesions were considered malignant. RESULTS: Three hundred forty-one adnexal masses in 321 women (ages 18-89) were assessed; 35.2% (120/341) of the masses were malignant. Ninety-six and two-tenths percent had some solid component (329/341). O-RADS MRI using standard VA had a sensitivity, specificity, and PPV of 0.95 (CI: 0.89-0.98), 0.84 (CI: 0.79-0.89), and 0.77 (CI:0.69-0.83), respectively. Use of SIC improved specificity (0.92 [CI: 0.88-0.95, p = 0.007) and PPV (0.90 [CI: 0.83-0.95], p = 0.002). Including SIC in O-RADS MRI would have reduced the proportion of benign lesions operated by gyneoncologists from 16% [54/341] to 9% [1/341] (p = 0.0001). O-RADS score, SIC, and VA assessment had a moderate to high inter- and intra-reader agreement (Kappa 0.63-0.85). CONCLUSION: O-RADS MRI exhibited high diagnostic performance in triage of adnexal masses. Incorporation of SIC increased the specificity and PPV of O-RADS MRI with high inter- and intra-reader agreement of SIC interpretation. KEY POINTS: Question Differentiation of benign from malignant adnexal masses is important for surgical triage. Findings Integration of semiquantitative intensity curves (SIC) into O-RADS MRI improved specificity when compared to conventional VA. Clinical relevance Integration of SIC into O-RADS MRI improves surgical triage of patients.",
-      "journal": "Eur Radiol",
-      "date": "2026-08-30",
-      "authors": [
-        "Salinas-Miranda E",
-        "Nanapragasam A",
-        "Nasri F",
-        "Sagheb S",
-        "Atri M"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1007/s00330-026-12742-x",
-      "journal_tier": 1,
-      "impact": 4.7,
-      "section": "genel",
-      "score": 100.0,
-      "score_parts": {
-        "journal": 100,
+        "journal": 60,
         "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 2,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42668303",
-      "title": "Automated artificial intelligence performance for longitudinal pulmonary nodule matching in lung cancer screening.",
-      "abstract": "Accurate longitudinal nodule matching is a critical technical prerequisite for automated growth rate (volume doubling time) assessment in lung cancer screening. This study evaluated an artificial intelligence (AI) pulmonary nodule analysis system in all 361 UK Lung Cancer Screening (UKLS) trial participants who underwent a 3-month follow-up low-dose computed tomography (LDCT) scan. The pulmonary AI independently evaluated these baseline scans using an updated volume threshold (solid component ≥ 100 mm³ per NELSON 2.0/EUPS protocol) for cases requiring 3-month follow-up. To assess true algorithmic robustness, all AI-detected baseline candidate nodules (≥ 100 mm³) proceeded to fully automated longitudinal matching without any manual selection. The pulmonary AI identified 181 participants with 378 baseline nodules ≥ 100 mm³. In total, 39 nodules had naturally resolved at follow-up. The pulmonary AI achieved an 83.5% (283/339; 95% CI: 79.2-87.1%) matching success rate for 339 persisting nodules. Matching performance was 91.8% (89/97) for participants with a single baseline candidate nodule (59.7% of the cohort) and 72.8% (75/103) for participants with more than five nodules (6.6%). Expert review of the 56/339 (16.5%) unmatched findings showed that almost all were non-nodular structures (91.1%, 51/56), predominantly pleural plaques (46.4%, 26/56). Consequently, only five unmatched discrete solid nodules (1.5%; 95% CI: 0.6-3.5% of 339 persisting findings) required manual intervention. In conclusion, the pulmonary AI demonstrates robust longitudinal matching performance, with substantial potential for follow-up manual tracking workload reduction. KEY POINTS: Question Does standalone AI longitudinal nodule tracking provide sufficient nodule-level technical reliability to avoid manual review bottlenecks in an automated lung cancer screening workflow? Findings Pulmonary AI matched 83.5% of persisting nodules (91.8% for single nodules, 72.8% for > 5 nodules); 91.1% failures were non-nodular, with only 1.5% requiring manual correction. Clinical relevance Pulmonary AI matching can potentially reduce the manual tracking workload in lung cancer screening, with only 1.5% of persisting nodules requiring manual correction. Performance is reduced in scans with high nodule burden, and prospective validation in diverse populations is needed.",
-      "journal": "Eur Radiol",
-      "date": "2026-08-29",
-      "authors": [
-        "Jiang B",
-        "Lancaster HL",
-        "Davies MPA",
-        "Gratama JC",
-        "Silva M",
-        "Han D",
-        "Yi J",
-        "van der Aalst CM",
-        "Devaraj A",
-        "Heuvelmans MA",
-        "Field JK",
-        "Oudkerk M"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1007/s00330-026-12825-9",
-      "journal_tier": 1,
-      "impact": 4.7,
-      "section": "toraks",
-      "score": 100.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 2,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42680937",
-      "title": "From digital bench to bedside: exaggerated risks, realistic expectations, and genuine challenges of medical AI.",
-      "abstract": "Artificial intelligence (AI) has become an increasingly prominent force in medicine, driven by rapid technical advances and a growing number of clinical applications. As the field matures, it now increasingly moves from experimental development toward a phase of broader implementation. However, debates surrounding medical AI are often shaped by exaggerated risks and overly optimistic expectations. This paper seeks to contribute to a more balanced and realistic discussion. Rather than framing AI as either an existential threat or a universal solution, we advocate for an open-minded, evidence-based understanding of AI as a tool to support healthcare and discuss current and emerging challenges related to clinical validation, human-AI interaction, bias and discrimination, education, agentic AI, and the development and maintenance of trust. KEY POINTS: Question Discussions about AI in medicine continue to be dominated by exaggerated risks and overly optimistic expectations. Findings We provide a more realistic evaluation of the current opportunities of AI in medicine and want to highlight some genuine challenges that lie ahead. Clinical relevance AI is here to stay in medicine. Focusing on real and present challenges, rather than being distracted by exaggerated risks, as well as responsible expectation management, will be key to its success.",
-      "journal": "Eur Radiol",
-      "date": "2026-09-01",
-      "authors": [
-        "Caspers J",
-        "Heinrichs B"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1007/s00330-026-12812-0",
-      "journal_tier": 1,
-      "impact": 4.7,
-      "section": "girisim",
-      "score": 100.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 2,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42684820",
-      "title": "The Bureaucracy Will Not Automate Itself: Why Physicians Should Lead the Inauguration of Artificial Intelligence in Healthcare Administration.",
-      "abstract": "",
-      "journal": "AJR Am J Roentgenol",
-      "date": "2026-09-02",
-      "authors": [
-        "Chapiro J"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.2214/AJR.26.35809",
-      "journal_tier": 1,
-      "impact": 4.7,
-      "section": "yapayzeka",
-      "score": 100.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 2,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42684819",
-      "title": "Training Corpus Composition Independently Affects Positive and Negative Guidance in Artificial Intelligence-Generated Chest CT Impressions: A Dose-Response Study.",
-      "abstract": "",
-      "journal": "AJR Am J Roentgenol",
-      "date": "2026-09-02",
-      "authors": [
-        "Dogra S",
-        "Wei J",
-        "Sharma S"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.2214/AJR.26.35329",
-      "journal_tier": 1,
-      "impact": 4.7,
-      "section": "toraks",
-      "score": 100.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 2,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42684818",
-      "title": "How to Turn Clinical Intuition Into Impactful Science.",
-      "abstract": "",
-      "journal": "AJR Am J Roentgenol",
-      "date": "2026-09-02",
-      "authors": [
-        "Gupta A",
-        "Pinto Dos Santos D",
-        "Francone M"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.2214/AJR.26.35769",
-      "journal_tier": 1,
-      "impact": 4.7,
-      "section": "genel",
-      "score": 100.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 2,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42684817",
-      "title": "Crossing Borders, Closing Gaps: The International Medical Graduate Path in Radiology.",
-      "abstract": "",
-      "journal": "AJR Am J Roentgenol",
-      "date": "2026-09-02",
-      "authors": [
-        "Raichandani S",
-        "Wang SS",
-        "Mirak SA"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.2214/AJR.26.35805",
-      "journal_tier": 1,
-      "impact": 4.7,
-      "section": "genel",
-      "score": 100.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 2,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42684815",
-      "title": "AI Slop in Radiology: Cutting Through the Clutter.",
-      "abstract": "",
-      "journal": "AJR Am J Roentgenol",
-      "date": "2026-09-02",
-      "authors": [
-        "Bera K",
-        "Ramaiya NH",
-        "Tirumani SH"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.2214/AJR.26.35537",
-      "journal_tier": 1,
-      "impact": 4.7,
-      "section": "genel",
-      "score": 100.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 2,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42684812",
-      "title": "Adrenal Vein Sampling: Changes in Lateralization After Procedural Sedation With Midazolam.",
-      "abstract": "",
-      "journal": "AJR Am J Roentgenol",
-      "date": "2026-09-02",
-      "authors": [
-        "Chhabra M",
-        "Chhabra M",
-        "Doery JCG",
-        "Lau KK"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.2214/AJR.26.35295",
-      "journal_tier": 1,
-      "impact": 4.7,
-      "section": "abdomen",
-      "score": 100.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 2,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42684484",
-      "title": "Identifying optimal dose head CT acquisition techniques through cluster analysis from 904,209 scans.",
-      "abstract": "OBJECTIVES: To identify clinically established and frequently utilized routine head computed tomography (CT) acquisition techniques in children and adults that achieve lower radiation. MATERIALS AND METHODS: The level of the analysis is at the CT scan (series) level. CT acquisition parameters were analyzed from a large, international CT dose registry. Scans were analyzed separately in adults and children, and by approach (helical or axial), resulting in four strata. K-means clustering, an unsupervised machine learning approach, assigned the scans into clusters based on the following acquisition parameters: Tube current, voltage, collimation, scan length, and for helical scans, pitch. Effective patient diameter, unadjusted and patient size-adjusted dose-length product (DLP), and volume CT dose index (CTDIvol) were compared across clusters. RESULTS: 864,182 CT scans in adults and 40,027 scans in children between January 1, 2015, and March 11, 2021, were included in the analysis. Scans were classified into seven helical and six axial clusters in adults, six helical and four axial clusters in children. In all four strata, the mean size-adjusted DLP varied more than two-fold, and up to 3.4-fold, across the clusters. For example, for adult helical scans (the largest strata), the size-adjusted DLP ranged from 372 mGy·cm to 998 mGy·cm (relative dose 2.7) across clusters. Clusters with the lowest radiation generally utilized lower tube current and voltage, but protocols utilized various approaches to result in lower doses. CONCLUSION: There remains a large variation in the radiation dose within frequently used head CT acquisition techniques. Clustering analysis enables identifying protocols with lower doses. KEY POINTS: Question Is there a large variation in the doses used for routine head CT, and can we identify best-practice, lowest dose approaches for scanning? Findings Across each stratum (adult/pediatric, helical/axial), the mean size-adjusted DLP varied by more than two-fold across the CT scan clusters, reflecting significant differences in radiation. Clinical relevance Many routine head CT acquisition techniques use excessive radiation doses. Standardizing practice to the lowest dose clusters would result in significant reductions in patient dose.",
-      "journal": "Eur Radiol",
-      "date": "2026-09-02",
-      "authors": [
-        "Yildirim B",
-        "Bos D",
-        "Kang T",
-        "Stewart C",
-        "Szczykutowicz TP",
-        "Smith-Bindman R"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1007/s00330-026-12842-8",
-      "journal_tier": 1,
-      "impact": 4.7,
-      "section": "pediatri",
-      "score": 100.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 2,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42298150",
-      "title": "Beyond macrovascular recanalization: the search for a new parameter of success in endovascular thrombectomy.",
-      "abstract": "[Abstract not available]",
-      "journal": "Eur Radiol",
-      "date": "2026-06-16",
-      "authors": [
-        "Gragnano E"
-      ],
-      "pubtypes": [
-        "Editorial",
-        "Comment"
-      ],
-      "doi": "10.1007/s00330-026-12688-0",
-      "journal_tier": 1,
-      "score": 80.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": -30,
-        "recency": 10.0
-      },
-      "tier": 2,
-      "impact": 4.7,
-      "section": "girisim"
-    },
-    {
-      "pmid": "42295327",
-      "title": "Vacuum-assisted breast biopsy vs core needle biopsy for breast tumour diagnosis.",
-      "abstract": "[Abstract not available]",
-      "journal": "Eur Radiol",
-      "date": "2026-06-15",
-      "authors": [
-        "Wang JF",
-        "Kong C",
-        "Ding W"
-      ],
-      "pubtypes": [
-        "Letter",
-        "Comment"
-      ],
-      "doi": "10.1007/s00330-026-12691-5",
-      "journal_tier": 1,
-      "score": 78.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": -30,
-        "recency": 8.0
-      },
-      "tier": 3,
-      "impact": 4.7,
-      "section": "girisim"
-    },
-    {
-      "pmid": "42671491",
-      "title": "Letter to the Editor: Prognostic value of imaging-detected immune-related adverse events in biliary tract cancer patients receiving durvalumab-based chemotherapy.",
-      "abstract": "",
-      "journal": "Eur Radiol",
-      "date": "2026-08-31",
-      "authors": [
-        "Hassan ST",
-        "Shahid S"
-      ],
-      "pubtypes": [
-        "Letter",
-        "Comment"
-      ],
-      "doi": "10.1007/s00330-026-12794-z",
-      "journal_tier": 1,
-      "impact": 4.7,
-      "section": "abdomen",
-      "score": 70.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": -30,
         "recency": 0.0
       },
       "tier": 3,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42671490",
-      "title": "Letter to the Editor: Why a negative trial does not close the case for genicular artery embolisation.",
-      "abstract": "",
-      "journal": "Eur Radiol",
-      "date": "2026-08-31",
-      "authors": [
-        "Discalzi A",
-        "Brino J"
-      ],
-      "pubtypes": [
-        "Letter",
-        "Comment"
-      ],
-      "doi": "10.1007/s00330-026-12791-2",
-      "journal_tier": 1,
-      "impact": 4.7,
-      "section": "girisim",
-      "score": 70.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": -30,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42671489",
-      "title": "Reply to the Letter to the Editor: Prognostic value of imaging-detected immune-related adverse events in biliary tract cancer patients receiving durvalumab-based chemotherapy.",
-      "abstract": "",
-      "journal": "Eur Radiol",
-      "date": "2026-08-31",
-      "authors": [
-        "Lee DH"
-      ],
-      "pubtypes": [
-        "Letter"
-      ],
-      "doi": "10.1007/s00330-026-12795-y",
-      "journal_tier": 1,
-      "impact": 4.7,
-      "section": "abdomen",
-      "score": 70.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": -30,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
+      "abstract_tr": "ARKA PLAN VE AMAÇ: Klinik hedef hacmi (CTV) belirlemek, radyasyon onkoloğunun pratiğinin önemli bir parçasıdır. Ancak bu süreç, klinik deneyim, kurumsal standartlar ve izlenen şekillendirme kılavuzları gibi faktörler nedeniyle değişkenlik gösterebilir. Glioma tümörleri için CTV tanımlama uygulamalarına göre uyarlanabilen parametreli bir CTV tanımlama modeli öneriyoruz. Model, kurumumuz içerisinde hekim tarafından belirlenen farklı CTV'leri çoğaltma becerisine dayalı olarak doğrulanmıştır. GEREÇ VE YÖNTEMLER: Beş tanımlama parametresi, glioma için model bazlı CTV'yi tanımlar: CTV sınırının genişlemesi, tümör infiltrasyonu veya tercihli koruma olasılığının azaltılması için beyin sapı ve optik yapılardaki CTV sınırlarının azaltılması ve konumsal belirsizlikleri hesaba katmak için ventriküller ve falks serebrideki CTV sınırlarının arttırılması. Parametreler, model CTV'yi hastalar için manuel olarak tanımlanan CTV'lerle eşleştirerek yerleştirilir ve Zar puanı en üst düzeye çıkarılır. Model, kurumumuzda üç hekim tarafından tedavi edilen, retrospektif olarak toplanan 93 glioma vakası kullanılarak geliştirilmiştir. Farklı doktorlara yönelik parametre değerleri, uygun CTV parametreleri kullanılarak bir sınıflandırma modelinin eğitilmesiyle test edilen CTV tanımlama başlangıç ​​noktalarını sağlar. SONUÇLAR: Hekim kalite değerlendirmeleri, model tarafından oluşturulan ve hekim tarafından tanımlanan CTV'ler arasında kalite derecelendirmelerinde istatistiksel olarak anlamlı bir fark göstermedi (p>0,05), her iki grup da ortalama 2,3 kalite puanına ulaştı (0: kullanılamaz, 1: büyük düzenlemeler, 2: küçük düzenlemeler, 3: kabul edilebilir). Tanımlama parametrelerinin dağılımı, özellikle beyin sapı ve ventriküllere yakın CTV konturlarında, doktorlar arasında sistematik olarak farklılık gösteriyordu. Uygun tanımlama parametrelerinin dağılımı, özellikle beyin sapı ve ventriküllere yakın CTV konturlarında, doktorlar arasında sistematik olarak farklılık gösteriyordu. En iyi performans gösteren sınıflandırma modeli, hekime özel CTV tanımlama başlangıç ​​noktalarını %80 doğrulukla ve 0,68 Cohen Kappa skoruyla belirledi. SONUÇ: Parametrik CTV tanımlama sistemimiz, hekimin şekillendirme uygulamalarını etkili bir şekilde yakalar ve ölçer. Model, doktor uygulamaları arasında fikir birliği oluşturmayı ve CTV standardizasyonunu teşvik etmek için bir kontur kalite güvence programında kullanılabilir."
     }
   ]
 }
