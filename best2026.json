@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-04T10:16:54+00:00",
+  "updated": "2026-09-05T09:42:50+00:00",
   "year": 2026,
   "count": 60,
   "criteria": "Etki faktörü (sonra etki skoru) sıralı",
@@ -266,6 +266,39 @@
         "recency": 0.0
       },
       "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42696936",
+      "title": "Foundation models in medical image analysis: A systematic review and quantitative analysis.",
+      "abstract": "Recent advancements in foundation models (FMs) have catalyzed a paradigm shift in medical image analysis. Unlike traditional task-specific artificial intelligence (AI) models, FMs leverage large-scale datasets to learn generalized representations that can be adapted to downstream clinical applications. Despite the rapid proliferation of FM research in medical imaging, there is a lack of unified synthesis that systematically maps the evolution of architectures, training paradigms, and clinical applications across modalities. To address this gap, this review provides a comprehensive and structured synthesis of FMs in medical image analysis by systematically organizing studies into two primary categories: vision-only foundation models (VFMs) and vision-language foundation models (VLFMs), based on their architectural foundations, training strategies, and downstream clinical tasks. A quantitative analysis was conducted on both VFMs and VLFMs to characterize temporal trends in dataset utilization and application domains, along with pooled performance and subgroup analyses. We also critically discuss persistent challenges, including cross-domain generalization, computational scalability, FM evaluation, fairness, and deployment. Finally, we identify key future research directions aimed at enhancing the robustness, interpretability, and clinical integration of FMs, thereby accelerating their translation into real-world medical practice.",
+      "journal": "Med Image Anal",
+      "date": "2026-08-27",
+      "authors": [
+        "Rajendran P",
+        "Safari M",
+        "He W",
+        "Hu M",
+        "Shah K",
+        "Wang S",
+        "Zhou J",
+        "Yang X"
+      ],
+      "pubtypes": [
+        "Journal Article",
+        "Review"
+      ],
+      "doi": "10.1016/j.media.2026.104293",
+      "journal_tier": 1,
+      "impact": 10.7,
+      "section": "girisim",
+      "score": 110.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 10,
+        "recency": 0.0
+      },
+      "tier": 1,
       "abstract_tr": ""
     },
     {
@@ -698,6 +731,35 @@
       "abstract_tr": "Çok örnekli öğrenme (MIL), histokimyasal olarak boyanmış tam slayt görüntülerini (WSI'ler) kullanarak yapay zeka destekli kanser teşhisini önemli ölçüde geliştirmiştir. Ancak bu tür WSI'ların edinilmesi zaman alıcıdır, emek yoğundur ve çevre dostu değildir. Bu sorunu çözmek için, MIL tabanlı tanıya uygun maliyetli bir alternatif olarak etiketlenmemiş otofloresan (UAF) WSI'lerin kullanılmasını öneriyoruz. Doğrudan karşılaştırma için aynı doku kesitlerinden türetilen, özel bir UAF WSI veri seti olan LCUHI-UAF'ı ve eşleşen H&E boyalı WSI veri seti olan LCUHI-H&E'yi sunuyoruz. Sınıflandırma görevleri için UAF görüntülerindeki düşük sinyal-gürültü oranının ve bulanık morfolojik ayrıntıların üstesinden gelmek için yeni bir Çok Parçalı Grafiği-Mamba (MGGM) MIL çerçevesi öneriyoruz. Bu çerçevede, her WSI, doku örneklerinin uzaysal koordinatlarından oluşturulan bir grafik olarak temsil edilir ve Mamba mimarisi uzun menzilli ilişkileri modellerken grafik evrişiminin yerel uzaysal bağımlılıkları yakalamasına olanak tanır. Doku içindeki hücre kümeleri ve mikro ortamlar arasındaki hiyerarşik ilişkilerin kapsamlı bir şekilde temsil edilmesini sağlamak için çok parçacıklı bir mekanizma da önerilmiştir. LCUHI-H&E ve LCUHI-UAF eşleştirilmiş akciğer kanseri veri kümeleri üzerinde yapılan deneyler, MGGM-MIL'in önceden eğitilmiş iki özellik ayarında en iyi performansı gösteren sonuçlara ulaştığını göstermektedir. Bu sonuçlar aynı zamanda UAF lekeli WSI'lerin kanser tanısında H&E'nin uygun maliyetli bir alternatifi olarak uygulanabilirliğini doğrulamaktadır. Camelyon16 meme kanseri veri seti üzerinde yapılan ek değerlendirmeler, MGGM-MIL'nin doku tipleri arasında genelleştirilebilirliğini daha da doğrulamaktadır. Kod https://github.com/JiuyangDong/MGGMMIL adresinde mevcuttur."
     },
     {
+      "pmid": "42696630",
+      "title": "Simulation and Design Study of Edge-on GaAs:Cr Detector for Clinical Photon Counting CT.",
+      "abstract": "Chromium-compensated Gallium Arsenide (GaAs:Cr) has emerged as a promising sensor material for photon counting detectors (PCDs) due to its excellent resistivity and charge carrier mobility. However, due to the limitations of the Cr compensation process, the GaAs:Cr wafer thickness is less than 1 mm, which distorts its X-ray absorption efficiency and limits its application in clinical computed tomography (CT). This study proposes a GaAs detector with an edge-on structure for clinical photon counting CT (PCCT) applications. To evaluate the performance of the detector, we modeled the spectral response and analyzed material decomposition (MD) noise using a full-chain detector model. In imaging domain study, digital phantoms, such as low contrast phantom, Gammex phantom, and XCAT digital phantoms, were virtually scanned to assess the image uniformity, CT number accuracy, material decomposition, and virtual mono-energetic imaging (VMI) performance, with the detector system modeled to reflect actual PCCT prototypes. The results indicate that the GaAs:Cr detector exhibits excellent mono-energetic spectrum response and low material decomposition (MD) noise. Additionally, the GaAs:Cr detector provides lower noise, higher contrast-to-noise ratio (CNR) in VMI results, and more precise concentration measurements in quantitative analysis, compared to existing PCDs. These findings highlight the feasibility of developing GaAs:Cr detectors for clinical CT applications, offering potential advantages over existing PCDs.",
+      "journal": "IEEE Trans Med Imaging",
+      "date": "2026-09-04",
+      "authors": [
+        "Zhong T",
+        "Li H",
+        "Qin W",
+        "Yu X",
+        "Lai X"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1109/TMI.2026.3730875",
+      "journal_tier": 1,
+      "impact": 10.6,
+      "section": "genel",
+      "score": 100.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 2,
+      "abstract_tr": ""
+    },
+    {
       "pmid": "42686383",
       "title": "The Equivalents Are Coming! FDA Approval Pathways for Nuclear Medicine.",
       "abstract": "",
@@ -1115,11 +1177,11 @@
       "journal_tier": 1,
       "impact": 8.6,
       "section": "toraks",
-      "score": 102.0,
+      "score": 100.0,
       "score_parts": {
         "journal": 100,
         "pubtype": 0,
-        "recency": 2.0
+        "recency": 0.0
       },
       "tier": 2,
       "abstract_tr": "AMAÇ: PSMA PET/BT, radikal prostatektomi sonrası nodal nüks tespitini değiştirdi, ancak PSMA PET/CT kılavuzluğunda kurtarıcı elektif nodal radyoterapinin (ENRT) uzun vadeli sonuçlarına ilişkin gerçek dünyadaki kanıtlar sınırlı kalıyor. Bu çalışma, uzun takipli, iki-kurumlu bir kohortta PSMA PET/BT kılavuzluğunda kurtarma ENRT'nin onkolojik sonuçlarını değerlendirdi. YÖNTEMLER: 2014 ve 2024 yılları arasında iki tersiyer merkezde radikal prostatektomi sonrası nodal nüks nedeniyle PSMA PET/BT bazlı ENRT uygulanan 179 hastayı retrospektif olarak analiz ettik. Pelvik ve/veya paraaortik lenf nodu metastazı olan hastalar dahil edildi. Birincil son nokta metastazsız sağkalım (MFS) idi; ikincil son noktalar arasında biyokimyasal ilerlemesiz sağkalım (BPFS) ve genel sağkalım (OS) yer aldı. Hayatta kalma sonuçları Kaplan-Meier yöntemi kullanılarak tahmin edildi ve prognostik faktörler Cox regresyon analizi kullanılarak değerlendirildi. BULGULAR: 179 hastanın 104'ünde (%58,1) radikal prostatektomi sonrası gerçek biyokimyasal nüks görülürken, 75'inde (%41,9) PSA kalıcılığı vardı. Ortalama 60,3 aylık takip sonrasında, gerçek biyokimyasal nüksü olan hastalarda 5 yıllık MFS ve BPFS oranları sırasıyla %74,3 ve %62,3 iken genel kohortta bu oranlar %61,2 ve %56,4'tü. Tüm kohortun çok değişkenli analizlerinde, eşlik eden ADT, ADT uygulanmamasına kıyasla MFS'de (HR 0,36, p < 0,001) ve BPFS'de (HR 0,26, p < 0,001) iyileşme ile ilişkilendirildi. Ameliyattan sonra PSA'nın kalıcılığı daha kötü sonuçlarla ilişkiliydi (MFS: HR 2,72, p < 0,001; BPFS: HR 2,09, p = 0,005). SONUÇ: Rutin klinik uygulamada nodal nüksü olan hastalarda ağırlıklı olarak ADT ile kombine edilen PSMA PET/BT kılavuzluğunda kurtarıcı ENRT, uzun süreli hastalık kontrolü sağlar. Radikal prostatektomi sonrası gerçek nüksü olan hastalarda 5 yıllık MFS oranı %74,3 olup, prospektif çalışmalarda bildirilen sonuçlara yaklaşmaktadır. Bununla birlikte, sistematik olarak toplanan klinisyen tarafından değerlendirilen toksisitenin ve hasta tarafından bildirilen sonuçların bulunmaması, tedavi tolerabilitesinin güvenilir bir şekilde değerlendirilmesini engellemektedir."
@@ -1577,6 +1639,36 @@
       "abstract_tr": "Tıbbi lezyon segmentasyonu genellikle büyük, yüksek kaliteli piksel düzeyindeki açıklamalara dayanır ve bunların elde edilmesi, uzman tanımlaması gerektirdiğinden maliyetlidir. Son zamanlardaki çok modlu yöntemler, görsel temsil öğrenimini geliştirmek için klinik metni kullanır, ancak genellikle eğitim sırasında eşleştirilmiş görüntü-rapor verilerine ve çıkarım sırasında metin girişine ihtiyaç duyarlar. Bu bağımlılık, eşleştirilmiş raporlar az olduğunda veya rapor oluşturulmadan önce segmentasyon yapıldığında bunların kullanımını sınırlar. Bu sınırlamayı gidermek için, sınırlı metin eğitimi ve metinsiz tıbbi lezyon segmentasyonu için Her Şeyi Segment Modeli (SAM) tabanlı bir çerçeve olan TeF-SAM'i öneriyoruz. TeF-SAM, eğitim sırasında mevcut olan eşleştirilmiş raporlardan Kalıcı Bölge Bilgili Anlamsal Bellek (PRISM) oluşturur. PRISM, segmentasyonla ilgili metin bilgisini bölgeye duyarlı bir prototip alanına damıtarak görüntü özelliklerinin çevrimiçi metin girişi olmadan çıkarım sırasında anlamsal ipuçları almasına olanak tanır. Ayrıca, kaba maskeler, noktalar ve anlamsal yerleştirmeler de dahil olmak üzere SAM uyumlu istemler oluşturmak için prototip düzeyinde anlamsal yanıtları çok ölçekli görsel özelliklerle birleştiren Prototip Güdümlü Bölgesel Lezyon Tespiti'ni (PRLD) tanıtıyoruz. TeF-SAM'i farklı anatomileri ve görüntüleme yöntemlerini kapsayan üç lezyon segmentasyon kriterine göre değerlendiriyoruz: QaTa-COV19, MosMedData+ ve BUSI. Deneysel sonuçlar, TeF-SAM'in mevcut eşleştirilmiş raporların yalnızca %1 ila %15'ini kullanarak rekabetçi segmentasyon performansı elde ettiğini ve çıkarım sırasında herhangi bir metin girişi gerektirmediğini göstermektedir. Kodumuz şu adreste yayınlanacaktır: https://github.com/Jinxinya2/TeF-SAM."
     },
     {
+      "pmid": "42696831",
+      "title": "Adaptive auxiliary task learning for medical image segmentation under scarce training data.",
+      "abstract": "Medical image segmentation often suffers from scarce training data, which limits the performance of deep learning models. Auxiliary task learning offers a promising solution by exploiting complementary supervision signals constructed solely from existing data. However, auxiliary tasks may introduce complex learning signals, and naive integration of multiple tasks often leads to limited performance gains while drastically increasing computational cost. This study presents an adaptive auxiliary task learning method to improve medical image segmentation under scarce training data. The method introduces an adaptive knowledge transfer mechanism that aggregates multi-step model updates from different tasks and model components using learnable weights, enabling more expressive knowledge transfer than prior approaches. To improve training efficiency, a task selection strategy is developed to dynamically select a small subset of beneficial tasks for each training phase. By reusing intermediate computations, it enables the evaluation of task combinations with little overhead. The proposed method is implemented using eight auxiliary tasks with diverse properties. Experiments on five public datasets demonstrate consistent improvements over existing methods, surpassing the best competing approaches by 1.47%, 0.91%, 0.46%, 0.35%, and 2.44% in Dice score. Code is available at: https://github.com/BinyanHu/AdaAuxMedSeg.",
+      "journal": "Comput Med Imaging Graph",
+      "date": "2026-08-25",
+      "authors": [
+        "Hu B",
+        "Zhang Y",
+        "Sun Y",
+        "Jackson P",
+        "Hofman MS",
+        "Chai R"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.compmedimag.2026.102814",
+      "journal_tier": 3,
+      "impact": 5.4,
+      "section": "girisim",
+      "score": 35.0,
+      "score_parts": {
+        "journal": 35,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
       "pmid": "42275243",
       "title": "Distinguishing Malignant from Benign Causes of Breast Size Changes: A Case-based Primer for the Radiologist.",
       "abstract": "Changes in breast size, whether enlargement or shrinkage, are a frequent clinical concern. Bilateral size changes are typically associated with benign conditions, while unilateral changes often raise concerns about malignancy, requiring prompt and accurate diagnosis to guide effective management. Through illustrative clinical scenarios, the authors provide a comprehensive review of the evaluation and management of breast size changes and address the spectrum of associated conditions. It is important for radiologists and clinicians to distinguish malignant from benign causes by integrating clinical history, physical examination, and imaging findings, all essential tools in the diagnostic process. Prior imaging, clinical context, and multimodality imaging are explored to provide a structured diagnostic approach. Radiologists are essential in identifying the underlying causes, directing appropriate care, and alleviating patient anxiety. The authors offer a practical framework to guide diagnostic decision making through the synthesis of clinical and imaging data.RSNA, 2026",
@@ -1818,107 +1910,6 @@
       "tier": 3,
       "impact": 5.2,
       "section": "genel"
-    },
-    {
-      "pmid": "42687208",
-      "title": "Intratumor habitat aware deep learning framework for preoperative lymph node metastasis prediction in laryngeal carcinoma.",
-      "abstract": "OBJECTIVES: To develop an intratumor heterogeneity (ITH)-aware deep learning (DL) framework for preoperative prediction of lymph node metastasis (LNM) in laryngeal squamous cell carcinoma (LSCC). METHODS: This multi-center retrospective study, which included 381 patients, proposed a ITH-aware DL framework integrated with adaptive habitat mapping to automatically decode spatial ITH from primary tumor contrast-enhanced CT images.The predictive performance of the ITH-aware DL model was compared against conventional radiomics and 3D DL model. A stacking ensemble model combining these three methods was also constructed. Model performance was assessed using the area under the receiver operating characteristic curve (AUC), calibration curves, and decision curve analysis (DCA). The prognostic value for overall survival (OS) stratification was evaluated. RESULTS: The ITH-aware DL model achieved superior preoperative LNM prediction in external testing (AUC: 0.745-0.766), outperforming both radiomics (AUC: 0.682-0.694) and 3D DL models (AUC: 0.718-0.732). The stacking ensemble integrating these models attained the highest diagnostic accuracy (AUC: 0.786-0.804). Critically, both the ITH-aware DL and stacking models effectively stratified patients into distinct risk groups with significantly different OS outcomes. CONCLUSION: The proposed ITH-aware DL framework provides a robust, automated tool for preoperative LNM prediction in LSCC. By enabling accurate risk stratification, it holds significant potential to inform personalized surgical planning and improve treatment strategies.",
-      "journal": "Cancer Imaging",
-      "date": "2026-07-25",
-      "authors": [
-        "Wang W",
-        "Zhang L",
-        "Zhang J",
-        "Li X",
-        "Wei W",
-        "Liang L",
-        "Li S",
-        "Ma H",
-        "Zhao X",
-        "Zhang Q",
-        "Guo H",
-        "Hao Y",
-        "Zhang H",
-        "Gao F",
-        "Zhang J",
-        "Wang L"
-      ],
-      "pubtypes": [
-        "Journal Article",
-        "Multicenter Study"
-      ],
-      "doi": "10.1186/s40644-026-01096-8",
-      "journal_tier": 2,
-      "impact": 4.9,
-      "section": "yapayzeka",
-      "score": 78.0,
-      "score_parts": {
-        "journal": 60,
-        "pubtype": 18,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": "AMAÇLAR: Laringeal skuamöz hücreli karsinomda (LSCC) lenf nodu metastazının (LNM) ameliyat öncesi tahmini için tümör içi heterojeniteyi (ITH) tanıyan bir derin öğrenme (DL) çerçevesi geliştirmek. YÖNTEMLER: 381 hastayı içeren bu çok merkezli retrospektif çalışma, birincil tümör kontrastı artırılmış BT görüntülerinden uzaysal ITH'nin kodunu otomatik olarak çözmek için uyarlanabilir habitat haritalaması ile entegre edilmiş bir ITH bilinçli DL çerçevesi önerdi. ITH uyumlu DL modelinin tahmin performansı, geleneksel radyomikler ve 3D DL modeliyle karşılaştırıldı. Bu üç yöntemi birleştiren bir istifleme topluluğu modeli de oluşturuldu. Model performansı, alıcı çalışma karakteristik eğrisi (AUC), kalibrasyon eğrileri ve karar eğrisi analizi (DCA) altındaki alan kullanılarak değerlendirildi. Genel sağkalım (OS) sınıflandırmasının prognostik değeri değerlendirildi. SONUÇLAR: ITH uyumlu DL modeli, harici testlerde üstün ameliyat öncesi LNM tahmini elde etti (AUC: 0,745-0,766), hem radyomiklerden (AUC: 0,682-0,694) hem de 3D DL modellerinden (AUC: 0,718-0,732) daha iyi performans gösterdi. Bu modelleri entegre eden istifleme grubu en yüksek teşhis doğruluğuna ulaştı (AUC: 0,786-0,804). Kritik olarak, hem ITH uyumlu DL hem de istifleme modelleri, hastaları önemli ölçüde farklı işletim sistemi sonuçlarına sahip farklı risk gruplarına etkili bir şekilde sınıflandırdı. SONUÇ: Önerilen ITH uyumlu DL çerçevesi, LSCC'de ameliyat öncesi LNM tahmini için sağlam, otomatik bir araç sağlar. Doğru risk sınıflandırmasını mümkün kılarak kişiselleştirilmiş cerrahi planlamaya bilgi sağlama ve tedavi stratejilerini iyileştirme konusunda önemli bir potansiyele sahiptir."
-    },
-    {
-      "pmid": "42686025",
-      "title": "When progression-free survival fails to inform: the need for event-level reporting in oligometastatic radiotherapy trials.",
-      "abstract": "Progression-free survival treats biologically and clinically distinct progression events equivalently, limiting its interpretability in oligometastatic radiotherapy trials. Across 21 randomized trials, event-level reporting was frequently absent, and none described how post-radiotherapy imaging was adjudicated within PFS. Pragmatic reporting standards could improve interpretation without requiring new endpoints or altered trial design.",
-      "journal": "Radiother Oncol",
-      "date": "2026-09-02",
-      "authors": [
-        "Friedes C",
-        "Palma D",
-        "Sanford NN"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1016/j.radonc.2026.111754",
-      "journal_tier": 2,
-      "impact": 4.9,
-      "section": "genel",
-      "score": 60.0,
-      "score_parts": {
-        "journal": 60,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": "İlerlemesiz sağkalım, biyolojik ve klinik olarak farklı ilerleme olaylarını eşit şekilde tedavi eder ve oligometastatik radyoterapi çalışmalarındaki yorumlanabilirliğini sınırlar. 21 randomize araştırmada olay düzeyinde raporlama sıklıkla yoktu ve hiçbiri radyoterapi sonrası görüntülemenin PFS içerisinde nasıl karara bağlandığını açıklamadı. Pragmatik raporlama standartları, yeni son noktalara veya değiştirilmiş deneme tasarımına ihtiyaç duymadan yorumlamayı iyileştirebilir."
-    },
-    {
-      "pmid": "42692084",
-      "title": "Parametric delineation of the clinical target volume for glioma: Model-based approach that tailors to physician contouring practices.",
-      "abstract": "BACKGROUND AND PURPOSE: Delineating the clinical target volume (CTV) is an essential part of a radiation oncologist's practice. However, this process is subject to variability due to factors such as clinical experience, institutional standards, and contouring guidelines being followed. We propose a parameterized CTV delineation model for glioma tumors that can tailor to CTV delineation practices. The model is validated based on its ability to replicate different physician-delineated CTVs within our institution. MATERIAL AND METHODS: Five delineation parameters define the model-based CTV for glioma: CTV margin expansion, reduction of CTV margins in the brainstem and optic structures for reduced likelihood of tumor infiltration or preferential sparing, and increase of CTV margins at the ventricles and falx cerebri to account for positional uncertainties. Parameters are fitted by matching the model CTV to the manually-delineated CTVs for patients, maximizing the Dice score. The model is developed using 93 retrospectively collected glioma cases treated by three physicians in our institution. The parameter values for different physicians provide CTV delineation starting points, which was tested by training a classification model using fitted CTV parameters. RESULTS: Physician quality assessments showed no statistically significant difference in quality ratings between model-generated and physician-delineated CTVs (p > 0.05), with both groups achieving an average quality rating of 2.3 (0: unusable, 1: major edits, 2: minor edits, 3: acceptable). The distribution of the delineation parameters varied systematically across physicians, especially in the CTV contours near the brainstem and ventricles. The distribution of the fitted delineation parameters varied systematically across physicians, especially in the CTV contours near the brainstem and ventricles. The best-performing classification model identified physician-specific CTV delineation starting points with 80% accuracy and Cohen's Kappa score of 0.68. CONCLUSION: Our parametric CTV delineation system effectively captures and quantifies physician contouring practices. The model can be used in a contour quality assurance program to promote consensus-building and CTV standardization across physician practices.",
-      "journal": "Radiother Oncol",
-      "date": "2026-09-03",
-      "authors": [
-        "Buti G",
-        "Ajdari A",
-        "Bridge C",
-        "Marciscano AE",
-        "Sharp GC",
-        "Oh K",
-        "Löfman F",
-        "Shih HA",
-        "Bortfeld T"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1016/j.radonc.2026.111753",
-      "journal_tier": 2,
-      "impact": 4.9,
-      "section": "neuro",
-      "score": 60.0,
-      "score_parts": {
-        "journal": 60,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": "ARKA PLAN VE AMAÇ: Klinik hedef hacmi (CTV) belirlemek, radyasyon onkoloğunun pratiğinin önemli bir parçasıdır. Ancak bu süreç, klinik deneyim, kurumsal standartlar ve izlenen şekillendirme kılavuzları gibi faktörler nedeniyle değişkenlik gösterebilir. Glioma tümörleri için CTV tanımlama uygulamalarına göre uyarlanabilen parametreli bir CTV tanımlama modeli öneriyoruz. Model, kurumumuz içerisinde hekim tarafından belirlenen farklı CTV'leri çoğaltma becerisine dayalı olarak doğrulanmıştır. GEREÇ VE YÖNTEMLER: Beş tanımlama parametresi, glioma için model bazlı CTV'yi tanımlar: CTV sınırının genişlemesi, tümör infiltrasyonu veya tercihli koruma olasılığının azaltılması için beyin sapı ve optik yapılardaki CTV sınırlarının azaltılması ve konumsal belirsizlikleri hesaba katmak için ventriküller ve falks serebrideki CTV sınırlarının arttırılması. Parametreler, model CTV'yi hastalar için manuel olarak tanımlanan CTV'lerle eşleştirerek yerleştirilir ve Zar puanı en üst düzeye çıkarılır. Model, kurumumuzda üç hekim tarafından tedavi edilen, retrospektif olarak toplanan 93 glioma vakası kullanılarak geliştirilmiştir. Farklı doktorlara yönelik parametre değerleri, uygun CTV parametreleri kullanılarak bir sınıflandırma modelinin eğitilmesiyle test edilen CTV tanımlama başlangıç ​​noktalarını sağlar. SONUÇLAR: Hekim kalite değerlendirmeleri, model tarafından oluşturulan ve hekim tarafından tanımlanan CTV'ler arasında kalite derecelendirmelerinde istatistiksel olarak anlamlı bir fark göstermedi (p>0,05), her iki grup da ortalama 2,3 kalite puanına ulaştı (0: kullanılamaz, 1: büyük düzenlemeler, 2: küçük düzenlemeler, 3: kabul edilebilir). Tanımlama parametrelerinin dağılımı, özellikle beyin sapı ve ventriküllere yakın CTV konturlarında, doktorlar arasında sistematik olarak farklılık gösteriyordu. Uygun tanımlama parametrelerinin dağılımı, özellikle beyin sapı ve ventriküllere yakın CTV konturlarında, doktorlar arasında sistematik olarak farklılık gösteriyordu. En iyi performans gösteren sınıflandırma modeli, hekime özel CTV tanımlama başlangıç ​​noktalarını %80 doğrulukla ve 0,68 Cohen Kappa skoruyla belirledi. SONUÇ: Parametrik CTV tanımlama sistemimiz, hekimin şekillendirme uygulamalarını etkili bir şekilde yakalar ve ölçer. Model, doktor uygulamaları arasında fikir birliği oluşturmayı ve CTV standardizasyonunu teşvik etmek için bir kontur kalite güvence programında kullanılabilir."
     }
   ]
 }
