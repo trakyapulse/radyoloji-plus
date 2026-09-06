@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-05T09:42:50+00:00",
+  "updated": "2026-09-06T09:59:04+00:00",
   "year": 2026,
   "count": 60,
   "criteria": "Etki faktörü (sonra etki skoru) sıralı",
@@ -635,6 +635,64 @@
       },
       "tier": 2,
       "abstract_tr": "Fetal ekokardiyografi, konjenital kalp hastalığını (KKH) saptamak, gebelik yönetimini kolaylaştırmak, optimize edilmiş doğum planlaması ve zamanında doğum sonrası müdahaleler için gereklidir. Standart görüntüleme düzlemleri arasında dört odacıklı görünüm (4CV), klinisyenlerin kardiyak yapı ve hareketi değerlendirmek için diyastol sonu (ED) ve sistol sonu (ES) aşamaları dikkatle incelediği KKH tanısı için önemli bilgiler sağlar. Dolayısıyla bu kardiyak aşamaların otomatik olarak saptanması, tam otomatik KKH analizine yönelik kritik bir bileşendir. Bununla birlikte, mevcut yaklaşımlar tipik olarak ED/ES çerçevelerinin manuel olarak açıklanmasına dayanır ve bu da emek yoğun ve zaman alıcıdır. Çeşitli fetal kalp oryantasyonları altında manuel açıklamalar olmadan kardiyak aşamaları tanımlayan, kendi kendini denetleyen bir çerçeve olan ORBIT'i (Yörüngelerden Yönelim-Sağlam Vuruş Çıkarımı) sunuyoruz. ORBIT, kaydı kendi kendini denetleme görevi olarak kullanır ve kardiyak deformasyonun gizli hareket yörüngesini öğrenir; bu yörüngenin dönüm noktaları, kardiyak gevşeme ve kasılma arasındaki geçişleri yakalayarak, farklı fetal pozisyonlarda ED ve ES çerçevelerinin doğru ve oryantasyon açısından sağlam lokalizasyonuna olanak tanır. Yalnızca normal fetal ekokardiyografi videoları üzerinde eğitilen ORBIT, hem normal (ortalama mutlak hata 1,9 kare ED için ve ES için 1,6) hem de CHD vakalarında (ortalama mutlak hata 2,4 kare ED için ve ES için 2,1 kare) tutarlı performans elde ederek, sabit oryantasyon varsayımları tarafından kısıtlanan mevcut açıklama içermeyen yaklaşımlardan daha iyi performans gösterir. Bu sonuçlar, ORBIT'in doğrudan 4CV fetal ekokardiyografiden sağlam kardiyak faz tespitini kolaylaştırma potansiyelini vurgulamaktadır."
+    },
+    {
+      "pmid": "42700677",
+      "title": "Single domain generalized polyp detection in colonoscopy scene utilizing vision foundation models.",
+      "abstract": "Deep learning models for colorectal polyp detection often face distribution shift issues due to dataset artifacts, variations in imaging equipment, and other clinical factors, which result in unreliable performance in real-world settings. To address this, several generalizable object detectors have been proposed, aiming to train models that can generalize across multiple target domains. However, existing approaches to generalizable detection typically rely on two main strategies: Unsupervised Domain Adaptation, which requires unlabeled data from the target domains, and Multi-Source Domain Generalization, which necessitates data from multiple source domains. These approaches are challenging to implement in clinical settings, where data privacy regulations limit the accessibility. This work proposes a novel approach for polyp detection in colonoscopy scenes under the more realistic setting of single domain generalization, called Generalizable Polyp Detection Transformer (GPDT). Our method leverages Vision Foundation Models for robust feature extraction and introduces a learnable-token-driven adapter mechanism to fine-tune these models with minimal additional parameters. This approach enables effective generalization across unseen clinical domains when only a single source domain is available for training. Extensive experiments on two multi-center polyp detection generalization benchmarks, PolypGen and REAL-Colon, show that GPDT achieves stronger performance compared with existing state-of-the-art methods across multiple target domains. Furthermore, we introduce an efficient variant, E-GPDT, that accelerates inference while preserving detection accuracy, yielding a favorable speed-accuracy trade-off under the evaluated edge-device configuration. E-GPDT is trained as a source-specific student distilled from adapter-enhanced GPDT teachers under the same single-source protocol, thereby connecting the high-capacity VFM-adapted detector and the lower-latency student detector within one unified pipeline. Our results demonstrate that adapting VFMs provides a promising pathway for improving cross-domain polyp detection generalizability.",
+      "journal": "Med Image Anal",
+      "date": "2026-08-31",
+      "authors": [
+        "Gan T",
+        "Cai Y",
+        "Ye X"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.media.2026.104268",
+      "journal_tier": 1,
+      "impact": 10.7,
+      "section": "abdomen",
+      "score": 100.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 2,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42700676",
+      "title": "Towards patient-specific optimization for mandibular reconstruction planning based on predicted bone-union propensity.",
+      "abstract": "Mandibular reconstruction with vascularized bone grafts is complicated by donor-host nonunion, and current virtual surgical planning produces a geometric plan rather than optimizing for bone-union propensity at the donor-host interface. We present OsteoOpt++, an image-to-decision planning loop for patient-specific mandibular reconstruction. A pre-operative computed tomography (CT) is converted into a personalized digital twin through template-to-patient registration and CT-derived updates of the muscle and temporomandibular-joint parameters. Bayesian optimization with an expected-improvement-plus acquisition rule then searches six clinically controllable cut-plane and donor-positioning variables under an apposition-driven objective and a safety-factor-regularized variant. The workflow was evaluated on three generic defects (body, symphysis, and ramus-body) and four patient-specific cases, three of which were used for optimization and all four for retrospective longitudinal spatial analysis. In the generic cases, against the surgeon's geometric plan, cycle-averaged donor-mandible apposition increased by up to 29 percentage points; in the patient-specific cases, against the surgeon-implemented day-5 postoperative configuration, by up to 26 percentage points. A ±10% sensitivity analysis over eleven modeling parameters capped the change in the apposition-driven objective at ∼3% (generic) and ∼4% (patient-specific), and across the four longitudinal cases the Dice overlap between predicted apposition and year-1 bone formation ranged from 70.1% to 84.9%, with centroid shifts of 0.24 to 1.82 mm. Together, these results support the feasibility-stage use of OsteoOpt++ to compare candidate reconstructions using apposition-derived predictions of bone-union propensity. The optimization and patient-specific modeling code is open source at https://github.com/hamidreza-aftabi/OsteoOpt.",
+      "journal": "Med Image Anal",
+      "date": "2026-08-31",
+      "authors": [
+        "Aftabi H",
+        "Lloyd JE",
+        "Ding A",
+        "Sagl B",
+        "Prisman E",
+        "Hodgson A",
+        "Fels S"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.media.2026.104281",
+      "journal_tier": 1,
+      "impact": 10.7,
+      "section": "genel",
+      "score": 100.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 2,
+      "abstract_tr": ""
     },
     {
       "pmid": "42678842",
@@ -1431,6 +1489,111 @@
       "abstract_tr": "AMAÇ: Kolorektal poliplerdeki yüksek dereceli displazinin (HGD) ve erken invazif karsinomun (IC) doğru tanınması, tercih edilen lokal rezeksiyon tekniğinin seçilmesi için esastır. Ancak özellikle büyük ve ilerlemiş poliplerde optik endoskopik tanı zorlayıcı olabilir. Bu çalışma, karsinoembriyonik antijen (CEA) hedefli yakın kızılötesi floresans (NIRF) görüntülemenin, HGD/IC içeren polipleri, LGD'ye göre HGD/IC'de CEA aşırı ekspresyonuna ilişkin önceden kanıt göz önüne alındığında, yalnızca düşük dereceli displazi (LGD) içeren poliplerden ayırt edip edemediğini araştırmaktadır. YÖNTEMLER: İlerlemiş rektal poliplerin lokal en-blok endoskopik rezeksiyonu planlanan hastalar çalışmaya dahil edildi ve CEA hedefli bir floresan ajan olan 5 mg veya 10 mg intravenöz SGM-101 aldı. İn vivo görüntüleme, sert bir Quest-Olympus NIRF endoskopu kullanılarak gerçekleştirildi, ardından PEARL görüntüleme sistemi kullanılarak ex vivo tam numune ve ekmek somunu görüntüleme yapıldı. Birincil son nokta, ekmek somunları üzerinde gerçekleştirilen NIRF tümör-düşük dereceli displazi oranıydı (TDR; HGD/IC bölü LGD), çünkü bu yöntem doğrudan patolojik korelasyona olanak sağladı. İkincil son noktalar, doz bulmanın yanı sıra HGD/IC'nin saptanmasına yönelik duyarlılık ve özgüllüğü içeriyordu. SONUÇLAR: 9/22'si yalnızca LGD içeren ve 13/22'si HGD/IC içeren toplam 22 hasta dahil edildi. On bir hastaya 10 mg ve 11 hastaya 5 mg SGM-101 verildi. Ex vivo ekmek somunu görüntüleme, 5 mg grubundaki 1,3 (1,2-1,6) ile karşılaştırıldığında 10 mg grubunda 2,5 (2,0-3,5) değerinde daha yüksek değerlerle 1,7 (1,3-2,9) ortalama (IQR) TDR gösterdi (p = 0,023). HGD/IC'yi tespit etme duyarlılığı %86 (2 yanlış negatif) ve özgüllük %88 (1 yanlış pozitif) idi. SONUÇ: Sınırlı örneklem büyüklüğüne rağmen, bu çalışma, HGD/IC taşıyan polipleri tamamen iyi huylu LGD poliplerinden ayırmada CEA hedefli NIRF görüntülemenin kavram kanıtını göstermektedir. Tedaviye karar verme ve hasta sonuçları üzerindeki etkisi de dahil olmak üzere klinik faydanın gelecekteki daha büyük prospektif çalışmalarda gösterilmesi gerekmektedir. KLİNİK ARAŞTIRMA KAYIT NUMARASI: NCT06280690."
     },
     {
+      "pmid": "42700251",
+      "title": "[⁶⁸Ga]Ga-CTR-FAPI versus [⁶⁸Ga]Ga-FAPI-04 PET/CT for patient evaluation in radioiodine-refractory differentiated thyroid cancer: A prospective comparative study.",
+      "abstract": "OBJECTIVE: Incorporating a sulfur (VI)-fluoride exchange (SuFEx) chemistry-based linker, FAPI-based covalent targeted radioligand (CTR) showed better tumor binding affinity and longer retention time than FAPI-04 in animal studies. This study for the first time compared the lesion detection efficacy of [⁶⁸Ga]Ga-CTR-FAPI PET/CT and [⁶⁸Ga]Ga-FAPI-04 PET/CT in a radioiodine-refractory differentiated thyroid cancer clinical cohort. METHODS: A single-center prospective comparative study was conducted, enrolling 40 RAIR-DTC patients with distant metastases. All patients underwent sequential [⁶⁸Ga]Ga-FAPI-04 PET/CT and [⁶⁸Ga]Ga-CTR-FAPI PET/CT examinations at a 24-48 h interval. Two experienced nuclear medicine physicians performed blinded visual analysis of the images to assess lesion detection status. Semi-quantitative analysis included the measurement of maximum standardized uptake value (SUVmax) and tumor-to-background ratio (TBR) of lesions in different anatomical regions. The reference standard for lesion confirmation was a combination of conventional imaging, histopathological results (when feasible), and long-term clinico-radiological follow-up. The detection performances of the two imaging modalities were compared at the patient and lesion levels. RESULTS: Of the 40 enrolled patients, 37 had detectable metastatic lesions on both imaging modalities. Two patients had lesions exclusively detected by [⁶⁸Ga]Ga-CTR-FAPI PET/CT. [⁶⁸Ga]Ga-CTR-FAPI PET/CT achieved superior visual detection performance in 17.5% (7/40) of patients (p = 0.016) concerning lesion distribution areas. In total, 769 metastatic lesions were identified by the two tracers, with [⁶⁸Ga]Ga-CTR-FAPI PET/CT detecting 99.2% (763/769) and [⁶⁸Ga]Ga-FAPI-04 PET/CT detecting 62.4% (480/769) of lesions (p < 0.001). [⁶⁸Ga]Ga-CTR-FAPI PET/CT significantly improved detection rates in lung (99.4% vs. 37.5%, p < 0.001), pleural/peritoneal (99.0% vs. 76.4%, p < 0.001), lymph node (99.0% vs. 81.7%, p < 0.001) and bone (100% vs. 82.9%, p = 0.031) metastases. Semi-quantitative analysis showed that [⁶⁸Ga]Ga-CTR-FAPI PET/CT had significantly higher median SUVmax in lung (5.1 vs. 3.8, p < 0.001) and bone (8.3 vs. 3.4, p = 0.013) metastases, and significantly higher median TBR in local recurrence (11.2 vs. 8.6, p = 0.045) and lymph node metastases (6.0 vs. 5.1, p = 0.026) compared with [⁶⁸Ga]Ga-FAPI-04 PET/CT. Furthermore, [⁶⁸Ga]Ga-CTR-FAPI PET/CT exhibited additional cerebral and hepatic metastatic lesions as well as higher tracer uptake in shared lesions located at brain (n = 1), liver(n = 2) and kidney (n = 1), while the only mediastinal soft tissue metastasis showed an SUVmax slightly higher in [⁶⁸Ga]Ga-FAPI-04 PET/CT. CONCLUSION: [⁶⁸Ga]Ga-CTR-FAPI PET/CT exhibits superior lesion detection rate, higher tracer uptake and better tumor-to-background contrast compared with [⁶⁸Ga]Ga-FAPI-04 PET/CT in RAIR-DTC patients, thus enhances the comprehensive assessment of patients' tumor burden. These findings stimulate further research on the application of CTR-FAPI as a novel and promising theranostic agent. TRIAL REGISTRATION: ChiCTR ChiCTR2400091757. Registered 2 November 2024.",
+      "journal": "Eur J Nucl Med Mol Imaging",
+      "date": "2026-09-05",
+      "authors": [
+        "Liu S",
+        "Zhang X",
+        "Li R",
+        "Kong Z",
+        "Cui XY",
+        "Li Z",
+        "Shi C",
+        "Bian D",
+        "Zhao Y",
+        "Li Q",
+        "Pan Y",
+        "Zhu Z",
+        "Liu Z",
+        "Liu S",
+        "Lin Y"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1007/s00259-026-08150-4",
+      "journal_tier": 1,
+      "impact": 8.6,
+      "section": "neuro",
+      "score": 100.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 2,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42700250",
+      "title": "Delayed total-body [18F]FDG PET/CT demonstrates systemic vascular inflammation after concurrent chemoradiotherapy in patients with head and neck cancer.",
+      "abstract": "PURPOSE: To investigate the feasibility of 2-h-delayed total-body [18F]FDG PET/CT for detecting vascular inflammation after concurrent chemoradiotherapy (CCRT) in head-and-neck-cancer (HNC) patients and to exploratorily assess its association with cardiovascular-related events (CVRE). METHODS: Twenty-four HNC patients underwent 2-h total-body [18F]FDG PET/CT before and 3 months after CCRT and were followed for CVRE. Vascular inflammation was evaluated across eleven arterial segments. Slice-based mean standardized uptake values (SUVmean) were normalized to the superior vena cava (SVC) to derive the target-to-background ratio (TBRmean), and segmental averages (avgTBRmean) were calculated. Pre- and post-CCRT avgTBRmean were compared, and the relative difference (RD-avgTBRmean) was analyzed for association with radiation dose and CVRE. RESULTS: Post-CCRT PET demonstrated increased avgTBRmean in all arterial segments, with significant increases in the carotid arteries (left: 1.32 vs 1.20, P < 0.001; right: 1.34 vs 1.24, P = 0.018), subclavian arteries (left: 1.20 vs 1.14, P = 0.022; right: 1.18 vs 1.10, P = 0.019), and infrarenal abdominal aorta (1.08 vs 0.96, P < 0.001). Mean radiotherapy dose correlated with both post-CCRT avgTBRmean (r = 0.289, P = 0.002) and RD-avgTBRmean (r = 0.251, P = 0.008). Patient-based average RD-avgTBRmean was higher in patients with CVRE (12.1% ± 6.7% vs. 4.5% ± 6.5%, P = 0.032). However, no independent association remained after age adjustment. The SUVmean of SVC was comparable between pre- and post-CCRT PET. CONCLUSION: Delayed total-body [18F]FDG PET/CT demonstrated CCRT-related vascular inflammation in HNC patients, suggesting a potential imaging biomarker of treatment-related cardiovascular risk but warrants validation in larger studies.",
+      "journal": "Eur J Nucl Med Mol Imaging",
+      "date": "2026-09-05",
+      "authors": [
+        "Liu G",
+        "Abdelhafez YG",
+        "Mehadji B",
+        "Di Franco M",
+        "Spencer BA",
+        "Li S",
+        "Sen F",
+        "Sun JY",
+        "Rao S",
+        "Alavi A",
+        "Shi H",
+        "Wang G",
+        "Nardo L"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1007/s00259-026-08160-2",
+      "journal_tier": 1,
+      "impact": 8.6,
+      "section": "toraks",
+      "score": 100.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 2,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42700249",
+      "title": "Risk of bone metastases on [18F]NaF PET/CT in 734 patients with newly diagnosed prostate cancer.",
+      "abstract": "PURPOSE: International guidelines recommend assessment for bone metastases in patients with high-risk prostate cancer (PC) and those with unfavourable intermediate-risk disease. These recommendations are largely based on studies using planar bone scintigraphy. We aimed to assess the diagnostic accuracy of [18F]sodium fluoride ([18F]NaF) PET/CT in newly diagnosed PC. We also evaluated the clinical utility of routine bone imaging in patients with unfavourable intermediate-risk disease and International Society of Urological Pathology grade group (ISUP GG) 3. METHODS: This retrospective single-center study included 734 consecutive patients with newly diagnosed PC who underwent [18F]NaF PET/CT for primary staging. Patients were classified according to the current European Association of Urology risk classification, with the intermediate-risk subgroup restricted to patients with ISUP GG 3. All scan reports were retrospectively reviewed, and patient-level findings regarding bone metastases were validated against a reference standard based on follow-up imaging and clinical data. Sensitivity, specificity, and predictive values were calculated. RESULTS: Of the 734 patients, 607 (83%) had high-risk disease and 127 (17%) had intermediate-risk disease with ISUP GG 3. Overall, bone metastases were detected in 225 patients (31%). Among high-risk patients, 224 (37%) had bone metastases, whereas only 1 of 127 intermediate-risk patients (0.8%) had bone metastases on [18F]NaF PET/CT. Follow-up identified one additional potential false-negative case in the intermediate-risk group. Among patients with a conclusive reference standard (n = 689), sensitivity and specificity were 0.90 and 0.99, respectively. CONCLUSION: [18F]NaF PET/CT demonstrates high diagnostic accuracy for the detection of bone metastases in newly diagnosed PC. However, given the very low prevalence of bone metastases, its clinical utility in patients with unfavourable intermediate-risk disease and ISUP GG 3 appears limited.",
+      "journal": "Eur J Nucl Med Mol Imaging",
+      "date": "2026-09-05",
+      "authors": [
+        "Madsen C",
+        "Zacho HD",
+        "Bisbjerg R",
+        "Fuglø D",
+        "Østergren PB"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1007/s00259-026-08148-y",
+      "journal_tier": 1,
+      "impact": 8.6,
+      "section": "abdomen",
+      "score": 100.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 2,
+      "abstract_tr": ""
+    },
+    {
       "pmid": "42684147",
       "title": "Image Quality in the Era of Artificial Intelligence: Understanding the Limitations of AI-based Image Reconstruction and Postprocessing.",
       "abstract": "Artificial intelligence (AI) is being deployed in radiology for image reconstruction and postprocessing to produce images that appear sharper, smoother, and more detailed. However, incorporating AI also introduces new failure modes and can exacerbate the disconnect between the perceived quality of an image and its diagnostic information content. Understanding the limitations of AI-enabled image reconstruction and postprocessing is essential for the safe and effective use of this technology. Therefore, the purpose of this report is to raise awareness of the limitations of AI-based image reconstruction and postprocessing to help users realize the benefits of the technology while minimizing risks. Accordingly, this report reviews approaches to image quality assessment, discusses the regulatory framework relevant to AI-enabled imaging devices, describes AI-specific failure modes, and outlines strategies to mitigate associated risks.",
@@ -1764,152 +1927,6 @@
       "tier": 1,
       "impact": 5.2,
       "section": "girisim"
-    },
-    {
-      "pmid": "42690965",
-      "title": "Lung Cancer Screening: Beyond Pulmonary Nodules.",
-      "abstract": "Low-dose CT lung cancer screening reduces lung cancer mortality in individuals at high risk and frequently reveals clinically relevant incidental findings. In the National Lung Screening Trial, approximately one-third of screening CT examinations demonstrated abnormalities other than lung cancer, raising challenges related to interpretation, reporting, and further management. The absence of consistent guidance and the variable clinical significance of these findings may hinder the broader adoption of lung cancer screening. Opportunistic screening leverages low-dose CT examinations performed for lung cancer detection to identify additional serious conditions at no extra cost, radiation exposure, or patient burden. The authors provide a practical framework for recognizing, reporting, and managing common opportunistic findings on lung cancer screening CT images, with an emphasis on evidence-based recommendations and current professional society guidance. Key thoracic findings include emphysema, interstitial lung abnormalities, interstitial lung disease, coronary artery calcification, thoracic aortic aneurysm, and pulmonary artery enlargement. Each of these findings, if unrecognized, is associated with substantial morbidity and mortality. Extrapulmonary findings such as low bone density and lesions found incidentally in the upper abdominal organs further expand the clinical value of lung cancer screening. The authors highlight standardized visual and quantitative assessment methods, recommended follow-up pathways, and the importance of structured reporting, including appropriate use of the Lung CT Screening Reporting and Data System \"S\" (other non-lung cancer findings) modifier. Emerging artificial intelligence tools are discussed as critical enablers for scalable opportunistic screening, offering automated detection, quantification, and longitudinal assessment of emphysema, coronary calcium levels, vascular dimensions, bone density, body composition, and selected abdominal pathologic conditions. By integrating opportunistic screening into routine lung cancer screening workflows, radiologists can extend the benefit of lung cancer screening with CT beyond cancer detection to facilitate comprehensive risk stratification and preventive care.",
-      "journal": "Radiographics",
-      "date": "2026-10",
-      "authors": [
-        "Singh A",
-        "El Khoury T",
-        "Tannoury E",
-        "Brenner E",
-        "Jhala K",
-        "Byrne SC"
-      ],
-      "pubtypes": [
-        "Journal Article",
-        "Review"
-      ],
-      "doi": "10.1148/rg.260012",
-      "journal_tier": 1,
-      "impact": 5.2,
-      "section": "girisim",
-      "score": 110.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": 10,
-        "recency": 0.0
-      },
-      "tier": 1,
-      "abstract_tr": "Düşük doz BT akciğer kanseri taraması, yüksek risk altındaki bireylerde akciğer kanseri mortalitesini azaltır ve sıklıkla klinik olarak anlamlı tesadüfi bulguları ortaya çıkarır. Ulusal Akciğer Tarama Çalışmasında, tarama BT incelemelerinin yaklaşık üçte birinde akciğer kanseri dışında anormallikler ortaya çıktı ve bu da yorumlama, raporlama ve ileri yönetimle ilgili zorlukları artırdı. Tutarlı bir rehberin bulunmaması ve bu bulguların değişken klinik önemi, akciğer kanseri taramasının daha geniş çapta benimsenmesini engelleyebilir. Fırsatçı tarama, hiçbir ekstra maliyet, radyasyona maruz kalma veya hasta yükü olmadan ek ciddi koşulları belirlemek için akciğer kanseri tespiti için gerçekleştirilen düşük dozlu BT incelemelerinden yararlanır. Yazarlar, kanıta dayalı önerilere ve güncel profesyonel toplum rehberliğine vurgu yaparak, akciğer kanseri tarama BT görüntüleri üzerindeki yaygın fırsatçı bulguların tanınması, raporlanması ve yönetilmesi için pratik bir çerçeve sunmaktadır. Anahtar torasik bulgular arasında amfizem, interstisyel akciğer anormallikleri, interstisyel akciğer hastalığı, koroner arter kalsifikasyonu, torasik aort anevrizması ve pulmoner arter genişlemesi yer alır. Bu bulguların her biri, eğer fark edilmezse, ciddi morbidite ve mortalite ile ilişkilidir. Düşük kemik yoğunluğu ve tesadüfen üst karın organlarında bulunan lezyonlar gibi ekstrapulmoner bulgular, akciğer kanseri taramasının klinik değerini daha da artırmaktadır. Yazarlar standartlaştırılmış görsel ve niceliksel değerlendirme yöntemlerini, önerilen takip yollarını ve Akciğer BT Tarama Raporlama ve Veri Sistemi \"S\" (akciğer dışı diğer bulgular) değiştiricisinin uygun kullanımı dahil olmak üzere yapılandırılmış raporlamanın önemini vurgulamaktadır. Ortaya çıkan yapay zeka araçları, amfizemin, koroner kalsiyum seviyelerinin, vasküler boyutların, kemik yoğunluğunun, vücut kompozisyonunun ve seçilmiş abdominal patolojik durumların otomatik olarak tespit edilmesini, ölçülmesini ve uzunlamasına değerlendirilmesini sunan, ölçeklenebilir fırsatçı tarama için kritik kolaylaştırıcılar olarak tartışılmaktadır. Radyologlar, fırsatçı taramayı rutin akciğer kanseri tarama iş akışlarına entegre ederek, kapsamlı risk sınıflandırmasını ve önleyici bakımı kolaylaştırmak için CT ile akciğer kanseri taramasının faydasını kanser tespitinin ötesine taşıyabilir."
-    },
-    {
-      "pmid": "42690964",
-      "title": "Surveillance for Hepatocellular Carcinoma in Patients at High Risk.",
-      "abstract": "Hepatocellular carcinoma (HCC) is the third leading cause of cancer-related mortality worldwide and most often arises in patients with chronic liver disease and cirrhosis. Since curative treatment options are largely limited to early-stage disease, effective surveillance strategies are essential to improve outcomes. Current guidelines recommend semiannual US combined with serum α-fetoprotein level testing as the standard surveillance approach for most patients at high risk. Liver Imaging Reporting and Data System 2024 guidance provides a structured framework for interpretation of surveillance US and highlights the importance of examination quality assessment and reporting by incorporating it into the management decision-making algorithm. US surveillance improves early tumor detection and survival but demonstrates suboptimal sensitivity in certain high-risk subgroups, particularly patients with obesity, hepatic steatosis, and advanced cirrhosis. Growing evidence supports the use of alternative strategies including biomarker panel results and abbreviated MRI protocols in selected patient subgroups because these approaches demonstrate higher sensitivity and favorable cost-effectiveness when applied to appropriately risk-stratified populations. Furthermore, cost-effectiveness analyses consistently indicate that surveillance efficiency strongly depends on individual HCC risk, imaging costs, surveillance use, and societal willingness-to-pay thresholds, supporting a departure from uniform \"one-size-fits-all\" strategies in favor of personalized, risk-adapted surveillance paradigms. Despite advances in diagnostic performance, surveillance use remains suboptimal in clinical practice due to patient-, provider-, and system-level barriers. The authors aim to synthesize current evidence on HCC surveillance including identifying target populations; evaluating the diagnostic performance of available modalities; and considering cost-effectiveness, emerging technologies, and real-world barriers to implementation of surveillance protocols.",
-      "journal": "Radiographics",
-      "date": "2026-10",
-      "authors": [
-        "Fowler KJ",
-        "Kamaya A",
-        "Rodgers SK",
-        "Kruse D",
-        "Bashir MR",
-        "Bhamra GS",
-        "Choi ES",
-        "El Kaffas A",
-        "Singal AG",
-        "Park HJ",
-        "Chernyak V"
-      ],
-      "pubtypes": [
-        "Journal Article",
-        "Review"
-      ],
-      "doi": "10.1148/rg.260010",
-      "journal_tier": 1,
-      "impact": 5.2,
-      "section": "girisim",
-      "score": 110.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": 10,
-        "recency": 0.0
-      },
-      "tier": 1,
-      "abstract_tr": "Hepatoselüler karsinom (HCC), dünya çapında kansere bağlı ölümlerin üçüncü önde gelen nedenidir ve çoğunlukla kronik karaciğer hastalığı ve sirozu olan hastalarda ortaya çıkar. İyileştirici tedavi seçenekleri büyük ölçüde erken evre hastalıkla sınırlı olduğundan, sonuçların iyileştirilmesi için etkili gözetim stratejileri gereklidir. Mevcut kılavuzlar, yüksek risk altındaki çoğu hasta için standart gözetim yaklaşımı olarak altı ayda bir US'yi serum α-fetoprotein düzeyi testiyle birlikte önermektedir. Karaciğer Görüntüleme Raporlaması ve Veri Sistemi 2024 kılavuzu, ABD sürveyansının yorumlanması için yapılandırılmış bir çerçeve sağlar ve muayene kalitesi değerlendirmesinin ve bunu yönetim karar verme algoritmasına dahil ederek raporlamanın önemini vurgular. ABD sürveyansı, erken tümör tespitini ve sağkalımı iyileştirir ancak bazı yüksek riskli alt gruplarda, özellikle obezite, hepatik steatoz ve ilerlemiş siroz hastalarında suboptimal duyarlılık gösterir. Giderek artan kanıtlar, seçilen hasta alt gruplarında biyobelirteç paneli sonuçları ve kısaltılmış MRI protokolleri dahil olmak üzere alternatif stratejilerin kullanımını desteklemektedir çünkü bu yaklaşımlar, uygun şekilde risk sınıflandırmasına sahip popülasyonlara uygulandığında daha yüksek hassasiyet ve olumlu maliyet etkinliği göstermektedir. Ayrıca, maliyet-etkinlik analizleri, sürveyans verimliliğinin güçlü bir şekilde bireysel HCC riskine, görüntüleme maliyetlerine, sürveyans kullanımına ve toplumsal ödeme istekliliği eşiklerine bağlı olduğunu sürekli olarak göstermektedir; bu da, kişiselleştirilmiş, riske uyarlanmış sürveyans paradigmaları lehine tek tip \"herkese uyan tek boyut\" stratejilerinden ayrılmayı desteklemektedir. Tanı performansındaki ilerlemelere rağmen sürveyans kullanımı hasta, sağlayıcı ve sistem düzeyindeki engeller nedeniyle klinik uygulamada optimalin altında olmaya devam ediyor. Yazarlar, hedef popülasyonların belirlenmesi de dahil olmak üzere HCC sürveyansına ilişkin mevcut kanıtları sentezlemeyi amaçlamaktadır; mevcut yöntemlerin tanısal performansının değerlendirilmesi; ve gözetim protokollerinin uygulanmasında maliyet etkinliği, gelişen teknolojiler ve gerçek dünyadaki engellerin dikkate alınması."
-    },
-    {
-      "pmid": "42690963",
-      "title": "Invited Commentary: Measured, Not Yet Managed: Moving Toward Comprehensive Lung Screening.",
-      "abstract": "",
-      "journal": "Radiographics",
-      "date": "2026-10",
-      "authors": [
-        "Gunderman PR",
-        "Fintelmann FJ"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1148/rg.260194",
-      "journal_tier": 1,
-      "impact": 5.2,
-      "section": "toraks",
-      "score": 100.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 2,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42275242",
-      "title": "How to Prepare for Multidisciplinary Tumor Board Conferences: A Radiology Resident Guide to Success.",
-      "abstract": "[Abstract not available]",
-      "journal": "Radiographics",
-      "date": "2026-07",
-      "authors": [
-        "Ghabili K",
-        "Miao JH",
-        "Ozcan BB",
-        "Dittrich N",
-        "Sorin V"
-      ],
-      "pubtypes": [
-        "Editorial"
-      ],
-      "doi": "10.1148/rg.250214",
-      "journal_tier": 1,
-      "score": 75.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": -25,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "impact": 5.2,
-      "section": "egitim"
-    },
-    {
-      "pmid": "42275239",
-      "title": "From Presence to Precision: Standardizing MRI Evaluation of Stromal Invasion after the SHAPE Trial.",
-      "abstract": "[Abstract not available]",
-      "journal": "Radiographics",
-      "date": "2026-07",
-      "authors": [
-        "Murad V",
-        "O'Brien C"
-      ],
-      "pubtypes": [
-        "Letter"
-      ],
-      "doi": "10.1148/rg.260040",
-      "journal_tier": 1,
-      "score": 70.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": -30,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "impact": 5.2,
-      "section": "genel"
     }
   ]
 }
