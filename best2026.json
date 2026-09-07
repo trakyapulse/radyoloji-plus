@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T09:59:04+00:00",
+  "updated": "2026-09-07T11:10:02+00:00",
   "year": 2026,
   "count": 60,
   "criteria": "Etki faktörü (sonra etki skoru) sıralı",
@@ -661,7 +661,7 @@
         "recency": 0.0
       },
       "tier": 2,
-      "abstract_tr": ""
+      "abstract_tr": "Kolorektal polip tespitine yönelik derin öğrenme modelleri, veri seti artefaktları, görüntüleme ekipmanındaki farklılıklar ve diğer klinik faktörler nedeniyle sıklıkla dağıtım kayması sorunlarıyla karşı karşıya kalır ve bu da gerçek dünya ortamlarında güvenilmez performansa neden olur. Bunu ele almak için, birden fazla hedef alan arasında genelleştirilebilen modelleri eğitmeyi amaçlayan çeşitli genelleştirilebilir nesne dedektörleri önerilmiştir. Bununla birlikte, genelleştirilebilir tespite yönelik mevcut yaklaşımlar tipik olarak iki ana stratejiye dayanır: Hedef alanlardan etiketlenmemiş veriler gerektiren Denetimsiz Etki Alanı Uyarlaması ve birden fazla kaynak etki alanından veri gerektiren Çok Kaynaklı Etki Alanı Genelleştirmesi. Bu yaklaşımların, veri gizliliği düzenlemelerinin erişilebilirliği sınırladığı klinik ortamlarda uygulanması zordur. Bu çalışma, Genelleştirilebilir Polip Tespit Transformatörü (GPDT) olarak adlandırılan, tek alanlı genellemenin daha gerçekçi bir ortamı altında kolonoskopi sahnelerinde polip tespiti için yeni bir yaklaşım önermektedir. Yöntemimiz, sağlam özellik çıkarımı için Vision Foundation Modellerinden yararlanır ve bu modellere minimum ek parametrelerle ince ayar yapmak için öğrenilebilir jeton odaklı bir adaptör mekanizması sunar. Bu yaklaşım, eğitim için yalnızca tek bir kaynak alanın mevcut olduğu durumlarda, görünmeyen klinik alanlar arasında etkili genelleme yapılmasına olanak sağlar. İki çok merkezli polip tespiti genelleme kriteri olan PolypGen ve REAL-Colon üzerinde yapılan kapsamlı deneyler, GPDT'nin birden fazla hedef alanda mevcut en son teknolojiye sahip yöntemlerle karşılaştırıldığında daha güçlü bir performans elde ettiğini göstermektedir. Ayrıca, algılama doğruluğunu korurken çıkarımı hızlandıran ve değerlendirilen uç cihaz konfigürasyonu altında uygun bir hız-doğruluk dengesi sağlayan etkili bir değişken olan E-GPDT'yi sunuyoruz. E-GPDT, aynı tek kaynak protokolü kapsamında bağdaştırıcıyla geliştirilmiş GPDT öğretmenlerinden damıtılmış, kaynağa özgü bir öğrenci olarak eğitilir ve böylece yüksek kapasiteli VFM'ye uyarlanmış dedektör ile daha düşük gecikme süreli öğrenci dedektörünü tek bir birleşik hat içinde bağlar. Sonuçlarımız, VFM'lerin uyarlanmasının alanlar arası polip tespitinin genelleştirilebilirliğini geliştirmek için umut verici bir yol sağladığını göstermektedir."
     },
     {
       "pmid": "42700676",
@@ -693,6 +693,35 @@
       },
       "tier": 2,
       "abstract_tr": ""
+    },
+    {
+      "pmid": "42702133",
+      "title": "EndoPlanner: An adaptive planning framework for root canal therapy with graph-based endodontic landmark detection and inference-time refinement.",
+      "abstract": "Root canal therapy is a prevalent dental procedure for treating pulp infections; however, its complexity due to the intricate variability of root canal anatomies frequently results in procedural errors, excessive tooth structure loss, and suboptimal outcomes, especially in multi-rooted teeth. Although Guided Endodontics enhances precision and predictability, it depends on manual planning using non-dedicated software, rendering the process labor-intensive, subjective, and confined to single-rooted teeth, thereby limiting broader adoption. In this study, we introduce EndoPlanner, an adaptive and pioneering framework that streamlines preoperative planning for Guided Endodontics solely from cone-beam computed tomography scans, seamlessly integrating automated dental segmentation, endodontic landmark detection, access cavity design, and surgical template generation. Specifically, we propose a unified bottom-up multi-peak encoding and graph-based decoding paradigm for root canal landmark localization and topology recognition, augmented by an anatomy-aware loss for targeted heatmap optimization and a self-supervised inference-time refinement strategy to bolster generalization across diverse root canal morphologies. Additionally, a tunable, geometry-guided algorithm is devised for automatic drill path planning, incorporating minimally invasive principles. Extensive evaluations affirm the superior performance and robustness of our method, yielding an average MRE of 0.767 mm, with SDRs of 74.9% within the strict 1.0 mm safety margin and 94.3% within the broader 2.0 mm tolerance for landmark localization, while attaining clinically acceptable standards for access planning. Deployed as a 3D Slicer extension, it completes preoperative preparation in an average of ∼4 min, reducing time by up to 96.05% relative to traditional workflows. Moreover, successful in-vitro experiments and clinical cases validate the efficacy of patient-specific access solutions facilitated by our efficient, reproducible, and minimally invasive planning schemes, highlighting their potential for routine practice, particularly among less-experienced practitioners.",
+      "journal": "Med Image Anal",
+      "date": "2026-09-02",
+      "authors": [
+        "Zhang Y",
+        "Kong F",
+        "Wang K",
+        "Huang Z",
+        "Chen X"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.media.2026.104294",
+      "journal_tier": 1,
+      "impact": 10.7,
+      "section": "genel",
+      "score": 100.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 2,
+      "abstract_tr": "Kök kanal tedavisi, pulpa enfeksiyonlarını tedavi etmek için yaygın bir diş prosedürüdür; ancak kök kanal anatomilerinin karmaşık değişkenliğinden kaynaklanan karmaşıklığı sıklıkla prosedür hatalarına, aşırı diş yapısı kaybına ve özellikle çok köklü dişlerde optimal olmayan sonuçlara neden olur. Kılavuzlu Endodonti hassasiyeti ve öngörülebilirliği arttırsa da, özel olmayan bir yazılım kullanarak manuel planlamaya dayanır, süreci emek yoğun, öznel ve tek köklü dişlerle sınırlı hale getirir, dolayısıyla daha geniş çapta benimsenmeyi sınırlar. Bu çalışmada, Kılavuzlu Endodonti için ameliyat öncesi planlamayı yalnızca konik ışınlı bilgisayarlı tomografi taramalarından kolaylaştıran, otomatik diş segmentasyonunu, endodontik dönüm noktası tespitini, erişim boşluğu tasarımını ve cerrahi şablon oluşturmayı sorunsuz bir şekilde entegre eden uyarlanabilir ve öncü bir çerçeve olan EndoPlanner'ı tanıtıyoruz. Spesifik olarak, kök kanalı yer işareti lokalizasyonu ve topoloji tanıma için birleşik bir aşağıdan yukarıya çok tepeli kodlama ve grafik tabanlı kod çözme paradigması öneriyoruz; bu paradigma, hedeflenen ısı haritası optimizasyonu için anatomiye duyarlı bir kayıp ve farklı kök kanal morfolojileri arasında genellemeyi desteklemek için kendi kendini denetleyen bir çıkarım zamanı iyileştirme stratejisi ile güçlendirilmiştir. Ek olarak, otomatik delme yolu planlaması için minimal düzeyde invaziv ilkeleri içeren, ayarlanabilir, geometri destekli bir algoritma tasarlanmıştır. Kapsamlı değerlendirmeler, yöntemimizin üstün performansını ve sağlamlığını onaylar; ortalama 0,767 mm MRE verir, SDR'ler 1,0 mm'lik sıkı güvenlik marjı dahilinde %74,9 ve yer işareti lokalizasyonu için daha geniş 2,0 mm tolerans dahilinde %94,3'tür ve erişim planlaması için klinik olarak kabul edilebilir standartlara ulaşır. 3D Dilimleyici uzantısı olarak konuşlandırıldığında, ameliyat öncesi hazırlığı ortalama ~4 dakikada tamamlayarak geleneksel iş akışlarına göre süreyi %96,05'e kadar azaltır. Dahası, başarılı in vitro deneyler ve klinik vakalar, etkili, tekrarlanabilir ve minimal invazif planlama şemalarımız tarafından kolaylaştırılan hastaya özel erişim çözümlerinin etkinliğini doğruluyor ve bunların özellikle daha az deneyimli pratisyenler arasında rutin uygulama potansiyelini vurguluyor."
     },
     {
       "pmid": "42678842",
@@ -808,6 +837,35 @@
       "journal_tier": 1,
       "impact": 10.6,
       "section": "genel",
+      "score": 100.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 2,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42701952",
+      "title": "Optimizing MRI sequence selection for glioma classification: a radiomics-based analysis of WHO CNS grade, final pathological diagnosis, and IDH status.",
+      "abstract": "BACKGROUND: Multi-sequence MRI protocols for glioma classification are resource-intensive, prompting the need to identify optimal, potentially reduced imaging protocols. PURPOSE: To evaluate the diagnostic utility of individual MRI sequences (ASL, DWI, FLAIR, SWI, T1w, T2w) for classifying WHO CNS grade (II, III, IV), final pathological diagnosis (glioblastoma vs. astrocytoma), and IDH status (mutated, wildtype, IDH1) using radiomic features and machine learning. MATERIALS AND METHODS: We analyzed data from 501 patients with diagnosed brain cancer from the UCSF-PDGM dataset, by extracting radiomics features from all available imaging sequences and training uni- and multi-sequence machine learning models (ASL, DWI, FLAIR, SWI, T1w, T2w) for the three outcome tasks of interest. Performance metrics (accuracy, sensitivity, F1-score) were derived for each task, alongside feature selection frequencies. RESULTS: The uni-sequence machine learning models using FLAIR imaging features excelled for WHO CNS grade classification (57.4% accuracy), ASL for final pathological diagnosis (81.5% accuracy), and T1w for IDH status classification (66.7% accuracy). Interestingly, the combination of all sequences did not lead to significant improvements compared to the best performing uni-sequence machine learning models for the three tasks. Regardless of the input sequence, the models consistently relied on similar features, such as shape and demographic variables (e.g., patient age and tumor sphericity). CONCLUSION: Single sequences, such as FLAIR, ASL, and T1w, achieved the highest individual accuracies in the radiomics models for classification of tumor grade, final diagnosis, and IDH status, and may inform the design of more streamlined imaging protocols.",
+      "journal": "Radiol Med",
+      "date": "2026-09-06",
+      "authors": [
+        "Amador K",
+        "Kniep H",
+        "Fiehler J",
+        "Forkert ND",
+        "Lindner T"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1007/s11547-026-02218-9",
+      "journal_tier": 1,
+      "impact": 9.4,
+      "section": "girisim",
       "score": 100.0,
       "score_parts": {
         "journal": 100,
@@ -1525,7 +1583,7 @@
         "recency": 0.0
       },
       "tier": 2,
-      "abstract_tr": ""
+      "abstract_tr": "AMAÇ: Kükürt (VI)-florür değişimi (SuFEx) kimya bazlı bağlayıcıyı içeren FAPI bazlı kovalent hedefli radyoligand (CTR), hayvan çalışmalarında FAPI-04'e göre daha iyi tümör bağlanma afinitesi ve daha uzun alıkonma süresi göstermiştir. Bu çalışma, radyoiyodine dirençli farklılaşmış tiroid kanseri klinik kohortunda [⁶⁸Ga]Ga-CTR-FAPI PET/CT ve [⁶⁸Ga]Ga-FAPI-04 PET/CT'nin lezyon tespit etkinliğini ilk kez karşılaştırdı. YÖNTEMLER: Uzak metastazı olan 40 RAIR-DTC hastasını kapsayan tek merkezli prospektif karşılaştırmalı bir çalışma yürütüldü. Tüm hastalara 24-48 saat aralıklarla ardışık [⁶⁸Ga]Ga-FAPI-04 PET/CT ve [⁶⁸Ga]Ga-CTR-FAPI PET/CT incelemeleri yapıldı. İki deneyimli nükleer tıp doktoru, lezyon tespit durumunu değerlendirmek için görüntülerin kör görsel analizini gerçekleştirdi. Yarı kantitatif analiz, farklı anatomik bölgelerdeki lezyonların maksimum standartlaştırılmış alım değerinin (SUVmax) ve tümör-arka plan oranının (TBR) ölçümünü içeriyordu. Lezyonun doğrulanması için referans standart, geleneksel görüntüleme, histopatolojik sonuçlar (uygun olduğunda) ve uzun süreli klinik-radyolojik takibin bir kombinasyonuydu. İki görüntüleme yönteminin tespit performansları hasta ve lezyon düzeyinde karşılaştırıldı. BULGULAR: Kayıtlı 40 hastanın 37'sinde her iki görüntüleme yönteminde de saptanabilir metastatik lezyonlar vardı. İki hastada yalnızca [⁶⁸Ga]Ga-CTR-FAPI PET/CT ile tespit edilen lezyonlar vardı. [⁶⁸Ga]Ga-CTR-FAPI PET/CT, lezyon dağılım alanlarına ilişkin olarak hastaların %17,5'inde (7/40) (p = 0,016) üstün görsel tespit performansı elde etti. Toplamda, iki izleyici tarafından 769 metastatik lezyon tanımlandı; [⁶⁸Ga]Ga-CTR-FAPI PET/CT, lezyonların %99,2'sini (763/769) saptadı ve [⁶⁸Ga]Ga-FAPI-04 PET/CT, lezyonların %62,4'ünü (480/769) saptadı (p < 0,001). [⁶⁸Ga]Ga-CTR-FAPI PET/CT, akciğer (%99,4 vs. %37,5, p < 0,001), plevral/peritoneal (%99,0 vs. %76,4, p < 0,001), lenf nodu (%99,0 vs. %81,7, p < 0,001) ve kemik (%100 vs. %82,9, p = 0,031) metastazı. Yarı niceliksel analiz, [⁶⁸Ga]Ga-CTR-FAPI PET/BT'nin akciğer (5,1'e karşı 3,8, p < 0,001) ve kemikte (8,3'e karşı 3,4, p = 0,013) metastazlarda anlamlı derecede yüksek medyan SUVmax'a sahip olduğunu ve lokal nükste anlamlı derecede yüksek medyan TBR'ye (11,2'ye karşı 11,2) sahip olduğunu gösterdi. [⁶⁸Ga]Ga-FAPI-04 PET/CT ile karşılaştırıldığında, 8,6, p = 0,045) ve lenf nodu metastazı (6,0 vs. 5,1, p = 0,026). Ayrıca, [⁶⁸Ga]Ga-CTR-FAPI PET/BT ek serebral ve hepatik metastatik lezyonların yanı sıra beyin (n = 1), karaciğer(n = 2) ve böbrekte (n = 1) yer alan ortak lezyonlarda daha yüksek izleyici alımı sergilerken, tek mediastinal yumuşak doku metastazı biraz daha yüksek bir SUVmax gösterdi. [⁶⁸Ga]Ga-FAPI-04 PET/CT. SONUÇ: [⁶⁸Ga]Ga-CTR-FAPI PET/CT, RAIR-DTC hastalarında [⁶⁸Ga]Ga-FAPI-04 PET/CT ile karşılaştırıldığında üstün lezyon tespit oranı, daha yüksek izleyici alımı ve daha iyi tümör-arka plan kontrastı sergiler, böylece hastaların tümör yükünün kapsamlı değerlendirmesini geliştirir. Bu bulgular, CTR-FAPI'nin yeni ve umut verici bir teranostik ajan olarak uygulanmasına ilişkin daha fazla araştırmayı teşvik etmektedir. DENEME KAYDI: ChiCTR ChiCTR2400091757. 2 Kasım 2024'te kayıtlı."
     },
     {
       "pmid": "42700250",
@@ -1591,7 +1649,7 @@
         "recency": 0.0
       },
       "tier": 2,
-      "abstract_tr": ""
+      "abstract_tr": "AMAÇ: Uluslararası kılavuzlar, yüksek riskli prostat kanseri (PK) olan ve olumsuz orta riskli hastalığı olan hastalarda kemik metastazlarının değerlendirilmesini önermektedir. Bu öneriler büyük ölçüde düzlemsel kemik sintigrafisinin kullanıldığı çalışmalara dayanmaktadır. Yeni teşhis edilen PC'de [18F]sodyum florür ([18F]NaF) PET/BT'nin tanısal doğruluğunu değerlendirmeyi amaçladık. Ayrıca, olumsuz orta riskli hastalığı olan ve Uluslararası Ürolojik Patoloji Derneği derece grubu (ISUP GG) 3 olan hastalarda rutin kemik görüntülemenin klinik faydasını da değerlendirdik. YÖNTEMLER: Bu retrospektif tek merkezli çalışmaya, birincil evreleme için [18F]NaF PET/BT uygulanan, yeni tanı almış PK'li 734 ardışık hasta dahil edildi. Hastalar, mevcut Avrupa Üroloji Birliği risk sınıflandırmasına göre sınıflandırıldı; orta risk alt grubu ISUP GG 3 hastaları ile sınırlıydı. Tüm tarama raporları geriye dönük olarak incelendi ve kemik metastazlarına ilişkin hasta düzeyindeki bulgular, takip görüntüleme ve klinik verilere dayalı bir referans standardına göre doğrulandı. Duyarlılık, özgüllük ve öngörücü değerler hesaplandı. BULGULAR: 734 hastanın 607'sinde (%83) yüksek riskli hastalık, 127'sinde (%17) ise ISUP GG 3 ile orta riskli hastalık vardı. Toplamda 225 hastada (%31) kemik metastazı tespit edildi. Yüksek riskli hastalardan 224'ünde (%37) kemik metastazı bulunurken, [18F]NaF PET/CT'de 127 orta riskli hastadan yalnızca 1'inde (%0,8) kemik metastazı vardı. Takip, orta risk grubunda ek bir potansiyel yanlış negatif vaka tespit etti. Kesin bir referans standardı olan hastalar arasında (n = 689), duyarlılık ve özgüllük sırasıyla 0,90 ve 0,99 idi. SONUÇ: [18F]NaF PET/CT, yeni teşhis edilen PC'de kemik metastazlarının saptanmasında yüksek tanısal doğruluk göstermektedir. Bununla birlikte, kemik metastazlarının çok düşük prevalansı göz önüne alındığında, olumsuz orta riskli hastalığı ve ISUP GG 3'ü olan hastalarda klinik faydası sınırlı görünmektedir."
     },
     {
       "pmid": "42684147",
@@ -1675,6 +1733,48 @@
       },
       "tier": 3,
       "abstract_tr": "Tanısal radyolojide yapay zeka üzerine yapılan araştırmalar, algoritma geliştirmeye ve bağımsız performansa odaklanmıştır, ancak sonuçta yapay zekanın klinik değerini belirleyen insan-yapay zeka etkileşimleri yeterince anlaşılmamıştır. İnsan-yapay zeka etkileşimi ve radyoloji yapay zeka literatürünün anlatısal bir sentezi, radyolojide başarılı insan-yapay zeka işbirliğinin yeterince tanınmayan üç belirleyicisinin altını çizdi. Birincisi, bilişsel psikoloji, otomasyon yanlılığının, yapay zeka belirsizliğinin çerçevelenmesinin ve yapay zekanın neden olduğu beceri zayıflamasının tanısal akıl yürütmeyi nasıl bozduğunu belirler. İkincisi, yapay zeka araçlarının kullanıcı arayüzü (UI) ve kullanıcı deneyimi (UX), yapay zeka bulgularının zamanlamasının, belirginliğinin ve belgelenmesinin radyologların dikkatini ve raporlama davranışını nasıl şekillendirdiğini belirler; Üretken yapay zekanın yeni uygulamalar ve etkileşim paradigmaları sunması nedeniyle UI/UX'in etkisi daha da kritik hale geliyor. Üçüncüsü, algoritmik uygunluk, radyologların adli, şeffaflık ve organizasyonel baskılar altında kendi kararlarını geçersiz kılmasına yol açmaktadır. Her alan için, algoritmik yetenekler ile klinik fayda arasındaki boşluğu kapatmak amacıyla somut araştırma talimatları önerilmektedir."
+    },
+    {
+      "pmid": "42703092",
+      "title": "Accelerated Body Composition Analysis in Whole-body MRI Using CycleGAN-based T2-HASTE Synthesis From Fast Whole-body Localizers.",
+      "abstract": "OBJECTIVES: To evaluate whether CycleGAN-based synthesis of T2-HASTE images from routinely acquired fast whole-body localizer (FWBL) can support accelerated body composition analysis (BCA) by preserving sufficient information for an established T2-HASTE-based BCA pipeline to generate measurements comparable to those derived from reference T2-HASTE images. MATERIALS AND METHODS: This retrospective single-center proof-of-concept study included 468 patients (53% female, mean age 51±18 y) who underwent WB-MRI with FWBL and T2-HASTE between March 2012 and December 2025, 431 (92%) of whom were examined from 2023 onward. A CycleGAN model was trained to generate synthetic T2-HASTE images from registered FWBL and T2-HASTE images. Fully automated MRI-based BCA was conducted on synthetic and reference T2-HASTE images using a fixed pretrained BCA model, focusing on 5 key segmentation compartments: subcutaneous adipose tissue (SAT), muscle, abdominal cavity, thoracic cavity, and bone, with subsequent region-specific volumetric analyses of SAT, muscle, and bone in the thoracic, abdominal, and whole-body regions. Derived BCA markers included the Sarcopenia Index (muscle-to-bone ratio) and the muscle-to-SAT ratio. Agreement was assessed using Bland-Altman analysis, including mean bias expressed in absolute units and as a percentage of the mean reference volume, median absolute percentage error, Pearson correlation, and weighted Cohen kappa for tertile-based stratification. Segmentation overlap was evaluated using Sørensen-Dice similarity coefficients. In addition, a qualitative reader evaluation was performed by 4 radiologists across 30 cases. RESULTS: Mean percentage bias across the thoracic, abdominal, and whole-body regions was -0.05%, 3.51%, and 2.91% for muscle, -0.19%, -1.21%, and 0.71% for SAT, and -7.10%, -8.86%, and -6.30% for bone, respectively. Median absolute percentage error remained low for muscle (2.96% to 3.52%) and SAT (2.03% to 3.71%), whereas bone showed the highest relative error (5.93% to 8.26%). Tertile-based stratification agreement was high, particularly for the muscle-to-SAT ratio, with unchanged tertile assignment in 89.4% of thoracic, 93.6% of abdominal, and 95.7% of whole-body analyses (κ=0.92, 0.95, and 0.97, respectively). For the Sarcopenia Index, unchanged tertile assignment was 68.1%, 80.9%, and 87.2%, respectively (κ=0.76, 0.86, and 0.90). Segmentation overlap was high across the main compartments, with mean Sørensen-Dice coefficients of 0.90 for SAT, 0.87 for muscle, 0.94 for the abdominal cavity, and 0.91 for the thoracic cavity, whereas bone showed lower overlap (0.76). Qualitative evaluation showed positive ratings for both synthetic image utility and segmentation plausibility, with the synthetic T2 representation rated as providing added value over FWBL for coarse body composition assessment on a 5-point Likert scale, where 1 indicated strong disagreement, and 5 indicated strong agreement (mean: 4.52, median: 5). CONCLUSIONS: Combining FWBL MRI with CycleGAN-based image synthesis yielded BCA measurements that closely matched those from reference T2-HASTE images and largely preserved body composition stratification. These findings demonstrate the feasibility of deriving quantitative BCA information from routinely acquired WB-MRI localizer data and support further investigation of accelerated MRI-based BCA approaches using simplified acquisitions.",
+      "journal": "Invest Radiol",
+      "date": "2026-09-07",
+      "authors": [
+        "Bojahr C",
+        "Quinsten AS",
+        "Kohnke J",
+        "Wen Y",
+        "Li M",
+        "Warmer S",
+        "Straus J",
+        "Schmidt CS",
+        "Pollok OB",
+        "Holtkamp M",
+        "Salhöfer L",
+        "Eberts M",
+        "Umutlu L",
+        "Forsting M",
+        "Haubold J",
+        "Nensa F",
+        "Borys K",
+        "Hosch R"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1097/RLI.0000000000001307",
+      "journal_tier": 1,
+      "impact": 7.0,
+      "section": "toraks",
+      "score": 102.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 0,
+        "recency": 2.0
+      },
+      "tier": 2,
+      "abstract_tr": "HEDEFLER: Rutin olarak elde edilen hızlı tüm vücut lokalizatöründen (FWBL) T2-HASTE görüntülerinin CycleGAN tabanlı sentezinin, referans T2-HASTE görüntülerinden türetilenlerle karşılaştırılabilir ölçümler oluşturmak üzere yerleşik bir T2-HASTE tabanlı BCA boru hattı için yeterli bilgiyi koruyarak hızlandırılmış vücut kompozisyonu analizini (BCA) destekleyip destekleyemeyeceğini değerlendirmek. GEREÇ VE YÖNTEM: Bu retrospektif tek merkezli kavram kanıtlama çalışmasına Mart 2012 ile Aralık 2025 arasında FWBL ve T2-HASTE ile WB-MRI uygulanan 468 hasta (%53 kadın, ortalama yaş 51±18 yıl) dahil edildi ve bunların 431'i (%92) 2023'ten itibaren incelendi. Bir CycleGAN modeli, kayıtlı FWBL ve T2-HASTE görüntülerinden sentetik T2-HASTE görüntüleri oluşturmak üzere eğitildi. Tam otomatik MRI tabanlı BCA, sabit önceden eğitilmiş bir BCA modeli kullanılarak sentetik ve referans T2-HASTE görüntüleri üzerinde gerçekleştirildi; 5 temel segmentasyon bölmesine odaklanıldı: deri altı yağ dokusu (SAT), kas, karın boşluğu, göğüs boşluğu ve kemik; ardından torasik, karın ve tüm vücut bölgelerindeki SAT, kas ve kemiğin bölgeye özgü hacimsel analizleri. Türetilen BCA belirteçleri Sarcopenia İndeksini (kas-kemik oranı) ve kas-SAT oranını içeriyordu. Anlaşma, mutlak birimler halinde ve ortalama referans hacminin yüzdesi olarak ifade edilen ortalama sapma, medyan mutlak yüzde hatası, Pearson korelasyonu ve üçüncü sınıfa dayalı sınıflandırma için ağırlıklı Cohen kappa dahil olmak üzere Bland-Altman analizi kullanılarak değerlendirildi. Segmentasyon örtüşmesi Sørensen-Dice benzerlik katsayıları kullanılarak değerlendirildi. Ayrıca 30 vakada 4 radyolog tarafından niteliksel okuyucu değerlendirmesi yapıldı. BULGULAR: Torasik, abdominal ve tüm vücut bölgelerindeki ortalama sapma yüzdesi kas için sırasıyla -%0,05, %3,51 ve %2,91, SAT için -%0,19, %-1,21 ve %0,71 ve kemik için -%7,10, %-8,86 ve -%6,30 idi. Medyan mutlak yüzde hatası kas (%2,96 ila %3,52) ve SAT (%2,03 ila %3,71) için düşük kalırken, kemik en yüksek bağıl hatayı (%5,93 ila %8,26) gösterdi. Üçüncül bazlı sınıflandırma anlaşması, özellikle kas-SAT oranı için yüksekti; torasik analizlerin %89,4'ünde, abdominal analizlerin %93,6'sında ve tüm vücut analizlerinin %95,7'sinde değişmeyen üçüncül atamayla (sırasıyla κ=0,92, 0,95 ve 0,97). Sarcopenia Endeksi için değişmeyen üçüncül atama sırasıyla %68,1, %80,9 ve %87,2 idi (κ=0,76, 0,86 ve 0,90). Ana bölmelerde segmentasyon örtüşmesi yüksekti; SAT için ortalama Sørensen-Dice katsayıları 0,90, kas için 0,87, karın boşluğu için 0,94 ve göğüs boşluğu için 0,91 iken kemikte daha düşük örtüşme görüldü (0,76). Niteliksel değerlendirme, hem sentetik görüntü faydası hem de segmentasyon olasılığı açısından olumlu derecelendirmeler gösterdi; sentetik T2 temsili, 1'in güçlü anlaşmazlığı ve 5'in güçlü anlaşmayı gösterdiği (ortalama: 4,52, medyan: 5) 5 puanlık Likert ölçeğinde kaba vücut kompozisyonu değerlendirmesi için FWBL'ye göre katma değer sağladığı şeklinde derecelendirildi. SONUÇLAR: FWBL MRI'nın CycleGAN tabanlı görüntü sentezi ile birleştirilmesi, referans T2-HASTE görüntülerinden elde edilenlerle yakından eşleşen ve büyük ölçüde korunmuş vücut kompozisyonu sınıflandırmasına sahip BCA ölçümleri sağladı. Bu bulgular, rutin olarak elde edilen WB-MRI lokalizör verilerinden niceliksel BCA bilgilerinin türetilmesinin uygulanabilirliğini göstermekte ve basitleştirilmiş kazanımlar kullanılarak hızlandırılmış MRI tabanlı BCA yaklaşımlarının daha fazla araştırılmasını desteklemektedir."
     },
     {
       "pmid": "42684110",
@@ -1830,103 +1930,6 @@
       },
       "tier": 3,
       "abstract_tr": ""
-    },
-    {
-      "pmid": "42275243",
-      "title": "Distinguishing Malignant from Benign Causes of Breast Size Changes: A Case-based Primer for the Radiologist.",
-      "abstract": "Changes in breast size, whether enlargement or shrinkage, are a frequent clinical concern. Bilateral size changes are typically associated with benign conditions, while unilateral changes often raise concerns about malignancy, requiring prompt and accurate diagnosis to guide effective management. Through illustrative clinical scenarios, the authors provide a comprehensive review of the evaluation and management of breast size changes and address the spectrum of associated conditions. It is important for radiologists and clinicians to distinguish malignant from benign causes by integrating clinical history, physical examination, and imaging findings, all essential tools in the diagnostic process. Prior imaging, clinical context, and multimodality imaging are explored to provide a structured diagnostic approach. Radiologists are essential in identifying the underlying causes, directing appropriate care, and alleviating patient anxiety. The authors offer a practical framework to guide diagnostic decision making through the synthesis of clinical and imaging data.RSNA, 2026",
-      "journal": "Radiographics",
-      "date": "2026-07",
-      "authors": [
-        "Clark AI",
-        "Conley H",
-        "Owen WA",
-        "Wang X",
-        "George N",
-        "Maimone S",
-        "Letter HP",
-        "Shikoh FY",
-        "Szabunio M"
-      ],
-      "pubtypes": [
-        "Journal Article",
-        "Review"
-      ],
-      "doi": "10.1148/rg.250132",
-      "journal_tier": 1,
-      "score": 110.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": 10,
-        "recency": 0.0
-      },
-      "tier": 1,
-      "impact": 5.2,
-      "section": "nukleer"
-    },
-    {
-      "pmid": "42275241",
-      "title": "Factors Affecting Contrast Enhancement on CT Images.",
-      "abstract": "CT scans use iodinated contrast media (ICM) to increase enhancement of soft-tissue structures. Some techniques, such as CT angiography, accentuate specific anatomy. The chemical structure of ICM is rich in iodine. Because of iodine's high atomic number, use of ICM causes an increase in CT number and image contrast. Improper contrast enhancement is a leading motivator for both repeated CT examinations and those with limited or suboptimal diagnostic utility. Optimization of contrast agent administration is essential to avoid poor enhancement. Many interacting factors affect contrast enhancement and can be divided into three main categories: physics-based, patient-related, and contrast protocol-based factors. Physics-based factors include tube potential, beam hardening, and scan duration. Patient-related factors include blood volume and cardiac output. Contrast protocol-based factors include contrast agent volume, injection rate, iodine concentration, scan delay, and saline flush. These factors can be further stratified into scalar, temporal, and sampling factors. Scalar factors change the magnitude of enhancement by a fixed percentage independent of time (eg, changing tube potential or iodine concentration). Temporal factors modify the temporal dynamics of contrast enhancement (eg, changes in cardiac output or injection rate). Sampling factors affect how an ICM enhancement curve is sampled (eg, scan duration, scan delay). Understanding the available parameters and their impact on ICM enhancement equips the reader with tools to optimize contrast agent delivery and scanning protocols in CT.The Author(s) 2026. Published by the Radiological Society of North America under a CC BY 4.0 license.",
-      "journal": "Radiographics",
-      "date": "2026-07",
-      "authors": [
-        "Alyani Nezhad Z",
-        "Toia GV",
-        "Rose SD",
-        "Bladorn RM",
-        "Szczykutowicz TP"
-      ],
-      "pubtypes": [
-        "Journal Article",
-        "Review"
-      ],
-      "doi": "10.1148/rg.250192",
-      "journal_tier": 1,
-      "score": 110.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": 10,
-        "recency": 0.0
-      },
-      "tier": 1,
-      "impact": 5.2,
-      "section": "toraks"
-    },
-    {
-      "pmid": "42275240",
-      "title": "Anatomic Basis for Imaging Assessment of the Postsurgical Anterolateral Abdominal Wall.",
-      "abstract": "Postoperative evaluation of the abdominal wall requires an understanding of anatomy, surgical techniques, and potential complications. While many abdominal surgical procedures involve the wall as a conduit to intra-abdominal organs, targeted abdominal wall procedures such as hernia repairs, ostomy creation, aesthetic operations, and complex reconstructions present imaging challenges and possible complications. The authors provide a structured approach to postoperative abdominal wall imaging, integrating detailed anatomic knowledge with common surgical interventions. They address the relationship between surgical techniques and complication patterns, including mesh behavior, nerve-related muscle changes, and fascial disruptions. The expected postoperative appearance, stages of healing, and early and late complications of various procedures are highlighted, with dedicated sections on hernias, mesh repairs, ostomies, and aesthetic surgery. CT is usually the primary imaging modality, with US and MRI serving complementary roles when appropriate. By aligning imaging interpretation with surgical terminology and classifications, radiologists can improve diagnostic accuracy, ensure reporting consistency, and better support multidisciplinary decision making.RSNA, 2026",
-      "journal": "Radiographics",
-      "date": "2026-07",
-      "authors": [
-        "Montel DB",
-        "de Oliveira IRC",
-        "Orsi Salazar M",
-        "Fiorot VCR",
-        "Gontijo CEDS",
-        "Horvat N",
-        "Venâncio PCR",
-        "Barbosa MHF",
-        "Chaves FT",
-        "Pozzer GGN",
-        "Lewin F"
-      ],
-      "pubtypes": [
-        "Journal Article",
-        "Review"
-      ],
-      "doi": "10.1148/rg.250061",
-      "journal_tier": 1,
-      "score": 110.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": 10,
-        "recency": 0.0
-      },
-      "tier": 1,
-      "impact": 5.2,
-      "section": "girisim"
     }
   ]
 }
