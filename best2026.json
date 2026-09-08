@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-07T11:10:02+00:00",
+  "updated": "2026-09-08T10:20:39+00:00",
   "year": 2026,
   "count": 60,
   "criteria": "Etki faktörü (sonra etki skoru) sıralı",
@@ -722,6 +722,137 @@
       },
       "tier": 2,
       "abstract_tr": "Kök kanal tedavisi, pulpa enfeksiyonlarını tedavi etmek için yaygın bir diş prosedürüdür; ancak kök kanal anatomilerinin karmaşık değişkenliğinden kaynaklanan karmaşıklığı sıklıkla prosedür hatalarına, aşırı diş yapısı kaybına ve özellikle çok köklü dişlerde optimal olmayan sonuçlara neden olur. Kılavuzlu Endodonti hassasiyeti ve öngörülebilirliği arttırsa da, özel olmayan bir yazılım kullanarak manuel planlamaya dayanır, süreci emek yoğun, öznel ve tek köklü dişlerle sınırlı hale getirir, dolayısıyla daha geniş çapta benimsenmeyi sınırlar. Bu çalışmada, Kılavuzlu Endodonti için ameliyat öncesi planlamayı yalnızca konik ışınlı bilgisayarlı tomografi taramalarından kolaylaştıran, otomatik diş segmentasyonunu, endodontik dönüm noktası tespitini, erişim boşluğu tasarımını ve cerrahi şablon oluşturmayı sorunsuz bir şekilde entegre eden uyarlanabilir ve öncü bir çerçeve olan EndoPlanner'ı tanıtıyoruz. Spesifik olarak, kök kanalı yer işareti lokalizasyonu ve topoloji tanıma için birleşik bir aşağıdan yukarıya çok tepeli kodlama ve grafik tabanlı kod çözme paradigması öneriyoruz; bu paradigma, hedeflenen ısı haritası optimizasyonu için anatomiye duyarlı bir kayıp ve farklı kök kanal morfolojileri arasında genellemeyi desteklemek için kendi kendini denetleyen bir çıkarım zamanı iyileştirme stratejisi ile güçlendirilmiştir. Ek olarak, otomatik delme yolu planlaması için minimal düzeyde invaziv ilkeleri içeren, ayarlanabilir, geometri destekli bir algoritma tasarlanmıştır. Kapsamlı değerlendirmeler, yöntemimizin üstün performansını ve sağlamlığını onaylar; ortalama 0,767 mm MRE verir, SDR'ler 1,0 mm'lik sıkı güvenlik marjı dahilinde %74,9 ve yer işareti lokalizasyonu için daha geniş 2,0 mm tolerans dahilinde %94,3'tür ve erişim planlaması için klinik olarak kabul edilebilir standartlara ulaşır. 3D Dilimleyici uzantısı olarak konuşlandırıldığında, ameliyat öncesi hazırlığı ortalama ~4 dakikada tamamlayarak geleneksel iş akışlarına göre süreyi %96,05'e kadar azaltır. Dahası, başarılı in vitro deneyler ve klinik vakalar, etkili, tekrarlanabilir ve minimal invazif planlama şemalarımız tarafından kolaylaştırılan hastaya özel erişim çözümlerinin etkinliğini doğruluyor ve bunların özellikle daha az deneyimli pratisyenler arasında rutin uygulama potansiyelini vurguluyor."
+    },
+    {
+      "pmid": "42705146",
+      "title": "PromptMatch: Semi-supervised visual prompt tuning for medical image classification.",
+      "abstract": "Visual prompt tuning (VPT) efficiently adapts foundation models for medical image classification but remains dependent on large labeled datasets. To overcome this, we explore semi-supervised learning (SSL) for label-efficient VPT. In VPT, while the backbone is well-regularized by large-scale pre-training to exhibit stable representations, the newly introduced prompts are initialized from scratch and remain sensitive to perturbations. Motivated by this discrepancy, we propose PromptMatch, a framework that explicitly regularizes the prompt space. By adversarially perturbing prompts on unlabeled data, it enforces prediction consistency across prompt variations to stabilize the adaptation process. Furthermore, we introduce (1) a Deep Prompt Supervision (DPS) module that applies deep supervision to prompt embeddings, utilizing previously neglected intermediate prompt information for SSL; and (2) an Instance-Specific Prompt (ISP) module, which generates instance-specific prompts to capture the unique characteristics of individual samples, overcoming the limitations of shared prompts in VPT. We evaluate PromptMatch on three real-world medical image classification datasets. Our extensive experiments demonstrate that it surpasses other SSL counterparts which apply perturbations to features or samples. PromptMatch reduces the reliance on labeled data, matching fully supervised performance with only 2.86% of the labels. Code is available at https://github.com/fdu-farm/PromptMatch.",
+      "journal": "Med Image Anal",
+      "date": "2026-09-04",
+      "authors": [
+        "Xu J",
+        "Yang Q",
+        "Li W",
+        "Li Z",
+        "Guo Y",
+        "Wang Y"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.media.2026.104274",
+      "journal_tier": 1,
+      "impact": 10.7,
+      "section": "egitim",
+      "score": 100.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 2,
+      "abstract_tr": "Görsel istem ayarlama (VPT), ​​tıbbi görüntü sınıflandırması için temel modelleri verimli bir şekilde uyarlar ancak büyük etiketli veri kümelerine bağımlı kalır. Bunun üstesinden gelmek için, etiket açısından verimli VPT'ye yönelik yarı denetimli öğrenmeyi (SSL) araştırıyoruz. VPT'de omurga, kararlı temsiller sergilemek için büyük ölçekli ön eğitimle iyi bir şekilde düzenlenirken, yeni tanıtılan istemler sıfırdan başlatılır ve bozulmalara karşı duyarlı kalır. Bu tutarsızlıktan yola çıkarak, bilgi istemi alanını açıkça düzenleyen bir çerçeve olan PromptMatch'i öneriyoruz. Etiketlenmemiş verilerdeki istemleri olumsuz biçimde rahatsız ederek, adaptasyon sürecini istikrara kavuşturmak için bilgi istemi varyasyonları arasında tahmin tutarlılığını zorlar. Ayrıca, (1) SSL için önceden ihmal edilen ara bilgi istemi bilgilerini kullanarak bilgi istemi yerleştirmelerine derin denetim uygulayan bir Derin İstem Denetimi (DPS) modülünü tanıtıyoruz; ve (2) VPT'de paylaşılan istemlerin sınırlamalarının üstesinden gelerek, bireysel örneklerin benzersiz özelliklerini yakalamak için örneğe özgü istemler üreten bir Örneğe Özel İstem (ISP) modülü. PromptMatch'i üç gerçek dünya tıbbi görüntü sınıflandırma veri kümesinde değerlendiriyoruz. Kapsamlı deneylerimiz, özelliklere veya örneklere tedirginlik uygulayan diğer SSL muadillerini geride bıraktığını göstermektedir. PromptMatch, etiketli verilere olan bağımlılığı azaltır ve tamamen denetlenen performansı etiketlerin yalnızca %2,86'sıyla eşleştirir. Kod https://github.com/fdu-farm/PromptMatch adresinde mevcuttur."
+    },
+    {
+      "pmid": "42705145",
+      "title": "FuseMD-XNet: Uncertainty-aware multi-modality fusion network with multilevel visual explanations for skin cancer diagnosis.",
+      "abstract": "Skin cancer is a prevalent and potentially fatal disease that emphasizes the need for accurate and interpretable diagnostic tools to improve patient outcomes. Although DL has advanced automated skin lesion analysis, most models rely solely on dermoscopic images and neglect the complementary clinical metadata. In this study, we propose FuseMD-XNet, a multimodal transformer-based framework that integrates dermoscopic images with structured patient metadata. The model employs intermediate fusion through feature concatenation and cosine similarity alignment, followed by adaptive certainty-guided fusion to dynamically weigh the modality contributions based on confidence estimates. To ensure transparency, the FuseMD-XNet incorporates multilevel explainability using ShapleyCAM, FinerCAM, and SHAP methods. The efficacy of FuseMD-XNet was validated on the PAD-UFES-20 dataset, where it achieved an overall mean diagnostic accuracy of 94.4±0.8% and a mean AUC of 95.9±0.5% across all lesion classes. The highest class-specific performance was observed for basal cell carcinoma (BCC), with an accuracy of 98.4±0.4% and an AUC of 98.7±0.3%, whereas melanoma achieved an accuracy of 97.9±1.8% and an AUC of 98.2±0.5%. On the ISIC 2019 dataset, FuseMD-XNet demonstrated strong generalization performance with an overall mean accuracy of 93.0±0.8% and a mean AUC of 94.6±0.6%, whereas melanoma achieved a class-specific accuracy of 94.7±1.6% and an AUC of 96.3±1.1%. Additionally, an integrated risk stratification module enabled personalized assessments validated by feature importance analysis. These results demonstrate the potential of FuseMD-XNet to improve the classification accuracy and interpretability of skin cancer.",
+      "journal": "Med Image Anal",
+      "date": "2026-09-05",
+      "authors": [
+        "Kushanoor A",
+        "Sahay SK"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.media.2026.104289",
+      "journal_tier": 1,
+      "impact": 10.7,
+      "section": "genel",
+      "score": 100.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 2,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42705144",
+      "title": "Prognostic saliency-driven hypergraph neural network for survival prediction via vision foundation model.",
+      "abstract": "Precise survival prediction from Whole Slide Images (WSIs) is pivotal for precision oncology yet remains challenging due to the gigapixel resolution and label scarcity. Current approaches are often hindered by two fundamental limitations: the domain misalignment between natural-image-pretrained vision foundation models and histopathological data, and the lack of high-order correlations modeling among sparsely distributed prognostic regions. In this paper, we propose a dual-stage Prognostic Saliency-driven Hypergraph Neural Network (ProSH-Net) for WSI-based survival prediction. A parameter-efficient distillation-based domain-adaptive pre-training paradigm is proposed to fully leverage the representation capability of vision foundation models while ensuring sensitivity to fine-grained morphological patterns. Subsequently, a saliency-aware hypergraph neural network is proposed to orchestrate feature aggregation. Different from traditional graphs, our method constructs hyperedges guided by semantic prototypes and spatial priors, explicitly modeling multi-to-multi interactions among patches. By injecting patch-level saliency scores into the message-passing mechanism, ProSH-Net effectively enhances critical prognostic signals. Extensive experiments on public benchmarks demonstrate the superiority of our proposed method over state-of-the-art alternatives.",
+      "journal": "Med Image Anal",
+      "date": "2026-08-31",
+      "authors": [
+        "Li S",
+        "Shang H",
+        "Zhou J",
+        "Lei M",
+        "Zheng F",
+        "Wang J",
+        "Yang D",
+        "Bao W",
+        "Wang Y"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.media.2026.104286",
+      "journal_tier": 1,
+      "impact": 10.7,
+      "section": "toraks",
+      "score": 100.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 2,
+      "abstract_tr": "Tam Slayt Görüntülerinden (WSI'ler) kesin hayatta kalma tahmini, hassas onkoloji için çok önemlidir, ancak gigapiksel çözünürlüğü ve etiket kıtlığı nedeniyle zorlu olmaya devam etmektedir. Mevcut yaklaşımlar genellikle iki temel sınırlama nedeniyle engellenmektedir: doğal görüntü ile önceden eğitilmiş görüş temeli modelleri ile histopatolojik veriler arasındaki alan yanlış hizalaması ve seyrek olarak dağıtılmış prognostik bölgeler arasında yüksek dereceli korelasyon modellemesinin eksikliği. Bu yazıda, WSI tabanlı hayatta kalma tahmini için iki aşamalı Prognostik Belirginlik odaklı Hypergraph Sinir Ağı (ProSH-Net) öneriyoruz. İnce taneli morfolojik kalıplara duyarlılık sağlarken, görüş temeli modellerinin temsil yeteneğinden tam olarak yararlanmak için parametre açısından verimli bir damıtma tabanlı, alana uyarlanabilir bir ön eğitim paradigması önerilmiştir. Daha sonra, özellik toplamayı düzenlemek için belirginliğe duyarlı bir hipergraf sinir ağı önerildi. Geleneksel grafiklerden farklı olarak yöntemimiz, anlamsal prototipler ve uzamsal öncelikler tarafından yönlendirilen hiper kenarlar oluşturur ve yamalar arasındaki çokludan çokluya etkileşimleri açıkça modeller. ProSH-Net, yama düzeyinde belirginlik puanlarını mesaj aktarma mekanizmasına enjekte ederek, kritik prognostik sinyalleri etkili bir şekilde geliştirir. Kamuya açık kriterler üzerinde yapılan kapsamlı deneyler, önerdiğimiz yöntemin en son teknolojiye sahip alternatiflere göre üstünlüğünü göstermektedir."
+    },
+    {
+      "pmid": "42705143",
+      "title": "Generalized post-training quantization for medical image segmentation foundation model.",
+      "abstract": "Medical image segmentation foundation models (MedFMs) perform strongly across diverse imaging modalities, but their large size and computational demands hinder deployment in resource-limited clinical settings. Lightweight fine-tuning is impractical given the high training cost of MedFMs, and the efficiency benefits of integer inference remain underused. Post-training quantization (PTQ) is a promising alternative, yet existing PTQ methods fail on MedFMs because their heterogeneous weight distributions lead to severe accuracy degradation at low bit-widths. To address this challenge, we propose GPTQ-MedFM, a generalized post-training quantization framework tailored for medical foundation models. GPTQ-MedFM standardizes complex weight distributions under an ℓ∞-constrained normalization to produce quantization-friendly matrices, and then applies an efficient coordinate-descent solver to obtain high-fidelity low-bit representations. The method adds no extra computation or memory overhead at inference, enabling seamless deployment on medical edge devices. By explicitly modeling and mitigating quantization-induced errors, GPTQ-MedFM achieves state-of-the-art low-bit compression across six medical foundation models and nine imaging modalities - spanning nearly the full range of clinical imaging scenarios - and remains robust even with a single calibration sample. Its broad generalization and minimal calibration cost make GPTQ-MedFM a practical pathway for real-time AI-assisted diagnostics in resource-limited healthcare settings.",
+      "journal": "Med Image Anal",
+      "date": "2026-09-03",
+      "authors": [
+        "Huang P",
+        "Zhang A",
+        "Yin P",
+        "Chen Y",
+        "Guo H",
+        "Yang Z",
+        "Wang N",
+        "Peng B",
+        "Hu S",
+        "Peng J",
+        "Hu J",
+        "Li X",
+        "Pan S",
+        "Li X",
+        "Wu X",
+        "Prabhakaran B",
+        "Zhu H",
+        "Wang X"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.media.2026.104287",
+      "journal_tier": 1,
+      "impact": 10.7,
+      "section": "egitim",
+      "score": 100.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 2,
+      "abstract_tr": "Tıbbi görüntü segmentasyonu temel modelleri (MedFM'ler), çeşitli görüntüleme yöntemlerinde güçlü performans gösterir, ancak büyük boyutları ve hesaplama talepleri, kaynakların sınırlı olduğu klinik ortamlarda kullanıma engel olur. MedFM'lerin yüksek eğitim maliyeti göz önüne alındığında hafif ince ayar pratik değildir ve tamsayı çıkarımının verimlilik avantajları yeterince kullanılmamaktadır. Eğitim sonrası kuantizasyon (PTQ) umut verici bir alternatiftir, ancak mevcut PTQ yöntemleri MedFM'lerde başarısız olur çünkü heterojen ağırlık dağılımları düşük bit genişliklerinde ciddi doğruluk bozulmasına yol açar. Bu zorluğun üstesinden gelmek için, tıbbi temel modeller için özel olarak tasarlanmış genelleştirilmiş bir eğitim sonrası niceleme çerçevesi olan GPTQ-MedFM'yi öneriyoruz. GPTQ-MedFM, nicemleme dostu matrisler üretmek için karmaşık ağırlık dağılımlarını ℓ∞ kısıtlı normalizasyon altında standartlaştırır ve ardından yüksek doğrulukta düşük bitli gösterimler elde etmek için verimli bir koordinat iniş çözücü uygular. Yöntem, çıkarımda fazladan hesaplama veya bellek yükü eklemez ve tıbbi uç cihazlarda sorunsuz dağıtım sağlar. GPTQ-MedFM, niceleme kaynaklı hataları açık bir şekilde modelleyerek ve azaltarak, altı tıbbi temel model ve dokuz görüntüleme yönteminde (klinik görüntüleme senaryolarının neredeyse tümünü kapsayan) son teknoloji ürünü düşük bit sıkıştırmayı elde eder ve tek bir kalibrasyon örneğiyle bile sağlam kalır. Geniş genelleme ve minimum kalibrasyon maliyeti, GPTQ-MedFM'i kaynakların sınırlı olduğu sağlık hizmeti ortamlarında gerçek zamanlı yapay zeka destekli teşhis için pratik bir yol haline getiriyor."
     },
     {
       "pmid": "42678842",
@@ -1767,14 +1898,14 @@
       "journal_tier": 1,
       "impact": 7.0,
       "section": "toraks",
-      "score": 102.0,
+      "score": 100.0,
       "score_parts": {
         "journal": 100,
         "pubtype": 0,
-        "recency": 2.0
+        "recency": 0.0
       },
       "tier": 2,
-      "abstract_tr": "HEDEFLER: Rutin olarak elde edilen hızlı tüm vücut lokalizatöründen (FWBL) T2-HASTE görüntülerinin CycleGAN tabanlı sentezinin, referans T2-HASTE görüntülerinden türetilenlerle karşılaştırılabilir ölçümler oluşturmak üzere yerleşik bir T2-HASTE tabanlı BCA boru hattı için yeterli bilgiyi koruyarak hızlandırılmış vücut kompozisyonu analizini (BCA) destekleyip destekleyemeyeceğini değerlendirmek. GEREÇ VE YÖNTEM: Bu retrospektif tek merkezli kavram kanıtlama çalışmasına Mart 2012 ile Aralık 2025 arasında FWBL ve T2-HASTE ile WB-MRI uygulanan 468 hasta (%53 kadın, ortalama yaş 51±18 yıl) dahil edildi ve bunların 431'i (%92) 2023'ten itibaren incelendi. Bir CycleGAN modeli, kayıtlı FWBL ve T2-HASTE görüntülerinden sentetik T2-HASTE görüntüleri oluşturmak üzere eğitildi. Tam otomatik MRI tabanlı BCA, sabit önceden eğitilmiş bir BCA modeli kullanılarak sentetik ve referans T2-HASTE görüntüleri üzerinde gerçekleştirildi; 5 temel segmentasyon bölmesine odaklanıldı: deri altı yağ dokusu (SAT), kas, karın boşluğu, göğüs boşluğu ve kemik; ardından torasik, karın ve tüm vücut bölgelerindeki SAT, kas ve kemiğin bölgeye özgü hacimsel analizleri. Türetilen BCA belirteçleri Sarcopenia İndeksini (kas-kemik oranı) ve kas-SAT oranını içeriyordu. Anlaşma, mutlak birimler halinde ve ortalama referans hacminin yüzdesi olarak ifade edilen ortalama sapma, medyan mutlak yüzde hatası, Pearson korelasyonu ve üçüncü sınıfa dayalı sınıflandırma için ağırlıklı Cohen kappa dahil olmak üzere Bland-Altman analizi kullanılarak değerlendirildi. Segmentasyon örtüşmesi Sørensen-Dice benzerlik katsayıları kullanılarak değerlendirildi. Ayrıca 30 vakada 4 radyolog tarafından niteliksel okuyucu değerlendirmesi yapıldı. BULGULAR: Torasik, abdominal ve tüm vücut bölgelerindeki ortalama sapma yüzdesi kas için sırasıyla -%0,05, %3,51 ve %2,91, SAT için -%0,19, %-1,21 ve %0,71 ve kemik için -%7,10, %-8,86 ve -%6,30 idi. Medyan mutlak yüzde hatası kas (%2,96 ila %3,52) ve SAT (%2,03 ila %3,71) için düşük kalırken, kemik en yüksek bağıl hatayı (%5,93 ila %8,26) gösterdi. Üçüncül bazlı sınıflandırma anlaşması, özellikle kas-SAT oranı için yüksekti; torasik analizlerin %89,4'ünde, abdominal analizlerin %93,6'sında ve tüm vücut analizlerinin %95,7'sinde değişmeyen üçüncül atamayla (sırasıyla κ=0,92, 0,95 ve 0,97). Sarcopenia Endeksi için değişmeyen üçüncül atama sırasıyla %68,1, %80,9 ve %87,2 idi (κ=0,76, 0,86 ve 0,90). Ana bölmelerde segmentasyon örtüşmesi yüksekti; SAT için ortalama Sørensen-Dice katsayıları 0,90, kas için 0,87, karın boşluğu için 0,94 ve göğüs boşluğu için 0,91 iken kemikte daha düşük örtüşme görüldü (0,76). Niteliksel değerlendirme, hem sentetik görüntü faydası hem de segmentasyon olasılığı açısından olumlu derecelendirmeler gösterdi; sentetik T2 temsili, 1'in güçlü anlaşmazlığı ve 5'in güçlü anlaşmayı gösterdiği (ortalama: 4,52, medyan: 5) 5 puanlık Likert ölçeğinde kaba vücut kompozisyonu değerlendirmesi için FWBL'ye göre katma değer sağladığı şeklinde derecelendirildi. SONUÇLAR: FWBL MRI'nın CycleGAN tabanlı görüntü sentezi ile birleştirilmesi, referans T2-HASTE görüntülerinden elde edilenlerle yakından eşleşen ve büyük ölçüde korunmuş vücut kompozisyonu sınıflandırmasına sahip BCA ölçümleri sağladı. Bu bulgular, rutin olarak elde edilen WB-MRI lokalizör verilerinden niceliksel BCA bilgilerinin türetilmesinin uygulanabilirliğini göstermekte ve basitleştirilmiş kazanımlar kullanılarak hızlandırılmış MRI tabanlı BCA yaklaşımlarının daha fazla araştırılmasını desteklemektedir."
+      "abstract_tr": ""
     },
     {
       "pmid": "42684110",
@@ -1809,127 +1940,6 @@
       },
       "tier": 2,
       "abstract_tr": "AMAÇLAR: Bu çalışmanın amacı (1) geleneksel tek çekim eko-düzlemsel görüntüleme (EPI) ile karşılaştırıldığında brakiyal pleksus (BP) difüzyon tensör görüntüleme (DTI) görüntü kalitesi ve kantitatif ölçümler üzerinde derin öğrenme (DL) rekonstrüksiyonunun farklı etkisini ölçmek, (2) zorlu KB anatomisinde eşzamanlı çok kesitli (SMS) hızlandırmayı DL DTI ile entegre etmenin klinik faydasını ve sınırlamalarını açıklığa kavuşturmak ve (3) optimal, Güçlü KB traktografisi için zaman tasarrufu sağlayan DTI protokolü. GEREÇ VE YÖNTEM: Yirmi yedi sağlıklı gönüllü prospektif olarak çalışmaya alındı ​​(evre 1: n = 14; evre 2: n = 13). Tüm DTI alımlarında tek çekimli bir EPI dizisi kullanıldı. İlk aşamada DL rekonstrüksiyonlu DTI, geleneksel DL olmayan DTI ile karşılaştırıldı. İkinci aşamada, SMS hızlandırmanın DL DTI protokollerine entegrasyonu 5 protokol seti üzerinden değerlendirildi. BP postganglionik sinir köklerinde ve omurilikte fiber yolu sayısı, kanal uzunluğu, kanal bazlı DTI ölçümleri, sinyal-gürültü oranı (SNR), kontrast-gürültü oranı (CNR), görüntü tutarlılığı ve okuyucular arası uyum değerlendirildi. SONUÇLAR: İlk aşamada, DL DTI, KB'de önemli ölçüde daha yüksek traktografi başarı oranları, lif sayıları ve lif uzunlukları gösterdi (P < 0.05). DL, Zar benzerliği katsayısının (DSC) 0,537'den 0,740'a (P = 0,006) yükselmesiyle okuyucular arası uyumu ve görüntü tutarlılığını önemli ölçüde iyileştirdi. DL rekonstrüksiyonu, anatomiye özgü fraksiyonel anizotropide değişikliklerle sonuçlandı; BP fraksiyonel anizotropisinde önemli bir azalma, ancak omurilik fraksiyonel anizotropisinde bir artış oldu. İkinci aşamada, SMS ile entegre protokoller, SMS olmayan DL protokolleriyle karşılaştırıldığında önemli ölçüde daha düşük traktografi başarısı üretti ve görüntü kalitesini düşürdü (P < 0.05). SMS entegrasyonu daha düşük SNR ve CNR (P < 0,05) ve görüntü tutarlılığının azalmasıyla sonuçlandı (DSC 0,727'den 0,486'ya düştü, P = 0,015). DL12-2 protokolü (12 difüzyon yönü ve iki b800 edinimi), zaman açısından verimli en uygun çözüm olarak tanımlandı. SONUÇLAR: DL rekonstrüksiyonu, BP DTI'nin fizibilitesini ve güvenilirliğini önemli ölçüde artırır ve niceliksel ölçümleri anatomiye özgü bir şekilde etkiler. Buna karşılık, SMS hızlandırmanın tek seferlik EPI ile entegrasyonu, yüksek duyarlılığa sahip BP bölgesinde teknik olarak zorlu olmaya devam ediyor. Bulgularımız, DL ile geliştirilmiş DTI'nin başarılı klinik entegrasyonu için anatomiye özgü optimizasyonun gerekli olduğunun altını çiziyor."
-    },
-    {
-      "pmid": "42667839",
-      "title": "Enhancing semi-supervised skin lesion segmentation with text-guided pseudo descriptions.",
-      "abstract": "Accurate segmentation of skin lesions in dermoscopy images remains challenging due to the scarcity of densely annotated medical images, as manual pixel-level annotation demands significant expert effort. Conversely, textual descriptions are more readily obtainable and can potentially provide rich semantic context for improving segmentation models. In this paper, we propose a novel framework leveraging text-guided pseudo descriptions to enhance semi-supervised skin lesion segmentation. Our approach capitalizes on the emerging capabilities of vision large-language models to generate approximate textual descriptions of unlabeled dermoscopy images, which, despite being noisy, contain valuable semantic information. We also introduce a novel image-text feature fusion mechanism that effectively integrates visual features with textual semantic. To handle the inherent high noise levels in dermoscopy images, we develop a specialized data augmentation strategy specifically designed for skin lesion characteristics. Experimental results on public benchmark datasets demonstrate that our text-guided approach significantly improves segmentation performance compared to traditional semi-supervised methods, particularly in low-annotation settings. Moreover, the textual descriptions provide interpretable insights into the segmentation process, offering clinically relevant context beyond pixel-level predictions. From a long-term perspective, our work suggests that combining minimal image annotations with more easily obtained textual descriptions presents a more efficient and effective approach to medical image segmentation. To facilitate future research, we release the ISIC-GPT dataset, a novel text-image paired dataset based on ISIC 2017 and 2018 challenges.",
-      "journal": "Comput Med Imaging Graph",
-      "date": "2026-08-20",
-      "authors": [
-        "Jiang Y",
-        "Li Y",
-        "Jin Y",
-        "Sun T",
-        "Chen P",
-        "Su J",
-        "Yang L",
-        "Zhang Z"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1016/j.compmedimag.2026.102811",
-      "journal_tier": 3,
-      "impact": 5.4,
-      "section": "genel",
-      "score": 35.0,
-      "score_parts": {
-        "journal": 35,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": "Dermoskopi görüntülerinde cilt lezyonlarının doğru şekilde segmentasyonu, yoğun şekilde açıklamalı tıbbi görüntülerin azlığı nedeniyle zorlu olmayı sürdürüyor; çünkü manuel piksel düzeyinde açıklama, önemli ölçüde uzman çabası gerektiriyor. Tersine, metinsel açıklamalar daha kolay elde edilebilir ve bölümleme modellerinin geliştirilmesi için potansiyel olarak zengin anlamsal bağlam sağlayabilir. Bu yazıda, yarı denetimli cilt lezyonu segmentasyonunu geliştirmek için metin kılavuzlu sözde açıklamalardan yararlanan yeni bir çerçeve öneriyoruz. Yaklaşımımız, gürültülü olmasına rağmen değerli anlamsal bilgiler içeren etiketlenmemiş dermoskopi görüntülerinin yaklaşık metinsel açıklamalarını oluşturmak için geniş dilli görme modellerinin ortaya çıkan yeteneklerinden yararlanır. Ayrıca görsel özellikleri metin semantiğiyle etkili bir şekilde bütünleştiren yeni bir görüntü-metin özelliği birleştirme mekanizması da sunuyoruz. Dermoskopi görüntülerindeki doğal yüksek gürültü seviyelerinin üstesinden gelmek için özellikle cilt lezyonu özelliklerine göre tasarlanmış özel bir veri artırma stratejisi geliştiriyoruz. Herkese açık kıyaslama veri kümeleri üzerindeki deneysel sonuçlar, metin kılavuzlu yaklaşımımızın, özellikle düşük açıklama ayarlarında, geleneksel yarı denetimli yöntemlere kıyasla bölümleme performansını önemli ölçüde artırdığını göstermektedir. Üstelik metinsel açıklamalar, segmentasyon sürecine ilişkin yorumlanabilir bilgiler sağlayarak, piksel düzeyindeki tahminlerin ötesinde klinik açıdan anlamlı bağlam sunar. Uzun vadeli bir perspektiften bakıldığında çalışmamız, minimum görüntü açıklamalarını daha kolay elde edilen metinsel açıklamalarla birleştirmenin, tıbbi görüntü bölümlendirmesine daha verimli ve etkili bir yaklaşım sunduğunu öne sürüyor. Gelecekteki araştırmaları kolaylaştırmak için, ISIC 2017 ve 2018 zorluklarını temel alan yeni bir metin-görüntü eşleştirilmiş veri kümesi olan ISIC-GPT veri kümesini yayınlıyoruz."
-    },
-    {
-      "pmid": "42679753",
-      "title": "3D-FuseNet: An innovative multimodal fusion network for enhancing survival prediction.",
-      "abstract": "Predicting the survival time of brain tumor patients remains a critical challenge in the medical prognosis. Existing methods often struggle to integrate heterogeneous data types, such as imaging and clinical records. This paper proposes a novel approach, the Three-Dimensional Feature Fusion Network (3D-FuseNet), designed to address these limitations by integrating high-dimensional imaging features with clinical variables through a late fusion strategy. 3D-FuseNet leverages artificial intelligence (AI) models to automatically extract features from 3D of four MRI sequence images and fuses them with key clinical variables to fully exploit their complementary nature. The network was evaluated using 10 widely-used optimizers and 5 machine learning (ML) methods to assess its performance comprehensively. In the best-case scenario, 3D-FuseNet achieved a mean absolute error (MAE) that is 4% lower than the best baseline model. Furthermore, it reduced the MAE by 2.7% compared to the lowest MAE obtained using individual models such as ResNet50, Unet3D encoder, and Vision Transformer. By effectively integrating multimodal data sources, 3D-FuseNet has demonstrated competitive performance in predicting survival in brain tumor patients, achieving moderate yet consistent improvements over the evaluated baseline. The proposed method outperforms existing architectures and is publicly available at: https://github.com/AIPMLab/3D-FuseNet.",
-      "journal": "Comput Med Imaging Graph",
-      "date": "2026-08-29",
-      "authors": [
-        "Chaddad A",
-        "Feng J",
-        "Daqqaq T",
-        "Katib Y",
-        "Jiang L"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1016/j.compmedimag.2026.102808",
-      "journal_tier": 3,
-      "impact": 5.4,
-      "section": "girisim",
-      "score": 35.0,
-      "score_parts": {
-        "journal": 35,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": "Beyin tümörü hastalarının hayatta kalma süresinin tahmin edilmesi, tıbbi prognozda kritik bir zorluk olmaya devam etmektedir. Mevcut yöntemler genellikle görüntüleme ve klinik kayıtlar gibi heterojen veri türlerini entegre etmekte zorlanır. Bu makale, yüksek boyutlu görüntüleme özelliklerini geç füzyon stratejisi yoluyla klinik değişkenlerle entegre ederek bu sınırlamaları gidermek için tasarlanan Üç Boyutlu Özellik Füzyon Ağı (3D-FuseNet) adlı yeni bir yaklaşım önermektedir. 3D-FuseNet, dört MRI sekans görüntüsünün 3D'sinden özellikleri otomatik olarak çıkarmak için yapay zeka (AI) modellerinden yararlanır ve tamamlayıcı doğalarından tam anlamıyla yararlanmak için bunları temel klinik değişkenlerle birleştirir. Ağ, performansını kapsamlı bir şekilde değerlendirmek için yaygın olarak kullanılan 10 optimize edici ve 5 makine öğrenimi (ML) yöntemi kullanılarak değerlendirildi. En iyi senaryoda 3D-FuseNet, en iyi temel modelden %4 daha düşük bir ortalama mutlak hataya (MAE) ulaştı. Ayrıca ResNet50, Unet3D kodlayıcı ve Vision Transformer gibi bireysel modeller kullanılarak elde edilen en düşük MAE ile karşılaştırıldığında MAE'yi %2,7 oranında azalttı. 3D-FuseNet, çok modlu veri kaynaklarını etkili bir şekilde entegre ederek, beyin tümörü hastalarında sağkalımı tahmin etmede rekabetçi bir performans sergileyerek, değerlendirilen taban çizgisine göre orta ancak tutarlı iyileştirmeler elde etti. Önerilen yöntem mevcut mimarilerden daha iyi performans gösteriyor ve şu adreste kamuya açık: https://github.com/AIPMLab/3D-FuseNet."
-    },
-    {
-      "pmid": "42691874",
-      "title": "TeF-SAM: Prototype memory for medical lesion segmentation with text-free inference.",
-      "abstract": "Medical lesion segmentation often depends on large, high-quality pixel-level annotations, which are costly to obtain because they require expert delineation. Recent multimodal methods use clinical text to improve visual representation learning, but they usually require paired image-report data during training and text input during inference. This dependency limits their use when paired reports are scarce or when segmentation is performed before report generation. To address this limitation, we propose TeF-SAM, a Segment Anything Model (SAM)-based framework for limited-text training and text-free medical lesion segmentation. TeF-SAM builds a Persistent Region-Informed Semantic Memory (PRISM) from the paired reports available during training. PRISM distils segmentation-relevant textual knowledge into a region-aware prototype space, allowing image features to retrieve semantic cues at inference without online text input. We further introduce Prototype-Driven Regional Lesion Detection (PRLD), which combines prototype-level semantic responses with multi-scale visual features to generate SAM-compatible prompts, including coarse masks, points, and semantic embeddings. We evaluate TeF-SAM on three lesion segmentation benchmarks spanning different anatomies and imaging modalities: QaTa-COV19, MosMedData+, and BUSI. Experimental results show that TeF-SAM achieves competitive segmentation performance using only 1%-15% of the available paired reports and requires no text input during inference. Our code will be released at: https://github.com/Jinxinya2/TeF-SAM.",
-      "journal": "Comput Med Imaging Graph",
-      "date": "2026-08-31",
-      "authors": [
-        "Liang J",
-        "Liu X",
-        "Zang Z",
-        "Wang X",
-        "Qi Y",
-        "Li X"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1016/j.compmedimag.2026.102816",
-      "journal_tier": 3,
-      "impact": 5.4,
-      "section": "girisim",
-      "score": 35.0,
-      "score_parts": {
-        "journal": 35,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": "Tıbbi lezyon segmentasyonu genellikle büyük, yüksek kaliteli piksel düzeyindeki açıklamalara dayanır ve bunların elde edilmesi, uzman tanımlaması gerektirdiğinden maliyetlidir. Son zamanlardaki çok modlu yöntemler, görsel temsil öğrenimini geliştirmek için klinik metni kullanır, ancak genellikle eğitim sırasında eşleştirilmiş görüntü-rapor verilerine ve çıkarım sırasında metin girişine ihtiyaç duyarlar. Bu bağımlılık, eşleştirilmiş raporlar az olduğunda veya rapor oluşturulmadan önce segmentasyon yapıldığında bunların kullanımını sınırlar. Bu sınırlamayı gidermek için, sınırlı metin eğitimi ve metinsiz tıbbi lezyon segmentasyonu için Her Şeyi Segment Modeli (SAM) tabanlı bir çerçeve olan TeF-SAM'i öneriyoruz. TeF-SAM, eğitim sırasında mevcut olan eşleştirilmiş raporlardan Kalıcı Bölge Bilgili Anlamsal Bellek (PRISM) oluşturur. PRISM, segmentasyonla ilgili metin bilgisini bölgeye duyarlı bir prototip alanına damıtarak görüntü özelliklerinin çevrimiçi metin girişi olmadan çıkarım sırasında anlamsal ipuçları almasına olanak tanır. Ayrıca, kaba maskeler, noktalar ve anlamsal yerleştirmeler de dahil olmak üzere SAM uyumlu istemler oluşturmak için prototip düzeyinde anlamsal yanıtları çok ölçekli görsel özelliklerle birleştiren Prototip Güdümlü Bölgesel Lezyon Tespiti'ni (PRLD) tanıtıyoruz. TeF-SAM'i farklı anatomileri ve görüntüleme yöntemlerini kapsayan üç lezyon segmentasyon kriterine göre değerlendiriyoruz: QaTa-COV19, MosMedData+ ve BUSI. Deneysel sonuçlar, TeF-SAM'in mevcut eşleştirilmiş raporların yalnızca %1 ila %15'ini kullanarak rekabetçi segmentasyon performansı elde ettiğini ve çıkarım sırasında herhangi bir metin girişi gerektirmediğini göstermektedir. Kodumuz şu adreste yayınlanacaktır: https://github.com/Jinxinya2/TeF-SAM."
-    },
-    {
-      "pmid": "42696831",
-      "title": "Adaptive auxiliary task learning for medical image segmentation under scarce training data.",
-      "abstract": "Medical image segmentation often suffers from scarce training data, which limits the performance of deep learning models. Auxiliary task learning offers a promising solution by exploiting complementary supervision signals constructed solely from existing data. However, auxiliary tasks may introduce complex learning signals, and naive integration of multiple tasks often leads to limited performance gains while drastically increasing computational cost. This study presents an adaptive auxiliary task learning method to improve medical image segmentation under scarce training data. The method introduces an adaptive knowledge transfer mechanism that aggregates multi-step model updates from different tasks and model components using learnable weights, enabling more expressive knowledge transfer than prior approaches. To improve training efficiency, a task selection strategy is developed to dynamically select a small subset of beneficial tasks for each training phase. By reusing intermediate computations, it enables the evaluation of task combinations with little overhead. The proposed method is implemented using eight auxiliary tasks with diverse properties. Experiments on five public datasets demonstrate consistent improvements over existing methods, surpassing the best competing approaches by 1.47%, 0.91%, 0.46%, 0.35%, and 2.44% in Dice score. Code is available at: https://github.com/BinyanHu/AdaAuxMedSeg.",
-      "journal": "Comput Med Imaging Graph",
-      "date": "2026-08-25",
-      "authors": [
-        "Hu B",
-        "Zhang Y",
-        "Sun Y",
-        "Jackson P",
-        "Hofman MS",
-        "Chai R"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1016/j.compmedimag.2026.102814",
-      "journal_tier": 3,
-      "impact": 5.4,
-      "section": "girisim",
-      "score": 35.0,
-      "score_parts": {
-        "journal": 35,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
     }
   ]
 }
