@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-09T10:29:31+00:00",
+  "updated": "2026-09-10T10:19:56+00:00",
   "year": 2026,
   "count": 60,
   "criteria": "Etki faktörü (sonra etki skoru) sıralı",
@@ -1297,6 +1297,114 @@
       "abstract_tr": "Fonksiyonel manyetik rezonans görüntüleme (fMRI), beyin fonksiyonunun invaziv olmayan bir şekilde araştırılmasına olanak tanırken, insan ve insan dışı faktörlerden kaynaklanan kısa klinik tarama süreleri genellikle nörogörüntüleme araştırmaları için veri kalitesinin azalmasına ve sınırlı istatistiksel güce yol açar. Bu yazıda, bilgilendirici fMRI zaman serilerini ek veri edinimi olmadan genişletmek için özellikle tüm beyin fMRI zaman serisi tahmini için tasarlanmış yeni bir uzay-zamansal tahmin çerçevesi olan BrainCast'i öneriyoruz. FMRI zaman serisi tahminini çok değişkenli bir zaman serisi tahmin görevi olarak formüle eder ve ilgi alanları (ROI'ler) içindeki zamansal dinamikleri ve ROI'ler arasındaki mekansal etkileşimleri ortaklaşa modeller. Spesifik olarak, BrainCast, her ROI zaman serisini bir belirteç olarak gömerek yatırım getirileri arası bağımlılıkları karakterize etmek için bir Uzamsal Etkileşim Farkındalığı modülünü, yatırım getirisi düzeyinde fMRI zaman serisinin hem düşük hem de yüksek enerjili zamansal bileşenlerini geliştirerek her bir ROI içindeki içsel sinir dinamiklerini yakalamak için bir Zamansal Özellik İyileştirme modülünü ve bilgilendirici tam beyin özellikleri üretmek için uzamsal ve zamansal temsilleri birleştirmek için bir Uzay-zamansal Desen Hizalama modülünü entegre eder. Human Connectome Projesi'nin dinlenme durumu ve görev fMRI veri kümeleri üzerindeki deneysel sonuçlar, BrainCast'in son teknoloji ürünü zaman serisi tahmin temel çizgilerine göre üstünlüğünü göstermektedir. Dahası, BrainCast tarafından genişletilen fMRI zaman serisi, aşağı yönlü bilişsel yetenek tahminini geliştirerek, sınırlı tarama sürelerine sahip senaryolarda tüm beyin fMRI zaman serisi tahmininin getirdiği klinik ve sinirbilimsel etkiyi vurgulamaktadır."
     },
     {
+      "pmid": "42715718",
+      "title": "Federated Learning for surgical vision in appendicitis classification: Results of the FedSurg EndoVis 2024 challenge.",
+      "abstract": "Developing generalizable surgical AI requires multi-institutional data, yet privacy constraints preclude direct data sharing, making Federated Learning (FL) a natural candidate. Its application to complex, spatiotemporal surgical video remains largely unbenchmarked. We present the FedSurg Challenge, the first international initiative dedicated to FL in surgical vision, as a proof-of-concept evaluation using a multi-center dataset of laparoscopic appendectomies (preliminary subset of Appendix300). Three participant submissions were evaluated on generalization to an unseen clinical center and center-specific local adaptation, alongside centralized, Swarm Learning and parameter-efficient fine-tuning baselines, and constant and chance-level reference classifiers. Our analysis identifies temporal modeling as the architectural factor most consistently associated with generalization to the unseen center, although the effect is not uniform across metrics in the controlled baseline comparison, and both parameter-efficient baselines remain more costly than a constant predictor under the ordinal metric. Classifier collapse arises both from failure of the global model to transfer under domain shift and from unconstrained fine-tuning on small, imbalanced local datasets, motivating structured personalized FL with parameter-efficient fine-tuning for center-specific adaptation. Absolute performance remains far from clinical viability: even with all data pooled centrally the task reached 26.31% F1-score on the unseen center, and no clinically acceptable threshold for intraoperative appendicitis grading has been established. Paired permutation tests over the test cases resolve only large differences, and no adaptation comparison reaches significance at this sample size. By characterizing these limitations, and the limits of what the evaluation can resolve at this scale, this work establishes a methodological reference point for privacy-preserving surgical video AI.",
+      "journal": "Med Image Anal",
+      "date": "2026-09-07",
+      "authors": [
+        "Kirchner M",
+        "Hoffmann H",
+        "Jenke AC",
+        "Saldanha OL",
+        "Pfeiffer K",
+        "Kanjo W",
+        "Alekseenko J",
+        "de Boer C",
+        "Kolamuri SR",
+        "Mazza L",
+        "Padoy N",
+        "Bano S",
+        "Reinke A",
+        "Maier-Hein L",
+        "Stoyanov D",
+        "Kather JN",
+        "Kolbinger FR",
+        "Bodenstedt S",
+        "Speidel S"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.media.2026.104290",
+      "journal_tier": 1,
+      "impact": 10.7,
+      "section": "girisim",
+      "score": 100.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 2,
+      "abstract_tr": "Genelleştirilebilir cerrahi yapay zeka geliştirmek, çok kurumsal verileri gerektirir, ancak gizlilik kısıtlamaları doğrudan veri paylaşımını engelleyerek Birleşik Öğrenmeyi (FL) doğal bir aday haline getirir. Karmaşık, uzaysal-zamansal cerrahi videoya uygulanması büyük ölçüde kıyaslanamamıştır. Cerrahi görüşte FL'ye adanmış ilk uluslararası girişim olan FedSurg Challenge'ı, laparoskopik apendektomilere ilişkin çok merkezli bir veri kümesini (Ek 300'ün ön alt kümesi) kullanan bir kavram kanıtı değerlendirmesi olarak sunuyoruz. Üç katılımcı gönderimi, merkezileştirilmiş, Sürü Öğrenimi ve parametre açısından verimli ince ayar taban çizgileri ve sabit ve şans düzeyinde referans sınıflandırıcıların yanı sıra, görünmeyen bir klinik merkeze genelleme ve merkeze özgü yerel adaptasyon açısından değerlendirildi. Analizimiz, zamansal modellemeyi, görünmeyen merkeze yönelik genellemeyle en tutarlı şekilde ilişkilendirilen mimari faktör olarak tanımlar; ancak etki, kontrollü temel karşılaştırmada metrikler arasında tekdüze değildir ve her iki parametre açısından verimli temel çizgi, sıralı metrik altında sabit bir tahminciden daha maliyetli olmaya devam eder. Sınıflandırıcının çöküşü, hem küresel modelin etki alanı kayması altında aktarımdaki başarısızlığından hem de küçük, dengesiz yerel veri kümeleri üzerinde kısıtlanmamış ince ayardan, merkeze özgü adaptasyon için parametre açısından verimli ince ayar ile yapılandırılmış kişiselleştirilmiş FL'yi motive etmekten kaynaklanır. Mutlak performans, klinik uygulanabilirlikten uzaktır: tüm veriler merkezi olarak toplanmış olsa bile, görev görünmeyen merkezde %26,31 F1 skoruna ulaşmıştır ve intraoperatif apandisit derecelendirmesi için klinik olarak kabul edilebilir bir eşik belirlenmemiştir. Test senaryoları üzerindeki eşleştirilmiş permütasyon testleri yalnızca büyük farklılıkları çözer ve bu örneklem boyutunda hiçbir adaptasyon karşılaştırması anlamlılığa ulaşmaz. Bu sınırlamaları ve değerlendirmenin bu ölçekte çözebileceği sınırları karakterize ederek bu çalışma, gizliliği koruyan cerrahi video yapay zeka için metodolojik bir referans noktası oluşturur."
+    },
+    {
+      "pmid": "42715717",
+      "title": "Lesion-aware visio-linguistic context regularization for radiology report generation.",
+      "abstract": "While Large Language Models (LLMs) have revolutionized image captioning, their direct application to radiology report generation (RRG) faces two key challenges: the semantic dilution of lesion features due to indiscriminate global image encoding, and the stylistic drift resulting from LLMs' lack of strict clinical constraints. In this paper, we propose a Lesion-Aware Visio-Linguistic Context (LAVIC) regularization architecture, which synergizes focal anatomical attention with report structural consistency. In the visual encoding phase, we first design an anatomy-prioritized feature amplification pipeline that leverages a chest mask as explicit visual context to amplify the signal-to-noise ratio of chest-specific regions, thereby guiding the encoder to prioritize lesion-relevant semantics over background artifacts. Subsequently, we devise an anatomy-prioritized feature enhancement module to refine the expressiveness of the extracted features by modeling the implicit contextual dependencies among them. In the linguistic decoding phase, we mitigate the domain gap using regularization through complementary linguistic contexts. By injecting retrieved entity-level terminologies and summary-level report templates, we establish structural guardrails that regularize the LLM to adhere to radiological conventions without the need for retraining. LAVIC demonstrates strong NLG performance across three benchmarks and consistent advantages on clinically oriented automatic metrics for MIMIC-CXR and CheXPlus. Code will be released.",
+      "journal": "Med Image Anal",
+      "date": "2026-09-07",
+      "authors": [
+        "Sun G",
+        "Tu Y",
+        "Zhu Y",
+        "Wan L",
+        "Jin Q",
+        "Ma J"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.media.2026.104302",
+      "journal_tier": 1,
+      "impact": 10.7,
+      "section": "girisim",
+      "score": 100.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 2,
+      "abstract_tr": "Büyük Dil Modelleri (LLM'ler) görüntü altyazısında devrim yaratmış olsa da, bunların radyoloji raporu oluşturmaya (RRG) doğrudan uygulanması iki temel zorlukla karşı karşıyadır: ayrım gözetmeyen küresel görüntü kodlaması nedeniyle lezyon özelliklerinin semantik seyreltilmesi ve LLM'lerin katı klinik kısıtlamaların bulunmamasından kaynaklanan stilistik sapma. Bu yazıda, odak anatomik dikkati raporun yapısal tutarlılığıyla sinerjilendiren Lezyona Duyarlı Görsel-Dilsel Bağlam (LAVIC) düzenleme mimarisi öneriyoruz. Görsel kodlama aşamasında, öncelikle göğse özgü bölgelerin sinyal-gürültü oranını yükseltmek için bir göğüs maskesini açık görsel bağlam olarak kullanan anatomi öncelikli bir özellik amplifikasyon hattı tasarlıyoruz, böylece kodlayıcıya arka plandaki artefaktlar yerine lezyonla ilgili semantiği önceliklendirmesi konusunda rehberlik ediyoruz. Daha sonra, aralarındaki örtülü bağlamsal bağımlılıkları modelleyerek çıkarılan özelliklerin ifade edilebilirliğini iyileştirmek için anatomi öncelikli bir özellik geliştirme modülü tasarlıyoruz. Dilsel kod çözme aşamasında, tamamlayıcı dilsel bağlamlar yoluyla düzenlemeyi kullanarak alan boşluğunu azaltıyoruz. Alınan varlık düzeyindeki terminolojileri ve özet düzeyindeki rapor şablonlarını enjekte ederek, LLM'yi yeniden eğitime gerek kalmadan radyolojik sözleşmelere uyacak şekilde düzenleyen yapısal korkuluklar oluşturuyoruz. LAVIC, MIMIC-CXR ve CheXPlus için klinik odaklı otomatik ölçümlerde üç kıyaslamada güçlü NLG performansı ve tutarlı avantajlar sergiliyor. Kod yayınlanacak."
+    },
+    {
+      "pmid": "42715716",
+      "title": "PUNCH: Physics-informed uncertainty-aware network for coronary hemodynamics.",
+      "abstract": "More than 10 million coronary angiograms are performed globally each year, providing a gold standard for detecting obstructive coronary artery disease. Yet, no obstructive lesions are identified in 70% of patients evaluated for ischemic heart disease. Up to half of these patients have undiagnosed, life-limiting coronary microvascular dysfunction (CMD), which remains under-detected due to the limited availability of invasive wire-based tools (Doppler-wire or thermodilution) used to measure coronary flow reserve (CFR). Here, we introduce PUNCH, a wire-free, uncertainty-aware framework for estimating CFR from paired resting and hyperemic coronary angiographic acquisitions. PUNCH integrates physics-informed neural networks with variational inference to infer coronary blood flow from first-principles models of contrast transport, without requiring ground-truth flow measurements or population-level training. The pipeline runs in approximately three minutes per patient on a single GPU. Evaluated on 1000 synthetic kymographs and a feasibility-scale, single-center cohort of 20 patients with matched invasive bolus thermodilution CFR, PUNCH produces CFR point estimates that correlate strongly with the invasive reference and uncertainty intervals that widen under image degradation; the raw posterior intervals are however under-dispersed relative to nominal coverage, and we discuss the recalibration step that would be required before threshold-based clinical use. As a proof-of-concept feasibility study, this work illustrates how physics-informed inference could expand the physiological information extractable from existing angiographic imaging, pending validation in larger, multi-center, multi-territory cohorts.",
+      "journal": "Med Image Anal",
+      "date": "2026-09-03",
+      "authors": [
+        "Thakur S",
+        "Roper M",
+        "Zhou Y",
+        "Isaev DY",
+        "Bafghi RA",
+        "Nallamothu BK",
+        "Figueroa CA",
+        "Paruchuri S",
+        "Burger S",
+        "Collet C",
+        "Raissi M"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.media.2026.104273",
+      "journal_tier": 1,
+      "impact": 10.7,
+      "section": "toraks",
+      "score": 100.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 2,
+      "abstract_tr": "Dünya çapında her yıl 10 milyondan fazla koroner anjiyogram yapılıyor ve bu, obstrüktif koroner arter hastalığının tespitinde altın standart sağlıyor. Ancak iskemik kalp hastalığı açısından değerlendirilen hastaların %70'inde herhangi bir obstrüktif lezyon saptanmamaktadır. Bu hastaların yarısından fazlasında tanı konmamış, hayatı sınırlayan koroner mikrovasküler fonksiyon bozukluğu (CMD) vardır; bu durum, koroner akış rezervini (CFR) ölçmek için kullanılan invazif tel bazlı araçların (Doppler teli veya termodilüsyon) sınırlı olması nedeniyle yeterince tespit edilememektedir. Burada, eşleştirilmiş dinlenme ve hiperemik koroner anjiyografik edinimlerden CFR'yi tahmin etmek için kablosuz, belirsizliğin farkında olan bir çerçeve olan PUNCH'u tanıtıyoruz. PUNCH, temel gerçek akış ölçümleri veya popülasyon düzeyinde eğitim gerektirmeden, kontrast aktarımının ilk prensip modellerinden koroner kan akışını çıkarmak için fizik bilgili sinir ağlarını varyasyonel çıkarımla birleştirir. İşlem hattı tek bir GPU'da hasta başına yaklaşık üç dakika içinde çalışır. 1000 sentetik kymograf ve eşleştirilmiş invaziv bolus termodilüsyon CFR'si olan 20 hastadan oluşan fizibilite ölçeği, tek merkezli bir kohort üzerinde değerlendirilen PUNCH, invaziv referans ve görüntü bozulması altında genişleyen belirsizlik aralıkları ile güçlü bir şekilde korelasyon gösteren CFR nokta tahminleri üretir; ancak ham arka aralıklar nominal kapsama göre yetersiz dağılmıştır ve eşiğe dayalı klinik kullanımdan önce gerekli olabilecek yeniden kalibrasyon adımını tartışıyoruz. Bir kavram kanıtı fizibilite çalışması olarak bu çalışma, fizik bilgisine dayalı çıkarımın, daha büyük, çok merkezli, çok bölgeli kohortlarda doğrulamayı bekleyen mevcut anjiyografik görüntülemeden elde edilebilecek fizyolojik bilgileri nasıl genişletebileceğini göstermektedir."
+    },
+    {
       "pmid": "42678842",
       "title": "Annotation-efficient Semi-supervised and Active Learning for Breast Cancer Segmentation in DCE-MRI.",
       "abstract": "Accurate breast tumor segmentation in dynamic contrast-enhanced magnetic resonance imaging (DCE-MRI) is vital for diagnosis and treatment planning. Despite advances in deep learning, its performance remains constrained by the need for extensive voxel-wise annotations. To mitigate this burden, we propose an annotation-efficient framework that jointly optimizes data selection, unlabeled data utilization, and data augmentation under limited annotation budgets. A diversity-aware uncertainty query (DUQ) strategy guides the annotation by jointly modeling data representativeness and informativeness through a representative candidate selector (RCS) and an uncertainty-based decision maker (UDM), ensuring efficient and targeted labeling. To leverage unlabeled data, a cross-decoder consistency regularization (CDCR) mechanism enforces prediction consistency between two decoders with distinct attention mechanisms, enhancing robustness and confidence. Furthermore, a lesion transplant augmentation (LTA) technique synthesizes anatomically valid pseudo samples by transplanting lesion regions from labeled to unlabeled images, effectively expanding training diversity. Experiments were conducted on two DCE-MRI datasets with biopsy-proven breast cancers, one as internal dataset containing 676 subjects and the other as external dataset with 344 subjects. Comparative and ablation results demonstrate that our framework consistently outperforms state-of-the-art semi-supervised and active learning methods, providing a simple yet effective annotation-efficient solution for breast cancer segmentation in DCE-MRI. The code is publicly available at https: //github.com/zouquanling/DUQ_and_CDCR.",
@@ -1786,85 +1894,6 @@
       "journal_tier": 1,
       "impact": 9.1,
       "section": "genel",
-      "score": 70.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": -30,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42692831",
-      "title": "Cost-Effectiveness of 177Lu-PSMA-617 Versus Cabazitaxel: Accounting for Real-World and Health Equity Considerations.",
-      "abstract": "",
-      "journal": "J Nucl Med",
-      "date": "2026-09-03",
-      "authors": [
-        "Subramanian K",
-        "Osborne JR"
-      ],
-      "pubtypes": [
-        "Letter"
-      ],
-      "doi": "10.2967/jnumed.126.272700",
-      "journal_tier": 1,
-      "impact": 9.1,
-      "section": "genel",
-      "score": 70.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": -30,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42692829",
-      "title": "Reassessing 177Lu-PSMA-617 Acquisition Costs: Implications for U.S. Radiopharmaceutical Therapy Cost-Effectiveness Analyses.",
-      "abstract": "",
-      "journal": "J Nucl Med",
-      "date": "2026-09-03",
-      "authors": [
-        "Flannery K",
-        "Cavanaugh PF",
-        "Steele K"
-      ],
-      "pubtypes": [
-        "Letter"
-      ],
-      "doi": "10.2967/jnumed.126.272999",
-      "journal_tier": 1,
-      "impact": 9.1,
-      "section": "genel",
-      "score": 70.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": -30,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42692827",
-      "title": "PSMA PET/CT and Multiparametric MRI Before Prostate Biopsy.",
-      "abstract": "",
-      "journal": "J Nucl Med",
-      "date": "2026-09-03",
-      "authors": [
-        "Froehner M",
-        "Zöphel K"
-      ],
-      "pubtypes": [
-        "Letter"
-      ],
-      "doi": "10.2967/jnumed.126.272393",
-      "journal_tier": 1,
-      "impact": 9.1,
-      "section": "abdomen",
       "score": 70.0,
       "score_parts": {
         "journal": 100,
