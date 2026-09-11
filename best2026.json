@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-10T10:19:56+00:00",
+  "updated": "2026-09-11T10:18:16+00:00",
   "year": 2026,
   "count": 60,
   "criteria": "Etki faktörü (sonra etki skoru) sıralı",
@@ -1405,6 +1405,38 @@
       "abstract_tr": "Dünya çapında her yıl 10 milyondan fazla koroner anjiyogram yapılıyor ve bu, obstrüktif koroner arter hastalığının tespitinde altın standart sağlıyor. Ancak iskemik kalp hastalığı açısından değerlendirilen hastaların %70'inde herhangi bir obstrüktif lezyon saptanmamaktadır. Bu hastaların yarısından fazlasında tanı konmamış, hayatı sınırlayan koroner mikrovasküler fonksiyon bozukluğu (CMD) vardır; bu durum, koroner akış rezervini (CFR) ölçmek için kullanılan invazif tel bazlı araçların (Doppler teli veya termodilüsyon) sınırlı olması nedeniyle yeterince tespit edilememektedir. Burada, eşleştirilmiş dinlenme ve hiperemik koroner anjiyografik edinimlerden CFR'yi tahmin etmek için kablosuz, belirsizliğin farkında olan bir çerçeve olan PUNCH'u tanıtıyoruz. PUNCH, temel gerçek akış ölçümleri veya popülasyon düzeyinde eğitim gerektirmeden, kontrast aktarımının ilk prensip modellerinden koroner kan akışını çıkarmak için fizik bilgili sinir ağlarını varyasyonel çıkarımla birleştirir. İşlem hattı tek bir GPU'da hasta başına yaklaşık üç dakika içinde çalışır. 1000 sentetik kymograf ve eşleştirilmiş invaziv bolus termodilüsyon CFR'si olan 20 hastadan oluşan fizibilite ölçeği, tek merkezli bir kohort üzerinde değerlendirilen PUNCH, invaziv referans ve görüntü bozulması altında genişleyen belirsizlik aralıkları ile güçlü bir şekilde korelasyon gösteren CFR nokta tahminleri üretir; ancak ham arka aralıklar nominal kapsama göre yetersiz dağılmıştır ve eşiğe dayalı klinik kullanımdan önce gerekli olabilecek yeniden kalibrasyon adımını tartışıyoruz. Bir kavram kanıtı fizibilite çalışması olarak bu çalışma, fizik bilgisine dayalı çıkarımın, daha büyük, çok merkezli, çok bölgeli kohortlarda doğrulamayı bekleyen mevcut anjiyografik görüntülemeden elde edilebilecek fizyolojik bilgileri nasıl genişletebileceğini göstermektedir."
     },
     {
+      "pmid": "42721942",
+      "title": "DIPOG: A dynamic pooling graph neural network with spatial-temporal-frequency awareness for diagnosis of Alzheimer's disease.",
+      "abstract": "Resting-state functional magnetic resonance imaging (rsfMRI) discloses the spatiotemporal states of the brain and, through brain network modeling, enables the analysis of time-varying patterns associated with Alzheimer's disease (AD). To extract the spatial-temporal-frequency and dynamic features of brain networks and achieve generalizable AD diagnosis, this paper proposes a dynamic pooling graph neural network with spatial-temporal-frequency awareness. Specifically, a novel autoencoder is proposed to capture the accurate temporal features of rsfMRI through time interval representation learning. To improve the model's ability to fit abnormal spatial-temporal-frequency features associated with AD, a masked self-supervised learning strategy has been designed, and the reconstruction tasks are defined according to the masked brain regions and time periods. Considering the time-varying patterns in rsfMRI, a dynamic pooling method is employed, which utilizes dynamic time warping to merge the features of time steps exhibiting the same pattern, thereby avoiding the loss of time-varying features. A total of 2,857 samples from eight centers were included, and AD classification experiments were conducted. We compared 12 state-of-the-art models, and the results showed that the accuracy of our model was 6.4% higher than that of the best-performing comparison models. Furthermore, we used an explainability method to identify salient brain regions, and demonstrated that these regions were correlated with neuropsychological scale. In addition, AD progression could be reflected by the spatial-temporal-frequency features and time-varying patterns. This study presents a spatiotemporal learning framework that facilitates the individualized and precise diagnosis and treatment of AD.",
+      "journal": "Med Image Anal",
+      "date": "2026-08-22",
+      "authors": [
+        "Zhang S",
+        "Huang L",
+        "Wang M",
+        "Li Y",
+        "Guo Q",
+        "Wang Z",
+        "Lv H",
+        "Jiang J"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.media.2026.104280",
+      "journal_tier": 1,
+      "impact": 10.7,
+      "section": "neuro",
+      "score": 100.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 2,
+      "abstract_tr": ""
+    },
+    {
       "pmid": "42678842",
       "title": "Annotation-efficient Semi-supervised and Active Learning for Breast Cancer Segmentation in DCE-MRI.",
       "abstract": "Accurate breast tumor segmentation in dynamic contrast-enhanced magnetic resonance imaging (DCE-MRI) is vital for diagnosis and treatment planning. Despite advances in deep learning, its performance remains constrained by the need for extensive voxel-wise annotations. To mitigate this burden, we propose an annotation-efficient framework that jointly optimizes data selection, unlabeled data utilization, and data augmentation under limited annotation budgets. A diversity-aware uncertainty query (DUQ) strategy guides the annotation by jointly modeling data representativeness and informativeness through a representative candidate selector (RCS) and an uncertainty-based decision maker (UDM), ensuring efficient and targeted labeling. To leverage unlabeled data, a cross-decoder consistency regularization (CDCR) mechanism enforces prediction consistency between two decoders with distinct attention mechanisms, enhancing robustness and confidence. Furthermore, a lesion transplant augmentation (LTA) technique synthesizes anatomically valid pseudo samples by transplanting lesion regions from labeled to unlabeled images, effectively expanding training diversity. Experiments were conducted on two DCE-MRI datasets with biopsy-proven breast cancers, one as internal dataset containing 676 subjects and the other as external dataset with 344 subjects. Comparative and ablation results demonstrate that our framework consistently outperforms state-of-the-art semi-supervised and active learning methods, providing a simple yet effective annotation-efficient solution for breast cancer segmentation in DCE-MRI. The code is publicly available at https: //github.com/zouquanling/DUQ_and_CDCR.",
@@ -1587,6 +1619,38 @@
       },
       "tier": 2,
       "abstract_tr": "Tıbbi görüntü segmentasyonu, bilgisayar destekli teşhiste çok önemli bir rol oynar. Ancak açıklamalı verilerin azlığı, derin öğrenme modellerinin konuşlandırılmasını ciddi şekilde engellemektedir. Birkaç adımlı öğrenme (FSL), sınırlı etiketli örnekleri kullanarak görünmeyen sınıflara hızlı adaptasyon sağlamak için tasarlanmıştır; bunların arasında prototip tabanlı yöntemler baskın bir paradigma olarak ortaya çıkmıştır. Bununla birlikte, mevcut yaklaşımlar sıklıkla tek veya kaba çoklu prototip gösterimlere dayanmakta ve tıbbi görüntülerdeki karmaşık morfolojik varyasyonları ve yerel ayrıntıları yakalayamamaktadır. Ayrıca, evrişimli alıcı alanlardan kaynaklanan sınır özelliği kirliliği, segmentasyon doğruluğunu ciddi şekilde bozar. Bu zorlukların üstesinden gelmek için, bu makale, birkaç çekimlik tıbbi görüntü segmentasyonu için Yardımcı Denetim destekli Kenar Prototip Arıtma Ağı (EPPNet) önermektedir. Özellikle ağ, yeni bir Prototip Saflaştırma Modülünü (PPM) tanıtıyor. PPM, uç ve ana prototipler arasındaki anlamsal tutarlılığı değerlendirerek, sınır özelliği kirliliğini önemli ölçüde azaltmayı amaçlayan, öğrenilebilir bir uyarlanabilir eşik aracılığıyla yüksek güvenilirliğe sahip uç prototiplerini seçici bir şekilde entegre eder. Eş zamanlı olarak, bir Uyarlamalı Prototip Oluşturma (APG) modülü ve Uyarlamalı Ağırlık Kod Çözme (AWD) mekanizması, optimum füzyon ağırlıklarını atarken ön plan, arka plan ve kenar bölgeler için semantik duyarlı prototipleri dinamik olarak çıkarmak üzere tasarlanmıştır. Ayrıca, tamamen denetlenen yoğun piksel tahmini yoluyla özellik kodlayıcının genelleştirme yeteneğini ve uzamsal bağlam modellemesini geliştirmek için paralel bir U-Net yardımcı dal inşa edilmiştir. Üç halka açık veri kümesi (CHAOS-MRI, Synapse-CT ve CMRSeg) üzerinde yapılan kapsamlı deneyler, önerilen yöntemin çoklu organ bölümleme görevlerinde mevcut en gelişmiş tekniklerden daha iyi performans gösterdiğini göstermektedir. Ayrıntılı analizler ve doğrulamalar, prototip gösteriminde ve sınır bilgisi kullanımında önemli gelişmeler olduğunu doğrulamaktadır."
+    },
+    {
+      "pmid": "42721173",
+      "title": "CORE: Suppressing Spurious Similarity via Confidence-Aware Prototypes for Few-Shot Medical Image Segmentation.",
+      "abstract": "Few-shot medical image segmentation (FSMIS) aims to segment unseen anatomical structures using only a few annotated examples, alleviating the heavy annotation burden in clinical practice. Most existing FSMIS methods adopt prototype-based learning but suffer from two limitations. First, equal treatment of foreground pixels ignores their heterogeneous reliability and weakens prototype discriminability. Second, query mask prediction uses simple prototype-query similarity matching, which can induce spurious high similarity and mistakenly match background regions to the foreground prototype, producing false positives. In this work, we propose CORE, a confidence-aware prototype learning framework designed to suppress spurious similarity for FSMIS to address these issues. CORE constructs foreground prototypes from regions with different confidence levels, which prevents excessive averaging and preserves intra-class diversity under extremely limited supervision. Furthermore, an adaptive veto guided query prototype interaction module suppresses unreliable prototype-query matching under spurious inter-class similarity. Extensive experiments demonstrate that CORE achieves the best average performance across four few-shot medical segmentation datasets, with pronounced gains on CHAOS-MRI, Synapse-CT, and CMR, and consistent gains on Prostate-MRI. Our code is available at https://gitlab.com/xuchuanzhen/core.",
+      "journal": "IEEE Trans Med Imaging",
+      "date": "2026-09-10",
+      "authors": [
+        "Xu C",
+        "Li S",
+        "Wang H",
+        "Zhang J",
+        "Qi L",
+        "Yu Q",
+        "Gao Y",
+        "Shi Y"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1109/TMI.2026.3732553",
+      "journal_tier": 1,
+      "impact": 10.6,
+      "section": "girisim",
+      "score": 100.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 2,
+      "abstract_tr": ""
     },
     {
       "pmid": "42701952",
@@ -1818,89 +1882,38 @@
       "abstract_tr": ""
     },
     {
-      "pmid": "42686384",
-      "title": "CAIX and CD70 Theranostics in Clear Cell Renal Cell Carcinoma: Navigating the Promise and Perils.",
-      "abstract": "",
+      "pmid": "42722444",
+      "title": "Comparison of Expert Reads Versus Local Clinical Reads of Amyloid PET Scans in the IDEAS Study.",
+      "abstract": "Amyloid-targeting therapies and growing reimbursement are expected to increase the clinical use of amyloid PET. The Imaging Dementia-Evidence for Amyloid Scanning (IDEAS) study captured more than 18,000 clinical scan interpretations from local radiologists and nuclear medicine physicians in the United States. This study aimed to evaluate the reliability of these interpretations by comparing local clinical reads of a representative sample of IDEAS scans to retrospective majority interpretations by expert readers. Methods: A representative subset of amyloid PET scans from the IDEAS study, 500 performed with each of the Food and Drug Administration-approved tracers (18F-florbetaben, 18F-florbetapir, 18F-flutemetamol) and previously interpreted by local readers, was assigned to vendor-selected panels of 3 expert readers (1 panel per tracer). The scan subset was stratified to match the overall study frequencies by participant age, level of cognitive impairment (mild cognitive impairment vs. dementia), positive or negative local interpretation, and PET facility type. Expert readers performed visual interpretations using tracer-specific criteria, blinded to clinical and demographic data. Cohen κ assessed agreement between local reads and the majority expert panel reads, and Fleiss κ measured overall agreement among expert readers. Results: Expert panels interpreted 1497 scans. Participants were a median age of 75 y (range, 65-96 y), 51.4% were female, and 60.5% had mild cognitive impairment. Local readers interpreted 60.9% of scans as positive and 39.1% as negative. Across all radiotracers, agreement between majority expert and local reads was good (κ = 0.76; 95% CI, 0.73-0.80), with 86.6% (790/912) agreement for positive scans and 91.5% (535/585) agreement for negative scans. Agreement did not vary significantly by PET tracer (κ = 0.73-0.78). Agreement between individual experts and local readers was also good (pairwise κ = 0.61-0.78), and agreement within the expert reader group was similarly high (κ = 0.79; 95% CI, 0.77-0.81). Lower concordance between local and expert reads was associated with low local reader confidence (P < 0.001). Conclusion: We found good agreement between local readers and the majority assessment of 3-member expert panels. Visual interpretation of amyloid PET can be performed in a real-world clinical setting with high reliability.",
       "journal": "J Nucl Med",
-      "date": "2026-09-02",
+      "date": "2026-09-10",
       "authors": [
-        "Wei W",
-        "Burger I",
-        "Zhang J",
-        "Herrmann K",
-        "Shuch BM"
+        "Chiotis K",
+        "Windon CC",
+        "Siegel BA",
+        "Apgar C",
+        "Carrillo M",
+        "Gareen I",
+        "Hanna L",
+        "March A",
+        "Romanoff J",
+        "Gatsonis C",
+        "Rabinovici GD"
       ],
       "pubtypes": [
-        "Editorial"
+        "Journal Article"
       ],
-      "doi": "10.2967/jnumed.126.272707",
-      "journal_tier": 1,
-      "impact": 9.1,
-      "section": "abdomen",
-      "score": 75.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": -25,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42692833",
-      "title": "Reply to \"Cost-Effectiveness of 177Lu-PSMA-617 Versus Cabazitaxel: Accounting for Real-World and Health Equity Considerations\".",
-      "abstract": "",
-      "journal": "J Nucl Med",
-      "date": "2026-09-03",
-      "authors": [
-        "Gogebakan KC",
-        "Kunst N",
-        "Ghodsi A",
-        "Owens L",
-        "Iravani A",
-        "Etzioni R"
-      ],
-      "pubtypes": [
-        "Letter"
-      ],
-      "doi": "10.2967/jnumed.126.273360",
+      "doi": "10.2967/jnumed.126.272571",
       "journal_tier": 1,
       "impact": 9.1,
       "section": "genel",
-      "score": 70.0,
+      "score": 100.0,
       "score_parts": {
         "journal": 100,
-        "pubtype": -30,
+        "pubtype": 0,
         "recency": 0.0
       },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42692832",
-      "title": "Comment on FDA Approval Pathways.",
-      "abstract": "",
-      "journal": "J Nucl Med",
-      "date": "2026-09-03",
-      "authors": [
-        "Zhu S",
-        "Whalen B",
-        "Hope TA"
-      ],
-      "pubtypes": [
-        "Letter"
-      ],
-      "doi": "10.2967/jnumed.126.273516",
-      "journal_tier": 1,
-      "impact": 9.1,
-      "section": "genel",
-      "score": 70.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": -30,
-        "recency": 0.0
-      },
-      "tier": 3,
+      "tier": 2,
       "abstract_tr": ""
     }
   ]
