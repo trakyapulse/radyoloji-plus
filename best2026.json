@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-11T10:18:16+00:00",
+  "updated": "2026-09-12T09:51:43+00:00",
   "year": 2026,
   "count": 60,
   "criteria": "Etki faktörü (sonra etki skoru) sıralı",
@@ -1682,19 +1682,24 @@
       "abstract_tr": ""
     },
     {
-      "pmid": "42686383",
-      "title": "The Equivalents Are Coming! FDA Approval Pathways for Nuclear Medicine.",
-      "abstract": "",
-      "journal": "J Nucl Med",
-      "date": "2026-09-02",
-      "authors": [],
+      "pmid": "42726463",
+      "title": "Artificial intelligence-assisted triage of screening mammograms following breast-conserving therapy: a comparative simulation study.",
+      "abstract": "PURPOSE: To evaluate the diagnostic performance and potential of artificial intelligence (AI)-based triage for screening mammograms following breast-conserving therapy (BCT). METHODS AND MATERIALS: In this retrospective study, consecutive post-BCT mammograms obtained between January and May 2021 were analyzed and divided into ipsilateral and contralateral breasts. Triage was simulated using three models with a commercial AI-based computer-aided detection (CAD), and outcomes were categorized as recall or no recall: (1) original report-based triage, (2) standalone AI, and (3) decision referral AI-triage. Cancer detection rate (CDR), recall rates, and diagnostic performance were evaluated. RESULTS: A total of 1190 women were enrolled. For the ipsilateral breast, 10 mammography-visible recurrences were identified. All three models-original report, standalone AI, and decision referral AI-achieved equivalent CDR (6.6 per 1000) and sensitivity (80%), with recall rates of 3.4%, 23.0%, and 2.8%, respectively. AI-CAD classified 77% of examinations as negative without a reduction in CDR or sensitivity. For the contralateral breast, three recurrences were identified. The original report yielded a CDR of 1.8 per 1000, a recall rate of 1.9%, and 66.7% sensitivity. While AI-CAD triaged 90% of examinations as negative, standalone AI achieved a CDR of 2.6 per 1000, recall rate of 9.8%, and 100% sensitivity. Decision referral AI maintained CDR and sensitivity with a lower recall rate (2.0%). CONCLUSIONS: Our simulation suggests that AI-based triage can exclude a substantial portion of negative mammograms following BCT without a reduction in CDR or sensitivity. Nonetheless, radiologist expertise remains crucial, particularly in interpreting the ipsilateral breast, given the higher false positive rate of AI-CAD.",
+      "journal": "Radiol Med",
+      "date": "2026-09-11",
+      "authors": [
+        "Park GE",
+        "Kang BJ",
+        "Kim SH",
+        "Mun HS"
+      ],
       "pubtypes": [
         "Journal Article"
       ],
-      "doi": "",
+      "doi": "10.1007/s11547-026-02243-8",
       "journal_tier": 1,
-      "impact": 9.1,
-      "section": "genel",
+      "impact": 9.4,
+      "section": "meme",
       "score": 100.0,
       "score_parts": {
         "journal": 100,
@@ -1702,219 +1707,176 @@
         "recency": 0.0
       },
       "tier": 2,
-      "abstract_tr": ""
+      "abstract_tr": "AMAÇ: Meme koruyucu tedaviyi (BCT) takiben mamogramların taranması için yapay zeka (AI) tabanlı triyajın tanısal performansını ve potansiyelini değerlendirmek. YÖNTEMLER VE MATERYALLER: Bu retrospektif çalışmada, Ocak ve Mayıs 2021 arasında elde edilen BCT sonrası ardışık mamografiler analiz edildi ve aynı taraftaki ve karşı taraftaki memelere bölündü. Triyaj, ticari yapay zeka tabanlı bilgisayar destekli algılamaya (CAD) sahip üç model kullanılarak simüle edildi ve sonuçlar, geri çağırma veya hatırlamama olarak kategorize edildi: (1) orijinal rapora dayalı triyaj, (2) bağımsız yapay zeka ve (3) karar yönlendirmeli yapay zeka triyajı. Kanser tespit oranı (CDR), hatırlama oranları ve teşhis performansı değerlendirildi. BULGULAR: Toplam 1190 kadın kaydoldu. Aynı taraftaki meme için mamografide görülebilen 10 nüks belirlendi. Her üç model de (orijinal rapor, bağımsız yapay zeka ve karar yönlendirme yapay zekası), sırasıyla %3,4, %23,0 ve %2,8 geri çağırma oranlarıyla eşdeğer CDR (1000 başına 6,6) ve hassasiyet (%80) elde etti. AI-CAD, CDR'de veya hassasiyette bir azalma olmaksızın incelemelerin %77'sini negatif olarak sınıflandırmıştır. Karşı memede üç nüks tespit edildi. Orijinal rapor, 1000 başına 1,8 CDR, %1,9 geri çağırma oranı ve %66,7 hassasiyet sağladı. AI-CAD incelemelerin %90'ını negatif olarak önceliklendirirken, bağımsız AI 1000 başına 2,6 CDR, %9,8 hatırlama oranı ve %100 hassasiyet elde etti. Karar yönlendirme yapay zekası, daha düşük bir geri çağırma oranıyla (%2,0) CDR'yi ve hassasiyeti korudu. SONUÇ: Simülasyonumuz, yapay zeka temelli triyajın, BCT'yi takip eden negatif mamogramların önemli bir kısmını, CDR'de veya hassasiyette bir azalma olmadan hariç tutabileceğini göstermektedir. Bununla birlikte, AI-CAD'nin daha yüksek yanlış pozitif oranı göz önüne alındığında, radyolog uzmanlığı, özellikle aynı taraftaki memenin yorumlanmasında hayati önem taşımaya devam etmektedir."
     },
     {
-      "pmid": "42692830",
-      "title": "Evaluating Suspected Tumor Recurrence with Epidermal Growth Factor Receptor-Targeted [89Zr]Zr-Panitumumab PET/CT.",
-      "abstract": "",
+      "pmid": "42728105",
+      "title": "Are Urooncologists Onboard?",
+      "abstract": "Theranostics, particularly PSMA-targeted imaging and radiopharmaceutical therapy, is rapidly transforming the field of urooncology. This article reviews the clinical integration of PSMA PET/CT in diagnosis, treatment planning, and patient selection for 177Lu-PSMA-617 therapy, which has demonstrated survival benefits and favorable safety profiles in metastatic castration-resistant prostate cancer. As evidence expands into earlier disease stages, PSMA radiopharmaceutical therapy is emerging as a key systemic treatment modality. The article emphasizes the importance of multidisciplinary care and the evolving role of nuclear medicine as both a diagnostic and a therapeutic partner. It also highlights current challenges and regional disparities in access, encouraging thoughtful, patient-centered adaptation of theranostic advances.",
       "journal": "J Nucl Med",
-      "date": "2026-09-03",
+      "date": "2026-09-11",
       "authors": [
-        "Hoang J",
-        "Golliday K",
-        "McAdoo A",
-        "Rosenberg A",
-        "Jouad K",
-        "Rosenthal E",
-        "Topf MC"
+        "Hadaschik B",
+        "Sartor O"
       ],
       "pubtypes": [
-        "Journal Article"
+        "Journal Article",
+        "Review"
       ],
-      "doi": "10.2967/jnumed.125.271333",
+      "doi": "10.2967/jnumed.125.269608",
       "journal_tier": 1,
       "impact": 9.1,
-      "section": "genel",
-      "score": 100.0,
+      "section": "abdomen",
+      "score": 110.0,
       "score_parts": {
         "journal": 100,
-        "pubtype": 0,
+        "pubtype": 10,
         "recency": 0.0
       },
-      "tier": 2,
-      "abstract_tr": ""
+      "tier": 1,
+      "abstract_tr": "Teranostikler, özellikle PSMA hedefli görüntüleme ve radyofarmasötik tedavi, üroonkoloji alanını hızla dönüştürmektedir. Bu makale, metastatik kastrasyona dirençli prostat kanserinde hayatta kalma yararları ve olumlu güvenlik profilleri gösteren 177Lu-PSMA-617 tedavisi için tanı, tedavi planlaması ve hasta seçiminde PSMA PET/CT'nin klinik entegrasyonunu gözden geçirmektedir. Kanıtlar hastalığın erken evrelerine doğru genişledikçe, PSMA radyofarmasötik tedavisi önemli bir sistemik tedavi yöntemi olarak ortaya çıkmaktadır. Makale multidisipliner bakımın önemini ve nükleer tıbbın hem teşhis hem de tedavi ortağı olarak gelişen rolünü vurgulamaktadır. Aynı zamanda, terapötik gelişmelerin düşünceli, hasta merkezli uyarlanmasını teşvik ederek, erişimdeki mevcut zorlukları ve bölgesel eşitsizlikleri de vurgulamaktadır."
     },
     {
-      "pmid": "42692828",
-      "title": "PET Imaging of Tumor-Associated Macrophage Dynamics and Response to Clinical Treatment for Potential Translation.",
-      "abstract": "Tumor-associated macrophages (TAMs) are an important component of the tumor microenvironment (TME). The abundance and distribution of TAMs significantly affect the immune responses of TME to determine the tumor progression and treatment response of solid tumors such as head and neck squamous cell carcinoma (HNSCC). Molecular characterization of human HNSCC specimens and mouse models has identified CD163 as a unique biomarker for TAMs in HNSCC. The goal of this study was to determine the dynamic changes of CD163-positive TAMs in HNSCC progression and treatment response to assess the potential of a CD163 targeted radiotracer, 64Cu-ICT-01, in detecting CD163-positive TAMs for translation in HNSCC. Methods: We assessed the capability of 64Cu-ICT-01 for noninvasive imaging of CD163-positive TAMs using PET. We determined its targeting specificity in multiple mouse HNSCC models to track the progression of tumors. We assessed its sensitivity in tracking variations of CD163-positive TAMs and correlation with tumor volumes after clinical treatment. We also measured its binding to CD163-positive TAMs upregulated on human HNSCC tissues. Results: 64Cu-ICT-01 PET specifically determined the spatiotemporal distribution of CD163-positive TAMs in a MOC1 cell line model and patient-derived xenograft HNSCC models. CD163 PET sensitively tracked the dynamics of CD163-positive TAMs after clinical treatment. Its tumor binding correlated with CD163 expression levels and the volumes of tumors. In human HNSCC specimens, 64Cu-ICT-01 showed strong and specific binding to human CD163. Conclusion: 64Cu-ICT-01 demonstrated accurate targeting of CD163 in both mouse tumor models and human HNSCC tissues. CD163 PET has great potential to be a noninvasive biomarker to measure TAM activities within TME, monitor treatment response, and optimize treatment strategy.",
+      "pmid": "42728104",
+      "title": "Radiopharmaceutical Therapy-Linked Tumor Resistance: Immune Evasion, Nonimmune Mechanisms, and Immunometabolic Vulnerabilities.",
+      "abstract": "Radiopharmaceutical therapy (RPT) has transformed the management of metastatic castration-resistant prostate cancer and neuroendocrine tumors, with clinical development extending to renal cell carcinoma, hepatocellular carcinoma, lung cancer, and breast cancer. Because relapse after RPT occurs across cancer types, there is an urgent need to implement new treatment strategies to overcome resistance and achieve more durable responses. Here, we summarize recent advances in research concerning RPT resistance mechanisms involving tumor cell-intrinsic signaling, the tumor immune microenvironment, and tumor metabolism, as well as emerging strategies to overcome them. We also highlight progress in advanced preclinical models that better recapitulate human metabolism and immune responses, which are essential for validating new combination approaches designed to maximize the clinical benefit of RPT, with a focus on prostate cancer.",
       "journal": "J Nucl Med",
-      "date": "2026-09-03",
+      "date": "2026-09-11",
       "authors": [
-        "Heo GS",
-        "Li A",
-        "Tao J",
-        "Zaretsky JM",
-        "Sultan D",
-        "Detering L",
-        "Lahad D",
-        "Luehmann H",
-        "Zhang X",
-        "Zhang X",
-        "Gao X",
-        "Venkatesan R",
-        "Belmar J",
-        "Crowder R",
-        "Voller P",
-        "Mallady A",
-        "Nai YH",
-        "Gropler R",
-        "Laforest R",
-        "Lin CY",
-        "Li S",
-        "Dehdashti F",
-        "Puram SV",
-        "Liu Y"
+        "Abt ER",
+        "Radu CG",
+        "Czernin J",
+        "Mona CE"
       ],
       "pubtypes": [
-        "Journal Article"
+        "Journal Article",
+        "Review"
       ],
-      "doi": "10.2967/jnumed.126.272473",
+      "doi": "10.2967/jnumed.125.269489",
       "journal_tier": 1,
       "impact": 9.1,
-      "section": "genel",
-      "score": 100.0,
+      "section": "meme",
+      "score": 110.0,
       "score_parts": {
         "journal": 100,
-        "pubtype": 0,
+        "pubtype": 10,
         "recency": 0.0
       },
-      "tier": 2,
-      "abstract_tr": "Tümörle ilişkili makrofajlar (TAM'ler), tümör mikro ortamının (TME) önemli bir bileşenidir. TAM'lerin bolluğu ve dağılımı, baş ve boyun skuamöz hücreli karsinom (HNSCC) gibi katı tümörlerin tümör ilerlemesini ve tedavi yanıtını belirlemek için TME'nin bağışıklık tepkilerini önemli ölçüde etkiler. İnsan HNSCC örneklerinin ve fare modellerinin moleküler karakterizasyonu, CD163'ü HNSCC'deki TAM'ler için benzersiz bir biyobelirteç olarak tanımlamıştır. Bu çalışmanın amacı, HNSCC ilerlemesinde CD163-pozitif TAM'lerin dinamik değişikliklerini belirlemek ve CD163 hedefli bir radyo izleyici olan 64Cu-ICT-01'in HNSCC'de çeviri için CD163-pozitif TAM'leri tespit etme potansiyelini değerlendirmek için tedavi yanıtını belirlemekti. Yöntemler: 64Cu-ICT-01'in, PET kullanarak CD163-pozitif TAM'lerin invaziv olmayan görüntülemesi için kapasitesini değerlendirdik. Tümörlerin ilerlemesini izlemek için birden fazla fare HNSCC modelinde hedefleme özgüllüğünü belirledik. CD163-pozitif TAM'lerin varyasyonlarının izlenmesindeki duyarlılığını ve klinik tedaviden sonra tümör hacimleriyle korelasyonunu değerlendirdik. Ayrıca insan HNSCC dokularında yukarı regüle edilen CD163-pozitif TAM'lere bağlanmasını da ölçtük. Sonuçlar: 64Cu-ICT-01 PET, bir MOC1 hücre çizgisi modelinde ve hastadan türetilen ksenograft HNSCC modellerinde CD163-pozitif TAM'lerin uzay-zamansal dağılımını spesifik olarak belirledi. CD163 PET, klinik tedaviden sonra CD163 pozitif TAM'lerin dinamiklerini hassas bir şekilde takip etti. Tümör bağlanması, CD163 ekspresyon seviyeleri ve tümör hacimleri ile koreleydi. İnsan HNSCC örneklerinde 64Cu-ICT-01, insan CD163'e güçlü ve spesifik bağlanma gösterdi. Sonuç: 64Cu-ICT-01, hem fare tümör modellerinde hem de insan HNSCC dokularında CD163'ün doğru hedeflendiğini gösterdi. CD163 PET, TME içindeki TAM aktivitelerini ölçmek, tedavi yanıtını izlemek ve tedavi stratejisini optimize etmek için invaziv olmayan bir biyobelirteç olma konusunda büyük bir potansiyele sahiptir."
+      "tier": 1,
+      "abstract_tr": "Radyofarmasötik tedavi (RPT), böbrek hücreli karsinom, hepatoselüler karsinom, akciğer kanseri ve meme kanserine kadar uzanan klinik gelişimle birlikte, metastatik kastrasyona dirençli prostat kanseri ve nöroendokrin tümörlerin yönetimini dönüştürmüştür. RPT sonrası nüksetme tüm kanser türlerinde meydana geldiğinden, direncin üstesinden gelmek ve daha kalıcı yanıtlar elde etmek için yeni tedavi stratejilerinin uygulanmasına acil bir ihtiyaç vardır. Burada, tümör hücresinin içsel sinyallemesini, tümörün bağışıklık mikro ortamını ve tümör metabolizmasını içeren RPT direnç mekanizmaları ve bunların üstesinden gelmek için ortaya çıkan stratejiler ile ilgili araştırmalardaki son gelişmeleri özetliyoruz. Ayrıca, prostat kanserine odaklanarak RPT'nin klinik faydasını en üst düzeye çıkarmak için tasarlanan yeni kombinasyon yaklaşımlarının doğrulanması için gerekli olan insan metabolizmasını ve bağışıklık tepkilerini daha iyi özetleyen gelişmiş klinik öncesi modellerdeki ilerlemeyi de vurguluyoruz."
     },
     {
-      "pmid": "42692826",
-      "title": "A Prospective, Single-Center, Single-Arm, Exploratory Study of 177Lu-LNC1010 Peptide Receptor Radionuclide Therapy for Advanced Neuroendocrine Tumors.",
-      "abstract": "Rapid radiopharmaceutical clearance limits the efficacy of peptide receptor radionuclide therapy (PRRT) for the treatment of advanced neuroendocrine tumors (NETs). In this prospective, single-center, single-arm, investigator-initiated trial, we evaluated the safety and efficacy of 177Lu-LNC1010-an optimized, long-acting somatostatin analog-in patients with progressive metastatic NETs. Methods: Twenty-two patients with unresectable, metastatic NETs and disease progression despite treatment with somatostatin analogs or tyrosine kinase inhibitors were enrolled in the study. Participants received up to 4 cycles of PRRT with 177Lu-LNC1010 (3.3 GBq/cycle) at 8-wk intervals. Adverse events were graded according to the National Cancer Institute's Common Terminology Criteria for Adverse Events version 5.0. The treatment response was evaluated using RECIST 1.1. Kaplan-Meier analysis was used to estimate progression-free survival (PFS) and overall survival (OS). Results: The patients (13 men, 9 women; median age, 50.5 y) received 69 PRRT cycles in total. Treatment-related grade 3 or 4 hematologic toxicities were observed in 6 patients (27%). No grade 3 or higher nephrotoxicity or hepatotoxicity was recorded. The median absorbed tumor dose was 2.12 (interquartile range: 1.68-2.96) Gy/GBq. Response after PRRT was assessed in 18 patients. A partial response was achieved in 8 patients (44.0%), stable disease in 9 (50.0%), and progressive disease in 1 (5.6%). The objective response rate was 44.4%, and the disease control rate was 94.4%. After a median follow-up of 21.0 mo, the median PFS was 15.0 mo, and the median OS was not reached. Conclusion: PRRT with 3.3 GBq/cycle of 177Lu-LNC1010 was well-tolerated and exhibited an acceptable safety profile. The objective response rate and disease control rate were high and positively correlated with improved PFS and OS. Appropriate patient selection and earlier intervention may further optimize the therapeutic benefit.",
+      "pmid": "42728103",
+      "title": "Dosimetry-Driven Personalization of Radiopharmaceutical Therapies: Evidence and Opportunities.",
+      "abstract": "Radiopharmaceutical therapy (RPT) is growing in clinical importance and utilization. First-generation RPTs such as 131I-tositumomab (Bexxar) radioimmunotherapy of lymphoma used simplified whole-body dosimetry in each patient to adjust administered activity levels to deal with patient-to-patient heterogeneity of radiation absorbed dose coefficients. In contrast, the commercially successful 177Lu-vipivotide tetraxetan and 177Lu-DOTATATE RPTs are given as one administered-activity-fits-all treatment approach not incorporating patient dosimetry. External beam radiotherapy dosimetry has been refined over nearly 100 years and is now routinely deployed in planning each therapy. This article reviews the tumor radiation dose-response data for external beam radiotherapy, showing many common cancers are more effectively treated with a precisely delivered higher rather than lower radiation dose. Data showing the heterogeneity of absorbed dose to tumors and normal organs using state-of-the-art dosimetry methods are reviewed for current RPTs, which strongly suggest a significant number of patients are underdosed, relative to organ tolerance, when assuring safety with one administered-activity-fits-all approaches. Data are presented which strongly suggest improved outcomes for patients in whom dosimetry is used to plan the RPT. Challenges in variability of measurement of radiation absorbed dose from RPT are highlighted, which are minimized by standardization. Cautions are identified when dosimetry suggests a diminished return on additional treatments after the initial cycles. A path forward is proposed in which dosimetry data are increasingly collected in clinical practice in a nascent National Oncologic Dosimetry Registry to aid in combination therapies with external beam radiotherapy, for dose escalation and optimization in individual patients and to better inform the field on the safety and longer-term tolerability of RPT. RPT is evolving rapidly but is generally not curative. We suggest dosimetry will be an important part of the path forward to move RPT from life-prolonging to curative.",
       "journal": "J Nucl Med",
-      "date": "2026-09-03",
+      "date": "2026-09-11",
       "authors": [
-        "Guo W",
-        "Fan C",
-        "Chen Y",
-        "Yu S",
-        "Yue G",
-        "Zhao T",
-        "Ruan D",
-        "Xu W",
-        "Fu H",
-        "Su B",
-        "Yu L",
-        "Zhao L",
-        "Huang J",
-        "Wu H",
-        "Zhang J",
-        "Zhao X",
-        "Chen X",
-        "Chen H"
+        "Wahl RL",
+        "Dewaraja YK"
       ],
       "pubtypes": [
-        "Journal Article"
+        "Journal Article",
+        "Review"
       ],
-      "doi": "10.2967/jnumed.126.272607",
+      "doi": "10.2967/jnumed.125.269488",
       "journal_tier": 1,
       "impact": 9.1,
-      "section": "genel",
-      "score": 100.0,
+      "section": "abdomen",
+      "score": 110.0,
       "score_parts": {
         "journal": 100,
-        "pubtype": 0,
+        "pubtype": 10,
         "recency": 0.0
       },
-      "tier": 2,
-      "abstract_tr": "Hızlı radyofarmasötik temizleme, ilerlemiş nöroendokrin tümörlerin (NET'ler) tedavisi için peptit reseptörü radyonüklid tedavisinin (PRRT) etkinliğini sınırlar. Bu prospektif, tek merkezli, tek kollu, araştırmacının başlattığı denemede, ilerleyici metastatik NET'li hastalarda optimize edilmiş, uzun etkili bir somatostatin analoğu olan 177Lu-LNC1010'un güvenliğini ve etkinliğini değerlendirdik. Yöntemler: Çalışmaya somatostatin analogları veya tirozin kinaz inhibitörleri ile tedaviye rağmen rezeke edilemeyen, metastatik NET'leri olan ve hastalık ilerlemesi gösteren 22 hasta dahil edildi. Katılımcılar 8 haftalık aralıklarla 177Lu-LNC1010 (3,3 GBq/döngü) ile 4 döngüye kadar PRRT aldı. Olumsuz olaylar, Ulusal Kanser Enstitüsü'nün Olumsuz Olaylar için Ortak Terminoloji Kriterleri sürüm 5.0'a göre derecelendirildi. Tedavi yanıtı RECIST 1.1 kullanılarak değerlendirildi. Progresyonsuz sağkalımı (PFS) ve genel sağkalımı (OS) tahmin etmek için Kaplan-Meier analizi kullanıldı. Bulgular: Hastalara (13 erkek, 9 kadın; ortanca yaş, 50,5 yıl) toplam 69 PRRT siklusu uygulandı. Tedaviye bağlı 3. veya 4. derece hematolojik toksisiteler 6 hastada (%27) gözlendi. Derece 3 veya daha yüksek nefrotoksisite veya hepatotoksisite kaydedilmemiştir. Emilen ortalama tümör dozu 2,12 (çeyrekler arası aralık: 1,68-2,96) Gy/GBq idi. PRRT sonrası yanıt 18 hastada değerlendirildi. Hastaların 8'inde (%44,0) kısmi yanıt, 9'unda (%50,0) stabil hastalık, 1'inde (%5,6) ilerleyici hastalık elde edildi. Objektif yanıt oranı %44,4, hastalık kontrol oranı ise %94,4 oldu. 21,0 aylık medyan takip sonrasında medyan PFS 15,0 ay oldu ve medyan OS'ye ulaşılamadı. Sonuç: 3,3 GBq/döngü 177Lu-LNC1010'a sahip PRRT iyi tolere edildi ve kabul edilebilir bir güvenlik profili sergiledi. Objektif yanıt oranı ve hastalık kontrol oranı yüksekti ve gelişmiş PFS ve OS ile pozitif korelasyon gösterdi. Uygun hasta seçimi ve erken müdahale, terapötik faydayı daha da optimize edebilir."
+      "tier": 1,
+      "abstract_tr": "Radyofarmasötik tedavinin (RPT) klinik önemi ve kullanımı giderek artmaktadır. Lenfomanın 131I-tositumomab (Bexxar) radyoimmünoterapisi gibi birinci nesil RPT'ler, radyasyon emilen doz katsayılarının hastadan hastaya heterojenliğiyle başa çıkmak üzere uygulanan aktivite seviyelerini ayarlamak için her hastada basitleştirilmiş tüm vücut dozimetrisini kullandı. Buna karşılık, ticari olarak başarılı olan 177Lu-vipivotid tetraksetan ve 177Lu-DOTATATE RPT'ler, hasta dozimetrisini içermeyen tek bir uygulanan aktivite-her şeye uyan tedavi yaklaşımı olarak verilmektedir. Dış ışın radyoterapi dozimetrisi yaklaşık 100 yıldır geliştirildi ve artık her tedavinin planlanmasında rutin olarak kullanılıyor. Bu makale, dış ışın radyoterapisi için tümör radyasyon doz-cevap verilerini gözden geçirerek, birçok yaygın kanserin, daha düşük radyasyon dozu yerine tam olarak verilen daha yüksek radyasyon dozuyla daha etkili bir şekilde tedavi edildiğini göstermektedir. En son teknolojiye sahip dozimetri yöntemleri kullanılarak tümörlere ve normal organlara emilen dozun heterojenliğini gösteren veriler, mevcut RPT'ler için gözden geçirilir; bu, tek bir uygulanan aktivite herkese uyar yaklaşımlarıyla güvenliği sağlarken, organ toleransına göre önemli sayıda hastaya düşük doz verildiğini kuvvetle önerir. RPT'yi planlamak için dozimetrinin kullanıldığı hastalar için iyileştirilmiş sonuçları kuvvetle öneren veriler sunulmaktadır. RPT'den emilen radyasyon dozunun ölçümündeki değişkenlikteki zorluklar vurgulanmıştır ve bunlar standardizasyonla en aza indirilmiştir. Dozimetri, ilk döngülerden sonra ek tedavilerin geri dönüşünün azaldığını gösterdiğinde dikkat edilmesi gereken noktalar belirlenir. Bireysel hastalarda doz artırımı ve optimizasyonu için ve RPT'nin güvenliği ve uzun vadeli tolere edilebilirliği konusunda alanı daha iyi bilgilendirmek için, harici ışın radyoterapisi ile kombinasyon tedavilerine yardımcı olmak amacıyla, yeni ortaya çıkan bir Ulusal Onkolojik Dozimetri Kaydı'nda klinik uygulamada dozimetri verilerinin giderek daha fazla toplandığı ileriye yönelik bir yol önerilmektedir. RPT hızla gelişmektedir ancak genellikle tedavi edici değildir. Dozimetrinin, RPT'yi yaşamı uzatmaktan tedavi ediciye taşıma yolunda ileriye giden yolun önemli bir parçası olacağını düşünüyoruz."
     },
     {
-      "pmid": "42692825",
-      "title": "A Conversation Between Stefano Fanti and Johannes Czernin.",
-      "abstract": "",
+      "pmid": "42728102",
+      "title": "Pivotal Phase 3 Theranostic Trials: Future Indications.",
+      "abstract": "There are several ongoing phase 3 randomized trials involving radiopharmaceutical therapies (RPTs), which are expected to provide practice-changing evidence in the coming years. This review covers ongoing pivotal phase 3 trials designed to expand applications for RPTs. Trials such as PSMAcTION, STAMPEDE2, PSMA-DC, and PSMAddition focus on prostate-specific membrane antigen-directed treatments for patients with prostate cancer. NETTER-3, ACTION-1, and COMPOSE evaluate somatostatin receptor-targeted radiopharmaceuticals in individuals with neuroendocrine neoplasms. Expansion of phase 3 registration trials has been driven by increased industry investment. Ongoing RPT phase 3 trials serve as hybrids, merging nuclear medicine procedures for imaging and drug application with oncology-driven standards of care and endpoint definitions. Despite the challenges associated with this integration, phase 3 RPT trials present an opportunity to revolutionize future cancer care by introducing and expanding the use of image-guided RPT.",
       "journal": "J Nucl Med",
-      "date": "2026-09-03",
+      "date": "2026-09-11",
       "authors": [
-        "Fanti S",
-        "Czernin J"
+        "Fendler WP",
+        "Hofman MS",
+        "Kersting D",
+        "Calais J",
+        "Hope TA"
       ],
       "pubtypes": [
-        "Journal Article"
+        "Journal Article",
+        "Review"
       ],
-      "doi": "10.2967/jnumed.126.273735",
+      "doi": "10.2967/jnumed.125.269486",
       "journal_tier": 1,
       "impact": 9.1,
-      "section": "genel",
-      "score": 100.0,
+      "section": "abdomen",
+      "score": 110.0,
       "score_parts": {
         "journal": 100,
-        "pubtype": 0,
+        "pubtype": 10,
         "recency": 0.0
       },
-      "tier": 2,
-      "abstract_tr": ""
+      "tier": 1,
+      "abstract_tr": "Radyofarmasötik tedavileri (RPT'ler) içeren ve önümüzdeki yıllarda uygulamayı değiştirecek kanıtlar sağlaması beklenen, devam eden birçok faz 3 randomize çalışma bulunmaktadır. Bu inceleme, RPT'lere yönelik uygulamaları genişletmek için tasarlanmış, devam eden önemli aşama 3 denemelerini kapsamaktadır. PSMAcTION, STAMPEDE2, PSMA-DC ve PSMAddition gibi denemeler, prostat kanserli hastalar için prostata özgü membran antijenine yönelik tedavilere odaklanmaktadır. NETTER-3, ACTION-1 ve COMPOSE, nöroendokrin neoplazmaları olan bireylerde somatostatin reseptörünü hedef alan radyofarmasötikleri değerlendirir. Aşama 3 tescil denemelerinin genişletilmesi, artan sanayi yatırımlarından kaynaklanmıştır. Devam eden RPT faz 3 denemeleri, görüntüleme ve ilaç uygulamasına yönelik nükleer tıp prosedürlerini onkoloji odaklı bakım standartları ve son nokta tanımlarıyla birleştirerek hibrit görevi görmektedir. Bu entegrasyonla ilgili zorluklara rağmen, faz 3 RPT denemeleri, görüntü kılavuzlu RPT'nin kullanımını tanıtarak ve genişleterek gelecekteki kanser tedavisinde devrim yaratma fırsatı sunuyor."
     },
     {
-      "pmid": "42692824",
-      "title": "Radioiodine Spill-Induced Radiation Dermatitis.",
-      "abstract": "",
+      "pmid": "42728101",
+      "title": "Radiopharmaceutical Combination Therapies in Advanced Prostate Cancer.",
+      "abstract": "Prostate-specific membrane antigen is a transmembrane glycoprotein that is highly specific and overexpressed in prostate cancer cells, making it an effective target for theranostics. Despite significant progress in recent years with prostate-specific membrane antigen-targeting radiopharmaceutical therapies that show promising anticancer activity and safety profiles, resistance is inevitable and underpins the need for combinatorial approaches. In this article, we discuss the progress made toward radiopharmaceutical therapy combination approaches, including those involving androgen receptor pathway inhibitors, poly(adenosine diphosphate-ribose) polymerase inhibitors, immunotherapy, and chemotherapy, that are under active investigation.",
       "journal": "J Nucl Med",
-      "date": "2026-09-03",
+      "date": "2026-09-11",
       "authors": [
-        "Jafarvand M",
-        "Schiepers C",
-        "Dalhbom M",
-        "Castellanos Rieger A",
-        "Maliha PG",
-        "Bahri S"
+        "Wang Y",
+        "McKenzie J",
+        "Sandhu S"
       ],
       "pubtypes": [
-        "Journal Article"
+        "Journal Article",
+        "Review"
       ],
-      "doi": "10.2967/jnumed.125.270585",
+      "doi": "10.2967/jnumed.125.269527",
       "journal_tier": 1,
       "impact": 9.1,
-      "section": "genel",
-      "score": 100.0,
+      "section": "abdomen",
+      "score": 110.0,
       "score_parts": {
         "journal": 100,
-        "pubtype": 0,
+        "pubtype": 10,
         "recency": 0.0
       },
-      "tier": 2,
-      "abstract_tr": ""
+      "tier": 1,
+      "abstract_tr": "Prostat spesifik membran antijeni, prostat kanseri hücrelerinde oldukça spesifik olan ve aşırı eksprese edilen bir transmembran glikoproteindir ve bu da onu teranostikler için etkili bir hedef haline getirir. Umut verici antikanser aktivitesi ve güvenlik profilleri gösteren prostata özgü membran antijenini hedef alan radyofarmasötik tedavilerde son yıllarda kaydedilen önemli ilerlemelere rağmen, direnç kaçınılmazdır ve kombinatoryal yaklaşımlara olan ihtiyacı desteklemektedir. Bu makalede, androjen reseptör yolu inhibitörleri, poli(adenosin difosfat-riboz) polimeraz inhibitörleri, immünoterapi ve kemoterapiyi içeren ve aktif olarak araştırılanlar dahil olmak üzere radyofarmasötik tedavi kombinasyon yaklaşımlarına yönelik kaydedilen ilerlemeyi tartışıyoruz."
     },
     {
-      "pmid": "42722444",
-      "title": "Comparison of Expert Reads Versus Local Clinical Reads of Amyloid PET Scans in the IDEAS Study.",
-      "abstract": "Amyloid-targeting therapies and growing reimbursement are expected to increase the clinical use of amyloid PET. The Imaging Dementia-Evidence for Amyloid Scanning (IDEAS) study captured more than 18,000 clinical scan interpretations from local radiologists and nuclear medicine physicians in the United States. This study aimed to evaluate the reliability of these interpretations by comparing local clinical reads of a representative sample of IDEAS scans to retrospective majority interpretations by expert readers. Methods: A representative subset of amyloid PET scans from the IDEAS study, 500 performed with each of the Food and Drug Administration-approved tracers (18F-florbetaben, 18F-florbetapir, 18F-flutemetamol) and previously interpreted by local readers, was assigned to vendor-selected panels of 3 expert readers (1 panel per tracer). The scan subset was stratified to match the overall study frequencies by participant age, level of cognitive impairment (mild cognitive impairment vs. dementia), positive or negative local interpretation, and PET facility type. Expert readers performed visual interpretations using tracer-specific criteria, blinded to clinical and demographic data. Cohen κ assessed agreement between local reads and the majority expert panel reads, and Fleiss κ measured overall agreement among expert readers. Results: Expert panels interpreted 1497 scans. Participants were a median age of 75 y (range, 65-96 y), 51.4% were female, and 60.5% had mild cognitive impairment. Local readers interpreted 60.9% of scans as positive and 39.1% as negative. Across all radiotracers, agreement between majority expert and local reads was good (κ = 0.76; 95% CI, 0.73-0.80), with 86.6% (790/912) agreement for positive scans and 91.5% (535/585) agreement for negative scans. Agreement did not vary significantly by PET tracer (κ = 0.73-0.78). Agreement between individual experts and local readers was also good (pairwise κ = 0.61-0.78), and agreement within the expert reader group was similarly high (κ = 0.79; 95% CI, 0.77-0.81). Lower concordance between local and expert reads was associated with low local reader confidence (P < 0.001). Conclusion: We found good agreement between local readers and the majority assessment of 3-member expert panels. Visual interpretation of amyloid PET can be performed in a real-world clinical setting with high reliability.",
+      "pmid": "42728100",
+      "title": "The Case for Nuclear Oncology Specialization: Training Physicians for Radiopharmaceutical Therapy.",
+      "abstract": "Radiopharmaceutical therapy has always been an essential component of nuclear medicine practice; however, its rapid expansion in the past 5-10 y has created an increased demand for practitioners trained in this specific subspecialty, which we term nuclear oncology. This review discusses training needs for nuclear oncology or theranostics, the approach to education in theranostics, and soft skills for theranostics practice. This review is intended to guide and facilitate ongoing discussion and debate on this important topic.",
       "journal": "J Nucl Med",
-      "date": "2026-09-10",
+      "date": "2026-09-11",
       "authors": [
-        "Chiotis K",
-        "Windon CC",
-        "Siegel BA",
-        "Apgar C",
-        "Carrillo M",
-        "Gareen I",
-        "Hanna L",
-        "March A",
-        "Romanoff J",
-        "Gatsonis C",
-        "Rabinovici GD"
+        "Gotthardt M",
+        "Jadvar H",
+        "Mankoff D"
       ],
       "pubtypes": [
-        "Journal Article"
+        "Journal Article",
+        "Review"
       ],
-      "doi": "10.2967/jnumed.126.272571",
+      "doi": "10.2967/jnumed.125.269607",
       "journal_tier": 1,
       "impact": 9.1,
-      "section": "genel",
-      "score": 100.0,
+      "section": "egitim",
+      "score": 110.0,
       "score_parts": {
         "journal": 100,
-        "pubtype": 0,
+        "pubtype": 10,
         "recency": 0.0
       },
-      "tier": 2,
-      "abstract_tr": ""
+      "tier": 1,
+      "abstract_tr": "Radyofarmasötik tedavi her zaman nükleer tıp uygulamasının önemli bir bileşeni olmuştur; ancak son 5-10 yıldaki hızlı genişlemesi nükleer onkoloji dediğimiz bu özel alt uzmanlık alanında eğitim almış uygulayıcılara olan talebin artmasına neden oldu. Bu derleme nükleer onkoloji veya teranostik için eğitim ihtiyaçlarını, teranostik eğitimine yaklaşımı ve teranostik uygulamaları için sosyal becerileri tartışmaktadır. Bu incelemenin amacı, bu önemli konu üzerinde devam eden tartışma ve tartışmaları yönlendirmek ve kolaylaştırmaktır."
     }
   ]
 }
