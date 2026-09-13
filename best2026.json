@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-12T09:51:43+00:00",
+  "updated": "2026-09-13T10:51:11+00:00",
   "year": 2026,
   "count": 60,
   "criteria": "Etki faktörü (sonra etki skoru) sıralı",
@@ -1437,6 +1437,69 @@
       "abstract_tr": ""
     },
     {
+      "pmid": "42731391",
+      "title": "Quantitative mapping from conventional MRI using self-supervised physics-guided deep learning: Applications to a large-scale, clinically heterogeneous dataset.",
+      "abstract": "Magnetic resonance imaging (MRI) is a cornerstone of clinical neuroimaging, yet conventional MRIs provide qualitative information heavily dependent on scanner hardware and acquisition settings. While quantitative MRI (qMRI) offers intrinsic tissue parameters, the requirement for specialized acquisition protocols and reconstruction algorithms restricts its availability and impedes large-scale biomarker research. This study presents a self-supervised physics-guided deep learning framework to infer quantitative T1, T2, and proton-density (PD) maps directly from widely available clinical conventional T1-weighted, T2-weighted, and FLAIR MRIs. The framework was trained and evaluated on a large-scale, clinically heterogeneous dataset comprising 4121 scan sessions acquired at our institution over six years on four different 3 T MRI scanner systems, capturing real-world clinical variability. The framework integrates Bloch-based signal models directly into the training objective. Across more than 600 test sessions, the generated maps exhibited white matter and gray matter values consistent with literature ranges. Additionally, the generated maps showed invariance to scanner hardware and acquisition protocol groups, with inter-group coefficients of variation ≤ 1.1%. Subject-specific analyses demonstrated excellent voxel-wise reproducibility across scanner systems and sequence parameters, with Pearson r and concordance correlation coefficients exceeding 0.82 for T1 and T2. Mean relative voxel-wise differences were low across all quantitative parameters, especially for T2 (< 6%). These results indicate that the proposed framework can robustly transform diverse clinical conventional MRI data into quantitative maps, potentially paving the way for large-scale quantitative biomarker research. Code and model weights are available at: https://github.com/JelmervanL/Quantitative-mapping-from-conventional-MRI.",
+      "journal": "Med Image Anal",
+      "date": "2026-09-09",
+      "authors": [
+        "van Lune J",
+        "Mandija S",
+        "van der Heide O",
+        "Maspero M",
+        "Schilder MB",
+        "Dankbaar JW",
+        "van den Berg CAT",
+        "Sbrizzi A"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.media.2026.104295",
+      "journal_tier": 1,
+      "impact": 10.7,
+      "section": "girisim",
+      "score": 100.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 2,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42731390",
+      "title": "Learning efficient non-rigid registration in k-space for accelerated Magnetic Resonance Imaging.",
+      "abstract": "Non-rigid motion estimation at high temporal resolution is essential for dynamic and real-time Magnetic Resonance Imaging (MRI), yet remains challenging due to the spatio-temporal sampling limitations of accelerated acquisitions. Conventional motion estimation pipelines typically reconstruct images before performing registration. However, the high undersampling required to achieve high temporal resolution degrades image quality and introduces artifacts that corrupt the spatial structures needed for reliable feature matching. Direct k-space-based registration approaches bypass image reconstruction, but often require auxiliary prior information or rely on localized processing, limiting their ability to capture global contextual representations while increasing workflow and computational complexity. In this work, we propose the Local-All Pass Attention Network (LAPANet), an image registration framework for direct non-rigid motion estimation from accelerated multi-coil k-space data. LAPANet learns a global, multi-scale decomposition of the spectral phase structure, where non-rigid motion is modeled as spatially varying phase variations in k-space. Evaluated on cardiac MRI, the proposed method accurately recovers motion from as few as 2 lines/frame in a Cartesian trajectory and 3 spokes/frame in a non-Cartesian radial trajectory. Under these high acceleration settings, existing image-based and k-space-based registration methods fail to maintain anatomically plausible motion estimates. LAPANet enables reconstruction-free non-rigid motion estimation at sub-5 ms temporal resolution with inference times suitable for online deployment, supporting real-time tracking, motion-robust reconstruction, and interventional MRI.",
+      "journal": "Med Image Anal",
+      "date": "2026-09-08",
+      "authors": [
+        "Ghoul A",
+        "Hammernik K",
+        "Lingg A",
+        "Krumm P",
+        "Rueckert D",
+        "Gatidis S",
+        "Küstner T"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.media.2026.104296",
+      "journal_tier": 1,
+      "impact": 10.7,
+      "section": "girisim",
+      "score": 100.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 2,
+      "abstract_tr": ""
+    },
+    {
       "pmid": "42678842",
       "title": "Annotation-efficient Semi-supervised and Active Learning for Breast Cancer Segmentation in DCE-MRI.",
       "abstract": "Accurate breast tumor segmentation in dynamic contrast-enhanced magnetic resonance imaging (DCE-MRI) is vital for diagnosis and treatment planning. Despite advances in deep learning, its performance remains constrained by the need for extensive voxel-wise annotations. To mitigate this burden, we propose an annotation-efficient framework that jointly optimizes data selection, unlabeled data utilization, and data augmentation under limited annotation budgets. A diversity-aware uncertainty query (DUQ) strategy guides the annotation by jointly modeling data representativeness and informativeness through a representative candidate selector (RCS) and an uncertainty-based decision maker (UDM), ensuring efficient and targeted labeling. To leverage unlabeled data, a cross-decoder consistency regularization (CDCR) mechanism enforces prediction consistency between two decoders with distinct attention mechanisms, enhancing robustness and confidence. Furthermore, a lesion transplant augmentation (LTA) technique synthesizes anatomically valid pseudo samples by transplanting lesion regions from labeled to unlabeled images, effectively expanding training diversity. Experiments were conducted on two DCE-MRI datasets with biopsy-proven breast cancers, one as internal dataset containing 676 subjects and the other as external dataset with 344 subjects. Comparative and ablation results demonstrate that our framework consistently outperforms state-of-the-art semi-supervised and active learning methods, providing a simple yet effective annotation-efficient solution for breast cancer segmentation in DCE-MRI. The code is publicly available at https: //github.com/zouquanling/DUQ_and_CDCR.",
@@ -1821,62 +1884,6 @@
       },
       "tier": 1,
       "abstract_tr": "Radyofarmasötik tedavileri (RPT'ler) içeren ve önümüzdeki yıllarda uygulamayı değiştirecek kanıtlar sağlaması beklenen, devam eden birçok faz 3 randomize çalışma bulunmaktadır. Bu inceleme, RPT'lere yönelik uygulamaları genişletmek için tasarlanmış, devam eden önemli aşama 3 denemelerini kapsamaktadır. PSMAcTION, STAMPEDE2, PSMA-DC ve PSMAddition gibi denemeler, prostat kanserli hastalar için prostata özgü membran antijenine yönelik tedavilere odaklanmaktadır. NETTER-3, ACTION-1 ve COMPOSE, nöroendokrin neoplazmaları olan bireylerde somatostatin reseptörünü hedef alan radyofarmasötikleri değerlendirir. Aşama 3 tescil denemelerinin genişletilmesi, artan sanayi yatırımlarından kaynaklanmıştır. Devam eden RPT faz 3 denemeleri, görüntüleme ve ilaç uygulamasına yönelik nükleer tıp prosedürlerini onkoloji odaklı bakım standartları ve son nokta tanımlarıyla birleştirerek hibrit görevi görmektedir. Bu entegrasyonla ilgili zorluklara rağmen, faz 3 RPT denemeleri, görüntü kılavuzlu RPT'nin kullanımını tanıtarak ve genişleterek gelecekteki kanser tedavisinde devrim yaratma fırsatı sunuyor."
-    },
-    {
-      "pmid": "42728101",
-      "title": "Radiopharmaceutical Combination Therapies in Advanced Prostate Cancer.",
-      "abstract": "Prostate-specific membrane antigen is a transmembrane glycoprotein that is highly specific and overexpressed in prostate cancer cells, making it an effective target for theranostics. Despite significant progress in recent years with prostate-specific membrane antigen-targeting radiopharmaceutical therapies that show promising anticancer activity and safety profiles, resistance is inevitable and underpins the need for combinatorial approaches. In this article, we discuss the progress made toward radiopharmaceutical therapy combination approaches, including those involving androgen receptor pathway inhibitors, poly(adenosine diphosphate-ribose) polymerase inhibitors, immunotherapy, and chemotherapy, that are under active investigation.",
-      "journal": "J Nucl Med",
-      "date": "2026-09-11",
-      "authors": [
-        "Wang Y",
-        "McKenzie J",
-        "Sandhu S"
-      ],
-      "pubtypes": [
-        "Journal Article",
-        "Review"
-      ],
-      "doi": "10.2967/jnumed.125.269527",
-      "journal_tier": 1,
-      "impact": 9.1,
-      "section": "abdomen",
-      "score": 110.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": 10,
-        "recency": 0.0
-      },
-      "tier": 1,
-      "abstract_tr": "Prostat spesifik membran antijeni, prostat kanseri hücrelerinde oldukça spesifik olan ve aşırı eksprese edilen bir transmembran glikoproteindir ve bu da onu teranostikler için etkili bir hedef haline getirir. Umut verici antikanser aktivitesi ve güvenlik profilleri gösteren prostata özgü membran antijenini hedef alan radyofarmasötik tedavilerde son yıllarda kaydedilen önemli ilerlemelere rağmen, direnç kaçınılmazdır ve kombinatoryal yaklaşımlara olan ihtiyacı desteklemektedir. Bu makalede, androjen reseptör yolu inhibitörleri, poli(adenosin difosfat-riboz) polimeraz inhibitörleri, immünoterapi ve kemoterapiyi içeren ve aktif olarak araştırılanlar dahil olmak üzere radyofarmasötik tedavi kombinasyon yaklaşımlarına yönelik kaydedilen ilerlemeyi tartışıyoruz."
-    },
-    {
-      "pmid": "42728100",
-      "title": "The Case for Nuclear Oncology Specialization: Training Physicians for Radiopharmaceutical Therapy.",
-      "abstract": "Radiopharmaceutical therapy has always been an essential component of nuclear medicine practice; however, its rapid expansion in the past 5-10 y has created an increased demand for practitioners trained in this specific subspecialty, which we term nuclear oncology. This review discusses training needs for nuclear oncology or theranostics, the approach to education in theranostics, and soft skills for theranostics practice. This review is intended to guide and facilitate ongoing discussion and debate on this important topic.",
-      "journal": "J Nucl Med",
-      "date": "2026-09-11",
-      "authors": [
-        "Gotthardt M",
-        "Jadvar H",
-        "Mankoff D"
-      ],
-      "pubtypes": [
-        "Journal Article",
-        "Review"
-      ],
-      "doi": "10.2967/jnumed.125.269607",
-      "journal_tier": 1,
-      "impact": 9.1,
-      "section": "egitim",
-      "score": 110.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": 10,
-        "recency": 0.0
-      },
-      "tier": 1,
-      "abstract_tr": "Radyofarmasötik tedavi her zaman nükleer tıp uygulamasının önemli bir bileşeni olmuştur; ancak son 5-10 yıldaki hızlı genişlemesi nükleer onkoloji dediğimiz bu özel alt uzmanlık alanında eğitim almış uygulayıcılara olan talebin artmasına neden oldu. Bu derleme nükleer onkoloji veya teranostik için eğitim ihtiyaçlarını, teranostik eğitimine yaklaşımı ve teranostik uygulamaları için sosyal becerileri tartışmaktadır. Bu incelemenin amacı, bu önemli konu üzerinde devam eden tartışma ve tartışmaları yönlendirmek ve kolaylaştırmaktır."
     }
   ]
 }
