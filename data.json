@@ -1,11 +1,71 @@
 {
-  "updated": "2026-09-13T11:19:41+00:00",
+  "updated": "2026-09-14T11:19:46+00:00",
   "window_days": 1,
   "datetype": "edat",
-  "count": 46,
+  "count": 59,
   "tier1_count": 0,
   "source": "PubMed (NCBI E-utilities)",
   "articles": [
+    {
+      "pmid": "42733315",
+      "title": "The Challenge of Rendering Abnormalities Accurately Using Deep Learning-Based Reconstruction in Accelerated Brain MRI: A Disproportionate Loss of Clinically Relevant Image Information at Higher Rates of Acceleration.",
+      "abstract": "OBJECTIVES: Deep learning (DL)-based reconstruction methods can substantially accelerate MRI acquisition while preserving image quality relative to traditional techniques. However, concerns remain regarding their ability to accurately reconstruct abnormalities at higher acceleration factors. This study quantitatively assesses the impact of higher-order acceleration on image quality in DL-reconstructed brain MRI in normal and abnormal cases, emphasizing the utmost need to render abnormal findings accurately. MATERIALS AND METHODS: Raw k-space image data from 5847 brain MRI examinations (fastMRI) were used. A radiologist-annotated subset of 1001 examinations (fastMRI+) served as the test set; the remainder were split into training (n=3715) and validation (n=1131) sets. Images were retrospectively undersampled (acceleration factors 2 to 12) and reconstructed using an end-to-end variational network. Image quality metrics, including normalized mean squared error (NMSE), structural similarity index measure (SSIM), and peak signal-to-noise ratio (PSNR), were computed within bounding-box annotations containing abnormalities and in size-matched normal control regions, and at the slice-level. The region-by-acceleration interaction was tested using linear mixed-effects models with a subject-level random intercept. RESULTS: All metrics demonstrated progressive degradation with increasing acceleration across slice-level and bounding-box-level analyses. At lower acceleration rates, bounding boxes with and without abnormalities showed comparable image quality. However, above 4-fold acceleration, NMSE within abnormal regions exhibited a notably sharper increase with rising acceleration compared to normal regions, while abnormal regions demonstrated a significantly faster decline in PSNR and SSIM. This nonsymmetric information loss was particularly evident for NMSE at higher acceleration rates. The region-by-acceleration interaction was statistically significant for all 3 metrics at both levels (all adjusted P<0.001), with the effect largest and most consistent for NMSE. CONCLUSIONS: Our findings demonstrate a disproportionate, pathology-localized degradation of reconstruction quality as acceleration increases. This emphasizes the importance of rigorous clinical assessment of image quality in DL-MRI reconstruction, particularly at higher undersampling rates, highlighting the need for reconstruction strategies tailored to maintaining diagnostically critical features.",
+      "journal": "Invest Radiol",
+      "date": "2026-09-14",
+      "authors": [
+        "Chen S",
+        "Johnson PM",
+        "Lui YW"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1097/RLI.0000000000001308",
+      "journal_tier": 1,
+      "impact": 7.0,
+      "section": "girisim",
+      "score": 102.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 0,
+        "recency": 2.0
+      },
+      "tier": 2,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42732027",
+      "title": "Comparison of pre-treatment 68Ga-DOTA-WL12 and 18F-FDG uptake in predicting response to chemo-immunotherapy in head and neck squamous cell carcinoma.",
+      "abstract": "OBJECTIVE: To investigate the value of 68Ga-DOTA-WL12 PET/CT in predicting programmed death-ligand 1 (PD-L1) expression and chemo-immunotherapy response in patients with head and neck squamous cell carcinoma (HNSCC). MATERIALS AND METHODS: This prospective study enrolled participants with histologically confirmed HNSCC who underwent both 68Ga-DOTA-WL12 and 18F-FDG PET/CT. PD-L1 expression was evaluated by immunohistochemistry; lesion-based analysis compared maximum standard uptake value (SUVmax) of both tracers between PD-L1-positive and -negative lesions. Patients receiving chemo-immunotherapy with available follow-up were included in the patient-based analysis for treatment response. Nonparametric tests, DeLong test, and multivariable logistic regression were employed. RESULTS: Thirty-four participants(median age, 59 years [range, 32-82 years]; 26 men) were enrolled. In the lesion-based analysis (37 lesions from 34 patients), 68Ga-DOTA-WL12 SUVmax was significantly higher in PD-L1-positive than -negative lesions (2.7 vs 1.7, p < 0.001), whereas 18F-FDG uptake did not differ. For identifying PD-L1 positivity, the AUC for SUVmax of 68Ga-DOTA-WL12 was significantly higher than that of 18F-FDG (0.92 vs 0.69, p = 0.003). Of these participants, 17 received chemo-immunotherapy with complete follow-up and were included in the treatment response analysis. 68Ga-DOTA-WL12 SUVmax was significantly higher in responders than non-responders (2.7 vs 1.3, p = 0.002), while 18F-FDG metrics were not discriminatory. 68Ga-DOTA-WL12 SUVmax was the only independent predictor of treatment response (Odds ratios, 12.42; 95% CI: 2.08, 74.15; p = 0.006). CONCLUSION: 68Ga-DOTA-WL12 PET/CT outperforms 18F-FDG PET/CT in assessing PD-L1 expression and predicting chemo-immunotherapy response in HNSCC. 68Ga-DOTA-WL12 SUVmax is a promising imaging biomarker for selecting patients likely to benefit from chemo-immunotherapy. KEY POINTS: Question Whether 68Ga-DOTA-WL12 PET/CT can non-invasively predict PD-L1 expression and chemo-immunotherapy response in patients with HNSCC remains unclear. Findings 68Ga-DOTA-WL12 PET/CT was superior to 18F-FDG PET/CT in identifying PD-L1-positive lesions and independently predicting response to chemo-immunotherapy in HNSCC. Clinical relevance Pre-treatment 68Ga-DOTA-WL12 PET/CT helps identify PD-L1-positive lesions and predict chemo-immunotherapy response, providing an imaging biomarker and supporting stratification for patients with HNSCC.",
+      "journal": "Eur Radiol",
+      "date": "2026-09-12",
+      "authors": [
+        "Yao Y",
+        "Zhang M",
+        "Luo C",
+        "Zhao M",
+        "Kou Y",
+        "Lu H",
+        "Jiang X",
+        "Wu X",
+        "Cheng Z"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1007/s00330-026-12865-1",
+      "journal_tier": 1,
+      "impact": 4.7,
+      "section": "genel",
+      "score": 100.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 2,
+      "abstract_tr": ""
+    },
     {
       "pmid": "42731391",
       "title": "Quantitative mapping from conventional MRI using self-supervised physics-guided deep learning: Applications to a large-scale, clinically heterogeneous dataset.",
@@ -167,81 +227,6 @@
       "abstract_tr": ""
     },
     {
-      "pmid": "42732027",
-      "title": "Comparison of pre-treatment 68Ga-DOTA-WL12 and 18F-FDG uptake in predicting response to chemo-immunotherapy in head and neck squamous cell carcinoma.",
-      "abstract": "OBJECTIVE: To investigate the value of 68Ga-DOTA-WL12 PET/CT in predicting programmed death-ligand 1 (PD-L1) expression and chemo-immunotherapy response in patients with head and neck squamous cell carcinoma (HNSCC). MATERIALS AND METHODS: This prospective study enrolled participants with histologically confirmed HNSCC who underwent both 68Ga-DOTA-WL12 and 18F-FDG PET/CT. PD-L1 expression was evaluated by immunohistochemistry; lesion-based analysis compared maximum standard uptake value (SUVmax) of both tracers between PD-L1-positive and -negative lesions. Patients receiving chemo-immunotherapy with available follow-up were included in the patient-based analysis for treatment response. Nonparametric tests, DeLong test, and multivariable logistic regression were employed. RESULTS: Thirty-four participants(median age, 59 years [range, 32-82 years]; 26 men) were enrolled. In the lesion-based analysis (37 lesions from 34 patients), 68Ga-DOTA-WL12 SUVmax was significantly higher in PD-L1-positive than -negative lesions (2.7 vs 1.7, p < 0.001), whereas 18F-FDG uptake did not differ. For identifying PD-L1 positivity, the AUC for SUVmax of 68Ga-DOTA-WL12 was significantly higher than that of 18F-FDG (0.92 vs 0.69, p = 0.003). Of these participants, 17 received chemo-immunotherapy with complete follow-up and were included in the treatment response analysis. 68Ga-DOTA-WL12 SUVmax was significantly higher in responders than non-responders (2.7 vs 1.3, p = 0.002), while 18F-FDG metrics were not discriminatory. 68Ga-DOTA-WL12 SUVmax was the only independent predictor of treatment response (Odds ratios, 12.42; 95% CI: 2.08, 74.15; p = 0.006). CONCLUSION: 68Ga-DOTA-WL12 PET/CT outperforms 18F-FDG PET/CT in assessing PD-L1 expression and predicting chemo-immunotherapy response in HNSCC. 68Ga-DOTA-WL12 SUVmax is a promising imaging biomarker for selecting patients likely to benefit from chemo-immunotherapy. KEY POINTS: Question Whether 68Ga-DOTA-WL12 PET/CT can non-invasively predict PD-L1 expression and chemo-immunotherapy response in patients with HNSCC remains unclear. Findings 68Ga-DOTA-WL12 PET/CT was superior to 18F-FDG PET/CT in identifying PD-L1-positive lesions and independently predicting response to chemo-immunotherapy in HNSCC. Clinical relevance Pre-treatment 68Ga-DOTA-WL12 PET/CT helps identify PD-L1-positive lesions and predict chemo-immunotherapy response, providing an imaging biomarker and supporting stratification for patients with HNSCC.",
-      "journal": "Eur Radiol",
-      "date": "2026-09-12",
-      "authors": [
-        "Yao Y",
-        "Zhang M",
-        "Luo C",
-        "Zhao M",
-        "Kou Y",
-        "Lu H",
-        "Jiang X",
-        "Wu X",
-        "Cheng Z"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1007/s00330-026-12865-1",
-      "journal_tier": 1,
-      "impact": 4.7,
-      "section": "genel",
-      "score": 100.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 2,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42728370",
-      "title": "Radium-223 decreases PD-L1 expression in bone metastases: A study with [89Zr]Zr-atezolizumab PET and immunohistological correlation.",
-      "abstract": "PURPOSE: Most patients with metastatic castration-resistant prostate cancer (mCRPC) do not benefit from treatment with immune checkpoint inhibitors targeting programmed cell death (ligand) 1 (PD-(L)1). Radiation might improve response to immunotherapy by increasing the immunogenicity of prostate cancer. The objective of this study was to investigate radium-223-mediated changes in the micro- and macroenvironment of mCRPC. METHODS: In this prospective, multicenter study (ICTRP NL-OMON26890), 28 patients with mCRPC and predominantly bone metastases were treated with radium-223, according to standard-of-care. Primary endpoint was failure-free survival (FFS). Imaging included sequential positron emission tomography (PET) with gallium-68 prostate-specific membrane antigen (68Ga-PSMA) and zirconium-89 atezolizumab (89Zr-atezolizumab) to quantify whole-body expression of PD-L1 in vivo (SUVmean/max). Paired PET analysis included nine patients. The immune status of patients was characterized in biopsies from bone metastases and in blood using (multiplex) immunohistochemistry (IHC) and flow cytometry, respectively. Sequential biopsy analysis included two patients. RESULTS: 89Zr-atezolizumab uptake in 68Ga-PSMA positive bone metastases showed high intra- and inter-patient heterogeneity. In the total volume of 68Ga-PSMA-positive bone lesions, the median SUVmean of 89Zr-atezolizumab was 2.5 (IQR 0.9-3.4) at baseline and 0.9 (IQR 0.5-2.5) after three cycles of radium-223, which was higher than the physiological uptake in bone marrow at baseline and after treatment with radium-223. After three cycles of radium-223, 89Zr-atezolizumab uptake decreased in bone metastases, independent of response on 68Ga-PSMA PET, and the number of lymphocytes in tumor tissue and blood decreased concomitantly. CONCLUSIONS: Treatment of mCRPC bone metastases with radium-223 results in a significant decrease of in vivo PD-L1-expression on PET imaging and a decrease in immune cells in bone metastases and blood. These findings indicate that treatment with alpha emitting radium-223 alters the immune microenvironment, thereby potentially reducing the efficacy of PD-(L)1 inhibitors.",
-      "journal": "Eur J Nucl Med Mol Imaging",
-      "date": "2026-09-12",
-      "authors": [
-        "Ling SW",
-        "de Jong A",
-        "Gorris M",
-        "Segbers M",
-        "Graven L",
-        "van Driel M",
-        "van Leenders G",
-        "Isebia K",
-        "de Hooge ML",
-        "Hamberg P",
-        "Mehra N",
-        "van Brakel M",
-        "de Wit R",
-        "Debets R",
-        "de Vries E",
-        "Brabander T",
-        "de Vries J",
-        "van der Veldt A"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1007/s00259-026-08175-9",
-      "journal_tier": 1,
-      "impact": 8.6,
-      "section": "abdomen",
-      "score": 100.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 2,
-      "abstract_tr": ""
-    },
-    {
       "pmid": "42731757",
       "title": "Testosterone monitoring and supplementation in patients with intermediate- or high-risk prostate cancer treated with 6-36 months of androgen deprivation therapy and radiotherapy: a systematic literature review.",
       "abstract": "Androgen deprivation therapy (ADT) combined with curative-intent radiotherapy is a cornerstone for intermediate- and high-risk localised prostate cancer, yet the clinical relevance of testosterone (T) monitoring and the safety of testosterone replacement therapy (TRT) in patients with persistent symptoms of hypogonadism remain uncertain. This systematic review synthesised evidence addressing four key questions: the prognostic role of baseline T, the impact of on-treatment T levels, the kinetics and determinants of T recovery after ADT, and the oncologic safety of TRT following curative treatment. Following PRISMA 2020 guidelines, major databases and conference proceedings were searched through May 2026 using Perplexity Computer (Anthropic Sonnet 4.6 / GPT-5 family models) under the direct supervision of the principal investigators. Twenty-nine studies were included. Baseline T was not associated with oncological outcomes but was a strong predictor of T recovery after treatment. On-treatment T suppression to < 20 ng/dL (<0.7 nmol/L), rather than the conventional 50 ng/dL (<1.7 nmol/L) threshold, was associated with improved oncologic outcomes. Recovery of T after ADT was heterogeneous and dependent on ADT duration. Non-castrate levels were typically achieved within 6-15 months, but full eugonadal recovery often required years and was incomplete in a substantial proportion of patients. In addition, older age, lower baseline T, and GnRH agonist use delayed recovery, whereas oral GnRH antagonists enabled faster normalisation. Very limited observational data suggest that TRT after curative treatment does not increase recurrence risk, although evidence in high-risk patients treated with ADT and radiotherapy is sparse. These findings support routine on-treatment T monitoring and highlight the need for prospective evaluation of TRT in this setting.",
@@ -334,6 +319,69 @@
       "score_parts": {
         "journal": 60,
         "pubtype": 10,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42732821",
+      "title": "Risk and prognostic survival analysis of radiation-related second malignant neoplasms following radiotherapy for nasopharyngeal carcinoma: intensity-modulated radiotherapy and two-dimensional radiotherapy.",
+      "abstract": "BACKGROUND AND PURPOSE: To clarify the long-term risk and prognostic implications of second malignant neoplasms (SMNs) among nasopharyngeal carcinoma survivors in intensity-modulated radiotherapy (IMRT) and historical two-dimensional radiotherapy (2D-RT) cohorts. MATERIALS AND METHODS: We extracted data from 8,032 and 39,118 initially diagnosed, non-metastatic NPC patients treated with IMRT ± chemotherapy and 2D-RT ± chemotherapy, respectively. Risk factors for SMN development in the IMRT cohort were evaluated using univariate and multivariable Cox proportional hazards models. Survival outcomes were assessed using the Kaplan-Meier method. RESULTS: Radiation-related SMNs occurred in 212 patients in the IMRT cohort and 247 patients in the historical 2D-RT cohort, corresponding to observed crude proportions of 3.49% and 0.63%, respectively. In the IMRT cohort, the 5-, 10-, and 15-year competing-risk cumulative incidences were 1.15%, 3.09%, and 6.66%, respectively. Median latency to SMN diagnosis was 7.3 years in the IMRT cohort and 9.5 years in the historical 2D-RT cohort. The oral cavity and sinonasal region were common SMN sites, and squamous cell carcinoma was the predominant histology. In multivariable Cox analysis within the IMRT cohort, male sex, age ≤ 50 years, and smoking history were independently associated with SMN development. Among patients with SMNs, 5-year overall survival was 38.6% in the IMRT cohort and 29.3% in the historical 2D-RT cohort. CONCLUSIONS: In this cross-era institutional study, the IMRT cohort showed a numerically higher observed crude incidence and shorter latency of radiation-related SMNs than the historical 2D-RT cohort. Male sex, younger age, and smoking history were independent risk factors for SMN development. Among patients who developed SMNs, observed overall survival estimates were higher in the IMRT cohort.",
+      "journal": "Radiother Oncol",
+      "date": "2026-09-13",
+      "authors": [
+        "Huang R",
+        "Lou J",
+        "Li C",
+        "Xu Z",
+        "Xu Q",
+        "Zhou Y",
+        "Cai W",
+        "Ye L",
+        "Zhang L",
+        "Xi M",
+        "Chen L"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.radonc.2026.111776",
+      "journal_tier": 2,
+      "impact": 4.9,
+      "section": "genel",
+      "score": 60.0,
+      "score_parts": {
+        "journal": 60,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42732820",
+      "title": "Patient-clinician symptom agreement before and after radiotherapy for prostate cancer: results from the randomized HYPO-RT-PC study.",
+      "abstract": "INTRODUCTION: Patient-reported outcome measures are recommended for monitoring treatment-related symptoms during radiotherapy (RT) for prostate cancer (PC). However, agreement between patient- and clinician-reported symptoms is often low. This study aimed to evaluate agreement between patient- and clinician-reported symptoms before and after radiotherapy for prostate cancer. MATERIALS AND METHODS: This sub-study of the HYPO-RT-PC trial included 1,180 men with PC randomized to conventional (2.0 Gy × 39 fx) or ultra-hypofractionated (6.1 Gy × 7 fx) RT between 2005 and 2015. Urinary, bowel, and sexual symptoms were assessed using the Prostate Cancer Symptom Scale questionnaire at baseline, at the end of RT, and at 1, 2, and 4 years post-treatment; clinicians evaluated symptoms at the same intervals using the Radiation Therapy Oncology Group scale. RESULTS: At each follow-up, 580-910 paired assessments were analyzed. Spearman's correlation between patient and clinician ratings ranged from -0.091 to 0.750. Clinicians consistently underrated urinary and bowel symptoms, overrated sexual activity, but results for erectile dysfunction were inconsistent. CONCLUSION: Agreement between patient- and clinician-reported RT-related symptoms was generally poor. These discrepancies highlight the limitations of relying solely on clinician assessment. They also underscore the need to integrate patient-reported outcome measures systematically into clinical practice and research to ensure accurate symptom monitoring and patient-centered care.",
+      "journal": "Radiother Oncol",
+      "date": "2026-09-13",
+      "authors": [
+        "Rönningås U",
+        "Beckman L",
+        "Wennstig AK",
+        "Fransson P"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.radonc.2026.111780",
+      "journal_tier": 2,
+      "impact": 4.9,
+      "section": "girisim",
+      "score": 60.0,
+      "score_parts": {
+        "journal": 60,
+        "pubtype": 0,
         "recency": 0.0
       },
       "tier": 3,
@@ -1363,6 +1411,232 @@
       "abstract_tr": ""
     },
     {
+      "pmid": "42734046",
+      "title": "Hemoptysis recurrence after arterial embolization in lung cancer: a 5-year retrospective cohort study.",
+      "abstract": "PURPOSE: Hemoptysis is a life-threatening complication in patients with lung malignancy. Although arterial embolization provides reliable immediate hemostasis, recurrence rates in the oncologic setting substantially exceed those observed in benign disease. Whether routine baseline clinical and tumor characteristics can identify patients at higher risk of post-embolization rebleeding remains unclear. METHODS: We conducted a 5-year single-center retrospective cohort study of 126 consecutive patients with histologically confirmed lung cancer treated with arterial embolization for hemoptysis (January 2021-December 2025). The hemoptysis-free interval was estimated using the Kaplan-Meier method and compared across subgroups using the log-rank test. Associations between prespecified covariates and recurrence were assessed using multivariable Cox proportional hazards regression. Embolic materials included metallic microcoils, polyvinyl alcohol particles (300-700 μm), gelatin sponge, and combinations thereof. Five covariates were examined: tumor diameter, cancer stage, histological subtype, age, and sex. RESULTS: Technical success was achieved in 124 of 126 procedures (98.4%), and clinical success (no hemoptysis recurrence within 30 days) in 121 of 124 technically successful procedures (97.6%). Over a median follow-up of 31.3 months (interquartile range: 14.6-47.8 months), hemoptysis recurrence occurred in 32 patients (25.4%), with a median time to recurrence of 13.9 months. Recurrence proportions across embolic agent groups were considered descriptive only because allocation was not protocolized (log-rank P = 0.45). On multivariable Cox analysis, none of the five prespecified covariates showed a statistically detectable association with recurrence: tumor diameter [hazard ratio (HR): 1.00; 95% confidence interval (CI): 0.98-1.01; P = 0.783], cancer stage (HR: 1.21; 95% CI: 0.75-1.94; P = 0.432), squamous cell vs. other histology (HR: 0.80; 95% CI: 0.36-1.77; P = 0.585), age (HR: 0.98; 95% CI: 0.94-1.02; P = 0.299), and male sex (HR: 1.12; 95% CI: 0.53-2.36; P = 0.761). The events-per-variable ratio was approximately 6.4. Major complications occurred in 2.4% of patients (3/126), with no clinically adjudicated procedure-related mortality or permanent neurological sequelae. CONCLUSION: In this exploratory single-center cohort, arterial embolization achieved high technical success with an acceptable short-term safety profile. The evaluated baseline clinical and tumor characteristics were not statistically associated with hemoptysis recurrence; however, the limited event count and absence of key angiographic and oncologic treatment variables preclude definitive conclusions regarding their predictive value. CLINICAL SIGNIFICANCE: Standard tumor burden descriptors alone appeared insufficient for post-embolization recurrence risk stratification in this exploratory cohort. Future models should prioritize angiographic vascular anatomy, collateral supply, prior thoracic radiotherapy, and concurrent systemic anticancer therapy.",
+      "journal": "Diagn Interv Radiol",
+      "date": "2026-09-14",
+      "authors": [
+        "Li H",
+        "Wu X"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.4274/dir.2026.264035",
+      "journal_tier": 3,
+      "impact": 1.7,
+      "section": "girisim",
+      "score": 37.0,
+      "score_parts": {
+        "journal": 35,
+        "pubtype": 0,
+        "recency": 2.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42734045",
+      "title": "Computed tomography-guided percutaneous thermal ablation of pulmonary metastases: safety, local tumor control, and factors associated with treatment failure-a single-centre experience.",
+      "abstract": "PURPOSE: This study aimed to evaluate local tumor control, procedural safety, factors associated with treatment failure, and overall survival after computed tomography (CT)-guided percutaneous thermal ablation of pulmonary metastases. METHODS: This retrospective single-center study included 21 consecutive patients (10 men, 11 women; median age 58 years) who underwent CT-guided thermal ablation of pulmonary metastases by cryoablation (n = 14), microwave ablation (n = 5), or radiofrequency ablation (n = 2). Local tumor control at 6, 12, and 24 months was estimated by Kaplan-Meier analysis, and factors associated with failure were assessed by univariate analysis. Median follow-up was 50.8 months. RESULTS: Technical success was 100%. Kaplan-Meier local control was 89.9% at 6 months and 84.7% at both 12 and 24 months. Five patients (23.8%) developed local failure. On univariate analysis, larger tumor size (P = 0.042), ablation-zone diameter (P = 0.008), and ablation margin (P = 0.009) were associated with local failure; these associations are exploratory and hypothesis-generating. Pneumothorax, the only complication, occurred in 57.1% of patients, with no procedure-related mortality. The number of probes was not correlated with complications (Ρ = -0.033, P = 0.886), and pneumothorax was not associated with nodule location (laterality P = 1.000, lobe category P = 0.396, pleural proximity P = 0.659). Five-year overall survival was 82.5% (95% confidence interval, 46.1-95.3%). Distant disease progression occurred in 66.7%, and repeat ablation of the treated lesion was required in 1 patient (4.8%). CONCLUSION: CT-guided thermal ablation of pulmonary metastases achieved favorable local control with an acceptable safety profile. Larger tumor size was associated with local failure on univariate analysis. These associations are exploratory and, given the small number of events, require validation in larger multicenter cohorts. CLINICAL SIGNIFICANCE: In real-world practice, CT-guided thermal ablation offers a safe, lung-preserving option for selected patients with pulmonary metastases, achieving durable local control and favorable long-term survival. Tumor size may help refine patient selection and procedural planning.",
+      "journal": "Diagn Interv Radiol",
+      "date": "2026-09-14",
+      "authors": [
+        "Ageeli A",
+        "Bamatraf A",
+        "Hassan A",
+        "Alsaadi MJ",
+        "Bauones S"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.4274/dir.2026.264255",
+      "journal_tier": 3,
+      "impact": 1.7,
+      "section": "girisim",
+      "score": 37.0,
+      "score_parts": {
+        "journal": 35,
+        "pubtype": 0,
+        "recency": 2.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42734038",
+      "title": "Comparing clinicopathological factors and quantitative background parenchymal enhancement to predict pathological complete response after neoadjuvant chemotherapy in breast cancer.",
+      "abstract": "PURPOSE: To investigate the predictive value of deep learning (nnU-Net)-based fully automated quantitative background parenchymal enhancement (BPE) metrics and clinicopathological factors for pathological complete response (pCR) in patients with breast cancer receiving neoadjuvant chemotherapy (NACT). METHODS: This retrospective study included 142 patients who underwent NACT and had pre- and post-treatment magnetic resonance imaging (MRI) scans. The breast parenchyma and tumors were automatically segmented using nnU-Net. Quantitative BPE metrics were calculated using multiple threshold values based on signal intensity and the signal enhancement ratio. Clinicopathological variables analyzed included age, menopausal status, body mass index (BMI), hormone receptor (HR) status (estrogen receptor, progesterone receptor), human epidermal growth factor receptor 2 (HER2) status, Ki-67 proliferation index, histologic grade, tumor and breast parenchymal volumes, and pre-/post-treatment pathological findings. The BPE parameters and clinicopathological data were evaluated using univariate and multivariable logistic regression models. Pre-specified subgroup analyses were performed using Mann-Whitney U tests, and the independence of subgroup BPE signals from menopausal status and BMI was tested in adjusted logistic models. RESULTS: None of the evaluated quantitative BPE metrics showed a statistically significant association with pCR in the overall cohort (P > 0.05 for all). In pre-specified exploratory subgroup analyses, however, baseline BPE was significantly lower among patients with pCR in the HER2-negative subgroup (median 49.8% vs. 59.3%, P = 0.014) and in HR-positive disease (median 44.6% vs. 58.3%, P = 0.003), and a relative increase in BPE during NACT was associated with pCR in HR-positive tumors (P = 0.017). In triple-negative disease, lower post-treatment BPE accompanied pCR (P = 0.010). Multivariable analysis revealed that a high Ki-67 proliferation index [adjusted odds ratio (OR) 1.03 per unit, 95% confidence interval (CI), 1.01-1.04; P = 0.0029] and HER2 positivity (adjusted OR: 2.99, 95% CI, 1.19-7.56; P = 0.020) were strong and independent predictors of pCR. The diagnostic performance [area under the curve (AUC)] of the multivariable model was 0.76 (95% CI: 0.69-0.83). CONCLUSION: Even when standardized and reproducible quantitative measurements are obtained via deep learning algorithms, BPE dynamics did not independently predict pCR in this single-center cohort; however, hypothesis-generating subgroup-specific signals in HER2-negative and HR-positive disease warrant prospective evaluation. Traditional clinicopathological features reflecting the tumor's intrinsic biology remain the most reliable determinants in this cohort for predicting NACT response. CLINICAL SIGNIFICANCE: Although custom-trained deep learning models enable standardized and reproducible quantification of BPE, our findings show that BPE dynamics do not independently predict pCR across an unselected NACT cohort. Even a model combining BPE with clinicopathological variables achieved only modest cross-validated discrimination (AUC ≈ 0.69), and this discrimination was fully accounted for by Ki-67 and HER2 status; quantitative BPE added no incremental value. These results do not support the standalone clinical use of quantitative BPE for early response prediction. Clinicians should continue to prioritize intrinsic tumor markers (Ki-67 index, HER2 status), but the subgroup-specific BPE signals observed here are exploratory and require prospective validation before any clinical application.",
+      "journal": "Diagn Interv Radiol",
+      "date": "2026-09-14",
+      "authors": [
+        "Öncü S",
+        "Yüce M",
+        "Temur Aİ"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.4274/dir.2026.264036",
+      "journal_tier": 3,
+      "impact": 1.7,
+      "section": "meme",
+      "score": 37.0,
+      "score_parts": {
+        "journal": 35,
+        "pubtype": 0,
+        "recency": 2.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42734035",
+      "title": "Diagnostic and interventional radiology interest groups: comparison of members, activities, and funding.",
+      "abstract": "PURPOSE: Medical school interest groups (IGs) increase student exposure to medical specialties. The organization of US radiology IGs (RIGs), particularly the representation of diagnostic radiology and interventional radiology, is not well described. This study aimed to determine RIG members, activities, and funding, and to compare diagnostic and interventional RIGs. METHODS: A 28-question survey was sent to RIG leaders at 154 medical schools, addressing the number and demographics of RIG members, activities organized, and funding amounts and allocations. Descriptive statistics and comparisons between diagnostic, interventional, and hybrid RIGs were performed. RESULTS: In total, 40 responses were received, representing diagnostic (26%, 9/34), interventional (15%, 5/34), and hybrid (59%, 20/34) RIGs (not all responses reported a category). The median membership number was 30 (range: 10-100), with a median of 65 for diagnostic, 37.5 for interventional, and 25 for hybrid RIGs (P = 0.01). Most (18/27, 67%) RIGs received low funding (< USD 500/year): 0% (0/18) for diagnostic, 16.7% (3/18) for interventional, and 83.3% (15/18) for hybrid RIGs (P = 0.02). Low-funding RIGs reported a median of 30 members compared with 45 in high-funding RIGs (≥ USD 500/year) (P = 0.015). Approximately equal membership between men and women was reported by 5/17 (29.4%) low-funding RIGs and 7/8 (87.5%) high-funding RIGs (P = 0.020). Moreover, 6/18 (33.3%) low-funding groups \"strongly agreed\" that their RIG positively influenced members to pursue radiology, compared with 7/9 (77.8%) high-funding groups (P = 0.034). CONCLUSION: The findings show that diagnostic, interventional, and hybrid RIGs differ in membership and funding. Greater funding is correlated with larger membership, stronger reported influence on specialty choice, and roughly equal membership between men and women. CLINICAL SIGNIFICANCE: Boosting RIG funding may enhance recruitment into radiology. RIGs provide students with opportunities to explore radiology as a career, with career panels being the most commonly organized activity.",
+      "journal": "Diagn Interv Radiol",
+      "date": "2026-09-14",
+      "authors": [
+        "Heiser D",
+        "Neitzel E",
+        "Irwin C",
+        "Johnson-Alvarado K",
+        "vanSonnenberg E"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.4274/dir.2026.264041",
+      "journal_tier": 3,
+      "impact": 1.7,
+      "section": "girisim",
+      "score": 37.0,
+      "score_parts": {
+        "journal": 35,
+        "pubtype": 0,
+        "recency": 2.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42734034",
+      "title": "Development and angiographic utilization of the Oncopig liver cancer model: a comprehensive pictorial review.",
+      "abstract": "Image-guided locoregional therapies are central to the management of liver cancer. Large-animal models are valuable preclinical tools for advancing interventional oncology because they allow testing with standard clinical imaging platforms and devices. The OncopigTM is a genetically engineered porcine model that enables site-specific tumor formation through inducible expression of KRASG12D and TP53R167H following exposure to Cre recombinase. This pictorial essay illustrates the technical methodology for liver tumor induction in Oncopigs and demonstrates the angiographic use of tumor-bearing animals for evaluation of transarterial therapies. Liver tumors were induced using an ex vivo transgene activation approach in which liver biopsy specimens were incubated with an adenoviral vector expressing Cre recombinase and injected percutaneously into the liver under ultrasound guidance. Tumor development occurred in 34/37 (92%) induction sites across 17 Oncopigs and was confirmed by contrast-enhanced computed tomography. Hepatic arteriography using standard clinical devices enabled selective catheterization of tumor-feeding arteries. This pictorial essay provides a technical guide for investigators studying liver-directed therapies in a translational large-animal model.",
+      "journal": "Diagn Interv Radiol",
+      "date": "2026-09-14",
+      "authors": [
+        "Elkhadragy L",
+        "Jordan LR",
+        "Blanco D",
+        "Guzman G",
+        "Gaba RC"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.4274/dir.2026.263989",
+      "journal_tier": 3,
+      "impact": 1.7,
+      "section": "girisim",
+      "score": 37.0,
+      "score_parts": {
+        "journal": 35,
+        "pubtype": 0,
+        "recency": 2.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42733970",
+      "title": "Short-term outcomes of Solaris self-expanding covered stent in iliac artery occlusive disease: a single-center retrospective cohort.",
+      "abstract": "PURPOSE: Endovascular therapy is the preferred treatment for most iliac artery lesions; however, outcomes in complex TransAtlantic Inter-Society Consensus II (TASC) C-D anatomy remain less consistent than in simpler disease. This study evaluated the short-term clinical and patency outcomes of the Solaris self-expanding covered stent in a real-world cohort of patients with iliac artery disease. METHODS: This single-center retrospective study included 99 consecutive patients (140 iliac arteries) treated with the Solaris self-expanding covered stent between October 2023 and December 2025. Demographic, lesion, procedural, and follow-up data were analyzed. Primary patency was estimated using the Kaplan-Meier method, and TASC A-B and TASC C-D lesions were compared using the log-rank test. RESULTS: The mean age was 63.4 ± 9.8 years, 82.8% of patients were men, and TASC C-D lesions accounted for 55.7% of treated arteries. A total of 184 covered stents were implanted, and technical success was 100%. Median follow-up was 278 days (range, 32-576 days). Estimated Kaplan-Meier primary patency was 100% at 6 months and 97.6% at 12 months, with no significant difference between TASC A-B and TASC C-D lesions (log-rank P = 0.206). Complete clinical improvement (Rutherford category 0) was achieved in 80.8% of patients, and 96.0% improved by at least one Rutherford category. Procedure-related complications were infrequent, and no procedure-related deaths occurred. CONCLUSION: In a real-world cohort with a high proportion of complex iliac lesions, the Solaris self-expanding covered stent demonstrated excellent technical success, durable short-term patency, and favorable clinical outcomes. CLINICAL SIGNIFICANCE: The Solaris self-expanding covered stent demonstrated high technical success, excellent 12-month patency, and meaningful symptom improvement in patients with iliac artery occlusive disease, including a substantial proportion of complex TASC C-D lesions. These real-world findings suggest that this device may provide a durable endovascular solution for challenging iliac anatomy while maintaining a favorable safety profile.",
+      "journal": "Diagn Interv Radiol",
+      "date": "2026-09-14",
+      "authors": [
+        "Tekdemir H",
+        "Beşler MS",
+        "Şener Alçın E",
+        "Canyiğit M"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.4274/dir.2026.264163",
+      "journal_tier": 3,
+      "impact": 1.7,
+      "section": "girisim",
+      "score": 37.0,
+      "score_parts": {
+        "journal": 35,
+        "pubtype": 0,
+        "recency": 2.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42732847",
+      "title": "RF safety assessment of dental retainers for human head MRI array coils at 9.4 T.",
+      "abstract": "In this work we developed a numerical workflow for evaluating radiofrequency (RF) safety for ultra-high field (UHF, 7 T and above) MRI with a local transmit array coil in the presence of conductive objects such as dental retainers. The proposed workflow includes evaluation of the B1+ distribution and peak Specific Absorption Rate (pSAR) for the standard circularly polarized modes, worst-case pSAR modes, and random RF modes. The workflow provides a safety margin, which limits the RF transmit power during MRI scanning. The proposed workflow is applicable to different array coils at different UHF strengths (e.g. 7 T, 9.4 T, 11.7 T, 14 T) as well as to other types of conductive objects (e.g., dental or neural implants). 16-element tight-fit transceiver and larger 16-element transmit-only head arrays were numerically evaluated at 9.4 T in the presence of the dental retainer. Updated safety margins were calculated for both arrays. In addition, we calculated Q-matrix and virtual observation point matrices, which facilitate the real-time SAR-monitoring and can be used for optimization of the B1+ homogeneity and SAR.",
+      "journal": "Magn Reson Imaging",
+      "date": "2026-09-13",
+      "authors": [
+        "Berezko EV",
+        "Solomakha GA",
+        "Avdievich NI",
+        "Scheffler K"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.mri.2026.110803",
+      "journal_tier": 3,
+      "impact": 2.1,
+      "section": "genel",
+      "score": 35.0,
+      "score_parts": {
+        "journal": 35,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42732683",
+      "title": "Direct Percutaneous Access of Renal Artery for Treatment of Hypertensive Emergency in a Patient with Solitary Kidney.",
+      "abstract": "",
+      "journal": "J Vasc Interv Radiol",
+      "date": "2026-09-13",
+      "authors": [
+        "Pebror T",
+        "Khatib F",
+        "Schmitz A",
+        "Madison M",
+        "LaRoche T",
+        "Ramkaransingh J"
+      ],
+      "pubtypes": [
+        "Letter"
+      ],
+      "doi": "10.1016/j.jvir.2026.109050",
+      "journal_tier": 2,
+      "impact": 3.2,
+      "section": "abdomen",
+      "score": 30.0,
+      "score_parts": {
+        "journal": 60,
+        "pubtype": -30,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
       "pmid": "42731619",
       "title": "Selective Arterial Embolization under Catheter-directed CT Angiography for Post-operative Urinoma in a 12-Month-Old Infant with Ectopic Ureter of Duplicated Renal Collecting System.",
       "abstract": "",
@@ -1438,6 +1712,85 @@
       "score": 30.0,
       "score_parts": {
         "journal": 60,
+        "pubtype": -30,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42733131",
+      "title": "Methodological Considerations on the Reproducibility and Interpretation of Superb Microvascular Imaging in Alopecia Areata.",
+      "abstract": "",
+      "journal": "J Ultrasound Med",
+      "date": "2026-09-13",
+      "authors": [
+        "Gu J",
+        "Shao J"
+      ],
+      "pubtypes": [
+        "Letter"
+      ],
+      "doi": "10.1002/jum.70465",
+      "journal_tier": 3,
+      "impact": 1.8,
+      "section": "genel",
+      "score": 5.0,
+      "score_parts": {
+        "journal": 35,
+        "pubtype": -30,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42733124",
+      "title": "Adjusting for BMI and Reconsidering Causal Direction in Ultrasound Elastography Studies of Chronic Venous Insufficiency.",
+      "abstract": "",
+      "journal": "J Ultrasound Med",
+      "date": "2026-09-13",
+      "authors": [
+        "Gu J",
+        "Shao J"
+      ],
+      "pubtypes": [
+        "Letter"
+      ],
+      "doi": "10.1002/jum.70469",
+      "journal_tier": 3,
+      "impact": 1.8,
+      "section": "genel",
+      "score": 5.0,
+      "score_parts": {
+        "journal": 35,
+        "pubtype": -30,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42733119",
+      "title": "Methodological Considerations Regarding Pelvic Ultrasound for Predicting Endometrial Neoplasia in Premenopausal Abnormal Uterine Bleeding.",
+      "abstract": "",
+      "journal": "J Ultrasound Med",
+      "date": "2026-09-13",
+      "authors": [
+        "Zaidi SKB",
+        "Nawaz A",
+        "Baber L"
+      ],
+      "pubtypes": [
+        "Letter"
+      ],
+      "doi": "10.1002/jum.70466",
+      "journal_tier": 3,
+      "impact": 1.8,
+      "section": "genel",
+      "score": 5.0,
+      "score_parts": {
+        "journal": 35,
         "pubtype": -30,
         "recency": 0.0
       },
