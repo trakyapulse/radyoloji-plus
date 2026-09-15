@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-14T11:19:46+00:00",
+  "updated": "2026-09-15T10:46:22+00:00",
   "year": 2026,
   "count": 60,
   "criteria": "Etki faktörü (sonra etki skoru) sıralı",
@@ -1500,6 +1500,37 @@
       "abstract_tr": ""
     },
     {
+      "pmid": "42735586",
+      "title": "SSAD: Prior-driven self-supervised staircase artifact denoising via diffeomorphic flow for volumetric medical image surface reconstruction.",
+      "abstract": "Accurate 3D surface reconstruction is indispensable for morphology-sensitive tasks in volumetric medical image analysis, such as clinical diagnosis and autonomous surgery. However, the discrete nature of volumetric scans only yields voxel-represented pseudo GT surface inherently affected by staircase artifacts, severely limiting reconstruction accuracy. Current methods attempt to suppress such artifacts via approximation or smoothing but fail to address the underlying geometry and remain fundamentally bounded by the fidelity of the pseudo GT. Therefore, we propose SSAD, a prior-driven self-supervised framework which redefines reconstruction as learning a diffeomorphic flow from boundary voxels to the coherent optimal surface. It formulates boundary voxels as sparsely perturbed points, denoising discrete manifolds by hierarchically aggregating multi-scale geometry-informed features and predicting point-wise structural refinements, making the denoising process an intrinsic diffeomorphic flow of boundary voxels themselves. SSAD achieves state-of-the-art performance on multiple benchmarks, with a 2.15%-22.27% improvement across various accuracy metrics compared to the top-tier counterparts. It coherently generalizes to unseen anatomical instances in a zero-shot manner, with an average increase of 4.02% in chamfer distance. Furthermore, SSAD demonstrates a super-resolution capability, with the accuracy of its reconstructed surfaces comparable to that achieved by voxel data at 2-5× the input resolution. Our code is available at https://github.com/SlimeChosen/SSAD.",
+      "journal": "Med Image Anal",
+      "date": "2026-09-09",
+      "authors": [
+        "Shi J",
+        "Zhang Z",
+        "Xing Y",
+        "Tang J",
+        "Ren X",
+        "Wang F",
+        "Liu R"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.media.2026.104300",
+      "journal_tier": 1,
+      "impact": 10.7,
+      "section": "genel",
+      "score": 100.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 2,
+      "abstract_tr": ""
+    },
+    {
       "pmid": "42678842",
       "title": "Annotation-efficient Semi-supervised and Active Learning for Breast Cancer Segmentation in DCE-MRI.",
       "abstract": "Accurate breast tumor segmentation in dynamic contrast-enhanced magnetic resonance imaging (DCE-MRI) is vital for diagnosis and treatment planning. Despite advances in deep learning, its performance remains constrained by the need for extensive voxel-wise annotations. To mitigate this burden, we propose an annotation-efficient framework that jointly optimizes data selection, unlabeled data utilization, and data augmentation under limited annotation budgets. A diversity-aware uncertainty query (DUQ) strategy guides the annotation by jointly modeling data representativeness and informativeness through a representative candidate selector (RCS) and an uncertainty-based decision maker (UDM), ensuring efficient and targeted labeling. To leverage unlabeled data, a cross-decoder consistency regularization (CDCR) mechanism enforces prediction consistency between two decoders with distinct attention mechanisms, enhancing robustness and confidence. Furthermore, a lesion transplant augmentation (LTA) technique synthesizes anatomically valid pseudo samples by transplanting lesion regions from labeled to unlabeled images, effectively expanding training diversity. Experiments were conducted on two DCE-MRI datasets with biopsy-proven breast cancers, one as internal dataset containing 676 subjects and the other as external dataset with 344 subjects. Comparative and ablation results demonstrate that our framework consistently outperforms state-of-the-art semi-supervised and active learning methods, providing a simple yet effective annotation-efficient solution for breast cancer segmentation in DCE-MRI. The code is publicly available at https: //github.com/zouquanling/DUQ_and_CDCR.",
@@ -1854,36 +1885,6 @@
       },
       "tier": 1,
       "abstract_tr": "Radyofarmasötik tedavinin (RPT) klinik önemi ve kullanımı giderek artmaktadır. Lenfomanın 131I-tositumomab (Bexxar) radyoimmünoterapisi gibi birinci nesil RPT'ler, radyasyon emilen doz katsayılarının hastadan hastaya heterojenliğiyle başa çıkmak üzere uygulanan aktivite seviyelerini ayarlamak için her hastada basitleştirilmiş tüm vücut dozimetrisini kullandı. Buna karşılık, ticari olarak başarılı olan 177Lu-vipivotid tetraksetan ve 177Lu-DOTATATE RPT'ler, hasta dozimetrisini içermeyen tek bir uygulanan aktivite-her şeye uyan tedavi yaklaşımı olarak verilmektedir. Dış ışın radyoterapi dozimetrisi yaklaşık 100 yıldır geliştirildi ve artık her tedavinin planlanmasında rutin olarak kullanılıyor. Bu makale, dış ışın radyoterapisi için tümör radyasyon doz-cevap verilerini gözden geçirerek, birçok yaygın kanserin, daha düşük radyasyon dozu yerine tam olarak verilen daha yüksek radyasyon dozuyla daha etkili bir şekilde tedavi edildiğini göstermektedir. En son teknolojiye sahip dozimetri yöntemleri kullanılarak tümörlere ve normal organlara emilen dozun heterojenliğini gösteren veriler, mevcut RPT'ler için gözden geçirilir; bu, tek bir uygulanan aktivite herkese uyar yaklaşımlarıyla güvenliği sağlarken, organ toleransına göre önemli sayıda hastaya düşük doz verildiğini kuvvetle önerir. RPT'yi planlamak için dozimetrinin kullanıldığı hastalar için iyileştirilmiş sonuçları kuvvetle öneren veriler sunulmaktadır. RPT'den emilen radyasyon dozunun ölçümündeki değişkenlikteki zorluklar vurgulanmıştır ve bunlar standardizasyonla en aza indirilmiştir. Dozimetri, ilk döngülerden sonra ek tedavilerin geri dönüşünün azaldığını gösterdiğinde dikkat edilmesi gereken noktalar belirlenir. Bireysel hastalarda doz artırımı ve optimizasyonu için ve RPT'nin güvenliği ve uzun vadeli tolere edilebilirliği konusunda alanı daha iyi bilgilendirmek için, harici ışın radyoterapisi ile kombinasyon tedavilerine yardımcı olmak amacıyla, yeni ortaya çıkan bir Ulusal Onkolojik Dozimetri Kaydı'nda klinik uygulamada dozimetri verilerinin giderek daha fazla toplandığı ileriye yönelik bir yol önerilmektedir. RPT hızla gelişmektedir ancak genellikle tedavi edici değildir. Dozimetrinin, RPT'yi yaşamı uzatmaktan tedavi ediciye taşıma yolunda ileriye giden yolun önemli bir parçası olacağını düşünüyoruz."
-    },
-    {
-      "pmid": "42728102",
-      "title": "Pivotal Phase 3 Theranostic Trials: Future Indications.",
-      "abstract": "There are several ongoing phase 3 randomized trials involving radiopharmaceutical therapies (RPTs), which are expected to provide practice-changing evidence in the coming years. This review covers ongoing pivotal phase 3 trials designed to expand applications for RPTs. Trials such as PSMAcTION, STAMPEDE2, PSMA-DC, and PSMAddition focus on prostate-specific membrane antigen-directed treatments for patients with prostate cancer. NETTER-3, ACTION-1, and COMPOSE evaluate somatostatin receptor-targeted radiopharmaceuticals in individuals with neuroendocrine neoplasms. Expansion of phase 3 registration trials has been driven by increased industry investment. Ongoing RPT phase 3 trials serve as hybrids, merging nuclear medicine procedures for imaging and drug application with oncology-driven standards of care and endpoint definitions. Despite the challenges associated with this integration, phase 3 RPT trials present an opportunity to revolutionize future cancer care by introducing and expanding the use of image-guided RPT.",
-      "journal": "J Nucl Med",
-      "date": "2026-09-11",
-      "authors": [
-        "Fendler WP",
-        "Hofman MS",
-        "Kersting D",
-        "Calais J",
-        "Hope TA"
-      ],
-      "pubtypes": [
-        "Journal Article",
-        "Review"
-      ],
-      "doi": "10.2967/jnumed.125.269486",
-      "journal_tier": 1,
-      "impact": 9.1,
-      "section": "abdomen",
-      "score": 110.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": 10,
-        "recency": 0.0
-      },
-      "tier": 1,
-      "abstract_tr": "Radyofarmasötik tedavileri (RPT'ler) içeren ve önümüzdeki yıllarda uygulamayı değiştirecek kanıtlar sağlaması beklenen, devam eden birçok faz 3 randomize çalışma bulunmaktadır. Bu inceleme, RPT'lere yönelik uygulamaları genişletmek için tasarlanmış, devam eden önemli aşama 3 denemelerini kapsamaktadır. PSMAcTION, STAMPEDE2, PSMA-DC ve PSMAddition gibi denemeler, prostat kanserli hastalar için prostata özgü membran antijenine yönelik tedavilere odaklanmaktadır. NETTER-3, ACTION-1 ve COMPOSE, nöroendokrin neoplazmaları olan bireylerde somatostatin reseptörünü hedef alan radyofarmasötikleri değerlendirir. Aşama 3 tescil denemelerinin genişletilmesi, artan sanayi yatırımlarından kaynaklanmıştır. Devam eden RPT faz 3 denemeleri, görüntüleme ve ilaç uygulamasına yönelik nükleer tıp prosedürlerini onkoloji odaklı bakım standartları ve son nokta tanımlarıyla birleştirerek hibrit görevi görmektedir. Bu entegrasyonla ilgili zorluklara rağmen, faz 3 RPT denemeleri, görüntü kılavuzlu RPT'nin kullanımını tanıtarak ve genişleterek gelecekteki kanser tedavisinde devrim yaratma fırsatı sunuyor."
     }
   ]
 }
