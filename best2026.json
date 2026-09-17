@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-16T10:34:34+00:00",
+  "updated": "2026-09-17T10:43:00+00:00",
   "year": 2026,
   "count": 60,
   "criteria": "Etki faktörü (sonra etki skoru) sıralı",
@@ -1826,6 +1826,36 @@
       "abstract_tr": ""
     },
     {
+      "pmid": "42748507",
+      "title": "GAA-DETR: Query-level gaze alignment for end-to-end lesion detection.",
+      "abstract": "Lesion detection is a fundamental task in medical image analysis. However, detectors trained only with bounding box supervision often develop boundary-biased attention and may overlook diagnostically relevant lesion content, which is closely related to false-positive predictions. To take a step toward addressing this limitation, we investigate expert gaze as an additional supervisory signal for lesion detection. We curate and release a large-scale gaze-enabled benchmark spanning three imaging modalities across five subsets, comprising 6148 images in total, with 2648 publicly released images paired with both gaze and lesion annotations. The dataset further records magnification information, allowing the modeling of diagnostic attention under multi-scale examination. Based on this resource, we propose Gaze-Aligned-Attention Detection Transformer (GAA-DETR), which integrates gaze through three components: an adaptive gaze kernel for magnification-aware heatmap generation, a query-level alignment strategy for associating detector queries with gaze supervision, and a GAGO loss that remains effective when gaze is available for only part of the training data. Extensive experiments across multiple datasets and detector families show that GAA-DETR consistently improves detection performance, reduces boundary-biased attention, and enhances interpretability. These results highlight the potential of clinically informed gaze supervision for reliable lesion detection. The dataset and code are available at https://github.com/YanKong0408/GAA-DETR.",
+      "journal": "Med Image Anal",
+      "date": "2026-09-09",
+      "authors": [
+        "Kong Y",
+        "Wang S",
+        "Yin Y",
+        "Wang Q",
+        "Fang Y",
+        "Shan C"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.media.2026.104298",
+      "journal_tier": 1,
+      "impact": 10.7,
+      "section": "girisim",
+      "score": 100.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 2,
+      "abstract_tr": ""
+    },
+    {
       "pmid": "42678842",
       "title": "Annotation-efficient Semi-supervised and Active Learning for Breast Cancer Segmentation in DCE-MRI.",
       "abstract": "Accurate breast tumor segmentation in dynamic contrast-enhanced magnetic resonance imaging (DCE-MRI) is vital for diagnosis and treatment planning. Despite advances in deep learning, its performance remains constrained by the need for extensive voxel-wise annotations. To mitigate this burden, we propose an annotation-efficient framework that jointly optimizes data selection, unlabeled data utilization, and data augmentation under limited annotation budgets. A diversity-aware uncertainty query (DUQ) strategy guides the annotation by jointly modeling data representativeness and informativeness through a representative candidate selector (RCS) and an uncertainty-based decision maker (UDM), ensuring efficient and targeted labeling. To leverage unlabeled data, a cross-decoder consistency regularization (CDCR) mechanism enforces prediction consistency between two decoders with distinct attention mechanisms, enhancing robustness and confidence. Furthermore, a lesion transplant augmentation (LTA) technique synthesizes anatomically valid pseudo samples by transplanting lesion regions from labeled to unlabeled images, effectively expanding training diversity. Experiments were conducted on two DCE-MRI datasets with biopsy-proven breast cancers, one as internal dataset containing 676 subjects and the other as external dataset with 344 subjects. Comparative and ablation results demonstrate that our framework consistently outperforms state-of-the-art semi-supervised and active learning methods, providing a simple yet effective annotation-efficient solution for breast cancer segmentation in DCE-MRI. The code is publicly available at https: //github.com/zouquanling/DUQ_and_CDCR.",
@@ -1888,36 +1918,6 @@
       },
       "tier": 2,
       "abstract_tr": "Girişimsel radyoloji (IR), prosedürel görüntüler ve alana özgü klinik bilgi üzerinde ortak akıl yürütmeyi gerektirir. Mevcut tıbbi erişimle artırılmış oluşturma (RAG) yöntemleri esas olarak metin odaklıdır veya genel tıbbi görüş-dil görevleri için tasarlanmıştır ve bu nedenle IR senaryoları için ince taneli görsel-metinsel kanıtların alınmasında sınırlı kalmaktadır. Bu sınırlamayı gidermek için, IR karar almayı desteklemek üzere çok modlu görüntüleme ve klinik metinden ortaklaşa yararlanan çok modlu bir RAG çerçevesi olan Girişimsel Tıbbi Yardım için Prototip Kılavuzlu Erişimi (PRIMA) sunuyoruz. PRIMA, anatomiye duyarlı görsel-metinsel hizalama ve modaliteyi koruyan temsil öğrenimi yoluyla çok modlu bir IR bilgi dizini oluşturur. Daha sonra, IR kavramlarını düzenlemek için etki alanı bilgili prototip öğrenimini tanıtarak, hem sorgu benzerliğini hem de prototip benzeşimini kullanarak kanıtları yeniden sıralayan prototip kılavuzlu alımı mümkün kılar. Literatürde derlenen ve klinik olarak toplanan IR veri kümeleri üzerinde kapsamlı değerlendirmeler yapıyoruz. Deneysel sonuçlar, PRIMA'nın mevcut RAG temel değerlerine kıyasla üretim kalitesini, soru yanıtlama doğruluğunu ve uzmanlar tarafından değerlendirilen klinik yorumlanabilirliği sürekli olarak iyileştirdiğini göstermektedir. Bu bulgular, girişimsel radyolojide multimodal bilgi yardımı için klinik temelli prototip rehberliğinde erişimin etkinliğini göstermektedir. İlgili kaynaklar https://github.com/StonHamA/PRIMA adresinde mevcuttur."
-    },
-    {
-      "pmid": "42685172",
-      "title": "Multi-Granularity Graph-Mamba Multi-Instance Learning for Unlabeled Autofluorescence Whole-Slide Image Classification.",
-      "abstract": "Multi-instance learning (MIL) has significantly advanced AI-assisted cancer diagnosis using histochemically stained whole-slide images (WSIs). However, acquiring such WSIs is time-consuming, labor-intensive, and environmentally unfriendly. To address this, we propose using unlabeled autofluorescence (UAF) WSIs as a cost-effective alternative for MIL-based diagnosis. We introduce a dedicated UAF WSI dataset, LCUHI-UAF, along with a matched H&E-stained WSI dataset, LCUHI-H&E, derived from the same tissue sections for direct comparison. To tackle the low signal-to-noise ratio and blurred morphological details in UAF images for classification tasks, we propose a novel Multi-Granularity Graph-Mamba (MGGM) MIL framework. In this framework, each WSI is represented as a graph constructed from the spatial coordinates of tissue instances, allowing graph convolution to capture local spatial dependencies while the Mamba architecture models long-range relationships. A multi-granularity mechanism is further proposed to enable comprehensive representation of hierarchical relationships among cell clusters and microenvironments within the tissue. Experiments on the paired lung cancer datasets LCUHI-H& E and LCUHI-UAF show that MGGM-MIL achieves top-performing results across two pre-trained feature settings. These results simultaneously confirm the viability of UAF-stained WSIs as a cost-effective substitute for H&E in cancer diagnosis. Additional evaluation on the Camelyon16 breast cancer dataset further validates the generalizability of MGGM-MIL across tissue types. Code is available at https://github.com/JiuyangDong/MGGMMIL.",
-      "journal": "IEEE Trans Med Imaging",
-      "date": "2026-09-02",
-      "authors": [
-        "Dong J",
-        "Lei Y",
-        "Jiang J",
-        "Li J",
-        "Zhou H",
-        "Zhang Y"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1109/TMI.2026.3729829",
-      "journal_tier": 1,
-      "impact": 10.6,
-      "section": "meme",
-      "score": 100.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 2,
-      "abstract_tr": "Çok örnekli öğrenme (MIL), histokimyasal olarak boyanmış tam slayt görüntülerini (WSI'ler) kullanarak yapay zeka destekli kanser teşhisini önemli ölçüde geliştirmiştir. Ancak bu tür WSI'ların edinilmesi zaman alıcıdır, emek yoğundur ve çevre dostu değildir. Bu sorunu çözmek için, MIL tabanlı tanıya uygun maliyetli bir alternatif olarak etiketlenmemiş otofloresan (UAF) WSI'lerin kullanılmasını öneriyoruz. Doğrudan karşılaştırma için aynı doku kesitlerinden türetilen, özel bir UAF WSI veri seti olan LCUHI-UAF'ı ve eşleşen H&E boyalı WSI veri seti olan LCUHI-H&E'yi sunuyoruz. Sınıflandırma görevleri için UAF görüntülerindeki düşük sinyal-gürültü oranının ve bulanık morfolojik ayrıntıların üstesinden gelmek için yeni bir Çok Parçalı Grafiği-Mamba (MGGM) MIL çerçevesi öneriyoruz. Bu çerçevede, her WSI, doku örneklerinin uzaysal koordinatlarından oluşturulan bir grafik olarak temsil edilir ve Mamba mimarisi uzun menzilli ilişkileri modellerken grafik evrişiminin yerel uzaysal bağımlılıkları yakalamasına olanak tanır. Doku içindeki hücre kümeleri ve mikro ortamlar arasındaki hiyerarşik ilişkilerin kapsamlı bir şekilde temsil edilmesini sağlamak için çok parçacıklı bir mekanizma da önerilmiştir. LCUHI-H&E ve LCUHI-UAF eşleştirilmiş akciğer kanseri veri kümeleri üzerinde yapılan deneyler, MGGM-MIL'in önceden eğitilmiş iki özellik ayarında en iyi performansı gösteren sonuçlara ulaştığını göstermektedir. Bu sonuçlar aynı zamanda UAF lekeli WSI'lerin kanser tanısında H&E'nin uygun maliyetli bir alternatifi olarak uygulanabilirliğini doğrulamaktadır. Camelyon16 meme kanseri veri seti üzerinde yapılan ek değerlendirmeler, MGGM-MIL'nin doku tipleri arasında genelleştirilebilirliğini daha da doğrulamaktadır. Kod https://github.com/JiuyangDong/MGGMMIL adresinde mevcuttur."
     }
   ]
 }
