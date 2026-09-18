@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-17T10:43:00+00:00",
+  "updated": "2026-09-18T10:18:23+00:00",
   "year": 2026,
   "count": 60,
   "criteria": "Etki faktörü (sonra etki skoru) sıralı",
@@ -1856,27 +1856,29 @@
       "abstract_tr": ""
     },
     {
-      "pmid": "42678842",
-      "title": "Annotation-efficient Semi-supervised and Active Learning for Breast Cancer Segmentation in DCE-MRI.",
-      "abstract": "Accurate breast tumor segmentation in dynamic contrast-enhanced magnetic resonance imaging (DCE-MRI) is vital for diagnosis and treatment planning. Despite advances in deep learning, its performance remains constrained by the need for extensive voxel-wise annotations. To mitigate this burden, we propose an annotation-efficient framework that jointly optimizes data selection, unlabeled data utilization, and data augmentation under limited annotation budgets. A diversity-aware uncertainty query (DUQ) strategy guides the annotation by jointly modeling data representativeness and informativeness through a representative candidate selector (RCS) and an uncertainty-based decision maker (UDM), ensuring efficient and targeted labeling. To leverage unlabeled data, a cross-decoder consistency regularization (CDCR) mechanism enforces prediction consistency between two decoders with distinct attention mechanisms, enhancing robustness and confidence. Furthermore, a lesion transplant augmentation (LTA) technique synthesizes anatomically valid pseudo samples by transplanting lesion regions from labeled to unlabeled images, effectively expanding training diversity. Experiments were conducted on two DCE-MRI datasets with biopsy-proven breast cancers, one as internal dataset containing 676 subjects and the other as external dataset with 344 subjects. Comparative and ablation results demonstrate that our framework consistently outperforms state-of-the-art semi-supervised and active learning methods, providing a simple yet effective annotation-efficient solution for breast cancer segmentation in DCE-MRI. The code is publicly available at https: //github.com/zouquanling/DUQ_and_CDCR.",
-      "journal": "IEEE Trans Med Imaging",
-      "date": "2026-09-01",
+      "pmid": "42753301",
+      "title": "When Grouped Cyclic Shift meets masked image modeling: Effective pre-training for data-scarce 3D ultrasound analysis tasks.",
+      "abstract": "The inherent data scarcity in 3D ultrasound analysis demands data-efficient self-supervised learning (SSL) methods, yet prevalent approaches are often data-intensive. To bridge this gap, we present Grouped Cyclic Shift Masked Image Modeling (GCSMIM), a masked image modeling (MIM) pre-training framework designed for this low-data regime. GCSMIM employs a data-efficient architecture, where a convolutional neural network (CNN) backbone operates in shallow, high-resolution layers for hierarchical feature extraction, while a multilayer perceptron (MLP) operates in the deep, low-resolution layers to capture long-range dependencies. This design efficiently enhances feature mixing and captures long-range contextual information, providing structured spatial interaction without self-attention in the deep encoder stages. To further improve the data efficiency of MLPs, we inject human-designed inductive bias with a parameter-free Grouped Cyclic Shift (GCS) operation. A key challenge, however, is that naively applying shifts within MIM causes mask-feature misalignment. We solve this with a novel Mask-Guided Feature Reformation (MGFR) mechanism, which synchronously shifts both the features and the mask, then selectively reintegrates features from the original spatial context, thereby preserving consistency between shifted features and mask states. A Sparse MLP (SMLP) further processes features at mask-identified valid positions during pre-training. Pre-trained on a large-scale dataset of over 1000 3D ultrasound volumes, GCSMIM achieves its clearest gains in the evaluated lower-label setting. Under the stated same-hardware protocols, it also has a shorter fine-tuning step time, lower inference latency, and lower peak allocated memory than a closely related hierarchical CNN-ViT MIM baseline. These findings support label-efficient transfer, particularly under limited annotation budgets. Code is publicly available at https://github.com/MohuaChou/GCSMIM.git.",
+      "journal": "Med Image Anal",
+      "date": "2026-09-07",
       "authors": [
-        "Feng Z",
-        "Zou Q",
-        "Xie Y",
-        "Cai W",
-        "Zhong S",
-        "Xu Z",
-        "Wang Y"
+        "Zhou R",
+        "Li Y",
+        "Liang T",
+        "Xiao C",
+        "Wu C",
+        "Wang T",
+        "Yu J",
+        "Lin M",
+        "Zhou SK"
       ],
       "pubtypes": [
         "Journal Article"
       ],
-      "doi": "10.1109/TMI.2026.3729235",
+      "doi": "10.1016/j.media.2026.104292",
       "journal_tier": 1,
-      "impact": 10.6,
-      "section": "girisim",
+      "impact": 10.7,
+      "section": "yapayzeka",
       "score": 100.0,
       "score_parts": {
         "journal": 100,
@@ -1884,32 +1886,30 @@
         "recency": 0.0
       },
       "tier": 2,
-      "abstract_tr": "Dinamik kontrastlı manyetik rezonans görüntülemede (DCE-MRI) doğru meme tümörü segmentasyonu, tanı ve tedavi planlaması için hayati öneme sahiptir. Derin öğrenmedeki ilerlemelere rağmen performansı, kapsamlı voksel bazında açıklamalara duyulan ihtiyaç nedeniyle kısıtlı olmaya devam ediyor. Bu yükü hafifletmek için, sınırlı ek açıklama bütçeleri altında veri seçimini, etiketlenmemiş veri kullanımını ve veri artırmayı ortaklaşa optimize eden, açıklama açısından verimli bir çerçeve öneriyoruz. Çeşitliliğe duyarlı bir belirsizlik sorgusu (DUQ) stratejisi, veri temsililiğini ve bilgilendiriciliğini temsili bir aday seçici (RCS) ve belirsizliğe dayalı bir karar verici (UDM) aracılığıyla ortaklaşa modelleyerek, verimli ve hedefli etiketleme sağlayarak ek açıklamaya rehberlik eder. Etiketlenmemiş verilerden yararlanmak için kod çözücüler arası tutarlılık düzenleme (CDCR) mekanizması, farklı dikkat mekanizmalarına sahip iki kod çözücü arasındaki tahmin tutarlılığını güçlendirerek sağlamlığı ve güveni artırır. Ayrıca, bir lezyon nakli büyütme (LTA) tekniği, lezyon bölgelerini etiketli görüntülerden etiketsiz görüntülere naklederek anatomik olarak geçerli sahte örnekleri sentezler ve eğitim çeşitliliğini etkili bir şekilde genişletir. Biyopsi ile kanıtlanmış meme kanserlerini içeren iki DCE-MRI veri seti üzerinde deneyler yapıldı; biri 676 denek içeren dahili veri seti, diğeri ise 344 denek içeren harici veri seti idi. Karşılaştırmalı ve ablasyon sonuçları, çerçevemizin sürekli olarak en son teknolojiye sahip yarı denetimli ve aktif öğrenme yöntemlerinden daha iyi performans gösterdiğini ve DCE-MRI'da meme kanseri segmentasyonu için basit ama etkili, açıklama açısından verimli bir çözüm sağladığını göstermektedir. Kod, https://github.com/zouquanling/DUQ_and_CDCR adresinde halka açıktır."
+      "abstract_tr": ""
     },
     {
-      "pmid": "42678841",
-      "title": "Prototype-guided Multimodal Retrieval for Knowledge-assisted Interventional Radiology.",
-      "abstract": "Interventional radiology (IR) requires joint reasoning over procedural images and domain-specific clinical knowledge. Existing medical retrieval-augmented generation (RAG) methods are mainly text-oriented or designed for general medical vision-language tasks, and therefore remain limited in retrieving fine-grained visual-textual evidence for IR scenarios. To address this limitation, we present Prototype-guided Retrieval for Interventional Medical Assistance (PRIMA), a multimodal RAG framework that jointly leverages multimodal imaging and clinical text to support IR decision-making. PRIMA constructs a multimodal IR knowledge index through anatomy-aware visual-textual alignment and modality-preserving representation learning. It then introduces domain-informed prototype learning to organize IR concepts, enabling prototype-guided retrieval that re-ranks evidence using both query similarity and prototype affinity. We conduct comprehensive evaluations on literature-curated and clinically collected IR datasets. Experimental results show that PRIMA consistently improves generation quality, question-answering accuracy and expert-rated clinical interpretability compared with existing RAG baselines. These findings demonstrate the effectiveness of clinically grounded prototype-guided retrieval for multimodal knowledge assistance in interventional radiology. Related resources are available at https://github.com/StonHamA/PRIMA.",
-      "journal": "IEEE Trans Med Imaging",
-      "date": "2026-09-01",
+      "pmid": "42753300",
+      "title": "Multi-contrast MRI acceleration via post-reconstruction fusion.",
+      "abstract": "Magnetic Resonance Imaging (MRI) is the gold standard for neuroimaging, yet routine brain protocols require multiple high-resolution 3D contrasts (e.g., T1, T2, and T2-FLAIR), resulting in long scan times. Many deep-learning acceleration methods assume access to raw k-space and rely on non-Cartesian trajectories or pseudo-random undersampling patterns, which can require specialized sequence implementations. In this work, we present a practical protocol-level acceleration framework enabled by complementary orthogonal Cartesian acquisitions that can be executed using standard scanner settings. Specifically, each contrast is acquired with reduced phase-encoding matrix size along a contrast-specific axis (a fourfold reduction along one contrast-specific phase-encoding dimension), producing rapidly acquired volumes with axis-specific resolution loss but complementary spatial-frequency content across contrasts. We propose the Frequency Attention Residual Denoising (FARD) network, a multi-contrast fusion model that leverages both spatial and frequency-domain processing to enhance apparent isotropic detail on a 1mm3 grid for all contrasts from these complementary inputs. We evaluate the approach using two complementary settings: a prospectively acquired clinical-scanner dataset that reflects real acquisition and vendor-reconstruction conditions, and a controlled retrospective simulation on BraTS-GLI 2024, which provides large-scale pathology-containing multi-contrast data but does not model prospective scanner effects. On the prospective cohort, the proposed framework achieves approximately 4× protocol acceleration (10.4 to 2.6 min), provides the strongest or near-strongest PSNR and SSIM among the evaluated reference-free methods, and approaches reference-guided performance without requiring a high-resolution reference contrast. BraTS experiments provide complementary large-scale evidence of algorithmic effectiveness under controlled retrospective degradation.",
+      "journal": "Med Image Anal",
+      "date": "2026-09-14",
       "authors": [
-        "Li J",
-        "Zhu C",
-        "Sun Y",
-        "Si Y",
-        "Yang L",
-        "Li G",
-        "Zhang Y",
-        "Xiao L",
-        "Zhou T"
+        "Nazarov A",
+        "Kiryati N",
+        "Roizen D",
+        "Kerpel A",
+        "Hoffmann C",
+        "Greenberg G",
+        "Mayer A"
       ],
       "pubtypes": [
         "Journal Article"
       ],
-      "doi": "10.1109/TMI.2026.3728817",
+      "doi": "10.1016/j.media.2026.104297",
       "journal_tier": 1,
-      "impact": 10.6,
-      "section": "girisim",
+      "impact": 10.7,
+      "section": "neuro",
       "score": 100.0,
       "score_parts": {
         "journal": 100,
@@ -1917,7 +1917,7 @@
         "recency": 0.0
       },
       "tier": 2,
-      "abstract_tr": "Girişimsel radyoloji (IR), prosedürel görüntüler ve alana özgü klinik bilgi üzerinde ortak akıl yürütmeyi gerektirir. Mevcut tıbbi erişimle artırılmış oluşturma (RAG) yöntemleri esas olarak metin odaklıdır veya genel tıbbi görüş-dil görevleri için tasarlanmıştır ve bu nedenle IR senaryoları için ince taneli görsel-metinsel kanıtların alınmasında sınırlı kalmaktadır. Bu sınırlamayı gidermek için, IR karar almayı desteklemek üzere çok modlu görüntüleme ve klinik metinden ortaklaşa yararlanan çok modlu bir RAG çerçevesi olan Girişimsel Tıbbi Yardım için Prototip Kılavuzlu Erişimi (PRIMA) sunuyoruz. PRIMA, anatomiye duyarlı görsel-metinsel hizalama ve modaliteyi koruyan temsil öğrenimi yoluyla çok modlu bir IR bilgi dizini oluşturur. Daha sonra, IR kavramlarını düzenlemek için etki alanı bilgili prototip öğrenimini tanıtarak, hem sorgu benzerliğini hem de prototip benzeşimini kullanarak kanıtları yeniden sıralayan prototip kılavuzlu alımı mümkün kılar. Literatürde derlenen ve klinik olarak toplanan IR veri kümeleri üzerinde kapsamlı değerlendirmeler yapıyoruz. Deneysel sonuçlar, PRIMA'nın mevcut RAG temel değerlerine kıyasla üretim kalitesini, soru yanıtlama doğruluğunu ve uzmanlar tarafından değerlendirilen klinik yorumlanabilirliği sürekli olarak iyileştirdiğini göstermektedir. Bu bulgular, girişimsel radyolojide multimodal bilgi yardımı için klinik temelli prototip rehberliğinde erişimin etkinliğini göstermektedir. İlgili kaynaklar https://github.com/StonHamA/PRIMA adresinde mevcuttur."
+      "abstract_tr": ""
     }
   ]
 }
