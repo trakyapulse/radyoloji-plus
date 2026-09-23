@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-23T10:31:40+00:00",
+  "updated": "2026-09-23T11:02:43+00:00",
   "window_days": 1,
   "datetype": "edat",
   "count": 69,
@@ -916,69 +916,6 @@
       "abstract_tr": ""
     },
     {
-      "pmid": "42773344",
-      "title": "DentSeg3: A Three-Branch Specialized Fusion Network for Dental Lesion Segmentation in Color Images.",
-      "abstract": "A three-branch fused semantic segmentation framework for color dental images is proposed for the joint segmentation of caries, cavities, cracks, tooth, and background. Accurate lesion segmentation is challenging due to subtle visual cues, inter-patient variability, and class imbalance. To address this, a neural network integrating three complementary branches is designed: (i) DeepLabv3 + with a ResNet-18 backbone to model large anatomical structures; (ii) a hierarchical Vision Transformer (ViT)-based branch with patch embedding only in the first block and self-attention over progressively downsampled feature maps, enabling contextual validation of spatially dispersed lesions; and (iii) a dual-attention branch combining CBAM and a Texture-Aware Attention (TAA) module to enhance fine-grained textures. These designs enable functional specialization and effective multi-scale fusion. Experimental results against classical clustering, encoder-decoder, and recent attention- and transformer-based methods show that the fused model achieves the best overall performance among the evaluated methods, achieving 96.2% accuracy, 93.6% Dice, 92.9% IoU, 93.8% precision, and 93.7% recall with data augmentation. Ablation studies confirm that gains mainly arise from branch fusion. Grad-CAM analysis reveals complementary activation patterns, improved boundary delineation, and robustness to background variability. Overall, the proposed framework provides a robust semantic segmentation solution with consistent cross-device generalization across different imaging conditions.",
-      "journal": "J Imaging Inform Med",
-      "date": "2026-09-22",
-      "authors": [
-        "Vera-González V",
-        "López-González CI",
-        "Pedrera-Canal M",
-        "Hernando-Dumaraog B",
-        "Elsayed YS",
-        "Vera-Rodríguez V",
-        "Besada-Portas E",
-        "Pajares G"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1007/s10278-026-02323-1",
-      "journal_tier": 2,
-      "impact": 2.9,
-      "section": "girisim",
-      "score": 60.0,
-      "score_parts": {
-        "journal": 60,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42773343",
-      "title": "AdvLIF: An Adversarially and Physics-Inspired Framework for Virtual Staining and Nucleus Segmentation.",
-      "abstract": "Existing deep learning methods for virtual staining often produce quantitatively unreliable results, hindering their use for precise single-cell analysis. This limitation is associated with treating cross-stain reconstruction as a simple image style-transfer problem despite the substantial differences in appearance and information content between the source IHC image and the target morphological and molecular representations. In this work, we introduce AdvLIF, an adversarially regularized and physics-inspired framework for jointly generating H&E-like and complementary auxiliary modalities from IHC images and segmenting nuclei. AdvLIF incorporates reaction-diffusion- and Poisson-inspired operators for latent feature evolution and boundary-aware reconstruction, together with adversarially regularized fusion and skip-routing mechanisms. Extensive evaluations demonstrate that AdvLIF not only surpasses state-of-the-art methods in segmentation accuracy, achieving leading Dice and IoU scores of 0.775/0.636 on BCData and 0.765/0.623 on DeepLIIF, but also achieves superior quantitative fidelity, exemplified by the lowest error (0.092) on the IHC Quantification Difference metric.",
-      "journal": "J Imaging Inform Med",
-      "date": "2026-09-22",
-      "authors": [
-        "Yu Q",
-        "Shao C",
-        "Yang R",
-        "Lyu Z",
-        "He S",
-        "Bai C",
-        "Wang Z"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1007/s10278-026-02320-4",
-      "journal_tier": 2,
-      "impact": 2.9,
-      "section": "yapayzeka",
-      "score": 60.0,
-      "score_parts": {
-        "journal": 60,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
       "pmid": "42773342",
       "title": "TAD: Tail-Aware Diffusion Model for Long-Tailed Medical Image Classification.",
       "abstract": "In recent years, breakthroughs in deep learning have substantially improved the diagnostic performance of computer-aided diagnosis (CAD) systems. However, their reliability remains highly dependent on the quality and distribution of training data. One of the most critical challenges is the long-tailed distribution problem in medical images, which leads to a marked degradation in recognition performance for rare tail categories. Existing studies employ decoupling methods to more fairly attend to uncommon cases and significantly boost tail-class performance. Nevertheless, due to the inherent characteristics of medical datasets, namely, extremely scarce tail samples and a large number of categories, these decoupling approaches still suffer from deficiencies in feature learning, hyperparameter tuning, and classifier calibration. To address these issues, we propose a Tail-Aware Diffusion-Enhanced Long-tailed Medical Diagnosis model (TAD). TAD integrates diffusion-based tail-class augmentation, feature distribution regularization, and tail-aware feature compensation to alleviate the representation bias caused by long-tailed distributions. By combining complementary generative and feature-level strategies, the proposed framework enriches tail-class representations while preserving the discriminative structure of real medical images. Finally, extensive experiments on three public medical datasets demonstrate that our TAD model consistently outperforms state-of-the-art methods. On the Hyper-Kvasir dataset, TAD achieves an F1-score of 64.57 ± 0.21 %  and a kappa score of 94.23 ± 0.18 %  , outperforming the best competing method by 2.18% and 2.31%, respectively. Further ablation and feature-level analyses confirm the effectiveness of the proposed framework in improving tail-class representation and class discriminability.",
@@ -1119,38 +1056,6 @@
       "abstract_tr": ""
     },
     {
-      "pmid": "42773337",
-      "title": "Teacher-Referenced Heatmap Coverage for Auditing Attribution Shifts in Updated CT Classifiers.",
-      "abstract": "Model updates may change the attribution patterns of computed tomography (CT) classifiers without producing corresponding changes in predictive performance. This study evaluated whether peak-aware heatmap measures could provide a more informative signal than thresholded overlap for auditing such changes. Gradient-weighted class activation mapping (Grad-CAM) maps from baseline and decision-distilled ResNet18 classifiers were compared with a frozen, model-derived reference. The primary Heatmap Coverage Metric (HCM) endpoints measure missed circular coverage and nearest-peak distance from the reference to the evaluated map; the reverse direction was analyzed separately. Three held-out CT cohorts were evaluated at the slice level with three training seeds. Fixed-threshold intersection over union was frequently near zero. On the designated seed-42 tests, decision distillation increased circular discrepancy on Priv-EGFR by 0.083 (95% confidence interval, 0.032-0.137), decreased Euclidean discrepancy on Chest CT-Scan by 0.026 (95% confidence interval, - 0.037  to - 0.016  ), and produced inconclusive changes for both RADGEN endpoints. Both primary Chest endpoints were numerically lower under decision distillation in all three seeds, whereas Priv-EGFR and RADGEN showed endpoint- or seed-dependent behavior. Direction reversal changed some small or uncertain effects. Direction is an essential part of the HCM specification. The corrected endpoints complement thresholded overlap by detecting and characterizing update-related attribution shifts under a fixed audit protocol; they measure internal consistency rather than clinical correctness.",
-      "journal": "J Imaging Inform Med",
-      "date": "2026-09-22",
-      "authors": [
-        "Zhang J",
-        "Wen S",
-        "Du X",
-        "Jia X",
-        "Shi J",
-        "Du D",
-        "Li R",
-        "Shen B"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1007/s10278-026-02310-6",
-      "journal_tier": 2,
-      "impact": 2.9,
-      "section": "toraks",
-      "score": 60.0,
-      "score_parts": {
-        "journal": 60,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
       "pmid": "42773336",
       "title": "Multicohort Evaluation of Acquisition Confounding in Single-Site Lung-CT Malignancy Classification with Frozen Foundation-Model Features.",
       "abstract": "Frozen foundation-model features are promoted as an annotation-sparing route to medical-image classification, yet whether their performance reflects diagnostic signal or site-specific shortcuts is rarely tested. On a single-site hospital cohort (187 cancer and 194 benign scans, 303 patients), frozen Models-Genesis whole-scan features classified cancer versus benign at an out-of-fold AUC of 0.994 under patient-grouped cross-validation and transferred near chance to two external cohorts. One is LIDC-IDRI, where malignancy is a median radiologist rating, not a confirmed diagnosis. The other carries confirmed diagnoses matching the development endpoint. We tested acquisition as a competing explanation. The two classes had been reconstructed under different protocols (0.7 mm versus 1.0 mm slice spacing), and a classifier reading six acquisition header fields, and no image data, reached 0.996, within 0.001 of the frozen-feature result ( p = 0.73  ). The near-perfect in-site AUC is therefore most plausibly explained by acquisition-related confounding, which extends beyond reconstruction protocol to scanner model and age, and is not evidence of malignancy discrimination. A second, independently pretrained CT foundation model reproduced the pattern, so it is a property of the data, not one checkpoint. Malignancy-related signal appeared at finer spatial granularity. Narrowing the field of view to one prespecified nodule per scan raised AUC from 0.584 to 0.808, and a nodule-level classifier transferred between external cohorts at 0.682 (95% CI 0.559-0.792) against confirmed benign controls under one of the two encoders. Whole-scan embeddings exposed a cohort-assembly shortcut strong enough to mimic a solved task; the signal that transferred was carried by lesion-level representations.",
@@ -1201,6 +1106,101 @@
       "journal_tier": 2,
       "impact": 2.3,
       "section": "abdomen",
+      "score": 60.0,
+      "score_parts": {
+        "journal": 60,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42773344",
+      "title": "DentSeg3: A Three-Branch Specialized Fusion Network for Dental Lesion Segmentation in Color Images.",
+      "abstract": "A three-branch fused semantic segmentation framework for color dental images is proposed for the joint segmentation of caries, cavities, cracks, tooth, and background. Accurate lesion segmentation is challenging due to subtle visual cues, inter-patient variability, and class imbalance. To address this, a neural network integrating three complementary branches is designed: (i) DeepLabv3 + with a ResNet-18 backbone to model large anatomical structures; (ii) a hierarchical Vision Transformer (ViT)-based branch with patch embedding only in the first block and self-attention over progressively downsampled feature maps, enabling contextual validation of spatially dispersed lesions; and (iii) a dual-attention branch combining CBAM and a Texture-Aware Attention (TAA) module to enhance fine-grained textures. These designs enable functional specialization and effective multi-scale fusion. Experimental results against classical clustering, encoder-decoder, and recent attention- and transformer-based methods show that the fused model achieves the best overall performance among the evaluated methods, achieving 96.2% accuracy, 93.6% Dice, 92.9% IoU, 93.8% precision, and 93.7% recall with data augmentation. Ablation studies confirm that gains mainly arise from branch fusion. Grad-CAM analysis reveals complementary activation patterns, improved boundary delineation, and robustness to background variability. Overall, the proposed framework provides a robust semantic segmentation solution with consistent cross-device generalization across different imaging conditions.",
+      "journal": "J Imaging Inform Med",
+      "date": "2026-09-22",
+      "authors": [
+        "Vera-González V",
+        "López-González CI",
+        "Pedrera-Canal M",
+        "Hernando-Dumaraog B",
+        "Elsayed YS",
+        "Vera-Rodríguez V",
+        "Besada-Portas E",
+        "Pajares G"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1007/s10278-026-02323-1",
+      "journal_tier": 2,
+      "impact": 2.9,
+      "section": "girisim",
+      "score": 60.0,
+      "score_parts": {
+        "journal": 60,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42773343",
+      "title": "AdvLIF: An Adversarially and Physics-Inspired Framework for Virtual Staining and Nucleus Segmentation.",
+      "abstract": "Existing deep learning methods for virtual staining often produce quantitatively unreliable results, hindering their use for precise single-cell analysis. This limitation is associated with treating cross-stain reconstruction as a simple image style-transfer problem despite the substantial differences in appearance and information content between the source IHC image and the target morphological and molecular representations. In this work, we introduce AdvLIF, an adversarially regularized and physics-inspired framework for jointly generating H&E-like and complementary auxiliary modalities from IHC images and segmenting nuclei. AdvLIF incorporates reaction-diffusion- and Poisson-inspired operators for latent feature evolution and boundary-aware reconstruction, together with adversarially regularized fusion and skip-routing mechanisms. Extensive evaluations demonstrate that AdvLIF not only surpasses state-of-the-art methods in segmentation accuracy, achieving leading Dice and IoU scores of 0.775/0.636 on BCData and 0.765/0.623 on DeepLIIF, but also achieves superior quantitative fidelity, exemplified by the lowest error (0.092) on the IHC Quantification Difference metric.",
+      "journal": "J Imaging Inform Med",
+      "date": "2026-09-22",
+      "authors": [
+        "Yu Q",
+        "Shao C",
+        "Yang R",
+        "Lyu Z",
+        "He S",
+        "Bai C",
+        "Wang Z"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1007/s10278-026-02320-4",
+      "journal_tier": 2,
+      "impact": 2.9,
+      "section": "yapayzeka",
+      "score": 60.0,
+      "score_parts": {
+        "journal": 60,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42773337",
+      "title": "Teacher-Referenced Heatmap Coverage for Auditing Attribution Shifts in Updated CT Classifiers.",
+      "abstract": "Model updates may change the attribution patterns of computed tomography (CT) classifiers without producing corresponding changes in predictive performance. This study evaluated whether peak-aware heatmap measures could provide a more informative signal than thresholded overlap for auditing such changes. Gradient-weighted class activation mapping (Grad-CAM) maps from baseline and decision-distilled ResNet18 classifiers were compared with a frozen, model-derived reference. The primary Heatmap Coverage Metric (HCM) endpoints measure missed circular coverage and nearest-peak distance from the reference to the evaluated map; the reverse direction was analyzed separately. Three held-out CT cohorts were evaluated at the slice level with three training seeds. Fixed-threshold intersection over union was frequently near zero. On the designated seed-42 tests, decision distillation increased circular discrepancy on Priv-EGFR by 0.083 (95% confidence interval, 0.032-0.137), decreased Euclidean discrepancy on Chest CT-Scan by 0.026 (95% confidence interval, - 0.037  to - 0.016  ), and produced inconclusive changes for both RADGEN endpoints. Both primary Chest endpoints were numerically lower under decision distillation in all three seeds, whereas Priv-EGFR and RADGEN showed endpoint- or seed-dependent behavior. Direction reversal changed some small or uncertain effects. Direction is an essential part of the HCM specification. The corrected endpoints complement thresholded overlap by detecting and characterizing update-related attribution shifts under a fixed audit protocol; they measure internal consistency rather than clinical correctness.",
+      "journal": "J Imaging Inform Med",
+      "date": "2026-09-22",
+      "authors": [
+        "Zhang J",
+        "Wen S",
+        "Du X",
+        "Jia X",
+        "Shi J",
+        "Du D",
+        "Li R",
+        "Shen B"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1007/s10278-026-02310-6",
+      "journal_tier": 2,
+      "impact": 2.9,
+      "section": "toraks",
       "score": 60.0,
       "score_parts": {
         "journal": 60,
