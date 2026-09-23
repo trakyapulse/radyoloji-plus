@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-22T10:39:25+00:00",
+  "updated": "2026-09-23T10:31:40+00:00",
   "year": 2026,
   "count": 60,
   "criteria": "Etki faktörü (sonra etki skoru) sıralı",
@@ -221,6 +221,34 @@
       },
       "tier": 1,
       "abstract_tr": "Hepatoselüler karsinom (HCC), sınırlı tedavi seçenekleriyle kanserden ölümlerin önde gelen nedeni olmaya devam etmektedir. Histotripsi, tümörleri ısıya dayalı yöntemler yerine akustik kavitasyon yoluyla yok eden, radyofrekans ve mikrodalga ablasyonuna alternatif sunan, noninvaziv odaklı bir ultrason ablasyon tekniğidir. Bu derleme, klinik öncesi gelişimden ABD Gıda ve İlaç İdaresi'nin (FDA) karaciğer tümörleri için onay almasına kadar histotripsinin izini sürmektedir. Termal yöntemlerin aksine histotripsi, kan damarları ve safra kanalları da dahil olmak üzere kritik yapıları korurken hassas mekanik doku fraksiyonasyonu oluşturur. Teknoloji, hedeflenen dokuyu termal hasar olmadan sıvılaştıran kavitasyon kabarcık bulutları oluşturmak için kısa, yüksek basınçlı ultrason darbeleri kullanır. Klinik öncesi çalışmalar, güçlü bağışıklık hücresi infiltrasyonu ile tam tümör ablasyonunu gösterdi ve bu da potansiyel abskopal etkileri düşündürdü. THERESA ve #HOPE4LIVER dahil olmak üzere klinik çalışmalar, #HOPE4LIVER'ın kısa vadeli etkililiğini göstererek, yaklaşık %95 teknik başarı ve yaklaşık %90 1 yıllık yerel kontrol oranları elde ederek güvenliği doğruladı. Histotripsi, karaciğer kanseri tedavisi için Ekim 2023'te FDA onayını aldı. Teknoloji, ısı emici etkilerin termal ablasyonu tehlikeye attığı perivasküler lezyonlar için umut vaat ediyor. Mevcut kanıtlar, immünoterapi ile kombinasyonları ve HCC'nin ötesindeki uygulamaları araştıran devam eden araştırmalarla, 3 cm veya daha küçük tümörler için optimal sonuçları desteklemektedir. Histotripsi, lokal ablasyonda bir paradigma değişimini temsil eder ve potansiyel sistemik immün sistemi uyarıcı faydalarla birlikte mekanik hassasiyet sunar. © Yazar(lar) 2026. Kuzey Amerika Radyoloji Derneği tarafından CC BY 4.0 lisansı altında yayınlanmıştır."
+    },
+    {
+      "pmid": "42770820",
+      "title": "How I Do It: Identifying Signs to Differentiate Uterine Sarcoma (Leiomyosarcoma) from Leiomyomas at MRI.",
+      "abstract": "The prevalence of uterine sarcoma, typically leiomyosarcoma, is greater than previously believed, with current data indicating a risk as high as one in 770 women undergoing surgery for presumed leiomyomas (uterine fibroids). Presurgical detection of uterine sarcoma is an important clinical concern for gynecologists and gynecologic oncologists worldwide. Inadvertent minimally invasive treatment of unsuspected uterine leiomyosarcoma may delay definitive therapy or lead to disease dissemination. Contrast-enhanced MRI with diffusion-weighted imaging and apparent diffusion coefficient measurement provides high accuracy (88%-94.6%) in detecting uterine leiomyosarcoma, making radiologists valuable partners to gynecologists in risk assessment and disease management. The algorithm outlined in the Radiology 2023 MRI Evaluation of Uterine Masses for Risk of Leiomyosarcoma consensus statement has been preliminarily validated, and the authors present additional nuances to enhance its application in clinical practice.",
+      "journal": "Radiology",
+      "date": "2026-09",
+      "authors": [
+        "Hindman N",
+        "Tong A",
+        "Huang K"
+      ],
+      "pubtypes": [
+        "Journal Article",
+        "Review"
+      ],
+      "doi": "10.1148/radiol.252877",
+      "journal_tier": 1,
+      "impact": 12.1,
+      "section": "genel",
+      "score": 110.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 10,
+        "recency": 0.0
+      },
+      "tier": 1,
+      "abstract_tr": ""
     },
     {
       "pmid": "42678262",
@@ -566,6 +594,151 @@
       "journal_tier": 1,
       "impact": 12.1,
       "section": "genel",
+      "score": 100.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 2,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42770822",
+      "title": "Reliability and Validity of Imaging-derived Extranodal Extension Grading Using CT and MRI in Nasopharyngeal Carcinoma.",
+      "abstract": "Background Imaging-derived extranodal extension (iENE) was added to the N3 criteria for nasopharyngeal carcinoma (NPC) in the ninth version of the tumor-node-metastasis (TNM) staging system. Purpose To evaluate the reliability and prognostic value of a proposed joint task force iENE grading system in NPC. Materials and Methods This retrospective single-center study included patients with NPC treated between January 2007 and March 2025. For patients with cervical lymph node metastases, three radiologists independently graded iENE at pretreatment CT and/or MRI using the proposed four-tier classification system. Inter- and intrarater reliability was assessed using the intraclass correlation coefficient (ICC) and weighted κ. Overall survival (OS), disease-free survival, local-regional recurrence-free survival, and distant metastasis-free survival (DMFS) were evaluated across iENE grades using Kaplan-Meier and multivariable Cox regression analyses adjusted for age, sex, T and M categories, and chemotherapy status. Results A total of 401 patients (median age, 52 years [IQR, 44-60 years]; 296 male patients) were included. According to the consensus-based final iENE grades, 223, 36, 94, and 48 patients were classified as having iENE grade 0, 1, 2, and 3, respectively. Interrater reliability (ICC, 0.87 [95% CI: 0.85, 0.89]) and intrarater reliability (κ = 0.95) for iENE grading were excellent. Compared with patients with iENE grade 0, patients with iENE grade 3 had shorter OS (hazard ratio, 3.30 [95% CI: 1.70, 6.41]; P < .001). In addition, patients with iENE grade 1, 2, and 3 had shorter DMFS than patients with iENE grade 0, with hazard ratios of 2.33 (95% CI: 1.12, 4.87; P = .02), 2.11 (95% CI: 1.24, 3.60; P = .006), and 2.39 (95% CI: 1.28, 4.45; P = .006), respectively. There was no evidence of a difference in prognostic performance between the TNM-8 and TNM-9 systems. Conclusion The joint task force iENE grading system had excellent reliability and good prognostic value in patients with NPC. © RSNA, 2026 Supplemental material is available for this article.",
+      "journal": "Radiology",
+      "date": "2026-09",
+      "authors": [
+        "Suh PS",
+        "Kim J",
+        "Kim DE",
+        "Han K",
+        "Kim KH",
+        "Kim HR",
+        "Yoon SO",
+        "Koh YW"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1148/radiol.260053",
+      "journal_tier": 1,
+      "impact": 12.1,
+      "section": "genel",
+      "score": 100.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 2,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42770821",
+      "title": "Five-year Quantitative Chest CT and Hyperpolarized Xenon 129 Ventilation MRI Findings in Survivors of COVID-19 Pneumonia.",
+      "abstract": "Background Whether pulmonary sequelae persist 5 years after COVID-19 pneumonia remains unknown. Purpose To evaluate 5-year pulmonary abnormalities in survivors of COVID-19 pneumonia with use of longitudinal chest CT, inspiratory-expiratory quantitative CT, pulmonary function testing, and hyperpolarized xenon 129 (129Xe) ventilation MRI and to compare findings with those in matched healthy controls. Materials and Methods This prospective longitudinal study performed a 5-year follow-up from September to December 2025, enrolling survivors of severe and nonsevere COVID-19 pneumonia along with age-, sex-, and body mass index-matched healthy controls. Survivors underwent serial chest CT during the acute phase and at 6-month, 1-year, 2-year, and 5-year follow-ups. At 5 years, participants underwent inspiratory-expiratory CT, pulmonary function testing, symptom assessment, and hyperpolarized 129Xe ventilation MRI. Quantitative CT and ventilation parameters were compared among controls and both survivor groups with use of covariate-adjusted linear regression models, and associations of these parameters with pulmonary function and symptoms were determined with adjusted regression models. Results This study included 143 participants (mean age, 62 years ± 11.0 [SD]; 74 male; 83 survivors of severe COVID-19 pneumonia, 21 survivors of nonsevere COVID-19 pneumonia, and 39 healthy controls). After 5 years, residual lesions persisted in 35.6% of survivors (37 of 104), and abnormal diffusing capacity remained present in 25.5% (26 of 102). Prespecified comparison between 2- and 5-year follow-ups showed no evidence of change in respiratory symptoms (all P ≥ .88), pulmonary function (all P ≥ .67), or conventional CT abnormalities (all P ≥ .81) among survivors. At 5 years, ventilation defect percentage as well as parametric response mapping measures of functional small airway disease and emphysema differed among controls and both survivor groups (all P ≤ .01), with greater abnormalities generally observed in survivors of severe COVID-19 pneumonia (all P ≤ .005 vs controls). Conclusion Five years after COVID-19 pneumonia, some survivors showed persistent respiratory symptoms, abnormal diffusion capacity, and ventilation defects, with stable pulmonary function and no change in CT abnormalities between 2 and 5 years. Clinical trial registration no. ChiCTR2000038609 © RSNA, 2026 Supplemental material is available for this article.",
+      "journal": "Radiology",
+      "date": "2026-09",
+      "authors": [
+        "Han X",
+        "Guo Y",
+        "Fan W",
+        "Nie Z",
+        "Tang R",
+        "Luo Y",
+        "Li Q",
+        "Pu F",
+        "Ren Y",
+        "Tang W",
+        "Wu H",
+        "He Y",
+        "Zheng Y",
+        "Zhu L",
+        "Zhang L",
+        "Luo Q",
+        "Chen L",
+        "Li S",
+        "Shi H",
+        "Yu Q",
+        "Zheng C",
+        "Yang F"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1148/radiol.261153",
+      "journal_tier": 1,
+      "impact": 12.1,
+      "section": "girisim",
+      "score": 100.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 2,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42770819",
+      "title": "Diffuse Pulmonary Meningotheliomatosis.",
+      "abstract": "",
+      "journal": "Radiology",
+      "date": "2026-09",
+      "authors": [
+        "Liu Y",
+        "Dong A"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1148/radiol.261200",
+      "journal_tier": 1,
+      "impact": 12.1,
+      "section": "toraks",
+      "score": 100.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 2,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42770818",
+      "title": "Deep Learning-derived Bone Mineral Density and Longitudinal White Matter Microstructure and Cognitive Decline: Multi-Ethnic Study of Atherosclerosis.",
+      "abstract": "Background White matter (WM) microstructural degeneration and WM hyperintensities (WMH) are imaging markers of brain aging. Low bone mineral density (BMD) and brain aging co-occur, but longitudinal evidence linking skeletal health to WM injury and cognitive decline remains limited. Purpose To determine whether deep learning-derived thoracic vertebral BMD (vBMD) from noncontrast chest CT is associated with longitudinal changes in WM integrity, WMH burden, and cognitive decline. Materials and Methods This secondary analysis of a prospective study conducted from September 2016 to March 2024 included participants without clinically recognized cardiovascular disease from the Multi-Ethnic Study of Atherosclerosis. Participants underwent noncontrast chest CT, multimodal brain MRI (diffusion tensor imaging and fluid-attenuated inversion recovery), and cognitive testing. Thoracic vBMD was quantified at baseline using a validated deep learning algorithm. Linear mixed-effects models related baseline vBMD to longitudinal changes in WMH volume, WM fractional anisotropy, and cognition, adjusting for demographics, apolipoprotein E-ε4, cardiometabolic risk factors, lifestyle, and medications. Results This study included 715 participants (median age [IQR], 69 years [65-75 years]; 397 men and 318 women). Lower baseline vBMD was associated with faster decline in total WM fractional anisotropy (n = 405; β = -0.036 SD/year/0.1 g/cm3 vBMD decrease [95% CI: -0.065, -0.006]; nominal P = .02), although this did not survive false discovery rate correction (adjusted P = .07). Regionally, lower vBMD was associated with faster fractional anisotropy decline in the anterior limb of the internal capsule (β = -0.048 SD/year; adjusted P = .006) and faster WMH accumulation in the corpus callosum (n = 408; β = 12.8%/year; adjusted P = .04). Lower vBMD was also associated with faster decline in the global cognitive composite (n = 639; β = -0.025 SD/year; P = .002) and the Cognitive Abilities Screening Instrument (n = 675; β = -0.320/year; P < .001). Diabetes amplified associations with WMH progression (β = 4.99%; P = .03). Conclusion Lower vBMD from noncontrast chest CT was associated with modestly accelerated regional WM injury and faster cognitive decline, particularly among participants with diabetes, suggesting utility for detecting accelerated brain aging. ClinicalTrials.gov: NCT00005487 © RSNA, 2026 Supplemental material is available for this article.",
+      "journal": "Radiology",
+      "date": "2026-09",
+      "authors": [
+        "Momtazmanesh S",
+        "Hathaway QA",
+        "Bancks MP",
+        "Bluemke DA",
+        "Barr RG",
+        "Post WS",
+        "Habes M",
+        "Nasrallah I",
+        "Heckbert SR",
+        "Bryan RN",
+        "Luchsinger JA",
+        "Wan M",
+        "Budoff M",
+        "Lima JAC",
+        "Hughes TM",
+        "Davatzikos C",
+        "Demehri S"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1148/radiol.260656",
+      "journal_tier": 1,
+      "impact": 12.1,
+      "section": "neuro",
       "score": 100.0,
       "score_parts": {
         "journal": 100,
@@ -1754,162 +1927,6 @@
       "journal_tier": 1,
       "impact": 10.7,
       "section": "girisim",
-      "score": 100.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 2,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42731390",
-      "title": "Learning efficient non-rigid registration in k-space for accelerated Magnetic Resonance Imaging.",
-      "abstract": "Non-rigid motion estimation at high temporal resolution is essential for dynamic and real-time Magnetic Resonance Imaging (MRI), yet remains challenging due to the spatio-temporal sampling limitations of accelerated acquisitions. Conventional motion estimation pipelines typically reconstruct images before performing registration. However, the high undersampling required to achieve high temporal resolution degrades image quality and introduces artifacts that corrupt the spatial structures needed for reliable feature matching. Direct k-space-based registration approaches bypass image reconstruction, but often require auxiliary prior information or rely on localized processing, limiting their ability to capture global contextual representations while increasing workflow and computational complexity. In this work, we propose the Local-All Pass Attention Network (LAPANet), an image registration framework for direct non-rigid motion estimation from accelerated multi-coil k-space data. LAPANet learns a global, multi-scale decomposition of the spectral phase structure, where non-rigid motion is modeled as spatially varying phase variations in k-space. Evaluated on cardiac MRI, the proposed method accurately recovers motion from as few as 2 lines/frame in a Cartesian trajectory and 3 spokes/frame in a non-Cartesian radial trajectory. Under these high acceleration settings, existing image-based and k-space-based registration methods fail to maintain anatomically plausible motion estimates. LAPANet enables reconstruction-free non-rigid motion estimation at sub-5 ms temporal resolution with inference times suitable for online deployment, supporting real-time tracking, motion-robust reconstruction, and interventional MRI.",
-      "journal": "Med Image Anal",
-      "date": "2026-09-08",
-      "authors": [
-        "Ghoul A",
-        "Hammernik K",
-        "Lingg A",
-        "Krumm P",
-        "Rueckert D",
-        "Gatidis S",
-        "Küstner T"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1016/j.media.2026.104296",
-      "journal_tier": 1,
-      "impact": 10.7,
-      "section": "girisim",
-      "score": 100.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 2,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42735586",
-      "title": "SSAD: Prior-driven self-supervised staircase artifact denoising via diffeomorphic flow for volumetric medical image surface reconstruction.",
-      "abstract": "Accurate 3D surface reconstruction is indispensable for morphology-sensitive tasks in volumetric medical image analysis, such as clinical diagnosis and autonomous surgery. However, the discrete nature of volumetric scans only yields voxel-represented pseudo GT surface inherently affected by staircase artifacts, severely limiting reconstruction accuracy. Current methods attempt to suppress such artifacts via approximation or smoothing but fail to address the underlying geometry and remain fundamentally bounded by the fidelity of the pseudo GT. Therefore, we propose SSAD, a prior-driven self-supervised framework which redefines reconstruction as learning a diffeomorphic flow from boundary voxels to the coherent optimal surface. It formulates boundary voxels as sparsely perturbed points, denoising discrete manifolds by hierarchically aggregating multi-scale geometry-informed features and predicting point-wise structural refinements, making the denoising process an intrinsic diffeomorphic flow of boundary voxels themselves. SSAD achieves state-of-the-art performance on multiple benchmarks, with a 2.15%-22.27% improvement across various accuracy metrics compared to the top-tier counterparts. It coherently generalizes to unseen anatomical instances in a zero-shot manner, with an average increase of 4.02% in chamfer distance. Furthermore, SSAD demonstrates a super-resolution capability, with the accuracy of its reconstructed surfaces comparable to that achieved by voxel data at 2-5× the input resolution. Our code is available at https://github.com/SlimeChosen/SSAD.",
-      "journal": "Med Image Anal",
-      "date": "2026-09-09",
-      "authors": [
-        "Shi J",
-        "Zhang Z",
-        "Xing Y",
-        "Tang J",
-        "Ren X",
-        "Wang F",
-        "Liu R"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1016/j.media.2026.104300",
-      "journal_tier": 1,
-      "impact": 10.7,
-      "section": "genel",
-      "score": 100.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 2,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42748507",
-      "title": "GAA-DETR: Query-level gaze alignment for end-to-end lesion detection.",
-      "abstract": "Lesion detection is a fundamental task in medical image analysis. However, detectors trained only with bounding box supervision often develop boundary-biased attention and may overlook diagnostically relevant lesion content, which is closely related to false-positive predictions. To take a step toward addressing this limitation, we investigate expert gaze as an additional supervisory signal for lesion detection. We curate and release a large-scale gaze-enabled benchmark spanning three imaging modalities across five subsets, comprising 6148 images in total, with 2648 publicly released images paired with both gaze and lesion annotations. The dataset further records magnification information, allowing the modeling of diagnostic attention under multi-scale examination. Based on this resource, we propose Gaze-Aligned-Attention Detection Transformer (GAA-DETR), which integrates gaze through three components: an adaptive gaze kernel for magnification-aware heatmap generation, a query-level alignment strategy for associating detector queries with gaze supervision, and a GAGO loss that remains effective when gaze is available for only part of the training data. Extensive experiments across multiple datasets and detector families show that GAA-DETR consistently improves detection performance, reduces boundary-biased attention, and enhances interpretability. These results highlight the potential of clinically informed gaze supervision for reliable lesion detection. The dataset and code are available at https://github.com/YanKong0408/GAA-DETR.",
-      "journal": "Med Image Anal",
-      "date": "2026-09-09",
-      "authors": [
-        "Kong Y",
-        "Wang S",
-        "Yin Y",
-        "Wang Q",
-        "Fang Y",
-        "Shan C"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1016/j.media.2026.104298",
-      "journal_tier": 1,
-      "impact": 10.7,
-      "section": "girisim",
-      "score": 100.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 2,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42753301",
-      "title": "When Grouped Cyclic Shift meets masked image modeling: Effective pre-training for data-scarce 3D ultrasound analysis tasks.",
-      "abstract": "The inherent data scarcity in 3D ultrasound analysis demands data-efficient self-supervised learning (SSL) methods, yet prevalent approaches are often data-intensive. To bridge this gap, we present Grouped Cyclic Shift Masked Image Modeling (GCSMIM), a masked image modeling (MIM) pre-training framework designed for this low-data regime. GCSMIM employs a data-efficient architecture, where a convolutional neural network (CNN) backbone operates in shallow, high-resolution layers for hierarchical feature extraction, while a multilayer perceptron (MLP) operates in the deep, low-resolution layers to capture long-range dependencies. This design efficiently enhances feature mixing and captures long-range contextual information, providing structured spatial interaction without self-attention in the deep encoder stages. To further improve the data efficiency of MLPs, we inject human-designed inductive bias with a parameter-free Grouped Cyclic Shift (GCS) operation. A key challenge, however, is that naively applying shifts within MIM causes mask-feature misalignment. We solve this with a novel Mask-Guided Feature Reformation (MGFR) mechanism, which synchronously shifts both the features and the mask, then selectively reintegrates features from the original spatial context, thereby preserving consistency between shifted features and mask states. A Sparse MLP (SMLP) further processes features at mask-identified valid positions during pre-training. Pre-trained on a large-scale dataset of over 1000 3D ultrasound volumes, GCSMIM achieves its clearest gains in the evaluated lower-label setting. Under the stated same-hardware protocols, it also has a shorter fine-tuning step time, lower inference latency, and lower peak allocated memory than a closely related hierarchical CNN-ViT MIM baseline. These findings support label-efficient transfer, particularly under limited annotation budgets. Code is publicly available at https://github.com/MohuaChou/GCSMIM.git.",
-      "journal": "Med Image Anal",
-      "date": "2026-09-07",
-      "authors": [
-        "Zhou R",
-        "Li Y",
-        "Liang T",
-        "Xiao C",
-        "Wu C",
-        "Wang T",
-        "Yu J",
-        "Lin M",
-        "Zhou SK"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1016/j.media.2026.104292",
-      "journal_tier": 1,
-      "impact": 10.7,
-      "section": "yapayzeka",
-      "score": 100.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 2,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42753300",
-      "title": "Multi-contrast MRI acceleration via post-reconstruction fusion.",
-      "abstract": "Magnetic Resonance Imaging (MRI) is the gold standard for neuroimaging, yet routine brain protocols require multiple high-resolution 3D contrasts (e.g., T1, T2, and T2-FLAIR), resulting in long scan times. Many deep-learning acceleration methods assume access to raw k-space and rely on non-Cartesian trajectories or pseudo-random undersampling patterns, which can require specialized sequence implementations. In this work, we present a practical protocol-level acceleration framework enabled by complementary orthogonal Cartesian acquisitions that can be executed using standard scanner settings. Specifically, each contrast is acquired with reduced phase-encoding matrix size along a contrast-specific axis (a fourfold reduction along one contrast-specific phase-encoding dimension), producing rapidly acquired volumes with axis-specific resolution loss but complementary spatial-frequency content across contrasts. We propose the Frequency Attention Residual Denoising (FARD) network, a multi-contrast fusion model that leverages both spatial and frequency-domain processing to enhance apparent isotropic detail on a 1mm3 grid for all contrasts from these complementary inputs. We evaluate the approach using two complementary settings: a prospectively acquired clinical-scanner dataset that reflects real acquisition and vendor-reconstruction conditions, and a controlled retrospective simulation on BraTS-GLI 2024, which provides large-scale pathology-containing multi-contrast data but does not model prospective scanner effects. On the prospective cohort, the proposed framework achieves approximately 4× protocol acceleration (10.4 to 2.6 min), provides the strongest or near-strongest PSNR and SSIM among the evaluated reference-free methods, and approaches reference-guided performance without requiring a high-resolution reference contrast. BraTS experiments provide complementary large-scale evidence of algorithmic effectiveness under controlled retrospective degradation.",
-      "journal": "Med Image Anal",
-      "date": "2026-09-14",
-      "authors": [
-        "Nazarov A",
-        "Kiryati N",
-        "Roizen D",
-        "Kerpel A",
-        "Hoffmann C",
-        "Greenberg G",
-        "Mayer A"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1016/j.media.2026.104297",
-      "journal_tier": 1,
-      "impact": 10.7,
-      "section": "neuro",
       "score": 100.0,
       "score_parts": {
         "journal": 100,
