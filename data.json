@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-24T10:49:32+00:00",
+  "updated": "2026-09-24T11:21:11+00:00",
   "window_days": 1,
   "datetype": "edat",
   "count": 89,
@@ -787,38 +787,6 @@
       "abstract_tr": ""
     },
     {
-      "pmid": "42778969",
-      "title": "Effects of Single and Multiple Dose Tiotropium/Olodaterol in Chronic Obstructive Pulmonary Disease on Alveolar Gas Exchange Measured by Hyperpolarized 129Xe MRI.",
-      "abstract": "BACKGROUND: Long-acting muscarinic antagonists/long-acting beta adrenoreceptor agonists lead to lung deflation and improved microvascular perfusion in hyperinflated chronic obstructive pulmonary disease (COPD), but with an unclear time course. PURPOSE: To investigate the effect of inhalation of tiotropium/olodaterol (TIO/OLO) on MRI measures of gas uptake and microvascular blood volume after single and multiple doses. STUDY TYPE: Prospective, randomized, investigator-blinded, placebo-controlled single-dose crossover study with open-label multiple-dose extension. POPULATION: 31 participants with COPD and lung hyperinflation (residual volume > 135% predicted, ≥ 10 pack-years smoking). FIELDSTRENGTH/SEQUENCE: 1.5 T/Interleaved 3D radial gas and dissolved-phase MRI using multi-echo FLASH, high-resolution spectroscopy, chemical shift saturation recovery spectroscopy. ASSESSMENT: Ratios of 129Xe in membrane tissues (M) to gas (M-Gas), red blood cells (RBC) to gas (RBC-Gas), RBC to M (RBC-M) were calculated from dissolved-phase imaging. Dissolved-phase apparent transverse relaxation times (T2*) from high-resolution spectra were also calculated, and septal wall thickness and surface-volume ratio (S/V) were assessed by fitting a model of xenon exchange functions. Parameters were compared for single-dose (5 μg/5 μg TIO/OLO) versus placebo using saline, and single-dose versus multiple-dose (daily 5 μg/5 μg TIO/OLO for 14 days) treatments. STATISTICAL TESTS: Linear mixed models with contrasts of estimated marginal means, significance level 0.05. RESULTS: Compared with placebo, single-dose treatment significantly increased RBC-Gas and septal thickness but not RBC-M (p = 0.06), M-Gas (p = 0.16), RBC T2* (p = 0.13), M T2* (p = 0.09) and S/V (p = 0.47). Multiple-dose treatment significantly increased RBC-Gas, M-Gas and M T2* compared with single-dose treatment, but not RBC-M (p = 0.82), RBC T2* (p = 0.48), septal thickness (p = 0.61), and S/V (p = 0.49). DATA CONCLUSION: Single-dose TIO/OLO increased 129Xe in RBC-Gas. Multiple-dose treatment increased M-Gas and further increased RBC-Gas compared to single-dose treatment. TECHNICAL EFFICACY: Stage 4. EVIDENCE LEVEL: 2.",
-      "journal": "J Magn Reson Imaging",
-      "date": "2026-09-23",
-      "authors": [
-        "Kern AL",
-        "Kayser T",
-        "Müller RA",
-        "Voskrebenzev A",
-        "Klimeš F",
-        "Wacker F",
-        "Hohlfeld JM",
-        "Vogel-Claussen J"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1002/jmri.70558",
-      "journal_tier": 2,
-      "impact": 3.3,
-      "section": "toraks",
-      "score": 60.0,
-      "score_parts": {
-        "journal": 60,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
       "pmid": "42778757",
       "title": "Radiomic Analysis of Mandibular Bone Changes in Patients with Chronic Myeloid Leukemia on Panoramic Radiographs.",
       "abstract": "To investigate whether panoramic radiograph-based radiomic features identify mandibular bone alterations associated with chronic myeloid leukemia (CML) and distinguish patients from healthy controls. This retrospective case-control study included 19 patients with CML and 57 healthy controls. Radiomic features were extracted from the mandibular cortical bone, trabecular bone, and ramus. Features were selected using LASSO regression and correlation filtering (r ≥ 0.90). Logistic regression models were evaluated by ROC analysis, and multivariable regression identified independent predictors. Three features were retained: first-order minimum, first-order 10th percentile, and GLRLM Run Length Non-Uniformity. The three-feature model achieved an AUC of 0.868 (95% CI, 0.755-0.981). Adding sex did not improve performance (AUC = 0.871; p = 0.762). The first-order minimum model achieved an AUC of 0.822, with no improvement after adding sex (AUC = 0.825; p = 0.594). First-order minimum was the only independent predictor (OR = 1.120; 95% CI, 1.041-1.224; p = 0.006). Cortical bone performed best in the single-feature model, whereas the ramus performed best in the three-feature model. Panoramic radiograph-based radiomics identified mandibular bone alterations associated with CML. A three-feature radiomics signature showed good diagnostic performance and may serve as a non-invasive imaging biomarker.",
@@ -907,32 +875,6 @@
       "abstract_tr": ""
     },
     {
-      "pmid": "42778754",
-      "title": "RADAR: A Prototype for Grounding Large Language Model Consult Support in an ACR-Structured Appropriateness Knowledge Base with Citation Validation and Abstention.",
-      "abstract": "Large language models (LLMs) answer medical questions fluently but fabricate statements and citations too often to be trusted unaided at the point of care. We describe RADAR (Radiology Appropriateness Decision and Advisory Resource), a prototype retrieval-augmented consult-support pipeline that grounds an LLM in a knowledge base structured like the American College of Radiology (ACR) Appropriateness Criteria at the level of individual clinical variants. The knowledge base is synthetic (twelve variants across five topics) because the official criteria are copyrighted. The design is deliberately conservative: a BM25 retriever, an absolute-score abstention gate, a structured-output generator bound by an in-prompt grounding contract, and a deterministic validator that strips any recommendation whose citation does not resolve to a retrieved chunk. We report a development set (eight scenarios, seven off-domain probes) used during parameter selection and a held-out set written after all parameters were frozen (36 scenarios, three per variant, and 24 clinically adjacent probes), evaluated in a deterministic retrieval-only mode and in the full pipeline over five independent runs at temperature 0. Retrieval alone ranked the correct variant first in 25 of 36 held-out scenarios (69.4%; 95% CI 51.9-83.7) but always placed it within the top five, and the score gate stopped only 3 of 22 clinically adjacent probes. The full pipeline (claude-sonnet-4-6, temperature 0, five runs) selected the correct variant and top procedure in every run for 33 of 36 scenarios (91.7%; 95% CI 77.5-98.2) and in 33 or 34 of 36 scenarios in each individual run; every failed run was a false abstention on a thunderclap-headache presentation, and no run of any scenario recommended a wrong variant. It refused 17 of 22 clinically adjacent probes (77.3%; 54.6-92.2). All 721 emitted citations resolved to a retrieved chunk. The findings characterize a proof of concept: lexical retrieval delivers topic routing and citation traceability, while variant selection and realistic abstention depend on the generator acting as a semantic reranker, and the residual failures are refusals rather than wrong answers. Clinical readiness will require licensed ACR content, a larger reference-standard set, and prospective evaluation.",
-      "journal": "J Imaging Inform Med",
-      "date": "2026-09-23",
-      "authors": [
-        "Vantaku C",
-        "Avakian A"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1007/s10278-026-02326-y",
-      "journal_tier": 2,
-      "impact": 2.9,
-      "section": "girisim",
-      "score": 60.0,
-      "score_parts": {
-        "journal": 60,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
       "pmid": "42778753",
       "title": "Attention-Guided 3D Residual Learning for Pulmonary Embolism Segmentation on CT Pulmonary Angiography.",
       "abstract": "Pulmonary embolism is a potentially life-threatening condition that requires timely and accurate diagnosis. Computed tomography pulmonary angiography (CTPA) is the standard imaging modality for pulmonary embolism assessment; however, manual delineation of embolic regions is time-consuming and challenging because emboli are often small, irregular, and embedded within complex contrast-enhanced vascular structures. This study aimed to develop and evaluate a patch-based 3D deep learning model for automated pulmonary embolism segmentation on CTPA. A retrospective CTPA dataset was collected from Dicle University Hospital with institutional ethical approval. After image-mask quality control, 272 subjects were included and split using a subject-based strategy into training, validation, and test subsets. Lesion-centered positive patches and negative-control patches were extracted to construct a 3D segmentation dataset consisting of 816 patches. We propose PEARL-Net3D (pulmonary embolism attention-guided residual learning network in 3D), a compact residual 3D encoder-decoder architecture incorporating convolutional block attention modules and attention-gated skip fusion. The model was compared with 3D U-Net, 3D VNet, and 3D ResUNet using Dice/F1, IoU, precision, recall, HD95, and ASSD. Ablation experiments and paired Wilcoxon signed-rank tests were also performed. PEARL-Net3D achieved the highest test-set Dice/F1 and IoU among all evaluated models, with mean values of 0.8287 ± 0.2782 and 0.7809 ± 0.3175, respectively. Compared with the strongest baseline, 3D ResUNet, PEARL-Net3D improved Dice/F1 by 0.0098 and IoU by 0.0098, while also achieving the lowest ASSD of 3.0840 ± 3.3025. Statistical analysis showed significant improvements over 3D ResUNet in Dice/F1 (p = 0.0133), IoU (p = 0.0137), and recall (p = 0.0080). Ablation analysis demonstrated that the combined use of CBAM and attention-gated skip fusion yielded the best validation performance, with a Dice/F1 of 0.8486 and IoU of 0.8026. PEARL-Net3D provides effective patch-based 3D segmentation of pulmonary embolism on CTPA and outperforms standard 3D segmentation baselines in overlap-based metrics. The proposed architecture improves embolus voxel recovery and boundary agreement by combining residual volumetric feature extraction with attention-based feature recalibration and gated skip fusion.",
@@ -991,6 +933,96 @@
       "abstract_tr": ""
     },
     {
+      "pmid": "42778637",
+      "title": "Irreversible Electroporation for Colorectal Liver Metastases: Long-term Outcomes from a Transatlantic Multicenter Study.",
+      "abstract": "PURPOSE: To evaluate safety and long-term oncologic outcomes of irreversible electroporation (IRE) for colorectal liver metastases (CRLM) across three high-volume expert centres. MATERIALS AND METHODS: This retrospective multicentre study included patients treated with IRE for unresectable and unablatable CRLM between 2012 and 2025. The primary outcome measure was local tumour progression free-survival (LTPFS). Secondary outcome measures included local control (LC) allowing repeat treatment, overall survival (OS), distant progression-free survival (DPFS), adverse events (AE; CTCAE v5.0) and length-of-hospital-stay. RESULTS: Overall, 162 patients underwent 191 IRE procedures for 219 tumours. Median follow-up was 33.7 months. Per-tumour LTPFS at 1, 2, and 3-years was 68.2%, 55.5%, and 52.6%. Tumours ≤ 3cm demonstrated superior LTPFS compared with tumours >3cm, with 1, 2 and 3-year LTPFS rates of 77.5%, 63.8%, and 60.3% versus 37.4%, 28.5, and 28.5%, (HR 2.89; 95% CI 1.82-4.60; p<0.001). LTPFS did not differ between centres (p = 0.80). Per-tumour LC rates at 1, 2, and 3-years were 97.4%, 95.7%, and 94.8%. OS at 1, 3, 5 and 10-years was 89.3%, 44.6%, 24.2%, and 14.0%. AEs occurred in 23.0% of procedures, predominantly grade 1-2 (72.7%); no grade 5 events occurred. Median hospital-stay was 1 day (IQR 1-2). CONCLUSION: IRE is a feasible and safe treatment option in expert centres for selected patients with CRLM, ineligible for thermal ablation or resection. Tumour size is a key determinant of LTP, with superior outcomes in lesions ≤ 3cm. Local recurrences are frequently amenable to repeat local treatment, eventually resulting in durable LC in the majority of patients.",
+      "journal": "Cardiovasc Intervent Radiol",
+      "date": "2026-09-23",
+      "authors": [
+        "van der Lei S",
+        "Dijkstra M",
+        "Ruiz EM",
+        "Seneviratne N",
+        "Vos DJW",
+        "Peddu P",
+        "Narayanan G",
+        "Meijerink MR"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1007/s00270-026-04617-x",
+      "journal_tier": 2,
+      "impact": 2.6,
+      "section": "girisim",
+      "score": 60.0,
+      "score_parts": {
+        "journal": 60,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42778969",
+      "title": "Effects of Single and Multiple Dose Tiotropium/Olodaterol in Chronic Obstructive Pulmonary Disease on Alveolar Gas Exchange Measured by Hyperpolarized 129Xe MRI.",
+      "abstract": "BACKGROUND: Long-acting muscarinic antagonists/long-acting beta adrenoreceptor agonists lead to lung deflation and improved microvascular perfusion in hyperinflated chronic obstructive pulmonary disease (COPD), but with an unclear time course. PURPOSE: To investigate the effect of inhalation of tiotropium/olodaterol (TIO/OLO) on MRI measures of gas uptake and microvascular blood volume after single and multiple doses. STUDY TYPE: Prospective, randomized, investigator-blinded, placebo-controlled single-dose crossover study with open-label multiple-dose extension. POPULATION: 31 participants with COPD and lung hyperinflation (residual volume > 135% predicted, ≥ 10 pack-years smoking). FIELDSTRENGTH/SEQUENCE: 1.5 T/Interleaved 3D radial gas and dissolved-phase MRI using multi-echo FLASH, high-resolution spectroscopy, chemical shift saturation recovery spectroscopy. ASSESSMENT: Ratios of 129Xe in membrane tissues (M) to gas (M-Gas), red blood cells (RBC) to gas (RBC-Gas), RBC to M (RBC-M) were calculated from dissolved-phase imaging. Dissolved-phase apparent transverse relaxation times (T2*) from high-resolution spectra were also calculated, and septal wall thickness and surface-volume ratio (S/V) were assessed by fitting a model of xenon exchange functions. Parameters were compared for single-dose (5 μg/5 μg TIO/OLO) versus placebo using saline, and single-dose versus multiple-dose (daily 5 μg/5 μg TIO/OLO for 14 days) treatments. STATISTICAL TESTS: Linear mixed models with contrasts of estimated marginal means, significance level 0.05. RESULTS: Compared with placebo, single-dose treatment significantly increased RBC-Gas and septal thickness but not RBC-M (p = 0.06), M-Gas (p = 0.16), RBC T2* (p = 0.13), M T2* (p = 0.09) and S/V (p = 0.47). Multiple-dose treatment significantly increased RBC-Gas, M-Gas and M T2* compared with single-dose treatment, but not RBC-M (p = 0.82), RBC T2* (p = 0.48), septal thickness (p = 0.61), and S/V (p = 0.49). DATA CONCLUSION: Single-dose TIO/OLO increased 129Xe in RBC-Gas. Multiple-dose treatment increased M-Gas and further increased RBC-Gas compared to single-dose treatment. TECHNICAL EFFICACY: Stage 4. EVIDENCE LEVEL: 2.",
+      "journal": "J Magn Reson Imaging",
+      "date": "2026-09-23",
+      "authors": [
+        "Kern AL",
+        "Kayser T",
+        "Müller RA",
+        "Voskrebenzev A",
+        "Klimeš F",
+        "Wacker F",
+        "Hohlfeld JM",
+        "Vogel-Claussen J"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1002/jmri.70558",
+      "journal_tier": 2,
+      "impact": 3.3,
+      "section": "toraks",
+      "score": 60.0,
+      "score_parts": {
+        "journal": 60,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42778754",
+      "title": "RADAR: A Prototype for Grounding Large Language Model Consult Support in an ACR-Structured Appropriateness Knowledge Base with Citation Validation and Abstention.",
+      "abstract": "Large language models (LLMs) answer medical questions fluently but fabricate statements and citations too often to be trusted unaided at the point of care. We describe RADAR (Radiology Appropriateness Decision and Advisory Resource), a prototype retrieval-augmented consult-support pipeline that grounds an LLM in a knowledge base structured like the American College of Radiology (ACR) Appropriateness Criteria at the level of individual clinical variants. The knowledge base is synthetic (twelve variants across five topics) because the official criteria are copyrighted. The design is deliberately conservative: a BM25 retriever, an absolute-score abstention gate, a structured-output generator bound by an in-prompt grounding contract, and a deterministic validator that strips any recommendation whose citation does not resolve to a retrieved chunk. We report a development set (eight scenarios, seven off-domain probes) used during parameter selection and a held-out set written after all parameters were frozen (36 scenarios, three per variant, and 24 clinically adjacent probes), evaluated in a deterministic retrieval-only mode and in the full pipeline over five independent runs at temperature 0. Retrieval alone ranked the correct variant first in 25 of 36 held-out scenarios (69.4%; 95% CI 51.9-83.7) but always placed it within the top five, and the score gate stopped only 3 of 22 clinically adjacent probes. The full pipeline (claude-sonnet-4-6, temperature 0, five runs) selected the correct variant and top procedure in every run for 33 of 36 scenarios (91.7%; 95% CI 77.5-98.2) and in 33 or 34 of 36 scenarios in each individual run; every failed run was a false abstention on a thunderclap-headache presentation, and no run of any scenario recommended a wrong variant. It refused 17 of 22 clinically adjacent probes (77.3%; 54.6-92.2). All 721 emitted citations resolved to a retrieved chunk. The findings characterize a proof of concept: lexical retrieval delivers topic routing and citation traceability, while variant selection and realistic abstention depend on the generator acting as a semantic reranker, and the residual failures are refusals rather than wrong answers. Clinical readiness will require licensed ACR content, a larger reference-standard set, and prospective evaluation.",
+      "journal": "J Imaging Inform Med",
+      "date": "2026-09-23",
+      "authors": [
+        "Vantaku C",
+        "Avakian A"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1007/s10278-026-02326-y",
+      "journal_tier": 2,
+      "impact": 2.9,
+      "section": "girisim",
+      "score": 60.0,
+      "score_parts": {
+        "journal": 60,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
       "pmid": "42778639",
       "title": "Feasibility and Usability of Head-Mounted Display Augmented Reality During Routine Radiological Interventions: The Prospective AZURION-AR Study.",
       "abstract": "PURPOSE: To evaluate the feasibility, usability, and perceived workload of the AZURION-AR augmented reality (AR) medical device during routine interventional radiology procedures in a real-world clinical setting. MATERIALS AND METHODS: This prospective, single-center, single-arm feasibility study included six interventional radiologists performing 34 AR-assisted vascular and non-vascular procedures. The AZURION-AR system projected virtual monitor and touchscreen interfaces within the operator's visual field. Post-procedural structured interviews and standardized 5-point Likert questionnaires assessed usability (System Usability Scale, SUS; 1-5 per item, max score: 100), workload (NASA Task Load Index, NASA-TLX; 0-21 per domain), and image quality (1-5 scale). RESULTS: Continuous head-mounted display use throughout the procedure occurred in 20 cases (58%); mean wearing time was 40 min [5-140 min] versus a mean procedure duration of 59 min [20-240 min]. Mean SUS score was 64.5 ± 11.1, indicating moderate usability with considerable inter-operator variability. Mean NASA-TLX score was 7.6 ± 1.4, reflecting acceptable workload. Mean image quality score was 3.5 ± 0.6, with substantial variability across interventions. Scores tended to be lower in vascular and complex drainage procedures, reflecting increased effort and frustration, reduced anatomical detail, limited spatial resolution, and technical issues such as battery depletion and signal lag. CONCLUSION: The AZURION-AR medical device proved feasible for use during routine interventional radiology offering unanimously rated perceived ergonomic advantages. Although usability was moderate, limitations in image resolution, technical reliability, and battery life require further refinement before reliable routine clinical implementation can be achieved, particularly for procedures requiring high spatial resolution and detailed anatomical assessment.",
@@ -1011,38 +1043,6 @@
         "Journal Article"
       ],
       "doi": "10.1007/s00270-026-04615-z",
-      "journal_tier": 2,
-      "impact": 2.6,
-      "section": "girisim",
-      "score": 60.0,
-      "score_parts": {
-        "journal": 60,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42778637",
-      "title": "Irreversible Electroporation for Colorectal Liver Metastases: Long-term Outcomes from a Transatlantic Multicenter Study.",
-      "abstract": "PURPOSE: To evaluate safety and long-term oncologic outcomes of irreversible electroporation (IRE) for colorectal liver metastases (CRLM) across three high-volume expert centres. MATERIALS AND METHODS: This retrospective multicentre study included patients treated with IRE for unresectable and unablatable CRLM between 2012 and 2025. The primary outcome measure was local tumour progression free-survival (LTPFS). Secondary outcome measures included local control (LC) allowing repeat treatment, overall survival (OS), distant progression-free survival (DPFS), adverse events (AE; CTCAE v5.0) and length-of-hospital-stay. RESULTS: Overall, 162 patients underwent 191 IRE procedures for 219 tumours. Median follow-up was 33.7 months. Per-tumour LTPFS at 1, 2, and 3-years was 68.2%, 55.5%, and 52.6%. Tumours ≤ 3cm demonstrated superior LTPFS compared with tumours >3cm, with 1, 2 and 3-year LTPFS rates of 77.5%, 63.8%, and 60.3% versus 37.4%, 28.5, and 28.5%, (HR 2.89; 95% CI 1.82-4.60; p<0.001). LTPFS did not differ between centres (p = 0.80). Per-tumour LC rates at 1, 2, and 3-years were 97.4%, 95.7%, and 94.8%. OS at 1, 3, 5 and 10-years was 89.3%, 44.6%, 24.2%, and 14.0%. AEs occurred in 23.0% of procedures, predominantly grade 1-2 (72.7%); no grade 5 events occurred. Median hospital-stay was 1 day (IQR 1-2). CONCLUSION: IRE is a feasible and safe treatment option in expert centres for selected patients with CRLM, ineligible for thermal ablation or resection. Tumour size is a key determinant of LTP, with superior outcomes in lesions ≤ 3cm. Local recurrences are frequently amenable to repeat local treatment, eventually resulting in durable LC in the majority of patients.",
-      "journal": "Cardiovasc Intervent Radiol",
-      "date": "2026-09-23",
-      "authors": [
-        "van der Lei S",
-        "Dijkstra M",
-        "Ruiz EM",
-        "Seneviratne N",
-        "Vos DJW",
-        "Peddu P",
-        "Narayanan G",
-        "Meijerink MR"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1007/s00270-026-04617-x",
       "journal_tier": 2,
       "impact": 2.6,
       "section": "girisim",
