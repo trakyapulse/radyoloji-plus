@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-26T10:34:55+00:00",
+  "updated": "2026-09-26T11:03:02+00:00",
   "window_days": 1,
   "datetype": "edat",
   "count": 235,
@@ -437,37 +437,6 @@
       "abstract_tr": ""
     },
     {
-      "pmid": "42791472",
-      "title": "Automatic Image Classification of Wireless Capsule Endoscopy Using Two-Branch Feature Aggregation and Patch Self-Attention.",
-      "abstract": "Wireless capsule endoscopy (WCE) is a non-invasive technique for detecting small intestinal diseases and generates approximately 60,000-80,000 gastrointestinal images per examination. Reviewing such a large number of images is time-consuming for clinicians. However, existing approaches typically focus only on local features while neglecting long-range dependencies. To address this limitation, we propose a dual-branch feature aggregation framework that integrates both local and global features for robust WCE image classification. The architecture comprises a CNN branch for local feature extraction and a vision transformer (ViT) branch for global contextual dependencies. An adaptive weighting mechanism is introduced to dynamically calibrate the contribution of each branch ensuring optimal feature representation. Additionally, a novel patch self-attention (PSA) module is designed to focus on representative salient scene regions within local patches. Comprehensive experiments were conducted on three datasets: Kvasir-Capsule, SEE-AI, and OWCE. The proposed framework achieved classification accuracy of 98.31%, 79.33%, and 94.00%; macro-precision of 98.27%, 80.00%, and 94.08%; and macro-F1 of 98.05%, 79.89%, and 94.09%, respectively. To validate the contribution of the adaptive weighting strategy, we conducted a dedicated experiment, which showed that the weighted fusion consistently improves all metrics over its non-adaptive counterpart. Notably, on the challenging SEE-AI, accuracy increased by 2.48%, micro-recall by 1.29%, and micro-precision by 3.47%. These results demonstrate that the proposed dual-branch framework, equipped with adaptive weighting and PSA, delivers robust and generalizable scene classification across different WCE data domains.",
-      "journal": "J Imaging Inform Med",
-      "date": "2026-09-25",
-      "authors": [
-        "Pan N",
-        "Lei D",
-        "Lu H",
-        "Peng S",
-        "Liu J",
-        "Li Z",
-        "Hu H"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1007/s10278-026-02285-4",
-      "journal_tier": 2,
-      "impact": 2.9,
-      "section": "girisim",
-      "score": 60.0,
-      "score_parts": {
-        "journal": 60,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
       "pmid": "42791471",
       "title": "Combined Model Integrating Clinical-Imaging and Deep Learning to Discriminate Between Persistent Inflammatory and Malignant Subsolid Pulmonary Nodules.",
       "abstract": "This study aimed to develop a combined model integrating clinical, computed tomography (CT), and deep learning (DL) features to discriminate malignant subsolid nodules (M-SSNs) from persistent inflammatory subsolid nodules (PI-SSNs). A total of 573 patients with subsolid nodules (SSNs) who underwent preoperative chest CT and surgical resection at Center 1 were assigned to training and internal validation sets (ratio 4:1), and an external testing cohort comprising 199 patients from Center 2 was also enrolled. A clinical model was first developed using clinical and CT features that differed significantly between M-SSNs and PI-SSNs. Subsequently, five DL models were constructed based on 3D convolutional neural network architectures (VGG11, ResNet18, SEResNet34, Res2Net50, and DenseNet121), and the best-performing DL model was selected as the feature extractor. The extracted DL features were then combined with the selected clinical-CT features to form a comprehensive feature pool. Recursive feature elimination was applied to identify the most discriminative features. Finally, a combined model was built using the random forest algorithm on the refined feature subset. The performance of the clinical model, the optimal DL model, and the combined model was compared to determine the best-performing model. The clinical model was constructed using three features selected by the random forest algorithm: well-defined boundary, lobulation, and mixed ground-glass opacity with multiple solid components. In the external testing cohort, this model achieved an area under the curve (AUC) of 0.773, with an accuracy of 0.683, sensitivity of 0.654, specificity of 0.746, precision of 0.848, and F1-score of 0.739. Among the five DL models, the 3D Res2Net50 model performed best, attaining an AUC of 0.827 in the external test set, along with an accuracy of 0.809, sensitivity of 0.809, specificity of 0.810, precision of 0.902, and F1-score of 0.853. The combined model integrated three clinical-CT features with 20 discriminative DL features derived from the 3D Res2Net50 model. It achieved an AUC of 0.875 in the external testing cohort, with accuracy, sensitivity, specificity, precision, and F1-score values of 0.814, 0.824, 0.794, 0.896, and 0.858, respectively, and the lowest Brier score (0.146) among the three models, indicating the best probability calibration. In this cohort, the combined model showed superior performance compared to both the clinical model and the 3D Res2Net50 DL model. In a reader study, AI assistance significantly improved radiologists' majority-vote AUC from 0.783 to 0.833 (P < 0.05). The decision curve analysis results demonstrated that the combined model provided a higher standardized net benefit than the clinical model, the DL model, and both the treat-all and treat-none strategies across a wide range of threshold probabilities (all P < 0.05). The combined model based on clinical-CT and DL features is valuable in differentiating PI-SSNs from M-SSNs and contributes to optimizing surgical indications and guiding personalized treatment strategies for SSNs.",
@@ -487,6 +456,94 @@
         "Journal Article"
       ],
       "doi": "10.1007/s10278-026-02329-9",
+      "journal_tier": 2,
+      "impact": 2.9,
+      "section": "girisim",
+      "score": 60.0,
+      "score_parts": {
+        "journal": 60,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42791466",
+      "title": "The space of Retzius: anatomy, imaging features, and patterns of disease spread.",
+      "abstract": "The space of Retzius is a clinically important but often overlooked extraperitoneal compartment that serves as a common site of disease involvement and a key pathway for the spread of pelvic and retroperitoneal pathology. Its complex anatomical relationship with other extraperitoneal/retroperitoneal spaces renders it prone to involvement in different pathologic processes. Most cases represent secondary involvement rather than primary pathology. CT and MRI play a pivotal role in depicting the anatomy of the space of Retzius, characterizing lesions, and identifying routes of disease extension. This review provides a comprehensive imaging-based overview of the anatomy of the space of Retzius and illustrates the imaging findings of a broad spectrum of diseases involving this region. We highlighted the anatomical pathways of disease spread, characteristic imaging features, and surgical considerations relevant to radiologists. Familiarity with these imaging patterns and anatomical relationships can improve diagnostic confidence, facilitate identification of the underlying disease process, and guide appropriate clinical management. KEY POINTS: Question Accurate recognition of diseases involving the space of Retzius is challenging because of its complex anatomy and diverse patterns of disease spread. Findings Most pathologies involving the space of Retzius represent secondary extension from adjacent compartments rather than primary disease. Critical relevance statement By integrating imaging anatomy, patterns of disease spread, and surgical relevance, this review provides a practical framework for evaluating abnormalities involving the space of Retzius, improves diagnostic confidence, facilitates identification of the disease process, and guides clinical and surgical management.",
+      "journal": "Insights Imaging",
+      "date": "2026-09-25",
+      "authors": [
+        "Arslan S",
+        "Sonu DB",
+        "Aldur AE",
+        "Karcaaltincaba M",
+        "Akata D",
+        "Ozmen MN",
+        "Karaosmanoglu AD"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1186/s13244-026-02403-4",
+      "journal_tier": 2,
+      "impact": 4.1,
+      "section": "genel",
+      "score": 60.0,
+      "score_parts": {
+        "journal": 60,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42791359",
+      "title": "MRI-based rotator cuff muscle morphometry across isolated supraspinatus tendon tear severity.",
+      "abstract": "OBJECTIVE: To compare rotator cuff muscle morphology and relevant shoulder biomechanical characteristics on MRI among patients with intact, partial-thickness, and full-thickness supraspinatus tendons. MATERIALS AND METHODS: This study included 245 patients aged 45-65 years without tears or substantial abnormalities of the other rotator cuff tendons. Cross-sectional areas of the rotator cuff muscles and supraspinatus fossa were measured. Supraspinatus occupancy ratio, supraspinatus-based muscle ratios, acromiohumeral distance, critical shoulder angle, Goutallier grade, and acromion type were assessed. Multivariable linear regression evaluated associations with morphometric parameters, while ordinal logistic regression evaluated factors associated with higher Goutallier grade. False-discovery-rate correction was applied to exploratory group comparisons and correlations. RESULTS: The intact, partial-thickness, and full-thickness groups included 71, 97, and 77 patients, respectively. After adjustment for age, sex, acromiohumeral distance, critical shoulder angle, and acromion type, full-thickness tears were independently associated with lower supraspinatus muscle area (β = -0.383, p < 0.001), occupancy ratio (β = -0.530, p < 0.001), and supraspinatus-to-infraspinatus, supraspinatus-to-subscapularis, supraspinatus-to-teres-minor, and supraspinatus-to-total-rotator-cuff ratios (all p < 0.001). Partial-thickness tears were not independently associated with these parameters. Partial-thickness and full-thickness tears were associated with higher Goutallier grade than intact tendons, with a stronger association for full-thickness tears. Older age, lower acromiohumeral distance, and female sex were associated with higher Goutallier grade. CONCLUSION: In patients, full-thickness supraspinatus tears were associated with lower supraspinatus morphometric measures relative to the remaining cuff muscles, whereas partial-thickness tears were not independently associated with these measures. These cross-sectional associations do not establish progression or causality.",
+      "journal": "Skeletal Radiol",
+      "date": "2026-09-25",
+      "authors": [
+        "Sercek M",
+        "Emekli E"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1007/s00256-026-05374-1",
+      "journal_tier": 2,
+      "impact": 2.0,
+      "section": "kas",
+      "score": 60.0,
+      "score_parts": {
+        "journal": 60,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42791472",
+      "title": "Automatic Image Classification of Wireless Capsule Endoscopy Using Two-Branch Feature Aggregation and Patch Self-Attention.",
+      "abstract": "Wireless capsule endoscopy (WCE) is a non-invasive technique for detecting small intestinal diseases and generates approximately 60,000-80,000 gastrointestinal images per examination. Reviewing such a large number of images is time-consuming for clinicians. However, existing approaches typically focus only on local features while neglecting long-range dependencies. To address this limitation, we propose a dual-branch feature aggregation framework that integrates both local and global features for robust WCE image classification. The architecture comprises a CNN branch for local feature extraction and a vision transformer (ViT) branch for global contextual dependencies. An adaptive weighting mechanism is introduced to dynamically calibrate the contribution of each branch ensuring optimal feature representation. Additionally, a novel patch self-attention (PSA) module is designed to focus on representative salient scene regions within local patches. Comprehensive experiments were conducted on three datasets: Kvasir-Capsule, SEE-AI, and OWCE. The proposed framework achieved classification accuracy of 98.31%, 79.33%, and 94.00%; macro-precision of 98.27%, 80.00%, and 94.08%; and macro-F1 of 98.05%, 79.89%, and 94.09%, respectively. To validate the contribution of the adaptive weighting strategy, we conducted a dedicated experiment, which showed that the weighted fusion consistently improves all metrics over its non-adaptive counterpart. Notably, on the challenging SEE-AI, accuracy increased by 2.48%, micro-recall by 1.29%, and micro-precision by 3.47%. These results demonstrate that the proposed dual-branch framework, equipped with adaptive weighting and PSA, delivers robust and generalizable scene classification across different WCE data domains.",
+      "journal": "J Imaging Inform Med",
+      "date": "2026-09-25",
+      "authors": [
+        "Pan N",
+        "Lei D",
+        "Lu H",
+        "Peng S",
+        "Liu J",
+        "Li Z",
+        "Hu H"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1007/s10278-026-02285-4",
       "journal_tier": 2,
       "impact": 2.9,
       "section": "girisim",
@@ -536,37 +593,6 @@
       "abstract_tr": ""
     },
     {
-      "pmid": "42791466",
-      "title": "The space of Retzius: anatomy, imaging features, and patterns of disease spread.",
-      "abstract": "The space of Retzius is a clinically important but often overlooked extraperitoneal compartment that serves as a common site of disease involvement and a key pathway for the spread of pelvic and retroperitoneal pathology. Its complex anatomical relationship with other extraperitoneal/retroperitoneal spaces renders it prone to involvement in different pathologic processes. Most cases represent secondary involvement rather than primary pathology. CT and MRI play a pivotal role in depicting the anatomy of the space of Retzius, characterizing lesions, and identifying routes of disease extension. This review provides a comprehensive imaging-based overview of the anatomy of the space of Retzius and illustrates the imaging findings of a broad spectrum of diseases involving this region. We highlighted the anatomical pathways of disease spread, characteristic imaging features, and surgical considerations relevant to radiologists. Familiarity with these imaging patterns and anatomical relationships can improve diagnostic confidence, facilitate identification of the underlying disease process, and guide appropriate clinical management. KEY POINTS: Question Accurate recognition of diseases involving the space of Retzius is challenging because of its complex anatomy and diverse patterns of disease spread. Findings Most pathologies involving the space of Retzius represent secondary extension from adjacent compartments rather than primary disease. Critical relevance statement By integrating imaging anatomy, patterns of disease spread, and surgical relevance, this review provides a practical framework for evaluating abnormalities involving the space of Retzius, improves diagnostic confidence, facilitates identification of the disease process, and guides clinical and surgical management.",
-      "journal": "Insights Imaging",
-      "date": "2026-09-25",
-      "authors": [
-        "Arslan S",
-        "Sonu DB",
-        "Aldur AE",
-        "Karcaaltincaba M",
-        "Akata D",
-        "Ozmen MN",
-        "Karaosmanoglu AD"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1186/s13244-026-02403-4",
-      "journal_tier": 2,
-      "impact": 4.1,
-      "section": "genel",
-      "score": 60.0,
-      "score_parts": {
-        "journal": 60,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
       "pmid": "42791435",
       "title": "From pre- to intra-operative MRI: predicting brain shift in temporal lobe resection for epilepsy surgery.",
       "abstract": "INTRODUCTION: Brain shift reduces the accuracy of neuronavigation based on preoperative magnetic resonance imaging (MRI). Intraoperative MRI can depict this deformation but is costly, disruptive, and not widely available. METHODOLOGY: We propose NeuralShift, a U-Net-based framework that predicts a dense brain displacement field from preoperative MRI and resection laterality for patients undergoing temporal lobe resection. Of 98 paired preoperative and intraoperative MRI cases, eight were reserved as a fixed validation set for checkpoint selection. The remaining 90 were divided into nine disjoint folds; nine independently initialised models were trained with 80 cases and evaluated on a previously unseen 10-case test fold. Performance was assessed using registration-referenced Target Registration Error (TRE) at ipsilateral and midline landmarks and overlap between predicted and intraoperative brain masks. RESULTS: The predicted masks achieved an unweighted mean fold-wise Dice score of 0.97, with a mean within-fold patient-wise standard deviation of 0.015 (fold means, 0.95-0.98), compared with 0.93 and 0.014, respectively, before deformation. Mean post-prediction TRE ranged from 1.12 to 3.05 mm across the evaluated landmarks and resection sides, compared with 1.46 to 4.76 mm before deformation. CONCLUSION: NeuralShift demonstrates the feasibility of predicting a cohort-level prior for brain deformation using only information available before surgery. The registration-derived supervision, single-centre homogeneous cohort, and absence of external or independent physical validation preclude claims of clinical equivalence to biomechanical methods; prospective multi-centre validation is required. Code will be made publicly available after acceptance at https://github.com/SurgicalDataScienceKCL/NeuralShift .",
@@ -592,32 +618,6 @@
       "journal_tier": 2,
       "impact": 2.9,
       "section": "neuro",
-      "score": 60.0,
-      "score_parts": {
-        "journal": 60,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42791359",
-      "title": "MRI-based rotator cuff muscle morphometry across isolated supraspinatus tendon tear severity.",
-      "abstract": "OBJECTIVE: To compare rotator cuff muscle morphology and relevant shoulder biomechanical characteristics on MRI among patients with intact, partial-thickness, and full-thickness supraspinatus tendons. MATERIALS AND METHODS: This study included 245 patients aged 45-65 years without tears or substantial abnormalities of the other rotator cuff tendons. Cross-sectional areas of the rotator cuff muscles and supraspinatus fossa were measured. Supraspinatus occupancy ratio, supraspinatus-based muscle ratios, acromiohumeral distance, critical shoulder angle, Goutallier grade, and acromion type were assessed. Multivariable linear regression evaluated associations with morphometric parameters, while ordinal logistic regression evaluated factors associated with higher Goutallier grade. False-discovery-rate correction was applied to exploratory group comparisons and correlations. RESULTS: The intact, partial-thickness, and full-thickness groups included 71, 97, and 77 patients, respectively. After adjustment for age, sex, acromiohumeral distance, critical shoulder angle, and acromion type, full-thickness tears were independently associated with lower supraspinatus muscle area (β = -0.383, p < 0.001), occupancy ratio (β = -0.530, p < 0.001), and supraspinatus-to-infraspinatus, supraspinatus-to-subscapularis, supraspinatus-to-teres-minor, and supraspinatus-to-total-rotator-cuff ratios (all p < 0.001). Partial-thickness tears were not independently associated with these parameters. Partial-thickness and full-thickness tears were associated with higher Goutallier grade than intact tendons, with a stronger association for full-thickness tears. Older age, lower acromiohumeral distance, and female sex were associated with higher Goutallier grade. CONCLUSION: In patients, full-thickness supraspinatus tears were associated with lower supraspinatus morphometric measures relative to the remaining cuff muscles, whereas partial-thickness tears were not independently associated with these measures. These cross-sectional associations do not establish progression or causality.",
-      "journal": "Skeletal Radiol",
-      "date": "2026-09-25",
-      "authors": [
-        "Sercek M",
-        "Emekli E"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1007/s00256-026-05374-1",
-      "journal_tier": 2,
-      "impact": 2.0,
-      "section": "kas",
       "score": 60.0,
       "score_parts": {
         "journal": 60,
