@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-29T11:52:30+00:00",
+  "updated": "2026-09-30T11:39:02+00:00",
   "year": 2026,
   "count": 60,
   "criteria": "Etki faktörü (sonra etki skoru) sıralı",
@@ -154,6 +154,60 @@
       "abstract_tr": ""
     },
     {
+      "pmid": "42808899",
+      "title": "Diagnostic Accuracy of Bosniak v2019 for Predicting Cancer and Unfavorable Histology in Class III-IV Cystic Renal Masses.",
+      "abstract": "Background The current Bosniak classification system (Bosniak Classification version 2019 [Bosniak v2019]) helps predict cancer, but it is unknown whether it also helps predict unfavorable histologic features. Purpose To determine whether Bosniak v2019 and nodule size help predict cancer and unfavorable histologic features. Materials and Methods This retrospective study included Bosniak III or IV cystic renal masses across 10 institutions and three countries (January 2007 to February 2024). Pretreatment renal CT or MRI scans obtained within 1 year of resection were independently reviewed by two radiologists per site. The reference standard was surgical histopathologic findings. Generalized linear mixed models and multivariable analyses were used to estimate the probability of cancer and cancer with unfavorable histologic features by Bosniak class, subclass, and nodule size, adjusted for mass size. Reader agreement was assessed with the Gwet agreement coefficient (ie, AC1) and intraclass correlation coefficient. Results A total of 419 patients with 421 masses (264 male; median age, 59 years [IQR, 50-67 years]) were included. The probabilities of cancer were 74.8% (95% CI: 69.7, 79.4) and 91.0% (95% CI: 88.2, 93.1) for Bosniak classes III and IV, respectively. The probabilities of cancer with unfavorable histologic features were 10.3% (95% CI: 7.4, 14.2) and 32.3% (95% CI: 28.5, 36.4) for Bosniak classes III and IV, respectively. Bosniak IV subclasses were associated with a greater probability of cancer and unfavorable histologic features than were Bosniak III subclasses (P < .001 to P = .006). There was no evidence of a difference in the odds of cancer or unfavorable histologic features within the Bosniak III (P = .56-.995) or IV (P = .10-.50) subclasses. Nodule size was the strongest predictor of cancer (odds ratio [OR], 4.1 per 10 mm; P = .001) and unfavorable histologic features (OR, 1.9 per 10 mm; P < .001). Interrater agreement was substantial for Bosniak class (Gwet AC1, 0.70 [95% CI: 0.63, 0.77]) and good for nodule size (intraclass correlation coefficient, 0.89 [95% CI: 0.85, 0.91]). Conclusion Bosniak v2019 helps predict cancer and cancer with unfavorable histologic features. Nodule size was strongly associated with unfavorable histologic features. © RSNA, 2026 Supplemental material is available for this article.",
+      "journal": "Radiology",
+      "date": "2026-09",
+      "authors": [
+        "Tse JR",
+        "Khalatbari S",
+        "Yosef M",
+        "Abitbol C",
+        "Abou Elkassem AM",
+        "Albayrak E",
+        "Baroni RH",
+        "Bhayana R",
+        "Cao JJ",
+        "Coelho FMA",
+        "Houshmand S",
+        "Kamaya A",
+        "Krajewski KM",
+        "Krishna S",
+        "Lee SJ",
+        "Mussi TC",
+        "Prabhakar S",
+        "Schieda N",
+        "Shen L",
+        "Shinagare AB",
+        "Silverman SG",
+        "Smith AD",
+        "Sonn GA",
+        "Taherzadeh M",
+        "Wang ZJ",
+        "Warner JD",
+        "Wentland AL",
+        "Pedrosa I",
+        "Davenport MS"
+      ],
+      "pubtypes": [
+        "Journal Article",
+        "Multicenter Study"
+      ],
+      "doi": "10.1148/radiol.252603",
+      "journal_tier": 1,
+      "impact": 12.1,
+      "section": "abdomen",
+      "score": 118.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 18,
+        "recency": 0.0
+      },
+      "tier": 1,
+      "abstract_tr": ""
+    },
+    {
       "pmid": "42678260",
       "title": "Convergence of Local and Systemic Therapies: A Comprehensive Society of Interventional Oncology Framework for 90Y Radioembolization with Immunotherapy in HCC.",
       "abstract": "Combination approaches using systemic immunotherapy agents are now standard of care for patients with advanced-stage hepatocellular carcinoma (HCC), resulting in improved overall survival. However, even with optimal systemic regimens, fewer than 40% of cases respond to treatment, presumably due to resistance mechanisms, including antidrug antibodies and acquired resistance related to alterations in the tumor immune microenvironment (TIME). As a result, new strategies are needed to improve immunotherapeutic efficacy in this setting. Early investigations into the local and systemic effects of yttrium 90 (90Y) radioembolization using resin and glass microspheres demonstrated activation of both innate and adaptive immune systems, leading to sustained therapeutic efficacy in a subgroup of patients with HCC undergoing curative surgical resection after downstaging procedures. Preliminary prospective and retrospective studies have confirmed the safety of combining liver-directed interventions with immunotherapy. Based on these findings, clinical trials are being designed to evaluate the efficacy of different therapeutic strategies combining 90Y radioembolization and immune checkpoint inhibitor therapy. The Society of Interventional Oncology is committed to advancing research on how local-regional therapies influence the TIME and systemic inflammatory response. This review aims to inform the interventional and medical oncology community about essential considerations and strategies for implementing these combination therapies involving 90Y radioembolization and immunotherapy.",
@@ -241,6 +295,73 @@
       "journal_tier": 1,
       "impact": 12.1,
       "section": "genel",
+      "score": 110.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 10,
+        "recency": 0.0
+      },
+      "tier": 1,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42808900",
+      "title": "How I Do It: Bringing Together a Multidisciplinary Radiology Green Team.",
+      "abstract": "Radiology is among the most energy- and resource-intensive areas of health care, creating both a responsibility and an opportunity to advance environmental sustainability. Establishing a structured, multidisciplinary Radiology Green Team provides a practical framework for coordinating, implementing, and measuring sustainable imaging practices across clinical operations. This article outlines a step-by-step approach to forming a Radiology Green Team, prioritizing readiness assessment, stakeholder engagement, charter development, and the identification of early, achievable, high-impact projects for lasting success. Strategies are described for embedding sustainability within existing quality and safety frameworks, maintaining engagement through visible results, and aligning departmental initiatives with institutional priorities. This article emphasizes tracking key metrics, such as energy use and waste reduction, to quantify impact and value. Common barriers, including limited resources and competing clinical demands, are addressed alongside facilitators such as leadership support, cost savings, and recognition programs. Practical tools, including a readiness self-assessment, stakeholder map, and example sustainability metrics, are provided to support immediate implementation. This adaptable framework enables radiology departments of any size or setting, including academic, community, and outpatient settings, to build capacity for environmental stewardship and contribute meaningfully to health system decarbonization.",
+      "journal": "Radiology",
+      "date": "2026-09",
+      "authors": [
+        "Northrup BE",
+        "Brown MJ",
+        "Hernandez AM",
+        "Rockall AG",
+        "Zalis ME",
+        "Hanneman K"
+      ],
+      "pubtypes": [
+        "Journal Article",
+        "Review"
+      ],
+      "doi": "10.1148/radiol.253747",
+      "journal_tier": 1,
+      "impact": 12.1,
+      "section": "egitim",
+      "score": 110.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 10,
+        "recency": 0.0
+      },
+      "tier": 1,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42808894",
+      "title": "Updated European Respiratory Society-American Thoracic Society (ERS-ATS) Classification of Interstitial Pneumonias: The Radiologic Perspective.",
+      "abstract": "This review aims to summarize the key features of the 2025 update of the European Respiratory Society-American Thoracic Society Classification of Interstitial Pneumonias from a radiologic perspective. It highlights the revised terminology, pattern definitions, and conceptual framework, which moves beyond the previous focus on idiopathic interstitial pneumonias toward a broader radiologic-pathologic pattern-based approach that includes both idiopathic and secondary causes. Three major interstitial patterns are defined: usual interstitial pneumonia, nonspecific interstitial pneumonia, and bronchiolocentric interstitial pneumonia. The last is introduced as a unifying descriptor for airway-centered diseases, including hypersensitivity pneumonitis and akin conditions. Within the alveolar filling disorders, the term desquamative interstitial pneumonia is replaced by the more pathologically consistent term alveolar macrophage pneumonia. A further key update is the formal incorporation of diagnostic confidence levels, encouraging the explicit reporting of uncertainty to better guide additional investigations and therapeutic decisions.",
+      "journal": "Radiology",
+      "date": "2026-09",
+      "authors": [
+        "Piciucchi S",
+        "Ryerson CJ",
+        "Johkoh T",
+        "Sharma A",
+        "Sverzellati N",
+        "Hariri LP",
+        "Walsh SLF",
+        "Adegunsoye A",
+        "Travis WD",
+        "Nicholson AG",
+        "Kazerooni E"
+      ],
+      "pubtypes": [
+        "Journal Article",
+        "Review"
+      ],
+      "doi": "10.1148/radiol.253791",
+      "journal_tier": 1,
+      "impact": 12.1,
+      "section": "girisim",
       "score": 110.0,
       "score_parts": {
         "journal": 100,
@@ -749,6 +870,129 @@
       "abstract_tr": ""
     },
     {
+      "pmid": "42808898",
+      "title": "Prognostic Value of Cardiac MRI-derived Diastolic Function for Adverse Cardiovascular Outcomes: Insights from UK Biobank.",
+      "abstract": "Background Although diastolic function markers can help predict adverse outcomes in cardiac disease, the prognostic value of cardiac MRI-derived metrics at a population level remains unclear. Purpose To assess the independent and incremental prognostic value of cardiac MRI-derived diastolic function metrics for adverse cardiovascular outcomes in the UK Biobank. Materials and Methods This secondary analysis of the UK Biobank used data from participants enrolled between March 2006 and August 2010. Univariable and multivariable Cox models were used to evaluate the prognostic influence of each diastolic function marker (peak early to peak late mitral filling rate ratio [E/A], peak early diastolic longitudinal strain rate [e'SR], peak early mitral filling rate to peak e'SR ratio [E/e'SR], and maximum left atrial volume [LAVmax]) on adverse outcomes, including heart failure (HF), arrhythmia, and all-cause death. Multivariable models were adjusted for clinical cardiovascular risk factors (age, sex, smoking, body mass index, hypertension, diabetes, and hyperlipidemia) and known prognostic imaging markers (left ventricular [LV] ejection fraction [LVEF], global longitudinal strain [GLS], LV end-diastolic volume index, and LV mass index). Results The cohort included 59 416 individuals (mean age, 65.4 years ± 7.7 [SD]; 30 887 women) with a median follow-up of 6 years. Peak e'SR, E/A, and LAVmax were independently associated with incident HF and arrhythmia, with peak e'SR showing the strongest association (hazard ratio [HR], 0.55 [95% CI: 0.50, 0.61] for HF, 1.37 [95% CI: 1.26, 1.49] for E/e'SR, and 1.28 [95% CI: 1.17, 1.40] for LAVmax; all P < .001). E/e'SR provided incremental value beyond LVEF and GLS. There was no evidence that diastolic markers were associated with incident all-cause death in fully adjusted models. Conclusion Cardiac MRI-derived diastolic function metrics independently predicted HF and arrhythmia in the UK Biobank with incremental value beyond established imaging markers. © RSNA, 2026 Supplemental material is available for this article. See also the editorial by Ishida in this issue.",
+      "journal": "Radiology",
+      "date": "2026-09",
+      "authors": [
+        "Mahmood A",
+        "Chadalavada S",
+        "Hesse K",
+        "Fung K",
+        "Woodbridge SP",
+        "Khanji MY",
+        "Jensen MT",
+        "Garg P",
+        "Munroe PB",
+        "Petersen SE",
+        "Aung N"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1148/radiol.253712",
+      "journal_tier": 1,
+      "impact": 12.1,
+      "section": "toraks",
+      "score": 100.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 2,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42808896",
+      "title": "Quantitative Comparison of Virtual and True Noncontrast Lung Images in Photon-counting CT: Global and Regional Attenuation Assessment.",
+      "abstract": "Background Use of virtual noncontrast (VNC) images from photon-counting CT (PCCT) may reduce radiation dose and support quantitative lung analysis by obviating the need for separate true noncontrast (TNC) acquisitions. Their accuracy for lung densitometry, however, has not been systematically assessed. Purpose To evaluate agreement between VNC and TNC images for global and regional lung attenuation measurements in thoracic PCCT. Materials and Methods This retrospective study included patients who underwent same-day unenhanced and contrast-enhanced thoracic PCCT between November 2021 and January 2024. VNC datasets were reconstructed from contrast-enhanced scans. Lung volume, mass, and attenuation were compared using paired t tests, Wilcoxon signed-rank tests, and Bland-Altman analysis. Inspiratory depth effects were assessed with linear regression. Density class distributions were compared, and voxel-wise attenuation differences were evaluated in a subset of patients after nonlinear registration. Results This study included 83 patients (mean age, 60.0 years ± 15.0 [SD]; 47 men). Mean lung volume (4143 mL ± 1375 vs 4111 mL ± 1384; P = .41) and mean attenuation (-799 HU ± 56 vs -798 HU ± 56; P = .91) were similar between VNC and TNC images. After adjustment for inspiratory depth, VNC and TNC images demonstrated no systematic bias, and attenuation differences demonstrated substantially lower variability after adjustment than before adjustment (mean difference, -1.1 HU ± 5.9 vs -0.8 HU ± 19.5), with corresponding 95% limits of agreement of -12.6 to 10.5 HU and -39.1 to 37.5 HU, respectively. Density class analysis demonstrated that emphysematous areas were slightly underestimated (median, -0.4% [IQR, -1.4% to 0.1%]; P < .001) and normal-attenuation lung areas were modestly overestimated (median, +0.8% [IQR, -1.3% to 1.7%]; P < .001) on VNC images, without relevant changes in higher-density classes (both P ≥ .71). Voxel-wise differences were minimal within parenchyma (mean, 0.6 HU ± 15.1; P = .76) but more pronounced at anatomic interfaces. Conclusion In patients who underwent thoracic PCCT, VNC images demonstrated agreement with TNC scans for lung volume and attenuation, and inspiratory depth, rather than reconstruction method, was the dominant source of attenuation variability. © RSNA, 2026 Supplemental material is available for this article.",
+      "journal": "Radiology",
+      "date": "2026-09",
+      "authors": [
+        "Bodlien ML",
+        "Scharm SC",
+        "Hunkemöller AM",
+        "Schreuder A",
+        "Schaefer-Prokop C",
+        "Wacker FK",
+        "Shin HO"
+      ],
+      "pubtypes": [
+        "Journal Article",
+        "Comparative Study"
+      ],
+      "doi": "10.1148/radiol.253972",
+      "journal_tier": 1,
+      "impact": 12.1,
+      "section": "toraks",
+      "score": 100.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 2,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42808901",
+      "title": "Case 350: Retained Appendicolith.",
+      "abstract": "History A 16-year-old girl presented to the emergency department with a 1-month history of right lower back pain. She was originally seen at an urgent care clinic, where a lumbar radiograph was reportedly normal, and she was prescribed naproxen. However, she came to the emergency department once pain had escalated to 10 out of 10. Over the past month, the patient's right flank had increased in size and \"hardened\" to touch. She reported no trauma or other inciting incident. She had a prior history of laparoscopic appendectomy for perforated appendicitis more than 6 years earlier at an outside hospital. A prior contrast-enhanced abdominal CT scan, obtained 2 weeks after the appendectomy, was available for review. At evaluation, the patient was febrile and mildly tachycardic (104 beats per minute). Examination of the right flank revealed a 4-cm area of erythema and tenderness with 10-cm surrounding induration. She had leukocytosis (white blood cell count, 12 × 109/L; reference range, <9.44 × 109/L) and elevated C-reactive protein (23 mg/L; reference range, <9 mg/L). US followed by contrast-enhanced MRI of the abdomen was performed. Based on the imaging findings, the patient underwent a percutaneous drainage procedure. All cultures, including aerobic, anaerobic, fungal, and acid fast, were negative, with the caveat that the patient had been started on intravenous antibiotics before the procedure. She was discharged and prescribed 10 days of amoxicillin and clavulanate to complete antibiotic therapy, and the drain was removed 6 weeks later. One month after drain removal, the patient returned to the emergency department with return of severe flank pain, erythema, and purulent drainage. The patient was afebrile with a white blood cell count of 9.8 × 109/L. Contrast-enhanced abdominal CT was performed.",
+      "journal": "Radiology",
+      "date": "2026-09",
+      "authors": [
+        "Lee S",
+        "Miller J"
+      ],
+      "pubtypes": [
+        "Journal Article",
+        "Case Reports"
+      ],
+      "doi": "10.1148/radiol.253735",
+      "journal_tier": 1,
+      "impact": 12.1,
+      "section": "abdomen",
+      "score": 85.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": -15,
+        "recency": 0.0
+      },
+      "tier": 2,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42808897",
+      "title": "Case 354.",
+      "abstract": "History An asymptomatic 45-year-old man with sickle cell disease and coinherited α-thalassemia was referred to the hepatology department for workup of an indeterminate hepatic mass discovered incidentally at screening cardiac MRI. The patient was diagnosed with sickle cell disease in childhood and required several hospitalizations with blood transfusions. During adulthood, disease management was suboptimal, with infrequent transfusion therapy and undertreated chronic hemolytic anemia. There was no history of malignancy, hepatitis B or C infection, alcohol consumption, metabolic syndrome, diabetes, or fatty liver disease. There was no evidence of tuberous sclerosis, glycogen storage disease, or anabolic steroid use. Laboratory investigations demonstrated chronic hemolytic anemia, with a hemoglobin level of 98-109 g/L (reference range, 135-175 g/L) and markedly elevated reticulocyte count (207.9 × 109/L to 247.8 × 109/L; reference range, 25 × 109/L to 75 × 109/L). Peripheral blood smear showed sickle cells, target cells, and Howell-Jolly bodies. Liver enzymes, synthetic liver function, and tumor markers (α-fetoprotein, carbohydrate antigen 19-9, and carcinoembryonic antigen) were within normal limits. There was no evidence of systemic iron overload. Abdominal US (Fig 1), abdominal MRI (Figs 2, 3), and chest CT (Fig 4) were performed.",
+      "journal": "Radiology",
+      "date": "2026-09",
+      "authors": [
+        "Haidey J",
+        "Qian XJ",
+        "Wilson MP",
+        "Low G"
+      ],
+      "pubtypes": [
+        "Journal Article",
+        "Case Reports"
+      ],
+      "doi": "10.1148/radiol.260544",
+      "journal_tier": 1,
+      "impact": 12.1,
+      "section": "toraks",
+      "score": 85.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": -15,
+        "recency": 0.0
+      },
+      "tier": 2,
+      "abstract_tr": ""
+    },
+    {
       "pmid": "42678256",
       "title": "CT Interpretation in the Artificial Intelligence Age: Turning Efficiency into Better Patient Care.",
       "abstract": "",
@@ -978,6 +1222,31 @@
       "abstract_tr": ""
     },
     {
+      "pmid": "42808895",
+      "title": "Cardiac MRI-derived Diastolic Function: From Physiological Promise to Population-level Evidence.",
+      "abstract": "",
+      "journal": "Radiology",
+      "date": "2026-09",
+      "authors": [
+        "Ishida M"
+      ],
+      "pubtypes": [
+        "Editorial"
+      ],
+      "doi": "10.1148/radiol.262318",
+      "journal_tier": 1,
+      "impact": 12.1,
+      "section": "toraks",
+      "score": 75.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": -25,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
       "pmid": "42678258",
       "title": "Ethical Implications of the Invisibility of Intracellular Electrolytes.",
       "abstract": "",
@@ -1045,6 +1314,139 @@
       "journal_tier": 1,
       "impact": 12.1,
       "section": "meme",
+      "score": 70.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": -30,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42808906",
+      "title": "Large Language Models in Radiology Workflow: Refinement of Differential Diagnosis-An Early Career Perspective.",
+      "abstract": "",
+      "journal": "Radiology",
+      "date": "2026-09",
+      "authors": [
+        "Rahmani F",
+        "Raji CA"
+      ],
+      "pubtypes": [
+        "Editorial",
+        "Comment"
+      ],
+      "doi": "10.1148/radiol.262484",
+      "journal_tier": 1,
+      "impact": 12.1,
+      "section": "yapayzeka",
+      "score": 70.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": -30,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42808905",
+      "title": "Will Ketamine Change Sedation Practices for Procedural Sedation?",
+      "abstract": "",
+      "journal": "Radiology",
+      "date": "2026-09",
+      "authors": [
+        "Saffary R"
+      ],
+      "pubtypes": [
+        "Editorial",
+        "Comment"
+      ],
+      "doi": "10.1148/radiol.262157",
+      "journal_tier": 1,
+      "impact": 12.1,
+      "section": "genel",
+      "score": 70.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": -30,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42808904",
+      "title": "Rethinking the Role of CT- and MRI-detected Extranodal Extension in Nasopharyngeal Carcinoma: An Early Career Perspective.",
+      "abstract": "",
+      "journal": "Radiology",
+      "date": "2026-09",
+      "authors": [
+        "Rai P",
+        "Bhatt AA"
+      ],
+      "pubtypes": [
+        "Editorial",
+        "Comment"
+      ],
+      "doi": "10.1148/radiol.262601",
+      "journal_tier": 1,
+      "impact": 12.1,
+      "section": "genel",
+      "score": 70.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": -30,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42808903",
+      "title": "Beyond Photon-counting CT: Multienergy CT across the Breast Cancer Pathway.",
+      "abstract": "",
+      "journal": "Radiology",
+      "date": "2026-09",
+      "authors": [
+        "Meeuwis C",
+        "Dorrius MD"
+      ],
+      "pubtypes": [
+        "Editorial",
+        "Comment"
+      ],
+      "doi": "10.1148/radiol.262427",
+      "journal_tier": 1,
+      "impact": 12.1,
+      "section": "meme",
+      "score": 70.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": -30,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42808902",
+      "title": "A 5-year Follow-up on the Persistence of Post-COVID-19 Lung Injury.",
+      "abstract": "",
+      "journal": "Radiology",
+      "date": "2026-09",
+      "authors": [
+        "Kim N"
+      ],
+      "pubtypes": [
+        "Editorial",
+        "Comment"
+      ],
+      "doi": "10.1148/radiol.262429",
+      "journal_tier": 1,
+      "impact": 12.1,
+      "section": "toraks",
       "score": 70.0,
       "score_parts": {
         "journal": 100,
@@ -1502,431 +1904,6 @@
       "journal_tier": 1,
       "impact": 10.7,
       "section": "genel",
-      "score": 100.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 2,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42702133",
-      "title": "EndoPlanner: An adaptive planning framework for root canal therapy with graph-based endodontic landmark detection and inference-time refinement.",
-      "abstract": "Root canal therapy is a prevalent dental procedure for treating pulp infections; however, its complexity due to the intricate variability of root canal anatomies frequently results in procedural errors, excessive tooth structure loss, and suboptimal outcomes, especially in multi-rooted teeth. Although Guided Endodontics enhances precision and predictability, it depends on manual planning using non-dedicated software, rendering the process labor-intensive, subjective, and confined to single-rooted teeth, thereby limiting broader adoption. In this study, we introduce EndoPlanner, an adaptive and pioneering framework that streamlines preoperative planning for Guided Endodontics solely from cone-beam computed tomography scans, seamlessly integrating automated dental segmentation, endodontic landmark detection, access cavity design, and surgical template generation. Specifically, we propose a unified bottom-up multi-peak encoding and graph-based decoding paradigm for root canal landmark localization and topology recognition, augmented by an anatomy-aware loss for targeted heatmap optimization and a self-supervised inference-time refinement strategy to bolster generalization across diverse root canal morphologies. Additionally, a tunable, geometry-guided algorithm is devised for automatic drill path planning, incorporating minimally invasive principles. Extensive evaluations affirm the superior performance and robustness of our method, yielding an average MRE of 0.767 mm, with SDRs of 74.9% within the strict 1.0 mm safety margin and 94.3% within the broader 2.0 mm tolerance for landmark localization, while attaining clinically acceptable standards for access planning. Deployed as a 3D Slicer extension, it completes preoperative preparation in an average of ∼4 min, reducing time by up to 96.05% relative to traditional workflows. Moreover, successful in-vitro experiments and clinical cases validate the efficacy of patient-specific access solutions facilitated by our efficient, reproducible, and minimally invasive planning schemes, highlighting their potential for routine practice, particularly among less-experienced practitioners.",
-      "journal": "Med Image Anal",
-      "date": "2026-09-02",
-      "authors": [
-        "Zhang Y",
-        "Kong F",
-        "Wang K",
-        "Huang Z",
-        "Chen X"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1016/j.media.2026.104294",
-      "journal_tier": 1,
-      "impact": 10.7,
-      "section": "genel",
-      "score": 100.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 2,
-      "abstract_tr": "Kök kanal tedavisi, pulpa enfeksiyonlarını tedavi etmek için yaygın bir diş prosedürüdür; ancak kök kanal anatomilerinin karmaşık değişkenliğinden kaynaklanan karmaşıklığı sıklıkla prosedür hatalarına, aşırı diş yapısı kaybına ve özellikle çok köklü dişlerde optimal olmayan sonuçlara neden olur. Kılavuzlu Endodonti hassasiyeti ve öngörülebilirliği arttırsa da, özel olmayan bir yazılım kullanarak manuel planlamaya dayanır, süreci emek yoğun, öznel ve tek köklü dişlerle sınırlı hale getirir, dolayısıyla daha geniş çapta benimsenmeyi sınırlar. Bu çalışmada, Kılavuzlu Endodonti için ameliyat öncesi planlamayı yalnızca konik ışınlı bilgisayarlı tomografi taramalarından kolaylaştıran, otomatik diş segmentasyonunu, endodontik dönüm noktası tespitini, erişim boşluğu tasarımını ve cerrahi şablon oluşturmayı sorunsuz bir şekilde entegre eden uyarlanabilir ve öncü bir çerçeve olan EndoPlanner'ı tanıtıyoruz. Spesifik olarak, kök kanalı yer işareti lokalizasyonu ve topoloji tanıma için birleşik bir aşağıdan yukarıya çok tepeli kodlama ve grafik tabanlı kod çözme paradigması öneriyoruz; bu paradigma, hedeflenen ısı haritası optimizasyonu için anatomiye duyarlı bir kayıp ve farklı kök kanal morfolojileri arasında genellemeyi desteklemek için kendi kendini denetleyen bir çıkarım zamanı iyileştirme stratejisi ile güçlendirilmiştir. Ek olarak, otomatik delme yolu planlaması için minimal düzeyde invaziv ilkeleri içeren, ayarlanabilir, geometri destekli bir algoritma tasarlanmıştır. Kapsamlı değerlendirmeler, yöntemimizin üstün performansını ve sağlamlığını onaylar; ortalama 0,767 mm MRE verir, SDR'ler 1,0 mm'lik sıkı güvenlik marjı dahilinde %74,9 ve yer işareti lokalizasyonu için daha geniş 2,0 mm tolerans dahilinde %94,3'tür ve erişim planlaması için klinik olarak kabul edilebilir standartlara ulaşır. 3D Dilimleyici uzantısı olarak konuşlandırıldığında, ameliyat öncesi hazırlığı ortalama ~4 dakikada tamamlayarak geleneksel iş akışlarına göre süreyi %96,05'e kadar azaltır. Dahası, başarılı in vitro deneyler ve klinik vakalar, etkili, tekrarlanabilir ve minimal invazif planlama şemalarımız tarafından kolaylaştırılan hastaya özel erişim çözümlerinin etkinliğini doğruluyor ve bunların özellikle daha az deneyimli pratisyenler arasında rutin uygulama potansiyelini vurguluyor."
-    },
-    {
-      "pmid": "42705146",
-      "title": "PromptMatch: Semi-supervised visual prompt tuning for medical image classification.",
-      "abstract": "Visual prompt tuning (VPT) efficiently adapts foundation models for medical image classification but remains dependent on large labeled datasets. To overcome this, we explore semi-supervised learning (SSL) for label-efficient VPT. In VPT, while the backbone is well-regularized by large-scale pre-training to exhibit stable representations, the newly introduced prompts are initialized from scratch and remain sensitive to perturbations. Motivated by this discrepancy, we propose PromptMatch, a framework that explicitly regularizes the prompt space. By adversarially perturbing prompts on unlabeled data, it enforces prediction consistency across prompt variations to stabilize the adaptation process. Furthermore, we introduce (1) a Deep Prompt Supervision (DPS) module that applies deep supervision to prompt embeddings, utilizing previously neglected intermediate prompt information for SSL; and (2) an Instance-Specific Prompt (ISP) module, which generates instance-specific prompts to capture the unique characteristics of individual samples, overcoming the limitations of shared prompts in VPT. We evaluate PromptMatch on three real-world medical image classification datasets. Our extensive experiments demonstrate that it surpasses other SSL counterparts which apply perturbations to features or samples. PromptMatch reduces the reliance on labeled data, matching fully supervised performance with only 2.86% of the labels. Code is available at https://github.com/fdu-farm/PromptMatch.",
-      "journal": "Med Image Anal",
-      "date": "2026-09-04",
-      "authors": [
-        "Xu J",
-        "Yang Q",
-        "Li W",
-        "Li Z",
-        "Guo Y",
-        "Wang Y"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1016/j.media.2026.104274",
-      "journal_tier": 1,
-      "impact": 10.7,
-      "section": "egitim",
-      "score": 100.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 2,
-      "abstract_tr": "Görsel istem ayarlama (VPT), ​​tıbbi görüntü sınıflandırması için temel modelleri verimli bir şekilde uyarlar ancak büyük etiketli veri kümelerine bağımlı kalır. Bunun üstesinden gelmek için, etiket açısından verimli VPT'ye yönelik yarı denetimli öğrenmeyi (SSL) araştırıyoruz. VPT'de omurga, kararlı temsiller sergilemek için büyük ölçekli ön eğitimle iyi bir şekilde düzenlenirken, yeni tanıtılan istemler sıfırdan başlatılır ve bozulmalara karşı duyarlı kalır. Bu tutarsızlıktan yola çıkarak, bilgi istemi alanını açıkça düzenleyen bir çerçeve olan PromptMatch'i öneriyoruz. Etiketlenmemiş verilerdeki istemleri olumsuz biçimde rahatsız ederek, adaptasyon sürecini istikrara kavuşturmak için bilgi istemi varyasyonları arasında tahmin tutarlılığını zorlar. Ayrıca, (1) SSL için önceden ihmal edilen ara bilgi istemi bilgilerini kullanarak bilgi istemi yerleştirmelerine derin denetim uygulayan bir Derin İstem Denetimi (DPS) modülünü tanıtıyoruz; ve (2) VPT'de paylaşılan istemlerin sınırlamalarının üstesinden gelerek, bireysel örneklerin benzersiz özelliklerini yakalamak için örneğe özgü istemler üreten bir Örneğe Özel İstem (ISP) modülü. PromptMatch'i üç gerçek dünya tıbbi görüntü sınıflandırma veri kümesinde değerlendiriyoruz. Kapsamlı deneylerimiz, özelliklere veya örneklere tedirginlik uygulayan diğer SSL muadillerini geride bıraktığını göstermektedir. PromptMatch, etiketli verilere olan bağımlılığı azaltır ve tamamen denetlenen performansı etiketlerin yalnızca %2,86'sıyla eşleştirir. Kod https://github.com/fdu-farm/PromptMatch adresinde mevcuttur."
-    },
-    {
-      "pmid": "42705145",
-      "title": "FuseMD-XNet: Uncertainty-aware multi-modality fusion network with multilevel visual explanations for skin cancer diagnosis.",
-      "abstract": "Skin cancer is a prevalent and potentially fatal disease that emphasizes the need for accurate and interpretable diagnostic tools to improve patient outcomes. Although DL has advanced automated skin lesion analysis, most models rely solely on dermoscopic images and neglect the complementary clinical metadata. In this study, we propose FuseMD-XNet, a multimodal transformer-based framework that integrates dermoscopic images with structured patient metadata. The model employs intermediate fusion through feature concatenation and cosine similarity alignment, followed by adaptive certainty-guided fusion to dynamically weigh the modality contributions based on confidence estimates. To ensure transparency, the FuseMD-XNet incorporates multilevel explainability using ShapleyCAM, FinerCAM, and SHAP methods. The efficacy of FuseMD-XNet was validated on the PAD-UFES-20 dataset, where it achieved an overall mean diagnostic accuracy of 94.4±0.8% and a mean AUC of 95.9±0.5% across all lesion classes. The highest class-specific performance was observed for basal cell carcinoma (BCC), with an accuracy of 98.4±0.4% and an AUC of 98.7±0.3%, whereas melanoma achieved an accuracy of 97.9±1.8% and an AUC of 98.2±0.5%. On the ISIC 2019 dataset, FuseMD-XNet demonstrated strong generalization performance with an overall mean accuracy of 93.0±0.8% and a mean AUC of 94.6±0.6%, whereas melanoma achieved a class-specific accuracy of 94.7±1.6% and an AUC of 96.3±1.1%. Additionally, an integrated risk stratification module enabled personalized assessments validated by feature importance analysis. These results demonstrate the potential of FuseMD-XNet to improve the classification accuracy and interpretability of skin cancer.",
-      "journal": "Med Image Anal",
-      "date": "2026-09-05",
-      "authors": [
-        "Kushanoor A",
-        "Sahay SK"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1016/j.media.2026.104289",
-      "journal_tier": 1,
-      "impact": 10.7,
-      "section": "genel",
-      "score": 100.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 2,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42705144",
-      "title": "Prognostic saliency-driven hypergraph neural network for survival prediction via vision foundation model.",
-      "abstract": "Precise survival prediction from Whole Slide Images (WSIs) is pivotal for precision oncology yet remains challenging due to the gigapixel resolution and label scarcity. Current approaches are often hindered by two fundamental limitations: the domain misalignment between natural-image-pretrained vision foundation models and histopathological data, and the lack of high-order correlations modeling among sparsely distributed prognostic regions. In this paper, we propose a dual-stage Prognostic Saliency-driven Hypergraph Neural Network (ProSH-Net) for WSI-based survival prediction. A parameter-efficient distillation-based domain-adaptive pre-training paradigm is proposed to fully leverage the representation capability of vision foundation models while ensuring sensitivity to fine-grained morphological patterns. Subsequently, a saliency-aware hypergraph neural network is proposed to orchestrate feature aggregation. Different from traditional graphs, our method constructs hyperedges guided by semantic prototypes and spatial priors, explicitly modeling multi-to-multi interactions among patches. By injecting patch-level saliency scores into the message-passing mechanism, ProSH-Net effectively enhances critical prognostic signals. Extensive experiments on public benchmarks demonstrate the superiority of our proposed method over state-of-the-art alternatives.",
-      "journal": "Med Image Anal",
-      "date": "2026-08-31",
-      "authors": [
-        "Li S",
-        "Shang H",
-        "Zhou J",
-        "Lei M",
-        "Zheng F",
-        "Wang J",
-        "Yang D",
-        "Bao W",
-        "Wang Y"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1016/j.media.2026.104286",
-      "journal_tier": 1,
-      "impact": 10.7,
-      "section": "toraks",
-      "score": 100.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 2,
-      "abstract_tr": "Tam Slayt Görüntülerinden (WSI'ler) kesin hayatta kalma tahmini, hassas onkoloji için çok önemlidir, ancak gigapiksel çözünürlüğü ve etiket kıtlığı nedeniyle zorlu olmaya devam etmektedir. Mevcut yaklaşımlar genellikle iki temel sınırlama nedeniyle engellenmektedir: doğal görüntü ile önceden eğitilmiş görüş temeli modelleri ile histopatolojik veriler arasındaki alan yanlış hizalaması ve seyrek olarak dağıtılmış prognostik bölgeler arasında yüksek dereceli korelasyon modellemesinin eksikliği. Bu yazıda, WSI tabanlı hayatta kalma tahmini için iki aşamalı Prognostik Belirginlik odaklı Hypergraph Sinir Ağı (ProSH-Net) öneriyoruz. İnce taneli morfolojik kalıplara duyarlılık sağlarken, görüş temeli modellerinin temsil yeteneğinden tam olarak yararlanmak için parametre açısından verimli bir damıtma tabanlı, alana uyarlanabilir bir ön eğitim paradigması önerilmiştir. Daha sonra, özellik toplamayı düzenlemek için belirginliğe duyarlı bir hipergraf sinir ağı önerildi. Geleneksel grafiklerden farklı olarak yöntemimiz, anlamsal prototipler ve uzamsal öncelikler tarafından yönlendirilen hiper kenarlar oluşturur ve yamalar arasındaki çokludan çokluya etkileşimleri açıkça modeller. ProSH-Net, yama düzeyinde belirginlik puanlarını mesaj aktarma mekanizmasına enjekte ederek, kritik prognostik sinyalleri etkili bir şekilde geliştirir. Kamuya açık kriterler üzerinde yapılan kapsamlı deneyler, önerdiğimiz yöntemin en son teknolojiye sahip alternatiflere göre üstünlüğünü göstermektedir."
-    },
-    {
-      "pmid": "42705143",
-      "title": "Generalized post-training quantization for medical image segmentation foundation model.",
-      "abstract": "Medical image segmentation foundation models (MedFMs) perform strongly across diverse imaging modalities, but their large size and computational demands hinder deployment in resource-limited clinical settings. Lightweight fine-tuning is impractical given the high training cost of MedFMs, and the efficiency benefits of integer inference remain underused. Post-training quantization (PTQ) is a promising alternative, yet existing PTQ methods fail on MedFMs because their heterogeneous weight distributions lead to severe accuracy degradation at low bit-widths. To address this challenge, we propose GPTQ-MedFM, a generalized post-training quantization framework tailored for medical foundation models. GPTQ-MedFM standardizes complex weight distributions under an ℓ∞-constrained normalization to produce quantization-friendly matrices, and then applies an efficient coordinate-descent solver to obtain high-fidelity low-bit representations. The method adds no extra computation or memory overhead at inference, enabling seamless deployment on medical edge devices. By explicitly modeling and mitigating quantization-induced errors, GPTQ-MedFM achieves state-of-the-art low-bit compression across six medical foundation models and nine imaging modalities - spanning nearly the full range of clinical imaging scenarios - and remains robust even with a single calibration sample. Its broad generalization and minimal calibration cost make GPTQ-MedFM a practical pathway for real-time AI-assisted diagnostics in resource-limited healthcare settings.",
-      "journal": "Med Image Anal",
-      "date": "2026-09-03",
-      "authors": [
-        "Huang P",
-        "Zhang A",
-        "Yin P",
-        "Chen Y",
-        "Guo H",
-        "Yang Z",
-        "Wang N",
-        "Peng B",
-        "Hu S",
-        "Peng J",
-        "Hu J",
-        "Li X",
-        "Pan S",
-        "Li X",
-        "Wu X",
-        "Prabhakaran B",
-        "Zhu H",
-        "Wang X"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1016/j.media.2026.104287",
-      "journal_tier": 1,
-      "impact": 10.7,
-      "section": "egitim",
-      "score": 100.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 2,
-      "abstract_tr": "Tıbbi görüntü segmentasyonu temel modelleri (MedFM'ler), çeşitli görüntüleme yöntemlerinde güçlü performans gösterir, ancak büyük boyutları ve hesaplama talepleri, kaynakların sınırlı olduğu klinik ortamlarda kullanıma engel olur. MedFM'lerin yüksek eğitim maliyeti göz önüne alındığında hafif ince ayar pratik değildir ve tamsayı çıkarımının verimlilik avantajları yeterince kullanılmamaktadır. Eğitim sonrası kuantizasyon (PTQ) umut verici bir alternatiftir, ancak mevcut PTQ yöntemleri MedFM'lerde başarısız olur çünkü heterojen ağırlık dağılımları düşük bit genişliklerinde ciddi doğruluk bozulmasına yol açar. Bu zorluğun üstesinden gelmek için, tıbbi temel modeller için özel olarak tasarlanmış genelleştirilmiş bir eğitim sonrası niceleme çerçevesi olan GPTQ-MedFM'yi öneriyoruz. GPTQ-MedFM, nicemleme dostu matrisler üretmek için karmaşık ağırlık dağılımlarını ℓ∞ kısıtlı normalizasyon altında standartlaştırır ve ardından yüksek doğrulukta düşük bitli gösterimler elde etmek için verimli bir koordinat iniş çözücü uygular. Yöntem, çıkarımda fazladan hesaplama veya bellek yükü eklemez ve tıbbi uç cihazlarda sorunsuz dağıtım sağlar. GPTQ-MedFM, niceleme kaynaklı hataları açık bir şekilde modelleyerek ve azaltarak, altı tıbbi temel model ve dokuz görüntüleme yönteminde (klinik görüntüleme senaryolarının neredeyse tümünü kapsayan) son teknoloji ürünü düşük bit sıkıştırmayı elde eder ve tek bir kalibrasyon örneğiyle bile sağlam kalır. Geniş genelleme ve minimum kalibrasyon maliyeti, GPTQ-MedFM'i kaynakların sınırlı olduğu sağlık hizmeti ortamlarında gerçek zamanlı yapay zeka destekli teşhis için pratik bir yol haline getiriyor."
-    },
-    {
-      "pmid": "42710189",
-      "title": "Isotropic spherical region enlargement and background contraction for sulcal labeling.",
-      "abstract": "The cortical sulci of the posterior medial cortex play a crucial role in cognitive and behavioral functions. However, automatic labeling of these sulci is challenging due to severe class imbalance (i.e., only a small portion of the cortex is labeled) and high neuroanatomical variability. To tackle these challenges, we propose an effective spherical deformation-based sulcal labeling method that automatically enlarges the sulcal regions of interest (ROIs) while contracting unlabeled regions. This allows the proposed method to capture detailed sulcal patterns more effectively and suppress confounding analogous patterns. Specifically, we introduce a generic expansion function with a generalized condition for homeomorphic isotropic deformation. Based on this, we propose a parameterizable exponential expansion design which provides flexibility to fully accommodate non-uniform spatial densities of sulcal ROIs. We also propose an end-to-end SO(3)-equivariant model to enhance its expressive power while improving generalization capability under data scarcity. Furthermore, we offer an explicit regularization on the extent of deformation to provide the stable enlargement of ROIs while preventing the unintended contraction. In the experiments, we show that the proposed method outperforms baseline methods on both adult and pediatric cohorts, particularly in small and variable ROIs. The most notable improvement of 11.16% in Dice score was observed in the smallest sulcus, which is hominoid-specific and implicated in cognition and different neurodevelopmental and clinical disorders. Strong negative correlations between performance gains and ROI size confirm its suitability for labeling small sulci.",
-      "journal": "Med Image Anal",
-      "date": "2026-09-06",
-      "authors": [
-        "Lee S",
-        "Son J",
-        "Lee S",
-        "Willbrand EH",
-        "Parker BJ",
-        "Bunge SA",
-        "Weiner KS",
-        "Lyu I"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1016/j.media.2026.104303",
-      "journal_tier": 1,
-      "impact": 10.7,
-      "section": "pediatri",
-      "score": 100.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 2,
-      "abstract_tr": "Posterior medial korteksin kortikal sulkusları bilişsel ve davranışsal işlevlerde çok önemli bir rol oynar. Bununla birlikte, bu sulkusların otomatik olarak etiketlenmesi, şiddetli sınıf dengesizliği (yani, korteksin yalnızca küçük bir kısmı etiketlenmiştir) ve yüksek nöroanatomik değişkenlik nedeniyle zordur. Bu zorlukların üstesinden gelmek için, etiketlenmemiş bölgeleri daraltırken ilgili sulkus bölgelerini (ROI'ler) otomatik olarak genişleten etkili bir küresel deformasyona dayalı sulkal etiketleme yöntemi öneriyoruz. Bu, önerilen yöntemin ayrıntılı sulkus modellerini daha etkili bir şekilde yakalamasına ve kafa karıştırıcı benzer kalıpları bastırmasına olanak tanır. Spesifik olarak, homeomorfik izotropik deformasyon için genelleştirilmiş bir koşula sahip genel bir genişleme fonksiyonu sunuyoruz. Buna dayanarak, sulkal ROI'lerin tekdüze olmayan uzaysal yoğunluklarına tam olarak uyum sağlamak için esneklik sağlayan, parametreleştirilebilir bir üstel genişleme tasarımı öneriyoruz. Ayrıca, veri kıtlığı altında genelleme yeteneğini geliştirirken ifade gücünü artırmak için uçtan uca SO(3) eşdeğerli bir model öneriyoruz. Ayrıca, istenmeyen daralmayı önlerken ROI'lerin istikrarlı bir şekilde genişlemesini sağlamak için deformasyonun boyutuna ilişkin açık bir düzenleme sunuyoruz. Deneylerde, önerilen yöntemin hem yetişkin hem de pediatrik kohortlarda, özellikle küçük ve değişken ROI'lerde temel yöntemlerden daha iyi performans gösterdiğini gösterdik. Dice skorunda %11,16'lık en kayda değer iyileşme, hominoidlere özgü olan ve biliş ve farklı nörogelişimsel ve klinik bozukluklarla ilişkili olan en küçük sulkusta gözlendi. Performans kazanımları ile yatırım getirisi boyutu arasındaki güçlü negatif korelasyonlar, küçük sulkusların etiketlenmesi için uygunluğunu doğrulamaktadır."
-    },
-    {
-      "pmid": "42710188",
-      "title": "Feasibility study for 3D quantitative angiography in internal carotid aneurysms using in silico biplane imaging and 3D vascular geometry constraints.",
-      "abstract": "Quantitative angiography (QA) in two dimensions has been instrumental in assessing neurovascular contrast flow, aiding disease severity evaluation and treatment outcome prediction. However, QA requires high temporal and spatial resolution, restricting its use to digital subtraction angiography (DSA). The 2D, projective nature of DSA introduces errors in representing the inherently three-dimensional flow dynamics. This study examines whether 3D QA information can be recovered by reconstructing four-dimensional (4D) angiography using data from standard clinical imaging protocols. Patient-specific 3D vascular geometries were used to generate high-fidelity computational fluid dynamics (CFD) simulations of contrast flow in internal carotid aneurysms. The resulting 4D angiograms, representing ground truth, were used to simulate biplane DSA under clinical imaging protocols, including projection spacing and injection timing. 4D angiography was reconstructed from two views using back-projection constrained by a 3D vascular geometry obtained a priori via CT angiography. Angiographic parametric imaging (API) metrics obtained from the CFD-based 4D angiography and reconstructed 4D angiography, respectively, were compared using mean square error (MSE) and mean absolute percentage error (MAPE). The reconstructed 4D datasets effectively captured 3D flow dynamics, achieving an average MSE of 0.007 across models and flow conditions. Intensity-based API metrics closely matched the CFD ground truth, with temporal metrics showing some variability in regions with overlapping projections. These results highlight the feasibility of recovering 3D QA information using 4D DSA reconstructed from standard biplane angiography. The method provides a robust framework for evaluating and improving QA in neurovascular applications, offering new insights into the dynamics of aneurysmal contrast flow.",
-      "journal": "Med Image Anal",
-      "date": "2026-08-19",
-      "authors": [
-        "Williams KA",
-        "Nagesh SS",
-        "Bednarek DR",
-        "Rudin S",
-        "Ionita C"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1016/j.media.2026.104283",
-      "journal_tier": 1,
-      "impact": 10.7,
-      "section": "girisim",
-      "score": 100.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 2,
-      "abstract_tr": "İki boyutlu kantitatif anjiyografi (QA), nörovasküler kontrast akışının değerlendirilmesinde, hastalığın şiddetinin değerlendirilmesine ve tedavi sonucunun tahmin edilmesine yardımcı olmada etkili olmuştur. Ancak QA, yüksek zamansal ve uzaysal çözünürlük gerektirir ve kullanımını dijital çıkarma anjiyografisiyle (DSA) sınırlandırır. DSA'nın 2 boyutlu, yansıtmalı doğası, doğası gereği üç boyutlu akış dinamiklerini temsil etmede hatalara neden olur. Bu çalışma, standart klinik görüntüleme protokollerinden elde edilen veriler kullanılarak dört boyutlu (4D) anjiyografinin yeniden yapılandırılmasıyla 3D QA bilgilerinin kurtarılıp kurtarılamayacağını inceliyor. Dahili karotis anevrizmalarında kontrast akışının yüksek doğruluklu hesaplamalı akışkanlar dinamiği (CFD) simülasyonlarını oluşturmak için hastaya özel 3 boyutlu vasküler geometriler kullanıldı. Temel gerçeği temsil eden sonuçta ortaya çıkan 4D anjiyogramlar, projeksiyon aralığı ve enjeksiyon zamanlaması da dahil olmak üzere klinik görüntüleme protokolleri altında çift düzlemli DSA'yı simüle etmek için kullanıldı. 4D anjiyografi, CT anjiyografi aracılığıyla önsel olarak elde edilen 3 boyutlu vasküler geometriyle sınırlandırılan geri projeksiyon kullanılarak iki görüntüden yeniden oluşturuldu. Sırasıyla CFD tabanlı 4D anjiyografiden ve yeniden yapılandırılmış 4D anjiyografiden elde edilen anjiyografik parametrik görüntüleme (API) ölçümleri, ortalama kare hatası (MSE) ve ortalama mutlak yüzde hatası (MAPE) kullanılarak karşılaştırıldı. Yeniden oluşturulan 4D veri kümeleri, 3D akış dinamiklerini etkili bir şekilde yakalayarak modeller ve akış koşulları genelinde ortalama 0,007 MSE'ye ulaştı. Yoğunluğa dayalı API ölçümleri, CFD temel gerçeğiyle yakından eşleşiyordu; zamansal ölçümler, örtüşen projeksiyonlara sahip bölgelerde bazı değişkenlikler gösteriyordu. Bu sonuçlar, standart çift düzlemli anjiyografiden yeniden oluşturulan 4D DSA kullanılarak 3D QA bilgilerinin kurtarılmasının uygulanabilirliğini vurgulamaktadır. Yöntem, nörovasküler uygulamalarda QA'nın değerlendirilmesi ve iyileştirilmesi için sağlam bir çerçeve sağlayarak anevrizmal kontrast akışının dinamikleri hakkında yeni bilgiler sunar."
-    },
-    {
-      "pmid": "42710187",
-      "title": "BrainCast: A spatio-temporal forecasting model for whole-brain fMRI time series prediction.",
-      "abstract": "Functional magnetic resonance imaging (fMRI) enables noninvasive investigation of brain function, while short clinical scan durations, arising from human and non-human factors, usually lead to reduced data quality and limited statistical power for neuroimaging research. In this paper, we propose BrainCast, a novel spatio-temporal forecasting framework specifically tailored for whole-brain fMRI time series forecasting, to extend informative fMRI time series without additional data acquisition. It formulates fMRI time series forecasting as a multivariate time series prediction task and jointly models temporal dynamics within regions of interest (ROIs) and spatial interactions across ROIs. Specifically, BrainCast integrates a Spatial Interaction Awareness module to characterize inter-ROI dependencies via embedding every ROI time series as a token, a Temporal Feature Refinement module to capture intrinsic neural dynamics within each ROI by enhancing both low- and high-energy temporal components of fMRI time series at the ROI level, and a Spatio-temporal Pattern Alignment module to combine spatial and temporal representations for producing informative whole-brain features. Experimental results on resting-state and task fMRI datasets from the Human Connectome Project demonstrate the superiority of BrainCast over state-of-the-art time series forecasting baselines. Moreover, fMRI time series extended by BrainCast improve downstream cognitive ability prediction, highlighting the clinical and neuroscientific impact brought by whole-brain fMRI time series forecasting in scenarios with restricted scan durations.",
-      "journal": "Med Image Anal",
-      "date": "2026-09-06",
-      "authors": [
-        "Gao Y",
-        "Yang J",
-        "Xiao L",
-        "Huo H",
-        "Ji Y",
-        "Wang H",
-        "Zhang A",
-        "Wang YP"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1016/j.media.2026.104301",
-      "journal_tier": 1,
-      "impact": 10.7,
-      "section": "neuro",
-      "score": 100.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 2,
-      "abstract_tr": "Fonksiyonel manyetik rezonans görüntüleme (fMRI), beyin fonksiyonunun invaziv olmayan bir şekilde araştırılmasına olanak tanırken, insan ve insan dışı faktörlerden kaynaklanan kısa klinik tarama süreleri genellikle nörogörüntüleme araştırmaları için veri kalitesinin azalmasına ve sınırlı istatistiksel güce yol açar. Bu yazıda, bilgilendirici fMRI zaman serilerini ek veri edinimi olmadan genişletmek için özellikle tüm beyin fMRI zaman serisi tahmini için tasarlanmış yeni bir uzay-zamansal tahmin çerçevesi olan BrainCast'i öneriyoruz. FMRI zaman serisi tahminini çok değişkenli bir zaman serisi tahmin görevi olarak formüle eder ve ilgi alanları (ROI'ler) içindeki zamansal dinamikleri ve ROI'ler arasındaki mekansal etkileşimleri ortaklaşa modeller. Spesifik olarak, BrainCast, her ROI zaman serisini bir belirteç olarak gömerek yatırım getirileri arası bağımlılıkları karakterize etmek için bir Uzamsal Etkileşim Farkındalığı modülünü, yatırım getirisi düzeyinde fMRI zaman serisinin hem düşük hem de yüksek enerjili zamansal bileşenlerini geliştirerek her bir ROI içindeki içsel sinir dinamiklerini yakalamak için bir Zamansal Özellik İyileştirme modülünü ve bilgilendirici tam beyin özellikleri üretmek için uzamsal ve zamansal temsilleri birleştirmek için bir Uzay-zamansal Desen Hizalama modülünü entegre eder. Human Connectome Projesi'nin dinlenme durumu ve görev fMRI veri kümeleri üzerindeki deneysel sonuçlar, BrainCast'in son teknoloji ürünü zaman serisi tahmin temel çizgilerine göre üstünlüğünü göstermektedir. Dahası, BrainCast tarafından genişletilen fMRI zaman serisi, aşağı yönlü bilişsel yetenek tahminini geliştirerek, sınırlı tarama sürelerine sahip senaryolarda tüm beyin fMRI zaman serisi tahmininin getirdiği klinik ve sinirbilimsel etkiyi vurgulamaktadır."
-    },
-    {
-      "pmid": "42715718",
-      "title": "Federated Learning for surgical vision in appendicitis classification: Results of the FedSurg EndoVis 2024 challenge.",
-      "abstract": "Developing generalizable surgical AI requires multi-institutional data, yet privacy constraints preclude direct data sharing, making Federated Learning (FL) a natural candidate. Its application to complex, spatiotemporal surgical video remains largely unbenchmarked. We present the FedSurg Challenge, the first international initiative dedicated to FL in surgical vision, as a proof-of-concept evaluation using a multi-center dataset of laparoscopic appendectomies (preliminary subset of Appendix300). Three participant submissions were evaluated on generalization to an unseen clinical center and center-specific local adaptation, alongside centralized, Swarm Learning and parameter-efficient fine-tuning baselines, and constant and chance-level reference classifiers. Our analysis identifies temporal modeling as the architectural factor most consistently associated with generalization to the unseen center, although the effect is not uniform across metrics in the controlled baseline comparison, and both parameter-efficient baselines remain more costly than a constant predictor under the ordinal metric. Classifier collapse arises both from failure of the global model to transfer under domain shift and from unconstrained fine-tuning on small, imbalanced local datasets, motivating structured personalized FL with parameter-efficient fine-tuning for center-specific adaptation. Absolute performance remains far from clinical viability: even with all data pooled centrally the task reached 26.31% F1-score on the unseen center, and no clinically acceptable threshold for intraoperative appendicitis grading has been established. Paired permutation tests over the test cases resolve only large differences, and no adaptation comparison reaches significance at this sample size. By characterizing these limitations, and the limits of what the evaluation can resolve at this scale, this work establishes a methodological reference point for privacy-preserving surgical video AI.",
-      "journal": "Med Image Anal",
-      "date": "2026-09-07",
-      "authors": [
-        "Kirchner M",
-        "Hoffmann H",
-        "Jenke AC",
-        "Saldanha OL",
-        "Pfeiffer K",
-        "Kanjo W",
-        "Alekseenko J",
-        "de Boer C",
-        "Kolamuri SR",
-        "Mazza L",
-        "Padoy N",
-        "Bano S",
-        "Reinke A",
-        "Maier-Hein L",
-        "Stoyanov D",
-        "Kather JN",
-        "Kolbinger FR",
-        "Bodenstedt S",
-        "Speidel S"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1016/j.media.2026.104290",
-      "journal_tier": 1,
-      "impact": 10.7,
-      "section": "girisim",
-      "score": 100.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 2,
-      "abstract_tr": "Genelleştirilebilir cerrahi yapay zeka geliştirmek, çok kurumsal verileri gerektirir, ancak gizlilik kısıtlamaları doğrudan veri paylaşımını engelleyerek Birleşik Öğrenmeyi (FL) doğal bir aday haline getirir. Karmaşık, uzaysal-zamansal cerrahi videoya uygulanması büyük ölçüde kıyaslanamamıştır. Cerrahi görüşte FL'ye adanmış ilk uluslararası girişim olan FedSurg Challenge'ı, laparoskopik apendektomilere ilişkin çok merkezli bir veri kümesini (Ek 300'ün ön alt kümesi) kullanan bir kavram kanıtı değerlendirmesi olarak sunuyoruz. Üç katılımcı gönderimi, merkezileştirilmiş, Sürü Öğrenimi ve parametre açısından verimli ince ayar taban çizgileri ve sabit ve şans düzeyinde referans sınıflandırıcıların yanı sıra, görünmeyen bir klinik merkeze genelleme ve merkeze özgü yerel adaptasyon açısından değerlendirildi. Analizimiz, zamansal modellemeyi, görünmeyen merkeze yönelik genellemeyle en tutarlı şekilde ilişkilendirilen mimari faktör olarak tanımlar; ancak etki, kontrollü temel karşılaştırmada metrikler arasında tekdüze değildir ve her iki parametre açısından verimli temel çizgi, sıralı metrik altında sabit bir tahminciden daha maliyetli olmaya devam eder. Sınıflandırıcının çöküşü, hem küresel modelin etki alanı kayması altında aktarımdaki başarısızlığından hem de küçük, dengesiz yerel veri kümeleri üzerinde kısıtlanmamış ince ayardan, merkeze özgü adaptasyon için parametre açısından verimli ince ayar ile yapılandırılmış kişiselleştirilmiş FL'yi motive etmekten kaynaklanır. Mutlak performans, klinik uygulanabilirlikten uzaktır: tüm veriler merkezi olarak toplanmış olsa bile, görev görünmeyen merkezde %26,31 F1 skoruna ulaşmıştır ve intraoperatif apandisit derecelendirmesi için klinik olarak kabul edilebilir bir eşik belirlenmemiştir. Test senaryoları üzerindeki eşleştirilmiş permütasyon testleri yalnızca büyük farklılıkları çözer ve bu örneklem boyutunda hiçbir adaptasyon karşılaştırması anlamlılığa ulaşmaz. Bu sınırlamaları ve değerlendirmenin bu ölçekte çözebileceği sınırları karakterize ederek bu çalışma, gizliliği koruyan cerrahi video yapay zeka için metodolojik bir referans noktası oluşturur."
-    },
-    {
-      "pmid": "42715717",
-      "title": "Lesion-aware visio-linguistic context regularization for radiology report generation.",
-      "abstract": "While Large Language Models (LLMs) have revolutionized image captioning, their direct application to radiology report generation (RRG) faces two key challenges: the semantic dilution of lesion features due to indiscriminate global image encoding, and the stylistic drift resulting from LLMs' lack of strict clinical constraints. In this paper, we propose a Lesion-Aware Visio-Linguistic Context (LAVIC) regularization architecture, which synergizes focal anatomical attention with report structural consistency. In the visual encoding phase, we first design an anatomy-prioritized feature amplification pipeline that leverages a chest mask as explicit visual context to amplify the signal-to-noise ratio of chest-specific regions, thereby guiding the encoder to prioritize lesion-relevant semantics over background artifacts. Subsequently, we devise an anatomy-prioritized feature enhancement module to refine the expressiveness of the extracted features by modeling the implicit contextual dependencies among them. In the linguistic decoding phase, we mitigate the domain gap using regularization through complementary linguistic contexts. By injecting retrieved entity-level terminologies and summary-level report templates, we establish structural guardrails that regularize the LLM to adhere to radiological conventions without the need for retraining. LAVIC demonstrates strong NLG performance across three benchmarks and consistent advantages on clinically oriented automatic metrics for MIMIC-CXR and CheXPlus. Code will be released.",
-      "journal": "Med Image Anal",
-      "date": "2026-09-07",
-      "authors": [
-        "Sun G",
-        "Tu Y",
-        "Zhu Y",
-        "Wan L",
-        "Jin Q",
-        "Ma J"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1016/j.media.2026.104302",
-      "journal_tier": 1,
-      "impact": 10.7,
-      "section": "girisim",
-      "score": 100.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 2,
-      "abstract_tr": "Büyük Dil Modelleri (LLM'ler) görüntü altyazısında devrim yaratmış olsa da, bunların radyoloji raporu oluşturmaya (RRG) doğrudan uygulanması iki temel zorlukla karşı karşıyadır: ayrım gözetmeyen küresel görüntü kodlaması nedeniyle lezyon özelliklerinin semantik seyreltilmesi ve LLM'lerin katı klinik kısıtlamaların bulunmamasından kaynaklanan stilistik sapma. Bu yazıda, odak anatomik dikkati raporun yapısal tutarlılığıyla sinerjilendiren Lezyona Duyarlı Görsel-Dilsel Bağlam (LAVIC) düzenleme mimarisi öneriyoruz. Görsel kodlama aşamasında, öncelikle göğse özgü bölgelerin sinyal-gürültü oranını yükseltmek için bir göğüs maskesini açık görsel bağlam olarak kullanan anatomi öncelikli bir özellik amplifikasyon hattı tasarlıyoruz, böylece kodlayıcıya arka plandaki artefaktlar yerine lezyonla ilgili semantiği önceliklendirmesi konusunda rehberlik ediyoruz. Daha sonra, aralarındaki örtülü bağlamsal bağımlılıkları modelleyerek çıkarılan özelliklerin ifade edilebilirliğini iyileştirmek için anatomi öncelikli bir özellik geliştirme modülü tasarlıyoruz. Dilsel kod çözme aşamasında, tamamlayıcı dilsel bağlamlar yoluyla düzenlemeyi kullanarak alan boşluğunu azaltıyoruz. Alınan varlık düzeyindeki terminolojileri ve özet düzeyindeki rapor şablonlarını enjekte ederek, LLM'yi yeniden eğitime gerek kalmadan radyolojik sözleşmelere uyacak şekilde düzenleyen yapısal korkuluklar oluşturuyoruz. LAVIC, MIMIC-CXR ve CheXPlus için klinik odaklı otomatik ölçümlerde üç kıyaslamada güçlü NLG performansı ve tutarlı avantajlar sergiliyor. Kod yayınlanacak."
-    },
-    {
-      "pmid": "42715716",
-      "title": "PUNCH: Physics-informed uncertainty-aware network for coronary hemodynamics.",
-      "abstract": "More than 10 million coronary angiograms are performed globally each year, providing a gold standard for detecting obstructive coronary artery disease. Yet, no obstructive lesions are identified in 70% of patients evaluated for ischemic heart disease. Up to half of these patients have undiagnosed, life-limiting coronary microvascular dysfunction (CMD), which remains under-detected due to the limited availability of invasive wire-based tools (Doppler-wire or thermodilution) used to measure coronary flow reserve (CFR). Here, we introduce PUNCH, a wire-free, uncertainty-aware framework for estimating CFR from paired resting and hyperemic coronary angiographic acquisitions. PUNCH integrates physics-informed neural networks with variational inference to infer coronary blood flow from first-principles models of contrast transport, without requiring ground-truth flow measurements or population-level training. The pipeline runs in approximately three minutes per patient on a single GPU. Evaluated on 1000 synthetic kymographs and a feasibility-scale, single-center cohort of 20 patients with matched invasive bolus thermodilution CFR, PUNCH produces CFR point estimates that correlate strongly with the invasive reference and uncertainty intervals that widen under image degradation; the raw posterior intervals are however under-dispersed relative to nominal coverage, and we discuss the recalibration step that would be required before threshold-based clinical use. As a proof-of-concept feasibility study, this work illustrates how physics-informed inference could expand the physiological information extractable from existing angiographic imaging, pending validation in larger, multi-center, multi-territory cohorts.",
-      "journal": "Med Image Anal",
-      "date": "2026-09-03",
-      "authors": [
-        "Thakur S",
-        "Roper M",
-        "Zhou Y",
-        "Isaev DY",
-        "Bafghi RA",
-        "Nallamothu BK",
-        "Figueroa CA",
-        "Paruchuri S",
-        "Burger S",
-        "Collet C",
-        "Raissi M"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1016/j.media.2026.104273",
-      "journal_tier": 1,
-      "impact": 10.7,
-      "section": "toraks",
-      "score": 100.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 2,
-      "abstract_tr": "Dünya çapında her yıl 10 milyondan fazla koroner anjiyogram yapılıyor ve bu, obstrüktif koroner arter hastalığının tespitinde altın standart sağlıyor. Ancak iskemik kalp hastalığı açısından değerlendirilen hastaların %70'inde herhangi bir obstrüktif lezyon saptanmamaktadır. Bu hastaların yarısından fazlasında tanı konmamış, hayatı sınırlayan koroner mikrovasküler fonksiyon bozukluğu (CMD) vardır; bu durum, koroner akış rezervini (CFR) ölçmek için kullanılan invazif tel bazlı araçların (Doppler teli veya termodilüsyon) sınırlı olması nedeniyle yeterince tespit edilememektedir. Burada, eşleştirilmiş dinlenme ve hiperemik koroner anjiyografik edinimlerden CFR'yi tahmin etmek için kablosuz, belirsizliğin farkında olan bir çerçeve olan PUNCH'u tanıtıyoruz. PUNCH, temel gerçek akış ölçümleri veya popülasyon düzeyinde eğitim gerektirmeden, kontrast aktarımının ilk prensip modellerinden koroner kan akışını çıkarmak için fizik bilgili sinir ağlarını varyasyonel çıkarımla birleştirir. İşlem hattı tek bir GPU'da hasta başına yaklaşık üç dakika içinde çalışır. 1000 sentetik kymograf ve eşleştirilmiş invaziv bolus termodilüsyon CFR'si olan 20 hastadan oluşan fizibilite ölçeği, tek merkezli bir kohort üzerinde değerlendirilen PUNCH, invaziv referans ve görüntü bozulması altında genişleyen belirsizlik aralıkları ile güçlü bir şekilde korelasyon gösteren CFR nokta tahminleri üretir; ancak ham arka aralıklar nominal kapsama göre yetersiz dağılmıştır ve eşiğe dayalı klinik kullanımdan önce gerekli olabilecek yeniden kalibrasyon adımını tartışıyoruz. Bir kavram kanıtı fizibilite çalışması olarak bu çalışma, fizik bilgisine dayalı çıkarımın, daha büyük, çok merkezli, çok bölgeli kohortlarda doğrulamayı bekleyen mevcut anjiyografik görüntülemeden elde edilebilecek fizyolojik bilgileri nasıl genişletebileceğini göstermektedir."
-    },
-    {
-      "pmid": "42721942",
-      "title": "DIPOG: A dynamic pooling graph neural network with spatial-temporal-frequency awareness for diagnosis of Alzheimer's disease.",
-      "abstract": "Resting-state functional magnetic resonance imaging (rsfMRI) discloses the spatiotemporal states of the brain and, through brain network modeling, enables the analysis of time-varying patterns associated with Alzheimer's disease (AD). To extract the spatial-temporal-frequency and dynamic features of brain networks and achieve generalizable AD diagnosis, this paper proposes a dynamic pooling graph neural network with spatial-temporal-frequency awareness. Specifically, a novel autoencoder is proposed to capture the accurate temporal features of rsfMRI through time interval representation learning. To improve the model's ability to fit abnormal spatial-temporal-frequency features associated with AD, a masked self-supervised learning strategy has been designed, and the reconstruction tasks are defined according to the masked brain regions and time periods. Considering the time-varying patterns in rsfMRI, a dynamic pooling method is employed, which utilizes dynamic time warping to merge the features of time steps exhibiting the same pattern, thereby avoiding the loss of time-varying features. A total of 2,857 samples from eight centers were included, and AD classification experiments were conducted. We compared 12 state-of-the-art models, and the results showed that the accuracy of our model was 6.4% higher than that of the best-performing comparison models. Furthermore, we used an explainability method to identify salient brain regions, and demonstrated that these regions were correlated with neuropsychological scale. In addition, AD progression could be reflected by the spatial-temporal-frequency features and time-varying patterns. This study presents a spatiotemporal learning framework that facilitates the individualized and precise diagnosis and treatment of AD.",
-      "journal": "Med Image Anal",
-      "date": "2026-08-22",
-      "authors": [
-        "Zhang S",
-        "Huang L",
-        "Wang M",
-        "Li Y",
-        "Guo Q",
-        "Wang Z",
-        "Lv H",
-        "Jiang J"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1016/j.media.2026.104280",
-      "journal_tier": 1,
-      "impact": 10.7,
-      "section": "neuro",
-      "score": 100.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 2,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42731391",
-      "title": "Quantitative mapping from conventional MRI using self-supervised physics-guided deep learning: Applications to a large-scale, clinically heterogeneous dataset.",
-      "abstract": "Magnetic resonance imaging (MRI) is a cornerstone of clinical neuroimaging, yet conventional MRIs provide qualitative information heavily dependent on scanner hardware and acquisition settings. While quantitative MRI (qMRI) offers intrinsic tissue parameters, the requirement for specialized acquisition protocols and reconstruction algorithms restricts its availability and impedes large-scale biomarker research. This study presents a self-supervised physics-guided deep learning framework to infer quantitative T1, T2, and proton-density (PD) maps directly from widely available clinical conventional T1-weighted, T2-weighted, and FLAIR MRIs. The framework was trained and evaluated on a large-scale, clinically heterogeneous dataset comprising 4121 scan sessions acquired at our institution over six years on four different 3 T MRI scanner systems, capturing real-world clinical variability. The framework integrates Bloch-based signal models directly into the training objective. Across more than 600 test sessions, the generated maps exhibited white matter and gray matter values consistent with literature ranges. Additionally, the generated maps showed invariance to scanner hardware and acquisition protocol groups, with inter-group coefficients of variation ≤ 1.1%. Subject-specific analyses demonstrated excellent voxel-wise reproducibility across scanner systems and sequence parameters, with Pearson r and concordance correlation coefficients exceeding 0.82 for T1 and T2. Mean relative voxel-wise differences were low across all quantitative parameters, especially for T2 (< 6%). These results indicate that the proposed framework can robustly transform diverse clinical conventional MRI data into quantitative maps, potentially paving the way for large-scale quantitative biomarker research. Code and model weights are available at: https://github.com/JelmervanL/Quantitative-mapping-from-conventional-MRI.",
-      "journal": "Med Image Anal",
-      "date": "2026-09-09",
-      "authors": [
-        "van Lune J",
-        "Mandija S",
-        "van der Heide O",
-        "Maspero M",
-        "Schilder MB",
-        "Dankbaar JW",
-        "van den Berg CAT",
-        "Sbrizzi A"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1016/j.media.2026.104295",
-      "journal_tier": 1,
-      "impact": 10.7,
-      "section": "girisim",
       "score": 100.0,
       "score_parts": {
         "journal": 100,
