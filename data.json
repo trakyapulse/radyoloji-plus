@@ -1,11 +1,39 @@
 {
-  "updated": "2026-10-04T11:57:52+00:00",
+  "updated": "2026-10-05T13:07:52+00:00",
   "window_days": 1,
   "datetype": "edat",
-  "count": 33,
+  "count": 41,
   "tier1_count": 0,
   "source": "PubMed (NCBI E-utilities)",
   "articles": [
+    {
+      "pmid": "42830023",
+      "title": "State-change learning for prediction of future events in endoscopic videos.",
+      "abstract": "Surgical future prediction, driven by real-time AI analysis of surgical video, is critical for operating room safety and efficiency. Future prediction could provide actionable insights into upcoming events, their timing, and associated risks-enabling better resource allocation, timely instrument readiness, and early warnings for emergent complications (e.g., bleeding, bile duct injury). Despite this need, current surgical AI research focuses on understanding what is happening rather than predicting future events. Existing methods target specific tasks such as phase or instrument anticipation in isolation, lacking unified approaches that span both short-term (action triplets, surgical events) and long-term horizons (remaining surgery duration, phase/step transitions). These methods rely on coarse-grained supervision at the phase or instrument level, while fine-grained surgical action triplets and steps remain underexplored despite their potential to capture nuanced temporal dynamics. We address these limitations by reframing surgical future prediction as state-change learning. Rather than forecasting raw observations directly, our approach classifies state transitions between current and future timesteps, building transition-aware representations that improve generalization across tasks and procedures. In this work, we introduce SurgFUTR, implementing this paradigm through a teacher-student architecture. Video clips are compressed into state representations via Sinkhorn-Knopp clustering; the teacher network learns from both current and future clips, while the student network predicts future states from current observations alone, guided by our Action Dynamics (ActDyn) module that models state transition patterns. For comprehensive evaluation, we establish SFPBench, spanning five prediction tasks across different temporal horizons: short-term anticipation (cystic-structure triplets, surgical events) and long-term forecasting (remaining surgery duration, phase/step transitions). Across four datasets spanning three laparoscopic procedures, SurgFUTR provides generally favorable and often competitive performance relative to strong baselines, with the clearest gains on several long-horizon and fine-grained anticipation tasks. Cross-procedure transfer from cholecystectomy to gastric bypass further shows encouraging, though task and center-dependent, generalization. Code will be made available at https://github.com/CAMMA-public/surgfutr.",
+      "journal": "Med Image Anal",
+      "date": "2026-09-18",
+      "authors": [
+        "Sharma S",
+        "Nwoye CI",
+        "Mutter D",
+        "Padoy N"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.media.2026.104325",
+      "journal_tier": 1,
+      "impact": 10.7,
+      "section": "abdomen",
+      "score": 100.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 2,
+      "abstract_tr": ""
+    },
     {
       "pmid": "42829163",
       "title": "A Method for Selecting Communities for Efficient Equity-Informed Radiology Quality Improvement Interventions Applied to Recommendation for Additional Imaging Adherence.",
@@ -66,41 +94,39 @@
       "abstract_tr": ""
     },
     {
-      "pmid": "42827149",
-      "title": "¹⁸F-sodium fluoride PET/CT as a complementary measure of osteoblastic disease burden in axial spondyloarthritis: a prospective exploratory study.",
-      "abstract": "PURPOSE: To determine whether SIJ ¹⁸F-NaF uptake is associated with MRI-defined inflammation and structural damage and whether it provides a complementary measure of osteoblastic disease burden. METHODS: In this prospective exploratory study, 43 adults with chronic low back pain underwent pelvic radiography, sacroiliac joint (SIJ)-MRI, and whole-body ¹⁸F-NaF PET/CT and were classified as having radiographic axial spondyloarthritis or ankylosing spondylitis (AS; n = 29), non-radiographic axial spondyloarthritis (nr-axSpA; n = 5), or degenerative joint disease (DJD; n = 9). MRI was evaluated using SPARCC inflammation and structural scores. SIJ uptake was assessed visually and quantified using SUVmax. The primary endpoint was the correlation between SIJ SUVmax and the SPARCC structural score. RESULTS: SIJ SUVmax correlated with the SPARCC inflammation (ρ = 0.629) and structural (ρ = 0.606) scores (both p < 0.001) on SIJ-MRI; both associations persisted after mutual adjustment. Median SIJ SUVmax differed across AS, nr-axSpA, and DJD (14.7 [11.2-22.4], 5.5 [4.4-9.9], and 5.7 [4.0-9.2], respectively; p = 0.001). Visually positive uptake occurred in 23/29 (79.3%) patients with AS, including 10/16 without MRI-defined bone marrow edema; no patient with AS had edema without increased uptake. Peripheral joint and entheseal uptake were frequent but non-discriminatory. Exploratory AUCs were 0.841 for AS versus DJD and 0.848 for AS versus nr-axSpA. CONCLUSION: SIJ ¹⁸F-NaF uptake was associated with both MRI-defined inflammation and structural burden in patients with AS, including those without active inflammation on MRI. SIJ SUVmax warrants evaluation as a complementary quantitative imaging biomarker of osteoblastic disease burden, but all derived thresholds require external validation.",
-      "journal": "Eur J Nucl Med Mol Imaging",
-      "date": "2026-10-03",
+      "pmid": "42830468",
+      "title": "Validation of a Novel, Low-Cost, Portable MRI-Compatible Exercise Device in Healthy Volunteers and Patients With Pulmonary Hypertension.",
+      "abstract": "The value of exercise cardiovascular magnetic resonance (CMR) has been shown in many clinical scenarios. We have developed a novel MR-compatible exercise device and aim to validate it against the reference standard MR-conventional ergometer. The novel device consisted of two half-pipes fixed to a wooden base, with participants wearing knee-length socks with a 0.5 kg weight in each sock. Increased workload was achieved by increasing the rate of alternating leg flexion and extension in time with a bleep sound of increasing frequency. Twenty subjects (10 healthy volunteers, 10 patients with pulmonary arterial hypertension) performed two CMR-augmented cardiopulmonary exercise tests (CMR/CPET) using the novel exercise device and a conventional ergometer in a randomised order. Comparing peak metrics elicited on both exercise devices, there was a moderate correlation in peak oxygen consumption (VO2, r = 0.86, p < 0.001), cardiac output (CO, r = 0.73, p < 0.001), stroke volume (SV, r = 0.90, p < 0.001), peak heart rate (HR, r = 0.65, p = 0.002) and peak arteriovenous oxygen content gradient (ΔavO2, r = 0.71, p < 0.001). However, all metrics were significantly lower with the novel device. Both devices were able to elicit statistically significant differences in VO2, HR and right ventricular ejection fraction (RVEF) between patients and healthy subjects (p ≤ 0.04). We have created a simple, easy to use and affordable exercise device for the CMR environment. This may encourage greater dissemination of exercise CMR in clinical and research practice.",
+      "journal": "NMR Biomed",
+      "date": "2026-11",
       "authors": [
-        "Chen HY",
-        "Chiu YL",
-        "Lyu SY",
-        "Kao CH",
-        "Lin LF",
-        "Chao E",
-        "Chiu YH",
-        "Chu SJ",
-        "Liu FC",
-        "Yeh FC",
-        "Li YC",
-        "Chen HC",
-        "Chang DM",
-        "Lu CC"
+        "Virsinskaite R",
+        "Brown JT",
+        "Kotecha T",
+        "Bower D",
+        "Steeden JA",
+        "Montalt-Tordera J",
+        "Jaubert O",
+        "Fontana M",
+        "Coghlan JG",
+        "Knight DS",
+        "Muthurangu V"
       ],
       "pubtypes": [
-        "Journal Article"
+        "Journal Article",
+        "Validation Study"
       ],
-      "doi": "10.1007/s00259-026-08190-w",
-      "journal_tier": 1,
-      "impact": 8.6,
-      "section": "genel",
-      "score": 100.0,
+      "doi": "10.1002/nbm.70412",
+      "journal_tier": 2,
+      "impact": 2.7,
+      "section": "girisim",
+      "score": 72.0,
       "score_parts": {
-        "journal": 100,
-        "pubtype": 0,
+        "journal": 60,
+        "pubtype": 12,
         "recency": 0.0
       },
-      "tier": 2,
+      "tier": 3,
       "abstract_tr": ""
     },
     {
@@ -206,6 +232,255 @@
       "abstract_tr": ""
     },
     {
+      "pmid": "42831280",
+      "title": "Slice-Wise Quality Assessment of High b Value Breast DWI via Deep Learning-Based Artifact Detection.",
+      "abstract": "BACKGROUND: Diffusion-weighted imaging (DWI) can support lesion detection and characterization in breast MRI. Therefore, DWI is increasingly being incorporated into breast MRI protocols to address some of the shortcomings of routine clinical breast MRI. However, especially high b value DWI can be prone to intensity artifacts that can affect diagnostic image assessment. PURPOSE: To detect hyper- and hypointense artifacts on high b value DWI (b = 1500 s/mm2) using deep learning, employing either a binary classification (artifact presence) or a multiclass classification (artifact intensity) approach on a slice-wise dataset. STUDY TYPE: Retrospective. STUDY POPULATION: 11,806 DWI slices were acquired from 156 examinations performed on female patients between 2022 and mid-2023. For both hyper- and hypointense artifact classification, the slices were split into test, validation, and holdout test set with 8164/1806/1836 and 8164/1820/1822 slices in these sets respectively. FIELD STRENGTH/SEQUENCE: 3 T spin-echo planar diffusion-weighted sequence with b values: 50, 750, and 1500 s/mm2. ASSESSMENT: Three convolutional neural network (CNN) architectures (DenseNet121, ResNet18, and SEResNet50) were trained for binary classification of hyper- and hypointense artifacts on slice-wise labeled data. The best performing model (DenseNet121) was applied to an independent holdout test set and further trained separately for multiclass classification. STATISTICAL TESTS: Performance of the networks was evaluated using accuracy, precision, recall, and areas under the receiver operating characteristic curve (AUROC) and under the precision recall curve (AUPRC). Radiologist evaluated bounding box positions on a 5-point Likert-like scale across 150 slices for validation and 200 slices for the holdout test set, derived from the network's Grad-CAM heatmaps. RESULTS: DenseNet121 achieved AUROCs of 0.91 and 0.95 for hyper- and hypointense artifact detection, respectively, and weighted AUROCs of 0.84 and 0.90 for multiclass classification on single-slice high b value diffusion-weighted images, achieving mean scores of 3.52 ± 0.81 for hyperintense artifacts and 3.62 ± 0.65 for hypointense artifacts. DATA CONCLUSION: Hyper- and hypointense artifact detection in slice-wise breast DWI MRI dataset (b = 1500 s/mm2) using CNNs, particularly DenseNet121, suggests potential reliability and requires further validation. EVIDENCE LEVEL: 3. TECHNICAL EFFICACY: Stage 3.",
+      "journal": "J Magn Reson Imaging",
+      "date": "2026-10-05",
+      "authors": [
+        "Markale A",
+        "Brock L",
+        "Horishnyi I",
+        "Skwierawska D",
+        "Nguyen TT",
+        "Hadler D",
+        "Schreiter H",
+        "Heidarikahkesh S",
+        "Kapsner LA",
+        "Uder M",
+        "Ohlmeyer S",
+        "Laun FB",
+        "Liebert A",
+        "Bickelhaupt S"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1002/jmri.70572",
+      "journal_tier": 2,
+      "impact": 3.3,
+      "section": "meme",
+      "score": 62.0,
+      "score_parts": {
+        "journal": 60,
+        "pubtype": 0,
+        "recency": 2.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42830692",
+      "title": "Evaluation of Pre-Operative Cartilage and Meniscus Ultrashort Echo Time T2* as Biomarkers of Long-Term Clinical Outcomes Following Anterior Cruciate Ligament Reconstruction.",
+      "abstract": "BACKGROUND: Ultrashort echo time T2* (UTE-T2*) mapping is sensitive to the composition of deep cartilage and menisci. UTE-T2* elevations are common after anterior cruciate ligament (ACL) injuries, but their long-term prognostic importance is unknown. HYPOTHESIS: Higher pre-operative UTE-T2* values will associate with greater symptoms and radiographic knee osteoarthritis (KOA) at long-term follow-up. STUDY TYPE: Retrospective longitudinal cohort study using prospectively acquired baseline MRI and follow-up clinical outcomes. POPULATION: Twenty-two participants (13 female, mean [SD] age: 29 [9] years) with ACL reconstruction (ACLR). FIELD STRENGTH/SEQUENCE: 3T, 3D acquisition-weighted stack of spirals. ASSESSMENT: Pre-operative UTE-T2* maps from participants who underwent ACLR (2009-2012) were compared to 11-year follow-up Knee Injury and Osteoarthritis Outcome Scores (KOOS), the Marx Activity Rating Scale scores, and radiographs. STATISTICAL TESTS: Linear regression models assessed relationships between pre-operative cartilage and meniscus UTE-T2* and follow-up KOOS Symptoms or Marx scores. Mann-Whitney U-tests assessed differences in pre-operative UTE-T2* by radiographic KOA status (Kellgren-Lawrence grade ≥ 2). SIGNIFICANCE: two-sided α < 0.05. RESULTS: KOOS and Marx scores were available for 22 participants at a median of 11.3 years (range: 10.3-12.4) after ACLR; radiographs were available for 11 participants. After adjustment for meniscus tear status, higher pre-operative UTE-T2* values in the deep medial femoral cartilage and medial meniscus were associated with worse KOOS Symptoms at 11 years (adjusted R2 = 0.146-0.332). Higher femoral cartilage UTE-T2* trended with lower Marx scores (adjusted R2 = 0.208, p = 0.056), while higher posterior meniscus UTE-T2* was associated with higher Marx scores (adjusted R2 = 0.308). In the small radiographic subset, median pre-operative posterior meniscus UTE-T2* was 69% higher in patients with radiographic KOA. DATA CONCLUSION: Pre-operative UTE-T2* in medial compartment cartilage and menisci were associated with knee symptoms and activity levels 11 years after ACLR. These findings support the potential utility of elevated cartilage and meniscus UTE-T2* as markers of pre-osteoarthritis reflecting symptomatic and structural KOA risk after ACLR. LEVEL OF EVIDENCE: Level 3. TECHNICAL EFFICACY: Stage 3 Diagnostic Thinking.",
+      "journal": "J Magn Reson Imaging",
+      "date": "2026-10-05",
+      "authors": [
+        "Williams AA",
+        "Drain NP",
+        "Koltsov JCB",
+        "Qian Y",
+        "Stevens KJ",
+        "Chu CR"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1002/jmri.70571",
+      "journal_tier": 2,
+      "impact": 3.3,
+      "section": "kas",
+      "score": 62.0,
+      "score_parts": {
+        "journal": 60,
+        "pubtype": 0,
+        "recency": 2.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42830534",
+      "title": "Deep learning-based CNN method for fiducial marker detection in kilovoltage X-ray images for liver tumor motion monitoring.",
+      "abstract": "BACKGROUND: During radiation therapy, liver tumor motion can reduce dose delivery accuracy and increase irradiation of adjacent healthy tissues. Because liver tumors are difficult to visualize directly on kilovoltage (kV) X-ray images, fiducial markers are commonly implanted as surrogates for tumor position during treatment. Conventional marker-segmentation approaches such as template matching can lose accuracy when markers are obscured by bone, surgical clips, or stents. Although Convolutional Neural Network (CNN)-based approaches have shown strong performance for image analysis, their application has been constrained to more static organs such as the prostate or has used single-center and vendor-specific datasets, limiting assessment of model transportability across different institutions and anatomic sites. PURPOSE: The aim of this study was to develop, integrate, and evaluate a CNN-based method for fiducial marker detection in kV X-ray images to support real-time image-guided radiation therapy (IGRT) during liver radiotherapy using a multi-institutional, multi-platform dataset spanning both large and fast free-breathing motion and slow and small breath-hold motion. METHODS: A compact Convolutional Neural Network (CNN) was trained on 314,625 kilovoltage (kV) X-ray images encompassing 28 patients from the multi-institutional TROG 17.03 LARK clinical trial (NCT02984566). The model was validated using a hold-out set of 31,463 images (10%) from the same cohort of 12 patients and 55 treatment fractions, spanning three centers and three respiratory motion-management techniques. The CNN was tested on 4184 images from 16 patients and 55 fractions across three centers and three motion-management techniques. The ground truth for testing was manually segmented marker positions from every 10 degrees of gantry rotation for each fraction of each test patient. Based on AAPM guidelines (TG147 and TGB135.B), feasibility for clinical implementation was predefined as > 95% of marker positions being within 2 mm of the ground truth position in each dimension, and processing time less than 150 ms per image using a simulated real-time Kilovoltage Intrafraction Monitoring (KIM) framework. Additional evaluation metrics included sensitivity, specificity, and the area under the precision-recall curve (AUC). RESULTS: For the unseen test patient data, the marker position was segmented by the CNN within 2 mm in 95.4% of frames on the X axis and 97.6% of frames on the Y axis, meeting AAPM criteria. Sensitivity reached 97.76%, specificity was 99.94%, and the AUC was 0.9964. No statistically significant difference in localization error was observed between breath-hold and free-breathing treatments, although this comparison was limited by the small number of free-breathing patients. Localization error differed significantly between Varian and Elekta linacs due to imbalance within the dataset. The processing time for each image was 50-60 ms using a NVIDIA GeForce RTX 3070 GPU. CONCLUSION: A CNN-based method for fiducial marker detection in the liver was developed and evaluated on multi-institutional kV X-ray images spanning free-breathing and breath-hold motion, as well as Varian and Elekta linac platforms. The method satisfied the predefined feasibility criteria for positional accuracy and computation time, supporting future translation toward clinical implementation.",
+      "journal": "Med Phys",
+      "date": "2026-10",
+      "authors": [
+        "Kan F",
+        "Jin F",
+        "Mylonas A",
+        "Zwan B",
+        "Nguyen T",
+        "Moodie T",
+        "Hardcastle N",
+        "Liu SF",
+        "Mason D",
+        "Wang T",
+        "Lee YY",
+        "Keall P",
+        "Sengupta C"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1002/mp.70691",
+      "journal_tier": 2,
+      "impact": 3.8,
+      "section": "girisim",
+      "score": 60.0,
+      "score_parts": {
+        "journal": 60,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42830466",
+      "title": "Simultaneous T1 and T2 Mapping in the Brain With QuantoRAGE: An MP2RAGE Variant Using T2-Prepared Inversion.",
+      "abstract": "PURPOSE: To develop and validate a repeatable and reproducible approach, QuantoRAGE, for simultaneous whole-brain T1 and T2 mapping using adiabatic magnetization preparation. METHODS: QuantoRAGE is a 3D FLASH-based sequence using an adiabatic T2-prepared inversion followed by two readout blocks. Sequence repetitions with different preparation durations and inversion times provide T1- and T2-weighted images. Quantitative parameters are voxel-wise estimated by matching signal evolutions to a dictionary generated from extended phase graph simulations. To accelerate the method, the protocol was optimized using Cramér-Rao lower bound analysis, and a neural-network was trained on sequence-specific dictionaries for fast matching. The optimized protocol was evaluated in phantom and healthy volunteers at 3 T and compared against reference MP2RAGE T1 and multi-echo spin-echo T2 measurements. In vivo repeatability and reproducibility were quantified using scan-rescan experiments. Feasibility of QuantoRAGE at 7 T was tested in vivo. RESULTS: At 3 T, T1 and T2 phantom quantification agreed with nominal values (T1: r = 0.98, T2: r = 0.99). In eight healthy volunteers, high repeatability (bias ± SD, T1: 14.1 ± 30.2 ms, T2: 1.2 ± 1.7 ms) and reproducibility (T1: 18.9 ± 32.6 ms, T2: 1.1 ± 2.1 ms) were observed across brain regions, with T1 estimates comparable to reference methods (r = 0.96, slope = 0.74), and T2 underestimated (r = 0.79, slope = 0.44). Fast matching produced results consistent with dictionary-matching and significantly reduced parameter estimation time. At 7 T, the adiabatic preparation resulted in homogeneous T1 and T2 maps at 0.8-mm isotropic resolution. CONCLUSION: QuantoRAGE enabled reproducible simultaneous T1 and T2 mapping at 3 T, providing an efficient framework for longitudinal and cross-sectional quantitative MRI studies and showed feasibility at 7 T.",
+      "journal": "Magn Reson Med",
+      "date": "2026-10-04",
+      "authors": [
+        "Pato Montemayor N",
+        "Nguyên TJ",
+        "Marques JP",
+        "Açikgöz BC",
+        "Bastiaansen JAM",
+        "Kreis R",
+        "Radojewski P",
+        "Stelter J",
+        "Karampinos D",
+        "Philippe J",
+        "Bacha L",
+        "Di Noto T",
+        "Maréchal B",
+        "Nickel D",
+        "Liebig PA",
+        "Heidemann RM",
+        "Kober T",
+        "Thiran JP",
+        "Hilbert T",
+        "Yu T",
+        "Piredda GF",
+        "Bonanno G"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1002/mrm.70617",
+      "journal_tier": 2,
+      "impact": 3.0,
+      "section": "girisim",
+      "score": 60.0,
+      "score_parts": {
+        "journal": 60,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42830463",
+      "title": "Non-Rigid Motion-Compensated MR Multitasking for Free-Breathing Low-Dose Dynamic Contrast-Enhanced MRI in the Abdomen.",
+      "abstract": "PURPOSE: To improve free-breathing low-dose quantitative dynamic contrast-enhanced (DCE) MRI for imaging pancreatic ductal adenocarcinoma. METHODS: We introduced non-rigid (NR) motion compensation (MoCo) into MR Multitasking using a novel \"in-subspace\" formulation that directly applies motion fields to spatial feature maps (eigenimages), reducing computational cost relative to warping in the spatiotemporal domain. We evaluated NR-MoCo DCE Multitasking in n = 11 healthy volunteers scanned using 20% (0.02 mmol/kg) of the standard Gd dose; 10 of these volunteers underwent a repeat 20%-dose scan after exiting and re-entering the scanner. Data were reconstructed without MoCo (No-MoCo), translation MoCo (Tr-MoCo), and NR-MoCo Multitasking. We assessed motion by measuring respiratory motion energy ratio and liver dome position across time within the end-expiration respiratory bin. We estimated pharmacokinetic parameters from all reconstruction frameworks, evaluating the test-retest repeatability of parameters in the head, body, and tail of the pancreas. RESULTS: Non-rigid MoCo of eigenimages was compatible with MR Multitasking, using > 3000× fewer Fourier transforms and motion deformations. Compared with Tr-MoCo and No-MoCo, NR-MoCo showed the best performance in reducing artifactual intra-bin motion along DCE dimension, indicated by the smallest liver-dome position variation (p = 0.026). NR-MoCo lowered the effective tensor rank and improved repeatability of quantitative kinetic vascular properties across healthy volunteers as compared to No-MoCo. The Bland-Altman analysis indicated that NR-MoCo narrowed Ktrans limits of agreement by 2.1× relative to No-MoCo and Tr-MoCo. CONCLUSION: Non-rigid motion compensation reduces respiratory motion and improves Ktrans repeatability in low-dose free-breathing, whole-abdomen quantitative dynamic contrast enhanced (DCE) MR Multitasking.",
+      "journal": "Magn Reson Med",
+      "date": "2026-10-04",
+      "authors": [
+        "Ma L",
+        "Wu C",
+        "Wang L",
+        "Lee HL",
+        "Chen J",
+        "Hu Z",
+        "Xie Y",
+        "Pandol SJ",
+        "Gaddam S",
+        "Li D",
+        "Christodoulou AG"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1002/mrm.70568",
+      "journal_tier": 2,
+      "impact": 3.0,
+      "section": "abdomen",
+      "score": 60.0,
+      "score_parts": {
+        "journal": 60,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42830255",
+      "title": "Personalized Cine Cardiac MRI Protocol Optimization Using a Retrieval-Augmented Large Language Model: A Prospective Comparison With Technologist-Optimized Protocol.",
+      "abstract": "BACKGROUND: Cine cardiac magnetic resonance imaging (MRI) protocols are typically based on static templates, which may not optimally address individual patient limitations such as arrhythmia or limited breath-hold capacity. PURPOSE: To test whether an artificial intelligence (AI) framework using a large language model with retrieval-augmented generation (LLM-RAG) can provide cine cardiac MRI protocols that are equivalent or noninferior to those of technologist-optimized protocols. STUDY TYPE: Prospective, intra-individual comparative, nonrandomized. POPULATION/SUBJECTS: Sixty-eight patients (mean age 46 ± 18 years; 39 women) referred for clinical cardiac MRI, including patients with normal function as well as those with arrhythmia, implants, or limited breath-hold capacity. FIELD STRENGTH/SEQUENCE: 1.5 T, cine cardiac MRI. ASSESSMENT: Each participant underwent cine cardiac MRI twice in one session. First with a technologist-optimized protocol, then with an AI-optimized protocol (fixed order). Image quality and artifact suppression were assessed using four-point Likert scales by two blinded readers. Left ventricular (LV) functional parameters and repeat acquisitions were recorded. STATISTICAL TESTS: Wilcoxon signed-rank test, McNemar's test, paired t-tests, and Bland-Altman analysis. Significance set at p < 0.05. RESULTS: Compared to technologist-, AI-optimized cine protocols demonstrated significantly higher image quality (3.69 ± 0.47 vs. 3.00 ± 0.49, p < 0.001) and artifact suppression (3.19 ± 0.35 vs. 2.17 ± 0.45, p < 0.001). The AI-optimized protocol reduced repeat acquisitions by 68% (6 vs. 19 repeats, p = 0.028). No significant differences were observed in LV functional parameters between both protocols (all p > 0.05). Bland-Altman analysis showed minimal bias for all LV functional parameters. DATA CONCLUSION: In this nonrandomized study, a LLM-RAG framework generated cine cardiac MRI protocols that were noninferior to technologist-optimized protocols for image quality and demonstrated high agreement for LV functional measurements with fewer repeat acquisitions. These findings demonstrated the feasibility of AI-guided patient-adaptive protocoling. Randomized trials are warranted. EVIDENCE LEVEL: 2. TECHNICAL EFFICACY: Stage 2.",
+      "journal": "J Magn Reson Imaging",
+      "date": "2026-10-04",
+      "authors": [
+        "Dehghani S",
+        "Farashahi A",
+        "Hammood IR"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1002/jmri.70566",
+      "journal_tier": 2,
+      "impact": 3.3,
+      "section": "toraks",
+      "score": 60.0,
+      "score_parts": {
+        "journal": 60,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42830173",
+      "title": "Early target volume dynamics during MR-guided radiotherapy for glioblastoma: first results from the prospective MARGA-I trial.",
+      "abstract": "BACKGROUND: Serial MRI during radiotherapy may enable early response assessment and guide adaptive treatment strategies; however, data on intratreatment volumetric changes remain limited. We herein report results of the MARGA-I-study, investigating target volume changes during MR-linac-based radio-(chemo-)therapy. MATERIALS AND METHODS: In this prospective single-center-study, 25 patients with glioblastoma were treated on a 0.35-T-MR-linac. TrueFISP and T2-FLAIR images were acquired before treatment and every fifth fraction. TrueFISP-based extended resection cavity (cavity/tumor residue) and FLAIR-hyperintense volumes were contoured and analyzed longitudinally. Volume changes were stratified among early (SIM-f5) and late (f5-last fraction) phase and changes >±10% were deemed major. The exceedance of the volumes over the CTV and 95% isodose line was evaluated. RESULTS: Extended-resection-cavity- and FLAIR-contours derived from MR-linac imaging showed correspondence with those from diagnostic MRI (Pearson r > 0.96). In the extended resection cavity, 59%/27%/14% of analyzed patients showed major increase/major decrease/minor changes respectively. In FLAIR contours, the prevalences were 79%/0%/21% respectively. Differences between early and late volume changes were not statistically significant. The FLAIR contours exceeded CTV >1cc in 74% of patients, while the extended resection cavity exceeded the CTV and 95% isodose line >1cc in 27% and 18% respectively. No clinical or molecular parameter significantly predicted volumetric trajectories. CONCLUSION: Non-contrast MR-linac imaging reliably captures glioblastoma target volume dynamics during treatment. Volumetric changes are heterogeneous across patients and major changes can occur both early and late, underscoring the potential for serial imaging. Our data provide a rationale for further investigation of the clinical significance of these changes and their potential utility for individualized adaptive radiotherapy strategies.",
+      "journal": "Radiother Oncol",
+      "date": "2026-10-04",
+      "authors": [
+        "Kretzschmar L",
+        "Wallimann P",
+        "Obergfell LM",
+        "Tanadini-Lang S",
+        "Pouymayou B",
+        "Boss A",
+        "Nowakowska S",
+        "Bink A",
+        "Guckenberger M",
+        "Mayinger M",
+        "Christ SM",
+        "Andratschke N"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.radonc.2026.111792",
+      "journal_tier": 2,
+      "impact": 4.9,
+      "section": "genel",
+      "score": 60.0,
+      "score_parts": {
+        "journal": 60,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
       "pmid": "42829377",
       "title": "Applications and performance of imaging artificial intelligence in detecting and staging avascular necrosis of the femoral head: a systematic review and meta-analysis.",
       "abstract": "OBJECTIVE: To evaluate the diagnostic accuracy of imaging artificial intelligence (AI) models for detecting avascular necrosis of the femoral head (AVNFH) and to examine whether diagnostic performance differs according to imaging modality, disease-stage focus, and validation strategy. MATERIALS AND METHODS: In accordance with PRISMA-DTA, we conducted a systematic search in four main databases. Two independent reviewers evaluated the studies, extracted relevant data, and assessed the quality following the QUADAS-2 criteria. The primary analysis pooled overall sensitivity and specificity using a bivariate random-effects model. Prespecified subgroup analyses assessed differences by imaging modality, disease stage focus, and evaluation strategy. RESULTS: Nine selected estimates contributed to the primary analysis of binary AVNFH detection. Pooled sensitivity was 0.888 (95% CI, 0.789-0.944), specificity was 0.937 (95% CI, 0.906-0.958), and SROC AUC was 0.967. MRI-based estimates showed higher sensitivity than radiography-based estimates in the study-level comparison (p = 0.027). No significant subgroup differences were found by disease-stage focus and validation strategy (all p > 0.05). Only five external test-set estimates contributed to the primary analysis; subgroup comparisons had limited precision. CONCLUSION: Imaging AI models showed promising accuracy for AVNFH detection in research datasets. However, risk of bias, between-study heterogeneity, and limited external testing restrict confidence in their clinical applicability. Prospective, multicenter validation and evaluation of clinical benefit are needed before routine implementation.",
@@ -227,11 +502,11 @@
       "journal_tier": 2,
       "impact": 2.0,
       "section": "yapayzeka",
-      "score": 62.0,
+      "score": 60.0,
       "score_parts": {
         "journal": 60,
         "pubtype": 0,
-        "recency": 2.0
+        "recency": 0.0
       },
       "tier": 3,
       "abstract_tr": ""
@@ -760,38 +1035,33 @@
       "abstract_tr": ""
     },
     {
-      "pmid": "42827325",
-      "title": "Multicenter, Multivendor Development and Validation of Automated Liver Prescription.",
-      "abstract": "BACKGROUND: Manual prescription of liver MRI volumes introduces inter-operator variability and prolongs exam duration. Artificial intelligence (AI)-based prescription has been demonstrated, but existing work has been limited to single-vendor settings. PURPOSE: To develop and validate an AI model for automated liver MRI prescription using a large, consecutive, multicenter dataset encompassing multiple vendors, field strengths, localizer sequences, and liver pathologies. STUDY TYPE: Retrospective. POPULATION: A total of 11,012 patients (5928 female) who underwent liver MRI exams across three vendors (GE HealthCare, Philips Healthcare, Siemens Healthineers) at three institutions, split into training/validation/test sets (70/10/20%). Liver disorders included cirrhosis, ascites, portal hypertension, and iron overload. FIELD STRENGTH/SEQUENCE: Three-plane localizers acquired using single-shot fast spin echo (68.3%) and gradient echo (31.7%) at 1.5 T (52.8%) and 3 T (47.2%). ASSESSMENT: A YOLOv8 object detection model was trained to detect the liver, torso, and arms on localizer images. Automated prescription accuracy was assessed using three-dimensional intersection-over-union (IoU3D) for axial, coronal, and sagittal prescriptions. Subgroup analyses evaluated performance across technical and patient-related factors. STATISTICAL TESTS: Mann-Whitney U tests with Bonferroni correction, Kruskal-Wallis tests, Wilcoxon signed-rank tests, Spearman correlation. Effect sizes were calculated using rank-biserial correlation (rrb) and epsilon-squared (ε2). p < 0.05 was considered statistically significant. RESULTS: Median axial prescription IoU3D was 0.963 (interquartile range: 0.946-0.976), with median IoU3D above 0.940 for coronal and sagittal prescriptions. For axial prescriptions, margins less than 4 mm in each direction were required to achieve complete coverage of manual prescriptions in 90% of cases in the held-out test set. Effects were negligible to small across vendors, field strengths, localizer sequences, and patient factors (rrb ≤ 0.16, ε2 ≤ 0.01). DATA CONCLUSION: A single multivendor model achieved accurate automated liver MRI prescription without clinically meaningful performance differences across vendors, field strengths, localizer sequences, or patient factors. EVIDENCE LEVEL: 2. TECHNICAL EFFICACY: Stage 1.",
-      "journal": "J Magn Reson Imaging",
-      "date": "2026-10-02",
+      "pmid": "42830397",
+      "title": "Sono-Anatomy and Histology of the Deep Fasciae in the Lower Limb.",
+      "abstract": "The deep fasciae of the lower limb represent a highly specialized network essential for efficient force transmission, segmental stability and coordinated mechanics of locomotion. Its collagen-dense architecture forms a resilient and adaptive continuum that varies in thickness, fiber orientation and anchoring patterns from the thigh to the foot. Recently, the use of high-resolution ultrasonography, supported by anatomical and histological evidence, revealed more intricate organization than traditionally illustrated. This is particularly true in the distal leg and ankle, where lattice-like fiber arrangements, retinacular thickenings and deep anchoring bands form a dynamically integrated support system. These features confirm the functional continuity of fascial layers throughout the limb and their relevance in maintaining tendon alignment-modulating load transfer and stabilizing the ankle/foot complex. This paper provides a concise and systematic guide to the sono-anatomy of lower-limb deep fasciae. By integrating anatomical, histological and ultrasonographic perspectives, it highlights the clinical importance of fascia assessment.",
+      "journal": "J Ultrasound Med",
+      "date": "2026-10-04",
       "authors": [
-        "Fullerton GC",
-        "Starekova J",
-        "Buelo CJ",
-        "Harris DT",
-        "do Vale Souza R",
-        "Faacks A",
-        "Anagnostopoulos AA",
-        "Christofi VP",
-        "Murphy A",
-        "Kadi D",
-        "Yokoo T",
-        "Bashir MR",
-        "Reeder SB",
-        "Hernando D"
+        "Pirri C",
+        "Pirri N",
+        "Petrelli L",
+        "Macchi V",
+        "Porzionato A",
+        "De Caro R",
+        "Stecco C",
+        "Özçakar L"
       ],
       "pubtypes": [
-        "Journal Article"
+        "Journal Article",
+        "Review"
       ],
-      "doi": "10.1002/jmri.70575",
-      "journal_tier": 2,
-      "impact": 3.3,
-      "section": "abdomen",
-      "score": 60.0,
+      "doi": "10.1002/jum.70463",
+      "journal_tier": 3,
+      "impact": 1.8,
+      "section": "genel",
+      "score": 45.0,
       "score_parts": {
-        "journal": 60,
-        "pubtype": 0,
+        "journal": 35,
+        "pubtype": 10,
         "recency": 0.0
       },
       "tier": 3,
@@ -824,6 +1094,86 @@
       "score_parts": {
         "journal": 35,
         "pubtype": 10,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42831268",
+      "title": "Editorial for \"Slice-Wise Quality Assessment of High b-Value Breast DWI via Deep Learning-Based Artifact Detection\".",
+      "abstract": "",
+      "journal": "J Magn Reson Imaging",
+      "date": "2026-10-05",
+      "authors": [
+        "Fu Z"
+      ],
+      "pubtypes": [
+        "Editorial"
+      ],
+      "doi": "10.1002/jmri.70574",
+      "journal_tier": 2,
+      "impact": 3.3,
+      "section": "meme",
+      "score": 37.0,
+      "score_parts": {
+        "journal": 60,
+        "pubtype": -25,
+        "recency": 2.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42830710",
+      "title": "Editorial for \"Evaluation of Pre-Operative Cartilage and Meniscus Ultrashort Echo Time T2* as Biomarkers of Long-Term Clinical Outcomes Following Anterior Cruciate Ligament Reconstruction\".",
+      "abstract": "",
+      "journal": "J Magn Reson Imaging",
+      "date": "2026-10-05",
+      "authors": [
+        "Kessler DA"
+      ],
+      "pubtypes": [
+        "Editorial"
+      ],
+      "doi": "10.1002/jmri.70563",
+      "journal_tier": 2,
+      "impact": 3.3,
+      "section": "kas",
+      "score": 37.0,
+      "score_parts": {
+        "journal": 60,
+        "pubtype": -25,
+        "recency": 2.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42830396",
+      "title": "Development and Validation of an Interpretable Machine Learning Model for Osteoporosis Prediction Using Multimodal Musculoskeletal Ultrasound and Clinical Features.",
+      "abstract": "OBJECTIVES: This study aimed to develop and validate an interpretable machine learning model for osteoporosis prediction based on multimodal ultrasound and clinical features. METHODS: Participants with suspected osteoporosis were enrolled from 2 medical centers. Clinical variables and multimodal musculoskeletal ultrasound parameters, including muscle thickness, cross-sectional area, and shear wave elastography measurements, were collected. LASSO regression was used for feature selection. Eight machine learning algorithms, including logistic regression, decision tree, random forest, k-nearest neighbors, support vector machine, naïve Bayes, neural network, and XGBoost, were developed and compared. Model performance was evaluated in the training, internal validation, and external test cohorts using the area under curve (AUC), accuracy, and F1 score. Model interpretability was assessed using SHapley Additive exPlanations (SHAP). RESULTS: The LASSO regression demonstrated that age, gastrocnemius medial head's muscle thickness (GmhMT), rectus femoris' cross-sectional area (RFCSA), gender, body mass index (BMI), and TibialisSWE were key features for osteoporosis. The XGBoost model demonstrated accuracy of 0.889, 0.825, and 0.773 in the training, validating, and testing sets. SHAP analysis revealed the importance ranking of factors as age, GmhMT, RFCSA, gender, BMI, and TibialisSWE. Personalized prediction explanations through SHAP values demonstrated the contribution of each feature to the final prediction, enhancing result interpretability. CONCLUSION: An interpretable machine learning model based on multimodal musculoskeletal ultrasound and clinical features demonstrated promising performance for osteoporosis prediction. That may provide a practical and explainable tool for early osteoporosis risk stratification and individualized assessment.",
+      "journal": "J Ultrasound Med",
+      "date": "2026-10-04",
+      "authors": [
+        "Zhong H",
+        "Liu P",
+        "Huang P",
+        "Bai J",
+        "Lian X",
+        "Xu Z"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1002/jum.70508",
+      "journal_tier": 3,
+      "impact": 1.8,
+      "section": "abdomen",
+      "score": 35.0,
+      "score_parts": {
+        "journal": 35,
+        "pubtype": 0,
         "recency": 0.0
       },
       "tier": 3,
@@ -888,58 +1238,6 @@
       "abstract_tr": ""
     },
     {
-      "pmid": "42827343",
-      "title": "Evaluation of Thyroid Gland Vascularity in Hashimoto's Thyroiditis Using Ultra-Microangiography Vascular Imaging Technique.",
-      "abstract": "OBJECTIVES: In this study, we aimed to investigate possible differences in thyroid parenchymal vascularity between newly diagnosed and untreated patients with Hashimoto's thyroiditis (HT) and healthy participants by applying the subtraction ultra-microangiography (sUMA) vascular imaging technique. METHODS: This study was conducted with participants consisting of 45 newly diagnosed patients with HT and 23 healthy individuals. In addition to laboratory investigation and conventional two-dimensional grayscale ultrasonography (US) examination, thyroid gland vascularity was quantitatively determined in all participants using color pixel percentage (CPP) values via the sUMA procedure. In both groups, CPP values, thyroid hormone levels, thyroid autoantibody levels, and thyroid volumes were compared. RESULTS: Free T4, thyroid-stimulating hormone, thyroid peroxidase antibody, and thyroglobulin antibody levels were significantly different in the HT group (all P < .05), but no significant difference was observed between the groups in terms of free T3 levels (P = .058). In US evaluation, right and left thyroid lobe volumes showed a significant difference in the HT group (P = .036 and P = .003, respectively), while no significant difference was found in isthmus thickness (P = .190). When sUMA vascular imaging parameters were evaluated, both mean right CPP and mean left CPP values were significantly higher in the HT group compared to the control group (P < .001 for both values). CONCLUSIONS: We found that CPP values of the thyroid gland were increased in newly diagnosed patients with HT compared to healthy participants. Our findings have shown that the UMA method is effective and reliable in evaluating thyroid microvascularization and can be used in the diagnosis of HT with high sensitivity and specificity.",
-      "journal": "J Ultrasound Med",
-      "date": "2026-10-02",
-      "authors": [
-        "Gorgel A",
-        "Ates F"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1002/jum.70499",
-      "journal_tier": 3,
-      "impact": 1.8,
-      "section": "genel",
-      "score": 35.0,
-      "score_parts": {
-        "journal": 35,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42827327",
-      "title": "Editorial for \"Multicenter, Multivendor Development and Validation of Automated Liver Prescription\".",
-      "abstract": "",
-      "journal": "J Magn Reson Imaging",
-      "date": "2026-10-02",
-      "authors": [
-        "McIlvain G",
-        "Sloan B"
-      ],
-      "pubtypes": [
-        "Editorial"
-      ],
-      "doi": "10.1002/jmri.70577",
-      "journal_tier": 2,
-      "impact": 3.3,
-      "section": "abdomen",
-      "score": 35.0,
-      "score_parts": {
-        "journal": 60,
-        "pubtype": -25,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
       "pmid": "42829107",
       "title": "Percutaneous aortic thrombectomy with Inari ProTrieve Sheath and Penumbra Aspiration Catheter.",
       "abstract": "",
@@ -993,47 +1291,20 @@
       "abstract_tr": ""
     },
     {
-      "pmid": "42827339",
-      "title": "Can O-RADS Be Validated in Children Using a Malignant-Only Cohort?",
+      "pmid": "42830398",
+      "title": "Methodological Considerations on Shear Wave Elastography of the Ulnar Nerve at the Cubital Tunnel.",
       "abstract": "",
       "journal": "J Ultrasound Med",
-      "date": "2026-10-02",
+      "date": "2026-10-04",
       "authors": [
-        "Tatar D",
-        "Yılmaz E",
-        "Köker Özer N"
+        "Gümrükçü MG",
+        "Ozturk M",
+        "Gürün E"
       ],
       "pubtypes": [
         "Letter"
       ],
-      "doi": "10.1002/jum.70500",
-      "journal_tier": 3,
-      "impact": 1.8,
-      "section": "pediatri",
-      "score": 5.0,
-      "score_parts": {
-        "journal": 35,
-        "pubtype": -30,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42827321",
-      "title": "Ultrasound-Guided Genital Rejuvenation: Need for Diagnostic Validation and Safety Protocols.",
-      "abstract": "",
-      "journal": "J Ultrasound Med",
-      "date": "2026-10-02",
-      "authors": [
-        "Naz S",
-        "Ahmad A",
-        "Safwan M"
-      ],
-      "pubtypes": [
-        "Letter"
-      ],
-      "doi": "10.1002/jum.70501",
+      "doi": "10.1002/jum.70512",
       "journal_tier": 3,
       "impact": 1.8,
       "section": "genel",
