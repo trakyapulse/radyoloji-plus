@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06T12:29:41+00:00",
+  "updated": "2026-10-07T12:22:40+00:00",
   "year": 2026,
   "count": 60,
   "criteria": "Etki faktörü (sonra etki skoru) sıralı",
@@ -38,6 +38,36 @@
       },
       "tier": 1,
       "abstract_tr": "Arka Plan Opioid-benzodiazepin rejimleri, solunum ve analjezik etkililik kaygılarına rağmen, radyolog tarafından uygulanan prosedürel sedasyon için yaygın olmaya devam etmektedir. Amaç Görüntü rehberliğinde prosedürel sedasyon sırasında prosedür sırasında ağrıyı ve ketamin/midazolam ve fentanil/midazolam arasında hasta tarafından bildirilen deneyimi karşılaştırmak. Gereçler ve Yöntemler Bu randomize klinik çalışma, Haziran 2025 ile Şubat 2026 arasında tek bir akademik merkezde gerçekleştirildi. Görüntü rehberliğinde akciğer veya kemik biyopsisi veya apse drenajı yapılan yetişkinler, girişimsel radyologlar tarafından uygulanan fentanil/midazolam veya ketamin/midazolam tedavisine randomize edildi. İşlemler US, CT, CT floroskopi veya kombine CT ve US rehberliği kullanılarak gerçekleştirildi. Birincil sonuç maksimum intraprosedürel ağrıydı (Sayısal Derecelendirme Ölçeğinde 0-10). İkincil sonuçlar arasında sedasyon derinliği, fizyolojik parametreler, oksijen desatürasyonu, modifiye Heidelberg anketi kullanılarak değerlendirilen hasta tarafından bildirilen deneyim ve komplikasyonlar yer aldı. Sonuçlar 260 katılımcıdaki (ortalama yaş, 68 yıl [IQR, 61-75 yıl]; 135'i (%52) kadın) 264 randomize prosedür arasında (grup başına 132 prosedür), ketamin/midazolam, fentanil/midazolamdan daha düşük maksimum prosedür içi ağrı ile sonuçlandı (ortalama fark, -1,4 puan [%95 GA: -2,0, -0,8]; P < 0,001). Ketamin/midazolam ile 4'ün üzerindeki ağrı skorları daha az sıklıkta ortaya çıktı (%2,3'e karşı %17; mutlak fark, 14 yüzde puanı [%95 GA: 8, 21]; P < 0,001). Ketamin/midazolam daha yüksek nadir oksijen satürasyonu (ortalama fark, +%1,4 [%95 GA: 0,6, 2,2]; P = 0,001) ve %90'ın altında daha az oksijen desatürasyonu olayı (üç [%2,3]'e karşılık 13 [%9,8]; mutlak fark, yüzde 7,6 puan [%95 GA: 1,9, 13,3]; P = .02). Ketamin/midazolam daha derin sedasyona ve işlem sırasında daha yüksek sistolik kan basıncına neden oldu. Halüsinasyonlar ketamin/midazolam ile daha sık meydana geldi (15'e (%11,4) karşı beş [%3,8]; mutlak fark, 7,6 yüzde puanı [%95 GA: 1,3, 13,9]; P = 0,03), ancak genel prosedür konforu, azalmış hatırlama ve sedasyonun algılanan yeterliliği iyileşti. İşleme bağlı ve sedasyona bağlı komplikasyonlar gruplar arasında farklılık göstermedi. Sonuç Görüntü rehberliğinde prosedürel sedasyon sırasında radyolog tarafından uygulanan ketamin/midazolam, fentanil/midazolam ile karşılaştırıldığında daha az hipoksemik olay ve komplikasyonlarda artış olmaksızın analjeziyi ve hasta tarafından bildirilen deneyimi iyileştirmiştir. Klinik deney kayıt no. NCT07040163 © RSNA, 2026 Bu makale için ek materyal mevcuttur. Ayrıca bu sayıdaki Weiss ve Park'ın başyazısına da bakın."
+    },
+    {
+      "pmid": "42836756",
+      "title": "Efficacy of US-guided Hydrodissection for Carpal Tunnel Syndrome: A Prospective Randomized Controlled Trial.",
+      "abstract": "Background US-guided hydrodissection is a minimally invasive treatment for nerve entrapment syndromes. However, its independent therapeutic efficacy remains unproven because most studies combine hydrodissection with corticosteroids or dextrose. Purpose To evaluate and compare the clinical and sonographic outcomes and complication rates of three US-guided hydrodissection techniques for the treatment of carpal tunnel syndrome (CTS) and to assess the relative efficacy of hydrodissection. Materials and Methods Adults with refractory CTS were included in this prospective randomized controlled trial (May 2019 to November 2020). Baseline assessment included the Boston Carpal Tunnel Questionnaire (BCTQ), Visual Analog Scale (VAS), and US measurement of median nerve cross-sectional area (CSA). Participants were randomized into three single-blinded groups: group 1, US-guided hydrodissection with normal saline (NS); group 2, perineural corticosteroid injection; and group 3, US-guided hydrodissection with NS plus corticosteroid. For hydrodissection, injectate was administered around the median nerve until complete nerve separation was achieved. Follow-up was performed at 4, 12, and 24 weeks. A linear mixed-effects model was used to evaluate within-group and between-group changes over time. Results Thirty-nine participants (mean age, 42.22 years ± 10.46 [SD]; 20 male; 63 wrists) were included. Persistent improvement in BCTQ and VAS scores was observed in groups 1 and 3. At 24 weeks, minimal clinically important difference for BCTQ Symptom Severity Scale was achieved in 85.7% and 90.5% of wrists in groups 1 and 3, respectively, with no significant intergroup difference (P = .979). Although group 2 demonstrated early clinical improvement, symptoms recurred and outcomes at 24 weeks were not significantly different from baseline. Percentage reduction in median nerve CSA was greater in groups 1 and 3 than in group 2 at 12 weeks (43% and 46%, respectively, vs 11%; P = .0001). No major complications were observed. Conclusion US-guided hydrodissection with NS alone resulted in sustained clinical and morphologic improvement in CTS, and the addition of corticosteroid provided no additional benefit. Clinical trial registration no. CTRI/2018/12/016604 © RSNA, 2026.",
+      "journal": "Radiology",
+      "date": "2026-10",
+      "authors": [
+        "Bose A",
+        "Tandon A",
+        "Mehrotra G",
+        "Maheshwari S",
+        "Khandelwal A"
+      ],
+      "pubtypes": [
+        "Journal Article",
+        "Randomized Controlled Trial"
+      ],
+      "doi": "10.1148/radiol.260185",
+      "journal_tier": 1,
+      "impact": 12.1,
+      "section": "girisim",
+      "score": 135.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 35,
+        "recency": 0.0
+      },
+      "tier": 1,
+      "abstract_tr": ""
     },
     {
       "pmid": "42708850",
@@ -208,6 +238,38 @@
       "abstract_tr": ""
     },
     {
+      "pmid": "42836755",
+      "title": "Perfusion beyond Margin in Hepatocellular Carcinoma: A Contrast-enhanced US Feature Related to Tumor Invasiveness and Prognosis.",
+      "abstract": "Background Previous studies on imaging of hepatocellular carcinoma (HCC) have shown inconsistency in the growth of tumor vascularity and gross morphologic features. Contrast-enhanced US (CEUS) is one of the few methods that can depict both features simultaneously, making it valuable for assessing this inconsistency and its potential clinical influence. Purpose To evaluate and establish a new CEUS feature representing inconsistency between vascularity and gross morphologic features (perfusion beyond margin [PBM]) and analyze its underlying biologic mechanisms and prognostic influence. Materials and Methods This multicenter retrospective study included patients with HCC from January 2015 to August 2023. Three radiologists (5-8 years of experience) measured tumor diameter using gray-scale US and CEUS. Mathematic, prognostic, and bioinformatics analyses were used to quantify the PBM diagnostic standard. Prognostic analysis included recurrence-free survival after laparoscopic hepatectomy and local tumor progression-free survival after thermal ablation. Bioinformatics analysis included pathologic and immunohistochemical evaluation and RNA sequencing. Results This study included 1076 patients (mean age ± SD, 60 years ± 10.5; 854 men, 1166 HCCs). PBM was defined as the tumor diameter on arterial phase exceeding that at gray-scale US by 5 mm. PBM was associated with worse recurrence-free survival (hazard ratio [HR], 1.76 [95% CI: 1.05, 2.94]; P = .03); worse local tumor progression-free survival (HR, 2.40 [95% CI: 1.84, 3.13]; P < .001); and higher rates of microvascular invasion (52.2% [12 of 23] vs 25.0% [29 of 116]; P = .02), cytokeratin-7 positivity (26.2% [11 of 42] vs 11.3% [14 of 124]; P = .04), and cytokeratin-19 positivity (26.9% [seven of 26] vs 8.8% [13 of 148]; P = .02) compared with the non-PBM group. PBM occurrence was related to upregulation of genes for angiogenesis (VEGA, PIGF), epithelial-mesenchymal transition (TGFB1, MMP2), and immunosuppressive tumor microenvironment (CD163). PBM was more common in patients with cirrhosis (26.8% [236 of 880]; P = .04; odds ratio, 1.41), recurrent tumors (28.4% [161 of 567]; P = .02; odds ratio, 1.38), and tumors greater than 3 cm (30.8% [92 of 298]; P = .01; odds ratio, 1.46). Conclusion Perfusion beyond margin, a new imaging feature, was identified through contrast-enhanced US in patients with hepatocellular carcinoma; it was associated with greater invasive potential and poorer prognosis. © RSNA, 2026 Supplemental material is available for this article. See also the editorial by Shafaat and Reis in this issue.",
+      "journal": "Radiology",
+      "date": "2026-10",
+      "authors": [
+        "Ding W",
+        "Ji R",
+        "Pang C",
+        "Li J",
+        "Liu F",
+        "Yu J",
+        "Liang P"
+      ],
+      "pubtypes": [
+        "Journal Article",
+        "Multicenter Study"
+      ],
+      "doi": "10.1148/radiol.260918",
+      "journal_tier": 1,
+      "impact": 12.1,
+      "section": "girisim",
+      "score": 118.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 18,
+        "recency": 0.0
+      },
+      "tier": 1,
+      "abstract_tr": ""
+    },
+    {
       "pmid": "42678260",
       "title": "Convergence of Local and Systemic Therapies: A Comprehensive Society of Interventional Oncology Framework for 90Y Radioembolization with Immunotherapy in HCC.",
       "abstract": "Combination approaches using systemic immunotherapy agents are now standard of care for patients with advanced-stage hepatocellular carcinoma (HCC), resulting in improved overall survival. However, even with optimal systemic regimens, fewer than 40% of cases respond to treatment, presumably due to resistance mechanisms, including antidrug antibodies and acquired resistance related to alterations in the tumor immune microenvironment (TIME). As a result, new strategies are needed to improve immunotherapeutic efficacy in this setting. Early investigations into the local and systemic effects of yttrium 90 (90Y) radioembolization using resin and glass microspheres demonstrated activation of both innate and adaptive immune systems, leading to sustained therapeutic efficacy in a subgroup of patients with HCC undergoing curative surgical resection after downstaging procedures. Preliminary prospective and retrospective studies have confirmed the safety of combining liver-directed interventions with immunotherapy. Based on these findings, clinical trials are being designed to evaluate the efficacy of different therapeutic strategies combining 90Y radioembolization and immune checkpoint inhibitor therapy. The Society of Interventional Oncology is committed to advancing research on how local-regional therapies influence the TIME and systemic inflammatory response. This review aims to inform the interventional and medical oncology community about essential considerations and strategies for implementing these combination therapies involving 90Y radioembolization and immunotherapy.",
@@ -362,6 +424,39 @@
       "journal_tier": 1,
       "impact": 12.1,
       "section": "girisim",
+      "score": 110.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 10,
+        "recency": 0.0
+      },
+      "tier": 1,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42836752",
+      "title": "Standardizing Liver MR Elastography: Guidelines for Reliable Stiffness Measurement in Chronic Liver Disease.",
+      "abstract": "MR elastography provides the noninvasive, repeatable, and reproducible quantitative biomarker of liver stiffness for the assessment of fibrosis in chronic liver disease. However, variability in image acquisition, reconstruction, and analysis across scanners and institutions can limit measurement repeatability and reproducibility. To address this challenge, the Quantitative Imaging Biomarkers Alliance, whose work is now continued under the Quantitative Medical Imaging Coalition, developed standardized technical guidelines for liver MR elastography. These guidelines define acquisition protocols, reconstruction requirements, image quality assurance procedures, and analysis methods necessary to achieve reproducible hepatic stiffness measurements. A key quantitative claim of these guidelines is that a measured change in liver stiffness of at least 19% represents a true biologic change with 95% confidence, derived from a within-subject coefficient of variation of approximately 7%. This article describes the conceptual framework, technical specifications, and implementation considerations for standardized liver MR elastography across vendors and imaging platforms. Adoption of these guidelines supports reliable longitudinal monitoring of liver disease, facilitates multicenter clinical trials, and enables the use of liver stiffness as a validated quantitative imaging biomarker.",
+      "journal": "Radiology",
+      "date": "2026-10",
+      "authors": [
+        "Serai SD",
+        "Pepin K",
+        "Chen J",
+        "Venkatesh SK",
+        "Obuchowski NA",
+        "Cole PE",
+        "Ehman RL",
+        "QMIC MRE Biomarker Committee"
+      ],
+      "pubtypes": [
+        "Journal Article",
+        "Review"
+      ],
+      "doi": "10.1148/radiol.260974",
+      "journal_tier": 1,
+      "impact": 12.1,
+      "section": "abdomen",
       "score": 110.0,
       "score_parts": {
         "journal": 100,
@@ -937,6 +1032,39 @@
       "abstract_tr": ""
     },
     {
+      "pmid": "42836750",
+      "title": "Quantitative Chest CT-derived Fibrosis and Vascular Remodeling and Acute Exacerbation Risk in Mild Idiopathic Pulmonary Fibrosis.",
+      "abstract": "Background Acute exacerbations worsen outcomes in idiopathic pulmonary fibrosis (IPF), but the role of vascular remodeling remains unclear. Purpose To determine whether quantitative CT-derived vascular metrics are independently associated with acute exacerbations in mild IPF and whether arterial or venous remodeling mediates the effects of fibrosis burden. Materials and Methods In this retrospective cohort study, patients with mild IPF (forced vital capacity ≥ 80% and diffusing capacity for carbon monoxide ≥ 55%) underwent baseline volumetric high-spatial-resolution unenhanced chest CT between April 2011 and December 2021 at a single tertiary hospital. Fibrosis score (FS) and vascular metrics were assessed using deep learning-based software. The primary outcome was time to acute exacerbation; the secondary outcome was event-free survival for acute exacerbation, lung transplantation, and death (composite outcome). Multivariable Cox models were used to evaluate both outcomes, adjusting for age, smoking status, and pack-years. Mediation analysis was used to assess whether vascular remodeling mediated the association between FS and the outcomes. Results Among 313 patients (mean age, 66.4 years ± 7.1 [SD]; 245 male patients), 86 (27.5%) experienced acute exacerbation, two (0.6%) underwent lung transplantation, and 120 (38.3%) died during a median 6.3 years of follow-up. Higher FS was associated with a higher estimated risk of acute exacerbation (adjusted hazard ratio [aHR] range across models, 1.05-1.09; P value range, .001-.10) and of the composite outcome (aHR range, 1.08-1.20; all P ≤ .001). Venous dilatation (aHR, 7.93 [95% CI: 2.56, 24.59]) and venous diameter heterogeneity (aHR, 1.37 [95% CI: 1.16, 1.63]) were associated with increased acute exacerbation risk, whereas higher small-artery volume fraction was associated with reduced risk (aHR, 0.91 [95% CI: 0.86, 0.96]). FS effects on acute exacerbation were mediated by venous remodeling (57.1% mediation; P = .001) and by small-artery volume fraction (21.5%; P = .02). Conclusion In mild IPF, fibrosis burden and vascular remodeling were associated with acute exacerbation risk, with venous and arterial remodeling mediating fibrosis effects, and higher small-artery volume fraction associated with reduced acute exacerbation risk. © RSNA, 2026 Supplemental material is available for this article. See also the editorial by Iwasawa in this issue.",
+      "journal": "Radiology",
+      "date": "2026-10",
+      "authors": [
+        "Yang M",
+        "Kim S",
+        "Lee SM",
+        "Yun J",
+        "Hwang HJ",
+        "Chae EJ",
+        "Seo JB",
+        "Choe J",
+        "Kim HC"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1148/radiol.260703",
+      "journal_tier": 1,
+      "impact": 12.1,
+      "section": "toraks",
+      "score": 100.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 2,
+      "abstract_tr": ""
+    },
+    {
       "pmid": "42808901",
       "title": "Case 350: Retained Appendicolith.",
       "abstract": "History A 16-year-old girl presented to the emergency department with a 1-month history of right lower back pain. She was originally seen at an urgent care clinic, where a lumbar radiograph was reportedly normal, and she was prescribed naproxen. However, she came to the emergency department once pain had escalated to 10 out of 10. Over the past month, the patient's right flank had increased in size and \"hardened\" to touch. She reported no trauma or other inciting incident. She had a prior history of laparoscopic appendectomy for perforated appendicitis more than 6 years earlier at an outside hospital. A prior contrast-enhanced abdominal CT scan, obtained 2 weeks after the appendectomy, was available for review. At evaluation, the patient was febrile and mildly tachycardic (104 beats per minute). Examination of the right flank revealed a 4-cm area of erythema and tenderness with 10-cm surrounding induration. She had leukocytosis (white blood cell count, 12 × 109/L; reference range, <9.44 × 109/L) and elevated C-reactive protein (23 mg/L; reference range, <9 mg/L). US followed by contrast-enhanced MRI of the abdomen was performed. Based on the imaging findings, the patient underwent a percutaneous drainage procedure. All cultures, including aerobic, anaerobic, fungal, and acid fast, were negative, with the caveat that the patient had been started on intravenous antibiotics before the procedure. She was discharged and prescribed 10 days of amoxicillin and clavulanate to complete antibiotic therapy, and the drain was removed 6 weeks later. One month after drain removal, the patient returned to the emergency department with return of severe flank pain, erythema, and purulent drainage. The patient was afebrile with a white blood cell count of 9.8 × 109/L. Contrast-enhanced abdominal CT was performed.",
@@ -1247,6 +1375,57 @@
       "abstract_tr": ""
     },
     {
+      "pmid": "42836753",
+      "title": "Beyond Fibrosis: Clinical Importance of Vascular Assessment at Noncontrast CT in Interstitial Lung Disease.",
+      "abstract": "",
+      "journal": "Radiology",
+      "date": "2026-10",
+      "authors": [
+        "Iwasawa T"
+      ],
+      "pubtypes": [
+        "Editorial"
+      ],
+      "doi": "10.1148/radiol.262643",
+      "journal_tier": 1,
+      "impact": 12.1,
+      "section": "toraks",
+      "score": 75.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": -25,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42836751",
+      "title": "Implications for Hepatocellular Carcinoma Ablation beyond the Tumor Margin: An Early Career Perspective.",
+      "abstract": "",
+      "journal": "Radiology",
+      "date": "2026-10",
+      "authors": [
+        "Shafaat O",
+        "Reis SP"
+      ],
+      "pubtypes": [
+        "Editorial"
+      ],
+      "doi": "10.1148/radiol.262757",
+      "journal_tier": 1,
+      "impact": 12.1,
+      "section": "girisim",
+      "score": 75.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": -25,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
       "pmid": "42678258",
       "title": "Ethical Implications of the Invisibility of Intracellular Electrolytes.",
       "abstract": "",
@@ -1457,6 +1636,59 @@
       "abstract_tr": ""
     },
     {
+      "pmid": "42836757",
+      "title": "Beyond Bosniak Class: Nodule Size Refines Cystic Renal Mass Risk.",
+      "abstract": "",
+      "journal": "Radiology",
+      "date": "2026-10",
+      "authors": [
+        "Arita Y"
+      ],
+      "pubtypes": [
+        "Editorial",
+        "Comment"
+      ],
+      "doi": "10.1148/radiol.262618",
+      "journal_tier": 1,
+      "impact": 12.1,
+      "section": "abdomen",
+      "score": 70.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": -30,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42836754",
+      "title": "Cross-Cohort Harmonization of Quantitative MRI Metrics: Considerations for Reference Value Generalizability.",
+      "abstract": "",
+      "journal": "Radiology",
+      "date": "2026-10",
+      "authors": [
+        "Xiang JY",
+        "Wu JP",
+        "Wu LM"
+      ],
+      "pubtypes": [
+        "Letter"
+      ],
+      "doi": "10.1148/radiol.261397",
+      "journal_tier": 1,
+      "impact": 12.1,
+      "section": "genel",
+      "score": 70.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": -30,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
       "pmid": "42696936",
       "title": "Foundation models in medical image analysis: A systematic review and quantitative analysis.",
       "abstract": "Recent advancements in foundation models (FMs) have catalyzed a paradigm shift in medical image analysis. Unlike traditional task-specific artificial intelligence (AI) models, FMs leverage large-scale datasets to learn generalized representations that can be adapted to downstream clinical applications. Despite the rapid proliferation of FM research in medical imaging, there is a lack of unified synthesis that systematically maps the evolution of architectures, training paradigms, and clinical applications across modalities. To address this gap, this review provides a comprehensive and structured synthesis of FMs in medical image analysis by systematically organizing studies into two primary categories: vision-only foundation models (VFMs) and vision-language foundation models (VLFMs), based on their architectural foundations, training strategies, and downstream clinical tasks. A quantitative analysis was conducted on both VFMs and VLFMs to characterize temporal trends in dataset utilization and application domains, along with pooled performance and subgroup analyses. We also critically discuss persistent challenges, including cross-domain generalization, computational scalability, FM evaluation, fairness, and deployment. Finally, we identify key future research directions aimed at enhancing the robustness, interpretability, and clinical integration of FMs, thereby accelerating their translation into real-world medical practice.",
@@ -1649,269 +1881,6 @@
       },
       "tier": 2,
       "abstract_tr": "Otomatik tıbbi görüntü analizi, hastalık taraması ve teşhisinde kritik bir rol oynar. Ancak bulanıklık ve eşit olmayan aydınlatma gibi görüntü kalitesindeki bozulmalar, hem klinik yorumu hem de bilgisayar destekli tanı performansını engeller. Mevcut iyileştirme yöntemlerinin çoğu sıklıkla frekans alanı bozulma modellerini gözden kaçırır ve bu da aşırı iyileştirmeye veya klinik olarak ilgili ayrıntıların kaybolmasına yol açar. Bu sınırlamaları ele almak için, FDRNet olarak adlandırılan, tıbbi görüntü iyileştirme için frekansa duyarlı, çift alanlı işbirliğine dayalı bir çerçeve öneriyoruz ve bu belgede iki temel bileşenden oluşuyor: (1) ince ve geniş yapısal özellikleri korumak için yüksek ve düşük frekans bilgileri kullanarak küresel ve yerel görünümleri birleştiren, asimetrik kanal entegrasyonuna sahip, frekansı ayrıştırılmış bulanıklık giderme modülü ve (2) doğru tahmin ve düzeltme için çok ölçekli bir renk koruma ünitesine sahip bir Retinex kılavuzlu aydınlatma dengeleme modülü. Çerçevemiz ayrıca, bulanıklaştırma modülünün her bir kodlayıcı-kod çözücü bloğuna çift alanlı bir işbirliği mekanizması dahil ederek, uzaysal ve frekans alanlarındaki bozulma temsillerinin ortak öğrenilmesini sağlar. Yedi genel ve klinik veri kümesini kullanan, üç tıbbi görüntü yöntemi üzerinde yapılan kapsamlı deneyler, yöntemimizin hem geleneksel hem de öğrenmeye dayalı geliştirme tekniklerini geride bıraktığını göstermektedir. Damar segmentasyonu, polip segmentasyonu, hastalık tanısı ve hastalık şiddeti derecelendirmesi dahil olmak üzere aşağı yönlü klinik görevlere ilişkin değerlendirmeler, görev performansında ve klinik uygulanabilirlikte önemli iyileşmeleri daha da doğrulamaktadır. Kodumuz şu adreste mevcuttur: https://github.com/iMED-Lab/FDRNet-PyTorch."
-    },
-    {
-      "pmid": "42685438",
-      "title": "HAHN-SGCL: Hierarchical Attention and Hard Negatives-aware State Graph Contrastive Learning for functional connectome fingerprinting.",
-      "abstract": "Functional connectome (FC) fingerprinting is crucial for understanding individual cognitive patterns and advancing personalized medicine for neuro/psychiatric disorders by developing individual-specific biomarkers. However, existing FC fingerprinting methods oversimplify the complex and nonlinear nature of FC patterns. As a result, they fail to effectively extract individual-specific information from variability across different brain states, thereby limiting individual identification performance. To address this issue, we propose Hierarchical Attention and Hard Negatives-aware State Graph Contrastive Learning (HAHN-SGCL) model. HAHN-SGCL directly leverages brain states to generate intra- and inter-individual contrasts, effectively extracting individual-specific connectivity patterns for accurate identification across diverse states. Specifically, to fully extract individual-specific information across multiple topological levels of the FC, we designed a Hierarchical Graph Attention Network (HGAT) encoder. HGAT constructs a hierarchical graph with diverse topological perspectives and employs level-specific attention mechanisms to capture distinctive individual features. Additionally, to overcome the severe sample imbalance that hampers effective gradient propagation, we introduce a Hard Negatives-aware Strategy (HNS). HNS focuses on challenging negatives through Hard Negative Mining (HNM) and incorporating a corrective term, effectively avoiding early convergence plateaus. Extensive experiments demonstrate that our HAHN-SGCL model outperforms state-of-the-art methods. It also exhibits strong cross-task transferability, as evidenced by its robust performance in psychiatric disorder classification. The code of HAHN-SGCL is at https://anonymous.4open.science/r/HAHN-SGCL.",
-      "journal": "Med Image Anal",
-      "date": "2026-08-31",
-      "authors": [
-        "Lu J",
-        "Wang Y",
-        "Li T",
-        "Liu X",
-        "Li D",
-        "Yan T",
-        "Wang B"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1016/j.media.2026.104263",
-      "journal_tier": 1,
-      "impact": 10.7,
-      "section": "neuro",
-      "score": 100.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 2,
-      "abstract_tr": "Fonksiyonel konnektom (FC) parmak izi, bireysel bilişsel kalıpları anlamak ve bireye özgü biyobelirteçler geliştirerek nöro/psikiyatrik bozukluklar için kişiselleştirilmiş tıbbı ilerletmek için çok önemlidir. Bununla birlikte, mevcut FC parmak izi alma yöntemleri, FC modellerinin karmaşık ve doğrusal olmayan doğasını aşırı basitleştirmektedir. Sonuç olarak, farklı beyin durumları arasındaki değişkenlikten bireye özgü bilgileri etkili bir şekilde çıkarmakta başarısız oluyorlar, dolayısıyla bireysel tanımlama performansını sınırlıyorlar. Bu sorunu çözmek için Hiyerarşik Dikkat ve Sert Negatiflere duyarlı Durum Grafiği Karşılaştırmalı Öğrenme (HAHN-SGCL) modelini öneriyoruz. HAHN-SGCL, bireyler arası ve bireyler arası kontrastlar oluşturmak için beyin durumlarından doğrudan yararlanır ve farklı durumlar arasında doğru tanımlama için bireye özgü bağlantı modellerini etkili bir şekilde çıkarır. Spesifik olarak, FC'nin birden fazla topolojik seviyesinde bireye özgü bilgileri tam olarak çıkarmak için bir Hiyerarşik Grafik Dikkat Ağı (HGAT) kodlayıcısı tasarladık. HGAT, farklı topolojik perspektiflere sahip hiyerarşik bir grafik oluşturur ve farklı bireysel özellikleri yakalamak için seviyeye özgü dikkat mekanizmalarını kullanır. Ek olarak, etkili gradyan yayılımını engelleyen ciddi örnek dengesizliğinin üstesinden gelmek için, Sert Negatiflere duyarlı bir Strateji (HNS) sunuyoruz. HNS, Sert Negatif Madencilik (HNM) yoluyla olumsuzluklarla mücadele etmeye ve düzeltici bir terim ekleyerek erken yakınsama platolarından etkili bir şekilde kaçınmaya odaklanır. Kapsamlı deneyler, HAHN-SGCL modelimizin en gelişmiş yöntemlerden daha iyi performans gösterdiğini göstermektedir. Ayrıca, psikiyatrik bozukluk sınıflandırmasındaki sağlam performansının da gösterdiği gibi, güçlü görevler arası aktarılabilirlik sergiler. HAHN-SGCL kodu https://anonymous.4open.science/r/HAHN-SGCL adresindedir."
-    },
-    {
-      "pmid": "42685437",
-      "title": "SEDCLIP: Adapting vision-language model for multi-label surgical error detection.",
-      "abstract": "Automated detection of surgical errors can drastically increase safety in robotic-assisted surgery (RAS). Prior work has shown surgical error detection only as a binary task, which is insufficient and restrictive when multiple, co-occurring errors inherently arise in real RAS procedures. We thus present the first work to study multi-label surgical error detection (MLSED) and propose SEDCLIP, a novel vision-language adaptation paradigm that transfers pretrained knowledge from a contrastive language-image pretraining model to MLSED. The SEDCLIP architecture comprises: (1) global-local prompting, which aligns global image features and fine-grained patch features with learnable global and local text prompts, countering the single-label bias of contrastive pre-training; (2) a graph-attention temporal adaptor that models inter-frame dependencies, guided by a temporal-distance adjacency; and (3) random-basis low-rank adaptation, which aggregates fixed low-rank random bases modulated by learnable scaling, to bridge the natural-to-surgical domain gap with efficient fine-tuning. Additionally, to catalyse progress in MLSED, we release two first-of-their-kind, in-vivo datasets with frame-level error annotations: MLE-RAH for robotic-assisted hysterectomy (RAH) and MLE-RARP for robotic-assisted radical prostatectomy (RARP). Across both datasets, SEDCLIP yields overall improvements over competing methods on both multi-label and binary surgical error detection tasks. Code and datasets are available at https://github.com/wzjialang/SEDCLIP.",
-      "journal": "Med Image Anal",
-      "date": "2026-08-29",
-      "authors": [
-        "Xu J",
-        "Yung KW",
-        "Tesfai FM",
-        "Boal M",
-        "Sirajudeen N",
-        "Wang X",
-        "Edwards PJ",
-        "Kelly JD",
-        "Sridhar A",
-        "Chandrasekaran D",
-        "Jin Y",
-        "Stoyanov D",
-        "Francis N",
-        "Mazomenos EB"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1016/j.media.2026.104276",
-      "journal_tier": 1,
-      "impact": 10.7,
-      "section": "abdomen",
-      "score": 100.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 2,
-      "abstract_tr": "Cerrahi hataların otomatik tespiti, robotik yardımlı cerrahide (RAS) güvenliği büyük ölçüde artırabilir. Önceki çalışmalar, cerrahi hata tespitinin yalnızca ikili bir görev olduğunu göstermiştir; bu, gerçek RAS prosedürlerinde doğal olarak birden fazla, birlikte ortaya çıkan hatalar ortaya çıktığında yetersiz ve kısıtlayıcıdır. Bu nedenle, çok etiketli cerrahi hata tespitini (MLSED) incelemek için ilk çalışmayı sunuyoruz ve önceden eğitilmiş bilgiyi karşılaştırmalı bir dil-görüntü ön eğitim modelinden MLSED'e aktaran yeni bir görme-dil uyarlama paradigması olan SEDCLIP'i öneriyoruz. SEDCLIP mimarisi aşağıdakilerden oluşur: (1) küresel görüntü özelliklerini ve ince taneli yama özelliklerini öğrenilebilir küresel ve yerel metin istemleriyle hizalayan, karşılaştırmalı ön eğitimin tek etiketli önyargısına karşı koyan küresel-yerel istem; (2) zamansal uzaklık bitişikliği tarafından yönlendirilen, çerçeveler arası bağımlılıkları modelleyen bir grafik dikkati zamansal bağdaştırıcısı; ve (3) doğal-cerrahi alan boşluğunu verimli ince ayar ile kapatmak için öğrenilebilir ölçeklendirme ile modüle edilen sabit düşük dereceli rastgele bazları bir araya getiren rastgele tabanlı düşük dereceli adaptasyon. Ek olarak, MLSED'deki ilerlemeyi katalize etmek için, çerçeve düzeyinde hata açıklamalarına sahip, türünün ilk örneği olan iki in vivo veri kümesini yayınlıyoruz: robotik yardımlı histerektomi (RAH) için MLE-RAH ve robotik yardımlı radikal prostatektomi (RARP) için MLE-RARP. Her iki veri kümesinde SEDCLIP, hem çok etiketli hem de ikili cerrahi hata tespit görevlerinde rakip yöntemlere göre genel iyileştirmeler sağlar. Kod ve veri kümelerine https://github.com/wzjialang/SEDCLIP adresinden ulaşılabilir."
-    },
-    {
-      "pmid": "42685436",
-      "title": "Learning from Limited phenotype-level annotations for promoting multiple instance learning in endoscopic helicobacter pylori infection diagnosis.",
-      "abstract": "Helicobacter pylori (H. pylori) infection is a major risk factor for gastric carcinogenesis, requiring holistic endoscopic assessment of distributed mucosal abnormalities. While patient-level diagnostic labels are accessible, obtaining large-scale fine-grained annotations is constrained due to high inter-observer variability and the labor-intensive nature of the process. This naturally formulates the task as a multiple instance learning (MIL) problem. Existing image-level approaches often rely on noisy supervisory signals without modeling sequence context, while standard embedding-based MIL methods suffer from suboptimal feature representations and insufficient integration of H. pylori-specific phenotypes. To address these challenges, we propose PhenoMIL, a two-stage framework emulating clinical hierarchical reasoning. First, the Fine-grained Phenotype-level Semi-Supervised Learning (FPS-SL) stage uses multi-label supervised contrastive learning and prototype-based pseudo-label generation to acquire phenotype-specific knowledge and learn transferable representation from limited instance-level annotations. Subsequently, the Clinically Informed MIL (CIMIL) stage performs holistic bag-level diagnosis using Consensus-aware Feature Modulation (CFM) to exploit latent neighborhood structures, and Phenotype-guided Attention Aggregation (PAA) to align instance weighting with diagnostic priors. Extensive evaluation on a large-scale multi-center dataset (303,910 images from 6388 patients) demonstrates PhenoMIL's superiority in both multi-label phenotype classification and H. pylori infection diagnosis. Notably, in a real-world reader study, PhenoMIL achieved 81.63% sensitivity and 87.84% specificity, outperforming both junior and senior endoscopists.",
-      "journal": "Med Image Anal",
-      "date": "2026-08-27",
-      "authors": [
-        "Yi Z",
-        "Xu J",
-        "Hu Y",
-        "Huang L",
-        "Zheng Z",
-        "Jin H",
-        "Ma P",
-        "Chen T",
-        "Pan J",
-        "Ding X",
-        "Zhang F",
-        "Liu J",
-        "Wang X",
-        "Xia Y",
-        "Lv B",
-        "Zhang L"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1016/j.media.2026.104267",
-      "journal_tier": 1,
-      "impact": 10.7,
-      "section": "abdomen",
-      "score": 100.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 2,
-      "abstract_tr": "Helicobacter pylori (H. pylori) enfeksiyonu mide karsinogenezi için önemli bir risk faktörüdür ve dağıtılmış mukozal anormalliklerin bütünsel endoskopik değerlendirmesini gerektirir. Hasta düzeyinde tanı etiketlerine erişilebilir olmakla birlikte, büyük ölçekli ince taneli ek açıklamaların elde edilmesi, gözlemciler arası yüksek değişkenlik ve sürecin yoğun emek gerektiren doğası nedeniyle sınırlıdır. Bu doğal olarak görevi çoklu örnek öğrenme (MIL) problemi olarak formüle eder. Mevcut görüntü düzeyindeki yaklaşımlar genellikle dizi bağlamını modellemeden gürültülü denetleyici sinyallere dayanırken, standart yerleştirmeye dayalı MIL yöntemleri, optimal olmayan özellik temsillerinden ve H. pylori'ye özgü fenotiplerin yetersiz entegrasyonundan muzdariptir. Bu zorlukların üstesinden gelmek için klinik hiyerarşik akıl yürütmeyi taklit eden iki aşamalı bir çerçeve olan PhenoMIL'i öneriyoruz. İlk olarak, İnce Taneli Fenotip Düzeyinde Yarı Denetimli Öğrenme (FPS-SL) aşaması, fenotipe özgü bilgi edinmek ve sınırlı örnek düzeyindeki ek açıklamalardan aktarılabilir temsili öğrenmek için çok etiketli denetimli karşılaştırmalı öğrenmeyi ve prototip tabanlı sözde etiket oluşturmayı kullanır. Daha sonra, Klinik Olarak Bilgilendirilmiş MIL (CIMIL) aşaması, gizli komşuluk yapılarından yararlanmak için Konsensüs Farkında Özellik Modülasyonu (CFM) ve örnek ağırlıklandırmasını teşhis öncelikleriyle uyumlu hale getirmek için Fenotip Kılavuzlu Dikkat Toplama (PAA) kullanarak bütünsel torba düzeyinde teşhis gerçekleştirir. Büyük ölçekli, çok merkezli bir veri seti (6388 hastadan 303.910 görüntü) üzerinde yapılan kapsamlı değerlendirme, PhenoMIL'in hem çok etiketli fenotip sınıflandırmasında hem de H. pylori enfeksiyonu tanısında üstünlüğünü göstermektedir. Özellikle gerçek dünyada yapılan bir okuyucu çalışmasında PhenoMIL %81,63 duyarlılık ve %87,84 özgüllük elde ederek hem kıdemsiz hem de kıdemli endoskopistlerden daha iyi performans gösterdi."
-    },
-    {
-      "pmid": "42691733",
-      "title": "SoftMorph: Differentiable probabilistic morphological operators for image analysis.",
-      "abstract": "Morphological operators are crucial in image analysis. Their integration into deep learning pipelines could improve performances by extracting or enhancing important image features, either within network architectures or loss functions. However, the difficulties in rendering those operators differentiable hinder their integration. In this paper, we present SoftMorph, a novel framework designed to convert any binary morphological operator defined as a Boolean expression into its differentiable and probabilistic counterpart, compatible with gradient-based optimization. Specifically, we define probabilistic operators as the expectation of the binary operator with respect to the probability of generating each binary configuration. This expectation can be computed trivially from the truth table of the binary morphological filter, as a multi-linear polynomial function. Moreover, we approximate the probabilistic operators with quasi-probabilistic operators directly translated from the Boolean expressions leveraging Fuzzy logic, maintaining the computational complexity of the original binary operator. We evaluate the backpropagation capability of the proposed operators, and showcase several medical applications of morphological operators integrated into neural networks for image segmentation tasks. The code is available at https://github.com/lisaGUZZI/SoftMorph2.",
-      "journal": "Med Image Anal",
-      "date": "2026-09-02",
-      "authors": [
-        "Guzzi L",
-        "Zuluaga MA",
-        "Lareyre F",
-        "Di Lorenzo G",
-        "Goffart S",
-        "Chierici A",
-        "Raffort J",
-        "Delingette H"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1016/j.media.2026.104284",
-      "journal_tier": 1,
-      "impact": 10.7,
-      "section": "yapayzeka",
-      "score": 100.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 2,
-      "abstract_tr": "Morfolojik operatörler görüntü analizinde çok önemlidir. Bunların derin öğrenme hatlarına entegrasyonu, ağ mimarileri veya kayıp fonksiyonları içindeki önemli görüntü özelliklerini çıkararak veya geliştirerek performansları artırabilir. Ancak bu operatörlerin türevlenebilir hale getirilmesindeki zorluklar entegrasyonlarını engellemektedir. Bu yazıda, Boolean ifadesi olarak tanımlanan herhangi bir ikili morfolojik operatörü, gradyan tabanlı optimizasyonla uyumlu, türevlenebilir ve olasılıksal karşılığına dönüştürmek için tasarlanmış yeni bir çerçeve olan SoftMorph'u sunuyoruz. Spesifik olarak, olasılıksal operatörleri, her bir ikili konfigürasyonu üretme olasılığına göre ikili operatörün beklentisi olarak tanımlıyoruz. Bu beklenti, ikili morfolojik filtrenin doğruluk tablosundan çok doğrusal bir polinom fonksiyonu olarak basit bir şekilde hesaplanabilir. Ayrıca, orijinal ikili operatörün hesaplama karmaşıklığını koruyarak, Bulanık mantıktan yararlanarak Boole ifadelerinden doğrudan çevrilen yarı olasılıklı operatörlerle olasılıksal operatörleri yaklaşıklaştırıyoruz. Önerilen operatörlerin geri yayılım yeteneğini değerlendiriyoruz ve görüntü bölümlendirme görevleri için sinir ağlarına entegre edilmiş morfolojik operatörlerin çeşitli tıbbi uygulamalarını sergiliyoruz. Kodu https://github.com/lisaGUZZI/SoftMorph2 adresinde bulabilirsiniz."
-    },
-    {
-      "pmid": "42691732",
-      "title": "TEAMS: Text-prompted spatiotEmporal dual-heAd Mamba Snake.",
-      "abstract": "Deep snake is a promising family of instance segmentation methods that accurately predicts object-level contours, thereby overcoming common pixel-level misclassification issues such as mask cavities and jagged edges in semantic segmentation approaches. However, existing deep snake methods face challenges in handling complex morphological variations, accurately capturing fine-grained organ details, and correcting base detection errors. To mitigate these limitations, we propose a cohesive Text-prompted spatiotEmporal dual-heAd Mamba Snake (TEAMS), a novel vision-language Mamba snake framework with three key innovations: (1) A Spatiotemporal Snake Evolution Strategy (SSES) is introduced to tackle complex morphological variations by capturing bidirectional spatial dependencies along the snake contour and temporal dynamics across evolution steps in a state space model. (2) A Contour Morphology-Aware Mamba (CMAM) is proposed to quantify local contour morphologies to modulate the structured attention mask in the Mamba2 SSD dual form, which extends Mamba's capability to perceive the relative importance of its input sequence elements for better delineation of fine-grained organ details. (3) A Text-prompted Collaborative Dual-Head Snake (TCDHS) is designed to incorporate cues from textual prompts and transfer the evolved contour information to the base detection head, which enhances the deep snake workflow and mitigates wrong detections. Comprehensive evaluations on five datasets covering different organs and imaging modalities demonstrate that TEAMS outperforms existing semantic and deep snake segmentation methods (e.g., relative mDice/mBF improvements of 6.9%/9.1% in a spinal dataset), underscoring its potential as a reliable tool across diverse medical image segmentation scenarios. Codes are available at: https://github.com/Richard-Zhang-AI/TEAMS.",
-      "journal": "Med Image Anal",
-      "date": "2026-09-02",
-      "authors": [
-        "Zhang R",
-        "Lei J",
-        "Shen K",
-        "Guo H",
-        "Zhou J",
-        "Chen B",
-        "Li M",
-        "Zhao S",
-        "Li S"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1016/j.media.2026.104277",
-      "journal_tier": 1,
-      "impact": 10.7,
-      "section": "genel",
-      "score": 100.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 2,
-      "abstract_tr": "Deep Snake, nesne düzeyindeki konturları doğru bir şekilde tahmin eden, böylece anlamsal bölümleme yaklaşımlarında maske boşlukları ve pürüzlü kenarlar gibi yaygın piksel düzeyindeki yanlış sınıflandırma sorunlarının üstesinden gelen, gelecek vaat eden bir örnek bölümleme yöntemleri ailesidir. Bununla birlikte, mevcut derin yılan yöntemleri, karmaşık morfolojik varyasyonları ele alma, ince taneli organ ayrıntılarını doğru bir şekilde yakalama ve baz tespit hatalarını düzeltme konusunda zorluklarla karşı karşıyadır. Bu sınırlamaları hafifletmek için, üç temel yeniliğe sahip yeni bir görüş dili Mamba yılanı çerçevesi olan uyumlu bir Metin yönlendirmeli spatiotEmporal çift kafalı Mamba Yılanı (TEAMS) öneriyoruz: (1) Bir durum uzay modelinde yılan konturu boyunca çift yönlü uzaysal bağımlılıkları ve evrim adımları boyunca zamansal dinamikleri yakalayarak karmaşık morfolojik varyasyonların üstesinden gelmek için bir Uzay-zamansal Yılan Evrim Stratejisi (SSES) tanıtıldı. (2) Mamba2 SSD ikili formundaki yapılandırılmış dikkat maskesini modüle etmek için yerel kontur morfolojilerini ölçmek üzere bir Kontur Morfolojisine Duyarlı Mamba (CMAM) önerilmiştir; bu, Mamba'nın ince taneli organ ayrıntılarının daha iyi tanımlanması için giriş dizisi öğelerinin göreceli önemini algılama yeteneğini genişletir. (3) Metin Yönlendirmeli İşbirliğine Dayalı Çift Kafalı Yılan (TCDHS), metin komutlarından gelen ipuçlarını birleştirmek ve gelişmiş kontur bilgilerini temel algılama kafasına aktarmak üzere tasarlanmıştır; bu, derin yılan iş akışını geliştirir ve yanlış algılamaları azaltır. Farklı organları ve görüntüleme yöntemlerini kapsayan beş veri seti üzerinde yapılan kapsamlı değerlendirmeler, TEAMS'in mevcut anlamsal ve derin yılan segmentasyon yöntemlerinden daha iyi performans gösterdiğini (örneğin, omurga veri setinde göreceli mDice/mBF iyileştirmeleri %6,9/%9,1 oranında) ortaya koyuyor ve çeşitli tıbbi görüntü segmentasyon senaryolarında güvenilir bir araç olarak potansiyelini vurguluyor. Kodlara şu adresten ulaşılabilir: https://github.com/Richard-Zhang-AI/TEAMS."
-    },
-    {
-      "pmid": "42691555",
-      "title": "Orientation-robust latent motion trajectory learning for annotation-free cardiac phase detection in fetal echocardiography.",
-      "abstract": "Fetal echocardiography is essential for detecting congenital heart disease (CHD), facilitating pregnancy management, optimized delivery planning, and timely postnatal interventions. Among standard imaging planes, the four-chamber view (4CV) provides important information for CHD diagnosis, where clinicians carefully inspect the end-diastolic (ED) and end-systolic (ES) phases to evaluate cardiac structure and motion. Automated detection of these cardiac phases is thus a critical component towards fully automated CHD analysis. However, existing approaches typically rely on manual annotation of ED/ES frames, which is labour-intensive and time-consuming. We present ORBIT (Orientation-Robust Beat Inference from Trajectories), a self-supervised framework that identifies cardiac phases without manual annotations under various fetal heart orientation. ORBIT employs registration as self-supervision task and learns a latent motion trajectory of cardiac deformation, whose turning points capture transitions between cardiac relaxation and contraction, enabling accurate and orientation-robust localization of ED and ES frames across diverse fetal positions. Trained exclusively on normal fetal echocardiography videos, ORBIT achieves consistent performance on both normal (mean absolute error 1.9 frames for ED and 1.6 for ES) and CHD cases (mean absolute error 2.4 frames for ED and 2.1 for ES), outperforming existing annotation-free approaches constrained by fixed orientation assumptions. These results highlight the potential of ORBIT to facilitate robust cardiac phase detection directly from 4CV fetal echocardiography.",
-      "journal": "Med Image Anal",
-      "date": "2026-08-31",
-      "authors": [
-        "Yang Y",
-        "Yang Q",
-        "Peng C",
-        "D'Alberti E",
-        "Patey O",
-        "Papageorghiou AT",
-        "Noble JA"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1016/j.media.2026.104288",
-      "journal_tier": 1,
-      "impact": 10.7,
-      "section": "girisim",
-      "score": 100.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 2,
-      "abstract_tr": "Fetal ekokardiyografi, konjenital kalp hastalığını (KKH) saptamak, gebelik yönetimini kolaylaştırmak, optimize edilmiş doğum planlaması ve zamanında doğum sonrası müdahaleler için gereklidir. Standart görüntüleme düzlemleri arasında dört odacıklı görünüm (4CV), klinisyenlerin kardiyak yapı ve hareketi değerlendirmek için diyastol sonu (ED) ve sistol sonu (ES) aşamaları dikkatle incelediği KKH tanısı için önemli bilgiler sağlar. Dolayısıyla bu kardiyak aşamaların otomatik olarak saptanması, tam otomatik KKH analizine yönelik kritik bir bileşendir. Bununla birlikte, mevcut yaklaşımlar tipik olarak ED/ES çerçevelerinin manuel olarak açıklanmasına dayanır ve bu da emek yoğun ve zaman alıcıdır. Çeşitli fetal kalp oryantasyonları altında manuel açıklamalar olmadan kardiyak aşamaları tanımlayan, kendi kendini denetleyen bir çerçeve olan ORBIT'i (Yörüngelerden Yönelim-Sağlam Vuruş Çıkarımı) sunuyoruz. ORBIT, kaydı kendi kendini denetleme görevi olarak kullanır ve kardiyak deformasyonun gizli hareket yörüngesini öğrenir; bu yörüngenin dönüm noktaları, kardiyak gevşeme ve kasılma arasındaki geçişleri yakalayarak, farklı fetal pozisyonlarda ED ve ES çerçevelerinin doğru ve oryantasyon açısından sağlam lokalizasyonuna olanak tanır. Yalnızca normal fetal ekokardiyografi videoları üzerinde eğitilen ORBIT, hem normal (ortalama mutlak hata 1,9 kare ED için ve ES için 1,6) hem de CHD vakalarında (ortalama mutlak hata 2,4 kare ED için ve ES için 2,1 kare) tutarlı performans elde ederek, sabit oryantasyon varsayımları tarafından kısıtlanan mevcut açıklama içermeyen yaklaşımlardan daha iyi performans gösterir. Bu sonuçlar, ORBIT'in doğrudan 4CV fetal ekokardiyografiden sağlam kardiyak faz tespitini kolaylaştırma potansiyelini vurgulamaktadır."
-    },
-    {
-      "pmid": "42700677",
-      "title": "Single domain generalized polyp detection in colonoscopy scene utilizing vision foundation models.",
-      "abstract": "Deep learning models for colorectal polyp detection often face distribution shift issues due to dataset artifacts, variations in imaging equipment, and other clinical factors, which result in unreliable performance in real-world settings. To address this, several generalizable object detectors have been proposed, aiming to train models that can generalize across multiple target domains. However, existing approaches to generalizable detection typically rely on two main strategies: Unsupervised Domain Adaptation, which requires unlabeled data from the target domains, and Multi-Source Domain Generalization, which necessitates data from multiple source domains. These approaches are challenging to implement in clinical settings, where data privacy regulations limit the accessibility. This work proposes a novel approach for polyp detection in colonoscopy scenes under the more realistic setting of single domain generalization, called Generalizable Polyp Detection Transformer (GPDT). Our method leverages Vision Foundation Models for robust feature extraction and introduces a learnable-token-driven adapter mechanism to fine-tune these models with minimal additional parameters. This approach enables effective generalization across unseen clinical domains when only a single source domain is available for training. Extensive experiments on two multi-center polyp detection generalization benchmarks, PolypGen and REAL-Colon, show that GPDT achieves stronger performance compared with existing state-of-the-art methods across multiple target domains. Furthermore, we introduce an efficient variant, E-GPDT, that accelerates inference while preserving detection accuracy, yielding a favorable speed-accuracy trade-off under the evaluated edge-device configuration. E-GPDT is trained as a source-specific student distilled from adapter-enhanced GPDT teachers under the same single-source protocol, thereby connecting the high-capacity VFM-adapted detector and the lower-latency student detector within one unified pipeline. Our results demonstrate that adapting VFMs provides a promising pathway for improving cross-domain polyp detection generalizability.",
-      "journal": "Med Image Anal",
-      "date": "2026-08-31",
-      "authors": [
-        "Gan T",
-        "Cai Y",
-        "Ye X"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1016/j.media.2026.104268",
-      "journal_tier": 1,
-      "impact": 10.7,
-      "section": "abdomen",
-      "score": 100.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 2,
-      "abstract_tr": "Kolorektal polip tespitine yönelik derin öğrenme modelleri, veri seti artefaktları, görüntüleme ekipmanındaki farklılıklar ve diğer klinik faktörler nedeniyle sıklıkla dağıtım kayması sorunlarıyla karşı karşıya kalır ve bu da gerçek dünya ortamlarında güvenilmez performansa neden olur. Bunu ele almak için, birden fazla hedef alan arasında genelleştirilebilen modelleri eğitmeyi amaçlayan çeşitli genelleştirilebilir nesne dedektörleri önerilmiştir. Bununla birlikte, genelleştirilebilir tespite yönelik mevcut yaklaşımlar tipik olarak iki ana stratejiye dayanır: Hedef alanlardan etiketlenmemiş veriler gerektiren Denetimsiz Etki Alanı Uyarlaması ve birden fazla kaynak etki alanından veri gerektiren Çok Kaynaklı Etki Alanı Genelleştirmesi. Bu yaklaşımların, veri gizliliği düzenlemelerinin erişilebilirliği sınırladığı klinik ortamlarda uygulanması zordur. Bu çalışma, Genelleştirilebilir Polip Tespit Transformatörü (GPDT) olarak adlandırılan, tek alanlı genellemenin daha gerçekçi bir ortamı altında kolonoskopi sahnelerinde polip tespiti için yeni bir yaklaşım önermektedir. Yöntemimiz, sağlam özellik çıkarımı için Vision Foundation Modellerinden yararlanır ve bu modellere minimum ek parametrelerle ince ayar yapmak için öğrenilebilir jeton odaklı bir adaptör mekanizması sunar. Bu yaklaşım, eğitim için yalnızca tek bir kaynak alanın mevcut olduğu durumlarda, görünmeyen klinik alanlar arasında etkili genelleme yapılmasına olanak sağlar. İki çok merkezli polip tespiti genelleme kriteri olan PolypGen ve REAL-Colon üzerinde yapılan kapsamlı deneyler, GPDT'nin birden fazla hedef alanda mevcut en son teknolojiye sahip yöntemlerle karşılaştırıldığında daha güçlü bir performans elde ettiğini göstermektedir. Ayrıca, algılama doğruluğunu korurken çıkarımı hızlandıran ve değerlendirilen uç cihaz konfigürasyonu altında uygun bir hız-doğruluk dengesi sağlayan etkili bir değişken olan E-GPDT'yi sunuyoruz. E-GPDT, aynı tek kaynak protokolü kapsamında bağdaştırıcıyla geliştirilmiş GPDT öğretmenlerinden damıtılmış, kaynağa özgü bir öğrenci olarak eğitilir ve böylece yüksek kapasiteli VFM'ye uyarlanmış dedektör ile daha düşük gecikme süreli öğrenci dedektörünü tek bir birleşik hat içinde bağlar. Sonuçlarımız, VFM'lerin uyarlanmasının alanlar arası polip tespitinin genelleştirilebilirliğini geliştirmek için umut verici bir yol sağladığını göstermektedir."
-    },
-    {
-      "pmid": "42700676",
-      "title": "Towards patient-specific optimization for mandibular reconstruction planning based on predicted bone-union propensity.",
-      "abstract": "Mandibular reconstruction with vascularized bone grafts is complicated by donor-host nonunion, and current virtual surgical planning produces a geometric plan rather than optimizing for bone-union propensity at the donor-host interface. We present OsteoOpt++, an image-to-decision planning loop for patient-specific mandibular reconstruction. A pre-operative computed tomography (CT) is converted into a personalized digital twin through template-to-patient registration and CT-derived updates of the muscle and temporomandibular-joint parameters. Bayesian optimization with an expected-improvement-plus acquisition rule then searches six clinically controllable cut-plane and donor-positioning variables under an apposition-driven objective and a safety-factor-regularized variant. The workflow was evaluated on three generic defects (body, symphysis, and ramus-body) and four patient-specific cases, three of which were used for optimization and all four for retrospective longitudinal spatial analysis. In the generic cases, against the surgeon's geometric plan, cycle-averaged donor-mandible apposition increased by up to 29 percentage points; in the patient-specific cases, against the surgeon-implemented day-5 postoperative configuration, by up to 26 percentage points. A ±10% sensitivity analysis over eleven modeling parameters capped the change in the apposition-driven objective at ∼3% (generic) and ∼4% (patient-specific), and across the four longitudinal cases the Dice overlap between predicted apposition and year-1 bone formation ranged from 70.1% to 84.9%, with centroid shifts of 0.24 to 1.82 mm. Together, these results support the feasibility-stage use of OsteoOpt++ to compare candidate reconstructions using apposition-derived predictions of bone-union propensity. The optimization and patient-specific modeling code is open source at https://github.com/hamidreza-aftabi/OsteoOpt.",
-      "journal": "Med Image Anal",
-      "date": "2026-08-31",
-      "authors": [
-        "Aftabi H",
-        "Lloyd JE",
-        "Ding A",
-        "Sagl B",
-        "Prisman E",
-        "Hodgson A",
-        "Fels S"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1016/j.media.2026.104281",
-      "journal_tier": 1,
-      "impact": 10.7,
-      "section": "genel",
-      "score": 100.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 2,
-      "abstract_tr": ""
     }
   ]
 }
