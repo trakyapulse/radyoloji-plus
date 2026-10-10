@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-09T12:20:48+00:00",
+  "updated": "2026-10-10T11:39:06+00:00",
   "year": 2026,
   "count": 60,
   "criteria": "Etki faktörü (sonra etki skoru) sıralı",
@@ -457,6 +457,51 @@
       "journal_tier": 1,
       "impact": 12.1,
       "section": "abdomen",
+      "score": 110.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 10,
+        "recency": 0.0
+      },
+      "tier": 1,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42852923",
+      "title": "Cardiovascular Magnetic Resonance derived Myocardial Strain: Applications, Acquisition Techniques, Analysis, and Reporting. A Scientific Statement of the Society for Cardiovascular Magnetic Resonance, Radiological Society of North America, and European Association of Cardiovascular Imaging of the ESC.",
+      "abstract": "Myocardial strain imaging enables quantification of cardiac deformation. Cardiovascular magnetic resonance imaging (CMR) is well suited for strain assessment due to the ability to image in any given plane with high spatial and contrast resolution. CMR strain measures have incremental diagnostic and prognostic utility over conventional clinical imaging parameters across disease states. Routine integration of CMR strain assessment in clinical practice has been hindered by the lack of agreement on imaging protocols and analysis methods, variability due to noise sensitivity, and a paucity of robust normative age-, sex- and ethnicity-specific reference ranges. In recognition of the expanding applications of strain techniques in clinical and research CMR, this joint SCMR/RSNA/EACVI scientific statement integrates data from original research studies, guidelines, and opinions from experts across the field to guide responsible and evidence-based utilization of CMR strain. © 2026 The Author(s). Published by Elsevier Inc. on behalf of Society for Cardiovascular Magnetic Resonance, by Oxford University Press on behalf of European Society of Cardiology, and by RSNA. This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by/4.0/). Supplemental material is available for this article. This paper was jointly developed by Journal of Cardiovascular Magnetic Resonance, European Heart Journal - Cardiovascular Imaging, and Radiology and jointly published by Elsevier Inc, Oxford University Press, and RSNA. The articles are identical except for minor stylistic and spelling differences in keeping with each journal's style. Any citation can be used when citing this article.",
+      "journal": "Radiology",
+      "date": "2026-10",
+      "authors": [
+        "Gulsin GS",
+        "Ambale-Venkatesh B",
+        "Axel L",
+        "Bluemke DA",
+        "Captur G",
+        "Cavalcante JL",
+        "Ennis DB",
+        "Epstein FH",
+        "Gerber B",
+        "Hanneman K",
+        "Kawel-Boehm N",
+        "Kelle S",
+        "Kramer CM",
+        "Lima JAC",
+        "Lamb HJ",
+        "Lu M",
+        "Marwick TH",
+        "Romano S",
+        "Young AA",
+        "McCann GP"
+      ],
+      "pubtypes": [
+        "Journal Article",
+        "Review"
+      ],
+      "doi": "10.1148/radiol.261385",
+      "journal_tier": 1,
+      "impact": 12.1,
+      "section": "toraks",
       "score": 110.0,
       "score_parts": {
         "journal": 100,
@@ -1849,38 +1894,6 @@
       },
       "tier": 2,
       "abstract_tr": "Kan damarları ve hava yolu ağaçları gibi boru şeklindeki yapıların doğru şekilde bölümlendirilmesi çeşitli tıbbi uygulamalarda kritik öneme sahiptir. Ancak bu görev, bu boru şeklindeki oluşumların çeşitli küresel morfolojileri ve ince yerel yapıları nedeniyle oldukça zorlu olmaya devam ediyor. Her Şeyi Segmente Ayırma Modeli (SAM) tabanlı yöntemler, görüntü segmentasyonunda etkileyici bir performans göstermiştir, ancak bunların manuel olarak hazırlanmış istemlere dayanması, onları ince taneli boru şeklindeki yapılar için uygunsuz kılmaktadır. Ayrıca, SAM'de ince ayar yapmaya yönelik mevcut yöntemler, uyarlama performansını en üst düzeye çıkarmak için en bilgilendirici parametrelerin nasıl tanımlanacağını tam olarak keşfetmemiştir. Bu sorunları çözmek için, tıbbi boru şeklinde segmentasyon için bilgi odaklı adaptasyonu ana prensip olarak benimseyen SAM'in Aktif Adaptasyonu (A2SAM) adı verilen yeni bir çerçeve sunuyoruz. Spesifik olarak, topolojiye duyarlı istemleri otomatik olarak üreten ve SAM'i anatomik açıdan anlamlı boru şeklindeki yapılara yönlendiren yapısal bir bilgi istemi üreteci tasarlıyoruz. Bu ipuçlarına gömülü yapısal belirsizlik, küresel morfolojideki farklılıkları yakalar. Ayrıca, göreve özgü etkisi güçlü ve genelleştirilebilir bilgiyi bozma riski daha düşük olan parametrelerin, SAM'in uyarlanması için faydalı olduğunu bulduk. Bu parametreleri karşılaştırmalı parametreler olarak tanımlıyoruz ve karesel gradyan etkisini büyüklüğe dayalı korumayla modüle eden karşılaştırmalı bir parametre seçim stratejisi öneriyoruz. Önerilen strateji, boru şeklindeki bölümlendirmede adaptasyon performansını artırır ve SAM'in genelleştirilebilir bilgisini korur. Son olarak, ince yapılarda yerel bağlantıyı geliştirmek için kalınlığa duyarlı bir kayıp fonksiyonu öneriyoruz. Önerilen A2SAM, tıbbi boru şekilli segmentasyon için beş farklı kıyaslama veri kümesinde doğrulanmıştır. Kapsamlı deneyler, A2SAM'in güçlü bir genel performansa ulaştığını göstermektedir. Kodumuz şu adreste halka açıktır: https://github.com/YongChen-Exact/A2SAM."
-    },
-    {
-      "pmid": "42679486",
-      "title": "A frequency-aware dual-domain collaborative framework for medical image enhancement.",
-      "abstract": "Automated medical image analysis plays a critical role in disease screening and diagnosis. However, image quality degradation, such as blurring and uneven illumination hinders both clinical interpretation and computer-aided diagnostic performance. Most existing enhancement methods often overlook frequency-domain degradation patterns, leading to over-enhancement or loss of clinically relevant details. To address these limitations, we propose a frequency-aware dual-domain collaborative framework for medical image enhancement, termed FDRNet, comprising two key components in this paper: (1) a frequency-decoupled deblurring module with asymmetric channel integration, which combines global and local views using high- and low-frequency information to preserve fine and broad structural features, and (2) a Retinex-guided illumination compensation module with a multi-scale color preservation unit for accurate estimation and correction. Our framework further incorporates a dual-domain collaboration mechanism into each encoder-decoder block of the deblurring module, enabling joint learning of degradation representations in spatial and frequency domains. Extensive experiments on three medical image modalities, utilizing seven public and clinical datasets demonstrate that our method surpasses both traditional and learning-based enhancement techniques. Evaluations on downstream clinical tasks, including vessel segmentation, polyp segmentation, disease diagnosis, and disease severity grading, further confirm significant improvements in task performance and clinical applicability. Our code is available at: https://github.com/iMED-Lab/FDRNet-PyTorch.",
-      "journal": "Med Image Anal",
-      "date": "2026-08-29",
-      "authors": [
-        "Liao W",
-        "Ma Y",
-        "Chen Z",
-        "Zhou S",
-        "Zhang M",
-        "Gu Y",
-        "Wang M",
-        "Zhao Y"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1016/j.media.2026.104261",
-      "journal_tier": 1,
-      "impact": 10.7,
-      "section": "genel",
-      "score": 100.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 2,
-      "abstract_tr": "Otomatik tıbbi görüntü analizi, hastalık taraması ve teşhisinde kritik bir rol oynar. Ancak bulanıklık ve eşit olmayan aydınlatma gibi görüntü kalitesindeki bozulmalar, hem klinik yorumu hem de bilgisayar destekli tanı performansını engeller. Mevcut iyileştirme yöntemlerinin çoğu sıklıkla frekans alanı bozulma modellerini gözden kaçırır ve bu da aşırı iyileştirmeye veya klinik olarak ilgili ayrıntıların kaybolmasına yol açar. Bu sınırlamaları ele almak için, FDRNet olarak adlandırılan, tıbbi görüntü iyileştirme için frekansa duyarlı, çift alanlı işbirliğine dayalı bir çerçeve öneriyoruz ve bu belgede iki temel bileşenden oluşuyor: (1) ince ve geniş yapısal özellikleri korumak için yüksek ve düşük frekans bilgileri kullanarak küresel ve yerel görünümleri birleştiren, asimetrik kanal entegrasyonuna sahip, frekansı ayrıştırılmış bulanıklık giderme modülü ve (2) doğru tahmin ve düzeltme için çok ölçekli bir renk koruma ünitesine sahip bir Retinex kılavuzlu aydınlatma dengeleme modülü. Çerçevemiz ayrıca, bulanıklaştırma modülünün her bir kodlayıcı-kod çözücü bloğuna çift alanlı bir işbirliği mekanizması dahil ederek, uzaysal ve frekans alanlarındaki bozulma temsillerinin ortak öğrenilmesini sağlar. Yedi genel ve klinik veri kümesini kullanan, üç tıbbi görüntü yöntemi üzerinde yapılan kapsamlı deneyler, yöntemimizin hem geleneksel hem de öğrenmeye dayalı geliştirme tekniklerini geride bıraktığını göstermektedir. Damar segmentasyonu, polip segmentasyonu, hastalık tanısı ve hastalık şiddeti derecelendirmesi dahil olmak üzere aşağı yönlü klinik görevlere ilişkin değerlendirmeler, görev performansında ve klinik uygulanabilirlikte önemli iyileşmeleri daha da doğrulamaktadır. Kodumuz şu adreste mevcuttur: https://github.com/iMED-Lab/FDRNet-PyTorch."
     }
   ]
 }
