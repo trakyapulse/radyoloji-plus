@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-13T13:15:40+00:00",
+  "updated": "2026-10-14T10:55:13+00:00",
   "year": 2026,
   "count": 60,
   "criteria": "Etki faktörü (sonra etki skoru) sıralı",
@@ -60,6 +60,57 @@
       "journal_tier": 1,
       "impact": 12.1,
       "section": "girisim",
+      "score": 135.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 35,
+        "recency": 0.0
+      },
+      "tier": 1,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42867374",
+      "title": "Supplemental Breast Cancer Screening with Contrast-enhanced Mammography or Abbreviated MRI for Extremely Dense Breasts: The DENSE-2 Trial.",
+      "abstract": "Women with extremely dense breasts have an increased risk of breast cancer but also a decreased sensitivity of mammography. The Dense Tissue and Early Breast Neoplasm Screening (DENSE) trial, initiated in 2011, showed that supplemental full-protocol MRI screening reduced the number of interval cancers in women with extremely dense breasts. Cost-effective screening scenarios have been described, but imaging costs and capacity remain barriers to implementing full-protocol MRI in population-based breast cancer screening programs. Therefore, the DENSE-2 trial was set up to investigate two alternate screening techniques, contrast-enhanced mammography (CEM) or abbreviated MRI (AB-MRI), that are expected to be cheaper and to make more efficient use of the available capacity while potentially achieving similar results to full-protocol MRI. DENSE-2 is a multicenter randomized controlled trial embedded in the Dutch screening program. It comprises two consecutive screening rounds in which women receive the same breast imaging technique both times. The trial investigates the value of supplemental screening with CEM or AB-MRI in women with extremely dense breasts with a negative screening mammogram. The primary aim is to determine whether these methods will lead to a reduction of interval cancers compared with mammography. The DENSE-2 trial results will provide insights into the performance, feasibility, and acceptability of both screening modalities, enable long-term outcome modeling, and support decision-making on the most appropriate screening strategy for women with extremely dense breasts. ClinicalTrials.gov: NCT06636370 © RSNA, 2026 Supplemental material is available for this article. See also the editorial by Bahl in this issue.",
+      "journal": "Radiology",
+      "date": "2026-10",
+      "authors": [
+        "van Grinsven SEL",
+        "Monninkhof EM",
+        "Mann RM",
+        "Lobbes MBI",
+        "Broeders MJM",
+        "van Ravesteyn NT",
+        "Bluekens AMJ",
+        "van Diest PJ",
+        "Dorrius MD",
+        "Duvivier KM",
+        "Gielens MPM",
+        "de Jong MDF",
+        "Kock MCJM",
+        "Loo CE",
+        "Meeuwis C",
+        "de Monyé C",
+        "van Nijnatten TJA",
+        "Pijnappel RM",
+        "Trap-de Jong JP",
+        "Veltman J",
+        "Veldhuis WB",
+        "van Gils CH",
+        "DENSE-2 Trial Study Group",
+        "DENSE-2 trial study group"
+      ],
+      "pubtypes": [
+        "Journal Article",
+        "Randomized Controlled Trial",
+        "Multicenter Study",
+        "Review"
+      ],
+      "doi": "10.1148/radiol.260333",
+      "journal_tier": 1,
+      "impact": 12.1,
+      "section": "meme",
       "score": 135.0,
       "score_parts": {
         "journal": 100,
@@ -1110,6 +1161,189 @@
       "abstract_tr": ""
     },
     {
+      "pmid": "42867376",
+      "title": "Association of PET/CT Metabolic Parameters with Histologic Grade of Lung Adenocarcinoma: Implications for Surgical Decisions.",
+      "abstract": "Background The grading system for invasive lung adenocarcinoma proposed by the International Association for the Study of Lung Cancer (IASLC) has been widely validated. However, the association of PET/CT with IASLC grade and its value in clinical decision-making is unknown. Purpose To investigate the association of PET/CT metabolic parameters with IASLC grade and determine the complementary clinical value of PET/CT in optimizing preoperative surgical decision-making in clinical stage IA (cIA) lung adenocarcinoma. Materials and Methods This retrospective study included consecutive patients who underwent preoperative PET/CT and complete resection for cIA lung adenocarcinoma between September 2020 and March 2022. Logistic regression was used to identify predictors of grade 3 lung adenocarcinoma. Multivariable Cox models assessed prognostic effects and interactions between maximum standardized uptake value (SUVmax) and surgical strategy. Propensity score matching was used to balance clinicopathologic characteristics across surgical strategies. Results The study included 2789 patients (median age, 62 years [IQR, 55-68 years]; 1574 women). Logistic regression analysis demonstrated a positive interaction between radiologic type and SUVmax (P = .008) in predicting grade 3 adenocarcinoma. Specific cutoff values for pure solid (cutoff of 4.25) and subsolid (cutoff of 2.30) nodules were identified. Positive interactions between SUVmax and surgery were observed exclusively in pure solid nodules (SUVmax-resection extent for overall survival [OS], P = .048; SUVmax-nodal dissection for OS, P = .045). Stratified analyses showed that segmentectomy and limited lymph node dissection were associated with worse outcomes only in hypermetabolic lesions (SUVmax > 4.25; resection extent hazard ratio [HR] for OS, 2.06 [P = .03]; nodal dissection HR for OS, 2.06 [P = .005]). SUVmax maintained robust predictive efficacy for grade 3 lung adenocarcinoma in the external cohort (area under the receiver operating curve, 0.72 for pure solid nodules and 0.74 for subsolid nodules). Conclusion In patients who underwent PET/CT and complete resection for clinical stage IA lung adenocarcinoma, maximum standardized uptake value was an independent predictor of grade 3 lung adenocarcinoma and helped identify high-risk patients treated with segmentectomy or limited nodal dissection. © RSNA, 2026 Supplemental material is available for this article.",
+      "journal": "Radiology",
+      "date": "2026-10",
+      "authors": [
+        "Shen X",
+        "Shi H",
+        "Wan Z",
+        "Yang M",
+        "Yu B",
+        "Song Y",
+        "Chen T",
+        "Wen J",
+        "Deng J",
+        "Zhao L",
+        "Hou L",
+        "Ren L",
+        "Li W",
+        "Zhao D",
+        "Xie D",
+        "Chen C",
+        "She Y"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1148/radiol.261188",
+      "journal_tier": 1,
+      "impact": 12.1,
+      "section": "toraks",
+      "score": 100.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 2,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42867375",
+      "title": "Myocardial T1 Mapping at 3 T: A Comparison of MOLLI and ShMOLLI across Healthy Volunteers and Various Cardiovascular Pathologies.",
+      "abstract": "Background The clinical utility of quantitative T1 mapping in cardiac MRI is constrained by variability across acquisition protocols, and a comprehensive comparison between commonly used sequences remains unavailable. Purpose To provide a full range of cardiac MRI native T1 and extracellular volume fraction (ECV) values at 3 T in healthy Chinese adults and participants with various cardiovascular diseases and, as a secondary aim, to establish the relationship between modified Look-Locker inversion recovery (MOLLI) and shortened MOLLI (ShMOLLI) measurements. Materials and Methods This prospective study included healthy volunteers, participants with normal cardiac MRI findings, and participants representing 13 cardiovascular conditions. All participants underwent 3-T cardiac MRI with both MOLLI and ShMOLLI sequences during a single examination. Global native T1 and ECV values were quantified and compared between sequences and across disease groups. Statistical approaches included t tests, Pearson correlation, Bland-Altman analysis, and Cohen D standardization. Results This study included 1237 clinical participants (mean age ± SD: 51 years ± 14.8; 854 men). Reference values (adjusted mean ± SE) in healthy volunteers were 1170 msec ± 9 (MOLLI) and 1135 msec ± 10 (ShMOLLI) for native T1 and were 24.8% ± 0.6 (both MOLLI and ShMOLLI) for ECV, with women showing higher native T1 values than men (all P ≤ .002). MOLLI yielded systematically higher native T1 than ShMOLLI across all conditions (mean difference: 46.0 msec ± 27.2; all P < .01), whereas ECV did not differ for most conditions (10 of 15 groups; P > .05). Strong intersequence correlations were observed for native T1 (Pearson r = 0.93; P < .001) and ECV (r = 0.95; P < .001). After standardization to sequence-specific baselines, pathologic deviations were comparable between sequences (Cohen D differences ≤0.5 in most groups). A supplementary swine study supported the technical validity of both sequences (r = 0.87-0.90; P < .001). Conclusion In participants who underwent 3-T cardiac MRI with both MOLLI and ShMOLLI sequences, native T1 was higher with MOLLI than ShMOLLI, but ECV was consistent across sequences. © RSNA, 2026 Supplemental material is available for this article. See also the editorial by Dacher and Cadour in this issue.",
+      "journal": "Radiology",
+      "date": "2026-10",
+      "authors": [
+        "Zhang H",
+        "Cui C",
+        "Zhou W",
+        "Zheng T",
+        "Yang W",
+        "Zhou D",
+        "Wang Y",
+        "Zhu L",
+        "Jiang M",
+        "Lian X",
+        "Ferreira VM",
+        "Zhao S",
+        "Zhang Q",
+        "Piechnik SK",
+        "Lu M"
+      ],
+      "pubtypes": [
+        "Journal Article",
+        "Comparative Study"
+      ],
+      "doi": "10.1148/radiol.252886",
+      "journal_tier": 1,
+      "impact": 12.1,
+      "section": "girisim",
+      "score": 100.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 2,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42867371",
+      "title": "Artificial Intelligence for Prostate Cancer Detection and Screening on MRI in Global Populations: The SCARLET-1 Study.",
+      "abstract": "Background Artificial intelligence (AI) systems have demonstrated non-inferiority to radiologists for prostate cancer detection on MRI, but evidence in global diagnostic and population-based screening settings remains limited. Purpose To determine whether an AI system can achieve diagnostic performance comparable to radiology readings for detecting Gleason grade group ≥2 prostate cancer on MRI in external diagnostic and screening datasets. Materials and Methods In the SCARLET-1 retrospective validation study, prostate MRIs from adults with suspected prostate cancer (January 2012-October 2024) were used to evaluate an AI system, with external testing in diagnostic (PRIME) and organized screening settings (STHLM3-MRI and IP1-PROSTAGRAM). The primary outcome was agreement between AI assessments and standard-of-care diagnoses of Gleason grade group ≥2 cancer, with diagnostic interchangeability defined relative to the estimated agreement of an average radiologist. Secondary outcomes included area under the receiver operating characteristic curve (AUC) across datasets and subgroups. Results 22,445 examinations (21,252 male patients; median age, 66 years [IQR 60-71]) were included: 20,471 prostate MRI examinations (19,278 patients; 26 cities, 14 countries) for AI training and internal testing, and 1974 patients (20 external cities, 12 countries) for external testing. External AUCs were 0.86 (95% CI: 0.83, 0.90) in PRIME, 0.89 (95% CI: 0.86, 0.92) in STHLM3-MRI, and 0.84 (95% CI: 0.70, 0.95) in IP1-PROSTAGRAM. The primary outcome was 83.0% (395 of 476; adjusted 95% CI: 78.8%, 87.0%), 87.9% (974 of 1108; adjusted 95% CI: 85.6%, 90.3%), and 87.7% (342 of 390; adjusted 95% CI: 83.6%, 91.5%), respectively, meeting prespecified interchangeability criteria in all datasets. Subgroup performance was consistent across age, risk, cancer location and ethnicity (mean ΔAUC, 0.02), but varied substantially across 25 sites (28% with AUC<0.80; 32% with AUC ≥0.90) and by image quality (AUC, 0.78-0.88). Conclusion AI demonstrated diagnostic performance comparable to that of radiology readings across external diagnostic and screening datasets. © The Author(s) 2026. Published by the Radiological Society of North America under a CC BY 4.0 license.",
+      "journal": "Radiology",
+      "date": "2026-10",
+      "authors": [
+        "Saha A",
+        "Bosma JS",
+        "Twilt JJ",
+        "Ng ABCD",
+        "Asif A",
+        "Magudia K",
+        "Larson PEZ",
+        "Xie Q",
+        "Zhang X",
+        "Minh CP",
+        "Gitau SN",
+        "Schoots IG",
+        "Boomsma MF",
+        "Cuocolo R",
+        "Papanikolaou N",
+        "Regge D",
+        "Patel HD",
+        "Yakar D",
+        "Elschot M",
+        "Veltman J",
+        "Turkbey B",
+        "Obuchowski NA",
+        "Fütterer JJ",
+        "Padhani AR",
+        "Mayor N",
+        "Ahmed HU",
+        "Jäderling F",
+        "Nordström T",
+        "Eklund M",
+        "Kasivisvanathan V",
+        "de Rooij M",
+        "Huisman H",
+        "PI-CAI–PRIME–STHLM3-MRI–IP1-PROSTAGRAM–ProCAncer-I–COMFORT consortia",
+        "PI-CAI"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1148/radiol.262081",
+      "journal_tier": 1,
+      "impact": 12.1,
+      "section": "girisim",
+      "score": 100.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 2,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42867370",
+      "title": "Association of Disproportionately Enlarged Subarachnoid Space Hydrocephalus Features at MRI with Cognitive Decline.",
+      "abstract": "Background The prevalence of incomplete disproportionately enlarged subarachnoid space hydrocephalus (DESH) and its cognitive relevance remain unclear. Purpose To determine the prevalence of complete and incomplete DESH and their associations with baseline cognitive impairment and follow-up cognitive decline. Materials and Methods This prospective community-based cohort (age ≥ 65 years) included participants who underwent baseline brain MRI and were followed for 5-7 years. Two radiologists assessed baseline MRI scans for core DESH features: Evans index greater than 0.3, enlargement of the Sylvian fissures (ESF), and tightness of the high-convexity sulci (THC). Complete DESH was defined as all three core features, incomplete DESH as one or two core features, and no DESH as zero core features. Feature combinations were modeled as single binary indicators of copresence (eg, THC plus ESF was 1 if both were present and 0 otherwise). Separate cross-sectional and longitudinal logistic regression models were used to evaluate associations of baseline imaging features with concurrent cognitive impairment and follow-up cognitive decline, respectively. Longitudinal models were fitted separately in participants with normal cognition and in a combined cohort of participants with normal cognition or mild cognitive impairment at baseline. Results Among 2133 participants (median age, 69 years [IQR, 67-73 years]; 1304 female participants), complete DESH, incomplete DESH, and no DESH were present in 37 (1.7%), 988 (46.3%), and 1108 (51.9%), respectively. There was no evidence of an association between baseline imaging features and baseline cognitive impairment (all Holm-adjusted P > .05). Baseline THC was associated with follow-up cognitive decline in the cognitively normal cohort (odds ratio [OR], 2.95 [95% CI: 1.95, 4.45]; Holm-adjusted P < .001) and in the combined cohort (OR, 2.87 [95% CI: 1.96, 4.21]; Holm-adjusted P < .001). THC plus ESF was associated with decline only in the combined cohort (OR, 1.83 [95% CI: 1.16, 2.87]; Holm-adjusted P = .04). Conclusion Incomplete DESH was more prevalent than complete DESH. Baseline THC was associated with subsequent cognitive decline. © RSNA, 2026 Supplemental material is available for this article. See also the editorial by Haller in this issue.",
+      "journal": "Radiology",
+      "date": "2026-10",
+      "authors": [
+        "Saito K",
+        "Watanabe K",
+        "Ide S",
+        "Imura M",
+        "Ozawa A",
+        "Koshiishi T",
+        "Matsuhashi S",
+        "Kudo J",
+        "Kasai S",
+        "Ishimoto Y",
+        "Shintaku T",
+        "Watanabe D",
+        "Shukunobe S",
+        "Sawada K",
+        "Mikami T",
+        "Tamada Y",
+        "Murashita K",
+        "Tomiyama M",
+        "Saito A",
+        "Kakeda S"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1148/radiol.253287",
+      "journal_tier": 1,
+      "impact": 12.1,
+      "section": "neuro",
+      "score": 100.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 2,
+      "abstract_tr": ""
+    },
+    {
       "pmid": "42808901",
       "title": "Case 350: Retained Appendicolith.",
       "abstract": "History A 16-year-old girl presented to the emergency department with a 1-month history of right lower back pain. She was originally seen at an urgent care clinic, where a lumbar radiograph was reportedly normal, and she was prescribed naproxen. However, she came to the emergency department once pain had escalated to 10 out of 10. Over the past month, the patient's right flank had increased in size and \"hardened\" to touch. She reported no trauma or other inciting incident. She had a prior history of laparoscopic appendectomy for perforated appendicitis more than 6 years earlier at an outside hospital. A prior contrast-enhanced abdominal CT scan, obtained 2 weeks after the appendectomy, was available for review. At evaluation, the patient was febrile and mildly tachycardic (104 beats per minute). Examination of the right flank revealed a 4-cm area of erythema and tenderness with 10-cm surrounding induration. She had leukocytosis (white blood cell count, 12 × 109/L; reference range, <9.44 × 109/L) and elevated C-reactive protein (23 mg/L; reference range, <9 mg/L). US followed by contrast-enhanced MRI of the abdomen was performed. Based on the imaging findings, the patient underwent a percutaneous drainage procedure. All cultures, including aerobic, anaerobic, fungal, and acid fast, were negative, with the caveat that the patient had been started on intravenous antibiotics before the procedure. She was discharged and prescribed 10 days of amoxicillin and clavulanate to complete antibiotic therapy, and the drain was removed 6 weeks later. One month after drain removal, the patient returned to the emergency department with return of severe flank pain, erythema, and purulent drainage. The patient was afebrile with a white blood cell count of 9.8 × 109/L. Contrast-enhanced abdominal CT was performed.",
@@ -1471,6 +1705,82 @@
       "abstract_tr": ""
     },
     {
+      "pmid": "42867373",
+      "title": "Normal Pressure Hydrocephalus as a Gradual Spectrum of Anomaly.",
+      "abstract": "",
+      "journal": "Radiology",
+      "date": "2026-10",
+      "authors": [
+        "Haller S"
+      ],
+      "pubtypes": [
+        "Editorial"
+      ],
+      "doi": "10.1148/radiol.262645",
+      "journal_tier": 1,
+      "impact": 12.1,
+      "section": "neuro",
+      "score": 75.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": -25,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42867372",
+      "title": "The Next Step in Supplemental Screening for Extremely Dense Breasts.",
+      "abstract": "",
+      "journal": "Radiology",
+      "date": "2026-10",
+      "authors": [
+        "Bahl M"
+      ],
+      "pubtypes": [
+        "Editorial"
+      ],
+      "doi": "10.1148/radiol.262635",
+      "journal_tier": 1,
+      "impact": 12.1,
+      "section": "meme",
+      "score": 75.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": -25,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42867369",
+      "title": "MOLLI versus ShMOLLI at 3-T Cardiac MRI: Normal Values in Healthy Individuals and Common Cardiac Conditions.",
+      "abstract": "",
+      "journal": "Radiology",
+      "date": "2026-10",
+      "authors": [
+        "Dacher JN",
+        "Cadour F"
+      ],
+      "pubtypes": [
+        "Editorial"
+      ],
+      "doi": "10.1148/radiol.262292",
+      "journal_tier": 1,
+      "impact": 12.1,
+      "section": "toraks",
+      "score": 75.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": -25,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
       "pmid": "42678258",
       "title": "Ethical Implications of the Invisibility of Intracellular Electrolytes.",
       "abstract": "",
@@ -1626,274 +1936,6 @@
       },
       "tier": 3,
       "abstract_tr": ""
-    },
-    {
-      "pmid": "42808903",
-      "title": "Beyond Photon-counting CT: Multienergy CT across the Breast Cancer Pathway.",
-      "abstract": "",
-      "journal": "Radiology",
-      "date": "2026-09",
-      "authors": [
-        "Meeuwis C",
-        "Dorrius MD"
-      ],
-      "pubtypes": [
-        "Editorial",
-        "Comment"
-      ],
-      "doi": "10.1148/radiol.262427",
-      "journal_tier": 1,
-      "impact": 12.1,
-      "section": "meme",
-      "score": 70.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": -30,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42808902",
-      "title": "A 5-year Follow-up on the Persistence of Post-COVID-19 Lung Injury.",
-      "abstract": "",
-      "journal": "Radiology",
-      "date": "2026-09",
-      "authors": [
-        "Kim N"
-      ],
-      "pubtypes": [
-        "Editorial",
-        "Comment"
-      ],
-      "doi": "10.1148/radiol.262429",
-      "journal_tier": 1,
-      "impact": 12.1,
-      "section": "toraks",
-      "score": 70.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": -30,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42836757",
-      "title": "Beyond Bosniak Class: Nodule Size Refines Cystic Renal Mass Risk.",
-      "abstract": "",
-      "journal": "Radiology",
-      "date": "2026-10",
-      "authors": [
-        "Arita Y"
-      ],
-      "pubtypes": [
-        "Editorial",
-        "Comment"
-      ],
-      "doi": "10.1148/radiol.262618",
-      "journal_tier": 1,
-      "impact": 12.1,
-      "section": "abdomen",
-      "score": 70.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": -30,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42836754",
-      "title": "Cross-Cohort Harmonization of Quantitative MRI Metrics: Considerations for Reference Value Generalizability.",
-      "abstract": "",
-      "journal": "Radiology",
-      "date": "2026-10",
-      "authors": [
-        "Xiang JY",
-        "Wu JP",
-        "Wu LM"
-      ],
-      "pubtypes": [
-        "Letter"
-      ],
-      "doi": "10.1148/radiol.261397",
-      "journal_tier": 1,
-      "impact": 12.1,
-      "section": "genel",
-      "score": 70.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": -30,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42696936",
-      "title": "Foundation models in medical image analysis: A systematic review and quantitative analysis.",
-      "abstract": "Recent advancements in foundation models (FMs) have catalyzed a paradigm shift in medical image analysis. Unlike traditional task-specific artificial intelligence (AI) models, FMs leverage large-scale datasets to learn generalized representations that can be adapted to downstream clinical applications. Despite the rapid proliferation of FM research in medical imaging, there is a lack of unified synthesis that systematically maps the evolution of architectures, training paradigms, and clinical applications across modalities. To address this gap, this review provides a comprehensive and structured synthesis of FMs in medical image analysis by systematically organizing studies into two primary categories: vision-only foundation models (VFMs) and vision-language foundation models (VLFMs), based on their architectural foundations, training strategies, and downstream clinical tasks. A quantitative analysis was conducted on both VFMs and VLFMs to characterize temporal trends in dataset utilization and application domains, along with pooled performance and subgroup analyses. We also critically discuss persistent challenges, including cross-domain generalization, computational scalability, FM evaluation, fairness, and deployment. Finally, we identify key future research directions aimed at enhancing the robustness, interpretability, and clinical integration of FMs, thereby accelerating their translation into real-world medical practice.",
-      "journal": "Med Image Anal",
-      "date": "2026-08-27",
-      "authors": [
-        "Rajendran P",
-        "Safari M",
-        "He W",
-        "Hu M",
-        "Shah K",
-        "Wang S",
-        "Zhou J",
-        "Yang X"
-      ],
-      "pubtypes": [
-        "Journal Article",
-        "Review"
-      ],
-      "doi": "10.1016/j.media.2026.104293",
-      "journal_tier": 1,
-      "impact": 10.7,
-      "section": "girisim",
-      "score": 110.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": 10,
-        "recency": 0.0
-      },
-      "tier": 1,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42743860",
-      "title": "A review of longitudinal radiology report generation: Dataset composition, methods, and performance evaluation.",
-      "abstract": "Chest X-ray imaging is a widely used diagnostic tool in modern medicine, and its high utilization creates substantial workloads for radiologists. To alleviate this burden, vision-language models are increasingly applied to automate Chest X-ray radiology report generation (CXR-RRG), aiming for clinically accurate descriptions while reducing manual effort. Conventional approaches, however, typically rely on single image, failing to capture the longitudinal context necessary for producing clinically faithful comparison statements. Recently, growing attention has been directed toward incorporating longitudinal data into CXR-RRG, enabling models to leverage historical studies in ways that mirror radiologists' diagnostic workflows. Nevertheless, existing surveys primarily address single image CXR-RRG and offer limited guidance for longitudinal settings, leaving researchers without a systematic framework for model design. To address this gap, this survey provides the first comprehensive review of longitudinal radiology report generation (LRRG). Specifically, we examine dataset construction strategies, report generation architectures alongside longitudinally tailored designs, and evaluation protocols encompassing both longitudinal-specific measures and widely used benchmarks. We further summarize LRRG methods' performance, alongside analyses of different ablation studies, which collectively highlight the critical role of longitudinal information and architectural design choices in improving model performance. Finally, we summarize six major limitations of current research and outline promising directions for future development, aiming to lay a foundation for advancing this emerging field.",
-      "journal": "Med Image Anal",
-      "date": "2026-09-12",
-      "authors": [
-        "Zhou S",
-        "Li Y",
-        "Liu Y",
-        "Liu L",
-        "Wang L",
-        "Zhou L"
-      ],
-      "pubtypes": [
-        "Journal Article",
-        "Review"
-      ],
-      "doi": "10.1016/j.media.2026.104304",
-      "journal_tier": 1,
-      "impact": 10.7,
-      "section": "girisim",
-      "score": 110.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": 10,
-        "recency": 0.0
-      },
-      "tier": 1,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42673840",
-      "title": "crossMoDA challenge: Evolution of cross-modality domain adaptation techniques for vestibular schwannoma and cochlea segmentation from 2021 to 2023.",
-      "abstract": "The cross-Modality Domain Adaptation (crossMoDA) challenge series, initiated in 2021 in conjunction with the International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI), focuses on unsupervised cross-modality segmentation, learning from contrast-enhanced T1 (ceT1) and transferring to T2 MRI. The task is an extreme example of domain shift chosen to serve as a meaningful and illustrative benchmark. From a clinical application perspective, it aims to automate Vestibular Schwannoma (VS) and cochlea segmentation on T2 scans for more cost-effective VS management. The challenge has evolved across three editions to address increasingly complex clinical scenarios: beginning with single-institution controlled data for binary segmentation (tumour and cochlea) in 2021, extending to multi-institution data with Koos grade classification in 2022, and culminating in heterogeneous routine surveillance data with intra- and extra-meatal tumour sub-segmentation in 2023. In this work, we report the findings of the 2022 and 2023 crossMoDA editions alongside a retrospective analysis of challenge progression. Successive editions demonstrate a reduction in segmentation outliers despite concurrently increasing dataset heterogeneity, suggesting that expanded training diversity improves model robustness. Notably, the 2023 winning approach generalised effectively to prior homogeneous test sets, evidencing the benefit of heterogeneous training data. However, cochlear Dice scores declined in 2023. This decrease may reflect the combined effects of increased dataset heterogeneity, resolution variability, and the added optimisation complexity of a three-class segmentation task, although the precise cause remains uncertain. Progress can and should still be made on the specific task of VS segmentation to reach clinical acceptability but as the performance of leading competitors starts to plateau, a more challenging cross-modal learning task may be beneficial to serve as a benchmarking tool in the future.",
-      "journal": "Med Image Anal",
-      "date": "2026-08-24",
-      "authors": [
-        "Wijethilake N",
-        "Dorent R",
-        "Ivory M",
-        "Kujawa A",
-        "Cornelissen S",
-        "Langenhuizen P",
-        "Okasha M",
-        "Oviedova A",
-        "Dong H",
-        "Kang B",
-        "Sallé G",
-        "Han L",
-        "Zhao Z",
-        "Liu H",
-        "Fan Y",
-        "Yang T",
-        "Hardan S",
-        "Alasmawi H",
-        "Sanjeev S",
-        "Zhuang Y",
-        "Kondo S",
-        "Baldeon Calisto M",
-        "Noman SMU",
-        "Chen C",
-        "Oguz I",
-        "Zhang R",
-        "Rezaei M",
-        "Lai-Yuen SK",
-        "Kasai S",
-        "Huang Y",
-        "Hung CC",
-        "Yaqub M",
-        "Wang L",
-        "Dawant BM",
-        "Guan C",
-        "Mann R",
-        "Jaouen V",
-        "Kam TE",
-        "Zhang L",
-        "Shapey J",
-        "Vercauteren T"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1016/j.media.2026.104282",
-      "journal_tier": 1,
-      "impact": 10.7,
-      "section": "egitim",
-      "score": 100.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 2,
-      "abstract_tr": "Uluslararası Tıbbi Görüntü Hesaplama ve Bilgisayar Destekli Müdahale Konferansı (MICCAI) ile birlikte 2021 yılında başlatılan çapraz Modalite Etki Alanı Uyarlaması (crossMoDA) mücadele serisi, denetimsiz çapraz modalite segmentasyonuna, kontrastı arttırılmış T1'den (ceT1) öğrenmeye ve T2 MRI'ya aktarmaya odaklanıyor. Görev, anlamlı ve açıklayıcı bir kıyaslama olarak hizmet etmek üzere seçilen etki alanı değişiminin uç bir örneğidir. Klinik uygulama açısından bakıldığında, daha uygun maliyetli VS yönetimi için Vestibüler Schwannoma (VS) ve koklea segmentasyonunu T2 taramalarında otomatikleştirmeyi amaçlamaktadır. Zorluk, giderek daha karmaşık hale gelen klinik senaryoları ele almak için üç baskıda gelişti: 2021'de ikili segmentasyon (tümör ve koklea) için tek kurum kontrollü verilerle başlayıp, 2022'de Koos dereceli sınıflandırma ile çok kurumlu verilere uzanıyor ve 2023'te intra-meatal tümör alt segmentasyonu ile heterojen rutin sürveyans verileriyle doruğa ulaşıyor. Bu çalışmada, 2022'nin bulgularını rapor ediyoruz ve 2023 crossMoDA sürümleri ve zorlukların ilerleyişinin geriye dönük analizi. Ardışık baskılar, veri seti heterojenliğinin eşzamanlı olarak artmasına rağmen segmentasyon aykırı değerlerinde bir azalma olduğunu gösteriyor; bu da genişletilmiş eğitim çeşitliliğinin model sağlamlığını artırdığını gösteriyor. Özellikle, 2023'ü kazanan yaklaşım önceki homojen test setlerine etkili bir şekilde genellenerek heterojen eğitim verilerinin faydasını kanıtladı. Ancak koklear Zar puanları 2023'te düştü. Bu azalma, artan veri kümesi heterojenliğinin, çözünürlük değişkenliğinin ve üç sınıflı segmentasyon görevinin eklenen optimizasyon karmaşıklığının birleşik etkilerini yansıtıyor olabilir, ancak kesin neden belirsizliğini koruyor. Klinik kabul edilebilirliğe ulaşmak için VS segmentasyonunun spesifik görevi konusunda ilerleme yapılabilir ve hala ilerleme kaydedilmelidir, ancak önde gelen rakiplerin performansı durma noktasına geldikçe, daha zorlu bir modlar arası öğrenme görevi gelecekte bir kıyaslama aracı olarak hizmet etmek faydalı olabilir."
-    },
-    {
-      "pmid": "42679487",
-      "title": "Informativeness-driven active adaptation of SAM: Structural prompts and contrastive parameter selection for medical tubular segmentation.",
-      "abstract": "Accurate segmentation of tubular structures, such as blood vessels and airway trees, is critical across various medical applications. However, this task remains highly challenging due to the diverse global morphologies and thin local structures of these tubular formations. Segment Anything Model (SAM)-based methods have shown impressive performance in image segmentation, yet their reliance on manually crafted prompts makes them unsuitable for fine-grained tubular structures. Moreover, existing methods for fine-tuning SAM have not fully explored how to identify the most informative parameters to maximize adaptation performance. To address these issues, we introduce a novel framework termed Active Adaptation of SAM (A2SAM), which adopts informativeness-driven adaptation as its governing principle for medical tubular segmentation. Specifically, we design a structural prompt generator that automatically produces topology-aware prompts, guiding SAM toward anatomically meaningful tubular structures. The structural uncertainty embedded in these prompts captures variations in global morphology. Furthermore, we find that parameters with strong task-specific influence and a lower risk of disrupting generalizable knowledge are beneficial for adapting SAM. We define these parameters as contrastive parameters and propose a contrastive parameter selection strategy that modulates squared-gradient influence with magnitude-based preservation. The proposed strategy enhances adaptation performance in tubular segmentation and preserves SAM's generalizable knowledge. Finally, we propose a thickness-aware loss function to improve local connectivity in thin structures. The proposed A2SAM is validated on five diverse benchmark datasets for medical tubular segmentation. Comprehensive experiments demonstrate that A2SAM achieves strong overall performance. Our code is publicly available at: https://github.com/YongChen-Exact/A2SAM.",
-      "journal": "Med Image Anal",
-      "date": "2026-08-27",
-      "authors": [
-        "Chen Y",
-        "Chen R",
-        "Kang Q",
-        "Wang R",
-        "Lyu H",
-        "Jiang Z",
-        "Wang H",
-        "Song H",
-        "Li K"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1016/j.media.2026.104285",
-      "journal_tier": 1,
-      "impact": 10.7,
-      "section": "genel",
-      "score": 100.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 2,
-      "abstract_tr": "Kan damarları ve hava yolu ağaçları gibi boru şeklindeki yapıların doğru şekilde bölümlendirilmesi çeşitli tıbbi uygulamalarda kritik öneme sahiptir. Ancak bu görev, bu boru şeklindeki oluşumların çeşitli küresel morfolojileri ve ince yerel yapıları nedeniyle oldukça zorlu olmaya devam ediyor. Her Şeyi Segmente Ayırma Modeli (SAM) tabanlı yöntemler, görüntü segmentasyonunda etkileyici bir performans göstermiştir, ancak bunların manuel olarak hazırlanmış istemlere dayanması, onları ince taneli boru şeklindeki yapılar için uygunsuz kılmaktadır. Ayrıca, SAM'de ince ayar yapmaya yönelik mevcut yöntemler, uyarlama performansını en üst düzeye çıkarmak için en bilgilendirici parametrelerin nasıl tanımlanacağını tam olarak keşfetmemiştir. Bu sorunları çözmek için, tıbbi boru şeklinde segmentasyon için bilgi odaklı adaptasyonu ana prensip olarak benimseyen SAM'in Aktif Adaptasyonu (A2SAM) adı verilen yeni bir çerçeve sunuyoruz. Spesifik olarak, topolojiye duyarlı istemleri otomatik olarak üreten ve SAM'i anatomik açıdan anlamlı boru şeklindeki yapılara yönlendiren yapısal bir bilgi istemi üreteci tasarlıyoruz. Bu ipuçlarına gömülü yapısal belirsizlik, küresel morfolojideki farklılıkları yakalar. Ayrıca, göreve özgü etkisi güçlü ve genelleştirilebilir bilgiyi bozma riski daha düşük olan parametrelerin, SAM'in uyarlanması için faydalı olduğunu bulduk. Bu parametreleri karşılaştırmalı parametreler olarak tanımlıyoruz ve karesel gradyan etkisini büyüklüğe dayalı korumayla modüle eden karşılaştırmalı bir parametre seçim stratejisi öneriyoruz. Önerilen strateji, boru şeklindeki bölümlendirmede adaptasyon performansını artırır ve SAM'in genelleştirilebilir bilgisini korur. Son olarak, ince yapılarda yerel bağlantıyı geliştirmek için kalınlığa duyarlı bir kayıp fonksiyonu öneriyoruz. Önerilen A2SAM, tıbbi boru şekilli segmentasyon için beş farklı kıyaslama veri kümesinde doğrulanmıştır. Kapsamlı deneyler, A2SAM'in güçlü bir genel performansa ulaştığını göstermektedir. Kodumuz şu adreste halka açıktır: https://github.com/YongChen-Exact/A2SAM."
     }
   ]
 }
