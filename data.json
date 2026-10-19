@@ -1,11 +1,39 @@
 {
-  "updated": "2026-10-18T10:36:21+00:00",
+  "updated": "2026-10-19T11:40:06+00:00",
   "window_days": 1,
   "datetype": "edat",
-  "count": 47,
+  "count": 44,
   "tier1_count": 0,
   "source": "PubMed (NCBI E-utilities)",
   "articles": [
+    {
+      "pmid": "42893626",
+      "title": "Hierarchical visual prompt disentanglement for continual rare disease diagnosis.",
+      "abstract": "The automatic diagnosis of rare diseases via few-shot class-incremental learning (FSCIL) is critically hindered by severe data scarcity and the prevailing treatment of disease labels as a flat, unstructured space. This oversimplification neglects the rich taxonomic structures inherent in medical ontologies, leading to poor generalization on fine-grained subtypes. To bridge this gap, we propose Hierarchical Visual Prompt Disentanglement (HVPD), a hierarchy-guided framework for continual rare disease diagnosis. Unlike methods that use textual cues for flat semantic alignment, HVPD uses superclass and subclass category names to elicit visual-attribute semantics from a medical large language model (LLM) and converts the LLM's pre-decoding representations into hierarchical semantic anchors that guide image-conditioned visual prompt generation. We design a hierarchy-aware disentanglement mechanism that synthesizes instance-adaptive visual prompts while reducing the overlap between superclass-common patterns and subclass-specific diagnostic cues through an orthogonality-based cross-level constraint. This design alleviates the stability-plasticity dilemma by injecting structured medical priors into the visual feature space. Extensive experiments on the SD-198 (dermatology) and RFMiD (ophthalmology) datasets demonstrate that HVPD consistently improves over existing FSCIL approaches, delivering stronger fine-grained discrimination and knowledge retention under extreme few-shot regimes.",
+      "journal": "Med Image Anal",
+      "date": "2026-10-17",
+      "authors": [
+        "Hu Y",
+        "Chen Y",
+        "Zeng Q",
+        "Xia Y"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.media.2026.104355",
+      "journal_tier": 1,
+      "impact": 10.7,
+      "section": "girisim",
+      "score": 100.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 2,
+      "abstract_tr": ""
+    },
     {
       "pmid": "42892356",
       "title": "Costs and imaging delays associated with acute reactions to contrast material: A single-center retrospective study.",
@@ -172,44 +200,6 @@
       "abstract_tr": ""
     },
     {
-      "pmid": "42888245",
-      "title": "Ultrasound-guided percutaneous catheter drainage of deep neck space abscesses: outcomes and predictors of treatment failure.",
-      "abstract": "OBJECTIVES: Clinical evidence supporting ultrasound-guided percutaneous catheter drainage (US-PCD) as a first-line treatment for deep neck space abscesses (DNSAs) remains limited. This study aimed to evaluate the outcomes of US-PCD as initial management for DNSAs and to identify factors associated with treatment efficacy. MATERIALS AND METHODS: This multicenter retrospective cohort study included patients with DNSAs who underwent US-PCD as a first-line treatment at four tertiary hospitals in China between 2015 and 2022. All patients were hemodynamically stable and had a stable airway, with preprocedural contrast-enhanced CT/MRI confirming no extensive mediastinal involvement beyond the anterosuperior compartment. Univariable and multivariable logistic regression analyses were used to identify preprocedural predictors of US-PCD efficacy. RESULTS: US-PCD was performed in 117 patients. The procedure was technically accessible in 116 (98%) patients, among whom 12 (10%) had descending mediastinitis confined to the anterosuperior mediastinum. No procedure-related major complications occurred. Drainage success was achieved in 98 patients (84%). Among the 18 patients (16%) in whom US-PCD failed, three (3%) died and the remaining 15 (13%) required open surgical drainage. Multiple septations and leukocyte count were significant in univariate but not multivariable analysis. The only independent predictor of drainage failure was the presence of serious associated events-a composite variable including descending mediastinitis, sepsis, airway compromise, and vascular thrombosis (OR = 5.7, 95% CI: 1.9-17.4, p = 0.002). CONCLUSION: Ultrasound-guided percutaneous catheter drainage represents an effective minimally invasive first-line option for selected patients with deep neck space abscesses; however, open surgery should be prioritized when serious associated events are present. KEY POINTS: Question For deep neck space abscesses (DNSAs), ultrasound-guided percutaneous drainage (US-PCD) is a common surgical alternative, but its outcomes and predictors as a first-line treatment remain unclear. Findings US-PCD was effective as a first-line treatment for selected DNSAs. Only serious associated events-mediastinitis, sepsis, airway compromise, and thrombosis-independently predicted drainage failure. Clinical relevance US-PCD may be considered a first-line minimally invasive option for hemodynamically and airway-stable DNSA patients, even with anterosuperior mediastinal extension. Surgical drainage remains prioritized for cases with serious associated events to achieve rapid infection control.",
-      "journal": "Eur Radiol",
-      "date": "2026-10-16",
-      "authors": [
-        "Li X",
-        "Gao W",
-        "Wang H",
-        "Huang L",
-        "Ye H",
-        "Mo P",
-        "Huang W",
-        "Qiu Y",
-        "Hu R",
-        "Jiang L",
-        "Xu M",
-        "Xie X",
-        "Lei W",
-        "Huang G"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1007/s00330-026-12981-y",
-      "journal_tier": 1,
-      "impact": 4.7,
-      "section": "genel",
-      "score": 100.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 2,
-      "abstract_tr": ""
-    },
-    {
       "pmid": "42891683",
       "title": "Imaging findings of sacroiliac joint degeneration are prevalent in asymptomatic adults: a systemic review and meta-analysis.",
       "abstract": "OBJECTIVE: The purpose of this study is to determine the prevalence of imaging findings of sacroiliac joint (SIJ) degeneration in asymptomatic adults. MATERIALS AND METHODS: All studies reporting the prevalence of cross-sectional imaging findings of SIJ degeneration in asymptomatic adults through May 2026 were included. Pooled prevalence and 95% confidence intervals were calculated using a random-effects model. Heterogeneity was assessed with I2 and Cochran's Q. Age and sex subgroup analyses were performed. RESULTS: Seventeen studies (3873 patients) were included. Any feature of degeneration was observed in 71.1% of patients (95% CI [25.8, 94.6]) with significant heterogeneity among studies (I2 = 96%, p < .01). Osteophyte formation was most prevalent (68.4%; 95% CI [37.5, 88.7], I2 = 92%), followed by joint space narrowing (45.2%; 95% CI [9.8, 86.3], I2 = 99%), subchondral sclerosis (39.1%; 95% CI [11.7, 75.7], I2 = 96%), vacuum phenomenon (14.3%; 95% CI [6.4, 28.7], I2 = 94%), subchondral cyst formation (5.5%; 95% CI [3.0, 9.9], I2 = 59%), erosions (5.0%; 95% CI [2.1, 11.2], I2 = 86%), and joint ankylosis (2.8%; 95% CI [1.2, 6.5], I2 = 66%). There was a correlation between age and osteophytosis, subchondral sclerosis, and vacuum phenomenon. CONCLUSION: Our study reveals a high prevalence of imaging findings related to SIJ degeneration in asymptomatic adults, which may have a connection with age in several findings. These findings emphasize the importance of correlating imaging with clinical symptoms and physical examination findings in the evaluation of low back pain. Findings should be interpreted with caution because confidence intervals were wide and between-study heterogeneity was high, reflecting differences in imaging modality, lesion definitions, and patient categorization.",
@@ -241,55 +231,28 @@
       "abstract_tr": ""
     },
     {
-      "pmid": "42888361",
-      "title": "MRI and proton MR spectroscopy in neonatal hypoxic-ischemic encephalopathy: a comprehensive imaging review.",
-      "abstract": "Neonatal hypoxic-ischemic encephalopathy (HIE) remains a leading cause of neonatal mortality and long-term neurodevelopmental disability. Although cranial ultrasound is widely used as a bedside screening tool, brain MRI has become central to diagnosis, injury pattern classification, timing estimation, and outcome prediction. Furthermore, proton MR spectroscopy (1H-MRS) provides complementary metabolic biomarkers that enhance prognostication. This review focuses on MRI and 1H-MRS in neonatal encephalopathy due to hypoxic-ischemic injury, addressing both term and preterm infants. The pathophysiologic determinants of injury distribution are summarized, the optimal timing of imaging and diffusion evolution is discussed, and practical acquisition protocols including recommended sequences and 1H-MRS parameters are proposed. Key MRI phenotypes in term infants-basal ganglia-thalamus injury, watershed/parasagittal cortical-subcortical injury, and global or near-total injury patterns are reviewed with attention to common pitfalls such as diffusion pseudonormalization and evolving T1/T2 signal changes. For preterm infants, this review highlights distinctive vulnerabilities of the germinal matrix and periventricular white matter, emphasizing the spectrum from punctate white matter injury (WMI) to cystic periventricular leukomalacia (PVL). For 1H-MRS, voxel selection, echo time considerations, and interpretation of lactate, N-acetylaspartate (NAA), choline, creatine, and myo-inositol are detailed. Evidence suggests that deep gray matter lactate/NAA or NAA-based metrics serve as reliable and robust outcome biomarkers. Emerging directions including arterial spin labeling (ASL) perfusion are also discussed.",
-      "journal": "Jpn J Radiol",
-      "date": "2026-10-17",
+      "pmid": "42893631",
+      "title": "Factors associated with structural progression of the sacroiliac joints on MRI in axial spondyloarthritis: a retrospective longitudinal study.",
+      "abstract": "PURPOSE: To identify clinical and routine sacroiliac joint (SIJ) MRI variables associated with structural damage progression in axial spondyloarthritis (axSpA). MATERIALS AND METHODS: This retrospective longitudinal study enrolled 234 patients with axSpA who underwent at least two SIJ MRI examinations between August 2011 and March 2024 (643 examinations, 409 consecutive visit pairs). Progression at each follow-up examination relative to the previous one was adjudicated using an SSS-based three-step algorithm. Mixed-effects logistic regression with patient-specific random intercepts identified factors associated with progression, with the MRI follow-up interval as a covariate. Multicollinearity was assessed using variance inflation factors, and treatment exposure was evaluated in a sensitivity analysis. RESULTS: Progression was identified in 260 of 409 follow-up examinations (63.6%). After adjustment for the MRI follow-up interval, a higher erosion SSS score (odds ratio [OR] 1.178, 95% confidence interval [CI] 1.099-1.262, P < 0.001), smoking (OR 2.023, 95% CI 1.091-3.751, P = 0.025), and HLA-B27 positivity (OR 2.929, 95% CI 1.225-7.007, P = 0.016) were independently associated with increased progression risk, whereas older age at diagnosis (OR 0.970, 95% CI 0.946-0.993, P = 0.012) was associated with decreased risk; these associations were essentially unchanged after forced entry of treatment exposure. CONCLUSION: A higher erosion burden at the previous examination, smoking, and HLA-B27 positivity were associated with SIJ structural damage progression; patients diagnosed at a younger age also warrant attention. Given the retrospective observational design, these are statistical associations whose causality and clinical utility require prospective validation.",
+      "journal": "Eur J Radiol",
+      "date": "2026-10-13",
       "authors": [
-        "Enokizono M"
+        "Fang K",
+        "Zhang X",
+        "Yang S",
+        "Yu S"
       ],
       "pubtypes": [
-        "Journal Article",
-        "Review"
+        "Journal Article"
       ],
-      "doi": "10.1007/s11604-026-02083-6",
+      "doi": "10.1016/j.ejrad.2026.113298",
       "journal_tier": 2,
-      "impact": 3.0,
-      "section": "neuro",
-      "score": 70.0,
+      "impact": 3.2,
+      "section": "genel",
+      "score": 60.0,
       "score_parts": {
         "journal": 60,
-        "pubtype": 10,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42888313",
-      "title": "A Survey of Computational Color Constancy: Approaches and Emerging Applications in Medical Imaging.",
-      "abstract": "As the evening sets in and natural light fades to artificial light, it is remarkable how the colors around us still appear nearly the same. This phenomenon, known as color constancy, allows us to perceive relatively stable colors even as lighting conditions change. In the field of computer vision, replicating this human ability is the key to performing tasks such as recognizing objects and understanding scenes. This review examines two main approaches to tackle the challenge of computational color constancy: traditional static methods that rely on a set of assumptions about lighting and scene conditions, and newer learning-based methods that use models trained to estimate lighting directly from images. We look at how these techniques have evolved, from foundational methods like the gray-world assumption, which work within certain limitations, to modern deep learning techniques that can interpret lighting in more dynamic ways. The datasets, metrics, and reported results of the surveyed studies are consolidated into two comparative tables, providing a structured overview of the methods discussed. Together, these comparisons offer a broad perspective on how computational color constancy has developed and where it is headed, with particular emphasis on its applications in medical imaging.",
-      "journal": "J Imaging Inform Med",
-      "date": "2026-10-16",
-      "authors": [
-        "Tahar A",
-        "Zrour H",
-        "Pozdzik A",
-        "Dupont S"
-      ],
-      "pubtypes": [
-        "Journal Article",
-        "Review"
-      ],
-      "doi": "10.1007/s10278-026-02408-x",
-      "journal_tier": 2,
-      "impact": 2.9,
-      "section": "yapayzeka",
-      "score": 70.0,
-      "score_parts": {
-        "journal": 60,
-        "pubtype": 10,
+        "pubtype": 0,
         "recency": 0.0
       },
       "tier": 3,
@@ -1013,219 +976,6 @@
       "abstract_tr": ""
     },
     {
-      "pmid": "42888364",
-      "title": "Palliative radiotherapy for gastric cancer-related bleeding: a systematic review and meta-analysis of bleeding response and dose-response relationships.",
-      "abstract": "PURPOSE: Palliative radiotherapy is commonly used to control bleeding in advanced gastric cancer; however, the optimal dose-fractionation regimen as well as the dose-response relationship remain unclear. We aimed to evaluate the effectiveness of radiotherapy for gastric cancer-related bleeding and its association with dose fractionation. MATERIALS AND METHODS: We systematically searched PubMed, Scopus, Web of Science, Cochrane Library, and Ichushi-Web for studies published between January 2000 and August 2026 on palliative radiotherapy for gastric cancer-related bleeding. The primary endpoint was bleeding response rate. A random-effects meta-analysis was performed to estimate the pooled response rates. Meta-regression and subgroup analyses were conducted to explore dose-response relationships. Meta-regression was performed using study-level median biologically effective dose (BED) values. RESULTS: A total of 31 studies were included. The pooled bleeding response rate was 75.9% (95% confidence interval, 69.7-81.2), with significant heterogeneity (I2 = 67.5%). Egger's test suggested small study effects (P = 0.012). Meta-regression analysis demonstrated an association between a higher BED and an increased likelihood of response (P = 0.010). Subgroup analyses showed that higher BED categories were associated with higher response rates (P = 0.005). The pooled rebleeding rate was 32.4%. The median overall survival and rebleeding-free survival were 3.8 and 3.4 months, respectively. Radiotherapy was generally well tolerated, with a low incidence of grade ≥ 3 toxicities. CONCLUSIONS: Palliative radiotherapy is an effective and well-tolerated treatment for gastric cancer-related bleeding. Although study-level meta-regression identified a statistical association between higher BED and hemostatic response, this may largely reflect selection bias and methodological limitations rather than a true dose-response relationship. Given the poor prognosis of this population, shorter dose-fractionation regimens are appropriate for many patients, whereas higher-BED regimens remain reasonable for selected patients.",
-      "journal": "Jpn J Radiol",
-      "date": "2026-10-17",
-      "authors": [
-        "Iguchi R",
-        "Imano N",
-        "Saito T",
-        "Miyoshi S",
-        "Matsuura T",
-        "Kawahara D",
-        "Nishibuchi I",
-        "Abdel-Wahab M",
-        "Murakami Y"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1007/s11604-026-02094-3",
-      "journal_tier": 2,
-      "impact": 3.0,
-      "section": "abdomen",
-      "score": 60.0,
-      "score_parts": {
-        "journal": 60,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42888363",
-      "title": "MRI-defined parametrial venous invasion in locally advanced cervical cancer: association with pathological venous invasion, pretreatment lymph node metastasis, and survival outcomes.",
-      "abstract": "PURPOSE: To evaluate MRI-defined parametrial venous invasion (mrPMVI) for detecting pathological parametrial venous invasion (pPMVI) and its associations with pretreatment lymph node metastasis (LNM) and survival outcomes in locally advanced cervical cancer. MATERIALS AND METHODS: This retrospective study included 42 patients with cervical cancer with parametrial invasion on MRI or histopathology, corresponding to International Federation of Gynecology and Obstetrics 2018 stage IIB or higher disease. Fifteen patients underwent surgery without preoperative therapy and were included in the pathological validation analysis. Image interpretation was primarily based on T2-weighted and diffusion-weighted imaging. Two radiologists independently assessed mrPMVI using a five-point scoring system. Scores ≥ 3 were predefined as mrPMVI-positive. Diagnostic performance for pPMVI and interobserver agreement were evaluated. Univariable logistic and Cox regression analyses were performed for pretreatment LNM and survival outcomes, respectively. RESULTS: pPMVI was present in 10 of 15 patients. The five-point mrPMVI score showed an area under the receiver operating characteristic curve of 0.87 (95% confidence interval [CI], 0.60-0.98) for detecting pPMVI. The predefined threshold (≥ 3) yielded 30.0% sensitivity and 100% specificity. Interobserver agreement for the five-point mrPMVI score was substantial (linearly weighted κ = 0.75). mrPMVI positivity was associated with pretreatment LNM (odds ratio = 4.00, 95% CI: 1.05-15.26, p = 0.042). During a median follow-up of 24.0 months, 16 patients experienced disease progression and 10 died. mrPMVI positivity was associated with shorter progression-free survival (hazard ratio = 34.25, 95% CI: 4.35-269.91; p < 0.001) and overall survival (hazard ratio = 10.16; 95% CI: 1.28-80.61, p = 0.028). CONCLUSION: The mrPMVI score showed potential for identifying pPMVI, although the predefined threshold was highly specific but insensitive. mrPMVI positivity was associated with pretreatment LNM and survival outcomes, suggesting potential complementary value for risk characterization in locally advanced cervical cancer.",
-      "journal": "Jpn J Radiol",
-      "date": "2026-10-17",
-      "authors": [
-        "Ejima F",
-        "Yamagishi R",
-        "Oose A",
-        "Kanzaki F",
-        "Satake Y",
-        "Takumi K",
-        "Kamimura K",
-        "Otsuka H",
-        "Yanazume S",
-        "Kobayashi H",
-        "Kitazono I",
-        "Yoshiura T"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1007/s11604-026-02099-y",
-      "journal_tier": 2,
-      "impact": 3.0,
-      "section": "genel",
-      "score": 60.0,
-      "score_parts": {
-        "journal": 60,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42888312",
-      "title": "An Accountable Encounter-Based Imaging Workflow for Point-of-Care Ultrasound: Integrating Image Availability, Clinician Attribution, and Documentation Accountability.",
-      "abstract": "Point-of-care ultrasound (POCUS) is integral to emergency department (ED) care, but traditional order-based imaging workflows (OBIWs) are poorly aligned with unscheduled encounters and dynamic bedside imaging needs. We describe an accountable encounter-based imaging workflow (EBIW) that integrates patient identification, clinician attribution, encounter-linked image routing, and documentation accountability into a unified imaging informatics architecture. We performed a retrospective observational analysis of aggregated ED POCUS charge data from January 2018 through December 2025 at a single urban academic ED. Three sequential workflows were evaluated: a legacy electronic health record (EHR)-based OBIW, a POCUS Manager-based OBIW, and an accountable EBIW. The accountable EBIW links ultrasound images directly to the ED encounter using barcode-based patient and clinician identification and a centralized Digital Imaging and Communications in Medicine (DICOM) router that generates an image availability message. This enables immediate image access in the picture archiving and communication system, EHR, and POCUS management platform before report completion. Charges were not used as a measure of reimbursement or financial return. Because a charge could only be generated after image archival, encounter linkage, documentation, and clinician attestation, charge capture served as a longitudinal system-level marker of completed workflow execution. Charges were normalized by ED visit volume and analyzed using interrupted time series analysis. Transition from the EHR-based OBIW to the POCUS Manager-based OBIW was not associated with an immediate increase in charges. Implementation of the accountable EBIW was associated with an immediate level increase of $11,746 per 1000 visits and a sustained positive quarterly slope thereafter. An accountable EBIW integrating encounter-level acquisition, DICOM routing, immediate image availability, clinician attribution, and documentation accountability was associated with improved capture of ED POCUS utilization.",
-      "journal": "J Imaging Inform Med",
-      "date": "2026-10-16",
-      "authors": [
-        "Riscinti M",
-        "Le NN",
-        "Milgrim F",
-        "Rast J",
-        "Bottemiller A",
-        "Baird J",
-        "Johnson V",
-        "Yoon H",
-        "Toney A",
-        "Wolf S"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1007/s10278-026-02365-5",
-      "journal_tier": 2,
-      "impact": 2.9,
-      "section": "genel",
-      "score": 60.0,
-      "score_parts": {
-        "journal": 60,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42888311",
-      "title": "Investigation on Automatic Classification of Bone, Lymph Node, and Local Lesions in CT Images of Prostate Cancer Patients.",
-      "abstract": "Accurate assessment of different types of prostate cancer (PCa) lesions is a crucial part of treatment planning. Following a computed tomography (CT) or a positron emission tomography (PET)/CT imaging scan, a significant amount of time is required from the clinicians to detect lesions and characterize them by their anatomical locations. To facilitate the development of new image analysis applications, we investigated the potential of automated classification of PCa lesions between bone metastases, lymph node metastases, local lesions, and other PCa lesions in CT images via machine learning (ML) and deep learning models. We annotated a total of 4949 PCa lesions by their type in a private dataset of   18  F-prostate-specific membrane antigen (PSMA) PET/CT images of 532 PCa patients and an external test set of publicly available PSMA PET/CT images from 30 patients. Using information of coordinates of the detected lesions, we automatically extracted 15 different features from the CT and the results of the automated 3D anatomical segmentation tool TotalSegmentator for each lesion, and trained several traditional ML models to classify lesions by their anatomical type. Additionally, we experimented with convolutional neural networks (CNNs) of different dimensionalities with CT and TotalSegmentator inputs. According to our results, the most accurate model was XGBoost with an overall accuracy of 96.0%. It identified bone metastases, lymph node metastases, and local lesions with sensitivities of 97.9±1.2%, 95.2±1.3%, and 93.1±2.8% in the five-fold cross-validation experiments of the primary data and 96.3%, 94.0%, and 80.0% on the external test set, respectively. Conversely, the CNNs underperformed the best ML models in distinguishing local lesions. To conclude, a simple ML model can accurately classify PCa lesions between bone, lymph node, and local lesions based on CT images, lesion locations, and automated anatomical segmentation data, but more research is required for distinguishing PCa lesions outside these categories.",
-      "journal": "J Imaging Inform Med",
-      "date": "2026-10-16",
-      "authors": [
-        "Rainio O",
-        "Vehmanen A",
-        "Li A",
-        "Jaakkola MK",
-        "Kemppainen J",
-        "Klén R"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1007/s10278-026-02402-3",
-      "journal_tier": 2,
-      "impact": 2.9,
-      "section": "abdomen",
-      "score": 60.0,
-      "score_parts": {
-        "journal": 60,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42888310",
-      "title": "Evaluating Explicit Anatomical Priors Beyond a Mature CT Detector for Six Acute Abdominal Emergencies.",
-      "abstract": "To test whether anatomical priors from a general-purpose organ segmentation model (TotalSegmentator, TS), applied at inference or during training, improve an externally validated YOLOv11 detector for six acute abdominal emergencies. The frozen detector was applied to 827 external Stanford Merlin CT studies with language-model report labels; a nested 280-study radiologist-adjudicated subset was the reference standard. TS-derived slice selection (Arm A), organ-state integration (Arm B), and their combination (Arm C) were compared with the detector alone under frozen, recalibrated, and fine-tuned conditions. The detector was also retrained from scratch (identical 10-epoch budget) with image channels only, with the patient's TS organ maps as added input channels, or with another patient's maps. AUROC was primary; comparisons used a paired study-level bootstrap. The detector generalized externally (macro AUROC 0.816 cohort; 0.879 adjudicated). Slice selection was non-inferior but not beneficial: nearly all confident detections already lay within the anchored organ's axial range; organ-state fusion improved AUROC only for cholecystitis (hypothesis-generating). In single runs, training with organ maps raised internal test mAP@0.5 (0.517 versus 0.482), and the model depended on the maps, but external macro AUROC did not improve (0.822 versus 0.829; Δ -0.007, 95% CI -0.019 to +0.007) and kidney-stone AUROC fell (0.678 versus 0.768; exploratory), unlike with another patient's maps. Per-site recalibration was the most effective operating-point adjustment (macro F1 +0.021); annotation-free fine-tuning reduced discrimination. Explicit anatomy, applied after detection or during training, did not improve this detector's overall external discrimination. Per-site recalibration gave the largest operating-point gain.",
-      "journal": "J Imaging Inform Med",
-      "date": "2026-10-16",
-      "authors": [
-        "Erdoğan HM",
-        "Koç U"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1007/s10278-026-02368-2",
-      "journal_tier": 2,
-      "impact": 2.9,
-      "section": "abdomen",
-      "score": 60.0,
-      "score_parts": {
-        "journal": 60,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42888309",
-      "title": "Diagnosis of Suspected Pituitary Microadenomas: The Complementary Role of Habitat-based Non-enhanced MRI Radiomics Features.",
-      "abstract": "To develop and validate a combined model for detecting pituitary microadenomas in suspected cases using non-contrast T1-weighted sagittal (T1SAG) magnetic resonance imaging (MRI), and to assess its performance as a non-contrast imaging-based tool for clinical decision support.This retrospective two-center study enrolled 519 patients with suspected pituitary microadenomas, divided into a training set (n = 321), an internal validation set (n = 80), and an external test set (n = 118). Radiomics features were extracted from both the entire pituitary gland and its habitat subregions, generated via unsupervised K-means clustering. Eight predictive models were constructed using logistic regression: a clinical model, an intra-pituitary radiomics model, three individual habitat models (Habitat 1, 2, and 3), an early-fusion model combining all habitats, an ensemble model integrating the probability outputs of the three habitat models, and a combined model that integrated clinical, intra-pituitary, and the optimal fusion model. Model performance was evaluated using receiver operating characteristic curves (ROC), calibration curves, and decision curve analysis.Among all models, the combined model demonstrated the best predictive performance across all three cohorts, achieving areas under the curve (AUCs) of 0.885 (95% CI: 0.850-0.920) in the training set, 0.788 (95% CI: 0.690-0.885) in the internal validation set, and 0.796 (95% CI: 0.712-0.880) in the external test set. The combined model also achieved the highest accuracy and sensitivity across all datasets.The combined prediction model showed robust performance in distinguishing pituitary microadenomas in suspected cases, offering enhanced clinical decision support while reducing dependence on contrast-enhanced MRI examinations.",
-      "journal": "J Imaging Inform Med",
-      "date": "2026-10-16",
-      "authors": [
-        "Kang S",
-        "Wang K",
-        "Liang Y",
-        "Yang W",
-        "Zhang J"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1007/s10278-026-02203-8",
-      "journal_tier": 2,
-      "impact": 2.9,
-      "section": "neuro",
-      "score": 60.0,
-      "score_parts": {
-        "journal": 60,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42888308",
-      "title": "Building and Validating a Data-Governance Workflow for Artificial Intelligence-Based Tuberculosis Detection from Chest Radiographs, and Quantifying the Impact of Data Leakage.",
-      "abstract": "Studies applying artificial intelligence (AI) to tuberculosis (TB) detection from chest radiographs (CXR) focus on models and metrics, yet the quality, provenance and reproducibility of the data workflow decide the reliability of results; duplicate images and non-patient-level splitting inflate evaluation metrics. We propose a seven-step data-governance workflow: multi-source standardisation, provenance management, three-hash deduplication (MD5, pHash, dHash), patient-level splitting, invariant-check auditing, lung segmentation and version freezing by data fingerprint. Four leakage scenarios (deduplication on or off; patient-level or random split) were repeated 20 times with paired splits and compared with the clean scenario on per-repeat differences. On 46,410 CXR images from seven public sources, the workflow removed duplicates at file and content level, standardised 16,554 TB Portals DICOM images, generated 34,554 lung masks without failure and sealed every layer with SHA-256 hashes. On the three-class multi-source corpus, the area under the curve (AUC) saturated near 0.997 in every scenario, consistent with source-class confounding; paired leakage effects were statistically detectable but below 0.1 percentage points. On a single-source probe task (drug resistance within TB Portals), random image-level splitting inflated the internal AUC by 1.7 percentage points (95% confidence interval 0.9 to 2.4; p = 0.001), or 1.2 points after a deduplication gap found during revision was repaired; in a holdout design, an internal gap of 1.1 points shrank to 0.4 points on a patient-disjoint holdout. The magnitude of leakage depends on data structure and must be measured; a rigorous governance workflow makes that measurement, and data reuse, verifiable.",
-      "journal": "J Imaging Inform Med",
-      "date": "2026-10-16",
-      "authors": [
-        "Nguyen NA"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1007/s10278-026-02403-2",
-      "journal_tier": 2,
-      "impact": 2.9,
-      "section": "girisim",
-      "score": 60.0,
-      "score_parts": {
-        "journal": 60,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
       "pmid": "42892402",
       "title": "Advanced diffusion-weighted imaging for evaluating neoadjuvant chemotherapy in breast cancer.",
       "abstract": "Neoadjuvant chemotherapy (NAC) is widely used for locally advanced breast cancer. Imaging monitoring during NAC facilitates timely treatment adjustments and leads to improved patient outcomes. Dynamic contrast-enhanced MRI plays a key role in assessing NAC response; however, early during treatment, tumor volume changes lag behind intracellular microstructural and functional alterations. Diffusion-weighted imaging (DWI) provides average tissue diffusion information based on Gaussian water motion but fails to capture intratumoral heterogeneity. Advanced DWI techniques, including intravoxel incoherent motion (IVIM), stretched exponential modeling (SEM), diffusion kurtosis imaging (DKI), diffusion tensor imaging (DTI), and DWI-based virtual magnetic resonance elastography (vMRE), have attracted growing interest in evaluating breast cancer during NAC. These techniques require no gadolinium-based contrast agents and can provide valuable information on tumor microstructure, heterogeneity, and microcirculation. However, a notable gap persists between the potential benefits of advanced DWI and their actual clinical utility. This review assesses the current applications and limitations of advanced DWI techniques in NAC for breast cancer.",
@@ -1247,6 +997,159 @@
       "score_parts": {
         "journal": 35,
         "pubtype": 10,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42894253",
+      "title": "Defining the Clinical Indication for Real-Time Artificial Intelligence-Assisted Ultrasound in Breast Lesions with Low Suspicion of Malignancy.",
+      "abstract": "OBJECTIVES: To evaluate whether real-time artificial intelligence (AI) breast ultrasound (US) can identify a subgroup of breast imaging reporting and data system (BI-RADS) category 4A lesions without suspicious mammographic (MMG) findings in whom unnecessary biopsy may be safely avoided. METHODS: This retrospective analysis of single-center biopsy registry included 641 consecutive US BI-RADS 4A lesions that underwent vacuum-assisted breast biopsy. Before conducting biopsy, the lesions were reassessed using a real-time AI US system (CadAI-B®), and MMG findings were classified as suspicious or non-suspicious based on formal reports. Seven prespecified biopsy-decision strategies were evaluated, including 3 AI-only strategies, 3 mammography-gated AI strategies, and the current standard strategy of biopsy all BI-RADS 4A lesions. The primary outcomes were biopsy reduction rate, missed cancers, sensitivity, specificity, positive predictive value, negative predictive value, and accuracy, with final pathology as the reference standard. RESULTS: Among 641 cases of US BI-RADS 4A lesions, 26 cases of malignancies (4.1%) were identified, including 14 cases of ductal carcinoma in situ (DCIS), 11 cases of invasive ductal carcinomas, and 1 case of apocrine carcinoma. AI reassigned 289 cases of lesions (45.1%) to BI-RADS categories 1-3. AI-only biopsy-deferral strategies missed 30.8% and 38.5% of malignancies when biopsy was deferred for AI BI-RADS ≤2 and ≤3 lesions, respectively, with DCIS accounting for most missed cancers. In contrast, among lesions without suspicious MMG findings, no malignancies were observed in AI BI-RADS 1-3 lesions. The sequential strategy of deferring biopsy only for lesions with AI BI-RADS ≤3 and non-suspicious MMG findings reduced biopsies by 43.5% (279/641) while maintaining 100.0% sensitivity (95% CI, 87.1-100.0%) and increasing specificity to 45.4% (95% CI, 41.4-49.4%). CONCLUSION: Real-time AI breast US alone could not safely support biopsy deferral in US BI-RADS 4A lesions. However, after suspicious MMG findings had been excluded, AI identified a low-risk subgroup in whom unnecessary biopsy could be substantially reduced without compromising cancer detection. These findings suggest that the clinical utility of real-time AI breast US lies in patients without suspicious MMG findings. Prospective multicenter validation is warranted before clinical implementation.",
+      "journal": "J Ultrasound Med",
+      "date": "2026-10-18",
+      "authors": [
+        "Lee J",
+        "Yang B",
+        "Kim WH",
+        "Kim J",
+        "Park HY",
+        "Kang B",
+        "Moon JS",
+        "Park HL"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1002/jum.70439",
+      "journal_tier": 3,
+      "impact": 1.8,
+      "section": "meme",
+      "score": 35.0,
+      "score_parts": {
+        "journal": 35,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42893731",
+      "title": "Adaptive local region super-resolution for high-field MRI: A diffusion-based approach with structural and frequency-domain constraints.",
+      "abstract": "High-field MRI offers superior SNR but is constrained by the trade-off between spatial resolution and acquisition time. Existing global deep learning super-resolution (SR) methods often incur computational overhead by ignoring regional image content. This motivates an adaptive local SR strategy to optimize efficiency and detail preservation. To address this, we developed a local SR method that adaptively allocates computational resources to information-rich regions. The proposed framework regularized an entropy-based local region processing strategy with a diffusion model fortified by frequency-domain and structural constraints. We retrospectively evaluated our method on two diverse datasets: a proprietary 7.0 T dental MRI dataset (25 T2-weighted DESS sequences from 10 beagle dogs) and a public 5.0 T brain MRI dataset (Diff5T, 50 diffusion-weighted sequences). Image quality was quantified using PSNR, SSIM, LPIPS, and FID. On the 7.0 T dental test dataset (2 subjects), our method achieved a PSNR of 27.31 [26.83, 27.79] dB and the lowest LPIPS of 0.19 [0.18, 0.20]. On the 5.0 T brain test dataset (10 subjects), the method achieved a PSNR of 27.15 ± 0.10 dB, an LPIPS of 0.14 ± 0.00 and an FID of 54.01, with lower perceptual metrics than the evaluated baselines. Ablation studies indicated that the proposed frequency-domain and structural constraints reduced LPIPS and FID, with trade-offs in PSNR and SSIM. In conclusion, the evaluated framework showed improvements in perceptual metrics by integrating targeted local processing with frequency-domain and structural regularization, accompanied by a trade-off in pixel-wise fidelity metrics, supporting the technical feasibility of addressing the resolution-time trade-off in high-field MRI. Future work will focus on expanding the dataset and evaluating the framework in human dental cohorts to address anatomical differences between the current canine model and human dental anatomy.",
+      "journal": "Magn Reson Imaging",
+      "date": "2026-10-18",
+      "authors": [
+        "Zuo J",
+        "Yang H",
+        "Tang Y",
+        "Wang X",
+        "Zhong K",
+        "Peng X",
+        "Luo J"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.mri.2026.110815",
+      "journal_tier": 3,
+      "impact": 2.1,
+      "section": "girisim",
+      "score": 35.0,
+      "score_parts": {
+        "journal": 35,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42893730",
+      "title": "Hippocampal alterations in rats of early-stage hyperuricemia using diffusion kurtosis imaging: A preliminary study.",
+      "abstract": "BACKGROUND: Although several quantitative methods are available for evaluating hyperuricemia-associated brain dysfunction, diffusion kurtosis imaging (DKI) exhibits greater sensitivity to subtle microstructural tissue changes, potentially enabling earlier detection of damage. PURPOSE: To investigate the feasibility of hyperuricemia on cognitive impairment in rats using DKI. MATERIALS AND METHODS: Fifty male rats were randomly divided into the normal control (CON) group and hyperuricemia model (HUA) group. Ten rats from each group were randomly selected and underwent longitudinal DKI scanning at baseline (week 0) and at weeks 2, 4, 6, and 8. DKI indicators were acquired with selecting bilateral symmetric regions of interest (ROI) in the hippocampal region, including, mean diffusivity (MD), fractional anisotropy (FA) and mean kurtosis (MK). The HE staining, GFAP and Iba-1 immunofluorescence staining were employed to reveal hippocampal histopathological changes. Additionally, the Morris water maze (MWM) test was applied to assess cognitive ability of rats at week 8th. RESULT: In this study, the MD and FA values of hippocampal in HUA group exhibited a gradually decreasing trend, while the MK value gradually increased. Longitudinal analysis revealed earlier MK differences (weeks 4th-8th) and later FA divergences (weeks 6th-8th) between HUA and CON groups (p < 0.05). During weeks 4th-8th, the relative fluorescence intensity (RFI) of GFAP and, Iba-1 exhibited an inverse trend with FA value, whereas their changing trend was similar to that of MK value. Compared with controls, HUA rats showed the progressively longer latencies across training days, and fewer traversals and shorter durations of the platform in spatial exploration experiments. CONCLUSION: DKI imaging was a non-invasive and sensitive method for identifying the HUA-induced hippocampal alterations and cognitive damage.",
+      "journal": "Magn Reson Imaging",
+      "date": "2026-10-18",
+      "authors": [
+        "Wang YL",
+        "Sun Z",
+        "Song JL",
+        "Liang MJ",
+        "Feng YZ",
+        "Cheng ZY",
+        "Cai XR"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.mri.2026.110821",
+      "journal_tier": 3,
+      "impact": 2.1,
+      "section": "neuro",
+      "score": 35.0,
+      "score_parts": {
+        "journal": 35,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42893729",
+      "title": "Determining the turbulent energy spectrum tensor using multidimensional diffusion MRI.",
+      "abstract": "Turbulent flows are of interest for various engineering and medical applications. Pulsed field gradient diffusion encoding sequences quantify overall turbulent velocity fluctuations, but do not resolve spectral characteristics of the flow. Modulated gradient sequences have the potential to measure the diffusion spectrum but are limited by unidirectional encoding. In this article, we explore multidimensional diffusion encoding via the double-rotation of the q vector as a tool to study anisotropic turbulent flow. We demonstrate that encoding durations beyond the mean correlation time were required to satisfy the assumption of a Gaussian phase distribution. The diffusion spectrum tensor was reconstructed with reasonable accuracy. However, the assumption of single-peak encoding spectra did not hold. The development of advanced data inversion protocols is required to derive detailed insights into turbulent flow phenomena.",
+      "journal": "Magn Reson Imaging",
+      "date": "2026-10-18",
+      "authors": [
+        "Clarke D",
+        "Topgaard D"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.mri.2026.110816",
+      "journal_tier": 3,
+      "impact": 2.1,
+      "section": "genel",
+      "score": 35.0,
+      "score_parts": {
+        "journal": 35,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42893676",
+      "title": "Dual-state adaptive unrolled network for structure-preserving low-dose CT image restoration.",
+      "abstract": "Low-dose computed tomography (LDCT) reduces radiation exposure but introduces spatially heterogeneous noise and artifacts that can obscure subtle anatomical structures. We address post-reconstruction image-domain LDCT restoration, where degradation suppression and structure preservation impose competing demands on a single restoration trajectory. We propose DSAUNet, a Dual-State Adaptive Unrolled Network that maintains persistent anatomy- and degradation-oriented latent states across unrolled stages. Rather than acting as transient feature branches, the evolving states participate in parameterizing subsequent restoration behavior through a degradation-oriented global policy coordinate for stage-level modulation and state-derived confidence variables for spatially selective regulation. Direction-aware prior modeling and multi-scale state guidance further realize this state-parameterized restoration process. Under the reported protocols, DSAUNet achieves 40.3721 dB PSNR and 0.9642 SSIM on 2DeteCT, exceeding the strongest baseline by 1.6320 dB and 0.0108, and achieves 47.4277 dB PSNR and 0.9846 SSIM under the patient-level five-fold Mayo evaluation, with a 1.0920 dB PSNR gain over the strongest PSNR baseline. On LoDoPaB-CT, it further obtains 38.5501 dB PSNR and 0.9141 SSIM, with the best PSNR, SSIM, and VIF among the compared methods. Controlled raw-state, persistent state-swapping, policy-coordinate, and confidence-map analyses support functionally differentiated state roles and active adaptive regulation. Bidirectional 2DeteCT-Mayo zero-shot experiments reveal direction-dependent transfer behavior, while unified profiling characterizes an accuracy-complexity trade-off. Together, these results support persistent dual-state controlled unrolling as a structured approach to image-domain LDCT restoration within the evaluated settings.",
+      "journal": "Comput Med Imaging Graph",
+      "date": "2026-10-16",
+      "authors": [
+        "Zhang X",
+        "Zhu Y",
+        "Cui Q",
+        "Song J",
+        "Duan S",
+        "Wei X",
+        "Wu X",
+        "Qian Q",
+        "Dai J"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.compmedimag.2026.102826",
+      "journal_tier": 3,
+      "impact": 5.4,
+      "section": "girisim",
+      "score": 35.0,
+      "score_parts": {
+        "journal": 35,
+        "pubtype": 0,
         "recency": 0.0
       },
       "tier": 3,
@@ -1411,24 +1314,24 @@
       "abstract_tr": ""
     },
     {
-      "pmid": "42888362",
-      "title": "In reply.",
+      "pmid": "42894282",
+      "title": "From Additive Models to Adaptive Multimodal Learning for Thyroid Nodules in Hashimoto's Thyroiditis.",
       "abstract": "",
-      "journal": "Jpn J Radiol",
-      "date": "2026-10-17",
+      "journal": "J Ultrasound Med",
+      "date": "2026-10-18",
       "authors": [
-        "Shih PF"
+        "Yang K"
       ],
       "pubtypes": [
         "Letter"
       ],
-      "doi": "10.1007/s11604-026-02098-z",
-      "journal_tier": 2,
-      "impact": 3.0,
+      "doi": "10.1002/jum.70518",
+      "journal_tier": 3,
+      "impact": 1.8,
       "section": "genel",
-      "score": 30.0,
+      "score": 5.0,
       "score_parts": {
-        "journal": 60,
+        "journal": 35,
         "pubtype": -30,
         "recency": 0.0
       },
@@ -1436,24 +1339,26 @@
       "abstract_tr": ""
     },
     {
-      "pmid": "42888360",
-      "title": "In reply to the comment on \"Role of extracellular volume fraction determined by dual-layer spectral detector CT in predicting the tumor grade of pancreatic neuroendocrine neoplasms\".",
+      "pmid": "42893956",
+      "title": "Strengthening the Evaluation of Handheld Ultrasound Devices for Lung Ultrasound in Pneumonia.",
       "abstract": "",
-      "journal": "Jpn J Radiol",
-      "date": "2026-10-17",
+      "journal": "J Ultrasound Med",
+      "date": "2026-10-18",
       "authors": [
-        "Fujita N"
+        "Zaidi SKB",
+        "Azeem L",
+        "Noor I"
       ],
       "pubtypes": [
         "Letter"
       ],
-      "doi": "10.1007/s11604-026-02093-4",
-      "journal_tier": 2,
-      "impact": 3.0,
-      "section": "abdomen",
-      "score": 30.0,
+      "doi": "10.1002/jum.70521",
+      "journal_tier": 3,
+      "impact": 1.8,
+      "section": "toraks",
+      "score": 5.0,
       "score_parts": {
-        "journal": 60,
+        "journal": 35,
         "pubtype": -30,
         "recency": 0.0
       },
