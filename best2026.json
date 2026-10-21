@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20T10:42:52+00:00",
+  "updated": "2026-10-21T10:53:54+00:00",
   "year": 2026,
   "count": 60,
   "criteria": "Etki faktörü (sonra etki skoru) sıralı",
@@ -321,6 +321,42 @@
       "abstract_tr": ""
     },
     {
+      "pmid": "42899936",
+      "title": "No Reflow at Perfusion Imaging: Thresholds That Distinguish Functional and Tissue Outcome Groups in Acute Stroke.",
+      "abstract": "Background Poor outcome after successful endovascular thrombectomy (EVT) may reflect microvascular dysfunction, or no-reflow phenomenon, but operational definitions are lacking. Purpose To identify the most informative candidate no-reflow definition at 24-hour post-EVT perfusion imaging for outcome assessment. Materials and Methods This secondary analysis used data from two prospective multicenter imaging registries of patients with acute stroke who were recruited between June 2016 and July 2022, achieved modified thrombolysis in cerebral infarction grade 2c or 3 recanalization after EVT, and underwent pre-EVT and 24-hour post-EVT CT or MR perfusion imaging. Candidate no-reflow definitions were evaluated across eight perfusion maps and their corresponding stepwise thresholds. Delay time (DT) quantifies the delay in contrast material arrival between arterial input and brain tissue. For primary screening, no-reflow status was defined as any residual hypoperfusion lesion for each map-threshold combination. The best-performing combination was evaluated using residual volume and reperfusion index cutoffs. The primary outcome was poor 90-day functional outcome (modified Rankin Scale score >2); infarct growth was secondary. Associations with the outcome were evaluated using multivariable Firth penalized logistic regression. Results The primary cohort included 67 patients (median age, 69 years [IQR, 56-77 years]; 41 male), and the independent cohort comprised 54 patients (median age, 69 years [IQR, 62-78 years]; 28 female). In the primary cohort, lesions with DT longer than 4 seconds showed the strongest discrimination for poor 90-day functional outcome (area under the receiver operating characteristic curve, 0.72 [95% CI: 0.57, 0.86]; P < .001). According to this definition, 14 of 67 patients (21%) had no reflow. Poor functional outcome occurred in 11 of 14 patients (79%) with no reflow and 11 of 53 (21%) with reflow (odds ratio, 12.14 [95% CI: 3.38, 54.63]; P < .001). Infarct growth was greater with no-reflow status than with reflow (median, 24.1 mL [IQR, 3.7-40.7 mL] vs 0 mL [IQR, -10.1 to 6.1 mL]; P < .001). Findings were consistent in the independent cohort. Conclusion The presence of a lesion with DT longer than 4 seconds at 24-hour post-EVT perfusion imaging appeared to be the most informative candidate no-reflow definition. © RSNA, 2026 Supplemental material is available for this article. See also the editorial by Gemmete in this issue.",
+      "journal": "Radiology",
+      "date": "2026-10",
+      "authors": [
+        "Xu T",
+        "Chen C",
+        "Manning NW",
+        "Cheung AK",
+        "Cordato DJ",
+        "Blair C",
+        "Kim BJ",
+        "Yang J",
+        "Li G",
+        "Parsons M",
+        "Lin L"
+      ],
+      "pubtypes": [
+        "Journal Article",
+        "Multicenter Study"
+      ],
+      "doi": "10.1148/radiol.253025",
+      "journal_tier": 1,
+      "impact": 12.1,
+      "section": "girisim",
+      "score": 118.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 18,
+        "recency": 0.0
+      },
+      "tier": 1,
+      "abstract_tr": ""
+    },
+    {
       "pmid": "42678260",
       "title": "Convergence of Local and Systemic Therapies: A Comprehensive Society of Interventional Oncology Framework for 90Y Radioembolization with Immunotherapy in HCC.",
       "abstract": "Combination approaches using systemic immunotherapy agents are now standard of care for patients with advanced-stage hepatocellular carcinoma (HCC), resulting in improved overall survival. However, even with optimal systemic regimens, fewer than 40% of cases respond to treatment, presumably due to resistance mechanisms, including antidrug antibodies and acquired resistance related to alterations in the tumor immune microenvironment (TIME). As a result, new strategies are needed to improve immunotherapeutic efficacy in this setting. Early investigations into the local and systemic effects of yttrium 90 (90Y) radioembolization using resin and glass microspheres demonstrated activation of both innate and adaptive immune systems, leading to sustained therapeutic efficacy in a subgroup of patients with HCC undergoing curative surgical resection after downstaging procedures. Preliminary prospective and retrospective studies have confirmed the safety of combining liver-directed interventions with immunotherapy. Based on these findings, clinical trials are being designed to evaluate the efficacy of different therapeutic strategies combining 90Y radioembolization and immune checkpoint inhibitor therapy. The Society of Interventional Oncology is committed to advancing research on how local-regional therapies influence the TIME and systemic inflammatory response. This review aims to inform the interventional and medical oncology community about essential considerations and strategies for implementing these combination therapies involving 90Y radioembolization and immunotherapy.",
@@ -553,6 +589,40 @@
       "journal_tier": 1,
       "impact": 12.1,
       "section": "toraks",
+      "score": 110.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 10,
+        "recency": 0.0
+      },
+      "tier": 1,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42899941",
+      "title": "How I Do It: An Imaging Approach and Review of Autoimmune Encephalitis.",
+      "abstract": "Encephalitis is a medical emergency characterized by inflammation of the brain parenchyma due to an infective cause or an immune-mediated process. Autoimmune encephalitis (AE) is characterized by a misdirected immune attack against neuronal structures, resulting in an inflammatory response. Triggers for the development of antibodies are often paraneoplastic or parainfectious. AE may occur in children or adults with symptoms including subacute onset of altered mentation, cognitive issues, drug-resistant epilepsy, movement disorders, and/or autonomic dysfunction. Limbic encephalitis is a common imaging feature of many forms of AE; however, cortical, basal ganglia, diencephalon, brainstem, and cerebellar involvement have been described. This article provides an overview of the general imaging appearances of AE, with a detailed discussion of key patterns encountered with common causes of AE, as well as a review of the relevant differential diagnoses, thus serving as a practical reference for radiologists.",
+      "journal": "Radiology",
+      "date": "2026-10",
+      "authors": [
+        "Pai V",
+        "Rutten C",
+        "Shroff M",
+        "Kang H",
+        "Suthiphosuwan S",
+        "Boutet A",
+        "Yeh EA",
+        "Branson HM",
+        "Ertl-Wagner BB"
+      ],
+      "pubtypes": [
+        "Journal Article",
+        "Review"
+      ],
+      "doi": "10.1148/radiol.251947",
+      "journal_tier": 1,
+      "impact": 12.1,
+      "section": "neuro",
       "score": 110.0,
       "score_parts": {
         "journal": 100,
@@ -1344,6 +1414,71 @@
       "abstract_tr": ""
     },
     {
+      "pmid": "42899938",
+      "title": "Intraindividual Comparison of Radiation Dose and Image Quality: Photon-counting versus Energy-integrating Detector CT in Obesity.",
+      "abstract": "Background Maintaining diagnostic CT image quality in patients with obesity remains challenging because increased x-ray attenuation is often offset by higher radiation exposure. Photon-counting CT (PCCT) has demonstrated improved dose efficiency and image quality, but intraindividual data in this population are limited. Purpose To compare radiation dose, quantitative image quality, and subjective image quality between PCCT and energy-integrating detector (EID) CT intraindividually in patients with obesity. Materials and Methods This retrospective study included patients with obesity undergoing thoracic and/or abdominal CT at both PCCT and EID CT between December 1, 2022, and January 31, 2025. Signal, image noise, and signal to noise ratio (SNR) were measured in vascular, parenchymal, muscular, and adipose tissue. Two radiologists independently rated image quality on a six-point Likert scale. Radiation dose parameters were volume CT dose index (CTDIvol), dose-length product (DLP), and effective dose. The paired two-sided t test or Wilcoxon signed-rank test was used for group comparisons. Results This study included 51 patients with obesity (median age, 56 years [IQR, 51-66.5 years]; 33 male). Signal was higher with PCCT than EID CT in vascular structures, parenchymal organs, and muscle and more negative in subcutaneous fat (all P < .001), with similar image noise (P = .09-.84). SNR was higher with PCCT in vascular structures (ascending aorta: mean, 19.65 ± 6.47 [SD] vs 13.22 ± 4.83; P < .001) and most parenchymal organs (liver: 5.53 ± 1.69 vs 4.71 ± 1.89; P = .02). The difference in SNR increased with body mass index for vessels (r = 0.36) and parenchymal organs (r = 0.51) (both P < .001). Both readers rated overall image quality, contrast, and sharpness higher and artifact-related impairment lower for PCCT (all P < .001), whereas subjective image noise was similar (P = .16 and .14). CTDIvol (median, 11.99 vs 17.05 mGy) and DLP (median, 526.25 vs 709.32 mGy · cm) were lower with PCCT (both P < .001). Conclusion In patients with obesity, intraindividual comparisons demonstrated that PCCT had superior quantitative and subjective image quality at a lower radiation dose than EID CT. © RSNA, 2026 Supplemental material is available for this article.",
+      "journal": "Radiology",
+      "date": "2026-10",
+      "authors": [
+        "Hegmanns J",
+        "Zensen S",
+        "Rosok D",
+        "Drews MA",
+        "Holtkamp M",
+        "Li Y",
+        "Schaarschmidt BM"
+      ],
+      "pubtypes": [
+        "Journal Article",
+        "Comparative Study"
+      ],
+      "doi": "10.1148/radiol.260573",
+      "journal_tier": 1,
+      "impact": 12.1,
+      "section": "toraks",
+      "score": 100.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 2,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42899937",
+      "title": "Redistribution of Pulmonary Vascular Volume at Upright versus Supine CT.",
+      "abstract": "Background Gravity redistributes pulmonary blood flow in the upright position; however, how total pulmonary vascular volume (TPVV) and its arterial and venous components depend on position remains unclear. Purpose To quantify position-dependent changes in TPVV and the corresponding arterial and venous components across lung lobes and vertical lung regions using upright chest CT. Materials and Methods This secondary analysis of a prospective, single-center study enrolled healthy adult volunteers who underwent same-day noncontrast chest CT in supine and upright positions using a 320-detector row CT system between March 2018 and December 2018. Participants were excluded for incidental lung abnormalities or inadequate vessel separation. Pulmonary arteries and veins were segmented semiautomatically, and pulmonary vascular volumes were quantified for whole lung, lobes, and upper, middle, and lower lung regions. Paired two-sided t tests with Bonferroni correction were used for comparisons. Results Fifty participants (mean age ± SD, 47 years ± 9.7; 28 men) were evaluated. Standing reduced TPVV by 18.8% compared with the supine position (mean, 99.8 mL ± 18.2 vs 81.0 mL ± 14.3; P < .001). When standing, pulmonary venous volume decreased more than pulmonary arterial volume across the whole lung (25.4% reduction [mean, 50.7 mL ± 9.1 supine vs 37.5 mL ± 5.7 standing] vs 11.1% reduction [mean, 49.1 mL ± 9.9 supine vs 43.6 mL ± 9.4 standing]; P < .001). Volume reductions when standing followed a craniocaudal gradient, with greater reductions in the upper lung than in the lower lung (P < .001). Dependent lower lung regions also showed decreases in TPVV (mean reduction, -12.0%; mean, 40.4 mL ± 9.0 supine vs 35.4 mL ± 7.7 standing), pulmonary arterial volume (mean reduction, -6.0%; mean, 18.2 mL ± 3.9 supine vs 17.1 mL ± 4.5 standing), and pulmonary venous volume (mean reduction, -16.7%; mean, 22.2 mL ± 4.6 supine vs 18.3 mL ± 3.7 standing; all P < .001). Conclusion Upright chest CT showed that, compared with the supine position, standing reduced TPVV, predominantly venous, with a vertical gradient, where dependent lower lung regions exhibited modest volume reduction. © RSNA, 2026 Supplemental material is available for this article. See also the editorial by Suh in this issue.",
+      "journal": "Radiology",
+      "date": "2026-10",
+      "authors": [
+        "Ikeda O",
+        "Yamada Y",
+        "Yamada M",
+        "Yokoyama Y",
+        "Al Shihry M",
+        "Chubachi S",
+        "Fukunaga K",
+        "Jinzaki M"
+      ],
+      "pubtypes": [
+        "Journal Article",
+        "Comparative Study"
+      ],
+      "doi": "10.1148/radiol.260576",
+      "journal_tier": 1,
+      "impact": 12.1,
+      "section": "toraks",
+      "score": 100.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 2,
+      "abstract_tr": ""
+    },
+    {
       "pmid": "42808901",
       "title": "Case 350: Retained Appendicolith.",
       "abstract": "History A 16-year-old girl presented to the emergency department with a 1-month history of right lower back pain. She was originally seen at an urgent care clinic, where a lumbar radiograph was reportedly normal, and she was prescribed naproxen. However, she came to the emergency department once pain had escalated to 10 out of 10. Over the past month, the patient's right flank had increased in size and \"hardened\" to touch. She reported no trauma or other inciting incident. She had a prior history of laparoscopic appendectomy for perforated appendicitis more than 6 years earlier at an outside hospital. A prior contrast-enhanced abdominal CT scan, obtained 2 weeks after the appendectomy, was available for review. At evaluation, the patient was febrile and mildly tachycardic (104 beats per minute). Examination of the right flank revealed a 4-cm area of erythema and tenderness with 10-cm surrounding induration. She had leukocytosis (white blood cell count, 12 × 109/L; reference range, <9.44 × 109/L) and elevated C-reactive protein (23 mg/L; reference range, <9 mg/L). US followed by contrast-enhanced MRI of the abdomen was performed. Based on the imaging findings, the patient underwent a percutaneous drainage procedure. All cultures, including aerobic, anaerobic, fungal, and acid fast, were negative, with the caveat that the patient had been started on intravenous antibiotics before the procedure. She was discharged and prescribed 10 days of amoxicillin and clavulanate to complete antibiotic therapy, and the drain was removed 6 weeks later. One month after drain removal, the patient returned to the emergency department with return of severe flank pain, erythema, and purulent drainage. The patient was afebrile with a white blood cell count of 9.8 × 109/L. Contrast-enhanced abdominal CT was performed.",
@@ -1781,157 +1916,50 @@
       "abstract_tr": ""
     },
     {
-      "pmid": "42678258",
-      "title": "Ethical Implications of the Invisibility of Intracellular Electrolytes.",
+      "pmid": "42899940",
+      "title": "Position-dependent Pulmonary Vascular Volume Changes: An Upright CT Perspective.",
       "abstract": "",
       "journal": "Radiology",
-      "date": "2026-09",
+      "date": "2026-10",
       "authors": [
-        "Rodríguez Sazipa JS"
+        "Suh YJ"
       ],
       "pubtypes": [
-        "Letter"
+        "Editorial"
       ],
-      "doi": "10.1148/radiol.260782",
-      "journal_tier": 1,
-      "impact": 12.1,
-      "section": "genel",
-      "score": 70.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": -30,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42708858",
-      "title": "Deceptive Eloquence in AI-assisted Thoracic Radiology.",
-      "abstract": "",
-      "journal": "Radiology",
-      "date": "2026-09",
-      "authors": [
-        "McMillan AB"
-      ],
-      "pubtypes": [
-        "Editorial",
-        "Comment"
-      ],
-      "doi": "10.1148/radiol.262291",
+      "doi": "10.1148/radiol.262882",
       "journal_tier": 1,
       "impact": 12.1,
       "section": "toraks",
-      "score": 70.0,
+      "score": 75.0,
       "score_parts": {
         "journal": 100,
-        "pubtype": -30,
+        "pubtype": -25,
         "recency": 0.0
       },
       "tier": 3,
       "abstract_tr": ""
     },
     {
-      "pmid": "42708848",
-      "title": "Black-White Racial Differences at Breast MRI.",
+      "pmid": "42899939",
+      "title": "Beyond Recanalization: Defining Cerebral No-Reflow Status after Thrombectomy.",
       "abstract": "",
       "journal": "Radiology",
-      "date": "2026-09",
+      "date": "2026-10",
       "authors": [
-        "Baltzer PAT",
-        "Clauser P"
+        "Gemmete JJ"
       ],
       "pubtypes": [
-        "Letter"
+        "Editorial"
       ],
-      "doi": "10.1148/radiol.260622",
+      "doi": "10.1148/radiol.262872",
       "journal_tier": 1,
       "impact": 12.1,
-      "section": "meme",
-      "score": 70.0,
+      "section": "girisim",
+      "score": 75.0,
       "score_parts": {
         "journal": 100,
-        "pubtype": -30,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42808906",
-      "title": "Large Language Models in Radiology Workflow: Refinement of Differential Diagnosis-An Early Career Perspective.",
-      "abstract": "",
-      "journal": "Radiology",
-      "date": "2026-09",
-      "authors": [
-        "Rahmani F",
-        "Raji CA"
-      ],
-      "pubtypes": [
-        "Editorial",
-        "Comment"
-      ],
-      "doi": "10.1148/radiol.262484",
-      "journal_tier": 1,
-      "impact": 12.1,
-      "section": "yapayzeka",
-      "score": 70.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": -30,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42808905",
-      "title": "Will Ketamine Change Sedation Practices for Procedural Sedation?",
-      "abstract": "",
-      "journal": "Radiology",
-      "date": "2026-09",
-      "authors": [
-        "Saffary R"
-      ],
-      "pubtypes": [
-        "Editorial",
-        "Comment"
-      ],
-      "doi": "10.1148/radiol.262157",
-      "journal_tier": 1,
-      "impact": 12.1,
-      "section": "genel",
-      "score": 70.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": -30,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42808904",
-      "title": "Rethinking the Role of CT- and MRI-detected Extranodal Extension in Nasopharyngeal Carcinoma: An Early Career Perspective.",
-      "abstract": "",
-      "journal": "Radiology",
-      "date": "2026-09",
-      "authors": [
-        "Rai P",
-        "Bhatt AA"
-      ],
-      "pubtypes": [
-        "Editorial",
-        "Comment"
-      ],
-      "doi": "10.1148/radiol.262601",
-      "journal_tier": 1,
-      "impact": 12.1,
-      "section": "genel",
-      "score": 70.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": -30,
+        "pubtype": -25,
         "recency": 0.0
       },
       "tier": 3,
