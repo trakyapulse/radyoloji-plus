@@ -1,11 +1,42 @@
 {
-  "updated": "2026-10-25T10:58:19+00:00",
+  "updated": "2026-10-26T11:57:07+00:00",
   "window_days": 1,
   "datetype": "edat",
-  "count": 55,
+  "count": 61,
   "tier1_count": 0,
   "source": "PubMed (NCBI E-utilities)",
   "articles": [
+    {
+      "pmid": "42927689",
+      "title": "ConComp: Constraining and compensating latent representations for semi-supervised medical image segmentation.",
+      "abstract": "Semi-supervised learning has significantly advanced medical image segmentation under limited annotation scenarios. However, existing semi-supervised medical image segmentation (SSMIS) methods based on consistency regularization and pseudo-labeling may be affected by internal covariate shift (ICS), which may disturb feature stability and reduce pseudo-label reliability during training. In this work, we investigate how ICS affects feature stability and pseudo-label reliability in SSMIS. Based on this analysis, we propose ConComp, a unified framework that mitigates ICS from a statistical perspective by introducing distribution-aware latent constraints and compensating for latent distribution discrepancies. Specifically, we introduce a Distribution-Aware Feature Constraint (DAFC) mechanism that derives distribution-aware latent constraints from unlabeled feature statistics and residually integrates them into labeled features, thereby reducing changes in their distributions during training. In addition, we propose a Latent Distribution Discrepancy Compensation (L2DC) mechanism that treats the discrepancy between labeled and unlabeled representations as an informative signal to guide feature fusion, thereby compensating for missing structural cues and improving generalization. Extensive experiments on three challenging SSMIS benchmarks, including BraTS2019, LiTS2017, and Pancreas-NIH, demonstrate that ConComp consistently outperforms state-of-the-art methods. The code is publicly available at https://github.com/1jayyang/ConComp.",
+      "journal": "Med Image Anal",
+      "date": "2026-10-24",
+      "authors": [
+        "Yang J",
+        "Wang Y",
+        "Fan J",
+        "Wei Y",
+        "Bi X",
+        "Huang N",
+        "Xiao B"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.media.2026.104354",
+      "journal_tier": 1,
+      "impact": 10.7,
+      "section": "girisim",
+      "score": 100.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 2,
+      "abstract_tr": ""
+    },
     {
       "pmid": "42925869",
       "title": "Unsupervised monocular endoscopic depth estimation and overestimation.",
@@ -68,6 +99,32 @@
         "recency": 0.0
       },
       "tier": 2,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42927593",
+      "title": "The rules of actionable reporting.",
+      "abstract": "Actionable reporting in radiology is a concept that has gained traction since its inception in 2014. The notion is simple: radiology reports should easily translate into clinical action, particularly when the study is abnormal. This is not so simple. But the process of producing an actionable report is as crucial as the report itself. The process should result in a radiology report that consistently results in information being provided to the referrer that results in improved patient care. This review article presents an evidence-based critique of the concept, demonstrates the numerous pitfalls, illustrates points of gold-standard practice (illustrated as 'Rules') and presents a coherent model of the overall process of actionable reporting, which flanks the crucial central element of an actionable report. KEY POINTS: Question The actionable reporting process is highly dependent on cooperation and coordination of many healthcare staff, IT systems, and different departments, with the radiologist at the heart of it; it should be seen as a multistep process where each step is crucial and interdependent with the overall goal of better patient outcomes via better systems of work. Findings The skilful production of an actionable report is central to this process and remains the responsibility of the individual radiologist. Critical relevance statement Fundamentally, actionable reporting represents the current best practice in radiology reporting. It should be the goal of every radiologist to ensure their reports are actionable and their reporting workflow matches that of actionable reporting.",
+      "journal": "Insights Imaging",
+      "date": "2026-10-25",
+      "authors": [
+        "McCoubrie P"
+      ],
+      "pubtypes": [
+        "Journal Article",
+        "Review"
+      ],
+      "doi": "10.1186/s13244-026-02429-8",
+      "journal_tier": 2,
+      "impact": 4.1,
+      "section": "girisim",
+      "score": 70.0,
+      "score_parts": {
+        "journal": 60,
+        "pubtype": 10,
+        "recency": 0.0
+      },
+      "tier": 3,
       "abstract_tr": ""
     },
     {
@@ -200,29 +257,347 @@
       "abstract_tr": ""
     },
     {
-      "pmid": "42920104",
-      "title": "Low-Field MRI for Knee Imaging: Current Insights and Evidence From a Systematic Review.",
-      "abstract": "BACKGROUND: Low-field magnetic resonance imaging (MRI) has regained interest for musculoskeletal imaging due to advances in magnet design, hardware optimization, and artificial intelligence (AI)-based reconstruction, offering improved accessibility, patient comfort, and sustainability. PURPOSE: This systematic review aimed to explore and summarize the current status of low-field MRI for knee investigations. STUDY TYPE: Systematic review on MEDLINE, Cinhal, EMBASE, Web of Science, Scopus, and Google Scholar databases. PROSPERO protocol (CRD42024544354). POPULATION: Approximately 3400 participants (8-89 years) encompassing healthy volunteers, community-based cohorts, and patients with diverse knee pathologies were evaluated. Few studies incorporate phantom experiments. FIELD STRENGTH/SEQUENCE: This review covered a range of very-low-field (< 0.1 T), conventional low-field (0.1-< 0.29 T), and upper-range low-field (> 0.3 T-0.55 T) with standard, extremity, open, and weight-bearing/standing systems. SE/FSE and GRE sequences, 3D GRE quantitative protocols, and AI-based were used. ASSESSMENT: Two reviewers independently extracted data on knee protocols, technical parameters, diagnostic performance, and reported advantages and limitations. STATISTICAL TESTS: Study quality was assessed using appropriate JBI critical appraisal tools. A narrative synthesis and descriptive analysis of the findings from the included studies are provided due to the heterogeneity of the intervention and outcome. RESULTS: From 3726 records, 31 were included. Low-field MRI demonstrated high diagnostic performance for meniscal and ligamentous injuries but lower sensitivity for early cartilage degeneration. Weight-bearing MRI provided distinct functional information but not direct equivalence to standard MRI. AI-enhanced reconstruction was evaluated in a limited number of single-center, vendor-specific studies and was associated with improved image quality and diagnostic confidence. Important limitations included lower signal-to-noise ratio, reduced spatial resolution, protocol heterogeneity, and limited pathology-validated evidence. DATA CONCLUSION: Low-field MRI may provide a clinically useful complementary option for selected knee meniscal and ligamentous indications. However, heterogeneous evidence, influenced by field strength, scanner design, sequences, and reference standards, limits claims of equivalence with high-field MRI, particularly for subtle cartilage lesions. Advances in hardware and AI have improved image quality and efficiency; however, evidence is limited and larger standardized multicenter studies are required. EVIDENCE LEVEL: 5. TECHNICAL EFFICACY: Stage 5.",
-      "journal": "J Magn Reson Imaging",
-      "date": "2026-10-23",
+      "pmid": "42929072",
+      "title": "Automated Cerebrospinal Fluid Flow Quantification in Hydrocephalus Using Phase-Contrast Magnetic Resonance Imaging.",
+      "abstract": "Quantitative cerebrospinal fluid (CSF) flow analysis with phase-contrast magnetic resonance imaging depends on segmentation and is affected by operator variability. This cohort method-comparison study evaluated whether a flow-aware deep learning (DL) model provides reproducible C2-C3 CSF segmentation and flow quantification compared with repeated manual segmentation. Ten hydrocephalus patients underwent 3-T phase-contrast magnetic resonance imaging at C2-C3, with 32 magnitude and phase frames across the cardiac cycle. Three experts and one novice segmented each case twice using semi-automatic software, generating 80 manual annotations. A pretrained flow-aware 2D-UNet generated one fixed automatic segmentation per case. The inference pipeline was deterministic, meaning that repeated processing of the same input with fixed model weights and settings produced identical masks. A multi-expert reference was defined as the arithmetic mean of the expert measurements. Region of interest (ROI) surface area, peak flow amplitude, and stroke volume were compared using mean difference, Bland-Altman 95% limits of agreement, Lin's concordance correlation coefficient (CCC), and intraclass correlation coefficient (ICC). Expert ICC(1,1) was 0.88-0.97 for surface area, 0.97-1.00 for peak flow amplitude, and 0.97-0.99 for stroke volume; novice values were 0.63, 0.95, and 0.92, respectively. Compared with the multi-expert reference, model mean differences were -0.42 mm2 for surface area, -0.00 mL/s for peak flow amplitude, and -0.01 mL for stroke volume, with CCC values of 0.50, 0.87, and 0.86. Bland-Altman limits of agreement were -69.12 to 68.27 mm2, -1.47 to 1.46 mL/s, and -0.34 to 0.31 mL. The model provided rapid, deterministic CSF segmentation with small cohort-level mean differences in peak flow amplitude and stroke volume; however, individual-level agreement with the flow-derived multi-expert reference was lower than for expert and novice segmentations obtained using the semi-automatic workflow.",
+      "journal": "NMR Biomed",
+      "date": "2026-12",
       "authors": [
-        "Ghotra SS",
-        "Dos Sá Dos Reis C",
-        "McGee A",
-        "McNulty JP"
+        "Rodríguez Martínez EA",
+        "Liu P",
+        "Owashi K",
+        "Gayet A",
+        "Balédent O"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1002/nbm.70431",
+      "journal_tier": 2,
+      "impact": 2.7,
+      "section": "neuro",
+      "score": 60.0,
+      "score_parts": {
+        "journal": 60,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42928982",
+      "title": "Influence of forehead gap size on eye protection provided by lead eyewear worn over prescription glasses: A Monte Carlo study.",
+      "abstract": "BACKGROUND: Due to exposure to high levels of scattered ionizing radiation, interventional radiology (IR) physicians have an elevated risk of radiation-induced eye injuries and cataracts. Previous studies have evaluated the protective effects of regular lead glasses and recommended measures to improve radiation protection for the eyes. However, the protective effects of fit-over eyewear-lead eyewear worn over prescription glasses-have not been thoroughly examined. Importantly, a previous study noted that the space required to accommodate prescription glasses may reduce eye protection. PURPOSE: Monte Carlo (MC) simulations were performed to quantify the protective effects of fit-over eyewear and assess the relative effectiveness of adding bottom shields to conventional lead eyewear to improve eye protection. METHODS: Conventional lead glasses comprising front and side lenses and prescription glasses with plastic lenses and titanium frames were modeled. Lead glasses with bottom shields were created by bending the lower edges of the front lenses of conventional eyewear without increasing the total lens area. Three lead lens thickness values were tested: 0.07, 0.5, and 0.75 mm. Using a mesh-type reference computational phantom representing an adult male to simulate an IR physician, MC simulations were performed with a transcatheter arterial chemoembolization setup. The Particle and Heavy Ion Transport code system was used to calculate the radiation dose deposited in each eye-sensitive volume. The distance (d) between the forehead and front lead lens varied systematically. Protective effects were evaluated using the shielding rate (%) calculated as: (1-Dpr/D0) × 100, where D0 is the radiation dose without protection and Dpr is the dose with eye protection. RESULTS: For the eye near the X-ray source (left eye), the conventional models showed shielding rates >50% when the lead thickness was 0.5 or 0.75 mm and d was ≤0.5 cm. The conventional 0.07-mm lead eyewear exhibited shielding rates <50% when d was 0.5 cm, and <26% when d was ≥0.8 cm. However, 0.07-mm lead eyewear with bottom shields maintained approximately 50% shielding when d increased to 1.0 cm. The models using 0.5- or 0.75-mm lead lenses with bottom shields exhibited shielding rates >76% at d = 1.0 cm. Notably, the shielding rates for the right eye were <12% regardless of introducing bottom shields. The right eye doses were 45-48% of the left eye lens dose without protection. CONCLUSION: By quantifying the relationship between the size of the lens gap and shielding rates, this study estimates the protective effects of fit-over eyewear and can help IR physicians select suitable eyewear. Our findings show that fit-over eyewear with bottom shields effectively protects the left eye during posterior-anterior projection. Although introducing bottom shields can improve conventional side-shield models in terms of increased shielding rate for the left eye, the shielding rates for the right eye remained low because of the gap around the nose. Further study of new designs with a shielded covering over the nose may be warranted.",
+      "journal": "Med Phys",
+      "date": "2026-11",
+      "authors": [
+        "Shindo R",
+        "Fujisawa M",
+        "Yamamoto K",
+        "Sagehashi K",
+        "Inaba Y",
+        "Chida K"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1002/mp.70734",
+      "journal_tier": 2,
+      "impact": 3.8,
+      "section": "girisim",
+      "score": 60.0,
+      "score_parts": {
+        "journal": 60,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42928963",
+      "title": "Low-dose CT denoising using a diffusion prior via score distillation sampling.",
+      "abstract": "BACKGROUND: Low-dose computed tomography (LDCT) reduces radiation exposure but amplifies noise, which can degrade diagnostic reliability. Recent studies have applied diffusion-based models to LDCT denoising and shown promising performance. However, many of these approaches require paired LDCT and normal-dose CT (NDCT) data or dose-specific retraining, and their reconstruction procedures are often strictly coupled to a predefined diffusion trajectory. PURPOSE: This study proposes an optimization-based LDCT denoising framework that uses a pre-trained NDCT diffusion model as an image prior and can be applied across various dose levels without dose-specific retraining. METHODS: We formulate LDCT denoising as an optimization problem guided by a pre-trained score-based generative model (SGM) trained only on NDCT images. The Poisson data fidelity term enforces consistency with the measured projection data, whereas the score distillation sampling (SDS) term acts as a regularizer that guides the reconstruction toward the NDCT distribution learned by the pre-trained SGM. The denoised image is obtained by iteratively optimizing a projection-domain residual variable using the combined Poisson data fidelity gradient and SDS-based regularization gradient. RESULTS: The proposed method effectively suppressed noise while preserving fine anatomical structures across multiple dose levels using a single pre-trained diffusion model. Quantitative evaluations with respect to full-dose reference images and visual comparisons demonstrated competitive performance compared with supervised and self-supervised LDCT denoising baselines. CONCLUSIONS: The results show that diffusion-based image priors can be leveraged across various low-dose levels within the proposed optimization-based denoising framework. Our work suggests that SDS-guided diffusion priors are a promising direction for LDCT denoising in data-limited settings.",
+      "journal": "Med Phys",
+      "date": "2026-11",
+      "authors": [
+        "Jung H",
+        "Lee J",
+        "Baek J"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1002/mp.70707",
+      "journal_tier": 2,
+      "impact": 3.8,
+      "section": "egitim",
+      "score": 60.0,
+      "score_parts": {
+        "journal": 60,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42928701",
+      "title": "Model-based image restoration targeting higher-dose digital mammography: Impact on radiologists' detection of clustered microcalcifications.",
+      "abstract": "BACKGROUND: Image noise in digital mammography (DM) can obscure image details and reduce the detectability of clinically relevant findings such as microcalcifications. PURPOSE: To present and evaluate an extended model-based (MB) image restoration pipeline for DM that incorporates quantum, electronic, and structural noise components, as well as spatial noise correlation, and to assess its effect on breast radiologists' detection of simulated microcalcification clusters in clinical mammograms. METHODS: A total of 120 clinical DM images acquired using a GE Senographe Pristina system were used. Simulated microcalcification clusters were inserted into locally dense fibroglandular regions at controlled contrast levels. The restoration pipeline was configured to target the signal and noise characteristics predicted by the model for an acquisition at approximately twice the original radiation dose. Six breast radiologists with different levels of experience, classified as Junior or Senior, participated in two human observer experiments: (i) a pilot study using original clinical images with simulated clusters and a four-alternative forced-choice (4AFC) protocol combined with a three-down-one-up (3D1U) staircase to estimate reader-specific contrast detection thresholds and achieve comparable baseline task difficulty across readers; and (ii) a main 4AFC observer study using individualized datasets generated according to each reader's estimated contrast threshold, in which microcalcification detection performance was compared between the original and restored image conditions based on the percentage of correct responses (PC). Two generalized linear mixed models (GLMMs) were used: the first evaluated the effect of image condition as a fixed effect, with reader and case as crossed random intercepts, and the second evaluated the effect of reader experience on detection performance in the original image condition. RESULTS: At the reader-specific contrast thresholds estimated in the pilot study, the mean PC for the original images was 78.3%, within the prespecified target performance range. Mean PC increased to 84.3% for the restored images, corresponding to an absolute improvement of 6.0 percentage points. The primary GLMM indicated a significant restoration effect on detection performance (OR = 1.57, 95% CI: 1.15-2.14, p = 0.005  ). Baseline mean PC was 78.7% for Junior readers and 78.0% for Senior readers, and the separate GLMM found no evidence of an experience-group effect under the original image condition ( p = 0.858  ). CONCLUSIONS: The proposed extended MB restoration pipeline improved the detectability of simulated microcalcification clusters by breast radiologists under the controlled 4AFC conditions investigated. By targeting the signal and noise characteristics predicted by the model for an acquisition at approximately twice the original radiation dose without requiring additional radiation exposure, the method represents a promising approach for improving microcalcification detectability in DM.",
+      "journal": "Med Phys",
+      "date": "2026-11",
+      "authors": [
+        "Brandão RF",
+        "Borges LR",
+        "Sabino SMPS",
+        "Caron RF",
+        "Foi A",
+        "Bakic PR",
+        "Tingberg A",
+        "Vieira MAC"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1002/mp.70739",
+      "journal_tier": 2,
+      "impact": 3.8,
+      "section": "meme",
+      "score": 60.0,
+      "score_parts": {
+        "journal": 60,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42928698",
+      "title": "DoseRAD2026: A benchmark dataset for AI-accelerated photon and proton dose calculation in radiotherapy.",
+      "abstract": "PURPOSE: Accurate dose calculation is a fundamental component of modern radiotherapy, enabling precise tumor irradiation while sparing surrounding healthy tissue. With the increasing adoption of magnetic resonance imaging (MRI)-guided radiotherapy and growing interest in real-time adaptive radiotherapy, there is a demand for fast and accurate dose calculation techniques on both computed tomography (CT) and MRI. To facilitate research in this area, the DoseRAD2026 dataset and accompanying challenge introduce a publicly available benchmark dataset comprising paired CT and MRI data with corresponding beam-level photon and proton Monte Carlo (MC) dose distributions, enabling the development and systematic evaluation of advanced dose calculation and prediction methods. ACQUISITION AND VALIDATION METHODS: The DoseRAD2026 dataset comprises paired CT and MRI data from 115 patients (75 training, 40 testing) treated on a hybrid MRI-linear accelerator (MRI-linac) for thoracic or abdominal lesions and is derived from the SynthRAD2025 dataset. Image pre-processing included deformable image registration, air-cavity correction and resampling. Ground-truth photon (6 MV) and proton dose distributions were generated using open-source MC dose calculation algorithms and resulted in a training dataset of 40,500 photon beams and 81,000 proton beamlets. DATA FORMAT AND USAGE NOTES: The dataset is organized into photon and proton subsets, each comprising paired CT-MRI images, beam-level dose distributions, and JSON files specifying patient-specific beam configurations. Data are provided in compressed MetaImage (.mha) format with standardized naming linking dose files to beam parameters in the JSON files. The dataset is released under a CC BY-NC 4.0 license, with the training set available from April 2026 and the test set withheld until March 2030. POTENTIAL APPLICATIONS: The DoseRAD2026 dataset enables benchmarking and development of fast dose calculation methods for radiotherapy applications. Potential use cases include rapid beam-level dose estimation for photon and proton therapy, MRI-based dose calculation in MRI-only and MRI-guided radiotherapy workflows, and support for real-time adaptive radiotherapy strategies.",
+      "journal": "Med Phys",
+      "date": "2026-11",
+      "authors": [
+        "Xiao F",
+        "Delopoulos N",
+        "Wahl N",
+        "Volz L",
+        "Bucher L",
+        "Maspero M",
+        "Palacios M",
+        "Li M",
+        "Schulz S",
+        "Rogowski V",
+        "Zhang Y",
+        "Perko Z",
+        "Kurz C",
+        "Dedes G",
+        "Landry G",
+        "Thummerer A"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1002/mp.70714",
+      "journal_tier": 2,
+      "impact": 3.8,
+      "section": "toraks",
+      "score": 60.0,
+      "score_parts": {
+        "journal": 60,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42928638",
+      "title": "Uncertainty-aware hybrid model for reliable navigation guidance in prostate biopsy.",
+      "abstract": "BACKGROUND: Prostate biopsy - performed under ultrasound (US) guidance - is the only confirmatory procedure for diagnosing prostate cancer. If several systems aiming at improving the accuracy of tissue sampling for histopathological analysis exist, they often fail to adequately account for patient / tissue motion and deformation during the procedure or are not suitable for real-time guidance towards a pre-defined target. PURPOSE: This work proposes a real-time assistance method to help urologists navigate between biopsy sites leveraging both 2D US and 3D US information. METHODS: The proposed hybrid framework combines three ResNet-18-based sub-networks with a Kalman filter to track the pose of the current 2D US frame within a reference 3D US volume acquired during the intervention. Two of the networks predict relative rigid transformations from pairs of US frames or frame/slice combinations extracted from the 3D volume. A third network predicts the registration error from a frame/slice pair and acts as a large-error detector. This error prediction module is integrated directly into the iterative registration process, to ensure robust tracking in the presence of tissue deformation or image artifacts, while also providing an uncertainty estimate of registration quality at each time step. The proposed framework was trained and evaluated on complex biopsy trajectories generated from a dataset of 847 3D US volumes acquired during real transrectal prostate biopsy procedures from 97 patients. The dataset was divided into training (78 patients, 669 volumes), validation (10 patients, 115 volumes), and test (9 patients, 63 volumes) sets. Performance was compared with an image-correlation-based baseline method using clinically relevant evaluation metrics, including the mean surface registration error (mean SRE) over 25-s trajectories, as well as the percentage of registered frames with an SRE below 2.5 mm and 5 mm. Statistical significance was assessed using Wilcoxon signed-rank tests (adjusted with Holm-Bonferroni correction) and 95% confidence bootstrap intervals (CI 95%) across the test cohort. Effect sizes were quantified with rank-biserial correlation (RBC). RESULTS: Compared with the baseline method, the proposed approach achieved a significant reduction in the mean SRE over 25-s trajectories, decreasing from 3.1  [ 2.2 , 4.9 ]  to 2.2  [ 1.8 , 2.5 ]   mm (median [CI 95%], p = 0.016, RBC = 0.96). In addition, the proposed large-error detector - used for uncertainty estimation - achieved a balanced accuracy score of 0.81 for classifying registration errors above or below a given threshold of 5 mm. CONCLUSIONS: These results demonstrate the potential of the proposed framework to improve the accuracy and robustness of real-time prostate biopsy navigation guidance.",
+      "journal": "Med Phys",
+      "date": "2026-11",
+      "authors": [
+        "Soormally C",
+        "Beitone C",
+        "Troccaz J",
+        "Voros S"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1002/mp.70718",
+      "journal_tier": 2,
+      "impact": 3.8,
+      "section": "abdomen",
+      "score": 60.0,
+      "score_parts": {
+        "journal": 60,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42928627",
+      "title": "Intravenous oxycodone versus morphine patient-controlled analgesia (PCA) after uterine artery embolisation: A propensity matched case-control study.",
+      "abstract": "OBJECTIVES: The use of intravenous oxycodone is still limited in the Interventional Radiology setting. This study aimed to assess the safety and efficacy of intravenous oxycodone used in patient-controlled analgesia (PCA) after uterine fibroid embolisation (UFE), compared to morphine. METHODS: Retrospective case-control study. The study group consisted of patients treated with UFE between March and December 2024, using an oxycodone protocol. The control group consisted of a previously published dataset using morphine protocol. Primary outcomes were safety and the incidence of severe nausea. RESULTS: There were 57 patients in the oxycodone group compared to 69 in the morphine group. After propensity score matching, this left 43 in the oxycodone group and 60 in the morphine group. Groups were similar in terms of background demographics, however the use of smaller 355-500 micrometre polyvinyl alcohol particles were higher in the oxycodone group (100% vs 18%, p < 0.001).No analgesic-related adverse events were observed in either group. The incidence of severe nausea was lower in the oxycodone group (43.3% vs 37.2%, p = 0.533) despite a higher rate of post-embolisation syndrome (65.1% vs 48.3%, p = 0.091). After multiparametric logistic regression, oxycodone was associated with a 64% reduced odds of severe nausea (OR 0.36, p = 0.217). CONCLUSIONS: Intravenous oxycodone PCA is safe and showed a trend towards a lower incidence of severe nausea compared with morphine PCA. ADVANCES IN KNOWLEDGE: There is limited evidence of the use of oxycodone PCA to treat post-embolisation syndrome. This study showed it was safe and resulted in reduced nausea compared to morphine.",
+      "journal": "Br J Radiol",
+      "date": "2026-10-24",
+      "authors": [
+        "Clements W",
+        "Markakis D",
+        "Koukounaras J",
+        "Venn G",
+        "Bolger M",
+        "Nandurkar R",
+        "Findakly S",
+        "Lukies MW"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1093/bjr/tqag262",
+      "journal_tier": 2,
+      "impact": 2.8,
+      "section": "girisim",
+      "score": 60.0,
+      "score_parts": {
+        "journal": 60,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42928622",
+      "title": "From Isolated Intelligence to Interpretive Infrastructure in Radiology AI.",
+      "abstract": "Radiology has more regulatory-cleared artificial intelligence tools than any other medical specialty, yet they have delivered less consistent clinical impact than their benchmark performance suggested. We argue that the dominant response, scaling perceptual models and extending them toward autonomous agency, mistakes the nature of the problem. The limitation is architectural, not algorithmic: current systems perform isolated perception while remaining disconnected from the temporal, contextual, and experiential integration that interpretation requires. We trace this to a fundamental simulation gap, the absence of the counterfactual signal that lets AI reach superhuman performance in other domains, and argue that scaling alone cannot close it. In response, we outline a hybrid orchestration layer, grounded in established clinical frameworks, that assembles a comprehensive evidence base for the radiologist while keeping generative components constrained and interpretive judgment human. The shift is one of design paradigm: from isolated tools deployed alongside the radiologist to interpretive infrastructure that composes validated outputs into coherent evidence without anchoring the reader's own assessment.",
+      "journal": "Br J Radiol",
+      "date": "2026-10-24",
+      "authors": [
+        "Karunanayake N",
+        "Schefflein J",
+        "Zhao B",
+        "Schwartz LH"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1093/bjr/tqag259",
+      "journal_tier": 2,
+      "impact": 2.8,
+      "section": "girisim",
+      "score": 60.0,
+      "score_parts": {
+        "journal": 60,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42928508",
+      "title": "The b-Value Dependence for Higher-Degree Spherical Harmonic Powers of the Diffusion MRI Signal Follows Stick Model Predictions in White Matter.",
+      "abstract": "PURPOSE: To compare the dependence on b-value of the spherical harmonic powers for the diffusion MRI signal in white matter to theoretical predictions from the stick model of water diffusion within axons. METHODS: Diffusion MRI data were acquired at 3 T in three healthy adults with 10 b-value shells (b = 1000-10 000 s/mm2) and 64 directions per shell. For every b-value, the signal was expanded in spherical harmonics for all even degrees l up to l = 6, and the harmonic power for each degree was calculated. These were compared in selected white matter regions of interest to the theoretical predictions of the stick model, which depend on just two adjustable parameters: the intra-axonal diffusivity and an amplitude factor for each degree. The intra-axonal diffusivity was estimated independently using triple diffusion encoding MRI, leaving the amplitude factor as the sole fitting parameter. RESULTS: Close agreement between experiment and theory was found for b  ≳   4000 s/mm2, the threshold where extra-axonal water signal is expected to be strongly suppressed, for total cerebral white matter as well as separately within the genu, body, and splenium of the corpus callosum. These findings extend prior studies that either considered only the l = 0 harmonic power or treated the intra-axonal diffusivity as a fitting parameter. CONCLUSION: In white matter, the b-value dependence of the diffusion MRI signal's even degree spherical harmonic powers up to l = 6 are relatively well-described by the stick model of axons for b  ≳   4000 s/mm2.",
+      "journal": "Magn Reson Med",
+      "date": "2026-10-25",
+      "authors": [
+        "Moss HG",
+        "Jensen JH",
+        "Benitez A"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1002/mrm.70630",
+      "journal_tier": 2,
+      "impact": 3.0,
+      "section": "neuro",
+      "score": 60.0,
+      "score_parts": {
+        "journal": 60,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42928325",
+      "title": "Camera calibration and tracking for augmented reality during robotic surgery.",
+      "abstract": "PURPOSE: Robot-assisted surgery (RAS) offers clinical advantages but remains limited by reduced visualization and lack of tactile feedback. Augmented reality (AR), achieved by overlaying preoperative imaging onto laparoscopic video, may mitigate these challenges. This study evaluates the accuracy and clinical feasibility of an AR system that uses electromagnetic (EM) tracking to determine the position of the robotic endoscope and enable real-time image overlay during surgery. METHODS: For calibration, an EM sensor was rigidly attached to the robotic endoscope and a second sensor to a calibration checkerboard. 35 calibration images were acquired. To determine the required number of calibration images, 2600 random subsets containing 5-30 images were calibrated using RANSAC-based robust estimation and evaluated on 16 separately recorded checkerboard frames using three-dimensional (3D) Euclidean error. Subsequently, a clinically suitable adapter carrying the EM tracker was rigidly mounted on the robotic endoscope and evaluated during 16 robot-assisted pelvic lymph node dissection (RPLND) procedures. RESULTS: Calibration accuracy and robustness improved with increasing dataset size. A dataset of 19 images was the smallest dataset size with a median 3D error within 5% of the best observed performance, with a mean 3D Euclidean error of 0.541 ± 0.060 mm. Using the same protocol, the clinical adapter achieved 0.784 ± 0.075 mm. System evaluation during 16 RPLND provided stable, real-time tracking and AR visualization. CONCLUSION: The proposed calibration and tracking approach enables sub-millimeter AR overlay accuracy while allowing continuous tracking of the robotic endoscope through an externally mounted EM tracker. Its successful use during 16 RPLND procedures demonstrates that the method can be integrated into a clinical robotic workflow and supports real-time visualization without substantial procedural modification. These findings provide a technical foundation for further development and validation of image-guided AR applications in robotic-assisted surgery.",
+      "journal": "Int J Comput Assist Radiol Surg",
+      "date": "2026-10-25",
+      "authors": [
+        "Venix LPJ",
+        "Heerink WJ",
+        "Hiep MAJ",
+        "Saiz LA",
+        "Kerkhof E",
+        "Ruers TJM",
+        "Fusaglia M"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1007/s11548-026-03809-7",
+      "journal_tier": 2,
+      "impact": 2.9,
+      "section": "genel",
+      "score": 60.0,
+      "score_parts": {
+        "journal": 60,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42928255",
+      "title": "AI-based automated body composition analysis from whole-body MRI and (PET-) CT: an intermodal comparison from same-day examinations.",
+      "abstract": "BACKGROUND: To determine intermodal agreement of AI-derived volumetric body composition metrics between [18 F]FDG-PET/CT-derived low-dose CT and whole-body MRI (wb-MRI). METHODS: We retrospectively analyzed same-day whole-body low-dose CT, obtained from [18F]FDG-PET/CT, and wb-MRI from consecutive multiple myeloma patients from the prospective GMMG-HD7- and GMMG-HD8-/DSMM-XIX-trials. An automated deep learning pipeline based on the TotalSegmentator model, and its MRI variant were used to segment skeletal muscle (SM), subcutaneous- (SAT) and abdominal visceral adipose tissue (VAT) from CT and MRI, respectively. Volumetric measures and single-slice estimates were derived. Agreement between CT- and MRI-based metrics was assessed using Pearson r, intraclass correlation coefficients (ICC), and Bland-Altman analyses. RESULTS: Forty-two multiple myeloma patients with same-day PET/CT and wb-MRI were included. For AI-based volumetric body composition metrics, CT and MRI demonstrated high agreement (ICC > 0.95) across all SM, SAT and VAT. However, Bland-Altmann plots revealed systematic modality-related differences between MRI and CT: both SM (bias: -2582 ml, p < 0.0001) and VAT (bias: -211 ml, p < 0.0001) were significantly lower when extracted from MRI compared to CT, while for SAT, the difference was not statistically significant (bias: -263 ml, p = 0.1629). For AI-based single slice analysis, agreement remained high for SAT and VAT (ICC > 0.97), while being lower for SM (ICC 0.87). Bland-Altman plots showed that SM was systematically and significantly lower when obtained from MRI than from CT (bias: -18.4cm2, p < 0.0001). CONCLUSIONS: Automated body composition measures from (PET-)CT and wb-MRI are highly concordant but show consistent intermodal biases that should be considered when pooling multimodal data or applying modality-agnostic thresholds. CLINICAL TRIAL NUMBER: Not applicable.",
+      "journal": "Cancer Imaging",
+      "date": "2026-10-24",
+      "authors": [
+        "Holzschuh JC",
+        "Rotkopf LT",
+        "Neelsen C",
+        "Bauer F",
+        "Zhang KS",
+        "Menis E",
+        "Hajiyianni M",
+        "Mai EK",
+        "Weinhold N",
+        "John L",
+        "Sachpekidis C",
+        "Dimitrakopoulou-Strauss A",
+        "Raab MS",
+        "Goldschmidt H",
+        "Jende J",
+        "Delorme S",
+        "Schlemmer HP",
+        "Wennmann M"
       ],
       "pubtypes": [
         "Journal Article",
-        "Review"
+        "Comparative Study"
       ],
-      "doi": "10.1002/jmri.70597",
+      "doi": "10.1186/s40644-026-01134-5",
       "journal_tier": 2,
-      "impact": 3.3,
-      "section": "kas",
-      "score": 70.0,
+      "impact": 4.9,
+      "section": "girisim",
+      "score": 60.0,
       "score_parts": {
         "journal": 60,
-        "pubtype": 10,
+        "pubtype": 0,
         "recency": 0.0
       },
       "tier": 3,
@@ -1215,162 +1590,6 @@
       "abstract_tr": ""
     },
     {
-      "pmid": "42920395",
-      "title": "HARP: HARmonizing In-Vivo Single-Shell Diffusion MRI Using Phantom-Only Training.",
-      "abstract": "PURPOSE: Combining multi-site diffusion MRI (dMRI) data is hindered by inter-scanner variability, which confounds subsequent analysis. Previous harmonization methods require large, matched or traveling human subjects from multiple sites, which are impractical to acquire in many situations. This study aims to develop a deep learning-based dMRI harmonization framework that eliminates the reliance on multi-site in-vivo traveling human data for training. METHODS: HARP employs a voxel-wise 1D neural network trained on an easily transportable diffusion phantom. The model learns relationships between spherical harmonics coefficients of different sites without memorizing spatial structures. RESULTS: HARP reduced inter-scanner variability levels significantly in various measures. Quantitatively, it decreased inter-scanner variability as measured by standard error in FA (12%), MD (10%), and GFA (30%) with scan-rescan standard error as the baseline, while preserving fiber orientations and tractography after harmonization. CONCLUSION: We believe that HARP represents an important first step toward dMRI harmonization using only phantom data, thereby obviating the need for complex, matched in vivo multi-site cohorts. This phantom-only strategy substantially enhances the feasibility and scalability of quantitative dMRI for large-scale clinical studies.",
-      "journal": "Magn Reson Med",
-      "date": "2026-10-24",
-      "authors": [
-        "Jeong H",
-        "Liu Q",
-        "Keenan KE",
-        "Wilde EA",
-        "Schneider W",
-        "Pathak S",
-        "Zuccolotto A",
-        "O'Donnell LJ",
-        "Ning L",
-        "Rathi Y"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1002/mrm.70640",
-      "journal_tier": 2,
-      "impact": 3.0,
-      "section": "yapayzeka",
-      "score": 60.0,
-      "score_parts": {
-        "journal": 60,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42920073",
-      "title": "Diagnostic Performance and Concordance of a BI-RADS-Output AI System in Mammography: A Retrospective Study of Radiologists-AI Collaboration.",
-      "abstract": "The identification of breast cancer using mammography and ultrasonography is influenced by inter-observer variability. Artificial intelligence (AI) models for breast classification have been investigated, but limited reports exist on Breast Imaging Reporting and Data System (BI-RADS)-output AI systems. This study attempted to assess a BI-RADS-output AI system by comparing breast cancer detection rates among radiologist-only, AI-only, and combined interpretations, while also focusing on the AI's ability to identify cancers missed by radiologists and analyzing diagnostic concordance concerning imaging features and BI-RADS categories. A retrospective analysis was performed on 331 lesions from 321 consecutive breast cancer patients who underwent preoperative digital mammography and ultrasonography. McNemar's test was used to find the detection rates, and chi-square/Fisher's test, Receiver Operating Characteristic Curve (ROC) analysis, and Kappa statistics were used to verify the diagnostic performance. The combined radiologist-AI interpretation achieved the highest cancer detection rate of 90.6%, which was higher than the radiologist's rate of 87.6% and the AI's rate of 84.0% (P < 0.05). The advantage was especially evident for BI-RADS 4B lesions, where AI alone decreased to 54.4%, while the combined method increased to 81.8%. AI found tumors that radiologists missed, with an area under the receiver operating characteristic curve (AUC) of 0.840. There was a strong agreement for microcalcifications (κ = 0.827), but only a weak to moderate agreement for mass morphology and final BI-RADS classification (κ = 0.142-0.414). Although AI-radiologist agreement varied across different imaging features, their complementary strengths enabled improved cancer detection performance, supporting the role of BI-RADS-output AI systems as clinical decision-support tools rather than replacements for radiologists.",
-      "journal": "J Imaging Inform Med",
-      "date": "2026-10-23",
-      "authors": [
-        "Gong X",
-        "Zhang L",
-        "Kong J",
-        "Mou F"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1007/s10278-026-02328-w",
-      "journal_tier": 2,
-      "impact": 2.9,
-      "section": "meme",
-      "score": 60.0,
-      "score_parts": {
-        "journal": 60,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42920072",
-      "title": "Cardiac Image Segmentation Under Respiratory Motion Artifacts Using Different Modified U-Net Models.",
-      "abstract": "Precise segmentation of cardiac magnetic resonance images (CMR) is essential to quantitative measurements of the heart, yet it is often affected by respiratory motion misregistration's and this is particularly common in free-breathing patient environments. These artifacts reduce the quality of the image and present a big challenge to traditional deep learning models such as the baseline U-Net. This paper carries out a systematic evaluation of the capabilities of four alternate U-Net architectures, Attention U-Net, Dense U-Net, Residual U-Net and Sharp U-Net, on CMR data with synthetically added motion artifacts of various intensities. To add synthetic artifacts, the deformation fields were employed that mimic the realistic breathing-induced deformations and obtained the clean, mild, moderate, and severe moving conditions. Hybrid loss function that combines Dice, Focal, and Tversky losses was used to train each model to create robustness to class imbalance and boundary degradation. The segmentation quality was assessed by the following evaluation metrics: Dice Similarity Coefficient (DSC), Hausdorff Distance (HD) and Jaccard Index (JI). Their results show that Sharp U-Net had the best overall performance with the highest average DSC (0.927) and lowest HD (3.62 mm) in severe motion conditions. The region centered attention mechanisms were also capable of withstanding these in Attention U-Net. The dense and Residual U-Nets did not perform much better than the baseline, and did not perform as well when there were severe artifacts. These results show the significance of architectural improvements and motion consciousness instruction strategies in guaranteeing the dependable segmentation. The article provides a scalable and reproducible methodology to assess the performance of motion-robust deep learning models for CMR and adaptable for use in other clinical diagnostic applications where respiratory gating is not available. The proposed framework provides a reproducible and computationally practical approach to motion-robust cardiac MRI segmentation. Sharp U-Net achieved the highest segmentation performance under severe respiratory motion, with a DSC of 0.784, compared with 0.778 for Attention U-Net, while requiring a slightly higher inference latency of approximately 28-30 ms per 256 × 256 slice and GPU memory consumption of approximately 1.8 GB. This modest computational overhead represents a trade-off between improved boundary preservation and computational efficiency and should be considered when deploying the model in resource-constrained clinical environments. Across the clean, mild, moderate, and severe respiratory motion conditions, Sharp U-Net achieved an average DSC of 0.927. Under the most challenging severe-motion condition, the DSC decreased to 0.784, while maintaining an ASSD of 1.69 mm, sensitivity of 0.823, precision of 0.774, and RVE of 8.9%.",
-      "journal": "J Imaging Inform Med",
-      "date": "2026-10-23",
-      "authors": [
-        "Singh RP",
-        "Nagabhooshanam N",
-        "Thakur Y",
-        "Jadhav A",
-        "Kumar CR",
-        "Lakshmi GV",
-        "Rajaram A",
-        "Almubarak HA"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1007/s10278-026-02431-y",
-      "journal_tier": 2,
-      "impact": 2.9,
-      "section": "toraks",
-      "score": 60.0,
-      "score_parts": {
-        "journal": 60,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42920071",
-      "title": "Radiomic Signatures of Smoking in Visually Normal Lung Parenchyma: Bilateral CT Analysis Using Machine Learning.",
-      "abstract": "Smoking is associated with structural and functional alterations in the lungs, some of which may be reflected in quantitative imaging features. Radiomics enables the extraction of high-dimensional image-derived descriptors and may provide information beyond routinely available clinical variables. We investigated whether bilateral lung radiomics, both independently and integrated with clinical variables, could classify patient-level smoking status. An exploratory secondary analysis was also performed to assess whether radiomic and clinical feature representations could discriminate smoking exposure intensity among smokers. A total of 506 patients were included, comprising 253 smokers and 253 nonsmokers. Right and left lung radiomic features were extracted separately from visually normal-appearing lung parenchyma on thoracic CT images. Multiple feature representations were evaluated, including right lung radiomics, left lung radiomics, concatenated right-left radiomics, summary/asymmetry radiomics, clinical variables alone, and radiomics combined with clinical variables. Clinical variables included age, sex, height, weight, and body mass index. Pack-years were excluded from the binary smoking status classification models to avoid target-related information leakage. For each binary classification task, a balanced internal hold-out set containing 25 smokers and 25 nonsmokers was reserved, while the remaining patients were evaluated using stratified tenfold cross-validation. Four feature selection or dimensionality reduction strategies and five classifier families were assessed, resulting in 435 model configurations across the main cohort and sex-specific subgroup analyses. Threshold selection was performed using the Youden index derived from cross-validated out-of-fold predictions. For the exploratory smoking exposure analysis, 253 smokers with available pack-year information were categorized into < 10, 10-20, and > 20 pack-year groups and evaluated using pooled stratified tenfold cross-validation. The best-performing radiomics-based configurations showed higher discrimination than the clinical-only configuration. The clinical-only random forest model achieved a cross-validation ROC-AUC of 0.673 and a hold-out ROC-AUC of 0.610. Among radiomics-only configurations, concatenated bilateral radiomics achieved a cross-validation ROC-AUC of 0.734 and a hold-out ROC-AUC of 0.712. The strongest hold-out discrimination was obtained using concatenated bilateral radiomics combined with clinical variables, ReliefF feature selection, and stacking classification, achieving a hold-out ROC-AUC of 0.803, balanced accuracy of 0.700, sensitivity of 0.720, and specificity of 0.680. Feature selection stability analysis showed that the final concatenated bilateral radiomics + clinical configuration retained five clinical variables and 15 radiomic features, several of which were repeatedly selected across cross-validation folds. Sex-specific subgroup analyses showed moderate but variable performance. In the exploratory three-class smoking exposure analysis, integrating left lung radiomics with clinical variables yielded the most balanced class-wise performance, achieving the highest balanced accuracy (0.658) and the highest sensitivity for the intermediate 10-20 pack-year group (0.417), although the clinical-only model achieved the highest macro-AUC. Bilateral lung radiomics showed potential for patient-level smoking status classification, particularly when combined with clinical variables. These findings suggest that quantitative imaging features could provide complementary information beyond routinely available patient-level variables. The exploratory smoking exposure analysis further suggested that radiomics + clinical configurations may contain limited information related to smoking exposure intensity, although intermediate exposure remained challenging to discriminate. However, the moderate performance, subgroup variability, and lack of external validation indicate that this approach should be considered investigational until confirmed in larger independent cohorts.",
-      "journal": "J Imaging Inform Med",
-      "date": "2026-10-23",
-      "authors": [
-        "Doğan D",
-        "Öksüz C",
-        "Çakır Ö",
-        "Güler E",
-        "Urhan O"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1007/s10278-026-02440-x",
-      "journal_tier": 2,
-      "impact": 2.9,
-      "section": "toraks",
-      "score": 60.0,
-      "score_parts": {
-        "journal": 60,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42920054",
-      "title": "Investigation of gear design parameters for soft-gear-driven self-propelled colonoscopy robot.",
-      "abstract": "PURPOSE: Colonoscopy is the most effective method for colorectal cancer screening; however, successful insertion requires a high level of operator skill and may cause patient discomfort or injury. To address these challenges, self-propelled colonoscopy robots that generate propulsion at the distal tip have been actively investigated. In our previous work, we developed a self-propelled colonoscopy robot using a worm-gear mechanism; however, the use of rigid gears posed a potential risk of excessive contact force on the colonic wall. METHODS: In this study, we propose a self-propelled colonoscopy robot enabled by soft gears that combine compliant contact with gear-based power transmission. By reinterpreting the crawler-based propulsion concept as a soft spur gear driven by a worm-gear mechanism, the proposed design allows elastic deformation of the gear teeth under load, providing adaptive traction through compliant deformation of the gear teeth. Gear parameters were optimized using gear-design software, and four soft-gear configurations were fabricated to investigate their propulsion characteristics. RESULTS: The prototypes were fabricated using stereolithography 3D printing and evaluated using a colonoscopy training model. The robot achieved a maximum propulsive speed of 9.6 mm/s and a propulsive force of 1.5 N in straight sections. Gears with larger modules produced higher propulsion performance. In addition, the proposed coaxial double-worm-gear architecture enabled traversal of curved sections of the colon model under manual steering. CONCLUSION: These results demonstrate the mechanical feasibility of using soft gears as a propulsion mechanism for self-propelled colonoscopy robots. Although the evaluation was limited to a colonoscopy training model, the proposed design demonstrated stable propulsion in a colonoscopy training model while maintaining compliant contact with the intestinal wall. The simple and compact mechanical structure provides a promising proof of concept for future minimally invasive robotic endoscopy, although further ex vivo and in vivo validation will be required.",
-      "journal": "Int J Comput Assist Radiol Surg",
-      "date": "2026-10-24",
-      "authors": [
-        "Osawa K",
-        "Duan K",
-        "Ueda A",
-        "Nakadate R",
-        "Arata J",
-        "Nagao Y",
-        "Akahoshi T",
-        "Eto M",
-        "Tanaka E"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1007/s11548-026-03808-8",
-      "journal_tier": 2,
-      "impact": 2.9,
-      "section": "abdomen",
-      "score": 60.0,
-      "score_parts": {
-        "journal": 60,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
       "pmid": "42925959",
       "title": "Mind the data: pitfalls and perspectives in acquiring and interpreting preclinical evidence for the FLASH effect.",
       "abstract": "FLASH radiotherapy (FLASH-RT) has rapidly emerged as a promising approach to widen the therapeutic window through differential sparing of normal tissue. However, despite substantial experimental activity, uncertainties remain regarding the magnitude, reproducibility, and determinants of the FLASH effect. This work reviews common pitfalls and sources of ambiguity in the acquisition and interpretation of preclinical FLASH data to support clinical application. In particular, the widespread use of fixed single-dose study designs, over-reliance on differential endpoint-based metrics, and limited quantification of effect size may obscure the true magnitude and clinical relevance of observed effects. Moreover, small dose-modifying effects are highly susceptible to experimental and biological variability, including dosimetric uncertainties, endpoint sensitivity, and environmental factors such as oxygenation. Heterogeneity in experimental protocols and endpoints further complicates cross-study comparisons. Addressing these challenges through improved quantitative characterisation, harmonised methodologies, and transparent reporting will be essential to enable robust interpretation and support the clinical translation of FLASH-RT.",
@@ -1621,36 +1840,6 @@
       "score_parts": {
         "journal": 60,
         "pubtype": -25,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42920070",
-      "title": "Ultrasonographic Diagnosis of Ectopic Ureter Draining into the Vagina or Vestibule.",
-      "abstract": "OBJECTIVES: To evaluate the ultrasound diagnostic performance in female pediatric patients with ectopic-ureter insertion into the vagina/vestibule or urethra/bladder neck and to compare patient characteristics. METHODS: Of 34 patients (35 vesicoureteral junctions), ultrasonically evaluated ectopic-ureter presence and location (vagina/vestibule or urethra/bladder neck). Patients were classified into 2 groups based on surgical findings: with vagina/vestibule or urethra/bladder-neck insertion. Correct/incorrect location of ectopic-ureter insertion using ultrasound, presence/absence of nonfunctional kidneys, a duplex collecting system, and duplex vagina were compared between both groups using Fisher's exact test. RESULTS: Of 35 vesicoureteral junctions, 5 could not be evaluated at the junction, 30 (85.7%) had a suspected ectopic ureter, and 26 (74.3%) had a correct location diagnosis. Of 14 with vagina/vestibule insertion, 7 (50.0%) had correctly diagnosed locations. Of 21 with urethra/bladder-neck insertion, 19 (90.5%) were correctly diagnosed using ultrasound. Of the 13 of 15 patients with nonfunctional kidneys/duplex urinary system, 9 of 1 had findings involving the vagina/vestibule, and 4 of 14 had findings involving the urethra/bladder neck. Statistically significant differences were observed in correct/incorrect ultrasound diagnosis for the location of ectopic-ureter insertions (vagina/vestibule, 7/7; urethra/bladder-neck insertions, 19/2; p = .015), nonfunctional/functional kidneys (vagina/vestibule, 9/5; urethra/bladder-neck insertions, 4/17; p = .012), and presence/absence of duplex collecting system on the ipsilateral side of the ectopic ureter (vagina/vestibule 1/13; urethra/bladder-neck insertions, 14/7; p < .001). There were no significant differences in presence/absence of duplex vagina (p = .090). CONCLUSIONS: Ultrasound was useful in detecting ectopic-ureter presence. However, the diagnostic performance for determining the location of vagina/vestibule insertions was approximately 50%. Sonographers should carefully evaluate the vesicoureteral-insertion location, particularly in cases with nonfunctional kidneys.",
-      "journal": "J Ultrasound Med",
-      "date": "2026-10-23",
-      "authors": [
-        "Hosokawa T",
-        "Ohashi K",
-        "Yoshizawa S",
-        "Sato Y",
-        "Tanami Y",
-        "Oguma E"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1002/jum.70514",
-      "journal_tier": 3,
-      "impact": 1.8,
-      "section": "abdomen",
-      "score": 35.0,
-      "score_parts": {
-        "journal": 35,
-        "pubtype": 0,
         "recency": 0.0
       },
       "tier": 3,
