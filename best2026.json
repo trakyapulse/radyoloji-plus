@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-27T11:19:12+00:00",
+  "updated": "2026-10-28T11:54:52+00:00",
   "year": 2026,
   "count": 60,
   "criteria": "Etki faktörü (sonra etki skoru) sıralı",
@@ -111,6 +111,41 @@
       "journal_tier": 1,
       "impact": 12.1,
       "section": "meme",
+      "score": 135.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 35,
+        "recency": 0.0
+      },
+      "tier": 1,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42937536",
+      "title": "Automated Opportunistic Bone Mineral Density Assessment at Low-Dose CT Lung Cancer Screening: Incident Vertebral Fractures and Mortality.",
+      "abstract": "Background Low-dose CT (LDCT) for lung cancer screening enables opportunistic volumetric bone mineral density (vBMD) assessment, but its prognostic value is unclear. Purpose To evaluate fully automated LDCT-derived vBMD for predicting vertebral fractures and its association with mortality in individuals who heavily smoke. Materials and Methods This secondary analysis included 55-74-year-old individuals who heavily smoked (≥30 pack-years) from the CT arm of the National Lung Screening Trial (NLST), a multicenter randomized controlled trial of LDCT versus radiography (participants recruited August 2002 to April 2004). Automated SpineQ software (Bonescreen) was used to measure thoracic and lumbar vBMD (normal, ≥120 mg/cm3; low bone mass [osteopenia], 80 to <120 mg/cm3; osteoporosis, <80 mg/cm3) and vertebral fractures (Genant scale). The outcomes included 1- and 2-year incident vertebral fractures and 6-year mortality (active follow-up to 2009). Poisson and Cox models were adjusted for demographic variables, available comorbidities, and baseline vertebral fractures. Results The NLST included 26 722 participants in the CT arm, with 21 856 included in the present analysis (mean age, 61 years ± 5 [SD]; 12 854 male participants). The 2-year vertebral fracture incidence (n = 18 211 participants with 2-year LDCT) was 0.9% for those with normal bone mass, 2.0% for those with low bone mass (adjusted relative risk, 2.07 [95% CI: 1.70, 2.53]), and 5.9% for those with osteoporosis (adjusted relative risk, 3.40 [95% CI: 2.69, 4.30]). Mortality risk (n = 21 447 participants with completed follow-up [median, 6.65 years]) was associated with osteoporotic vBMD in men (adjusted hazard ratio, 1.24 [95% CI: 1.02, 1.50]). Conclusion Fully automated opportunistic assessment of spinal vBMD predicted vertebral fracture risk and was associated with mortality in men after adjustment. Individuals with osteoporotic vBMD who heavily smoked had a 2-year fracture incidence above the 5% treatment threshold according to current osteoporosis guidelines. Clinical trial registration no. NCT00047385 © RSNA, 2026 Supplemental material is available for this article. See also the editorial by Bredella in this issue.",
+      "journal": "Radiology",
+      "date": "2026-10",
+      "authors": [
+        "Löffler MT",
+        "Rühling S",
+        "Sollmann N",
+        "Jung M",
+        "Rospleszcz S",
+        "Reisert M",
+        "Bamberg F",
+        "Kirschke JS",
+        "Weiß J"
+      ],
+      "pubtypes": [
+        "Journal Article",
+        "Randomized Controlled Trial",
+        "Multicenter Study"
+      ],
+      "doi": "10.1148/radiol.260323",
+      "journal_tier": 1,
+      "impact": 12.1,
+      "section": "toraks",
       "score": 135.0,
       "score_parts": {
         "journal": 100,
@@ -344,6 +379,46 @@
         "Multicenter Study"
       ],
       "doi": "10.1148/radiol.253025",
+      "journal_tier": 1,
+      "impact": 12.1,
+      "section": "girisim",
+      "score": 118.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 18,
+        "recency": 0.0
+      },
+      "tier": 1,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42937538",
+      "title": "Intended Thrombectomy for Basilar Artery Occlusion with Mild Deficits: Evidence from a Multicenter Prospective Registry.",
+      "abstract": "Background The role of endovascular thrombectomy (EVT) in basilar artery occlusion (BAO) with mild deficits (National Institutes of Health Stroke Scale [NIHSS] score < 10) remains uncertain. Purpose To compare the outcomes of EVT combined with best medical management (BMM) versus BMM alone in individuals with BAO and mild deficits. Materials and Methods Consecutive eligible patients treated at eight stroke centers between September 2023 and March 2025 were enrolled in a prospective registry. The primary outcome was 90-day functional independence (modified Rankin Scale [mRS] score of 0-2). Secondary outcomes were 90-day excellent outcome (mRS score of 0-1), death, and early neurologic deterioration (END), defined as a four-point or greater increase in NIHSS score within 72 hours. Primary analyses followed an intention-to-treat-like framework with inverse probability weighting (IPW). As-treated and per-protocol sensitivity analyses were used to assess the robustness of the results and the impact of treatment crossover (EVT after END). Results Among 401 participants (mean age, 64.9 years ± 8.9 [SD]; 278 male participants), the median onset-to-arterial-puncture time in the EVT group was 402 minutes (IQR, 271-583 minutes). After multivariable adjustment in the IPW-adjusted data, EVT was associated with higher odds of functional independence (odds ratio [OR], 1.55 [95% CI: 1.17, 2.06]) and excellent outcome (OR, 1.48 [95% CI: 1.09, 2.03]) and lower odds of death (OR, 0.65 [95% CI: 0.45, 0.77]) and END (OR, 0.35 [95% CI: 0.20, 0.61]). Subgroup analyses demonstrated EVT-related functional benefit in participants with NIHSS scores of 6-9 but not in those with NIHSS scores of 0-5 (P for interaction = .02 for functional independence); however, in participants with NIHSS scores of 0-5, EVT was associated with lower odds of END and death. Sensitivity analyses accounting for treatment crossover showed attenuated functional advantage for EVT. Conclusion In participants with BAO and mild deficits, EVT plus BMM was associated with better outcomes than BMM alone; however, functional benefit was observed in those with NIHSS scores of 6-9 but not those with NIHSS scores of 0-5. Chinese Clinical Trial Registry no. ChiCTR2300075711 © RSNA, 2026 Supplemental material is available for this article.",
+      "journal": "Radiology",
+      "date": "2026-10",
+      "authors": [
+        "Qiu K",
+        "Hang Y",
+        "Ji J",
+        "Lv P",
+        "Zhai Q",
+        "Liu Y",
+        "Li M",
+        "Zhao L",
+        "Chen J",
+        "Zhu F",
+        "Jia Z",
+        "Cao Y",
+        "Zhao L",
+        "Shi H",
+        "Liu S"
+      ],
+      "pubtypes": [
+        "Journal Article",
+        "Multicenter Study"
+      ],
+      "doi": "10.1148/radiol.253968",
       "journal_tier": 1,
       "impact": 12.1,
       "section": "girisim",
@@ -623,6 +698,42 @@
       "journal_tier": 1,
       "impact": 12.1,
       "section": "neuro",
+      "score": 110.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 10,
+        "recency": 0.0
+      },
+      "tier": 1,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42937535",
+      "title": "Agentic AI Systems in Radiology: Design, Applications, Evaluation, and Challenges.",
+      "abstract": "Building agents that perceive and act on their environment with a degree of autonomy has long been a focus of artificial intelligence research. This pursuit has become far more practical with the emergence of large language models (LLMs) capable of using natural language to integrate information, follow instructions, and perform forms of reasoning and planning across a wide range of tasks. With its multimodal data streams and orchestrated workflows spanning multiple systems, radiology is uniquely suited to benefit from agents that can adapt to context and automate complex, repetitive tasks. In radiology, LLMs and their multimodal variants have already demonstrated promising performance for individual tasks such as information extraction and report summarization. However, using LLMs in isolation underutilizes their potential to support complex, multistep workflows where decisions depend on evolving context from multiple information sources. Equipping LLMs with external tools and feedback mechanisms enables them to drive systems that exhibit a spectrum of autonomy, ranging from semiautomated workflows to more adaptive agents capable of managing complex processes. This review article examines the design of LLM-driven agentic systems, explores representative radiology applications, discusses evaluation frameworks, and outlines key challenges, including error cascades, tool-use effectiveness, and integration with health information technology infrastructure.",
+      "journal": "Radiology",
+      "date": "2026-10",
+      "authors": [
+        "Bluethgen C",
+        "Van Veen D",
+        "Truhn D",
+        "Kather JN",
+        "Moor M",
+        "Połacin M",
+        "Chaudhari A",
+        "Frauenfelder T",
+        "Langlotz CP",
+        "Krauthammer M",
+        "Nooralahzadeh F"
+      ],
+      "pubtypes": [
+        "Journal Article",
+        "Review"
+      ],
+      "doi": "10.1148/radiol.253226",
+      "journal_tier": 1,
+      "impact": 12.1,
+      "section": "toraks",
       "score": 110.0,
       "score_parts": {
         "journal": 100,
@@ -1479,6 +1590,59 @@
       "abstract_tr": ""
     },
     {
+      "pmid": "42937537",
+      "title": "US Markers in the Noninvasive Assessment of Hepatic Steatosis in Metabolic Dysfunction-associated Steatotic Liver Disease.",
+      "abstract": "Background Attenuation coefficient (AC) is an established US marker for assessing patients with liver steatosis. However, improvements in diagnostic performance are warranted. Purpose To evaluate the diagnostic performance of AC, normalized local variance (NLV), hepatorenal ratio, and their combinations for liver histopathologic steatosis in participants with metabolic dysfunction-associated steatotic liver disease (MASLD). Materials and Methods This secondary analysis of the prospective Innovative Liver Elasticity, Attenuation, and Dispersion Ultrasound Study (iLEAD) (June 2019 to March 2023) included participants with biopsy-proven MASLD who underwent multiparametric liver US; AC, NLV, and hepatorenal ratio were measured. The diagnostic performance of each imaging marker and their combinations for determining steatosis grade were assessed using the area under the receiver operating characteristic curve (AUC) with the DeLong test, and reclassification improvement was also assessed using the category-free net reclassification improvement (NRI). Results A total of 102 participants (mean age, 52 years ± 16.1 [SD]; 51 male) were evaluated. AC showed the highest diagnostic performance for determining steatosis grade across all grades (AUC for grade ≥S1, 0.93 [95% CI: 0.87, 0.99]), compared with NLV (0.88 [95% CI: 0.77, 0.99]; P = .47) and hepatorenal ratio (0.85 [95% CI: 0.71, 0.98]; P = .30). Four models were constructed for identifying steatosis grades: model 1, AC only; model 2, AC plus NLV; model 3, AC plus hepatorenal ratio; model 4, AC plus NLV plus hepatorenal ratio. Models 2-4 showed no evidence of a difference in performance from model 1 for identifying grade S1 or higher (AUC, 0.93-0.98; P = .16, .15, and .07, respectively), but an improvement in risk reclassification was observed for model 4 (NRI, 1.18 [95% CI: 0.54, 1.77]; P < .001) compared with model 1 (reference). Performance was similar across models in identifying steatosis grade S2 or greater (AUC, 0.89-0.90; all P ≥ .47) and for grade S3 (AUC, 0.89-0.90; all P ≥ .72), but an improvement in risk reclassification was observed for model 3 compared with model 1 (≥S2 steatosis: NRI, 0.58 [95% CI: 0.20, 0.94] [P = .002]; S3 steatosis: NRI, 0.71 [95% CI: 0.26, 1.14] [P = .002]). Conclusion Liver US-derived AC performed better than NLV and hepatorenal ratio in determining steatosis grade in participants with MASLD; when these markers were combined, reclassification of steatosis grade improved. Clinical trial registration no. NCT04012242 © RSNA, 2026 Supplemental material is available for this article.",
+      "journal": "Radiology",
+      "date": "2026-10",
+      "authors": [
+        "Sugimoto K",
+        "Moriyasu F",
+        "Dioguardi Burgio M",
+        "Vilgrain V",
+        "Jesper D",
+        "Strobel D",
+        "Blank V",
+        "Karlas T",
+        "Grant EG",
+        "Kelahan LC",
+        "Gabriel H",
+        "Choi BI",
+        "Nishimura T",
+        "Iijima H",
+        "Dubinsky TJ",
+        "Gao J",
+        "Lee DH",
+        "Lee JY",
+        "Zhao Y",
+        "Huang P",
+        "Zeng J",
+        "Lim A",
+        "Xie X",
+        "Barr RG",
+        "Cantisani V",
+        "Sakamaki K",
+        "Itoi T",
+        "Kage M",
+        "Yano H"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1148/radiol.260360",
+      "journal_tier": 1,
+      "impact": 12.1,
+      "section": "abdomen",
+      "score": 100.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 2,
+      "abstract_tr": ""
+    },
+    {
       "pmid": "42808901",
       "title": "Case 350: Retained Appendicolith.",
       "abstract": "History A 16-year-old girl presented to the emergency department with a 1-month history of right lower back pain. She was originally seen at an urgent care clinic, where a lumbar radiograph was reportedly normal, and she was prescribed naproxen. However, she came to the emergency department once pain had escalated to 10 out of 10. Over the past month, the patient's right flank had increased in size and \"hardened\" to touch. She reported no trauma or other inciting incident. She had a prior history of laparoscopic appendectomy for perforated appendicitis more than 6 years earlier at an outside hospital. A prior contrast-enhanced abdominal CT scan, obtained 2 weeks after the appendectomy, was available for review. At evaluation, the patient was febrile and mildly tachycardic (104 beats per minute). Examination of the right flank revealed a 4-cm area of erythema and tenderness with 10-cm surrounding induration. She had leukocytosis (white blood cell count, 12 × 109/L; reference range, <9.44 × 109/L) and elevated C-reactive protein (23 mg/L; reference range, <9 mg/L). US followed by contrast-enhanced MRI of the abdomen was performed. Based on the imaging findings, the patient underwent a percutaneous drainage procedure. All cultures, including aerobic, anaerobic, fungal, and acid fast, were negative, with the caveat that the patient had been started on intravenous antibiotics before the procedure. She was discharged and prescribed 10 days of amoxicillin and clavulanate to complete antibiotic therapy, and the drain was removed 6 weeks later. One month after drain removal, the patient returned to the emergency department with return of severe flank pain, erythema, and purulent drainage. The patient was afebrile with a white blood cell count of 9.8 × 109/L. Contrast-enhanced abdominal CT was performed.",
@@ -1525,6 +1689,64 @@
       "journal_tier": 1,
       "impact": 12.1,
       "section": "toraks",
+      "score": 85.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": -15,
+        "recency": 0.0
+      },
+      "tier": 2,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42937539",
+      "title": "Case 355.",
+      "abstract": "An 8-year-old girl presented to the pediatrician with headaches that she had been experiencing for the last 2-3 years but that had become intolerable in the previous 8 days. The headaches were described by the patient as not having any lateralization and mainly involving the frontal and occipital regions. The headaches were rated by the patient as being an eight out of 10 in terms of pain, which prevented her from sleeping. Analgesic therapy proved to be ineffective. The patient had no photophobia or phonophobia but had increased fatigue alongside developing nausea without vomiting. The patient did not have any dysphagia, ataxia, vertigo, or elocution issues. Previous MRI performed in a provincial hospital showed a mass in the posterior fossa that was displacing the brainstem. However, being unable to get an appointment to see a neurosurgeon in a timely manner, the patient presented to the emergency department of our university hospital due to worsening symptoms. In order to exclude an intracranial origin of the symptoms, brain MRI with contrast enhancement was performed (Figure).",
+      "journal": "Radiology",
+      "date": "2026-10",
+      "authors": [
+        "Saliba T",
+        "Dunet V"
+      ],
+      "pubtypes": [
+        "Journal Article",
+        "Case Reports"
+      ],
+      "doi": "10.1148/radiol.252728",
+      "journal_tier": 1,
+      "impact": 12.1,
+      "section": "neuro",
+      "score": 85.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": -15,
+        "recency": 0.0
+      },
+      "tier": 2,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42937534",
+      "title": "Case 351: Thalamic Dementia Secondary to Dural Arteriovenous Fistula.",
+      "abstract": "A 76-year-old man with a medical history of diabetes, hypertension, and dilated cardiomyopathy developed new symptoms of confusion, repeated falls, and urinary incontinence over the course of 3-4 months, which worsened over a 2-week period, leading to presentation at the emergency room. His partner reported that before this, he had no memory or movement disorders, but now he was experiencing memory lapses, such as forgetting his mother's recent death, and functional cognitive problems, including an inability to remember how to perform tasks that were previously simple for him, such as dosing his insulin with meals. At presentation, the patient was awake and alert, oriented to his name and location but not to the date. Full neurologic examinations, including of the motor and sensory systems and cranial nerves, were normal. There were no signs of meningism, no fever or leukocytosis, and no history of recent travel. Serum electrolyte panel and thiamine levels were normal, and he had no history of alcohol or drug abuse. Initial evaluation included noncontrast CT of the head, the results of which prompted multiphasic CT angiography of the head including parenchymal phase imaging and admission for observation and monitoring with serial noncontrast CT of the head. The patient's symptoms worsened during his hospital stay. He also developed facial twitching, increased drowsiness, and seizure episodes. He was therefore evaluated with noncontrast MRI of the brain and then digital subtraction angiography with external carotid artery and internal carotid artery contrast agent injections.",
+      "journal": "Radiology",
+      "date": "2026-10",
+      "authors": [
+        "Deen SS",
+        "Khalili B",
+        "Semalti K",
+        "Chen M",
+        "Dua SG",
+        "Ansari S"
+      ],
+      "pubtypes": [
+        "Journal Article",
+        "Case Reports"
+      ],
+      "doi": "10.1148/radiol.252189",
+      "journal_tier": 1,
+      "impact": 12.1,
+      "section": "girisim",
       "score": 85.0,
       "score_parts": {
         "journal": 100,
@@ -1804,158 +2026,6 @@
       "journal_tier": 1,
       "impact": 12.1,
       "section": "toraks",
-      "score": 75.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": -25,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42836751",
-      "title": "Implications for Hepatocellular Carcinoma Ablation beyond the Tumor Margin: An Early Career Perspective.",
-      "abstract": "",
-      "journal": "Radiology",
-      "date": "2026-10",
-      "authors": [
-        "Shafaat O",
-        "Reis SP"
-      ],
-      "pubtypes": [
-        "Editorial"
-      ],
-      "doi": "10.1148/radiol.262757",
-      "journal_tier": 1,
-      "impact": 12.1,
-      "section": "girisim",
-      "score": 75.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": -25,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42867373",
-      "title": "Normal Pressure Hydrocephalus as a Gradual Spectrum of Anomaly.",
-      "abstract": "",
-      "journal": "Radiology",
-      "date": "2026-10",
-      "authors": [
-        "Haller S"
-      ],
-      "pubtypes": [
-        "Editorial"
-      ],
-      "doi": "10.1148/radiol.262645",
-      "journal_tier": 1,
-      "impact": 12.1,
-      "section": "neuro",
-      "score": 75.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": -25,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42867372",
-      "title": "The Next Step in Supplemental Screening for Extremely Dense Breasts.",
-      "abstract": "",
-      "journal": "Radiology",
-      "date": "2026-10",
-      "authors": [
-        "Bahl M"
-      ],
-      "pubtypes": [
-        "Editorial"
-      ],
-      "doi": "10.1148/radiol.262635",
-      "journal_tier": 1,
-      "impact": 12.1,
-      "section": "meme",
-      "score": 75.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": -25,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42867369",
-      "title": "MOLLI versus ShMOLLI at 3-T Cardiac MRI: Normal Values in Healthy Individuals and Common Cardiac Conditions.",
-      "abstract": "",
-      "journal": "Radiology",
-      "date": "2026-10",
-      "authors": [
-        "Dacher JN",
-        "Cadour F"
-      ],
-      "pubtypes": [
-        "Editorial"
-      ],
-      "doi": "10.1148/radiol.262292",
-      "journal_tier": 1,
-      "impact": 12.1,
-      "section": "toraks",
-      "score": 75.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": -25,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42899940",
-      "title": "Position-dependent Pulmonary Vascular Volume Changes: An Upright CT Perspective.",
-      "abstract": "",
-      "journal": "Radiology",
-      "date": "2026-10",
-      "authors": [
-        "Suh YJ"
-      ],
-      "pubtypes": [
-        "Editorial"
-      ],
-      "doi": "10.1148/radiol.262882",
-      "journal_tier": 1,
-      "impact": 12.1,
-      "section": "toraks",
-      "score": 75.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": -25,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42899939",
-      "title": "Beyond Recanalization: Defining Cerebral No-Reflow Status after Thrombectomy.",
-      "abstract": "",
-      "journal": "Radiology",
-      "date": "2026-10",
-      "authors": [
-        "Gemmete JJ"
-      ],
-      "pubtypes": [
-        "Editorial"
-      ],
-      "doi": "10.1148/radiol.262872",
-      "journal_tier": 1,
-      "impact": 12.1,
-      "section": "girisim",
       "score": 75.0,
       "score_parts": {
         "journal": 100,
