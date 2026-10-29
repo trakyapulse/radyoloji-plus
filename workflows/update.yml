@@ -2,8 +2,8 @@ name: Radyoloji Pulse güncelle
 
 on:
   schedule:
-    - cron: "0 6 * * *"      # her gün 06:00 UTC (~09:00 TR)
-  workflow_dispatch:           # elle de tetiklenebilir
+    - cron: "0 6 * * *"
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -12,25 +12,27 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.12"
-
       - name: Bağımlılıkları kur
         run: pip install -r requirements.txt
-
       - name: Makaleleri çek ve skorla
         env:
-          NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}   # Settings > Secrets'a ekle (opsiyonel)
-          NCBI_EMAIL:   ${{ secrets.NCBI_EMAIL }}      # opsiyonel
+          NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
+          NCBI_EMAIL:   ${{ secrets.NCBI_EMAIL }}
         run: python fetch_articles.py
-
       - name: Değişiklikleri commit'le
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data.json
-          git diff --staged --quiet || git commit -m "data.json güncellendi $(date -u +%Y-%m-%d)"
+          git add data.json best2026.json
+          git diff --staged --quiet || git commit -m "veri güncellendi $(date -u +%Y-%m-%d)"
           git push
+      - name: Günlük bülteni e-posta ile gönder
+        env:
+          MAIL_USERNAME: ${{ secrets.MAIL_USERNAME }}
+          MAIL_PASSWORD: ${{ secrets.MAIL_PASSWORD }}
+          MAIL_TO:       ${{ secrets.MAIL_TO }}
+        run: python send_newsletter.py
