@@ -125,7 +125,12 @@ def main():
     to = os.environ.get("MAIL_TO", "").strip() or user
 
     if not user or not pw:
-        print("MAIL_USERNAME / MAIL_PASSWORD tanımlı değil — bülten atlanıyor.")
+        print("Bülten atlanıyor — secret'lar adıma ulaşmıyor.")
+        print("  MAIL_USERNAME dolu mu: %s (uzunluk %d)" % (bool(user), len(user)))
+        print("  MAIL_PASSWORD dolu mu: %s (uzunluk %d)" % (bool(pw), len(pw)))
+        print("  MAIL_TO: %r" % to)
+        print("  -> Secret'lar repoda 'Repository secrets' altında ve adları birebir "
+              "MAIL_USERNAME / MAIL_PASSWORD olmalı.")
         return
 
     with open(DATA_PATH, encoding="utf-8") as f:
