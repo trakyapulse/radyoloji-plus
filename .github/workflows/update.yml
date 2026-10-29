@@ -8,6 +8,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: radyoloji-pulse-update
+  cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -28,8 +32,13 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data.json best2026.json
-          git diff --staged --quiet || git commit -m "veri güncellendi $(date -u +%Y-%m-%d)"
-          git push
+          git diff --staged --quiet && echo "değişiklik yok" && exit 0
+          git commit -m "veri güncellendi $(date -u +%Y-%m-%d)"
+          for i in 1 2 3 4 5; do
+            git pull --rebase --autostash origin main || true
+            git push && break
+            echo "push tekrar deneniyor ($i)..."; sleep 5
+          done
       - name: Günlük bülteni e-posta ile gönder
         env:
           MAIL_USERNAME: ${{ secrets.MAIL_USERNAME }}
