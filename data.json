@@ -1,66 +1,32 @@
 {
-  "updated": "2026-11-01T12:23:40+00:00",
+  "updated": "2026-11-02T14:19:10+00:00",
   "window_days": 1,
   "datetype": "edat",
-  "count": 33,
-  "tier1_count": 1,
+  "count": 14,
+  "tier1_count": 0,
   "source": "PubMed (NCBI E-utilities)",
   "articles": [
     {
-      "pmid": "42965692",
-      "title": "ESR Essentials: susceptibility-weighted imaging-practice recommendations by the European Society for Magnetic Resonance in Medicine and Biology.",
-      "abstract": "Susceptibility-weighted imaging (SWI) is a high-resolution 3D gradient-echo (GRE) magnetic resonance imaging (MRI) technique that combines magnitude and phase information to increase sensitivity to blood products, iron, calcification, thrombus, and venous structures. In routine practice, SWI should be interpreted together with source magnitude images, filtered phase images, processed SWI images, and minimum-intensity projection (minIP) images, keeping in mind blooming and other artefacts, as well as vendor-dependent phase conventions. Its most established role is in brain MRI, particularly in: suspected cerebral amyloid angiopathy; baseline and follow-up assessment of amyloid-related imaging abnormalities with haemosiderin deposition (ARIA-H) during anti-amyloid therapy; traumatic brain injury; multiple sclerosis work-up, when assessment of the central vein sign or paramagnetic rim lesions is clinically relevant; neuro-oncology; and vascular malformations. Overall, these constitute the core recommended brain scenarios for SWI supported by moderate to high levels of evidence. Outside neuroradiology (e.g., musculoskeletal, abdominal, breast, pelvic, and cardiac imaging), SWI remains promising but less standardised and should currently be reserved for selected problem-solving indications. KEY POINTS: SWI should be acquired as a high-resolution 3D GRE sequence and interpreted together with source magnitude images, filtered phase images, and post-processed minIP images, keeping in mind blooming and other artefacts, as well as vendor-specific phase conventions. SWI should be included in brain MRI protocols when haemorrhagic or microvascular susceptibility findings are expected to affect diagnosis or management, especially in cerebral amyloid angiopathy, anti-amyloid therapy monitoring, traumatic brain injury, and neuro-oncology or multiple sclerosis work-up. Outside neuroradiology, SWI can be used as a targeted problem-solving adjunct rather than as a routine sequence.",
-      "journal": "Eur Radiol",
-      "date": "2026-10-31",
-      "authors": [
-        "Parillo M",
-        "Deistung A",
-        "Vaccarino F",
-        "Shmueli K",
-        "Quattrocchi CC",
-        "Rovira À"
-      ],
-      "pubtypes": [
-        "Journal Article",
-        "Review"
-      ],
-      "doi": "10.1007/s00330-026-12988-5",
-      "journal_tier": 1,
-      "impact": 4.7,
-      "section": "meme",
-      "score": 110.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": 10,
-        "recency": 0.0
-      },
-      "tier": 1,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42966318",
-      "title": "A latent ODE approach to full-cycle biventricular cardiac motion modeling from cine MRI.",
-      "abstract": "Cardiac magnetic resonance imaging (CMR) captures rich spatiotemporal information about ventricular structure and motion, but conventional risk models use only a few image-derived indices from selected cardiac phases. We present a latent dynamical model that encodes bi-ventricular anatomy and full-cycle cine motion as a continuous latent trajectory, using heart-rate-aware neural ordinary differential equation (ODE) dynamics and a graph-based mesh autoencoder to reconstruct anatomically consistent 3D+t ventricular motion. A covariate-conditioned prior defines the expected end-diastolic latent state, and a Cox proportional hazards model tests whether deviations from this prior predict incident heart failure. We studied 72,386 UK Biobank participants without baseline cardiovascular disease, including 367 incident heart failure events. In a held-out evaluation subset, adding the latent score to refitted pooled cohort equations improved the stratified C-index from 0.704 to 0.785, compared with 0.764 for seven established cardiac markers. Compared with non-graph and non-ODE approaches, the proposed model gave the best trade-off between reconstruction fidelity, generative realism, and downstream prognostic performance. These results suggest that continuous full-cycle modeling of ventricular motion provides informative cardiac phenotypes beyond conventional CMR summaries, while external validation in more representative patient cohorts is required before clinical risk-prediction use.",
+      "pmid": "42967408",
+      "title": "Mind the Gap: Continuous magnification sampling for pathology foundation models.",
+      "abstract": "In histopathology, pathologists examine both tissue architecture at low magnification and fine-grained morphology at high magnification. Yet, the performance of pathology foundation models across magnifications and the effect of magnification sampling during training remain poorly understood. We model magnification sampling as a multi-source domain adaptation problem and develop a simple theoretical framework that reveals systematic trade-offs between sampling strategies. We show that the widely used discrete uniform sampling of magnifications (0.25, 0.5, 1.0, 2.0 mpp) leads to degradation at intermediate magnifications. We introduce continuous magnification sampling, which removes gaps in magnification coverage while preserving performance at standard scales. Further, we derive sampling distributions that optimize representation quality across magnification scales. To evaluate these strategies, we introduce two new benchmarks (TCGA-MS, BRACS-MS) with appropriate metrics. Our experiments show that continuous sampling can improve downstream task performance at intermediate magnifications, with gains of up to 4 percentage points in balanced classification accuracy, and that optimized distributions can further improve performance. Finally, we evaluate current histopathology foundation models, finding that magnification is a primary driver of performance variation across models. Our work paves the way towards future pathology foundation models that perform reliably across magnifications.",
       "journal": "Med Image Anal",
-      "date": "2026-10-26",
+      "date": "2026-10-01",
       "authors": [
-        "Brüggemann D",
-        "Krymova E",
-        "Ozdemir F",
-        "von Spiczak J",
-        "Kozerke S",
-        "Mora S",
-        "Manka R",
-        "Salzmann M",
-        "Demler OV"
+        "Möllers A",
+        "Hense J",
+        "Schulz F",
+        "Milbich T",
+        "Alber M",
+        "Ruff L"
       ],
       "pubtypes": [
         "Journal Article"
       ],
-      "doi": "10.1016/j.media.2026.104376",
+      "doi": "10.1016/j.media.2026.104327",
       "journal_tier": 1,
       "impact": 10.7,
-      "section": "girisim",
+      "section": "egitim",
       "score": 100.0,
       "score_parts": {
         "journal": 100,
@@ -71,23 +37,25 @@
       "abstract_tr": ""
     },
     {
-      "pmid": "42966317",
-      "title": "Joint segmentation of pancreatic tumors and peripancreatic vessels via a clinical risk-aware uncertainty alignment framework.",
-      "abstract": "Preoperative assessment of pancreatic cancer resectability critically relies on accurate joint segmentation of tumors and peripancreatic vessels from contrast-enhanced CT. However, beyond segmentation accuracy alone, effective decision support in practice further requires task-specific characterization of peri‑tumoral infiltration risk and topological discontinuity risk. To address this, we propose a clinical risk-aware uncertainty alignment framework that achieves reliable risk characterization while maintaining high segmentation accuracy. The framework is built upon a dual-decoder architecture with evidential deep learning for joint segmentation and uncertainty estimation. Two clinically grounded alignment strategies are further designed to transform this uncertainty into task-specific risk indicators. Specifically, an infiltration-aware boundary uncertainty alignment module is proposed, which synthesizes texture, spatial, and vascular proximity factors into an infiltration-inspired prior and uses its ordinal structure to guide alignment, yielding infiltration-risk-aware uncertainty from which infiltration-aware tumor boundaries are derived for downstream invasion analysis. A topology-aware discontinuity uncertainty alignment module is further designed, which uses skeleton-mismatch regions as a connectivity-related proxy and constrains uncertainty by a three-tier ordinal relation with region-weighted supervision, yielding discontinuity-risk-aware uncertainty and improved vessel connectivity. Multi-center validation on 1058 patients from five medical centers demonstrates favorable and stable cross-institutional performance, and downstream experiments explore the utility of the aligned uncertainty for tumor-vessel invasion analysis. Overall, this study couples accurate tumor and vessel delineation with clinically grounded risk characterization, with the potential to support tumor-vessel assessment in preoperative planning. Our source code will be released at https://github.com/SJTUBME-QianLab/CRUA-Net.",
-      "journal": "Med Image Anal",
-      "date": "2026-10-26",
+      "pmid": "42967258",
+      "title": "Node-RADS outperforms dual-energy CT-derived quantifications for distinguishing metastatic from non-metastatic regional lymph nodes in resectable gastric cancer.",
+      "abstract": "OBJECTIVE: To evaluate and compare the diagnostic performance of Node-RADS, dual-energy CT (DECT)-derived quantitative parameters, and their combination for distinguishing metastatic from non-metastatic regional lymph nodes (LNs) in patients with resectable gastric cancer (GC). MATERIALS AND METHODS: Between Jan 2022 and Oct 2025, 115 consecutive patients with resectable GC who underwent preoperative triple-phase enhanced DECT scans and radical gastrectomy with D2 lymphadenectomy were retrospectively enrolled. A total of 151 regional LNs (70 metastatic, 81 non-metastatic) with region-level pathological confirmation were selected for node-level comparison. Two radiologists independently assessed Node-RADS scores for each LN. LN short diameter (SD) was measured at the venous phase on the maximal axial slice. DECT-derived parameters (CT attenuation at 40 keV, iodine concentration (IC), and effective atomic number (Zeff) across arterial, venous, and delayed phases) were analyzed using a freehand region of interest on the maximal axial slice of the LN. Diagnostic performances were evaluated using receiver operating characteristic curve analysis and compared using the DeLong test. RESULTS: IC at delayed phase (ICDP) was the sole parameter associated with LN involvement. The initial Node-RADS score (cut-off ≥ 3) achieved an AUC of 0.859 (95% CI: 0.793-0.910), significantly outperforming SD (AUC: 0.780, p < 0.05) and ICDP (AUC: 0.612, p < 0.05). Two modified Node-RADS algorithms incorporating ICDP under different rule-in and rule-out criteria were established, but did not improve diagnostic performance beyond the initial Node-RADS scores. CONCLUSION: Node-RADS demonstrates superior diagnostic performance compared with DECT-derived quantitative parameters for identifying metastatic regional LNs in resectable GC, and can be reliably applied in the DECT settings. KEY POINTS: Question Preoperative differentiation of metastatic from non-metastatic regional lymph nodes in resectable gastric cancer remains inaccurate using conventional size criteria. Findings Node-RADS  (AUC = 0.859) outperformed SD diameter (continuous: AUC = 0.780; its > 8 mm dichotomized counterpart: AUC = 0.748) and ICDP (AUC = 0.612) for metastatic LN discrimination. Clinical relevance Node-RADS is a standardized and reproducible criterion that can be applied in dual-energy CT scenarios to effectively identify regional lymph node metastasis in resectable gastric cancer.",
+      "journal": "Eur Radiol",
+      "date": "2026-11-01",
       "authors": [
-        "Fu W",
-        "Zhu H",
-        "Chen T",
-        "Qian X"
+        "Yao DX",
+        "Lin XX",
+        "Bei TX",
+        "Ma F",
+        "Wang Y",
+        "Li J"
       ],
       "pubtypes": [
         "Journal Article"
       ],
-      "doi": "10.1016/j.media.2026.104378",
+      "doi": "10.1007/s00330-026-12993-8",
       "journal_tier": 1,
-      "impact": 10.7,
+      "impact": 4.7,
       "section": "abdomen",
       "score": 100.0,
       "score_parts": {
@@ -99,24 +67,55 @@
       "abstract_tr": ""
     },
     {
-      "pmid": "42965691",
-      "title": "AI-based diagnosis of frontotemporal dementia using neuroimaging: a systematic review and meta-analysis.",
-      "abstract": "OBJECTIVE: This meta-analysis aimed to evaluate the diagnostic accuracy of neuroimaging-based artificial intelligence (AI) models for detecting frontotemporal dementia (FTD) and its primary clinical subtypes. MATERIALS AND METHODS: A systematic search of PubMed, Embase, Web of Science, and Cochrane Library was conducted up to October 22, 2025. Studies reporting neuroimaging-based AI model performance for diagnosing FTD variants against cognitively normal (CN) controls were included. Study quality and outcome certainty were assessed using the PROBAST + AI tool and GRADE. A bivariate random-effects model was used to calculate pooled sensitivity, specificity, and the area under the curve (AUC). RESULTS: Twenty-three studies involving 3670 subjects were included. AI models demonstrated a pooled sensitivity of 0.91 (95% CI: 0.87-0.93; I2 = 73.2%), specificity of 0.92 (95% CI: 0.89-0.94; I2 = 80.2%), and an AUC of 0.96 (95% CI: 0.94-0.98). Subtype analysis revealed the highest performance for semantic variant primary progressive aphasia (svPPA), with an AUC of 0.98 (95% CI: 0.97-0.99). Across neuroimaging modalities (sMRI, fMRI, PET, and multimodal), AUC values remained consistently robust, ranging from 0.94 to 0.98. Notably, a temporal analysis indicated a slight declining trend in reported AUC values from 2009 to 2025, though most models maintained an AUC above 0.90. CONCLUSIONS: Neuroimaging-based AI models show promising diagnostic performance for FTD, especially for the svPPA subtype, supporting their potential as a clinical adjunct. However, the evidence certainty is limited by frequent high risk of bias and study heterogeneity. Prospective, multicenter validation is required to confirm generalizability and clinical utility. REGISTRATION NUMBER: CRD420251270006. KEY POINTS: Question Can neuroimaging-based artificial intelligence accurately distinguish frontotemporal dementia and its major clinical subtypes from cognitively normal controls in published diagnostic studies? Findings Across 23 studies, pooled accuracy was high, but estimates were limited by heterogeneity, small subgroup samples, and frequent validation bias. Clinical relevance AI models may support FTD diagnostic workflows, but current evidence favors cautious adjunctive use rather than stand-alone clinical implementation until prospective external validation improves.",
+      "pmid": "42966772",
+      "title": "Sex- and age-specific distributions of intervertebral disc morphology on T2-weighted MR imaging: a population-based study.",
+      "abstract": "OBJECTIVES: To perform a large-scale, automated morphometric analysis of intervertebral discs and characterize age- and sex-specific distributions of intervertebral disc (IVD) height, diameter, volume, and signal intensity in adults aged 19-74 years using T2-weighted MR imaging. MATERIALS AND METHODS: Sagittal T2-weighted MR images from 30,927 participants of the German National Cohort (NAKO) were analyzed. Participants with back pain or osteoporosis were excluded. Intervertebral discs were segmented using a validated machine learning-based algorithm (SPINEPS). Morphometric parameters (IVD height, diameter, volume, and signal intensity) were extracted and analyzed separately for the cervical, thoracic, and lumbar spine. Analyses were stratified by sex and predefined age groups ( < 30, 30-39, 40-49, 50-59, ≥ 60 years). Multivariable fractional polynomial regression models were used to assess associations with age, body height, and body weight. RESULTS: After exclusion, 22,979 adults remained (13,307 men, 9672 women; mean age 47.0 ± 12.5 years). Across all spinal regions, IVD height, diameter, and volume were higher in men than in women. Increasing age was associated with progressive reduction in IVD height, volume, and signal intensity, accompanied by an increase in IVD diameter. Higher body weight was associated with increased IVD signal intensity in the lower cervical spine, whereas an inverse association was observed in the lower lumbar spine. CONCLUSION: Using automated, large-scale MRI, this study characterizes age- and sex-specific distributions of intervertebral disc morphology in a large population-based cohort. These findings provide a comprehensive, normative reference of age- and sex-specific distributions of intervertebral disc morphology across the cervical, thoracic, and lumbar spine, offering a framework to support clinical interpretation, spine research, and surgical planning. KEY POINTS: Question What are the age- and sex-specific distributions of intervertebral disc morphology across the cervical, thoracic, and lumbar spine in a large population-based adult cohort? Findings Men exhibited higher disc height, diameter, and volume than women. Increasing age reduced disc height, volume, and signal intensity, while disc diameter increased. Clinical relevance These population-based data provide descriptive distributions of intervertebral disc morphology, supporting spine imaging interpretation and future clinical, epidemiological, and research applications.",
       "journal": "Eur Radiol",
       "date": "2026-10-31",
       "authors": [
-        "Li Y",
-        "He X",
-        "Li N",
-        "Luo X"
+        "Schön H",
+        "Graf R",
+        "Schmidt CO",
+        "Kirschke JS",
+        "Möller H",
+        "Weber MA",
+        "Atad M",
+        "Wiestler B",
+        "Bodden J",
+        "Krist L",
+        "Pischon T",
+        "Schmidt B",
+        "Mikolajczyk R",
+        "Heise J",
+        "Kettlitz R",
+        "Bärnighausen T",
+        "Kröncke T",
+        "Decker J",
+        "Bamberg F",
+        "Ringhof S",
+        "Schlett CL",
+        "Berger K",
+        "Karch A",
+        "Leitzmann M",
+        "Holleczek B",
+        "Brenner H",
+        "Willich S",
+        "Weiss JB",
+        "Völzke H",
+        "Budai BK",
+        "Rach S",
+        "Niendorf T",
+        "Keil T",
+        "Schulze MB",
+        "Streckenbach F"
       ],
       "pubtypes": [
         "Journal Article"
       ],
-      "doi": "10.1007/s00330-026-13016-2",
+      "doi": "10.1007/s00330-026-12968-9",
       "journal_tier": 1,
       "impact": 4.7,
-      "section": "girisim",
+      "section": "toraks",
       "score": 100.0,
       "score_parts": {
         "journal": 100,
@@ -127,179 +126,92 @@
       "abstract_tr": ""
     },
     {
-      "pmid": "42963472",
-      "title": "Shear-wave elastography in rotator cuff tears: a systematic review of measurement properties, tissue-stiffness findings, and clinical interpretability.",
-      "abstract": "OBJECTIVES: Shear-wave elastography (SWE) may quantify rotator cuff mechanical properties, but its measurement performance and clinical interpretability remain incompletely established. This work sought to synthesize evidence on the feasibility, measurement properties, and interpretability of rotator cuff SWE in adults with rotator cuff tears (RCTs). MATERIALS AND METHODS: PubMed, Scopus, and Web of Science were searched. Eligible studies were in vivo primary studies in adults (≥ 18 years) with suspected or symptomatic rotator cuff disease in whom partial- or full-thickness RCT was confirmed by an imaging or surgical reference standard, including conventional ultrasound, MRI, CT, or arthroscopy, and/or studies including clinically relevant comparator shoulders or asymptomatic controls. Studies had to use ultrasound SWE with quantitative outputs, including shear-wave speed/velocity or modulus, in the supraspinatus tendon and/or rotator cuff muscles. RESULTS: Thirteen SWE studies were retained from 6273 records. Two primarily assessed reliability/repeatability. Intra-rater reproducibility was high in the primary reliability studies, including ICCs > 0.87 and 0.96, whereas inter-rater reproducibility was lower and variable, ranging from ICCs > 0.73 to 0.45. Eleven studies contributed construct-validity or known-groups evidence, one provided strict criterion-validity evidence against intraoperative passive stiffness, and two provided longitudinal postoperative evidence. SWE findings varied across tissue targets, devices, regions of interest, arm positions, comparators, and reference standards. Only one study explicitly defined chronicity, and direct postoperative/prognostic evidence was limited. CONCLUSIONS: SWE appears useful as a complementary quantitative imaging tool for selected rotator cuff tissue-characterization and measurement-property applications. However, inter-rater reproducibility, measurement error, chronicity assessment, and prognostic validity remain insufficiently established. KEY POINTS: Question Can shear-wave elastography (SWE) address the unmet need for reliable quantitative rotator cuff tissue assessment beyond conventional imaging in adults with tears? Findings Thirteen studies showed high intra-rater reproducibility but variable inter-rater reproducibility. Evidence for chronicity assessment and prognosis remained sparse and heterogeneous. Clinical relevance SWE may complement ultrasound or MRI by quantifying selected rotator cuff mechanical properties, but current evidence does not justify using it alone to determine tear chronicity, reparability, or prognosis.",
-      "journal": "Eur Radiol",
-      "date": "2026-10-30",
+      "pmid": "42968509",
+      "title": "Assessing effects of low-dose CT attenuation correction on quantification and image quality on a LAFOV PET system with a modified NEMA-IQ phantom.",
+      "abstract": "BACKGROUND: Over the past decades, efforts have been directed toward increasing the sensitivity of PET systems to enable low-dose PET imaging and shorter scan times. The Biograph Vision Quadra PET/CT scanner (Siemens Healthineers, Knoxville, TN, USA) combines an increased solid angle coverage with time of flight, enabling a significant reduction in administered activity. To fully benefit from low-dose PET imaging, the dose of the CT scan should ideally also be reduced. PURPOSE: The CT radiation dose can be reduced by lowering the tube voltage and exposure as well as by the use of tin filtration. Reducing the CT dose must be carefully aligned with any impact that changing CT image quality and quantitative metrics may have on the PET quantification, for example via linear attenuation coefficients. We evaluate the impact of low-dose CT protocols on the PET quantification in soft-tissue-like and bone-equivalent materials using a customized phantom. METHODS: The phantom was assembled out of a NEMA-IQ phantom, several layers of saline and two bovine long bones, to simulate a patient positioned with arms down. A 10-min PET scan with 47 different accompanying CT scans was acquired. The CT tube voltage and exposure were varied between 70  k V  to  140  k V  , with and without tin filtration, and 7  mAs  to  400  mAs  , respectively. The effect of the different CT parameters on the PET image quality and quantitative accuracy was assessed via several quantitative metrics, including standardized uptake value (SUV) and signal-to-noise ratio, along with the CT dose length product (DLP). RESULTS: The recorded DLP values suggest that using all tube voltages except 140  k V  combined with exposures in the range of 7  m A s  to  30  m A s  , can result in dose savings of ≥ 80  %  compared to a typical clinical protocol ( 120  k V  , 50  mAs  ). Compared to this typical protocol, HU differed more in bone ( 10  %  to  40  %  difference) than in soft tissue ( 1  %  to  30  %  difference), and more streak artefacts and photon starvation were seen when configuring low tube voltages and exposures, with an accompanying increase in CT noise. The observed artefacts were transferred with low intensity to the PET images via the attenuation map. The SUV mean  remained within 2  %  of the SUV mean  of the typical clinical protocol for most tested protocols. The presence of artefacts in the CT images had a bigger impact on PET quantification in both soft tissue and bone ( SUV mean  difference of 10  %  to  20  %  ) than any difference in HU. Protocols that resulted in artefacts showed an increased inaccuracy in attenuation correction and scatter estimation, as assessed via the \"lung\" residual error (up to 10  %  to  20  %  increase). CONCLUSIONS: Even for low-dose CT protocols, PET quantification remained consistent in all NEMA-IQ spheres for many materials. Beam hardening and photon starvation in the CT image are likely to occur in specific body regions such as hips, shoulders or the abdomen for an arms-down scan and these effects had a bigger impact on the quantification than any difference in HU in both soft tissue and bone. This therefore should be considered when selecting suitable CT imaging parameters.",
+      "journal": "Med Phys",
+      "date": "2026-11",
       "authors": [
-        "Trybulski R",
-        "Sozański T",
-        "Kużdżał A",
-        "Wang HK",
-        "Olaniszyn G",
-        "Kawczynski A"
+        "Nadig V",
+        "Mackewn J",
+        "Krokos G",
+        "Davies LC",
+        "Darian D",
+        "Gould SM",
+        "Cook GJR",
+        "Hammers A",
+        "Reader AJ",
+        "Marsden PK"
       ],
       "pubtypes": [
         "Journal Article"
       ],
-      "doi": "10.1007/s00330-026-13009-1",
-      "journal_tier": 1,
-      "impact": 4.7,
-      "section": "kas",
-      "score": 100.0,
+      "doi": "10.1002/mp.70706",
+      "journal_tier": 2,
+      "impact": 3.8,
+      "section": "girisim",
+      "score": 60.0,
       "score_parts": {
-        "journal": 100,
+        "journal": 60,
         "pubtype": 0,
         "recency": 0.0
       },
-      "tier": 2,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42966441",
-      "title": "Stent Configurations in Aortoiliac Occlusive disease: A Systematic Review and Meta-Analysis.",
-      "abstract": "PURPOSE: To evaluate which endovascular stent configuration at the aortic bifurcation offers superior outcomes for aorto-iliac occlusive disease (AIOD). METHODS: Studies reporting outcomes for endovascular reconstruction for AIOD, for TransAtlantic Inter-Society Consensus (TASC) C and D lesions were included in the review. Data for primary, primary-assisted and secondary patency were extracted (full-text articles or reconstructed from published Kaplan Meier curves). RESULTS: This review included 12 studies, including 1027 patients (177 Covered Endovascular Reconstruction of the Aortic Bifurcation (CERAB), 850 kissing stent). Most studies were retrospective cohort studies with moderate methodological quality. Median follow-up was 20 months for primary patency, and 48 months for assisted and secondary patency. CERAB and kissing stent techniques showed similar primary patency (p=0.24). Primary-assisted patency was slightly lower for CERAB but not statistically significant (p=0.051). Secondary patency favored CERAB (p=0.045). At two years, CERAB had primary patency of 90%, primary-assisted patency of 87%, and secondary patency of 100%. Kissing stents showed primary patency of 91%, primary-assisted patency of 92%, and secondary patency of 96%. CONCLUSION: Both stent types yielded positive results, but current data does not favor one configuration. Current studies on this topic are low quality. At present, the method of endovascular intervention for AIOD could be left to clinical expertise, although hemodynamic studies may provide insights. Randomized trial data or post-market registries are needed to ascertain superiority of any stent configuration in this disease process.",
-      "journal": "J Vasc Interv Radiol",
-      "date": "2026-10-31",
-      "authors": [
-        "Sivaharan A",
-        "Ugwumba L",
-        "El-Sayed T",
-        "Nandhra S",
-        "Configurations In Aortoiliac Occlusive Disease S"
-      ],
-      "pubtypes": [
-        "Journal Article",
-        "Review"
-      ],
-      "doi": "10.1016/j.jvir.2026.109176",
-      "journal_tier": 2,
-      "impact": 3.2,
-      "section": "girisim",
-      "score": 70.0,
-      "score_parts": {
-        "journal": 60,
-        "pubtype": 10,
-        "recency": 0.0
-      },
       "tier": 3,
       "abstract_tr": ""
     },
     {
-      "pmid": "42966440",
-      "title": "Comparative Effectiveness and Safety of Treatments and Embolic Agents for Symptomatic Uterine Fibroids: A Bayesian Network Meta-analysis.",
-      "abstract": "PURPOSE: To compare, using Bayesian network meta-analysis, the effectiveness and safety of treatments and embolic agents for symptomatic uterine fibroids. MATERIALS AND METHODS: A PRISMA-compliant systematic review of randomized controlled trials (PubMed, Embase, Cochrane Library; inception through July 2026) compared, via two prespecified Bayesian network meta-analyses, (1) uterine artery embolization (UAE) with hysterectomy, myomectomy, magnetic resonance-guided focused ultrasound, microwave ablation, and laparoscopic uterine artery occlusion, and (2) embolic agents used during UAE. Primary outcomes were technical success and major complications for treatment strategies, and complete/near-complete fibroid infarction for embolic agents; reintervention was secondary in both networks. RESULTS: Twenty-three RCTs (N=2,055 women) were included. Technical success and major complication rates did not differ significantly across treatment strategies or embolic agents in the Bayesian analysis, though frequentist analysis showed slightly higher technical success with hysterectomy than UAE (RR, 1.09; 95% CI, 1.02-1.17). Myomectomy had significantly lower reintervention than UAE (OR, 0.21; 95% CrI, 0.10-0.40). Several Bayesian associations emerged for polyvinyl alcohol (PVA) particles versus tris-acryl gelatin microspheres (TAGM), including higher complete infarction (OR, 4.8; 95% CrI, 1.0-40), higher reintervention (OR, 5.3; 95% CrI, 1.4-28), and divergent findings with PVA700-900; none was reproduced in the frequentist analysis. CONCLUSION: UAE did not differ significantly from alternative strategies in procedural success or safety, but myomectomy showed greater durability. Evidence is insufficient to establish definitive embolic-agent differences. Treatment strategy appears to influence outcomes more than embolic material, supporting individualized selection and larger trials.",
-      "journal": "J Vasc Interv Radiol",
-      "date": "2026-10-31",
+      "pmid": "42968298",
+      "title": "Gaussian process regression of HDR prostate biopsy dose for improved modelling of localization-induced uncertainty.",
+      "abstract": "BACKGROUND: Biopsy-level dose interpretation after high-dose-rate prostate brachytherapy is limited by localization uncertainty, and separate voxelwise Monte Carlo summaries do not explicitly account for the axial spatial correlation present along a biopsy core. PURPOSE: To develop and internally evaluate a biopsy-level Gaussian process regression framework for assigning along-core high-dose-rate prostate brachytherapy dose under localization uncertainty, and to test whether explicit modelling of axial spatial correlation improves uncertainty characterization relative to voxelwise Monte Carlo summaries treated independently. METHODS: We analyzed 27 MR-informed, transrectal-ultrasound (TRUS)-guided transperineal template biopsies from 15 patients treated with high-dose-rate prostate brachytherapy. For each biopsy voxel, Monte Carlo localization perturbations were propagated to generate dose summaries and voxel-specific variances. Biopsy-specific empirical semivariograms were fitted with candidate covariance kernels, and ordinary-mean heteroscedastic Gaussian process posteriors were computed along each core. Internal evaluation included latent-profile residual diagnostics, kernel-sensitivity analysis, and blocked cross-validation using contiguous held-out axial segments scored on held-out points only. RESULTS: For the selected baseline kernel, Matérn ν = 1.5  , the across-biopsy median voxel-averaged standard deviation was 6.91 Gy for the Monte Carlo summaries and 2.60 Gy for the latent GP posterior. The median within-biopsy reduction was 59.1%, with a median shrinkage ratio of 2.45. Fitted length scales were heterogeneous across biopsies, with median   ℓ ̂ b = 15.35  mm, while nugget fractions were typically small. Cohort standardized residuals were near-centered with conservative spread. In blocked cross-validation, predictive performance on held-out points remained favorable, with median root-mean-square error of 1.99 Gy, median mean absolute error of 1.58 Gy, and median negative log predictive density of 3.28. Among the tested kernels, held-out predictive error favored Matérn ν = 1.5  . CONCLUSION: Along-core dose interpretation after localization uncertainty should use a spatially correlated model rather than separate voxelwise summaries alone. This Gaussian process framework provides a covariance-informed posterior dose representation with held-out internal validation and offers a practical basis for biopsy-level probabilistic quality assurance and future dose-response analyses.",
+      "journal": "Med Phys",
+      "date": "2026-11",
       "authors": [
-        "Coutinho ML",
-        "Bregalda Neves CR",
-        "Torres IO",
-        "Delgado Medical LM",
-        "Saes GF",
-        "Messina M",
-        "Zerati AE",
-        "D'Oria M",
-        "Leão PP"
+        "Muscat M",
+        "Crook J",
+        "Jirasek A",
+        "Andrews J",
+        "Becker N"
       ],
       "pubtypes": [
-        "Journal Article",
-        "Review"
+        "Journal Article"
       ],
-      "doi": "10.1016/j.jvir.2026.109178",
+      "doi": "10.1002/mp.70712",
       "journal_tier": 2,
-      "impact": 3.2,
-      "section": "girisim",
-      "score": 70.0,
-      "score_parts": {
-        "journal": 60,
-        "pubtype": 10,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42965591",
-      "title": "Transfemoral transcaval adrenal biopsy: a technical report and review of adrenal biopsy approaches.",
-      "abstract": "Despite advances in cross-sectional imaging, adrenal biopsy plays a role in a small subset of lesions that remain indeterminate after complete imaging work-up or in which tissue diagnosis would alter management. Anatomic constraints around the adrenal glands can make safe percutaneous access technically challenging. This technical report describes a transfemoral transcaval approach to biopsy of a right adrenal mass directly abutting the inferior vena cava (IVC) that was not safely accessible by conventional percutaneous routes. Additionally, a concise review of contemporary adrenal biopsy indications and access routes is performed. Adapted from transfemoral transcaval liver biopsy, the technique uses right common femoral venous access, positioning of a reshaped metal guide cannula within the IVC at the level of the lesion adjacent to the right renal vein, and deployment of a core biopsy needle across the caval wall under combined fluoroscopic and ultrasound guidance, with cone-beam CT confirmation of needle position and completion venography to exclude caval injury. Diagnostic tissue was obtained without periprocedural complication; histopathology demonstrated an unexpected pheochromocytoma, a finding discussed here in detail due to its implications for pre-procedure biochemical evaluation. This limited experience demonstrates technical feasibility in carefully selected patients. The safety and comparative effectiveness of the technique require evaluation in larger series.",
-      "journal": "Abdom Radiol (NY)",
-      "date": "2026-10-31",
-      "authors": [
-        "Rubinov Y",
-        "Lubat A",
-        "Katz R",
-        "Cynamon J"
-      ],
-      "pubtypes": [
-        "Journal Article",
-        "Review"
-      ],
-      "doi": "10.1007/s00261-026-05849-8",
-      "journal_tier": 2,
-      "impact": 2.3,
+      "impact": 3.8,
       "section": "abdomen",
-      "score": 70.0,
+      "score": 60.0,
       "score_parts": {
         "journal": 60,
-        "pubtype": 10,
+        "pubtype": 0,
         "recency": 0.0
       },
       "tier": 3,
       "abstract_tr": ""
     },
     {
-      "pmid": "42963473",
-      "title": "A new bone lesion or an aging marrow phenotype? Rethinking bilateral distal femoral sclerosis.",
-      "abstract": "",
-      "journal": "Eur Radiol",
-      "date": "2026-10-30",
+      "pmid": "42967541",
+      "title": "Dosimetric impact of CBCT-guided online adaptive stereotactic body radiotherapy for prostate cancer: a 250-fraction retrospective analysis.",
+      "abstract": "PURPOSE: To quantitatively evaluate the dosimetric benefit of CBCT-guided online adaptive radiotherapy (ART) for prostate SBRT compared with non-adaptive treatment planning, with emphasis on target coverage preservation and organ-at-risk (OAR) sparing. METHODS AND MATERIALS: Fifty prostate patients treated on the Varian Ethos platform were retrospectively analyzed. For each fraction, scheduled plans (reference plan recalculated on daily anatomy) were compared with adapted plans (daily reoptimized plans). Target coverage was assessed using PTV D95% while bladder and rectal metrics were evaluated using institutional constraints. Fraction-level paired comparisons used the Wilcoxon signed-rank test. Fractions with substantial scheduled-plan under-coverage (PTV D95% ≤80%) underwent cumulative dose reconstruction. RESULTS: Adaptive plans achieved higher target coverage than scheduled plans (p < 0.001), although scheduled plans remained within ∼3% of prescription in 83% of fractions. Scheduled plans demonstrated a 20% reduction in PTV D95% in 3.6% of fractions and >5% coverage reduction in 11%, whereas no adaptive fractions showed similarly large deviations. Cumulative scheduled-only dose remained near prescription for most affected patients, with only one patient demonstrating a cumulative D95% reduction of ∼5%. OAR differences were small overall, with ART planning mainly reducing occasional constraint violations. Strict application of planning objectives resulted in 234 adaptive fractions meeting goals versus 62 scheduled fractions, improving to 135 with offline renormalization. CONCLUSIONS: CBCT-guided ART for prostate SBRT primarily improves robustness against infrequent but clinically significant dosimetric deviations rather than providing consistent superiority across most fractions.",
+      "journal": "Radiother Oncol",
+      "date": "2026-11-01",
       "authors": [
-        "Cilengir AH",
-        "Dirim Mete B"
-      ],
-      "pubtypes": [
-        "Editorial",
-        "Comment"
-      ],
-      "doi": "10.1007/s00330-026-13042-0",
-      "journal_tier": 1,
-      "impact": 4.7,
-      "section": "genel",
-      "score": 70.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": -30,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42966442",
-      "title": "COLLATERAL EMBOLIZATION IN THE ENDOVASCULAR TREATMENT OF PORTAL CAVERNOMA CHOLANGIOPATHY: A POTENTIAL CAUSE OF SEVERE BILIARY OBSTRUCTION.",
-      "abstract": "Management of complicated portal cavernoma cholangiopathy (PCC) remains nonstandardized. When biliary drainage fails, portal vein recanalization with transjugular intrahepatic portosystemic shunt (PVR-TIPS) is increasingly considered and may require collateral embolization during the procedure. This work describes two patients with complicated PCC in whom collateral embolization during or after PVR-TIPS caused severe biliary obstruction requiring long-term biliary drainage. A narrative review was conducted, identifying 18 published studies describing patients with PCC who underwent endovascular treatment. Collateral embolization was inconsistently reported, and its biliary consequences were rarely described. Severe biliary obstruction following peribiliary collateral embolization may therefore be an underrecognized complication; however, its incidence remains unknown based on the available literature. Thus, when collateral embolization is considered during endovascular treatment of PCC, its potential biliary risk should be weighed, and the anatomical relationship between the targeted collaterals and the bile duct carefully assessed.",
-      "journal": "J Vasc Interv Radiol",
-      "date": "2026-10-31",
-      "authors": [
-        "Conthe A",
-        "Arjona L",
-        "Sasía M",
-        "Echenagusía MJ",
-        "Álvarez-Luque A",
-        "Ibáñez-Samaniego L",
-        "Lledó JG",
-        "Rincón D",
-        "Plaza MS",
-        "Catalina MV"
+        "Eldib A",
+        "Clark AT",
+        "Panetta J",
+        "Hashemi R",
+        "Chen L",
+        "Price R",
+        "Hallman M",
+        "Wong K",
+        "Horwitz E",
+        "Ma CMC"
       ],
       "pubtypes": [
         "Journal Article"
       ],
-      "doi": "10.1016/j.jvir.2026.109177",
+      "doi": "10.1016/j.radonc.2026.111857",
       "journal_tier": 2,
-      "impact": 3.2,
+      "impact": 4.9,
       "section": "girisim",
       "score": 60.0,
       "score_parts": {
@@ -311,28 +223,103 @@
       "abstract_tr": ""
     },
     {
-      "pmid": "42966149",
-      "title": "Non-contrast MR Neurography for the evaluation of Facial Nerve Neuropathy in patients with Facial Synkinesis - a comparative case-control study.",
-      "abstract": "BACKGROUND AND PURPOSE: Facial synkinesis is a debilitating sequela of peripheral facial nerve palsy, yet objective imaging characterization of the affected facial nerve remains limited. We evaluated the discrimination performance of non-contrast peripheral MR neurography (MRN) using 3D PSIF in patients with facial synkinesis. MATERIALS AND METHODS: In this retrospective case-control study, non-contrast MRN images of 32 adults with unilateral facial synkinesis (28 Bell's palsy, 4 Ramsay Hunt syndrome) and 30 controls (29 occipital neuralgia, 1 TMJ pain) were independently reviewed by two fellowship-trained radiologists. Discrimination performance of 3D PSIF was calculated from 2 × 2 tables against cases versus controls, compared with bFFE using McNemar's test, and inter-reader reliability quantified using Cohen's κ. RESULTS: 3D PSIF demonstrated high accuracy for facial neuropathy detection (Reader 1: 93.5%, sensitivity 90.6%, specificity 96.7%; Reader 2: 91.9%, sensitivity 87.5%, specificity 96.7%). Compared to bFFE in the paired subset (n = 59), 3D PSIF demonstrated substantially higher sensitivity than bFFE (sensitivity 86.7% vs 30.0%; equivalent specificity 96.6%; McNemar p < 0.001). The mastoid and extratemporal segments were the most involved, while the canalicular and labyrinthine segments were not involved in any case. Inter-reader agreement was almost perfect for signal abnormality (κ = 0.97), increased nerve thickness (κ = 0.97), and segmental patterns (full agreement in 53/62 patients, 85.5%). CONCLUSIONS: In this single-center, proof-of-concept study, non-contrast 3D PSIF reliably identified facial nerve abnormality in facial synkinesis and outperformed bFFE, with predominantly distal nerve involvement. A prospective multi-center validation is needed before these findings can inform clinical practice.",
-      "journal": "Eur J Radiol",
-      "date": "2026-10-24",
+      "pmid": "42967540",
+      "title": "A prospective randomized evaluation of AI assisted GTV contouring in head-and-neck radiotherapy.",
+      "abstract": "BACKGROUND: AI-assisted contouring has demonstrated efficiency and consistency benefits for organs-at-risk in radiotherapy. However, its impact on gross tumor volume (GTV) delineation remains unexplored. The aim of this study was to evaluate AI-assisted GTV contouring in head and neck cancer radiotherapy in an exploratory randomized controlled clinical trial. METHODS: In this prospective, single-centre, randomized controlled evaluation, patients referred for curative-intent radiotherapy of head-neck cancer were randomized to manual contouring (control) or AI-assisted contouring (intervention) of gross tumor volumes using an in-house developed segmentation model. The primary endpoint was the extent of editing during a blinded multidisciplinary target conference, using normalized Added Path Length (APL). Secondary endpoints included conference duration, self-reported contouring time, and perceived complexity of the cases. RESULTS: Between Sept 11, 2023, and Jan 20, 2025, 85 patients were enrolled; 83 were included in the analysis (41 control, 42 AI-assisted). The median difference in APL (AI-assisted minus control, negative favoring the intervention) was -0.02 [-0.32; 0.07] for GTV-T and 0.06 [-0.01; 0.14] for GTV-N. Conference duration, contouring time, and perceived complexity were similar between groups. No adverse events were reported. CONCLUSION: The median difference in APL between groups was consistent with no relevant effect for GTV-T. For GTV-N, however, AI-assisted contouring tended towards more editing during peer review for APL, but not for supplementary contour metrics. No efficiency benefits were demonstrated. Overall, these findings do not indicate a concern, but warrants further research before widespread adoption.",
+      "journal": "Radiother Oncol",
+      "date": "2026-11-01",
       "authors": [
-        "Andrew D",
-        "Chhabra A",
-        "Johansen CF",
-        "Pezeshk P",
-        "Malja E",
-        "Rincy B",
-        "Bandaru S",
-        "Lee M",
-        "Rozen SM"
+        "Rasmussen ME",
+        "Ren J",
+        "Nijkamp JA",
+        "Holm AIS",
+        "Moos K",
+        "Hochreuter KM",
+        "Primdahl H",
+        "Andreassen CN",
+        "Toustrup K",
+        "Schack LMH",
+        "Eriksen JG",
+        "Korreman SS"
       ],
       "pubtypes": [
         "Journal Article"
       ],
-      "doi": "10.1016/j.ejrad.2026.113330",
+      "doi": "10.1016/j.radonc.2026.111854",
       "journal_tier": 2,
-      "impact": 3.2,
+      "impact": 4.9,
+      "section": "girisim",
+      "score": 60.0,
+      "score_parts": {
+        "journal": 60,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42967539",
+      "title": "Real world clinical outcomes of deep learning based versus manual proton therapy planning for oropharyngeal cancer: A matched cohort study.",
+      "abstract": "OBJECTIVE: Recent deep learning (DL)-based planning approaches to intensity-modulated proton therapy (IMPT) have shown promise for improving planning efficiency and quality. A recent study demonstrated clinical acceptable DL-based plan quality in patients with oropharyngeal cancer (OPC), this study used real-world clinical outcomes to compare oncological outcomes acute and early late side effects between OPC patients treated with DL-based IMPT and those treated with manual planning. METHODS: In this observational matched cohort study, OPC patients were treated with DL-based IMPT, and were matched 1:1 to a recent manually planned IMPT cohort (74 vs 74). In DL-based planning, U-Net predicted dose distributions were robustly optimized and manually refined for approximately two hours. Overall survival, progression-free survival, locoregional control, and distant metastasis-free survival were evaluated using survival analysis. Acute and early late side effects were prospectively assessed according to CTCAE v4.0 and patient-rated symptoms were scored using the EORTC QLQH&N35 questionnaire at baseline, weekly during treatment, 12 weeks, 6 months and 12 months after treatment start. The impact of the planning method was evaluated using generalized estimating equations adjusted for baseline values. RESULTS: No statistically significant differences were observed for any oncological outcome. Similarly, no statistically significant differences in acute and early late side effects were observed between DL-based and manual planning. CONCLUSION: In real-world clinical practice, the findings of this study provide no evidence that DL-based IMPT is associated with different oncological outcomes or side effects than manual planning. These findings support the clinical implementation of DL-based planning in patients with OPC.",
+      "journal": "Radiother Oncol",
+      "date": "2026-11-01",
+      "authors": [
+        "van Bruggen IG",
+        "van der Laan HP",
+        "Hessels AC",
+        "Steenbakkers RJHM",
+        "van den Hoek JGM",
+        "Oldehinkel E",
+        "Verbeek HHG",
+        "Atasoyu M",
+        "Brinkman-Akker MJ",
+        "Korevaar EW",
+        "Both S",
+        "Langendijk JA"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.radonc.2026.111856",
+      "journal_tier": 2,
+      "impact": 4.9,
+      "section": "yapayzeka",
+      "score": 60.0,
+      "score_parts": {
+        "journal": 60,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42967538",
+      "title": "Survival outcomes of treatment strategies for cTanyN3M0 esophageal cancer: A nationwide population-based study.",
+      "abstract": "BACKGROUND: Patients with cTanyN3M0 esophageal cancer have a poor prognosis, due to a high risk of distant progression. Evidence on treatment outcomes for this subgroup is limited. This population-based study compared overall survival (OS) after treatment for cTanyN3M0 esophageal cancer. METHODS: Patients diagnosed with cTanyN3M0 esophageal cancer 2015-2022 were identified from the Netherlands Cancer Registry. Eligible patients received neoadjuvant chemoradiotherapy intended for subsequent esophagectomy (nCRT), definitive chemoradiotherapy (dCRT), perioperative chemotherapy (pCT) or palliative therapy. OS was compared across groups and separately between nCRT and dCRT after propensity score-matching. Recurrence patterns were evaluated for 2015-2018. RESULTS: Among 19,867 esophageal cancer patients, 316 were cTanyN3M0 and 265 met the inclusion criteria. Treatment groups were nCRT (n = 134, 51 %), dCRT (n = 59, 22 %), pCT (n = 11, 4 %) and palliative therapy (n = 61, 23 %). Esophagectomy was performed in 68.6 % after nCRT and 5.1 % after dCRT. Adjuvant nivolumab was given in 10.4 % after nCRT and 1.7 % after dCRT. Median OS for nCRT versus dCRT was 18.8 versus 15.2 months (hazard ratio [HR] 0.76, 95 % confidence interval [CI]: 0.54-1.08). After matching, median OS was 17.6 versus 16.1 months (38 patients per group; HR 0.78, 95 % CI: 0.46-1.31). Median OS after pCT was 18.9 months and after palliative therapy 7.1 months. Among 65 documented first recurrences, 85 % involved distant metastases. CONCLUSION: This real-world study on cTanyN3M0 esophageal cancer observed no statistically significant survival difference between nCRT and dCRT and a high risk of distant recurrence. These findings suggest that emphasis should be placed on improving systemic control.",
+      "journal": "Radiother Oncol",
+      "date": "2026-11-01",
+      "authors": [
+        "Hafkamp CJH",
+        "Geijsen ED",
+        "van Laarhoven HWM",
+        "Derks S",
+        "Bennink RJ",
+        "Verhoeven RHA",
+        "Meijer SL",
+        "Gisbertz SS",
+        "van Berge Henegouwen MI",
+        "Olthof PB",
+        "van der Veen A",
+        "van Rossum PSN"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.radonc.2026.111855",
+      "journal_tier": 2,
+      "impact": 4.9,
       "section": "genel",
       "score": 60.0,
       "score_parts": {
@@ -344,20 +331,32 @@
       "abstract_tr": ""
     },
     {
-      "pmid": "42966148",
-      "title": "After-hours on-site radiologist availability and emergency CT reporting: a roster-based cohort with staffing-boundary analysis.",
-      "abstract": "PURPOSE: To compare after-hours emergency CT report turnaround during periods with versus without roster-recorded on-site CT radiologist availability. MATERIALS AND METHODS: This retrospective roster-based cohort included emergency-department CT examinations from 1 July 2025 to 30 June 2026. The common-support cohort comprised non-holiday weekdays from 15:00 to 06:59 and all weekends and public holidays. Components within 15 min were grouped into packages. The exposure was on-site CT radiologist availability recorded in the final as-worked duty roster; actual reporting route was secondary. The primary outcome was scan-to-complete-report turnaround time (TAT). Models used duty-date-clustered standard errors and adjusted for patient, temporal, workload, and examination characteristics. RESULTS: The cohort contained 13,533 CT packages; 13,270 had usable TAT and 12,333 index encounters were clinically linked. Median TAT was 81 min without and 58 min with an on-site radiologist. Absence of an on-site radiologist was associated with 33.9% longer adjusted TAT (95% CI 25.4-43.0). The association was 28.4% for routine non-contrast head CT and 45.5% for abdominopelvic CT (interaction + 15.1%; p = 0.001). A ± 120-minute staffing-boundary analysis estimated 45.7% longer TAT (16.3-82.5), with positive estimates across ± 60- to ± 180-minute bandwidths and no detected covariate discontinuities. Actual-route TAT was 47.7% longer amid 34.5% route discordance. CONCLUSION: During comparable after-hours periods, roster-recorded absence of an on-site CT radiologist was associated with longer complete-report TAT, particularly for abdominopelvic CT. Downstream stay differences were exploratory and may reflect broader hospital processes.",
+      "pmid": "42967440",
+      "title": "CT-based adaptation of the Vizzielli laparoscopic risk-adjusted score in advanced ovarian cancer: Agreement and inter-reader reproducibility.",
+      "abstract": "PURPOSE: To evaluate agreement of proposed CT-based variants with the Vizzielli laparoscopic risk-adjusted score in suspected advanced ovarian cancer and assess inter-reader agreement of CT-derived components. METHODS: This retrospective single-center study included consecutive adults evaluated between January 2021 and November 2025 for suspected advanced ovarian cancer who underwent contrast-enhanced abdominopelvic CT and staging laparoscopy. Proposed CT-based modifications were operationalized as six score variants combining CT-derived peritoneal tumor burden, CT-estimated ascites, cancer antigen 125 (CA-125), and either Eastern Cooperative Oncology Group performance status (ECOG-PS) or CT-derived body composition parameters. Agreement with the laparoscopic risk-adjusted score was assessed using the intraclass correlation coefficient (ICC), Spearman correlation coefficient, and weighted Cohen's kappa. RESULTS: The final cohort included 80 patients. All CT-based variants showed agreement with the laparoscopic risk-adjusted score. For the variant combining CT-derived PCI, CT-estimated ascites, ECOG-PS, and CA-125, the consistency ICC was 0.76, Spearman's ρ was 0.806, and weighted Cohen's kappa was 0.76. This variant showed 70.0% agreement across the three risk categories and 83.8% agreement for high-risk versus non-high-risk classification, classifying 20 of 22 laparoscopic high-risk patients as high risk. The PCI-based skeletal muscle index (SMI) variant maintained substantial agreement: ICC, 0.73; Spearman correlation coefficient, 0.742; weighted Cohen's kappa, 0.74. Inter-reader agreement was high for CT-derived PCI, with an ICC of 0.91. CONCLUSION: Proposed CT-based variants showed agreement with the Vizzielli laparoscopic risk-adjusted score. The PCI-based ECOG-PS variant showed the highest agreement metrics, suggesting that structured CT assessment may help approximate laparoscopic risk categories before invasive evaluation.",
       "journal": "Eur J Radiol",
       "date": "2026-10-28",
       "authors": [
-        "Konieczka P",
-        "Kłosiewicz T",
-        "Al-Hosam K"
+        "Versienti E",
+        "Arcieri M",
+        "De Martino M",
+        "Francioso F",
+        "Sallustio G",
+        "Como G",
+        "Nyangang O",
+        "Zanagnolo MF",
+        "Filippin S",
+        "Restaino S",
+        "Driul L",
+        "Zuiani C",
+        "Girometti R",
+        "Vizzielli G",
+        "Cereser L"
       ],
       "pubtypes": [
         "Journal Article"
       ],
-      "doi": "10.1016/j.ejrad.2026.113332",
+      "doi": "10.1016/j.ejrad.2026.113334",
       "journal_tier": 2,
       "impact": 3.2,
       "section": "abdomen",
@@ -371,24 +370,28 @@
       "abstract_tr": ""
     },
     {
-      "pmid": "42965847",
-      "title": "Predicting Signal Intensity Profiles for Various MRI Contrast Agent Injection Strategies: Including Measurement of Relaxivities in Oxygenated Whole Human Blood for Gadopiclenol, Gadoterate Meglumine and Gadoteridol.",
-      "abstract": "BACKGROUND: Gadolinium based contrast agents (GBCAs) vary in arterial signal intensity (SI) profiles. Gadopiclenol is a high relaxivity GBCA approved at 0.05 mmol/kg. PURPOSE: Evaluate contrast-enhanced MRA injection strategies: measure r1, r2, and r2* of gadopiclenol, gadoterate meglumine, and gadoteridol in plasma and blood, and model arterial SI profiles for different injection rates. STUDY TYPE: Phantom/Modeling. PHANTOM: Vials of oxygenated whole blood and plasma, with gadopiclenol, gadoterate meglumine, and gadoteridol ranging from 1 to 18 mM. FIELDSTRENGTH/SEQUENCE: Look-Locker, multi-echo turbo spin echo (mTSE), multi-echo fast field echo (mFFE) at 1.5 T and 3.0 T. ASSESSMENT: R1 derived by mono-exponential recovery fitting of Look-Locker data. R2 and R2* derived by fitting mono-exponential decays of mTSE and mFFE data. r1plasma, r2plasma,blood, r2plasma,blood* derived by linear fitting of R1, R2, R2* versus GBCA concentration [GBCA]. R1blood predicted using fast-exchange-regime (FXR) and -limit (FXL), compared with measured R1blood. Spoiled gradient echo (SPGR) SI versus [GBCA] modeled at 1.5 T and 3.0 T for each GBCA and two SPGR protocols using these blood relaxivities, generating SI versus time curves at rates of 0.5, 1, and 2 mL/s. STATISTICAL TESTS: Trust reflective least squares algorithm, Levenberg-Marquardt least squares curve fitting, FXR and FXL prediction models. RESULTS: Gadopiclenol r1plasma, r2plasma, r2plasma* ~3 times greater than gadoteridol and gadoterate meglumine. R1blood, well-predicted by FXR (RMSE 4.6 vs. 28 s-1 for FXL). Gadopiclenol r2blood* 20%-46% higher than the other contrast agents, with r2 blood similar across agents (7.4-8.8 s-1 mM-1 at 1.5 T and 12.9-13.4 s-1 mM-1 at 3.0 T). CE-MRA modeling demonstrated slight SI decrease at 1 versus 2 mL/s (0%-14% SI loss generally; 2%-6% for gadopiclenol), with a more uniform arterial enhancement profile. CONCLUSION: SI profiles vary for different GBCAs. Modeling showed injection rates as low as 1.0 mL/s (or 0.5 mL/s for gadopiclenol and gadobutrol) may provide benefit. TECHNICAL EFFICACY: Stage 3.",
-      "journal": "J Magn Reson Imaging",
-      "date": "2026-10-31",
+      "pmid": "42967439",
+      "title": "Repetitive stress injury and burnout among radiology PACS Users: A Cross-Sectional departmental study.",
+      "abstract": "OBJECTIVE: Poor workstation ergonomics increase the risk of work-related musculoskeletal symptoms and may contribute to adverse health outcomes among radiologists. This study aimed to determine the prevalence and types of work-related musculoskeletal symptoms among radiologists within our department, identify ergonomic deficiencies, and explore associations between symptom burden and physician burnout. METHODS: Data were collected through an anonymous REB-approved survey distributed to faculty, residents, and fellows in our radiology department. We collected demographic data and answers to the Cornell Musculoskeletal Discomfort Questionnaire and the Abbreviated Maslach Burnout Inventory. Multivariate linear regression was performed with total musculoskeletal symptom burden as the dependent variable, while predictors included demographic and burnout variables. RESULTS: The departmental response rate was 61 %. Seventy-four percent of respondents reported at least one work-related musculoskeletal symptom, with neck and upper back pain being the most common. Of those affected, 85 % believed their workstation worsened their condition. Additionally, 79 % noted a component of their hospital workstation had been broken in the past year, and 87 % had never received formal ergonomic training. While 52 % responded that their musculoskeletal symptoms contributed to burnout, on multivariate analysis, work-related musculoskeletal symptom burden was significantly associated with higher emotional exhaustion (p = 0.02), with each unit increase in emotional exhaustion score associated with a 4.1-point increase in symptom burden. CONCLUSION: Work-related musculoskeletal symptoms are highly prevalent among radiology PACS users, highlighting a critical occupational health issue. The association between musculoskeletal symptom and emotional exhaustion underscores the need for further research examining whether ergonomic interventions and training may help improve physician well-being and mitigate physician burnout.",
+      "journal": "Eur J Radiol",
+      "date": "2026-10-28",
       "authors": [
-        "Maki JH",
-        "Barker AJ",
-        "Clark TJ",
-        "Wilson GJ"
+        "Schranz AL",
+        "Patino P",
+        "Ammar A",
+        "Peddle S",
+        "Fleming N",
+        "Harisinghani M",
+        "Thornhill R",
+        "Dos Santos MP"
       ],
       "pubtypes": [
         "Journal Article"
       ],
-      "doi": "10.1002/jmri.70589",
+      "doi": "10.1016/j.ejrad.2026.113333",
       "journal_tier": 2,
-      "impact": 3.3,
-      "section": "genel",
+      "impact": 3.2,
+      "section": "kas",
       "score": 60.0,
       "score_parts": {
         "journal": 60,
@@ -399,121 +402,30 @@
       "abstract_tr": ""
     },
     {
-      "pmid": "42965783",
-      "title": "Temporal ROI-Based Framework for Automated Multi-Criterion Critical View of Safety Assessment in Laparoscopic Cholecystectomy.",
-      "abstract": "Accurate assessment of the Critical View of Safety (CVS) during laparoscopic cholecystectomy is essential to prevent bile duct injuries. Automated CVS assessment from surgical videos remains challenging due to complex anatomy, instrument occlusion, and the temporal nature of dissection. However, existing methods rely on full-frame processing without focusing on anatomically relevant regions, limiting both efficiency and anatomical specificity. We propose a region-of-interest (ROI)-based spatio-temporal framework for automated multi-criterion CVS classification that explicitly models anatomical relationships and surgical progression using the multi-modal Endoscapes dataset. Rather than processing full frames, our pipeline extracts anatomically relevant ROIs guided by bounding box annotations, models intra-frame structural dependencies via a Graph Attention Network and captures surgical progression through a bi-directional LSTM with temporal attention. Complementary segmentation masks are leveraged to validate that model attention aligns with true anatomical boundaries. Evaluated on the Endoscapes test set, our method achieves 70.8% mean Average Precision (mAP), 74.6% balanced accuracy for multi-criterion classification, and an Area Under the ROC Curve (AUC) of 86.8% for overall CVS assessment, outperforming representative full-frame baselines. The model demonstrates high specificity (> 90%) and clinically interpretable attention maps that consistently localize to Calot's triangle and cystic structures. By decoupling spatial detection from temporal reasoning and exploiting multi-modal annotations, this work advances automated surgical safety assessment through clinically grounded ROI processing and expressive spatio-temporal modelling.",
-      "journal": "J Imaging Inform Med",
-      "date": "2026-10-29",
-      "authors": [
-        "Gulzar H",
-        "Abera DE",
-        "Nawaz MZ",
-        "Gu J",
-        "Qin W"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1007/s10278-026-02449-2",
-      "journal_tier": 2,
-      "impact": 2.9,
-      "section": "girisim",
-      "score": 60.0,
-      "score_parts": {
-        "journal": 60,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42965774",
-      "title": "Anatomical VOI-based assessment of the three DESH components in probable idiopathic normal pressure hydrocephalus.",
-      "abstract": "PURPOSE: To evaluate whether anatomical volume-of-interest (VOI) thresholds derived from a SINPHONI-2 reference cohort could provide standardized component-wise quantification of disproportionately enlarged subarachnoid-space hydrocephalus (DESH) in a separate clinical cohort. MATERIALS AND METHODS: Thresholds were derived from 61 SINPHONI-2 cases using a prespecified mildest-case rule and applied without re-optimization to 33 participants with probable idiopathic normal pressure hydrocephalus (iNPH), 26 with Alzheimer disease, 18 with progressive supranuclear palsy, and 20 normal controls. DESH metric-S summed binary positivity for ventriculomegaly, Sylvian fissure enlargement, and tight high-convexity and medial sulci; DESH metric-I was defined as (Sylvian fissure volume + lateral ventricular volume)/high-convexity and medial sulcal volume. Evans index and callosal angle were evaluated as conventional imaging measures. RESULTS: For iNPH versus pooled non-iNPH, DESH metric-S had an area under the curve (AUC) of 0.958 (95% CI, 0.921-0.990), sensitivity of 97.0% (84.7-99.5%), and specificity of 92.2% (83.0-96.6%). DESH metric-I had an AUC of 0.995 (95% CI, 0.983-1.000), sensitivity of 100.0% (89.6-100.0%), and specificity of 93.8% (85.0-97.5%). CONCLUSION: Anatomical VOI-based measures provided standardized component-wise quantification of DESH morphology. DESH metric-S retained the status of each component, whereas DESH metric-I provided a continuous summary. Because DESH contributed to probable-iNPH classification, the observed discrimination reflects concordance with a DESH-supported classification rather than independent diagnostic accuracy for iNPH. External validation, including cohorts spanning incomplete/non-DESH morphology and treatment-response outcomes, is required before clinical or prognostic use.",
-      "journal": "Jpn J Radiol",
+      "pmid": "42966828",
+      "title": "Flagging urgent suspicion of lung cancer with AI CXR algorithms: optimising feature selection and performance.",
+      "abstract": "OBJECTIVES: To investigate the impact of feature selection and thresholding on the performance of a commercial chest X-ray (CXR) algorithm for flagging urgent suspicion of lung cancer (USC) in a West of Scotland population. MATERIALS AND METHODS: The datasets comprised 2887 prospectively collected CXRs from general practitioners and outpatient routine care in the West of Scotland. An additional validation dataset included 983 retrospectively collected CXRs. The index test was an algorithm probability score; the reference standard was USC, derived from a blinded expert radiologist panel review of CXR. Three feature selection approaches were compared: radiologist-selected features with commercial thresholding of individual features, radiologist-selected features with regression weighting for the combined score, and a model using Akaike Information Criterion (AIC) and LASSO regression approaches for feature selection. Performance was evaluated at two thresholds: the Youden index and 15% positive flag rate. RESULTS: Regression-based feature selection using the AIC and LASSO approaches resulted in a four-feature model (consolidation, nodule, tuberculosis and cavity) compared with the five features (cavity, nodule, mass, hilar enlargement and mediastinal widening) selected by clinical experts. Sensitivity was highest in the AIC/LASSO model, but was significantly impacted by a 15% flag rate threshold. Regression weighting for the combined score demonstrated superior performance compared to individual feature thresholds. CONCLUSION: In this study, regression-based feature refinement against an expert-derived reference standard outperformed clinically intuitive selection. Commercial CXR algorithms require local calibration and task-specific optimisation for USC detection. Workflow and post-market deployment considerations can be addressed by constraining positive flag rates through a unified model threshold. KEY POINTS: Question How should users select and combine AI chest X-ray algorithm features to achieve optimal deployment performance for detecting urgent suspicion of cancer in routine practice? Findings Regression-based feature selection outperformed expert-selected features, and combining features under a single regression-weighted threshold outperformed individual feature thresholds for urgent cancer suspicion detection. Critical relevance statement Optimising chest X-ray AI for urgent cancer suspicion requires data-driven, regression-based feature selection rather than clinical intuition; health systems therefore need local capability to validate and calibrate algorithms for their population and task.",
+      "journal": "Insights Imaging",
       "date": "2026-10-31",
       "authors": [
-        "Takahashi R",
-        "Ikegami S",
-        "Iseki C",
-        "Nakajima M",
-        "Oishi K",
-        "Ishii K"
+        "Duncan SF",
+        "Dudman K",
+        "Odigbo S",
+        "Perdomo Lampignano J",
+        "Kumar S",
+        "Hawkins N",
+        "McConnachie A",
+        "Maclay JD",
+        "Stobo DB",
+        "Hall M",
+        "Lowe DJ"
       ],
       "pubtypes": [
         "Journal Article"
       ],
-      "doi": "10.1007/s11604-026-02114-2",
+      "doi": "10.1186/s13244-026-02438-7",
       "journal_tier": 2,
-      "impact": 3.0,
-      "section": "neuro",
-      "score": 60.0,
-      "score_parts": {
-        "journal": 60,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42965773",
-      "title": "Ultrafast brain MRI at 3 T for suspected acute ischemic stroke: interchangeability of the ultrafast and standard protocols.",
-      "abstract": "PURPOSE: To evaluate the interchangeability of the super-resolution deep learning reconstruction (SR-DLR)-based ultrafast protocol with the standard protocol for acute ischemic stroke detection at 3 T. MATERIALS AND METHODS: In this prospective study, 100 patients (mean age, 66.1 ± 16.2 years; 65 men) with suspected acute ischemic stroke underwent both the standard and ultrafast protocols (diffusion-weighted, fluid-attenuated inversion recovery, and T2*-weighted imaging). All images were reconstructed using SR-DLR; the ultrafast protocol employed accelerated acquisition with a reduced scan time. Two radiologists independently assessed both protocols for acute ischemic lesion detection, vascular territory involvement, and clinically relevant secondary findings. Interchangeability was evaluated using the individual equivalence index (IEI), with a prespecified ± 0.05 equivalence margin. RESULTS: Acute ischemic stroke was confirmed in 30 patients (30%). The ultrafast protocol reduced the mean total acquisition time by 61.7% (1 min 43 s vs. 4 min 29 s; P < 0.001). Interchangeability was demonstrated for patient-level acute ischemic lesion detection (IEI, 0.010 [90% confidence interval (CI): -0.006, 0.026]), vascular territory-level detection (IEIs, - 0.007 to 0.015), and clinically relevant secondary findings (IEI, 0.005 [90% CI: -0.025, 0.035]). Qualitative image quality scores were slightly but consistently higher for the ultrafast protocol across all four assessment items (all P ≤ 0.002). No significant differences were observed in ischemic lesion size or relative signal characteristics between protocols. CONCLUSION: The ultrafast protocol was interchangeable with the standard protocol for detecting acute ischemic stroke, with reduced scan time and comparable or marginally improved image quality; however, this work-in-progress diffusion-weighted imaging algorithm warrants further validation.",
-      "journal": "Jpn J Radiol",
-      "date": "2026-10-31",
-      "authors": [
-        "Ozaki K",
-        "Ishida S",
-        "Haseyama S",
-        "Sugioka E",
-        "Tanahashi Y",
-        "Goshima S"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1007/s11604-026-02103-5",
-      "journal_tier": 2,
-      "impact": 3.0,
-      "section": "girisim",
-      "score": 60.0,
-      "score_parts": {
-        "journal": 60,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42965772",
-      "title": "Beyond the heart: a large-cohort study of 11C-PiB PET revealing organ-specific uptake patterns and diagnostic thresholds in systemic AL amyloidosis.",
-      "abstract": "PURPOSE: Systemic AL amyloidosis frequently involves multiple organs, yet non‑invasive imaging for early and comprehensive multi‑organ assessment remains limited. The diagnostic role of 11C-PiB PET beyond the heart-particularly its organ‑specific uptake patterns and clinically applicable thresholds-has not been systematically defined in a large cohort. MATERIALS AND METHODS: This retrospective study included 80 participants (60 ± 10 years, 55 males) undergoing Whole-body 11C-PiB PET/MR or PET/CT from 2018 to Sep 2024. Final diagnoses were as follows: AL group (n = 65), non‑AL group (n = 10), control group (n = 5). PET indices (SUVmax, SUVRmax, ASUVRmax, ASUVRmean) were quantified for 15 organs. Optimal diagnostic cutoffs were derived using ROC analysis or quartiles. Correlations with clinical and morphofunctional markers were assessed. RESULTS: Organ-specific uptake patterns differed across tissues, with clear disease-related accumulation observed in the myocardium, spleen, bone marrow, and tongue, whereas interpretation was limited in organs affected by physiological tracer kinetics, such as the kidney. Myocardial PiB uptake correlated significantly with NT‑proBNP, native T1, and ventricular wall thickness; hepatic uptake was paradoxically reduced, with negative correlations with ALP and projected liver area; renal uptake correlated positively with eGFR and negatively with β2‑microglobulin. Organ-specific diagnostic thresholds were established using the optimal-performing semiquantitative parameters: myocardium SUVmax 2.20 (sensitivity 90%, specificity 100%, AUC 0.995); tongue SUVmax 2.05 (86%, 100%, AUC 0.971); bone marrow SUVRmax 2.05 (70%, 100%, AUC 0.880); liver SUVmax 7.95 (88%, 80%, AUC 0.900). Quartile‑based thresholds further defined involvement in the spleen, thyroid, and salivary glands. CONCLUSIONS: In this study, 11C-PiB PET revealed distinct organ-specific uptake patterns and diagnostic thresholds for systemic AL amyloidosis across multiple organs were preliminarily established. It provides a non-invasive, biopsy‑sparing assessment of multi-organ involvement while highlighting organ-specific limitations, particularly related to renal uptake interpretation and the need for further validation in selected tissues.",
-      "journal": "Jpn J Radiol",
-      "date": "2026-10-31",
-      "authors": [
-        "Zhou Z",
-        "Zheng D",
-        "Lv Y",
-        "Dai Z",
-        "Wei S",
-        "Wang X",
-        "Ruan W",
-        "Li H",
-        "Gai Y",
-        "Liu Q",
-        "Sun C",
-        "Lan X",
-        "Qin C"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1007/s11604-026-02085-4",
-      "journal_tier": 2,
-      "impact": 3.0,
+      "impact": 4.1,
       "section": "toraks",
       "score": 60.0,
       "score_parts": {
@@ -525,219 +437,25 @@
       "abstract_tr": ""
     },
     {
-      "pmid": "42965590",
-      "title": "MRI-based deep learning model for prediction of Ki-67 expression level in intrahepatic cholangiocarcinoma.",
-      "abstract": "BACKGROUND: Ki-67 expression is a valuable prognostic indicator in intrahepatic cholangiocarcinoma (iCCA). This study aimed to develop a non-invasive Deep learning (DL) model based on magnetic resonance imaging (MRI) and clinical data to predict Ki-67 expression preoperatively. METHODS: Patients with iCCA between January 2020 and January 2024 were retrospectively reviewed. Based on immunohistochemistry, patients were classified into high-expression group (Ki-67 > 50%) and low-expression group (Ki-67 ≤ 50%). After image acquisition, tumor segmentation, and preprocessing, a 3D-ResNet10 network was utilized for MRI feature extraction. A feed-forward neural network (FFN) was used for clinical feature extraction. Subsequently, the extracted image and clinical features were fused and fed into a lightweight classifier to perform Ki-67 level prediction. The performance of the DL models was evaluated via 5-fold cross-validation using accuracy, precision, sensitivity, specificity, F1-score, and the area under the curve (AUC). RESULTS: A total of 117 patients were ultimately included (30 cases in the high-expression group and 87 cases in the low-expression group). The model based solely on clinical variables demonstrated limited predictive efficacy (mean AUC: 53.18 ± 14.60%). The model utilizing MRI features alone exhibited high specificity (86.14 ± 10.25%) but modest sensitivity. In contrast, the fused DL model significantly outperformed both individual models, attaining a mean AUC of 84.24 ± 8.82%, an accuracy of 87.17 ± 5.95%, a specificity of 93.07 ± 9.35%, and a markedly improved sensitivity of 70.00 ± 19.44%, yielding a robust F1-score of 73.42 ± 12.28%. CONCLUSIONS: We developed and validated a non-invasive DL model integrating contrast-enhanced MRI and clinical parameters that accurately predicts Ki-67 expression in iCCA, demonstrating superior diagnostic performance.",
-      "journal": "Abdom Radiol (NY)",
-      "date": "2026-10-31",
-      "authors": [
-        "Wang C",
-        "Jin M",
-        "Zhang Y",
-        "Diao L",
-        "Shen X",
-        "Yin G",
-        "Liang S",
-        "Xu Q"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1007/s00261-026-05844-z",
-      "journal_tier": 2,
-      "impact": 2.3,
-      "section": "abdomen",
-      "score": 60.0,
-      "score_parts": {
-        "journal": 60,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42965589",
-      "title": "Pretreatment prediction of neoadjuvant therapy response in locally advanced gastric cancer using an additive ctSLEP score and spectral CT.",
-      "abstract": "PURPOSE: To develop an additive ctSLEP score from routine CT morphologic invasion signs and evaluate the complementary value of morphologic CT, quantitative spectral CT, and systemic inflammation for pretreatment prediction of neoadjuvant therapy (NAT) response in locally advanced gastric cancer (LAGC). METHODS: This retrospective study included 158 patients with LAGC who underwent NAT and radical gastrectomy and were randomly divided into training and internal validation cohorts (7:3). Becker tumor regression grade 1a/1b defined response and 2/3 nonresponse. Additive ctSLEP summed four pretreatment CT signs: serosal invasion, extramural venous invasion, subtle signs of occult peritoneal/omental involvement, and lymphovascular invasion. Five hierarchical models combined additive ctSLEP, venous-phase iodine concentration (ICVP), arterial enhancement fraction (AEF), and neutrophil-to-lymphocyte ratio (NLR). Performance was assessed using AUC, Brier score, calibration, and prespecified paired DeLong comparisons. A chemotherapy-only sensitivity analysis was performed. RESULTS: Sixty-five patients (41.1%) were responders and ninety-three (58.9%) nonresponders. In the internal validation cohort, AUCs for the Morphology, Spectral, Imaging, Clinical-spectral, and Combined models were 0.642, 0.741, 0.725, 0.713, and 0.754, respectively. The Combined model had the highest AUC and lowest Brier score (0.200). Adding spectral CT to morphology increased AUC by 0.083 (P=0.129), and adding additive ctSLEP to the Clinical-spectral model increased AUC by 0.041 (P=0.558). In 51 patients receiving chemotherapy alone, higher additive ctSLEP was associated with greater odds of nonresponse (OR=2.15, 95% CI 1.35-3.88), whereas higher ICVP was associated with lower odds (OR=0.83, 95% CI 0.69-0.96). CONCLUSION: The combined model showed reasonable predictive performance in internal validation. These findings support further external evaluation of a low-dimensional, clinically interpretable strategy integrating morphologic invasion burden, spectral enhancement, and systemic inflammation for pretreatment NAT response stratification.",
-      "journal": "Abdom Radiol (NY)",
-      "date": "2026-10-31",
-      "authors": [
-        "Peng Y",
-        "Guo X",
-        "Ren T",
-        "Chen Q",
-        "Ma L",
-        "Zhang W"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1007/s00261-026-05855-w",
-      "journal_tier": 2,
-      "impact": 2.3,
-      "section": "abdomen",
-      "score": 60.0,
-      "score_parts": {
-        "journal": 60,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42965524",
-      "title": "5.0 T Coronary Magnetic Resonance Angiography in Calcified Coronary Arteries: Diagnostic Performance Compared With Computed Tomography Using Invasive Angiography as Reference.",
-      "abstract": "BACKGROUND: Coronary computed tomography angiography (CCTA) often overestimates stenosis in calcified plaques due to blooming artifacts. The performance of 5.0 T Coronary MR angiography (CMRA) in calcified arteries remains unclear. PURPOSE: To assess plaque effects on 5.0 T CMRA image quality and compare diagnostic performance with CCTA. STUDY TYPE: Prospective. POPULATION: Forty-six patients with suspected coronary artery disease. FIELD STRENGTH/SEQUENCE: 5.0 T; free-breathing, non-contrast 3D gradient-echo sequence, Dixon water-fat separation, artificial intelligence-assisted compressed sensing. ASSESSMENT: Three blinded radiologists with 6, 8, and 12 years' experience independently evaluated all datasets. Obstructive stenosis was defined as ≥ 50%; CMRA and CCTA image quality used a 4-point scale; quantitative CMRA measures included vessel edge sharpness (VES), signal-to-noise ratio (SNR), and contrast-to-noise ratio (CNR). CCTA assessed plaque composition, calcium burden, and calcification length. Invasive angiography was the reference. STATISTICAL TESTS: Diagnostic metrics and generalized estimating equations evaluated performance and plaque-image-quality associations. Wilcoxon tests compared visual scores. Agreements used Cohen's κ, Fleiss' κ, and intraclass correlation coefficients. RESULTS: 5.0 T CMRA showed higher specificity (90.1% vs. 77.7%, p < 0.001) and accuracy (89.4% vs. 82.8%, p = 0.006) than CCTA, with similar sensitivity (88.7% vs. 87.7%, p = 0.740). For CMRA, VES was lower in segments containing mixed plaques than in noncalcified or calcified plaques (16.0 ± 0.8 vs. 18.2 ± 0.8 and 18.3 ± 1.0; p < 0.001). Visual scores differed across calcium-burden categories (3.35 ± 0.07, 3.16 ± 0.09, 2.96 ± 0.09, and 2.79 ± 0.09; p < 0.001). Greater calcification length was associated with lower VES (B = -0.152, p = 0.008) and visual scores (B = -0.019, p = 0.019). DATA CONCLUSION: In this cohort, 5.0 T CMRA showed higher specificity and accuracy than CCTA, with similar sensitivity. Plaque characteristics were associated with selected CMRA image-quality measures. EVIDENCE LEVEL: 2. TECHNICAL EFFICACY: Stage 2.",
-      "journal": "J Magn Reson Imaging",
-      "date": "2026-10-31",
-      "authors": [
-        "Du T",
-        "Lan L",
-        "Dong Z",
-        "Ling G",
-        "Sun R",
-        "Zhou Y",
-        "Xu H"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1002/jmri.70605",
-      "journal_tier": 2,
-      "impact": 3.3,
-      "section": "toraks",
-      "score": 60.0,
-      "score_parts": {
-        "journal": 60,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42965522",
-      "title": "Multiparametric Quantitative MRI With 2.5D Deep Learning for Molecular Classification and Overall Survival Assessment in Adult-Type Diffuse Gliomas.",
-      "abstract": "BACKGROUND: Quantitative MRI may enable noninvasive glioma characterization, but optimal analytic strategies and prognostic utility remain uncertain. PURPOSE: To compare volume-of-interest (VOI)-mean, radiomics, and 2D, 2.5D, and 3D deep learning (DL) for preoperative molecular classification and assess the prognostic value of a 2.5D-DL-derived isocitrate dehydrogenase wild-type score (2.5D-IDHwt score) in a postoperative clinicopathologic survival model. STUDY TYPE: Retrospective multicenter study. POPULATION: One thousand four hundred and eight adults with diffuse glioma: training (n = 409), temporal validation (n = 300), and three external test cohorts (n = 119, 310, and 270). FIELD STRENGTH/SEQUENCE: 3 T; spin-echo echo-planar diffusion-weighted imaging, 3D pseudo-continuous arterial spin labeling, and multidynamic multiecho synthetic MRI. ASSESSMENT: Apparent diffusion coefficient, cerebral blood flow, T1, T2, proton-density, and contrast-enhanced T1 maps were generated. Two neuroradiologists (5 and 20 years' experience) delineated whole-tumor VOIs. Six map-specific models were stacked separately for VOI-mean, radiomics, 2D-DL, 2.5D-DL, and 3D-DL. 2.5D-qMR-Clin combined the 2.5D-IDHwt score with age, O6-methylguanine-DNA methyltransferase promoter methylation, and extent of resection and was compared with PathoClin incorporating pathological IDH status. STATISTICAL TESTS: Area under the curve (AUC), DeLong tests, Harrell C-index, bootstrap resampling, calibration, decision-curve analysis, Kaplan-Meier analysis, and Cox regression. p < 0.05 indicated significance. RESULTS: The 2.5D-DL stacking model achieved the highest external AUCs for IDH mutation (0.89-0.93) and 1p/19q codeletion (0.92-0.95), significantly outperforming the other four stacking models. Reverse Kaplan-Meier median follow-up was 1344 days (95% CI, 1316-1383); 27.5% died. External C-indices for 2.5D-qMR-Clin were 0.750, 0.778, and 0.762 versus 0.704, 0.722, and 0.723 for PathoClin, with significant differences in test cohorts 2 and 3. Fixed-cutoff risk stratification was significant across all external cohorts (hazard ratios, 5.30-5.80). A web-based 2.5D-qMR-Clin explorer provided 1-, 2-, and 3-year OS estimates. DATA CONCLUSION: Among evaluated approaches, 2.5D-DL stacking performed best for molecular classification, and the 2.5D-IDHwt score improved OS assessment in the postoperative clinicopathologic model. EVIDENCE LEVEL: 3. TECHNICAL EFFICACY: Stage 2.",
-      "journal": "J Magn Reson Imaging",
-      "date": "2026-10-31",
-      "authors": [
-        "Ge X",
-        "Shen Y",
-        "Han Y",
-        "Li S",
-        "Feng X",
-        "Wang C",
-        "Xiong Y",
-        "Zhao F",
-        "Zhao S",
-        "Wang X",
-        "Zhang J",
-        "Wang W"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1002/jmri.70599",
-      "journal_tier": 2,
-      "impact": 3.3,
-      "section": "neuro",
-      "score": 60.0,
-      "score_parts": {
-        "journal": 60,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42963784",
-      "title": "New heuristic method for cancer classification using gene expression data.",
-      "abstract": "BACKGROUND: The aim of this research is to develop and evaluate a novel feature selection method based on a local search algorithm (LSFS) in combination with a genetic algorithm (GA) for cancer classification using high-dimensional gene expression data. METHODS: The study spanned a period between 2022 and 2024, using data from two medical research centers (Sofia, Bulgaria, and Moscow, Russia). More than 30,000 patient records were analyzed using six open datasets as source data. These datasets included information on blood, breast, colon, and other types of cancer from the GEO and TCGA databases. To prepare the data for analysis, the study employed techniques such as normalization, outlier elimination, and logarithmic transformation. Modern machine learning algorithms, such as random forests, support vector machines, and neural networks, were utilized to assess the effectiveness of the proposed method. RESULTS: The LSFS + GA method demonstrated the ability to maximize accuracy, sensitivity, and specificity, as well as other classification metrics. Specifically, classification accuracy improved by 8-15% depending on the dataset, sensitivity by 10-20%, and specificity by 5-10%. Additionally, there was a 12-18% reduction in noise in the data. The effectiveness of the model was demonstrated by a reduction in entropy, indicating an increase in classification confidence of 6-9%. Statistical analysis, including cross-validation and ANOVA, confirmed the statistical significance of the improvements achieved with the new method (p < 0.05). CONCLUSIONS: The developed algorithm enables a substantial reduction in computational complexity while maintaining, or even improving, classification accuracy. This is important for analyzing cancer data, as it helps to ensure more reliable results. The study's findings demonstrate the potential of combining local search methods with genetic algorithms to address high-dimensional classification problems in bioinformatics.",
-      "journal": "Cancer Imaging",
-      "date": "2026-08-19",
-      "authors": [
-        "Gu S",
-        "Savina T",
-        "Monov D",
-        "Gorozhanina E"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1186/s40644-026-01111-y",
-      "journal_tier": 2,
-      "impact": 4.9,
-      "section": "meme",
-      "score": 60.0,
-      "score_parts": {
-        "journal": 60,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42963530",
-      "title": "A compliant granular jamming gripper for improved robot-assisted surgical instrument handling.",
-      "abstract": "PURPOSE: Granular jamming grippers (GJGs) offer high geometric adaptability and intrinsic safety for robot-assisted surgical instrument handling but struggle with thin, planar instruments. This study investigates whether external pinching through a passive and partly compliant force-leveraging linkage can enhance grasping performance while maintaining a compact and simple design. METHODS: The SCIP-GRIP, a novel GJG with an integrated Scott-Russell linkage to convert vertical down force into horizontal pinching, was developed. The performances of three gripper versions with varying pinching heights were compared to that of a non-pinching GJG across three instrument types: scalpel (flat), forceps (vertical surfaces), and scissors (undercuts). Both, holding forces and pickup success rates were evaluated using a Universal Testing Machine. Holding forces were measured 12 times per case, while success rates were assessed over 50 trials each. RESULTS: Pinching improves performance across all instruments, with the largest gains observed for scissors, achieving holding forces above 10 N. For forceps and scalpels, only the lowest pinching height yields significant improvements. Success rates for scissors and forceps remain at 100 %, while scalpel success improves from 4 % to 18 % only at low pinching height. Higher pinching heights fail consistently. Performance strongly depends on pinching height, with increased height reducing effectiveness. CONCLUSION: The SCIP-GRIP demonstrates that a passive Scott-Russell linkage can enhance GJG performance while preserving simplicity and safety but pinching below 3 mm is necessary. The design achieves comparable performance to active systems at lower complexity, though further improvements are needed to reliably grasp flat geometries.",
-      "journal": "Int J Comput Assist Radiol Surg",
-      "date": "2026-10-30",
-      "authors": [
-        "Lubitz S",
-        "Pott PP",
-        "Schäfer MB"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1007/s11548-026-03810-0",
-      "journal_tier": 2,
-      "impact": 2.9,
-      "section": "girisim",
-      "score": 60.0,
-      "score_parts": {
-        "journal": 60,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42963497",
-      "title": "Temporal MRI appearance of postoperative healing after proximal hamstring musculotendinous complex repair.",
-      "abstract": "OBJECTIVE: To describe the temporal MRI features of healing during the first 4 months following surgical repair of complete tears of the proximal hamstring musculotendinous complex. MATERIALS AND METHODS: Consecutive case series. Professional football players with MRI-confirmed complete tears surgically repaired between May 2017 and December 2025 were retrospectively identified. Postoperative MRI examinations were obtained during routine clinical follow-up using 3-T systems. Two musculoskeletal radiologists independently evaluated longitudinal and transverse intratendinous clefts, scar maturation, edema-like signal, postoperative subcutaneous soft-tissue signal change, tendinous angulation, blunt muscle outline, and denervation-like signal. RESULTS: Twenty-four complete tears in 20 players underwent surgical repair. Fifteen tendons with an uncomplicated postoperative course comprised the primary descriptive cohort, yielding 43 MRI examinations. Longitudinal intratendinous clefts were observed in 11/15 (73.3%) of tendons, transverse intratendinous clefts in 13/15 (86.7%), postoperative subcutaneous soft-tissue signal change and tendinous angulation in 15/15 (100%), blunt muscle outline in 13/15 (86.7%), and denervation-like signal in 10/15 (66.7%). In the within-tendon analysis, longitudinal and transverse intratendinous clefts resolved by the last available MRI in 6/10 (60%) and 7/12 (58.3%) tendons, respectively. All 10 tendons with an initially immature scar progressed to a mature scar. Among six tendons with postoperative exacerbation, four showed extensive, prominent intratendinous clefts with marked PD-FS hyperintensity on the preceding MRI, associated with immature scar, intratendinous cavity, or persistent interstitial edema-like signal. CONCLUSION: Serial MRI demonstrated different temporal patterns of postoperative healing. Residual intratendinous clefts may coexist with a mature scar during tendon remodeling and do not necessarily indicate delayed healing.",
+      "pmid": "42966770",
+      "title": "Diagnostic performance and reproducibility of standardized two-plane ultrasound cine clips for supraspinatus tendon pathology.",
+      "abstract": "OBJECTIVE: To determine the diagnostic performance and reader reproducibility of standardized two-plane cine clips for supraspinatus tendon pathology, using the complete radiologist-supervised shoulder ultrasound examination as the clinical reference standard. MATERIALS AND METHODS: This prospective single-centre study screened 140 consecutive shoulder ultrasound examinations. Standardized longitudinal and transverse supraspinatus cine clips were independently reviewed by two fellowship-trained musculoskeletal radiologists blinded to the clinical report. Reader 1 read all included examinations (24 twice); Reader 2 read 51. Diagnostic performance (exact 95% confidence intervals) was calculated against the same-day clinical ultrasound report, and reliability with Cohen's κ. Reporting radiologists could access the standardized clips. RESULTS: Of 140 examinations, 114 were analyzed (mean age 57 years; 56 women). Reader 1 showed high performance for full-thickness tears (sensitivity 87% [95% confidence interval 69-96%], specificity 98% [92-100%]) and complete tears (sensitivity 73% [39-94%], specificity 97% [92-99%]). Calcific tendinopathy yielded sensitivity/specificity of 79%/85%; partial-thickness tears, 57%/87%; and tendinopathy, 92%/28%. Reader 2 sensitivity was 92% [64-100%] for full-thickness and 18% [2-52%] for partial-thickness tears. Intra-observer κ ranged from 0.17 (tendinopathy) to 0.89 (full-thickness tears). Inter-observer κ was 0.95 for full-thickness, 0.56 for complete and 0.21 for partial-thickness tears. CONCLUSION: Standardized two-plane cine clips demonstrate high diagnostic performance and inter-observer reliability for full-thickness supraspinatus tears. For complete tears, inter-observer agreement was moderate and sensitivity was imprecise. Given limited sensitivity for partial-thickness tears and low specificity for tendinopathy, cine clips alone are insufficient for these pathologies and should complement rather than replace complete real-time shoulder ultrasound examinations.",
       "journal": "Skeletal Radiol",
-      "date": "2026-10-30",
+      "date": "2026-10-31",
       "authors": [
-        "Mechó S",
-        "Pérez P",
-        "Congo A",
-        "Isern-Kebschull J",
-        "Alomar X",
-        "Pruna R",
-        "Valle X",
-        "Yanguas X",
-        "Moix I",
-        "Puigdellívol J",
-        "Lempainen L",
-        "Aguilar M",
-        "Pedret C",
-        "Kassarjian A",
-        "Rodas G"
+        "Khan S",
+        "Lee J",
+        "Jibri Z",
+        "de Oliveira Cyrineu F",
+        "Sampaio ML"
       ],
       "pubtypes": [
         "Journal Article"
       ],
-      "doi": "10.1007/s00256-026-05414-w",
+      "doi": "10.1007/s00256-026-05415-9",
       "journal_tier": 2,
       "impact": 2.0,
-      "section": "girisim",
+      "section": "kas",
       "score": 60.0,
       "score_parts": {
         "journal": 60,
@@ -748,274 +466,33 @@
       "abstract_tr": ""
     },
     {
-      "pmid": "42963216",
-      "title": "Work Stress, Burnout and Depression among Radiology Residents: The Moderating Effect of Environment.",
-      "abstract": "RATIONALE AND OBJECTIVES: This study aimed to explore the modulating role of work environment in the association of work stress with burnout and depression during standardized residency training (SRT) in China. STUDY DESIGN: Nationwide cross-sectional survey. METHOD: A nationwide cross-sectional online survey was conducted among radiology residents in China from December 2020 to April 2021. Participants self-assessed work stress, burnout, depressive symptoms, and work environment satisfaction. Multiple linear regression was used to examine whether the work environment modulated the associations between work stress and burnout and depression. RESULTS: Among 3666 radiology residents surveyed, the average age was 28 years, with 58% identifying as female. Approximately 25.8% reported experiencing burnout, while 24.4% indicated symptoms of depression. Work environment significantly modulated the association between work stress and burnout symptoms (β = -0.23, p = 0.004), but did not significantly moderate the association between work stress and depressive symptoms (β = -0.03, p = 0.423). CONCLUSION: This study found that the work environment significantly moderated the positive association between work stress and burnout among radiology residents, but not the association between work stress and depressive symptoms. A work environment characterized by a stronger sense of safety and a better workplace atmosphere may improve residents' satisfaction with the work environment, thereby enhancing work efficiency and well-being.",
-      "journal": "Acad Radiol",
-      "date": "2026-10-30",
+      "pmid": "42968615",
+      "title": "Correction: Nelke et al. \"Dry Tap\" Fine-Needle Aspiration Biopsy as a Diagnostic Clue in Cyst-like Juvenile Jaw Lesions Mimicking Dentigerous Cysts on Panoramic Radiography and Cone-Beam Computed Tomography. Diagnostics 2026, 16, 439.",
+      "abstract": "In the published publication [...].",
+      "journal": "Diagnostics (Basel)",
+      "date": "2026-10-27",
       "authors": [
-        "Gong P",
-        "Wang P",
-        "Yang Z",
-        "Zheng J",
-        "Zhang J",
-        "Zhu J"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1016/j.acra.2026.09.006",
-      "journal_tier": 2,
-      "impact": 3.8,
-      "section": "egitim",
-      "score": 60.0,
-      "score_parts": {
-        "journal": 60,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42966452",
-      "title": "3D CEST imaging for differentiating malignant and benign prostatic areas: Diagnostic performance relative to DWI.",
-      "abstract": "PURPOSE: In contrast to diffusion-weighted imaging (DWI) and dynamic contrast-enhanced perfusion MRI, different information from chemical exchange saturation transfer (CEST) imaging has been suggested to have potential for diagnosis of prostate cancer. The purpose of this study was to compare the descriptor capability for differentiating malignant from benign prostatic areas among three-dimensional (3D) amide proton transfer weighted (APTw) imaging using a newly developed 3D CEST sequence, DWI, and the combined descriptor method. MATERIALS AND METHODS: Fifty-two prostate cancer patients underwent DWI and 3D APTw imaging, surgical treatments, and pathological examinations. Then, 154 areas were identified as malignant, and 154 out of 624 areas were computationally selected as benign. From 3D APTw imaging and DWI, magnetization transfer ratio asymmetry (MTRasym) in the 3.5 ppm map and apparent diffusion coefficient (ADC) within malignant and benign prostatic areas were determined by ROI measurements. Then, a logistic regression analysis was conducted to evaluate the descriptors. An ROC analysis and McNemar's test were conducted to compare the diagnostic performance of MTRasym, ADC, and the combined discriminator method. RESULTS: The logistic regression analysis identified MTRasym (unit odds ratio: 3.6, p < 0.0001) and ADC (unit odds ratio: 0.03, p < 0.0001) as significant descriptors. The area under the curve (AUC) of the combined descriptor method (AUC = 0.86) was significantly larger than that of MTRasym (AUC = 0.81, p = 0.001) and ADC (AUC = 0.76, p < 0.0001). CONCLUSION: 3D APTw imaging is considered at least as valuable as DWI to distinguish malignant from benign prostatic areas. Combined descriptors could improve diagnostic performance, relative to each sequence alone.",
-      "journal": "Magn Reson Imaging",
-      "date": "2026-10-31",
-      "authors": [
-        "Ueda T",
-        "Ozawa Y",
-        "Nomura M",
-        "Shinohara M",
-        "Yazawa N",
-        "Yamamoto K",
-        "Sano Y",
-        "Ikedo M",
-        "Yui M",
-        "Ozaki M",
-        "Yoshikawa T",
-        "Takenaka D",
-        "Ohno Y"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1016/j.mri.2026.110830",
-      "journal_tier": 3,
-      "impact": 2.1,
-      "section": "abdomen",
-      "score": 35.0,
-      "score_parts": {
-        "journal": 35,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42966350",
-      "title": "A comparative study of effectiveness and safety of percutaneous cryoablation and microwave ablation of renal cell carcinoma.",
-      "abstract": "PURPOSE: To evaluate differences in technical aspects, safety, and efficacy between percutaneous cryoablation (CRA) and microwave ablation (MWA) for cT1a renal cell carcinoma (RCC). METHODS: From 2013 to 2021, patients with cT1a RCC treated with CRA or MWA were retrospectively included. Baseline characteristics, peri- and post-procedural variables, complications, adverse events, and overall-survival were evaluated. RESULTS: 277 patients were included (214 CRA; 63 MWA). Compared to MWA, CRA was associated with more probes (2.0 (1.0-3.0) vs 1.0 (1.0-2.0) probes; p < 0.0001) and longer procedural time (90 vs 67 min; p = 0.001). CRA was associated with utilization in tumors closer to collecting system (4.0 mm vs 6.0 mm; p = 0.04), a higher any-size hematoma incidence (28% vs 13%; p = 0.01), and incidence of inadvertent critical structure involvement (9% vs 2%; p = 0.02). There was no difference in laboratory adverse events at 12-months (54% vs 44%, p = 0.1), Clavien-Dindo Class ≥1 complications (26% vs 16%; p = 0.09), complete response (90% vs 89%; p = 0.9), and overall-survival (3 vs 1.9 yrs.; p = 0.1). Neither modality was associated with a change in renal function at 12-months. CONCLUSION: For patients undergoing thermal ablation for cT1a RCC, CRA and MWA ablation have similar efficacy. MWA was associated with fewer probes and shorter procedure time. A lower incidence of any-size hematoma was observed with MWA; however, sample size and operator preference for CRA for slightly more centrally located lesions confound this observation and limit it as descriptive and hypothesis generating. Neither modality differed in complete response rates, overall-survival, nor reduction in renal function.",
-      "journal": "Clin Imaging",
-      "date": "2026-10-23",
-      "authors": [
-        "Villalobos A",
-        "Xing M",
-        "Mohnasky M",
-        "Dabbous H",
-        "Aslanyan L",
-        "Lilly M",
-        "Bercu Z",
-        "Kokabi N"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1016/j.clinimag.2026.110977",
-      "journal_tier": 3,
-      "impact": 1.9,
-      "section": "girisim",
-      "score": 35.0,
-      "score_parts": {
-        "journal": 35,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42965840",
-      "title": "Editorial for \"Predicting Signal Intensity Profiles for Various MRI Contrast Agent Injection Strategies: Including Measurement of Relaxivities in Oxygenated Whole Human Blood for Gadopiclenol, Gadoterate Meglumine, and Gadoteridol\".",
-      "abstract": "",
-      "journal": "J Magn Reson Imaging",
-      "date": "2026-10-31",
-      "authors": [
-        "Roditi GH",
-        "Radjenovic A"
-      ],
-      "pubtypes": [
-        "Editorial"
-      ],
-      "doi": "10.1002/jmri.70591",
-      "journal_tier": 2,
-      "impact": 3.3,
-      "section": "genel",
-      "score": 35.0,
-      "score_parts": {
-        "journal": 60,
-        "pubtype": -25,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42965393",
-      "title": "Contrast-Enhanced Ultrasound for Target Localization Before Ultrasound-Guided Local Injection in Cesarean Scar Pregnancy.",
-      "abstract": "OBJECTIVES: To evaluate the role of contrast-enhanced ultrasound (CEUS) in preprocedural target localization for cesarean scar pregnancy (CSP) and to assess the outcomes of ultrasound-guided local injection. METHODS: This retrospective study included 31 patients with CSP who underwent CEUS prior to ultrasound-guided local injection. CEUS was used to identify the hypervascular implantation site. Methotrexate (MTX) (50 mg) was administered locally into the gestational sac, followed by targeted injection toward the implantation site. Serum β-human chorionic gonadotropin (β-hCG) levels and ultrasound findings were monitored during follow-up. Initial treatment success was defined as a satisfactory decline in β-hCG levels after a single injection without additional MTX. RESULTS: CEUS demonstrated earlier enhancement and higher peak intensity at the implantation site than in the surrounding tissues (all p < .001). The hypervascular implantation region delineated by CEUS was significantly larger than that detected by color Doppler imaging (p < .001). Initial treatment success was achieved in 26 of 31 patients (83.87%). The mean time to β-hCG resolution after tissue removal was 21.78 ± 6.96 days. A major complication occurred in 1 patient (3.23%), who required surgical intervention due to severe bleeding. CONCLUSIONS: CEUS improves visualization of the hypervascular implantation site and may facilitate target localization before ultrasound-guided local injection. This approach appears feasible and relatively safe for the management of selected CSP patients.",
-      "journal": "J Ultrasound Med",
-      "date": "2026-10-31",
-      "authors": [
-        "Liu X",
-        "Chen K",
-        "Qu H",
-        "He X",
-        "Ma M",
-        "Xu J",
-        "Feng X",
-        "Wang J",
-        "Jiang J",
-        "Yu S"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1002/jum.70534",
-      "journal_tier": 3,
-      "impact": 1.8,
-      "section": "genel",
-      "score": 35.0,
-      "score_parts": {
-        "journal": 35,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42963514",
-      "title": "Missed abdominal injuries on initial trauma CT: pitfalls, mimickers and practical pearls.",
-      "abstract": "Missed and misinterpreted injuries on the initial trauma CT remain a major source of delayed diagnosis and preventable morbidity. This pictorial essay illustrates, with cases from our department, the abdominal injuries most often overlooked: bowel and mesenteric injury, diaphragmatic rupture, hepatic and splenic vascular injury, renal vascular injury, pancreatic injury and bladder rupture. For each, we show the subtle direct and indirect CT signs, the mimickers that lead to over- or under-calling (including unidentified bright objects of the spleen), and the roles of multiphasic CT, multiplanar reformats, dual-energy CT, MRCP and CT cystography. We close with a practical search strategy and a low threshold for repeat imaging when the clinical course is discordant with the first scan.",
-      "journal": "Emerg Radiol",
-      "date": "2026-10-31",
-      "authors": [
-        "Verma P",
-        "Sureka B",
-        "Chawla S",
-        "Yadav T",
-        "Agarwal A",
-        "Garg PK",
-        "Khera PS",
-        "Rohila AK",
-        "Rodha MS"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1007/s10140-026-02562-3",
-      "journal_tier": 3,
-      "impact": 2.1,
-      "section": "abdomen",
-      "score": 35.0,
-      "score_parts": {
-        "journal": 35,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42966008",
-      "title": "Entering neuroradiology in the age of artificial intelligence: why National Health Service (NHS) speciality training must evolve: an incoming radiology trainee's perspective.",
-      "abstract": "",
-      "journal": "Clin Radiol",
-      "date": "2026-10-07",
-      "authors": [
-        "Hussain NM",
-        "Das I"
-      ],
-      "pubtypes": [
-        "Editorial"
-      ],
-      "doi": "10.1016/j.crad.2026.107470",
-      "journal_tier": 3,
-      "impact": 2.1,
-      "section": "neuro",
-      "score": 10.0,
-      "score_parts": {
-        "journal": 35,
-        "pubtype": -25,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42965532",
-      "title": "Letter to Editor on: Clinical Value of Real-Time 3-Dimensional Echocardiography for Evaluating Right Ventricular Structure and Function in Patients with Pulmonary Hypertension Across Different Echocardiographic Pulmonary Artery Systolic Pressure Strata.",
-      "abstract": "",
-      "journal": "J Ultrasound Med",
-      "date": "2026-10-31",
-      "authors": [
-        "Fatima E",
-        "Ullah S",
-        "Baig MF",
-        "Bai J",
-        "Sabir MU"
-      ],
-      "pubtypes": [
-        "Letter"
-      ],
-      "doi": "10.1002/jum.70542",
-      "journal_tier": 3,
-      "impact": 1.8,
-      "section": "toraks",
-      "score": 5.0,
-      "score_parts": {
-        "journal": 35,
-        "pubtype": -30,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42965592",
-      "title": "Correction: Abdominal CT Findings on the Day of Death in Patients with Solid Organ Malignancies.",
-      "abstract": "",
-      "journal": "Abdom Radiol (NY)",
-      "date": "2026-10-31",
-      "authors": [
-        "Kliewer M",
-        "Wetley K",
-        "Schroeder D",
-        "Mao L"
+        "Nelke K",
+        "Łuczak K",
+        "Uranbey Ö",
+        "Ekinci B",
+        "Caso AR",
+        "Gontarz M",
+        "Janeczek M",
+        "Stopa Z",
+        "Kuropka P",
+        "Dobrzyński M"
       ],
       "pubtypes": [
         "Published Erratum"
       ],
-      "doi": "10.1007/s00261-026-05841-2",
-      "journal_tier": 2,
-      "impact": 2.3,
-      "section": "abdomen",
-      "score": -40.0,
+      "doi": "10.3390/diagnostics16213508",
+      "journal_tier": 3,
+      "impact": 3.0,
+      "section": "genel",
+      "score": -65.0,
       "score_parts": {
-        "journal": 60,
+        "journal": 35,
         "pubtype": -100,
         "recency": 0.0
       },
