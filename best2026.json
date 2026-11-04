@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-03T13:20:32+00:00",
+  "updated": "2026-11-04T13:31:40+00:00",
   "year": 2026,
   "count": 60,
   "criteria": "Etki faktörü (sonra etki skoru) sıralı",
@@ -146,6 +146,37 @@
       "journal_tier": 1,
       "impact": 12.1,
       "section": "toraks",
+      "score": 135.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 35,
+        "recency": 0.0
+      },
+      "tier": 1,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42975301",
+      "title": "Added Value of Preoperative Contrast Enhanced Mammography in Staging of Malignant Breast Lesions (PROCEM): A Randomized Controlled Trial.",
+      "abstract": "Background Contrast-enhanced mammography (CEM) is increasingly used in breast cancer diagnostics; however, randomized trials assessing the added value of CEM in preoperative staging of breast cancer beyond digital mammography, digital breast tomosynthesis, and US are lacking. Purpose To assess the added value of CEM for preoperative breast cancer staging in a randomized controlled trial. Materials and Methods This prospective randomized controlled trial (Added Value of Preoperative Contrast Enhanced Mammography in Staging of Malignant Breast Lesions) enrolled women diagnosed with early-stage breast cancer eligible for primary surgery at two breast centers in Sweden. Participants were randomized 1:1 to preoperative CEM or control from November 2020 through April 2024. The primary outcome was a 10% change in treatment due to preoperative CEM findings. Secondary outcomes included differences in reoperation and mastectomy rates between groups and accuracy of malignant extent estimation with CEM, mammography/tomosynthesis, and US using histopathologic extent as the reference, assessed with Bland-Altman statistics and concordance analysis. Subgroup analyses were performed according to menopausal status, breast density, histopathologic type of cancer, lesion size, and presence of microcalcifications at baseline imaging. Results In total, 415 participants (median age, 66 years; IQR, 56-73 years) completed the trial: 202 in the CEM group and 213 in the control group. Treatment was changed in 17 of 202 participants (8.4%; 95% CI: 5.3, 13.1) based on CEM findings. No evidence of differences was observed between the CEM and control groups with regard to mastectomy (17% [35 of 202] vs 18% [39 of 213]; P = .78) or reoperation (7.9% [16 of 202] vs 10% [22 of 213]; P = .39) rates. CEM showed the closest agreement with histopathologic malignant extent (bias, 3.5 mm), outperforming mammography and/or tomosynthesis (4.8 mm) and US (10.7 mm) overall and in nine of 10 predefined subgroups, except for ductal carcinoma in situ. Conclusion This trial did not meet its primary end point of a 10% treatment change; however, preoperative CEM improved malignant extent estimation. ClinicalTrials.gov: NCT04437602 © The Author(s) 2026. Published by the Radiological Society of North America under a CC BY 4.0 license. Supplemental material is available for this article. See also the editorial by Mesurolle and El Khoury in this issue.",
+      "journal": "Radiology",
+      "date": "2026-11",
+      "authors": [
+        "Gardfjell A",
+        "Rydén L",
+        "Niméus E",
+        "Zackrisson S",
+        "Åhsberg K"
+      ],
+      "pubtypes": [
+        "Journal Article",
+        "Randomized Controlled Trial",
+        "Multicenter Study"
+      ],
+      "doi": "10.1148/radiol.260857",
+      "journal_tier": 1,
+      "impact": 12.1,
+      "section": "meme",
       "score": 135.0,
       "score_parts": {
         "journal": 100,
@@ -1643,6 +1674,137 @@
       "abstract_tr": ""
     },
     {
+      "pmid": "42975307",
+      "title": "Phase 2 Trial of 89Zr-Deferoxamine-Daratumumab for CD38-targeted Immuno-PET/CT Detection of Multiple Myeloma.",
+      "abstract": "Background Multiple myeloma (MM) imaging is currently suboptimal, which may limit patient care. Zirconium 89 (89Zr) deferoxamine (DFO)-daratumumab is a novel CD38-targeted immuno-PET tracer. Purpose To compare 89Zr-DFO-daratumumab PET/CT against standard-of-care fluorine 18 (18F) fluorodeoxyglucose (FDG) PET/CT for detection of MM. Materials and Methods Participants with MM were accrued to this prospective phase 2 trial between March 2022 and July 2025. Standard-of-care 18F-FDG PET/CT and bone marrow biopsy were performed, along with research 89Zr-DFO-daratumumab PET/CT. If there were discrepant lesions between the two scans, image-guided biopsy was considered as the reference standard. The McNemar test was used to compare disease detection between the two imaging modalities. Results This study included 60 participants (median age, 63 years [IQR, 57-71 years]; 32 women). 89Zr-DFO-daratumumab PET/CT demonstrated at least one positive lesion in 43% (26 of 60; 95% CI: 31, 57) of participants, and 18F-FDG PET/CT demonstrated at least one positive lesion in 47% (28 of 60; 95% CI: 33, 60) of participants. While there was no overall difference in disease detection between the two imaging modalities (P = .81), MM was demonstrated only with 89Zr-DFO-daratumumab PET/CT in 13% (eight of 60) of participants, with subsequent biopsy confirmation of active myeloma. Conclusion In participants with MM, CD38-targeted 89Zr-DFO-daratumumab immuno-PET helped detect active myeloma in some participants with no signs of disease at 18F-FDG PET/CT. Clinical trial registration no. NCT04814615 © RSNA, 2026 Supplemental material is available for this article. See also the editorial by Choyke in this issue.",
+      "journal": "Radiology",
+      "date": "2026-11",
+      "authors": [
+        "Ulaner GA",
+        "Kuker RA",
+        "Diamond B",
+        "Hoffman J",
+        "Motwani P",
+        "Goldenson B",
+        "Homsi Y",
+        "Schiller G",
+        "Thomsen B",
+        "Vossen A",
+        "Kazandjian D",
+        "Landgren CO"
+      ],
+      "pubtypes": [
+        "Journal Article",
+        "Clinical Trial, Phase II"
+      ],
+      "doi": "10.1148/radiol.260517",
+      "journal_tier": 1,
+      "impact": 12.1,
+      "section": "genel",
+      "score": 100.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 2,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42975306",
+      "title": "2026 RSNA Outstanding Researcher.",
+      "abstract": "",
+      "journal": "Radiology",
+      "date": "2026-11",
+      "authors": [
+        "Klein JS"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1148/radiol.269014",
+      "journal_tier": 1,
+      "impact": 12.1,
+      "section": "genel",
+      "score": 100.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 2,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42975305",
+      "title": "Predicting Lymph Node Metastasis in Part-Solid Lung Adenocarcinomas with a Maximum Solid Portion Diameter of 30.0 mm.",
+      "abstract": "Background The incidence of lymph node (LN) metastasis in patients with part-solid nodules (PSNs) is known to be low, which makes the intraoperative evaluation of LNs a controversial issue. Purpose To investigate the incidence of LN metastasis and explore clinical-radiologic predicting factors for LN metastasis in PSN lung adenocarcinomas with a solid portion diameter of 30.0 mm or less in a large surgical study sample. Materials and Methods This retrospective study included patients with part-solid lung adenocarcinomas with solid portion diameters of 30.0 mm or less on preoperative CT images from July 2023 to December 2024. For each PSN, overall tumor size, solid portion diameter, consolidation-to-tumor ratio (CTR), location, margin, shape, spiculation, lobulation, pleural retraction, bubble-like lucency, and air bronchogram were independently evaluated by two chest radiologists blinded to clinical information and pathology results. Univariable and multivariable logistic regression analyses were performed. Diagnostic performance was evaluated using receiver operating characteristic curve, calibration, and decision curve analysis. Results This study included 1444 patients (median age, 59 years; IQR, 51-67 years; 931 women). The frequency of LN metastasis was 4.7% (68 of 1444 patients). None of the 115 patients with a CTR of 0.25 or less had LN metastasis (N1: 0 of 115; N2: 0 of 115). Rarely (0.2%, one of 552), LN metastasis was found in patients with a solid portion diameter of 6.0 mm or less. Solid portion diameter was the only independent predictor of LN metastasis (odds ratio, 1.25; 95% CI: 1.20, 1.31) in multivariable analysis and showed a superior diagnostic performance compared with CTR (area under the receiver operating characteristic curve, 0.86 [95% CI: 0.82, 0.90] vs 0.75 [95% CI: 0.68, 0.80]; P < .001), along with better calibration (Brier score, 0.039 vs 0.044) and greater net benefit. The clinical actionable cutoff for solid portion diameter was 7.3 mm (sensitivity, 95.6%; specificity, 49.6%). Conclusion Solid portion diameter had a superior diagnostic performance compared with CTR in predicting LN metastasis in patients with part-solid lung adenocarcinomas of solid portion diameter of 30.0 mm or less at CT. © RSNA, 2026 Supplemental material is available for this article.",
+      "journal": "Radiology",
+      "date": "2026-11",
+      "authors": [
+        "Li X",
+        "Ma J",
+        "Chen W",
+        "Cui B",
+        "Liang H",
+        "Jiang D",
+        "Ye T",
+        "Chen T",
+        "Gong Y",
+        "Chen S",
+        "Liu W",
+        "Wan Q",
+        "Zhu Y"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1148/radiol.261341",
+      "journal_tier": 1,
+      "impact": 12.1,
+      "section": "toraks",
+      "score": 100.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 2,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42975303",
+      "title": "Long-Term Comparison of US-guided Microwave Ablation Combined with Ethanol Injection versus Surgery for Nodular Retrosternal Goiter.",
+      "abstract": "Background Microwave ablation (MWA) combined with ethanol injection (EI) is a minimally invasive technique under preliminary investigation for the treatment of nodular retrosternal goiter (RSG) and has shown promising treatment efficacy. However, a comparative analysis between ablation and surgery is warranted to draw definitive conclusions. Purpose To compare the long-term efficacy and safety of MWA combined with EI versus surgery for patients with nodular RSG. Materials and Methods This retrospective study included patients with nodular RSG treated with MWA combined with EI or surgery between October 2016 and June 2024. Propensity score matching was performed for patients in the ablation and surgery groups, followed by comparisons between the two groups with independent-sample t test, Mann-Whitney U test, χ2, or Fisher exact test. Primary outcomes were treatment success, symptom score, and complication rate. Secondary outcomes were cosmetic score, hospitalization, procedure time, estimated blood loss, incision length, and cost. Results This study included 555 patients (mean age ± SD, 51 years ± 14.4; 414 women). After propensity score matching, 224 patients in the ablation group and 224 patients in the surgery group were observed for a median of 48 months (IQR, 24-60 months). No evidence of a difference was observed in the treatment success rates between the ablation and surgery group (98.7% [221 of 224] vs 100% [224 of 224], respectively; P = .08), while both modalities effectively lowered symptom scores from baseline (both P < .001). Compared with surgery, MWA resulted in a lower complication rate (2.2% [five of 224] vs 34.8% [78 of 224], P < .001), shorter posttreatment hospitalization (P < .001), shorter procedure time (P < .001), reduced estimated blood loss (P < .001), shorter incision length (P < .001), lower cost (P < .001), and lower cosmetic score (mean, 1.1 ± 0.3 vs 1.2 ± 0.4; P = .03) at the 12-month follow-up. Conclusion MWA combined with EI was as effective as surgery for nodular RSGs, providing comparable symptom relief while demonstrating fewer complications, offering a safer alternative for eligible patients. © RSNA, 2026 Supplemental material is available for this article.",
+      "journal": "Radiology",
+      "date": "2026-11",
+      "authors": [
+        "Li YY",
+        "Zhang MB",
+        "Yan L",
+        "Xiao J",
+        "Li XY",
+        "Yang Z",
+        "Luo YK"
+      ],
+      "pubtypes": [
+        "Journal Article",
+        "Comparative Study"
+      ],
+      "doi": "10.1148/radiol.253228",
+      "journal_tier": 1,
+      "impact": 12.1,
+      "section": "girisim",
+      "score": 100.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 2,
+      "abstract_tr": ""
+    },
+    {
       "pmid": "42808901",
       "title": "Case 350: Retained Appendicolith.",
       "abstract": "History A 16-year-old girl presented to the emergency department with a 1-month history of right lower back pain. She was originally seen at an urgent care clinic, where a lumbar radiograph was reportedly normal, and she was prescribed naproxen. However, she came to the emergency department once pain had escalated to 10 out of 10. Over the past month, the patient's right flank had increased in size and \"hardened\" to touch. She reported no trauma or other inciting incident. She had a prior history of laparoscopic appendectomy for perforated appendicitis more than 6 years earlier at an outside hospital. A prior contrast-enhanced abdominal CT scan, obtained 2 weeks after the appendectomy, was available for review. At evaluation, the patient was febrile and mildly tachycardic (104 beats per minute). Examination of the right flank revealed a 4-cm area of erythema and tenderness with 10-cm surrounding induration. She had leukocytosis (white blood cell count, 12 × 109/L; reference range, <9.44 × 109/L) and elevated C-reactive protein (23 mg/L; reference range, <9 mg/L). US followed by contrast-enhanced MRI of the abdomen was performed. Based on the imaging findings, the patient underwent a percutaneous drainage procedure. All cultures, including aerobic, anaerobic, fungal, and acid fast, were negative, with the caveat that the patient had been started on intravenous antibiotics before the procedure. She was discharged and prescribed 10 days of amoxicillin and clavulanate to complete antibiotic therapy, and the drain was removed 6 weeks later. One month after drain removal, the patient returned to the emergency department with return of severe flank pain, erythema, and purulent drainage. The patient was afebrile with a white blood cell count of 9.8 × 109/L. Contrast-enhanced abdominal CT was performed.",
@@ -1900,132 +2062,6 @@
       "journal_tier": 1,
       "impact": 12.1,
       "section": "girisim",
-      "score": 75.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": -25,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42742384",
-      "title": "Brain Health and Neighborhood: Is Disadvantage Hard Wired?",
-      "abstract": "",
-      "journal": "Radiology",
-      "date": "2026-09",
-      "authors": [
-        "Meltzer CC"
-      ],
-      "pubtypes": [
-        "Editorial"
-      ],
-      "doi": "10.1148/radiol.262575",
-      "journal_tier": 1,
-      "impact": 12.1,
-      "section": "neuro",
-      "score": 75.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": -25,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42742380",
-      "title": "From Opportunistic Chest CT to Predictive Radiology in MESA: An Early Career Perspective.",
-      "abstract": "",
-      "journal": "Radiology",
-      "date": "2026-09",
-      "authors": [
-        "Rai P",
-        "Janu AK"
-      ],
-      "pubtypes": [
-        "Editorial"
-      ],
-      "doi": "10.1148/radiol.262439",
-      "journal_tier": 1,
-      "impact": 12.1,
-      "section": "toraks",
-      "score": 75.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": -25,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42742378",
-      "title": "Muscle and Bone Health: One Step Closer to Understanding the Link between Risk Identification and Prevention.",
-      "abstract": "",
-      "journal": "Radiology",
-      "date": "2026-09",
-      "authors": [
-        "Roemer FW"
-      ],
-      "pubtypes": [
-        "Editorial"
-      ],
-      "doi": "10.1148/radiol.262271",
-      "journal_tier": 1,
-      "impact": 12.1,
-      "section": "genel",
-      "score": 75.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": -25,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42808895",
-      "title": "Cardiac MRI-derived Diastolic Function: From Physiological Promise to Population-level Evidence.",
-      "abstract": "",
-      "journal": "Radiology",
-      "date": "2026-09",
-      "authors": [
-        "Ishida M"
-      ],
-      "pubtypes": [
-        "Editorial"
-      ],
-      "doi": "10.1148/radiol.262318",
-      "journal_tier": 1,
-      "impact": 12.1,
-      "section": "toraks",
-      "score": 75.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": -25,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42836753",
-      "title": "Beyond Fibrosis: Clinical Importance of Vascular Assessment at Noncontrast CT in Interstitial Lung Disease.",
-      "abstract": "",
-      "journal": "Radiology",
-      "date": "2026-10",
-      "authors": [
-        "Iwasawa T"
-      ],
-      "pubtypes": [
-        "Editorial"
-      ],
-      "doi": "10.1148/radiol.262643",
-      "journal_tier": 1,
-      "impact": 12.1,
-      "section": "toraks",
       "score": 75.0,
       "score_parts": {
         "journal": 100,
