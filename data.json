@@ -1,8 +1,8 @@
 {
-  "updated": "2026-11-08T12:31:03+00:00",
+  "updated": "2026-11-09T14:47:12+00:00",
   "window_days": 1,
   "datetype": "edat",
-  "count": 100,
+  "count": 121,
   "tier1_count": 1,
   "source": "PubMed (NCBI E-utilities)",
   "articles": [
@@ -1248,6 +1248,46 @@
       "abstract_tr": ""
     },
     {
+      "pmid": "42999357",
+      "title": "Gadoxetic acid in China: a narrative review of the 15-year journey and the road ahead.",
+      "abstract": "BACKGROUND AND OBJECTIVE: Since its pivotal introduction in 2011, gadoxetic acid has fundamentally revolutionized the landscape of hepatobiliary imaging in China, shifting the diagnostic paradigm from morphological assessment toward functional hepatocyte-level evaluation. This review comprehensively summarizes its 15-year clinical evolution within the Chinese healthcare system, exploring its pharmacological benefits, advanced applications, and future integration with data-driven frameworks. METHODS: A systematic literature search was conducted across major electronic databases, including PubMed, Web of Science, and China National Knowledge Infrastructure, spanning from 2011 to 2026. The search targeted peer-reviewed articles, consensus statements, clinical guidelines, and high-impact reviews published in English and Chinese regarding gadoxetic acid-enhanced liver magnetic resonance imaging (MRI). KEY CONTENT AND FINDINGS: Gadoxetic acid provides high sensitivity for early small hepatocellular carcinoma (sHCC) detection via specific OATP1B3 uptake. Beyond lesion detection, its quantitative mapping shows potential for estimating hepatic functional reserve (HFR) and risk stratification for post-hepatectomy liver failure. Crucially, the ongoing paradigm shift toward integrating radiomics and deep learning bridges macroscopic imaging and microscopic molecular biology, theoretically enabling a multi-dimensional profile of liver parenchyma and lesions within a single diagnostic session. However, a significant gap remains between retrospective predictive performance and clinical readiness, and these data-driven frameworks currently serve as supplementary investigational engines rather than standalone clinical decision-makers. Moving forward, integrating these high-dimensional signatures into constructs such as \"digital twin\" represents the next frontier. Furthermore, China's hepatitis B virus-dominant epidemiological cohorts, comprehensive multi-modal datasets, \"Med-Engineering\" fusion, and collaborative networks uniquely accelerate the development and preliminary validation of these models, offering valuable insights for global precision hepatology within China's healthcare system. CONCLUSIONS: Over the past 15 years, gadoxetic acid has evolved far beyond a conventional liver imaging tool in China. While clinical translation of advanced analytics requires rigorous, prospective multicenter validation to ensure safety, combining this functional imaging agent with data-driven frameworks represents a promising frontier to eventually optimize future radiology workflows and support personalized precision hepatology.",
+      "journal": "Quant Imaging Med Surg",
+      "date": "2026-09-30",
+      "authors": [
+        "Liu Y",
+        "Chen X",
+        "Wang Y",
+        "Dong J",
+        "Yan L",
+        "Zhao X",
+        "Wang G",
+        "Liang C",
+        "Lu C",
+        "Wang J",
+        "Feng S",
+        "Wáng YXJ",
+        "Niendorf T",
+        "Liu Z",
+        "Zhao K"
+      ],
+      "pubtypes": [
+        "Journal Article",
+        "Review"
+      ],
+      "doi": "10.21037/qims-2026-1127",
+      "journal_tier": 3,
+      "impact": 2.9,
+      "section": "abdomen",
+      "score": 45.0,
+      "score_parts": {
+        "journal": 35,
+        "pubtype": 10,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
       "pmid": "42997952",
       "title": "Imaging-based quantification of myosteatosis: a narrative review of main principles, techniques, and clinical applications.",
       "abstract": "BACKGROUND AND OBJECTIVE: Intramuscular fat infiltration, commonly referred to as myosteatosis, has emerged as an important biomarker of skeletal muscle quality and is increasingly associated with aging, sarcopenia, metabolic disorders, neuromuscular diseases, and reduced functional outcomes. As interest in muscle composition grows, imaging techniques capable of quantifying intramuscular fat have become essential for both clinical assessment and research applications. Magnetic resonance imaging (MRI), computed tomography (CT), and ultrasound (US) each provide distinct approaches for evaluating muscle fat content, relying on different physical principles, biomarkers, and quantitative frameworks. This article provides an overview of the principal imaging modalities currently used for intramuscular fat quantification, with emphasis on their physical foundations, quantitative biomarkers, methodological developments, and clinical applicability. METHODS: We conducted a literature search on Google Scholar and PubMed using the following keywords: \"myosteatosis\", \"muscle fat\", \"CT\", \"MRI\" and \"ultrasound\", as well as more specific topics regarding corresponding modalities, methods, or limitations encountered: \"muscle attenuation\", \"material decomposition\", \"PDFF\", \"Dixon\", \"echo intensity\", \"echo attenuation\", \"speed of sound\". The included papers focus on the measurements of muscle fat content using CT, MRI, or US. KEY CONTENT AND FINDINGS: This paper reviews the three main imaging modalities to assess muscle fat content: CT, MRI, and US. It details the working physical principles, and introduces the existing methods applied to assess fat content inside the muscles. While some methods are already used in clinical practice, there remain limitations that are detailed and discussed to improve the myosteatosis assessment. CONCLUSIONS: While significant progress has been made in imaging-based quantification of intramuscular fat, no single modality currently satisfies all clinical and research requirements. A nuanced understanding of each technique's strengths and limitations is essential to guide their appropriate use, and continued methodological advancements will be key to improving their reliability.",
@@ -1363,6 +1403,128 @@
       "score_parts": {
         "journal": 35,
         "pubtype": 10,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "43000219",
+      "title": "Editorial for \"5.0 T Coronary Magnetic Resonance Angiography in Calcified Coronary Arteries: Diagnostic Performance Compared With Computed Tomography Using Invasive Angiography as Reference\".",
+      "abstract": "",
+      "journal": "J Magn Reson Imaging",
+      "date": "2026-11-08",
+      "authors": [
+        "Rovno HDSS"
+      ],
+      "pubtypes": [
+        "Editorial"
+      ],
+      "doi": "10.1002/jmri.70607",
+      "journal_tier": 2,
+      "impact": 3.3,
+      "section": "toraks",
+      "score": 35.0,
+      "score_parts": {
+        "journal": 60,
+        "pubtype": -25,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "43000197",
+      "title": "Adaptive Spectral Analysis of Umbilical Venous Doppler Maternal-Fetal Power Ratio for Preeclampsia Risk Assessment.",
+      "abstract": "OBJECTIVES: To develop and evaluate adaptive spectral analysis for deriving the maternal-fetal power ratio (MFPR) from umbilical venous Doppler recordings and to assess MFPR for subsequent preeclampsia (PEC) risk discrimination across recording durations. METHODS: We retrospectively analyzed second-trimester umbilical venous Doppler recordings in 2 datasets: 83 short acquisitions (mean, 3.4 seconds) from 46 subjects (15 with subsequent PEC), and 126 long acquisitions (mean, 6.9 seconds) from 66 subjects (30 with subsequent PEC). Power spectra were estimated by discrete Fourier transform, Welch, and Capon estimators with adaptive window selection, diagonal loading, and maternal and fetal heart-rate-guided peak localization. MFPR was defined as the decibel difference between the maternal and fetal spectral-peak powers and averaged across clips for each subject (median, 2 clips per subject in both datasets). Discrimination was assessed using group differences, receiver operating characteristic area under the curve (AUC), and Youden's J  . RESULTS: Higher MFPR during the second trimester was associated with subsequent development of PEC. For short recordings, heart-rate-guided adaptive Capon performed best (AUC, 0.84; 95% confidence interval [CI], 0.70-0.95). For long recordings, heart-rate-guided Welch performed best (AUC, 0.75; 95% CI, 0.60-0.88). Adaptive window selection reduced performance sensitivity to fixed window length, and diagonal loading stabilized covariance inversion. CONCLUSIONS: Umbilical venous Doppler MFPR distinguished pregnancies that later developed PEC. The best-performing spectral-analysis pipeline differed between the short and long acquisition datasets. Prospective validation is needed.",
+      "journal": "J Ultrasound Med",
+      "date": "2026-11-08",
+      "authors": [
+        "Zhu J",
+        "Arenas G",
+        "Yao X",
+        "Oguz B",
+        "Tawil C",
+        "Oguz I",
+        "Schwartz N",
+        "Byram B"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1002/jum.70540",
+      "journal_tier": 3,
+      "impact": 1.8,
+      "section": "pediatri",
+      "score": 35.0,
+      "score_parts": {
+        "journal": 35,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42999562",
+      "title": "\"Small Lesion, Major Distress\": acute lacunar infarction presenting with severe pseudobulbar palsy-a case description.",
+      "abstract": "",
+      "journal": "Quant Imaging Med Surg",
+      "date": "2026-09-29",
+      "authors": [
+        "Zhu X",
+        "Zhao C",
+        "Zhang S",
+        "Li Y",
+        "Li W",
+        "Ning B",
+        "Xin J",
+        "Gao X",
+        "Yang P",
+        "Ji G",
+        "Fang L",
+        "Li M"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.21037/qims-2026-1369",
+      "journal_tier": 3,
+      "impact": 2.9,
+      "section": "genel",
+      "score": 35.0,
+      "score_parts": {
+        "journal": 35,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42999538",
+      "title": "Tumor expectoration following drug-eluting bead bronchial artery chemoembolization for advanced non-small cell lung cancer.",
+      "abstract": "Drug-eluting bead bronchial artery chemoembolization (DEB-BACE) has been investigated as a locoregional salvage treatment for advanced non-small cell lung cancer (NSCLC). It may be considered for treatment-refractory or symptomatic central tumors. We retrospectively describe case of three patients with centrally located, treatment-refractory NSCLC who underwent DEB-BACE. All three subsequently expectorated soft-tissue material. Clinical features, procedures, imaging, pathology, and outcomes were reviewed. Potential bronchial and non-bronchial systemic tumor-feeding arteries were assessed using contrast-enhanced computed tomography and selective digital subtraction angiography (DSA). Lobaplatin was infused intra-arterially. Embolization was then performed with 300 to 500 μm epirubicin-loaded Bead microspheres. The procedural endpoint was marked reduction of tumor blush with stasis or near-stasis. One patient had SMARCA4-deficient NSCLC. Two had squamous cell carcinoma. Soft-tissue expectoration occurred 3 days to 2 weeks after DEB-BACE. Histopathology confirmed carcinoma with extensive necrosis in Cases 1 and 2. Pathological confirmation was unavailable in Case 3. Case 1 achieved a durable partial response during repeated DEB-BACE and continued sintilimab treatment. The tumor decreased from 94 mm × 55 mm to 22 mm × 14 mm at 13 months and remained stable at 29 months. Case 2 developed tumor expectoration 3 days after treatment. Bronchial patency was subsequently restored. The patient died 10 months after diagnosis. Case 3 developed recurrent hemoptysis and underwent emergency hemostatic bronchial artery embolization. The patient subsequently expectorated a soft-tissue mass and died from progressive pulmonary infection 14 months after diagnosis. Tumor expectoration may represent treatment-associated necrosis after DEB-BACE. Careful assessment of vascular anatomy, bleeding risk, infection, and non-target embolization risk is essential.",
+      "journal": "Quant Imaging Med Surg",
+      "date": "2026-10-15",
+      "authors": [
+        "Deng Y",
+        "Le Y",
+        "Li J",
+        "Xu R",
+        "Cui W"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.21037/qims-2026-1506",
+      "journal_tier": 3,
+      "impact": 2.9,
+      "section": "girisim",
+      "score": 35.0,
+      "score_parts": {
+        "journal": 35,
+        "pubtype": 0,
         "recency": 0.0
       },
       "tier": 3,
@@ -3171,6 +3333,458 @@
       "score_parts": {
         "journal": 35,
         "pubtype": -25,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "43000213",
+      "title": "Postural Discordance Between Reference and Index Measurements in Point-of-Care Ultrasound Based Estimation of Central Venous Pressure.",
+      "abstract": "",
+      "journal": "J Ultrasound Med",
+      "date": "2026-11-08",
+      "authors": [
+        "C HP",
+        "Arun Babu T"
+      ],
+      "pubtypes": [
+        "Letter"
+      ],
+      "doi": "10.1002/jum.70547",
+      "journal_tier": 3,
+      "impact": 1.8,
+      "section": "genel",
+      "score": 5.0,
+      "score_parts": {
+        "journal": 35,
+        "pubtype": -30,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42999599",
+      "title": "Diagnosis of MCLMR syndrome using prenatal ultrasound and whole-exome sequencing: a rare case description.",
+      "abstract": "",
+      "journal": "Quant Imaging Med Surg",
+      "date": "2026-10-20",
+      "authors": [
+        "Dong Y",
+        "Lan Q",
+        "Cao S",
+        "Jia P",
+        "Feng X",
+        "Cheng X",
+        "Ma B"
+      ],
+      "pubtypes": [
+        "Letter"
+      ],
+      "doi": "10.21037/qims-2026-0640",
+      "journal_tier": 3,
+      "impact": 2.9,
+      "section": "genel",
+      "score": 5.0,
+      "score_parts": {
+        "journal": 35,
+        "pubtype": -30,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42999590",
+      "title": "Bilateral symmetrical multifocal skeletal muscle 131I uptake after radioiodine ablation for differentiated thyroid carcinoma: a benign pitfall clarified by SPECT/CT.",
+      "abstract": "",
+      "journal": "Quant Imaging Med Surg",
+      "date": "2026-09-29",
+      "authors": [
+        "Chen Y",
+        "Zhong J",
+        "Gao Q",
+        "Liu W"
+      ],
+      "pubtypes": [
+        "Letter"
+      ],
+      "doi": "10.21037/qims-2026-1715",
+      "journal_tier": 3,
+      "impact": 2.9,
+      "section": "girisim",
+      "score": 5.0,
+      "score_parts": {
+        "journal": 35,
+        "pubtype": -30,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42999588",
+      "title": "Atypical pediatric hypertrophic cardiomyopathy presenting without overt left ventricular hypertrophy, with an abnormal blood pressure response and restrictive physiological features: a diagnostic odyssey.",
+      "abstract": "",
+      "journal": "Quant Imaging Med Surg",
+      "date": "2026-10-20",
+      "authors": [
+        "Zhang N",
+        "Shao S",
+        "Hua Y",
+        "Duan H",
+        "Liu X",
+        "Zhou K",
+        "Wang C"
+      ],
+      "pubtypes": [
+        "Letter"
+      ],
+      "doi": "10.21037/qims-2025-1-2786",
+      "journal_tier": 3,
+      "impact": 2.9,
+      "section": "pediatri",
+      "score": 5.0,
+      "score_parts": {
+        "journal": 35,
+        "pubtype": -30,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42999586",
+      "title": "Extended-field 18F-fluoroethyl-L-tyrosine positron emission tomography/computed tomography (18F-FET PET/CT)-guided biopsy selection in disseminated BRAF V600E-mutant epithelioid glioblastoma: a case description and literature analysis.",
+      "abstract": "",
+      "journal": "Quant Imaging Med Surg",
+      "date": "2026-10-12",
+      "authors": [
+        "Zhou WY",
+        "Hua YF",
+        "Wen JB",
+        "Zhou ZR",
+        "Xie F",
+        "Hua T",
+        "Guan YH"
+      ],
+      "pubtypes": [
+        "Letter"
+      ],
+      "doi": "10.21037/qims-2026-1400",
+      "journal_tier": 3,
+      "impact": 2.9,
+      "section": "genel",
+      "score": 5.0,
+      "score_parts": {
+        "journal": 35,
+        "pubtype": -30,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42999572",
+      "title": "An unusual cause of acute myocardial infarction and its complications in adolescent males: a case description of cardiac myxoma.",
+      "abstract": "",
+      "journal": "Quant Imaging Med Surg",
+      "date": "2026-10-20",
+      "authors": [
+        "Tan Y",
+        "Xing S",
+        "Zeng Z",
+        "Wen Y",
+        "Liu X",
+        "Liu XH"
+      ],
+      "pubtypes": [
+        "Letter"
+      ],
+      "doi": "10.21037/qims-2026-1656",
+      "journal_tier": 3,
+      "impact": 2.9,
+      "section": "toraks",
+      "score": 5.0,
+      "score_parts": {
+        "journal": 35,
+        "pubtype": -30,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42999558",
+      "title": "Familial mirror-image S-shaped crossed fused renal ectopia: a case description.",
+      "abstract": "",
+      "journal": "Quant Imaging Med Surg",
+      "date": "2026-09-30",
+      "authors": [
+        "Chen L",
+        "Zhang C",
+        "Wang J"
+      ],
+      "pubtypes": [
+        "Letter"
+      ],
+      "doi": "10.21037/qims-2026-0984",
+      "journal_tier": 3,
+      "impact": 2.9,
+      "section": "abdomen",
+      "score": 5.0,
+      "score_parts": {
+        "journal": 35,
+        "pubtype": -30,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42999556",
+      "title": "Adnexal torsion in pregnancy: a description of two cases in the first and third trimesters.",
+      "abstract": "",
+      "journal": "Quant Imaging Med Surg",
+      "date": "2026-09-29",
+      "authors": [
+        "Ren Q",
+        "Tian T"
+      ],
+      "pubtypes": [
+        "Letter"
+      ],
+      "doi": "10.21037/qims-2026-1737",
+      "journal_tier": 3,
+      "impact": 2.9,
+      "section": "genel",
+      "score": 5.0,
+      "score_parts": {
+        "journal": 35,
+        "pubtype": -30,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42999550",
+      "title": "To assess the association between muscle mass/density and wet biomarkers of metabolic syndrome, all influencing factors should be considered.",
+      "abstract": "",
+      "journal": "Quant Imaging Med Surg",
+      "date": "2026-09-20",
+      "authors": [
+        "Finsterer J"
+      ],
+      "pubtypes": [
+        "Letter",
+        "Comment"
+      ],
+      "doi": "10.21037/qims-2026-1695",
+      "journal_tier": 3,
+      "impact": 2.9,
+      "section": "genel",
+      "score": 5.0,
+      "score_parts": {
+        "journal": 35,
+        "pubtype": -30,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42999546",
+      "title": "Rapid radiological evolution of primary central nervous system lymphoma mimicking transient ischemic attack and focal epilepsy: a case description.",
+      "abstract": "",
+      "journal": "Quant Imaging Med Surg",
+      "date": "2026-09-29",
+      "authors": [
+        "Cheon SJ",
+        "Kim SY",
+        "Park HS",
+        "Ryu HU",
+        "Shin BS"
+      ],
+      "pubtypes": [
+        "Letter"
+      ],
+      "doi": "10.21037/qims-2026-1499",
+      "journal_tier": 3,
+      "impact": 2.9,
+      "section": "neuro",
+      "score": 5.0,
+      "score_parts": {
+        "journal": 35,
+        "pubtype": -30,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42999393",
+      "title": "Fetal tachycardia and cardiomegaly as presenting manifestations of maternal TRAb-mediated fetal hyperthyroidism: a case description and analysis of the relevant literature.",
+      "abstract": "",
+      "journal": "Quant Imaging Med Surg",
+      "date": "2026-09-30",
+      "authors": [
+        "Zhou J",
+        "Luo H",
+        "Wang C"
+      ],
+      "pubtypes": [
+        "Letter"
+      ],
+      "doi": "10.21037/qims-2026-1170",
+      "journal_tier": 3,
+      "impact": 2.9,
+      "section": "pediatri",
+      "score": 5.0,
+      "score_parts": {
+        "journal": 35,
+        "pubtype": -30,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42999385",
+      "title": "Photoacoustic/ultrasound dual-modality imaging in assessing anterior capsular invasion of papillary thyroid microcarcinoma: a case description.",
+      "abstract": "",
+      "journal": "Quant Imaging Med Surg",
+      "date": "2026-09-30",
+      "authors": [
+        "Li N",
+        "Yu B",
+        "Wang X",
+        "Sun X",
+        "Shao Y",
+        "Chen L",
+        "Guo Z"
+      ],
+      "pubtypes": [
+        "Letter"
+      ],
+      "doi": "10.21037/qims-2026-1130",
+      "journal_tier": 3,
+      "impact": 2.9,
+      "section": "genel",
+      "score": 5.0,
+      "score_parts": {
+        "journal": 35,
+        "pubtype": -30,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42999373",
+      "title": "Unequal genetic fate in a monochorionic diamniotic twin pregnancy: a case description of a fetus with a newly arising Xp22.31 microdeletion with complex malformations and its healthy monozygotic twin.",
+      "abstract": "",
+      "journal": "Quant Imaging Med Surg",
+      "date": "2026-09-30",
+      "authors": [
+        "Yang WX",
+        "Pan J",
+        "Han LT"
+      ],
+      "pubtypes": [
+        "Letter"
+      ],
+      "doi": "10.21037/qims-2026-1198",
+      "journal_tier": 3,
+      "impact": 2.9,
+      "section": "genel",
+      "score": 5.0,
+      "score_parts": {
+        "journal": 35,
+        "pubtype": -30,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42999367",
+      "title": "Maffucci syndrome with extensive unilateral skeletal involvement and secondary chondrosarcoma: a case description.",
+      "abstract": "",
+      "journal": "Quant Imaging Med Surg",
+      "date": "2026-09-30",
+      "authors": [
+        "Lu Y",
+        "Miao X",
+        "Zhang HM"
+      ],
+      "pubtypes": [
+        "Letter"
+      ],
+      "doi": "10.21037/qims-2026-0993",
+      "journal_tier": 3,
+      "impact": 2.9,
+      "section": "genel",
+      "score": 5.0,
+      "score_parts": {
+        "journal": 35,
+        "pubtype": -30,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42999349",
+      "title": "Prenatal multimodal ultrasound assessment of a fetal hepatic artery-umbilical vein fistula with an atypical Sylvian fissure appearance: a case description.",
+      "abstract": "",
+      "journal": "Quant Imaging Med Surg",
+      "date": "2026-09-30",
+      "authors": [
+        "Niu KX",
+        "Yue ZC",
+        "Zhang WD",
+        "Li TG"
+      ],
+      "pubtypes": [
+        "Letter"
+      ],
+      "doi": "10.21037/qims-2026-1272",
+      "journal_tier": 3,
+      "impact": 2.9,
+      "section": "abdomen",
+      "score": 5.0,
+      "score_parts": {
+        "journal": 35,
+        "pubtype": -30,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "42999333",
+      "title": "Multimodality imaging of intrathoracic liver mimicking a neonatal thoracic mass in right-sided Bochdalek hernia: a case description.",
+      "abstract": "",
+      "journal": "Quant Imaging Med Surg",
+      "date": "2026-09-30",
+      "authors": [
+        "Qiu J",
+        "Cheng P",
+        "An Y"
+      ],
+      "pubtypes": [
+        "Letter"
+      ],
+      "doi": "10.21037/qims-2026-1141",
+      "journal_tier": 3,
+      "impact": 2.9,
+      "section": "toraks",
+      "score": 5.0,
+      "score_parts": {
+        "journal": 35,
+        "pubtype": -30,
         "recency": 0.0
       },
       "tier": 3,
