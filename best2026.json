@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-10T14:00:01+00:00",
+  "updated": "2026-11-11T13:17:03+00:00",
   "year": 2026,
   "count": 60,
   "criteria": "Etki faktörü (sonra etki skoru) sıralı",
@@ -450,6 +450,48 @@
         "Multicenter Study"
       ],
       "doi": "10.1148/radiol.253968",
+      "journal_tier": 1,
+      "impact": 12.1,
+      "section": "girisim",
+      "score": 118.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 18,
+        "recency": 0.0
+      },
+      "tier": 1,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "43007083",
+      "title": "Glandular Tissue Component at Preoperative Breast US and Recurrence Risk in Invasive Breast Cancer.",
+      "abstract": "Background Glandular tissue component (GTC) at breast US is associated with breast cancer risk, but recurrence risk remains unclear. Purpose To evaluate the association between GTC assessed at preoperative breast US and recurrence risk in invasive breast cancer across two tertiary institutions in Korea and China. Materials and Methods This retrospective longitudinal study included consecutive women with invasive breast cancer who underwent surgery between January 2013 and December 2018 in Korea and between January 2013 and December 2019 in China. GTC was qualitatively classified as low (minimal or mild) or high (moderate or marked) on preoperative bilateral US images. GTC was prospectively assessed during routine clinical care at institution A (Korea) and retrospectively assessed using archived images at institution B (China). Competing-risk multivariable Fine-Gray models evaluated GTC as the independent variable for recurrence, with adjustment for clinicopathologic variables. Results Mean age was 52.4 years ± 10.8 (SD) at institution A (n = 5167) and 49.2 years ± 10.1 at institution B (n = 3719). Median interval from surgery to recurrence diagnosis or last follow-up was 6.8 years (IQR, 5.42-8.41 years) at institution A and 8.0 years (IQR, 6.38-9.60 years) at institution B. Ipsilateral or contralateral breast cancer occurred in 145 (2.8%) and 85 patients (2.3%) at institutions A and B, respectively, while regional or distant recurrence occurred in 233 (4.5%) and 520 (14.0%). In multivariable analyses, high GTC was independently associated with increased risk of ipsilateral or contralateral breast cancer at institution A (subdistribution hazard ratio [HR], 1.93; P < .001) and institution B (HR, 2.02; P = .002). There was no evidence of an association between GTC and regional or distant recurrence at either institution A (HR, 0.89; P = .46) or institution B (HR, 1.20; P = .06). Conclusion High GTC at preoperative breast US was independently associated with an increased risk of ipsilateral or contralateral breast cancer after invasive breast cancer treatment, consistently across both institutions. © RSNA, 2026 Supplemental material is available for this article.",
+      "journal": "Radiology",
+      "date": "2026-11",
+      "authors": [
+        "Deng T",
+        "Moon WK",
+        "Yan C",
+        "Xiang H",
+        "Tang J",
+        "Xu F",
+        "Jang MJ",
+        "Park EK",
+        "Yoen H",
+        "Lee M",
+        "Shin SU",
+        "Lee EJ",
+        "Han NH",
+        "Lee KH",
+        "Moon HG",
+        "Ha SM",
+        "Lin X"
+      ],
+      "pubtypes": [
+        "Journal Article",
+        "Multicenter Study"
+      ],
+      "doi": "10.1148/radiol.260681",
       "journal_tier": 1,
       "impact": 12.1,
       "section": "girisim",
@@ -1805,6 +1847,137 @@
       "abstract_tr": ""
     },
     {
+      "pmid": "43007084",
+      "title": "Comparison of 7-T and 3-T MRI for the Detection of Multiple Sclerosis Lesions.",
+      "abstract": "Background MRI is central to multiple sclerosis (MS) diagnosis. Although 7-T MRI improves lesion detection compared with 3-T MRI, systematic head-to-head comparisons across lesion locations and key imaging biomarkers, including the central vein sign (CVS) and paramagnetic rim lesions (PRLs), remain limited; consensus statements call for such studies to better define the clinical value of 7-T MRI. Purpose To systematically compare 7-T and 3-T MRI for detecting MS lesions across characteristic intracranial regions and key imaging biomarkers and to assess the incremental clinical value of 7-T MRI for lesion detection. Materials and Methods Patients with MS from the China National Registry of Neuro-Inflammatory Diseases were prospectively enrolled and underwent same-day 7-T and 3-T MRI examinations (March 2023 to June 2024). Images were anonymized and independently interpreted by two experienced raters in a blinded manner according to standard criteria. Lesion counts were compared with the Wilcoxon signed-rank test; inter- and intrarater reliability were assessed with the intraclass correlation coefficient (ICC) and Cohen κ, respectively. Results Among 30 participants (median age at MRI, 34.5 years [IQR, 30-48.3 years]; 27 female), 7-T MRI depicted more MS lesions overall than 3-T MRI (2268 vs 1779; relative increase, 27.5%; P < .001), with higher detection across cortical (+135.7%), juxtacortical (+26.1%), periventricular (+18.8%), and infratentorial (+33.5%) regions (all P < .001). Moreover, 7-T MRI visualized more CVS-positive lesions (1451 vs 592; +145.1%; P < .001) and more PRLs (634 vs 468; +35.5%; P < .001). The proportion of CVS-positive lesions was higher with 7-T MRI than with 3-T MRI (64.0% vs 33.3%, P < .001), whereas the proportions of PRLs were similar (28.0% vs 26.3%, P = .057). Interrater reliability was excellent (ICC = 0.99). Conclusion Compared with 3-T MRI, 7-T MRI improved MS lesion detection across characteristic intracranial regions and key imaging biomarkers, with a higher proportion of CVS-positive lesions but similar PRL proportions, supporting the clinical value of 7-T MRI. Clinical trial registration no. NCT05154370 © RSNA, 2026 Supplemental material is available for this article.",
+      "journal": "Radiology",
+      "date": "2026-11",
+      "authors": [
+        "Liu X",
+        "Tian DC",
+        "Zhang Z",
+        "Yang Y",
+        "Zhu W",
+        "Guo A",
+        "Xu Q",
+        "Shi X",
+        "Duan Y",
+        "Meng X",
+        "Jing J"
+      ],
+      "pubtypes": [
+        "Journal Article",
+        "Comparative Study"
+      ],
+      "doi": "10.1148/radiol.260473",
+      "journal_tier": 1,
+      "impact": 12.1,
+      "section": "neuro",
+      "score": 100.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 2,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "43007082",
+      "title": "Photon-counting CT of Spinal Canal Stenosis Induced by Gouty Tophi.",
+      "abstract": "",
+      "journal": "Radiology",
+      "date": "2026-11",
+      "authors": [
+        "Wei X",
+        "Zhou Z"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1148/radiol.261531",
+      "journal_tier": 1,
+      "impact": 12.1,
+      "section": "genel",
+      "score": 100.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 2,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "43007081",
+      "title": "Low-Dose CT Lung-RADS 2022 for the Management of Screening- and Non-Screening-detected Lung Cancer Associated with Cystic Airspaces.",
+      "abstract": "Background Lung cancer associated with cystic airspaces (CA) can be misinterpreted as a benign lesion, leading to missed or delayed diagnosis; however, the effect of the Lung Imaging Reporting and Data System (Lung-RADS) 2022 criteria remains unverified. Purpose To retrospectively determine the frequency and outcomes of lung cancer associated with CA during screening and explore the potential effect of Lung-RADS 2022 on earlier diagnosis. Materials and Methods This secondary analysis included participants with lung cancers from three trials: the National Lung Screening Trial (2002-2007); Italian Lung Cancer Screening Trial, or ITALUNG (2004-2010); and German Lung Cancer Screening Intervention trial, or LUSI (2007-2016). Two radiologists jointly reviewed low-dose CT images to identify and morphologically characterize lung cancer associated with CA. Associations with histologic features, stage, and other variables were assessed. Lung cancer-specific survival was analyzed using Fine-Gray regression accounting for the competing risk of non-lung cancer death. Multivariable models were adjusted for age, sex, stage, detection status, and trial. Lung-RADS 2022 criteria for atypical pulmonary cysts were applied. Results Seventy-three cancers associated with CA were identified in 1258 participants (median age, 64 years [IQR, 61-69 years]; 43 male), including 44 of 716 (6.1%) screening-detected and 29 of 542 (5.4%) non-screening-detected cancers. Multilocular morphologic type was associated with a more advanced stage than unilocular morphologic type (12 of 24 vs 15 of 49; P = .02). The 5-year lung cancer-specific survival was 51.4% (95% CI: 39.3, 62.3) for cancers associated with CA and 53.2% (95% CI: 50.1, 56.2) for 1054 participants with noncystic non-small cell lung cancer. No evidence of a difference in survival was observed (subdistribution hazard ratio, 1.15 [95% CI: 0.81, 1.63]; P = .44), and results remained consistent in multivariable models. Lung-RADS 2022 might have enabled earlier diagnosis in 55 of 73 cancers associated with CA (75%). Conclusion Lung cancer associated with CA accounted for 6.1% of screening-detected and 5.4% of non-screening-detected lung cancers. Outcomes were similar to those of noncystic non-small cell lung cancer, and Lung-RADS 2022 may facilitate earlier diagnosis. Clinical trial registration nos. NCT00047385, NCT02777996, and ISRCTN N30604390 © RSNA, 2026 Supplemental material is available for this article. See also the editorial by Byrne and Hammer in this issue.",
+      "journal": "Radiology",
+      "date": "2026-11",
+      "authors": [
+        "Mascalchi M",
+        "Cavigli E",
+        "Puliti D",
+        "Cortez Ibanez F",
+        "Manneschi G",
+        "Gorini G",
+        "Picozzi G",
+        "De Luca GR",
+        "Sali L",
+        "Diciotti S",
+        "Delorme S",
+        "Kaaks R"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1148/radiol.253678",
+      "journal_tier": 1,
+      "impact": 12.1,
+      "section": "girisim",
+      "score": 100.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 2,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "43007080",
+      "title": "Gadolinium Retention in Pediatric Bone: Linear versus Macrocyclic MRI Contrast Agents.",
+      "abstract": "Background Gadolinium retention in bone after gadolinium-based contrast agent (GBCA) exposure is documented in adults but unquantified in children, who may have higher cumulative doses from early imaging. Purpose To quantify and compare residual gadolinium in pediatric bone tissue after macrocyclic and linear GBCA exposure. Materials and Methods In this prospective pilot study, individuals under 18 years of age scheduled for median sternotomy who had undergone clinically indicated GBCA-enhanced or unenhanced MRI were included between January 2018 and August 2024 at a single academic medical center and categorized into three groups: linear GBCA exposed (gadobenate), macrocyclic GBCA exposed (gadoterate), and control (no GBCA exposure). Bone samples were obtained during surgery and analyzed for gadolinium concentration (micrograms of gadolinium per gram of bone tissue). Linear regression modeling was used to analyze the impact of GBCA exposure on bone gadolinium concentration. Results A total of 29 individuals were included: nine exposed to linear GBCA (median age, 12.0 years [IQR, 4.0-14.0 years]; five male individuals), 11 exposed to macrocyclic GBCA (median age, 13.0 years [IQR, 3.3-14.8 years]; eight male individuals), and nine control individuals (median age, 1.8 years [IQR, 0.5-6.3 years]; seven male individuals). Gadolinium was detected in bone tissue in all groups. Median bone gadolinium concentrations were 0.001 μg/g (IQR, 0.0007-0.0015 μg/g) with no GBCA exposure, 0.007 μg/g (IQR, 0.004-0.011 μg/g) with gadoterate exposure, and 0.141 μg/g (IQR, 0.079-0.374 μg/g) with gadobenate exposure. GBCA exposure was associated with gadolinium concentration (adjusted R2 = 0.77; P < .001). Gadobenate exposure was associated with higher gadolinium concentrations than no GBCA exposure (lnβ [log-transformed regression coefficient] = 4.9 [95% CI: 3.7, 5.9]; fold change, 129.8; P < .001) and gadoterate exposure (lnβ = 2.8 [95% CI: 1.6, 3.8]; fold change, 16.0; P < .001). Gadoterate exposure was also associated with higher gadolinium concentrations than no GBCA exposure (lnβ = 2.1 [95% CI: 1.5, 2.7]; fold change, 8.1; P < .001). Conclusion Exposure to the linear agent gadobenate at MRI was associated with higher gadolinium concentrations in bone tissue than no GBCA exposure or exposure to the macrocyclic agent gadoterate; trace gadolinium in the bone tissue of controls may reflect environmental exposure. Clinical trial registration no. NCT03337594 © RSNA, 2026 Supplemental material is available for this article.",
+      "journal": "Radiology",
+      "date": "2026-11",
+      "authors": [
+        "Roberts DR",
+        "Moore RD",
+        "Harrison A",
+        "Rosenberg MJ",
+        "Hlavacek AM",
+        "Kavarana MN",
+        "Bradley SM",
+        "Davis WC"
+      ],
+      "pubtypes": [
+        "Journal Article",
+        "Comparative Study"
+      ],
+      "doi": "10.1148/radiol.252454",
+      "journal_tier": 1,
+      "impact": 12.1,
+      "section": "pediatri",
+      "score": 100.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 2,
+      "abstract_tr": ""
+    },
+    {
       "pmid": "42808901",
       "title": "Case 350: Retained Appendicolith.",
       "abstract": "History A 16-year-old girl presented to the emergency department with a 1-month history of right lower back pain. She was originally seen at an urgent care clinic, where a lumbar radiograph was reportedly normal, and she was prescribed naproxen. However, she came to the emergency department once pain had escalated to 10 out of 10. Over the past month, the patient's right flank had increased in size and \"hardened\" to touch. She reported no trauma or other inciting incident. She had a prior history of laparoscopic appendectomy for perforated appendicitis more than 6 years earlier at an outside hospital. A prior contrast-enhanced abdominal CT scan, obtained 2 weeks after the appendectomy, was available for review. At evaluation, the patient was febrile and mildly tachycardic (104 beats per minute). Examination of the right flank revealed a 4-cm area of erythema and tenderness with 10-cm surrounding induration. She had leukocytosis (white blood cell count, 12 × 109/L; reference range, <9.44 × 109/L) and elevated C-reactive protein (23 mg/L; reference range, <9 mg/L). US followed by contrast-enhanced MRI of the abdomen was performed. Based on the imaging findings, the patient underwent a percutaneous drainage procedure. All cultures, including aerobic, anaerobic, fungal, and acid fast, were negative, with the caveat that the patient had been started on intravenous antibiotics before the procedure. She was discharged and prescribed 10 days of amoxicillin and clavulanate to complete antibiotic therapy, and the drain was removed 6 weeks later. One month after drain removal, the patient returned to the emergency department with return of severe flank pain, erythema, and purulent drainage. The patient was afebrile with a white blood cell count of 9.8 × 109/L. Contrast-enhanced abdominal CT was performed.",
@@ -1934,134 +2107,6 @@
       "journal_tier": 1,
       "impact": 12.1,
       "section": "yapayzeka",
-      "score": 75.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": -25,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42678254",
-      "title": "Beyond Burnout in Radiology: A Call to Action in the AI Era.",
-      "abstract": "",
-      "journal": "Radiology",
-      "date": "2026-09",
-      "authors": [
-        "Boiselle PM"
-      ],
-      "pubtypes": [
-        "Editorial"
-      ],
-      "doi": "10.1148/radiol.261218",
-      "journal_tier": 1,
-      "impact": 12.1,
-      "section": "genel",
-      "score": 75.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": -25,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42708856",
-      "title": "Sharpening the PET Amyloid Signal with MRI.",
-      "abstract": "",
-      "journal": "Radiology",
-      "date": "2026-09",
-      "authors": [
-        "Bedmutha AS"
-      ],
-      "pubtypes": [
-        "Editorial"
-      ],
-      "doi": "10.1148/radiol.262286",
-      "journal_tier": 1,
-      "impact": 12.1,
-      "section": "genel",
-      "score": 75.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": -25,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42708855",
-      "title": "Bringing Inflammation's Microvasculature into View: Super-Resolution US in Crohn Disease Activity-Early Career Perspective.",
-      "abstract": "",
-      "journal": "Radiology",
-      "date": "2026-09",
-      "authors": [
-        "Katwal S",
-        "Chernyak V"
-      ],
-      "pubtypes": [
-        "Editorial"
-      ],
-      "doi": "10.1148/radiol.262452",
-      "journal_tier": 1,
-      "impact": 12.1,
-      "section": "genel",
-      "score": 75.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": -25,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42708853",
-      "title": "Closing the Gap in Femoral-Neck Fracture Detection: AI Assistance with Pelvic and Hip Radiographs.",
-      "abstract": "",
-      "journal": "Radiology",
-      "date": "2026-09",
-      "authors": [
-        "Flores DV",
-        "Cantarelli T"
-      ],
-      "pubtypes": [
-        "Editorial"
-      ],
-      "doi": "10.1148/radiol.262353",
-      "journal_tier": 1,
-      "impact": 12.1,
-      "section": "kas",
-      "score": 75.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": -25,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42708847",
-      "title": "A Progressive Shift in Procedural Sedation: Is It Time to Embrace Ketamine in Interventional Radiology?",
-      "abstract": "",
-      "journal": "Radiology",
-      "date": "2026-09",
-      "authors": [
-        "Weiss CR",
-        "Park LS"
-      ],
-      "pubtypes": [
-        "Editorial"
-      ],
-      "doi": "10.1148/radiol.262019",
-      "journal_tier": 1,
-      "impact": 12.1,
-      "section": "girisim",
       "score": 75.0,
       "score_parts": {
         "journal": 100,
