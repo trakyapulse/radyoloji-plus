@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T15:14:49+00:00",
+  "updated": "2026-11-18T14:51:43+00:00",
   "year": 2026,
   "count": 60,
   "criteria": "Etki faktörü (sonra etki skoru) sıralı",
@@ -492,6 +492,106 @@
         "Multicenter Study"
       ],
       "doi": "10.1148/radiol.260681",
+      "journal_tier": 1,
+      "impact": 12.1,
+      "section": "girisim",
+      "score": 118.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 18,
+        "recency": 0.0
+      },
+      "tier": 1,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "43043187",
+      "title": "Quantitative CT Phenotypes and Prognosis in Combined Pulmonary Fibrosis and Emphysema.",
+      "abstract": "Background Combined pulmonary fibrosis and emphysema (CPFE) has heterogeneous outcomes, and visual assessment or separate measurement of emphysema and fibrosis does not directly identify which structural component predominates in an individual patient. Purpose To determine whether quantitative CT enables objective stratification of CPFE into fibrosis-dominant and emphysema-dominant phenotypes and to evaluate their distinct clinical trajectories and prognostic implications. Materials and Methods This secondary analysis of a prospective multicenter observational study included patients with CPFE enrolled between January 2017 and December 2024. A fixed commercial artificial intelligence workstation automatically segmented the lungs and quantified emphysema and fibrosis on high-resolution CT scans. Participants were classified as having the fibrosis-dominant phenotype when the fibrosis percentage was equal to or greater than the emphysema percentage, and as having the emphysema-dominant phenotype otherwise. Group comparisons used the t test, Wilcoxon rank-sum test, χ2 test, or Fisher exact test. Cox models were used to assess all-cause mortality; C index and calibration were used to assess model performance. Results The study population included 1583 participants (median age, 65 years [IQR, 58-71 years]; 1186 men); 823 (52%) had the fibrosis-dominant phenotype, and 760 (48%) had the emphysema-dominant phenotype. The fibrosis-dominant group had a higher fibrosis percentage than the emphysema-dominant group (median, 18% vs 10%; P < .001), whereas the emphysema-dominant group had a higher emphysema percentage (median, 7% vs 6%; P < .001). During a median follow-up of 2.59 years, 513 deaths occurred. The fibrosis-dominant phenotype was associated with higher mortality after adjustment (hazard ratio, 1.36 [95% CI: 1.13, 1.62]; P < .001). Conclusion Quantitative CT helped identify emphysema- and fibrosis-dominant CPFE phenotypes with different prognoses. The fibrosis-dominant phenotype was associated with higher all-cause mortality. Clinical trial registration no. NCT04370158 © RSNA, 2026 Supplemental material is available for this article. See also the editorial by Grenier in this issue.",
+      "journal": "Radiology",
+      "date": "2026-11",
+      "authors": [
+        "Wang H",
+        "Ni Y",
+        "Deng Y",
+        "Huang S",
+        "Qiang Y",
+        "Yang X",
+        "Liu A",
+        "Wang J",
+        "Zhu L",
+        "Meng W",
+        "Du J",
+        "Geng J",
+        "Xie B",
+        "Wang S",
+        "Shu S",
+        "Ren Y",
+        "Dai H",
+        "Liu M",
+        "China Interstitial Lung Disease Collaboration Network"
+      ],
+      "pubtypes": [
+        "Journal Article",
+        "Multicenter Study",
+        "Observational Study"
+      ],
+      "doi": "10.1148/radiol.253493",
+      "journal_tier": 1,
+      "impact": 12.1,
+      "section": "toraks",
+      "score": 118.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 18,
+        "recency": 0.0
+      },
+      "tier": 1,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "43043181",
+      "title": "Endovascular Treatment versus Medical Management for Acute Anterior Circulation Large Vessel Occlusion from 24 to 96 Hours.",
+      "abstract": "Background The role of endovascular treatment (EVT) in acute ischemic stroke (AIS) from 24 to 96 hours after symptom onset remains uncertain. Purpose To evaluate the functional and safety outcomes of EVT versus best medical management (BMM) in patients with AIS due to large vessel occlusion (LVO) presenting greater than 24 hours to 96 hours (hereafter \"24-96 hours\") after symptom onset. Materials and Methods Prospectively maintained stroke registries from eight stroke centers in China (September 2020-January 2025) were analyzed in this retrospective cohort study. Patients with intracranial internal carotid artery or M1 or M2 middle cerebral artery occlusion, National Institutes of Health Stroke Scale score of 6 or higher, and Alberta Stroke Program Early CT Score of 3 or higher who presented 24-96 hours after onset were included, grouped by treatment (EVT vs BMM alone), and followed for 90 days. The primary outcome was functional independence (modified Rankin Scale score of 0-2) at 90 days. Secondary safety outcomes included symptomatic intracranial hemorrhage and 90-day mortality. Outcomes were compared using multivariable logistic regression and inverse probability of treatment weighting (IPTW), adjusted for demographic and clinical variables. Results Among 308 patients (mean age, 67 years ± 12 [SD]; 202 men), 205 underwent EVT and 103 received BMM. Functional independence at 90 days was more frequent with EVT than BMM (50.7% [104 of 205] vs 28.2% [29 of 103]; P < .001). After multivariable adjustment, the odds ratio (OR) for functional independence with EVT compared with BMM was 3.8 (95% CI: 2.1, 6.8; P < .001); after IPTW adjustment, the OR was 4.4 (95% CI: 2.4, 8.1; P < .001). After multivariable adjustment, the incidence of symptomatic intracranial hemorrhage (5.9% vs 2.9%; OR, 2.2 [95% CI: 0.6, 8.2]; P = .26) and 90-day mortality (11.2% vs 13.6%; OR, 0.6 [95% CI: 0.3, 1.4]; P = .22) did not differ between the EVT and BMM groups. Conclusion Among Chinese patients with AIS due to LVO presenting 24-96 hours after symptom onset, EVT was associated with improved functional outcomes, without clear increases in mortality or symptomatic intracranial hemorrhage. © The Author(s) 2026. Published by the Radiological Society of North America under a CC BY 4.0 license. Supplemental material is available for this article. See also the editorial by Russell in this issue.",
+      "journal": "Radiology",
+      "date": "2026-11",
+      "authors": [
+        "Yi T",
+        "Hong L",
+        "Lin X",
+        "Li C",
+        "Sun D",
+        "Miao J",
+        "Wu M",
+        "Zeng L",
+        "Gan S",
+        "Huang M",
+        "Yang Y",
+        "Huang W",
+        "He Z",
+        "Sun Q",
+        "Xu N",
+        "Sik ZLL",
+        "Yang X",
+        "Song J",
+        "He Y",
+        "Wu Y",
+        "Lin DL",
+        "Liu S",
+        "Pan ZN",
+        "Ye J",
+        "Chen H",
+        "Miao Z",
+        "Cheng X",
+        "Nogueira RG",
+        "Chen WH"
+      ],
+      "pubtypes": [
+        "Journal Article",
+        "Comparative Study",
+        "Multicenter Study"
+      ],
+      "doi": "10.1148/radiol.253919",
       "journal_tier": 1,
       "impact": 12.1,
       "section": "girisim",
@@ -1978,142 +2078,97 @@
       "abstract_tr": ""
     },
     {
-      "pmid": "42808901",
-      "title": "Case 350: Retained Appendicolith.",
-      "abstract": "History A 16-year-old girl presented to the emergency department with a 1-month history of right lower back pain. She was originally seen at an urgent care clinic, where a lumbar radiograph was reportedly normal, and she was prescribed naproxen. However, she came to the emergency department once pain had escalated to 10 out of 10. Over the past month, the patient's right flank had increased in size and \"hardened\" to touch. She reported no trauma or other inciting incident. She had a prior history of laparoscopic appendectomy for perforated appendicitis more than 6 years earlier at an outside hospital. A prior contrast-enhanced abdominal CT scan, obtained 2 weeks after the appendectomy, was available for review. At evaluation, the patient was febrile and mildly tachycardic (104 beats per minute). Examination of the right flank revealed a 4-cm area of erythema and tenderness with 10-cm surrounding induration. She had leukocytosis (white blood cell count, 12 × 109/L; reference range, <9.44 × 109/L) and elevated C-reactive protein (23 mg/L; reference range, <9 mg/L). US followed by contrast-enhanced MRI of the abdomen was performed. Based on the imaging findings, the patient underwent a percutaneous drainage procedure. All cultures, including aerobic, anaerobic, fungal, and acid fast, were negative, with the caveat that the patient had been started on intravenous antibiotics before the procedure. She was discharged and prescribed 10 days of amoxicillin and clavulanate to complete antibiotic therapy, and the drain was removed 6 weeks later. One month after drain removal, the patient returned to the emergency department with return of severe flank pain, erythema, and purulent drainage. The patient was afebrile with a white blood cell count of 9.8 × 109/L. Contrast-enhanced abdominal CT was performed.",
+      "pmid": "43043183",
+      "title": "Unilateral Lower-Extremity Varicosities in Type II Abernethy Malformation.",
+      "abstract": "",
       "journal": "Radiology",
-      "date": "2026-09",
+      "date": "2026-11",
       "authors": [
-        "Lee S",
-        "Miller J"
+        "Hu X",
+        "Yuan Z"
       ],
       "pubtypes": [
-        "Journal Article",
-        "Case Reports"
+        "Journal Article"
       ],
-      "doi": "10.1148/radiol.253735",
+      "doi": "10.1148/radiol.262343",
       "journal_tier": 1,
       "impact": 12.1,
-      "section": "abdomen",
-      "score": 85.0,
+      "section": "genel",
+      "score": 100.0,
       "score_parts": {
         "journal": 100,
-        "pubtype": -15,
+        "pubtype": 0,
         "recency": 0.0
       },
       "tier": 2,
       "abstract_tr": ""
     },
     {
-      "pmid": "42808897",
-      "title": "Case 354.",
-      "abstract": "History An asymptomatic 45-year-old man with sickle cell disease and coinherited α-thalassemia was referred to the hepatology department for workup of an indeterminate hepatic mass discovered incidentally at screening cardiac MRI. The patient was diagnosed with sickle cell disease in childhood and required several hospitalizations with blood transfusions. During adulthood, disease management was suboptimal, with infrequent transfusion therapy and undertreated chronic hemolytic anemia. There was no history of malignancy, hepatitis B or C infection, alcohol consumption, metabolic syndrome, diabetes, or fatty liver disease. There was no evidence of tuberous sclerosis, glycogen storage disease, or anabolic steroid use. Laboratory investigations demonstrated chronic hemolytic anemia, with a hemoglobin level of 98-109 g/L (reference range, 135-175 g/L) and markedly elevated reticulocyte count (207.9 × 109/L to 247.8 × 109/L; reference range, 25 × 109/L to 75 × 109/L). Peripheral blood smear showed sickle cells, target cells, and Howell-Jolly bodies. Liver enzymes, synthetic liver function, and tumor markers (α-fetoprotein, carbohydrate antigen 19-9, and carcinoembryonic antigen) were within normal limits. There was no evidence of systemic iron overload. Abdominal US (Fig 1), abdominal MRI (Figs 2, 3), and chest CT (Fig 4) were performed.",
+      "pmid": "43043182",
+      "title": "Histotripsy versus Established Thermal Ablation Technologies: A Comparative Analysis of FDA MAUDE Adverse Event Reporting Patterns.",
+      "abstract": "Background Histotripsy recently received U.S. Food and Drug Administration (FDA) clearance for liver tumors, but long-term safety data remain limited. Purpose To characterize histotripsy-related adverse events (AEs) reported to the Manufacturer and User Facility Device Experience (MAUDE) database during the early postmarket period and contextualize findings in comparison to microwave ablation (MWA) and radiofrequency ablation (RFA) during comparable observation windows. Materials and Methods A retrospective analysis of the FDA MAUDE database was conducted. AE reports were analyzed over comparable 24-month postmarket periods: July 2024 to July 2026 for histotripsy, January 2017 to January 2019 for MWA, and January 2016 to January 2018 for RFA. Reports were classified by severity (malfunction, serious injury, and death) and medical problem category. Firth-penalized reporting odds ratios (RORs), relative risks (RRs), and Bayesian modeling using Bass model-derived procedure volumes enabled exploratory denominator-adjusted comparisons. Results Of 570 AE reports initially identified, 506 met the inclusion criteria and were included in the final analysis (71 histotripsy [median patient age, 68 years; IQR, 56-76 years] and 435 MWA/RFA [median patient age, 58 years; IQR, 50-67 years]). Serious injury and death occurred in 86% (61 of 71) and 14% (10 of 71) of histotripsy reports versus 20% (89 of 435) and 2% (eight of 435) of MWA/RFA reports. Histotripsy had higher reported odds of serious injury (ROR, 14.24 [95% CI: 6.29, 35.56]; P < .001) and death (ROR, 4.35 [95% CI: 1.08, 24.35]; P = .04). In exploratory analyses using modeled procedure volumes, estimated RRs based on reported events were 6.11 (95% CI: 2.64, 14.11; P < .001) for serious injury and 10.94 (95% CI: 4.73, 25.33; P < .001) for death. Although sparse event counts produced imprecise estimates for some complication categories, histotripsy showed higher reporting odds of renal and urinary complications (P < .001), hemorrhage and vascular injury (P < .001), and gastrointestinal and/or abdominal complications (P < .001) in the full cohort. A sensitivity analysis excluding malfunction-only reports showed similar organ system reporting patterns. Conclusion Histotripsy demonstrated higher reported frequencies of serious AEs and death in early postmarket MAUDE surveillance compared with pooled MWA/RFA; however, differences in technology maturity and reporting era may have contributed to differential AE reporting, warranting prospective evaluation. © RSNA, 2026 Supplemental material is available for this article.",
       "journal": "Radiology",
-      "date": "2026-09",
+      "date": "2026-11",
       "authors": [
-        "Haidey J",
-        "Qian XJ",
-        "Wilson MP",
-        "Low G"
+        "Kundu A",
+        "Tam A",
+        "Zhao L",
+        "Lewandowski RJ",
+        "Gordon AC"
       ],
       "pubtypes": [
         "Journal Article",
-        "Case Reports"
+        "Comparative Study"
       ],
-      "doi": "10.1148/radiol.260544",
-      "journal_tier": 1,
-      "impact": 12.1,
-      "section": "toraks",
-      "score": 85.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": -15,
-        "recency": 0.0
-      },
-      "tier": 2,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42937539",
-      "title": "Case 355.",
-      "abstract": "An 8-year-old girl presented to the pediatrician with headaches that she had been experiencing for the last 2-3 years but that had become intolerable in the previous 8 days. The headaches were described by the patient as not having any lateralization and mainly involving the frontal and occipital regions. The headaches were rated by the patient as being an eight out of 10 in terms of pain, which prevented her from sleeping. Analgesic therapy proved to be ineffective. The patient had no photophobia or phonophobia but had increased fatigue alongside developing nausea without vomiting. The patient did not have any dysphagia, ataxia, vertigo, or elocution issues. Previous MRI performed in a provincial hospital showed a mass in the posterior fossa that was displacing the brainstem. However, being unable to get an appointment to see a neurosurgeon in a timely manner, the patient presented to the emergency department of our university hospital due to worsening symptoms. In order to exclude an intracranial origin of the symptoms, brain MRI with contrast enhancement was performed (Figure).",
-      "journal": "Radiology",
-      "date": "2026-10",
-      "authors": [
-        "Saliba T",
-        "Dunet V"
-      ],
-      "pubtypes": [
-        "Journal Article",
-        "Case Reports"
-      ],
-      "doi": "10.1148/radiol.252728",
-      "journal_tier": 1,
-      "impact": 12.1,
-      "section": "neuro",
-      "score": 85.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": -15,
-        "recency": 0.0
-      },
-      "tier": 2,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "42937534",
-      "title": "Case 351: Thalamic Dementia Secondary to Dural Arteriovenous Fistula.",
-      "abstract": "A 76-year-old man with a medical history of diabetes, hypertension, and dilated cardiomyopathy developed new symptoms of confusion, repeated falls, and urinary incontinence over the course of 3-4 months, which worsened over a 2-week period, leading to presentation at the emergency room. His partner reported that before this, he had no memory or movement disorders, but now he was experiencing memory lapses, such as forgetting his mother's recent death, and functional cognitive problems, including an inability to remember how to perform tasks that were previously simple for him, such as dosing his insulin with meals. At presentation, the patient was awake and alert, oriented to his name and location but not to the date. Full neurologic examinations, including of the motor and sensory systems and cranial nerves, were normal. There were no signs of meningism, no fever or leukocytosis, and no history of recent travel. Serum electrolyte panel and thiamine levels were normal, and he had no history of alcohol or drug abuse. Initial evaluation included noncontrast CT of the head, the results of which prompted multiphasic CT angiography of the head including parenchymal phase imaging and admission for observation and monitoring with serial noncontrast CT of the head. The patient's symptoms worsened during his hospital stay. He also developed facial twitching, increased drowsiness, and seizure episodes. He was therefore evaluated with noncontrast MRI of the brain and then digital subtraction angiography with external carotid artery and internal carotid artery contrast agent injections.",
-      "journal": "Radiology",
-      "date": "2026-10",
-      "authors": [
-        "Deen SS",
-        "Khalili B",
-        "Semalti K",
-        "Chen M",
-        "Dua SG",
-        "Ansari S"
-      ],
-      "pubtypes": [
-        "Journal Article",
-        "Case Reports"
-      ],
-      "doi": "10.1148/radiol.252189",
+      "doi": "10.1148/radiol.261687",
       "journal_tier": 1,
       "impact": 12.1,
       "section": "girisim",
-      "score": 85.0,
+      "score": 100.0,
       "score_parts": {
         "journal": 100,
-        "pubtype": -15,
+        "pubtype": 0,
         "recency": 0.0
       },
       "tier": 2,
       "abstract_tr": ""
     },
     {
-      "pmid": "42678256",
-      "title": "CT Interpretation in the Artificial Intelligence Age: Turning Efficiency into Better Patient Care.",
-      "abstract": "",
+      "pmid": "43043180",
+      "title": "Temporal Trends in High-Risk Benign Breast Disease Detection at Screening Mammography: Results from the Breast Cancer Surveillance Consortium.",
+      "abstract": "Background Nationally representative data comparing high-risk benign breast disease (BBD) detection with digital breast tomosynthesis (DBT) versus digital mammography are lacking. Purpose To describe temporal trends in high-risk BBD detection rates at screening mammography in the Breast Cancer Surveillance Consortium (BCSC) over nearly 2 decades and to evaluate the association between mammographic modality and high-risk BBD detection. Materials and Methods In this retrospective cohort study using prospectively collected data from the BCSC, screening mammograms obtained from 2005 to 2022 among women aged 40 to 79 years at 97 health care facilities were analyzed; examinations in women with prior breast cancer or mastectomy were excluded. Regression analyses were used to estimate annual percent change (APC) in detection rates, and multivariable logistic regression was used to estimate adjusted odds ratios (ORs) according to mammographic modality. Results A total of 4 469 664 screening mammograms in 1 190 380 women (mean age, 57.3 years ± 10.1 [SD]) were included. The overall high-risk BBD detection rate was 1.11 per 1000 examinations, with no evidence of a temporal trend since 2017 (APC = 5.3% [95% CI: -1.1, 21.9]; P = .09). Atypical ductal hyperplasia detection declined from 2009 to 2017 (APC = -7.4% [95% CI: -12.0, -5.4]; P < .001). Detection of radial sclerosing lesions (APC = 5.4% [95% CI: 3.5, 7.8]; P < .001) and atypical papillary lesions (APC = 19.0% [95% CI: 14.8, 25.1]; P < .001) increased from 2005 to 2022. Compared with digital mammography, DBT was associated with increased detection of high-risk BBD overall (OR = 1.36 [95% CI: 1.24, 1.49]; P < .001), lobular carcinoma in situ (OR = 1.37 [95% CI: 1.02, 1.85]; P = .04), atypical lobular hyperplasia (OR = 1.45 [95% CI: 1.19, 1.77]; P < .001), and radial sclerosing lesions (OR = 2.64 [95% CI: 2.15, 3.23]; P < .001). Conclusion Over the past 2 decades, detection of atypical papillary lesions and radial sclerosing lesions increased, whereas detection of atypical ductal hyperplasia declined. DBT was associated with increased detection of high-risk BBD, including lobular carcinoma in situ, atypical lobular hyperplasia, and radial sclerosing lesions. © RSNA, 2026 Supplemental material is available for this article. See also the editorial by Hooley in this issue.",
       "journal": "Radiology",
-      "date": "2026-09",
+      "date": "2026-11",
       "authors": [
-        "Iwasawa T"
+        "Sprague BL",
+        "Ponzini M",
+        "Sattayapiwat O",
+        "Eliassen MS",
+        "Nyante SJ",
+        "Tosteson ANA",
+        "Bowles EJA",
+        "Borowsky AD",
+        "Kerlikowske K",
+        "Lee CI",
+        "Perry H",
+        "Sowden M",
+        "Weaver DL",
+        "Miglioretti DL"
       ],
       "pubtypes": [
-        "Editorial"
+        "Journal Article"
       ],
-      "doi": "10.1148/radiol.262248",
+      "doi": "10.1148/radiol.260889",
       "journal_tier": 1,
       "impact": 12.1,
-      "section": "yapayzeka",
-      "score": 75.0,
+      "section": "meme",
+      "score": 100.0,
       "score_parts": {
         "journal": 100,
-        "pubtype": -25,
+        "pubtype": 0,
         "recency": 0.0
       },
-      "tier": 3,
+      "tier": 2,
       "abstract_tr": ""
     }
   ]
