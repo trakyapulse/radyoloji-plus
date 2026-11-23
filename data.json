@@ -1,8 +1,8 @@
 {
-  "updated": "2026-11-22T13:49:34+00:00",
+  "updated": "2026-11-23T16:55:55+00:00",
   "window_days": 1,
   "datetype": "edat",
-  "count": 22,
+  "count": 27,
   "tier1_count": 0,
   "source": "PubMed (NCBI E-utilities)",
   "articles": [
@@ -159,39 +159,6 @@
       "abstract_tr": ""
     },
     {
-      "pmid": "43064865",
-      "title": "The toothless molar tooth malformation: exploratory fetal MRI-based phenotypical assessment of cases with suspected Joubert syndrome.",
-      "abstract": "OBJECTIVES: The molar tooth sign (MTS) is based on maloriented superior cerebellar peduncles (SCPs), a deepened interpeduncular fossa, and vermian hypoplasia, which may be less clearly delineable prenatally. Phenotypic assessment of patients with suspected Joubert syndrome (JS) was conducted, and additional morphological characteristics of JS on fetal MRI were defined. MATERIALS AND METHODS: In this retrospective study, phenotypic assessment was performed for patients with a fetal MRI-based suspected diagnosis of JS. Analysis of the fetal brain included detection of MTS, brainstem anomalies, elevation of the fastigium in the midsagittal plane, thickened SCP with a course parallel to the anterior/middle cerebral fossa in the parasagittal plane, cerebellar dysplasia, cephaloceles, and extracerebral ciliopathic manifestations. RESULTS: Eleven patients were identified and analyzed-three cases with genetic confirmation of JS, three with incomplete genetic testing, five without confirmatory genetic testing. Classical MTS was present in 55% of cases. Pathological appearance of the SCPs was observed in 73%, and dysplastic cerebellum and brainstem hypo- or dysplasia in 100%. Elevation of the fastigium was observed in 91%, cephaloceles in 46%, and extracerebral anomalies, especially renal, in 64%. All cases showed a hypo- and dysplastic vermis. CONCLUSION: This study provides novel insights into the prenatal presentation of molar tooth malformations and accompanying anomalies commonly observed in patients with a suspected diagnosis of JS. JS can be suspected on fetal MRI even in the absence of classical MTS based on characteristic anomalies of the SCPs, brainstem, and cerebellum in combination with extracerebral anomalies supporting this diagnosis. KEY POINTS: QuestionWhat are phenotypical presentations of patients with suspected Joubert syndrome (JS) in fetal MRI and can JS be suspected in absence of molar tooth sign? FindingsJS can be suspected in fetal MRI without MTS based on characteristic changes in superior cerebellar peduncles, brainstem, and cerebellum and co-occurring extracerebral anomalies. Clinical relevanceThis exploratory study provides novel insights into the prenatal presentation of molar tooth malformations and associated anomalies commonly observed in cases with suspected JS. These findings may aid counseling physicians in selecting appropriate pregnancy management for patients with suspected JS.",
-      "journal": "Eur Radiol",
-      "date": "2026-11-20",
-      "authors": [
-        "Stuempflen M",
-        "Weber M",
-        "Schmidbauer VU",
-        "Kienast P",
-        "Behunova J",
-        "Reischer T",
-        "Boltshauser E",
-        "Kasprian G",
-        "Prayer D"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1007/s00330-026-13094-2",
-      "journal_tier": 1,
-      "impact": 4.7,
-      "section": "neuro",
-      "score": 100.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 2,
-      "abstract_tr": ""
-    },
-    {
       "pmid": "43067325",
       "title": "A negative contrast-enhanced imaging in atypical ductal hyperplasia: Is the risk of upgrade low enough to avoid surgery? a systematic review and meta-analysis.",
       "abstract": "BACKGROUND: The management of atypical ductal hyperplasia (ADH) remains a clinical challenge. The use of contrast-enhanced (CE) imaging has been proposed to reduce the upgrade rates of ADH and minimize unnecessary surgical procedures. PURPOSE: This systematic review aims to estimate the pooled upgrade rate of ADH diagnosed through percutaneous biopsy in cases with a negative CE examination, independent of biopsy technique, needle size, imaging guidance. METHODS: A systematic search of PubMed, EMBASE, and Web of Science databases was performed in December 2024. Preferred Reporting Items for Systematic Reviews and Meta-Analyses, or PRISMA, guidelines were followed. The Quality Assessment of Diagnostic Accuracy Studies checklist was used to assess the risk of bias. Upgrades were calculated using random-effects meta-analysis based on the log risk-ratios. RESULTS: Out of 124 screened articles, 7 studies were included, providing data on 312 ADH lesions, including 145 cases with a negative CE-MRI. The pooled upgrade rate was 1 % (95 % [CI]: 0 %-4 %) for ADH lesions with negative CE imaging after biopsy. The pooled risk ratio was 8.80, with a statistically significant difference (p < 0.001) between positive and negative CE imaging. The overall sensitivity, specificity, positive predictive value (PPV), and negative predictive value (NPV) were 0.95 (0.85-1.00), 0.75 (0.58-0.89), 0.62 (0.41-0.82), and 0.98 (0.93-1.00), respectively. CONCLUSION: Although the study cohort was relatively small, we found a pooled upgrade rate lower than 2 %, suggesting that conservative management rather than surgery may be justified for ADH with a negative MRI-imaging, as established for BI-RADS category 3 lesions.",
@@ -257,26 +224,242 @@
       "abstract_tr": ""
     },
     {
-      "pmid": "43064866",
-      "title": "Vertebral fracture screening: beyond spine health assessment.",
-      "abstract": "",
-      "journal": "Eur Radiol",
-      "date": "2026-11-20",
+      "pmid": "43070245",
+      "title": "Laplace-Mixture Dipole Inversion for Quantitative Susceptibility Mapping.",
+      "abstract": "PURPOSE: To develop an automatic dipole inversion method for quantitative susceptibility mapping (QSM) that preserves fine anatomical structures without the need for manual regularization-parameter tuning. THEORY: The original approximate message passing with parameter estimation (AMP-PE) framework models image gradients with a single Laplace prior, which does not fully capture the heavy-tailed gradient distribution of brain susceptibility maps. To address this limitation, we propose a Laplace-Mixture Dipole Inversion (LAMDI) method by incorporating a two-component Laplace mixture prior into the AMP-PE framework with automatic regularization-parameter-estimation. METHODS: LAMDI was evaluated on a public in vivo dataset and the simulated calcification dataset from QSM Challenge 2.0. Its performance was compared with FANSI, MEDI, and AMP-PE with a single-Laplace prior (AMP-PE-L1) under both standard default and reference-tuned settings. Reproducible code is available at: https://github.com/shuai-huang/lamdi. RESULTS: On the public in vivo dataset, LAMDI achieved NRMSE and SSIM comparable to AMP-PE-L1 while substantially reducing HFEN. Under reference-based tuning, FANSI and MEDI achieved the best performance for some metrics, but LAMDI remained competitive without requiring reference maps or manual regularization tuning. CONCLUSION: LAMDI provides an effective and automatic regularization-parameter-estimation alternative for QSM dipole inversion by combining competitive reconstruction accuracy with improved preservation of anatomical details.",
+      "journal": "Magn Reson Med",
+      "date": "2026-11-23",
       "authors": [
-        "Spinnato P"
+        "Huang S",
+        "Lah JJ",
+        "Allen JW",
+        "Qiu D"
       ],
       "pubtypes": [
-        "Editorial",
-        "Comment"
+        "Journal Article"
       ],
-      "doi": "10.1007/s00330-026-13104-3",
-      "journal_tier": 1,
-      "impact": 4.7,
-      "section": "kas",
-      "score": 70.0,
+      "doi": "10.1002/mrm.70662",
+      "journal_tier": 2,
+      "impact": 3.0,
+      "section": "neuro",
+      "score": 62.0,
       "score_parts": {
-        "journal": 100,
-        "pubtype": -30,
+        "journal": 60,
+        "pubtype": 0,
+        "recency": 2.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "43070239",
+      "title": "Multi-Echo Versus T2-Prepared pCASL: Methodological Considerations for Measuring Water Transport Across the Blood-Brain Barrier.",
+      "abstract": "PURPOSE: T2-based pCASL measures water transport across the blood-brain barrier (BBB) by separating signal from intravascular and extravascular label based on the distinct T2 relaxation times of blood and tissue. Two commonly used approaches encode T2 information differently: Multi-echo sequences employ a multi-echo turbo spin-echo readout, whereas T2-prepared (T2-prep) sequences apply a preparation module consisting of multiple 180° refocusing pulses prior to a single-echo readout. It remains unclear which approach provides more reliable estimates of BBB water exchange. This study directly compares them in terms of T2 estimation and signal-to-noise ratio (SNR). METHODS: In vivo experiments implemented each method separately, as well as in a single combined sequence, using Hadamard-encoded multi-post-labeling delay (PLDs = 600,1600, 2600 ms) pCASL. Simulations evaluated the effects of T2 decay and label arrival during the readout. RESULTS: T2 estimates were comparable at PLDs of 1600 and 2600 ms. At the shortest PLD of 600 ms, multi-echo yielded lower T2. Multi-echo demonstrated higher temporal and spatial SNR, whereas T2-prep showed increased T2 blurring and image artifacts in the unsubtracted images, consistent with simulations. CONCLUSION: Although multi-echo provides superior SNR, it may underestimate T2 at short PLDs. The underlying cause of this finding remains unresolved; however, preliminary simulations indicate it could result from partial signal crushing of flowing spins by readout gradients. In contrast, the longer readout of the T2-prep approach is more prone to blurring and artifacts. These findings highlight important trade-offs between the two techniques and underscore the need for careful sequence selection in T2-based BBB water exchange studies.",
+      "journal": "Magn Reson Med",
+      "date": "2026-11-23",
+      "authors": [
+        "Durrant H",
+        "van Osch MJP",
+        "Václavů L"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1002/mrm.70665",
+      "journal_tier": 2,
+      "impact": 3.0,
+      "section": "girisim",
+      "score": 62.0,
+      "score_parts": {
+        "journal": 60,
+        "pubtype": 0,
+        "recency": 2.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "43070165",
+      "title": "Real-Time Correction of Respiration-Induced  B 0   Changes in Oscillating Steady State Imaging (OSSI) fMRI.",
+      "abstract": "PURPOSE: Oscillating steady-state imaging (OSSI) is an fMRI acquisition technique that utilizes a novel oscillating steady-state by combining balanced gradients and quadratic RF phase cycle to achieve a higher SNR compared to spoiled GRE. Despite its SNR advantage, OSSI is sensitive to fluctuations in the  B 0   field due to respiration and drift, which limits the achievable SNR gains. These fluctuations cause shifts in the resonant frequency, disrupting the magnetic steady-state and the functional contrasts. This study proposes a robust zeroth-order prospective correction for multi-shot OSSI fMRI. METHODS: FIDNavs were inserted into a 2D OSSI sequence for real-time processing to track respiration- and drift-induced  B 0   fluctuations during both low-resolution (3-shot) and high-resolution (6-shot) acquisitions. These fluctuations were estimated on a per-shot basis while accounting for shot-dependent phase variations introduced by eddy currents. The resulting  B 0   estimates were then used to dynamically adjust the excitation and receiver phase progressions. RESULTS: Real-time tracking and correction led to substantial improvements in functional sensitivity and signal stability under both regular and deep breathing conditions. In the 3-shot acquisition, tSNR increased by up to 46.8% and activation volume by up to 411.1%, while the 6-shot acquisition exhibited more modest but consistent gains, with tSNR increases of up to 17.2%. Voxel-level time series demonstrated marked suppression of respiration-related oscillations, revealing more stable task-related modulation. CONCLUSION: This approach is effective in reducing  B 0   -induced signal changes, allowing realization of theoretical SNR gains in complex steady-state MRI sequences, particularly in cases affected by respiratory motion.",
+      "journal": "Magn Reson Med",
+      "date": "2026-11-23",
+      "authors": [
+        "Salifu M",
+        "Wang K",
+        "Huang S",
+        "Noll DC"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1002/mrm.70664",
+      "journal_tier": 2,
+      "impact": 3.0,
+      "section": "girisim",
+      "score": 62.0,
+      "score_parts": {
+        "journal": 60,
+        "pubtype": 0,
+        "recency": 2.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "43069377",
+      "title": "Performance of a self-supervised pretrained neural network for orthopedic radiograph classification.",
+      "abstract": "OBJECTIVE: To evaluate whether domain-adaptive self-supervised pretraining of a convolutional neural network on musculoskeletal radiographs improves binary fracture classification and attribution faithfulness relative to ImageNet-pretrained baselines. MATERIALS AND METHODS: This retrospective study (conducted June 2025 to May 2026) compared three initializations of a ResNet-50 convolutional neural network: supervised ImageNet (control), self-supervised ImageNet (DINO), and DINO further pretrained on 44,029 musculoskeletal radiographs (DINO-Ortho). Each was fine-tuned in three experiments: in-distribution (MURA and FracAtlas), out-of-distribution (5365 external calcaneal radiographs from 1775 patients acquired during 2015-2022), and initial weights (calcaneal fine-tuning). Attribution faithfulness was quantified using Remove and Debias (ROAD) scores from Grad-CAM saliency maps, with higher scores indicating greater faithfulness. AUROCs were compared using DeLong tests, and ROAD scores using Friedman tests with Bonferroni-adjusted post hoc pairwise comparisons. RESULTS: DINO-Ortho AUROC did not differ significantly from either baseline in any experiment (0.82 [95% confidence interval, 0.79-0.84] in-distribution and 0.95 [0.93-0.96] with initial weights). DINO-Ortho ROAD scores were significantly higher than both baselines in-distribution (20.01 vs 3.70 and 9.35, respectively) and with initial weights (20.41 vs 12.15 and 1.67, respectively, P < 0.001 for all) and higher than control but not DINO out-of-distribution (15.47 vs 3.06 and 16.09, respectively). All models discriminated poorly out-of-distribution (AUROC 0.65 [0.63-0.67], 0.64 [0.63-0.66], and 0.64 [0.63-0.66] for control, DINO, and DINO-Ortho, respectively). CONCLUSION: With no significant difference in AUROC from either baseline, domain-adapted self-supervised pretraining yielded more faithful attributions than supervised ImageNet pretraining in every experiment and than self-supervised ImageNet pretraining in two of three. No model generalized adequately to unfamiliar anatomy without fine-tuning. Groups fine-tuning on their own musculoskeletal data should therefore consider domain-adapted weights, whose saliency maps more reliably show what drove each prediction, making reliance on irrelevant features easier to detect.",
+      "journal": "Skeletal Radiol",
+      "date": "2026-11-23",
+      "authors": [
+        "Bagchi R",
+        "Yee NJ",
+        "Kwon JY",
+        "Taseh A",
+        "Ashkani-Esfahani S"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1007/s00256-026-05442-6",
+      "journal_tier": 2,
+      "impact": 2.0,
+      "section": "kas",
+      "score": 62.0,
+      "score_parts": {
+        "journal": 60,
+        "pubtype": 0,
+        "recency": 2.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "43070105",
+      "title": "Association Between Myocardial BOLD Reactivity and Peripheral Microvascular Function Assessed by Flow-Mediated Skin Fluorescence.",
+      "abstract": "Cardiac blood oxygen level-dependent (BOLD) MRI during breath-hold provides a contrast-free myocardial-specific readout of vasoreactivity. We tested whether myocardial BOLD reactivity covaries with peripheral microvascular function measured by flow-mediated skin fluorescence (FMSF), thereby assessing concordance between two physiologically distinct vascular beds. Twenty-eight participants underwent a mid-diastolic cardiac BOLD MRI at 1.5 T during end-expiratory breath-hold, alongside forearm FMSF during transient brachial artery occlusion. Participants were classified as having FMSF-normal reactivity (NR) or FMSF-abnormal reactivity (AR) based on predefined FMSF criteria (i.e., one or more of the following: reactive hyperemia response [RHR] < 30% or hypoxia sensitivity [HS] < 25). Heartbeat-to-heartbeat myocardial T2 and T2* slopes (ms/hb) and absolute changes (ΔT2, ΔT2*) were compared between cohorts and correlated with FMSF parameters. Compared with AR, the NR showed greater T2 slope (0.1 ± 0.2 vs. -0.2 ± 0.3 ms/hb; p = 0.002), T2* slope (0.1 ± 0.2 vs. 0.0 ± 0.1 ms/hb; p = 0.016), ΔT2 (1.3 ± 2.2 vs. -1.9 ± 2.9 ms; p = 0.003) and ΔT2* (2.4 ± 2.8 vs. -0.1 ± 2.1 ms; p = 0.013). After Benjamini-Hochberg false discovery rate (FDR) correction across 44 correlations, IR index correlated with T2 slope (r = 0.58, q = 0.050), IR max correlated with T2 slope (r = 0.57, q = 0.050), and HS correlated with ΔT2* (r = 0.53, q = 0.050). Interreader reproducibility was good for myocardial BOLD-derived slopes and ΔT2* (ICC = 0.80-0.86) and moderate for ΔT2 (ICC = 0.66). Within this long-COVID cohort, myocardial BOLD reactivity covaried with peripheral microvascular reactivity at the group level. Cardiac BOLD MRI may serve as a myocardial-specific probe of microvascular function within a broader systemic vascular phenotype.",
+      "journal": "NMR Biomed",
+      "date": "2027-01",
+      "authors": [
+        "Castelein J",
+        "Sabisz A",
+        "Glińska A",
+        "Żarczyńska-Buchowiecka M",
+        "Romanowska-Kocejko M",
+        "Rygusik M",
+        "Hellmann M",
+        "Borra RJH",
+        "Dorniak K"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1002/nbm.70446",
+      "journal_tier": 2,
+      "impact": 2.7,
+      "section": "toraks",
+      "score": 60.0,
+      "score_parts": {
+        "journal": 60,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "43069446",
+      "title": "Clinical utility of MOLLI T1 mapping using averaged in- and out-of-phase echo times (AIOP) for quantitative assessment of hepatic fibrosis in steatotic livers.",
+      "abstract": "OBJECTIVES: To determine the clinical applicability and robustness of modified Look-Locker inversion recovery (MOLLI) T1 mapping using an averaged in- and out-of-phase echo time (AIOP, TE = 1.8 ms) sequence in patients with varied degrees of hepatic steatosis, comparing its performance with out-of-phase (OP, TE = 1.3 ms) and in-phase (IP, TE = 2.4 ms) MOLLI sequences for noninvasive assessment of liver fibrosis. METHODS: In this retrospective study, 122 patients referred for liver MRI, including three MOLLI T1 mappings (OP, IP, AIOP) and six-point Dixon proton density fat fraction (PDFF) mapping. Regions of interest were placed in homogeneous liver parenchyma. Differences between AIOP and OP or IP T1 values were correlated with PDFF. Patients were stratified by PDFF: <5%, 5-10%, ≥10%. Associations between sequence-specific T1 values and FIB-4 scores were analyzed via Spearman correlation; Friedman tests assessed differences among sequences. RESULTS: Mean T1 was 747.8±97.9 ms (OP), 721.9±88.7 ms (AIOP), and 702.4±84.1 ms (IP) (all pairwise p<0.001). Differences ΔT1OP-AIOP and ΔT1AIOP-IP correlated moderately with PDFF (r=0.660 and 0.544; p<0.001). In highly steatotic livers (PDFF≥10%, n = 16), AIOP T1 demonstrated the strongest correlation with FIB-4 (r=0.621; p=0.010), outperforming OP (r=0.530; p=0.035) and IP (r=0.492; p=0.053) sequences. CONCLUSION: AIOP MOLLI T1 mapping (TE = 1.8 ms) minimizes fat-induced bias inherent in OP and IP acquisitions and shows superior correlation with serologic fibrosis indices in patients with hepatic steatosis levels exceeding 10%. ADVANCES IN KNOWLEDGE: AIOP T1 mapping may reduce the influence of steatosis on T1 measurements and may provide values that correlate with serologic fibrosis markers.",
+      "journal": "Br J Radiol",
+      "date": "2026-11-21",
+      "authors": [
+        "Tanabe M",
+        "Higashi M",
+        "Kawano Y",
+        "Furutani H",
+        "Ishii J",
+        "Kamamura N",
+        "Matsukuma M",
+        "Ito K"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1093/bjr/tqag286",
+      "journal_tier": 2,
+      "impact": 2.8,
+      "section": "abdomen",
+      "score": 60.0,
+      "score_parts": {
+        "journal": 60,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "43069445",
+      "title": "Multiparametric MRI Tumor Habitat Analysis for Differentiating Non-Enhancing IDH-Wildtype Glioblastoma from Low-Grade Glioma.",
+      "abstract": "OBJECTIVES: To investigate whether voxel-wise multiparametric physiologic MRI-based tumor habitat analysis captures intratumoral heterogeneity that differentiates non-enhancing glioblastoma (GBM) from low-grade glioma (LGG) beyond clinical and conventional imaging features. METHODS: We retrospectively analyzed 84 patients with non-enhancing gliomas (42 GBM, 42 LGG) from November 2007 to October 2024. An external validation cohort from Institution 2 (n = 14; 8 GBM, 6 LGG) was also included. Apparent diffusion coefficient (ADC), relative cerebral blood volume (rCBV), and volume transfer constant (Ktrans) maps were used to construct voxel-wise habitat clustering via k-means and to extract the 10th and 90th percentiles, mean, and median values. Statistical analyses comprised survival analyses, logistic regression, and receiver operating characteristic analysis. RESULTS: Voxel-wise clustering delineated six distinct spatial habitats. GBMs were enriched in hypercellular, hypervascular, high-permeability habitats, whereas LGGs predominantly occupied hypocellular, hypovascular, low-permeability habitats. Stratification based on the proportion of high-risk habitat clusters revealed significantly shorter progression-free survival in patients with higher cluster burden (P <.05). The multiparametric model combining ADC, rCBV, and Ktrans achieved the highest AUC (0.83) for differentiating non-enhancing GBM from LGG, compared with 0.59-0.71 for demographic and VASARI-based comparator models. CONCLUSIONS: Multiparametric MRI-based voxel-wise habitat analysis enables accurate, noninvasive differentiation of non-enhancing glioblastoma from low-grade glioma while demonstrating potential prognostic relevance based on intratumoral physiologic heterogeneity. ADVANCES IN KNOWLEDGE: This study presents a novel voxel-wise multiparametric MRI habitat analysis integrating diffusion, perfusion, and permeability to capture intratumoral heterogeneity in non-enhancing gliomas, thereby improving diagnostic differentiation and potential prognostic assessment beyond conventional imaging methods.",
+      "journal": "Br J Radiol",
+      "date": "2026-11-21",
+      "authors": [
+        "Choi Y",
+        "Choi MS",
+        "Jeong SY",
+        "Lee J",
+        "Kim M",
+        "Hwang I",
+        "Park YW",
+        "Park JE",
+        "Choi SH",
+        "Choi KS"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1093/bjr/tqag285",
+      "journal_tier": 2,
+      "impact": 2.8,
+      "section": "neuro",
+      "score": 60.0,
+      "score_parts": {
+        "journal": 60,
+        "pubtype": 0,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "43068712",
+      "title": "Beyond CBCT: real-time motion management in spine and non-spine bone SBRT using stereoscopic X-rays and surface guidance.",
+      "abstract": "BACKGROUND: Stereotactic body radiotherapy (SBRT) for spine and non-spine bone metastases requires high precision due to sharp dose gradients and proximity to organs-of-interest. This study evaluates an image-guided radiotherapy (IGRT) workflow combining stereoscopic X-rays (XR) and surface guidance (SG) for setup, positioning, and intra-fraction monitoring. METHODS: We retrospectively analysed 92 bone metastases across 71 consecutive patients treated with SBRT (≤5 fractions). Patient setup and verification was performed with iterative XR and CBCT. Intra-fraction motion was monitored using stereoscopic gantry-triggered XR and continuous SG. Equivalence between XR and CBCT was evaluated using paired two one-sided tests. XR-SG correlations, sensitivity, and specificity of the monitoring system were analysed across anatomical regions. RESULTS: XR and CBCT showed equivalence for all spinal and pelvic targets. Iterative setup XR reduced mean 3D residuals from 1.8±2.1mm down to 0.3±0.2mm. During beam delivery, 95% of intra-fraction XR verifications for spine and pelvis locations remained within 1.5mm/1.5°. SG showed strong correlations with XR in the lateral (r = 0.872) and roll (r = 0.881) directions, but moderate to weak agreement in directions affected by respiratory motion. CONCLUSIONS: Stereoscopic X-rays are a fast and efficient method to achieve sub-millimetre positioning accuracy equivalent to CBCT for spine and pelvis bone SBRT, effectively reducing setup residuals and intra-fraction errors and enabling the use of small margins. Tailored IGRT strategies are recommended to manage location-specific challenges like respiratory motion. Surface guidance functions as a complementary real-time alert of patient motion in between IGRT procedures.",
+      "journal": "Radiother Oncol",
+      "date": "2026-11-22",
+      "authors": [
+        "Gutiérrez A",
+        "Dierinck K",
+        "Everaert T",
+        "Mustapha SB",
+        "Soete G",
+        "De Ridder M",
+        "Gevaert T"
+      ],
+      "pubtypes": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.radonc.2026.111867",
+      "journal_tier": 2,
+      "impact": 4.9,
+      "section": "abdomen",
+      "score": 60.0,
+      "score_parts": {
+        "journal": 60,
+        "pubtype": 0,
         "recency": 0.0
       },
       "tier": 3,
@@ -499,130 +682,52 @@
       "abstract_tr": ""
     },
     {
-      "pmid": "43064878",
-      "title": "Enhanced prognosis stratification following surgery for pancreatic ductal adenocarcinoma to optimize clinical decisions by reflecting tumor heterogeneity and microenvironment.",
-      "abstract": "OBJECTIVE: Pancreatic ductal adenocarcinoma (PDAC) has an extremely dismal postoperative prognosis. Conventional TNM staging cannot adequately characterize tumor heterogeneity and microenvironment, leading to suboptimal risk stratification. This study aimed to develop and externally validate an integrated prognostic system for PDAC by combining deep learning (DL)-based radiomic features with guideline‑recommended clinicopathological variables. MATERIALS AND METHODS: This multicenter retrospective study included 592 patients with PDAC who underwent R0 surgical resection. A Swin Transformer-assisted DL classifier (Outcome Prediction for PDAC, OP-PDAC) was built using multi-planar contrast-enhanced CT scans (axial, coronal, and sagittal planes). Radiogenomic analysis was conducted in 41 patients to elucidate the biological underpinnings of the OP-PDAC. Furthermore, the Intelligent Prognosis Stratification System (IPSS-PDAC) was developed by incorporating clinicopathological variables into the OP-PDAC framework. RESULTS: In the derivation and test cohorts, the C‑index of OP-PDAC for predicting 1‑year disease‑free survival (DFS) ranged from 0.807 to 0.844, which was significantly higher than that of the clinicopathological model (CP-PDAC; C‑index, 0.631-0.656). The IPSS-PDAC further enhanced predictive performance, yielding a C‑index of 0.836-0.871, and enabled effective stratification for both DFS and overall survival (all log‑rank p < 0.01). Radiogenomic analysis revealed that high‑risk patients exhibited an immunosuppressive tumor microenvironment, elevated stromal scores, activated oncogenic pathways, and reduced CD8+ T‑cell infiltration. CONCLUSION: IPSS-PDAC is a non-invasive and robust prognostic stratification system that integrates imaging features and clinicopathological features. By sensitively reflecting tumor heterogeneity and TME, it provides references for clinical decision-making in the postoperative management of PDAC patients. KEY POINTS: Question This study constructs an integrated prognostic model combining imaging signatures and guideline-recommended clinicopathological variables to address unmet clinical challenges in postoperative risk stratification for PDAC patients. Findings A multi-planar Swin Transformer-based deep learning model (IPSS-PDAC) achieves a C-index of 0.836-0.871 for disease-free survival prediction. Critical relevance statement High-risk patients stratified by the OP-PDAC model display a profoundly immunosuppressive tumor microenvironment, activation of core oncogenic signaling pathways, and reduced CD8+ T-cell infiltration.",
-      "journal": "Insights Imaging",
-      "date": "2026-11-20",
+      "pmid": "43068990",
+      "title": "Commentary on \"Multistage Preclinical Evaluation of MRI-guided Stenting for Coarctation of the Aorta Using in Vitro and Porcine Models\".",
+      "abstract": "",
+      "journal": "Cardiovasc Intervent Radiol",
+      "date": "2026-11-23",
       "authors": [
-        "Wu J",
-        "Fu X",
-        "Wu H",
-        "Zheng Z",
-        "Shen X",
-        "Wu J",
-        "Lu Y"
+        "Mehta SA"
       ],
       "pubtypes": [
-        "Journal Article"
+        "Editorial"
       ],
-      "doi": "10.1186/s13244-026-02451-w",
+      "doi": "10.1007/s00270-026-04699-7",
       "journal_tier": 2,
-      "impact": 4.1,
-      "section": "abdomen",
-      "score": 60.0,
+      "impact": 2.6,
+      "section": "girisim",
+      "score": 37.0,
       "score_parts": {
         "journal": 60,
-        "pubtype": 0,
-        "recency": 0.0
+        "pubtype": -25,
+        "recency": 2.0
       },
       "tier": 3,
       "abstract_tr": ""
     },
     {
-      "pmid": "43064860",
-      "title": "Association of popliteal artery wall index with cartilage morphology and loss in knee osteoarthritis: data from the FNIH Biomarkers Consortium.",
-      "abstract": "OBJECTIVE: To evaluate MRI-derived popliteal artery wall index in relation to knee cartilage volume and 24-month cartilage loss in the Foundation for the National Institutes of Health (FNIH) Osteoarthritis Biomarkers Consortium cohort. MATERIALS AND METHODS: This observational cohort study included 594 participants with one indexed knee each. Mean wall index was calculated by averaging values derived using the Fully Automated and Robust Analysis Technique for Popliteal Artery Evaluation across all evaluable axial cross-sectional images reformatted from the sagittal three-dimensional dual-echo steady-state MRI volume. Fully adjusted models, including relevant clinical and imaging covariates, evaluated cross-sectional and change-on-change associations with regional cartilage volume. Mixed-effects and sensitivity analyses assessed robustness. RESULTS: At baseline, each 10-percentage-point higher mean wall index was associated with lower lateral femoral cartilage volume (β = -67.4 mm3; 95% CI, -126.4 to -8.3; p = 0.025) and thickness (-0.091 mm; 95% CI, -0.162 to -0.021; p = 0.011). Each 1-SD increase in mean wall-index change was associated with greater medial tibial (β = 0.53 percentage points; 95% CI, 0.12 to 0.95; p = 0.012) and lateral femoral (β = 0.35 percentage points; 95% CI, 0.01 to 0.69; p = 0.048) cartilage-volume loss. The medial tibial association was supported by mixed-effects, robust, rank-based, and baseline-adjusted sensitivity analyses. CONCLUSION: A greater 24-month increase in mean wall index was associated with greater concurrent medial tibial cartilage-volume loss. Mean wall index derived from standardized 3D DESS knee MRI may provide complementary information about concurrent cartilage loss, although further longitudinal studies are needed to establish its clinical significance.",
-      "journal": "Skeletal Radiol",
-      "date": "2026-11-21",
+      "pmid": "43068435",
+      "title": "Editorial for \"Quantitative UTE MRI Differences in the Meniscus Following ACL Reconstruction: A Prospective Cohort Study Using 3D Ultrashort Echo Time Adiabatic T1rho and Magnetization Transfer Imaging\".",
+      "abstract": "",
+      "journal": "J Magn Reson Imaging",
+      "date": "2026-11-22",
       "authors": [
-        "Eshraghi N",
-        "Pooyan A",
-        "Mirghaderi P",
-        "Alipour E",
-        "Kocher P",
-        "Pishgar F",
-        "Tan Z",
-        "Yuan C",
-        "Balu N",
-        "Guermazi A",
-        "Chalian M"
+        "Hosseini M",
+        "Hedayati E",
+        "Saligheh Rad H"
       ],
       "pubtypes": [
-        "Journal Article"
+        "Editorial"
       ],
-      "doi": "10.1007/s00256-026-05445-3",
+      "doi": "10.1002/jmri.70627",
       "journal_tier": 2,
-      "impact": 2.0,
+      "impact": 3.3,
       "section": "kas",
-      "score": 60.0,
+      "score": 35.0,
       "score_parts": {
         "journal": 60,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "43064857",
-      "title": "Five-compartment restriction spectrum imaging for noninvasive assessment of liver fibrosis in chronic liver disease.",
-      "abstract": "BACKGROUND: Noninvasive staging of liver fibrosis is essential in chronic liver disease (CLD). Magnetic resonance elastography (MRE) is well validated but requires dedicated hardware, whereas the apparent diffusion coefficient (ADC) derived from conventional diffusion-weighted imaging (DWI) lacks specificity. Restriction spectrum imaging (RSI) decomposes the diffusion signal into multiple compartments and may capture fibrosis-related microstructural changes. PURPOSE: To investigate the feasibility of RSI for noninvasive liver fibrosis staging in CLD and to compare its diagnostic performance with that of MRE, using liver biopsy as the reference standard. METHODS: This retrospective study included 100 consecutive patients with CLD who underwent liver biopsy, 3.0-T multi-b-value DWI (nine b values, 0-1500 s/mm²), and MRE within 6 months. Multi-compartment RSI models (K = 2-5) were fitted to region-of-interest-averaged signals, and the optimal model was selected using the Bayesian information criterion (BIC). An RSI liver fibrosis index (RSI-LF) was derived from compartment fractions using ordinal logistic regression and internally validated with 1000 bootstrap resamples. AUCs of RSI-LF were compared with those of MRE and ADC using the paired DeLong test. RESULTS: The five-compartment RSI model (RSI5) showed the lowest BIC. The second and fourth fractions, K5C2 and K5C4, correlated positively (ρ = 0.53) and negatively (ρ = -0.55) with fibrosis stage (both false discovery rate [FDR]-adjusted p < 0.001). RSI-LF yielded AUCs of 0.774 (95% CI: 0.651-0.898), 0.863 (0.793-0.933), and 0.911 (0.842-0.981) for ≥F2, ≥F3, and F4, respectively, with negligible bootstrap optimism. AUCs did not differ significantly from those of MRE at any threshold (all p > 0.05). RSI-LF also outperformed ADC at the ≥F3 and F4 thresholds (both p < 0.001). CONCLUSION: Five-compartment RSI provides diffusion metrics associated with histologic fibrosis stage, and RSI-LF showed diagnostic performance numerically comparable to that of MRE. RSI is a promising microstructure-sensitive biomarker for liver fibrosis staging that warrants multicenter validation.",
-      "journal": "Abdom Radiol (NY)",
-      "date": "2026-11-21",
-      "authors": [
-        "Chen H",
-        "Zhan S",
-        "Qin Z",
-        "Zhu X",
-        "Zheng C",
-        "Yan H",
-        "Yuan W",
-        "Yuan J"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1007/s00261-026-05883-6",
-      "journal_tier": 2,
-      "impact": 2.3,
-      "section": "abdomen",
-      "score": 60.0,
-      "score_parts": {
-        "journal": 60,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 3,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "43064856",
-      "title": "Diagnostic performance of liver virtual non-contrast and virtual unenhanced reconstructions derived from photon-counting detector CT of the upper abdomen.",
-      "abstract": "BACKGROUND: Photon-counting detector computed tomography (PCD-CT) enables native spectral imaging with the generation of virtual non-contrast (VNC) images from contrast-enhanced acquisitions. Two reconstruction algorithms are currently available, Virtual Unenhanced (VUE) and Liver Virtual Non-Contrast (LVNC), but their reliability compared with True Non-Contrast (TNC) imaging in abdominal applications remains incompletely established. This study evaluated the quantitative accuracy, image quality, and potential clinical impact of VNC reconstructions derived from PCD-CT. METHODS: In this retrospective single-center study, 150 patients, of whom 140 were included for the analyses, underwent multiphasic PCD-CT including TNC, arterial, and portal venous phases. VNC datasets were generated from arterial and venous acquisitions using the VUE and LVNC algorithms. Tissue attenuation, signal-to-noise ratio (SNR), and contrast-to-noise ratio (CNR) were compared with TNC images. The agreement of VNC reconstructions with TNC-based classification criteria for hepatic steatosis, myosteatosis, and osteoporosis was also evaluated. RESULTS: Significant attenuation differences were observed between TNC and VNC reconstructions across most tissues. The smallest errors were found in soft tissues, particularly the liver and spleen, whereas the largest discrepancies occurred in vascular and osseous structures. SNR was higher on VNC than on TNC images in the liver, spleen and paravertebral muscle but lower in several other tissues, whereas CNR was higher with LVNCa and lower with VUEv than with TNC. VUE most closely reproduced TNC attenuation in the liver and spleen, whereas LVNC systematically underestimated attenuation in iodine-enhancing organs. Agreement with TNC-based criteria for hepatic steatosis, myosteatosis and osteoporosis required reconstruction-specific cut-offs, which should be considered exploratory. Omitting TNC could potentially reduce radiation exposure by 16.5% for upper abdomen and 21.2% for total abdominal examinations. CONCLUSIONS: VUE reconstructions showed good agreement with TNC attenuation in the liver and spleen in both contrast phases, whereas LVNC systematically underestimated attenuation in iodine-enhancing organs and was closer to TNC than VUE only in subcutaneous fat and venous-phase muscle. Substantial bias in vascular and bone structures limits the interchangeability of both algorithms with TNC imaging. VNC may support a potential reduction in radiation dose when replacing a planned TNC acquisition; since lesion detection and characterization were not evaluated, the safe omission of TNC was not demonstrated.",
-      "journal": "Abdom Radiol (NY)",
-      "date": "2026-11-21",
-      "authors": [
-        "Gnasso C",
-        "Marras G",
-        "Piccinni G",
-        "Serra D",
-        "Camisassa E",
-        "Vignale D",
-        "Esposito A",
-        "Palmisano A"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1007/s00261-026-05889-0",
-      "journal_tier": 2,
-      "impact": 2.3,
-      "section": "abdomen",
-      "score": 60.0,
-      "score_parts": {
-        "journal": 60,
-        "pubtype": 0,
+        "pubtype": -25,
         "recency": 0.0
       },
       "tier": 3,
@@ -652,6 +757,29 @@
       "score_parts": {
         "journal": 60,
         "pubtype": -25,
+        "recency": 0.0
+      },
+      "tier": 3,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "43070300",
+      "title": "Correction to \"Cerebral hemodynamic changes during cardiac surgery: a feasibility MR study in piglets\".",
+      "abstract": "",
+      "journal": "NMR Biomed",
+      "date": "2027-01",
+      "authors": [],
+      "pubtypes": [
+        "Published Erratum"
+      ],
+      "doi": "10.1002/nbm.70423",
+      "journal_tier": 2,
+      "impact": 2.7,
+      "section": "neuro",
+      "score": -40.0,
+      "score_parts": {
+        "journal": 60,
+        "pubtype": -100,
         "recency": 0.0
       },
       "tier": 3,
