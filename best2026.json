@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T16:55:55+00:00",
+  "updated": "2026-11-24T16:46:01+00:00",
   "year": 2026,
   "count": 60,
   "criteria": "Etki faktörü (sonra etki skoru) sıralı",
@@ -595,6 +595,43 @@
       "journal_tier": 1,
       "impact": 12.1,
       "section": "girisim",
+      "score": 118.0,
+      "score_parts": {
+        "journal": 100,
+        "pubtype": 18,
+        "recency": 0.0
+      },
+      "tier": 1,
+      "abstract_tr": ""
+    },
+    {
+      "pmid": "43076683",
+      "title": "Diffusion Kurtosis Imaging and 2-year Neurodevelopmental Outcomes in Mild Neonatal Hypoxic-Ischemic Encephalopathy: A Multicenter Study.",
+      "abstract": "Background Mild hypoxic-ischemic encephalopathy (HIE) comprises approximately 30%-50% of neonatal encephalopathy cases, yet neurodevelopmental outcomes remain difficult to predict using clinical assessment alone. Purpose To develop and externally test a diffusion kurtosis imaging (DKI)-based machine learning model for predicting 24-month neurodevelopmental outcomes in neonates with mild HIE. Materials and Methods This prospective four-hospital study consecutively enrolled neonates from November 2019 through November 2023, with 24-month follow-up completed in November 2025. The primary outcome was adverse neurodevelopment at 24 months, defined as any Bayley Scales of Infant and Toddler Development, third edition, composite score below 85; cerebral palsy; or epilepsy requiring ongoing treatment. Clinical-only, imaging-only, and combined clinical-imaging models were developed from 49 DKI parameters and seven clinical variables. Model discrimination was assessed with the area under the receiver operating characteristic curve (AUC), and curves were compared with paired DeLong tests and false discovery rate adjustment. Results Overall, 740 neonates were included (mean gestational age, 38.3 weeks ± 1.3 [SD]; 404 [54.6%] female). Adverse outcomes occurred in 182 of 510 development cohort participants (35.7%) and 80 of 230 external test set participants (34.8%). In the external test set, the combined model achieved an AUC of 0.92 (95% CI: 0.89, 0.95), with a sensitivity of 86% (69 of 80) and specificity of 85.3% (128 of 150). It exceeded the clinical-only model (AUC, 0.85; false discovery rate-adjusted P = .004) and imaging-only model (AUC, 0.86; false discovery rate-adjusted P = .005). Prespecified risk stratification yielded a negative predictive value of 100% (61 of 61) for low-risk infants and a positive predictive value of 88% (38 of 43) for high-risk infants. Conclusion In neonates with mild HIE, a combined clinical and DKI model demonstrated higher discrimination for predicting 24-month neurodevelopmental outcomes than did clinical-only or imaging-only models. © The Author(s) 2026. Published by the Radiological Society of North America under a CC BY 4.0 license. Supplemental material is available for this article.",
+      "journal": "Radiology",
+      "date": "2026-11",
+      "authors": [
+        "Liu X",
+        "Wang X",
+        "Zhao X",
+        "Lu P",
+        "Jia X",
+        "Yuan J",
+        "Ding Y",
+        "Yang J",
+        "Du Y",
+        "Liu H",
+        "Jin J",
+        "Zhang X"
+      ],
+      "pubtypes": [
+        "Journal Article",
+        "Multicenter Study"
+      ],
+      "doi": "10.1148/radiol.254142",
+      "journal_tier": 1,
+      "impact": 12.1,
+      "section": "neuro",
       "score": 118.0,
       "score_parts": {
         "journal": 100,
@@ -2124,44 +2161,6 @@
       "journal_tier": 1,
       "impact": 12.1,
       "section": "girisim",
-      "score": 100.0,
-      "score_parts": {
-        "journal": 100,
-        "pubtype": 0,
-        "recency": 0.0
-      },
-      "tier": 2,
-      "abstract_tr": ""
-    },
-    {
-      "pmid": "43043180",
-      "title": "Temporal Trends in High-Risk Benign Breast Disease Detection at Screening Mammography: Results from the Breast Cancer Surveillance Consortium.",
-      "abstract": "Background Nationally representative data comparing high-risk benign breast disease (BBD) detection with digital breast tomosynthesis (DBT) versus digital mammography are lacking. Purpose To describe temporal trends in high-risk BBD detection rates at screening mammography in the Breast Cancer Surveillance Consortium (BCSC) over nearly 2 decades and to evaluate the association between mammographic modality and high-risk BBD detection. Materials and Methods In this retrospective cohort study using prospectively collected data from the BCSC, screening mammograms obtained from 2005 to 2022 among women aged 40 to 79 years at 97 health care facilities were analyzed; examinations in women with prior breast cancer or mastectomy were excluded. Regression analyses were used to estimate annual percent change (APC) in detection rates, and multivariable logistic regression was used to estimate adjusted odds ratios (ORs) according to mammographic modality. Results A total of 4 469 664 screening mammograms in 1 190 380 women (mean age, 57.3 years ± 10.1 [SD]) were included. The overall high-risk BBD detection rate was 1.11 per 1000 examinations, with no evidence of a temporal trend since 2017 (APC = 5.3% [95% CI: -1.1, 21.9]; P = .09). Atypical ductal hyperplasia detection declined from 2009 to 2017 (APC = -7.4% [95% CI: -12.0, -5.4]; P < .001). Detection of radial sclerosing lesions (APC = 5.4% [95% CI: 3.5, 7.8]; P < .001) and atypical papillary lesions (APC = 19.0% [95% CI: 14.8, 25.1]; P < .001) increased from 2005 to 2022. Compared with digital mammography, DBT was associated with increased detection of high-risk BBD overall (OR = 1.36 [95% CI: 1.24, 1.49]; P < .001), lobular carcinoma in situ (OR = 1.37 [95% CI: 1.02, 1.85]; P = .04), atypical lobular hyperplasia (OR = 1.45 [95% CI: 1.19, 1.77]; P < .001), and radial sclerosing lesions (OR = 2.64 [95% CI: 2.15, 3.23]; P < .001). Conclusion Over the past 2 decades, detection of atypical papillary lesions and radial sclerosing lesions increased, whereas detection of atypical ductal hyperplasia declined. DBT was associated with increased detection of high-risk BBD, including lobular carcinoma in situ, atypical lobular hyperplasia, and radial sclerosing lesions. © RSNA, 2026 Supplemental material is available for this article. See also the editorial by Hooley in this issue.",
-      "journal": "Radiology",
-      "date": "2026-11",
-      "authors": [
-        "Sprague BL",
-        "Ponzini M",
-        "Sattayapiwat O",
-        "Eliassen MS",
-        "Nyante SJ",
-        "Tosteson ANA",
-        "Bowles EJA",
-        "Borowsky AD",
-        "Kerlikowske K",
-        "Lee CI",
-        "Perry H",
-        "Sowden M",
-        "Weaver DL",
-        "Miglioretti DL"
-      ],
-      "pubtypes": [
-        "Journal Article"
-      ],
-      "doi": "10.1148/radiol.260889",
-      "journal_tier": 1,
-      "impact": 12.1,
-      "section": "meme",
       "score": 100.0,
       "score_parts": {
         "journal": 100,
